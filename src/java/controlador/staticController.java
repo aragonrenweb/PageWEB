@@ -44,6 +44,30 @@ public class staticController {
         return mv;
     }
 
+    @RequestMapping("/factsQueEs.htm")
+    public ModelAndView factsQueEs(HttpServletRequest hsr, HttpServletResponse hsr1) throws Exception {
+       
+        ModelAndView mv = new ModelAndView("factsQueEs");
+
+        return mv;
+    }
+    
+    @RequestMapping("/factsQueIncluye.htm")
+    public ModelAndView factsQueIncluye(HttpServletRequest hsr, HttpServletResponse hsr1) throws Exception {
+       
+        ModelAndView mv = new ModelAndView("factsQueIncluye");
+
+        return mv;
+    }
+    
+    @RequestMapping("/factsPrecios.htm")
+    public ModelAndView factsPrecios(HttpServletRequest hsr, HttpServletResponse hsr1) throws Exception {
+       
+        ModelAndView mv = new ModelAndView("factsPrecios");
+
+        return mv;
+    }
+    
     @RequestMapping("/smartClover.htm")
     public ModelAndView smartClover(HttpServletRequest hsr, HttpServletResponse hsr1) throws Exception {
        
