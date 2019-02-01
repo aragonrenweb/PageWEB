@@ -13,6 +13,6 @@
     </head>
     <body>
         <%@ include file="nav.jsp" %>
-        <h1>Precios</h1>
+        <h1>Prueba</h1>
     </body>
 </html>
