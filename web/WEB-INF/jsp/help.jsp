@@ -40,14 +40,60 @@
     </head>
     <body>
         <%@ include file="nav.jsp" %>
-        <h1>Help</h1>
+        <h1>Asistencia y Ayuda de Eduwebgroup</h1>
         <div class="row div">
                 <div class="col-xs-5 divContenedorIMG">
                     <img src="recursos/img/Wikiboo135px.svg" class="imgBanner">
                 </div>
                 <div class="col-xs-7 divContenedorTXT">
                     <div class="col-xs-12  ">
-                    Texto
+                    La asistencia de Eduweb Group contiene manuales de ayuda al usuario además de contacto directo con nuestro personal mediante Skype para ayuda en Bamboo y FACTS.<br>
+                    También puedes visitar nuestra página de información útil: Eduwiki
+                    <a href="<c:url value="/BambooHelp.htm" />"><spring:message code="help.masInformacion"/></a>
+                    </div>
+                </div>
+            
+        </div>
+        <h1>Asistencia Bamboo</h1>
+        <div class="row div">
+                <div class="col-xs-5 divContenedorIMG">
+                    <img src="recursos/img/Wikiboo135px.svg" class="imgBanner">
+                </div>
+                <div class="col-xs-7 divContenedorTXT">
+                    <div class="col-xs-12  ">
+                    Asistencia en Bamboo con soporte en Skype 24/5. <br>
+                    También puedes visitar nuestra página de ayuda de Bamboo: Wikiboo
+
+                    <a href="<c:url value="/BambooHelp.htm" />"><spring:message code="help.masInformacion"/></a>
+                    </div>
+                </div>
+            
+        </div>
+        <h1>Asistencia SmartClover</h1>
+        <div class="row div">
+                <div class="col-xs-5 divContenedorIMG">
+                    <img src="recursos/img/Wikiboo135px.svg" class="imgBanner">
+                </div>
+                <div class="col-xs-7 divContenedorTXT">
+                    <div class="col-xs-12  ">
+                    Te ayudamos en la implementación en tu escuela de esta herramienta de comunicación más instantánea y fluida.<br>
+                    También puedes acceder al manual de ayuda de SmartClover: SmartClover
+
+                    <a href="<c:url value="/BambooHelp.htm" />"><spring:message code="help.masInformacion"/></a>
+                    </div>
+                </div>
+            
+        </div>
+        <h1>Asistencia EWScheduler</h1>
+        <div class="row div">
+                <div class="col-xs-5 divContenedorIMG">
+                    <img src="recursos/img/Wikiboo135px.svg" class="imgBanner">
+                </div>
+                <div class="col-xs-7 divContenedorTXT">
+                    <div class="col-xs-12  ">
+                    Asistencia para la implementación de la herramienta que creará horarios adaptados para tu escuela.<br>
+                    Accede al manual de ayuda de EWScheduler para
+
                     <a href="<c:url value="/BambooHelp.htm" />"><spring:message code="help.masInformacion"/></a>
                     </div>
                 </div>
