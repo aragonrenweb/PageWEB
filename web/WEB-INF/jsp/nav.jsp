@@ -36,6 +36,37 @@
   opacity: 1;
   filter: alpha(opacity=100);
 }
+/*HELP*/
+
+            .div
+            {
+                background: #c8cbcf;
+            }
+            .divPar
+            {
+                
+            }
+            .divContenedorIMG
+            {
+                height: 40em;
+                text-align: center;
+            }
+            .divContenedorTXT
+            {
+                height: 40em;
+                display: table;
+            }
+            .CenterVertical
+            {
+                display: table-cell;
+                text-align: center;
+                vertical-align: middle;
+            }
+            .imgBanner
+            {
+               height: 40em;
+            }
+
     </style>
     <script>
 
