@@ -18,5 +18,16 @@
     <body>
         <%@ include file="nav.jsp" %>
         <h1>FACTS</h1>
+        <div class="container">
+            <div class="col-xs-12">
+                <div class="col-xs-3">
+                    <img src="">
+                </div>
+                <div class="col-xs-9">
+                    Texto
+                    <a href="<c:url value="/BambooHelp.htm" />"><spring:message code="help.masInformacion"/></a>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
