@@ -14,39 +14,17 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Help</title>
-        <style>
-            .div
-            {
-                background: #c8cbcf;
-            }
-            .divContenedorIMG
-            {
-                height: 40em;
-                text-align: center;
-            }
-            .divContenedorTXT
-            {
-                height: 40em;
-                text-align: center;
-                
-                margin-top: auto;
-                margin-bottom: auto;
-            }
-            .imgBanner
-            {
-               height: 40em;
-            }
-        </style>
     </head>
     <body>
         <%@ include file="nav.jsp" %>
-        <h1>Asistencia y Ayuda de Eduwebgroup</h1>
+        
         <div class="row div">
                 <div class="col-xs-5 divContenedorIMG">
                     <img src="recursos/img/Wikiboo135px.svg" class="imgBanner">
                 </div>
                 <div class="col-xs-7 divContenedorTXT">
-                    <div class="col-xs-12  ">
+                    <div class="CenterVertical">
+                        <h1>Asistencia y Ayuda de Eduwebgroup</h1>
                     La asistencia de Eduweb Group contiene manuales de ayuda al usuario además de contacto directo con nuestro personal mediante Skype para ayuda en Bamboo y FACTS.<br>
                     También puedes visitar nuestra página de información útil: Eduwiki
                     <a href="<c:url value="/BambooHelp.htm" />"><spring:message code="help.masInformacion"/></a>
@@ -54,18 +32,20 @@
                 </div>
             
         </div>
-        <h1>Asistencia Bamboo</h1>
-        <div class="row div">
-                <div class="col-xs-5 divContenedorIMG">
-                    <img src="recursos/img/Wikiboo135px.svg" class="imgBanner">
-                </div>
+        
+        <div class="row divPar">
+                
                 <div class="col-xs-7 divContenedorTXT">
-                    <div class="col-xs-12  ">
+                    <div class="CenterVertical">
+                        <h1>Asistencia Bamboo</h1>
                     Asistencia en Bamboo con soporte en Skype 24/5. <br>
                     También puedes visitar nuestra página de ayuda de Bamboo: Wikiboo
 
                     <a href="<c:url value="/BambooHelp.htm" />"><spring:message code="help.masInformacion"/></a>
                     </div>
+                </div>
+                <div class="col-xs-5 divContenedorIMG">
+                    <img src="recursos/img/Wikiboo135px.svg" class="imgBanner">
                 </div>
             
         </div>
