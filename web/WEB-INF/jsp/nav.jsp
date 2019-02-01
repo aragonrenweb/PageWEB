@@ -103,12 +103,12 @@
                     <li><a href="<c:url value="/smartClover.htm" />">Page 2</a></li>
                     <li><a href="#">Page 3</a></li>
                     <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Prueba
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="/help.htm">Asistencia y Ayudas
                             <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a class="btn" href=""><spring:message code="etiq.txtenglish"/></a></li>
-                            <li><a class="btn" href=""><spring:message code="etiq.txtspanish"/></a></li>
-                            <li><a class="btn" href=""><spring:message code="etiq.txtarabic"/></a></li>
+                            <li><a class="btn" href="/help.htm">A</a></li>
+                            <li><a class="btn" href=""></a></li>
+                            <li><a class="btn" href=""></a></li>
                         </ul>
                     </li>
                     <li class="dropdown">

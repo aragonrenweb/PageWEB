@@ -76,4 +76,12 @@ public class staticController {
         return mv;
     }
     
+    @RequestMapping("/help.htm")
+    public ModelAndView help(HttpServletRequest hsr, HttpServletResponse hsr1) throws Exception {
+       
+        ModelAndView mv = new ModelAndView("help");
+
+        return mv;
+    }
+    
 }
