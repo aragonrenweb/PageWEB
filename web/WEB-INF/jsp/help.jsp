@@ -24,10 +24,9 @@
                 </div>
                 <div class="col-xs-7 divContenedorTXT">
                     <div class="CenterVertical">
-                        <h1>Asistencia y Ayuda de Eduwebgroup</h1>
-                    La asistencia de Eduweb Group contiene manuales de ayuda al usuario además de contacto directo con nuestro personal mediante Skype para ayuda en Bamboo y FACTS.<br>
-                    También puedes visitar nuestra página de información útil: Eduwiki
-                    <a href="<c:url value="/BambooHelp.htm" />"><spring:message code="help.masInformacion"/></a>
+                        <h1><spring:message code="help.descripciontitulo"/></h1>
+                    <spring:message code="help.descripcion"/>
+                    <a href="<c:url value="https://eduwiki.eduwebgroup.com/mediawiki/index.php/P%C3%A1gina_principal" />">Eduwiki</a>
                     </div>
                 </div>
             
@@ -37,11 +36,10 @@
                 
                 <div class="col-xs-7 divContenedorTXT">
                     <div class="CenterVertical">
-                        <h1>Asistencia Bamboo</h1>
-                    Asistencia en Bamboo con soporte en Skype 24/5. <br>
-                    También puedes visitar nuestra página de ayuda de Bamboo: Wikiboo
+                        <h1><spring:message code="help.asistenciaBambootitulo"/></h1>
+                    <spring:message code="help.asistenciaBamboo"/>
 
-                    <a href="<c:url value="/BambooHelp.htm" />"><spring:message code="help.masInformacion"/></a>
+                    <a href="<c:url value="https://wikiboo.eduwebgroup.com/mediawiki/index.php/P%C3%A1gina_principal" />">Wikiboo</a>
                     </div>
                 </div>
                 <div class="col-xs-5 divContenedorIMG">
@@ -49,32 +47,41 @@
                 </div>
             
         </div>
-        <h1>Asistencia SmartClover</h1>
         <div class="row div">
                 <div class="col-xs-5 divContenedorIMG">
                     <img src="recursos/img/Wikiboo135px.svg" class="imgBanner">
                 </div>
                 <div class="col-xs-7 divContenedorTXT">
-                    <div class="col-xs-12  ">
-                    Te ayudamos en la implementación en tu escuela de esta herramienta de comunicación más instantánea y fluida.<br>
-                    También puedes acceder al manual de ayuda de SmartClover: SmartClover
-
-                    <a href="<c:url value="/BambooHelp.htm" />"><spring:message code="help.masInformacion"/></a>
+                    <div class="CenterVertical">
+                        <h1><spring:message code="help.asistenciaSmartClovertitulo"/></h1>
+                    <spring:message code="help.asistenciaSmartClover"/>
+                    <a href="<c:url value="https://www.google.es/" />">SmartClover</a>
                     </div>
                 </div>
             
         </div>
-        <h1>Asistencia EWScheduler</h1>
+        <div class="row divPar">
+                
+                <div class="col-xs-7 divContenedorTXT">
+                    <div class="CenterVertical">
+                        <h1><spring:message code="help.asistenciaEWSchedulertitulo"/></h1>
+                    <spring:message code="help.asistenciaEWScheduler"/>
+                    </div>
+                </div>
+                <div class="col-xs-5 divContenedorIMG">
+                    <img src="recursos/img/Wikiboo135px.svg" class="imgBanner">
+                </div>
+            
+        </div>
         <div class="row div">
                 <div class="col-xs-5 divContenedorIMG">
                     <img src="recursos/img/Wikiboo135px.svg" class="imgBanner">
                 </div>
                 <div class="col-xs-7 divContenedorTXT">
-                    <div class="col-xs-12  ">
-                    Asistencia para la implementación de la herramienta que creará horarios adaptados para tu escuela.<br>
-                    Accede al manual de ayuda de EWScheduler para
-
-                    <a href="<c:url value="/BambooHelp.htm" />"><spring:message code="help.masInformacion"/></a>
+                    <div class="CenterVertical">
+                        <h1><spring:message code="help.asistenciaFACTStitulo"/></h1>
+                    <spring:message code="help.asistenciaFACTS"/>
+                    <a href="<c:url value="https://www.google.es/" />">WikiSIS</a>
                     </div>
                 </div>
             
