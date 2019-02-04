@@ -6,9 +6,10 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>EduWEBgroup</title>
-        <link rel="stylesheet" media="all" href="css/main.css" />
-        <script src="js/modernizr.custom.37797.js"></script>
-        <script src="js/parallax.js"></script>
+        <link rel="stylesheet" media="all" href="recursos/css/main.css" />
+        <script src="recursos/js/modernizr.custom.37797.js"></script>
+        <script src="recursos/js/jquery-1.6.1.min.js"></script>
+        <script src="recursos/js/parallax.js"></script>
     </head>
 
     <body>
@@ -17,14 +18,15 @@
             <div id="wrapper">
 			
 			<header id="branding">
-				<h1>The history of aeronautics</h1>
+				<h1>Transformando tu escuela
+a través de soluciones de software innovadoras</h1>
 			</header>
 			
 			<nav id="primary">
 				<ul>
 					<li>
-						<h1>First manned flights</h1>
-						<a class="manned-flight" href="#manned-flight">View</a>
+						<h1>FACTS</h1>
+						<a class="manned-flight" href="#FACTS">View</a>
 					</li>
 					<li>
 						<h1>The frameless parachute</h1>
@@ -42,11 +44,13 @@
 			</nav>
 			
 			<div id="content">
-				<article id="manned-flight">
+				<article id="FACTS">
 					<header>
-						<h1>First manned flights</h1>
+                                            <img id="bg3" src="recursos/img/parallax/FACTS_Web_Color.png" width="" height="80" alt="FACTS"/>
+                                            <h2>Elevating the Education Experience</h2>
 					</header>
-					<p>The first clearly recorded instance of a balloon carrying passengers used hot air to generate buoyancy and was built by the brothers Joseph-Michel and Jacques-Etienne Montgolfier in Annonay, France. After experimenting with unmanned balloons and flights with animals, the first tethered balloon flight with humans on board took place on October 15, 1783.</p>
+                                    <p>FACTS proporciona soluciones que elevan la experiencia K-12 para administradores escolares, maestros y familias.</p><br>
+                                        <a href="<c:url value="/factsQueEs.htm" />"><spring:message code="facts.FACTSQueEs"/></a>
 					<nav class="next-prev">
 						<hr />
 						<a class="next frameless-parachute" href="#frameless-parachute">Next</a>
@@ -91,27 +95,27 @@
 			
 			<!-- Parallax foreground -->
 			<div id="parallax-bg3">
-				<img id="bg3-1" src="img/parallax/balloon.png" width="529" height="757" alt="Montgolfier hot air balloon"/>
-				<img id="bg3-2" src="img/parallax/balloon2.png" width="603" height="583" alt="Frameless parachute"/>
-				<img id="bg3-3" src="img/parallax/balloon3.png" width="446" height="713" alt="Blanchard's air balloon"/>
-				<img id="bg3-4" src="img/parallax/ground.png" width="1104" height="684" alt="Landscape with trees and cows"/>
+				<img id="bg3-1" src="recursos/img/parallax/Facts_portatil.png" width="" height="500" alt="FACTS"/>
+				<img id="bg3-2" src="recursos/img/parallax/balloon2.png" width="603" height="583" alt="Frameless parachute"/>
+				<img id="bg3-3" src="recursos/img/parallax/balloon3.png" width="446" height="713" alt="Blanchard's air balloon"/>
+				<img id="bg3-4" src="recursos/img/parallax/ground.png" width="1104" height="684" alt="Landscape with trees and cows"/>
 			</div>
 			
 			<!-- Parallax  midground clouds -->
 			<div id="parallax-bg2">
-				<img id="bg2-1" src="img/parallax/cloud-lg1.png" alt="cloud"/>
-				<img id="bg2-2" src="img/parallax/cloud-lg1.png" alt="cloud"/>
-				<img id="bg2-3" src="img/parallax/cloud-lg1.png" alt="cloud"/>
-				<img id="bg2-4" src="img/parallax/cloud-lg1.png" alt="cloud"/>
-				<img id="bg2-5" src="img/parallax/cloud-lg1.png" alt="cloud"/>
+				<img id="bg2-1" src="recursos/img/parallax/cloud-lg1.png" alt="cloud"/>
+				<img id="bg2-2" src="recursos/img/parallax/cloud-lg1.png" alt="cloud"/>
+				<img id="bg2-3" src="recursos/img/parallax/cloud-lg1.png" alt="cloud"/>
+				<img id="bg2-4" src="recursos/img/parallax/cloud-lg1.png" alt="cloud"/>
+				<img id="bg2-5" src="recursos/img/parallax/cloud-lg1.png" alt="cloud"/>
 			</div>
 			
 			<!-- Parallax  background clouds -->
 			<div id="parallax-bg1">
-				<img id="bg1-1" src="img/parallax/cloud-lg2.png" alt="cloud"/>
-				<img id="bg1-2" src="img/parallax/cloud-lg2.png" alt="cloud"/>
-				<img id="bg1-3" src="img/parallax/cloud-lg2.png" alt="cloud"/>
-				<img id="bg1-4" src="img/parallax/cloud-lg2.png" alt="cloud"/>
+				<img id="bg1-1" src="recursos/img/parallax/cloud-lg2.png" alt="cloud"/>
+				<img id="bg1-2" src="recursos/img/parallax/cloud-lg2.png" alt="cloud"/>
+				<img id="bg1-3" src="recursos/img/parallax/cloud-lg2.png" alt="cloud"/>
+				<img id="bg1-4" src="recursos/img/parallax/cloud-lg2.png" alt="cloud"/>
 			</div>
 		
 		</div>
