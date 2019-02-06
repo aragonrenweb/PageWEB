@@ -18,8 +18,7 @@
             <div id="wrapper">
 			
 			<header id="branding">
-				<h1>Transformando tu escuela
-a través de soluciones de software innovadoras</h1>
+				<h1>Soluciones de software innovadoras</h1>
 			</header>
 			
 			<nav id="primary">
@@ -103,19 +102,19 @@ a través de soluciones de software innovadoras</h1>
 			
 			<!-- Parallax  midground clouds -->
 			<div id="parallax-bg2">
-				<img id="bg2-1" src="recursos/img/parallax/cloud-lg1.png" alt="cloud"/>
-				<img id="bg2-2" src="recursos/img/parallax/cloud-lg1.png" alt="cloud"/>
-				<img id="bg2-3" src="recursos/img/parallax/cloud-lg1.png" alt="cloud"/>
-				<img id="bg2-4" src="recursos/img/parallax/cloud-lg1.png" alt="cloud"/>
-				<img id="bg2-5" src="recursos/img/parallax/cloud-lg1.png" alt="cloud"/>
+				<img id="bg2-1" src="recursos/img/parallax/Sombreros-01.png" alt="graduation cap"/>
+				<img id="bg2-2" src="recursos/img/parallax/Sombreros-02.png" alt="graduation cap"/>
+				<img id="bg2-3" src="recursos/img/parallax/Sombreros-01.png" alt="graduation cap"/>
+				<img id="bg2-4" src="recursos/img/parallax/Sombreros-02.png" alt="graduation cap"/>
+				<img id="bg2-5" src="recursos/img/parallax/Sombreros-01.png" alt="graduation cap"/>
 			</div>
 			
 			<!-- Parallax  background clouds -->
 			<div id="parallax-bg1">
-				<img id="bg1-1" src="recursos/img/parallax/cloud-lg2.png" alt="cloud"/>
-				<img id="bg1-2" src="recursos/img/parallax/cloud-lg2.png" alt="cloud"/>
-				<img id="bg1-3" src="recursos/img/parallax/cloud-lg2.png" alt="cloud"/>
-				<img id="bg1-4" src="recursos/img/parallax/cloud-lg2.png" alt="cloud"/>
+				<img id="bg1-1" src="recursos/img/parallax/Sombreros-04.png" alt="graduation cap"/>
+				<img id="bg1-2" src="recursos/img/parallax/Sombreros-05.png" alt="graduation cap"/>
+				<img id="bg1-3" src="recursos/img/parallax/Sombreros-04.png" alt="graduation cap"/>
+				<img id="bg1-4" src="recursos/img/parallax/Sombreros-05.png" alt="graduation cap"/>
 			</div>
 		
 		</div>
