@@ -71,6 +71,27 @@ header, .full-width {
   text-align: center;
   
 }
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+
+
 
     </style>
     <script>
@@ -96,12 +117,13 @@ header, .full-width {
 
 
           <div class="row" style="margin-top: 140px;">
-            <div class="col-lg-6 divContenedorIMG">
-                  <video width="100%" height="100%" controls>
+            <div class=" col-lg-offset-1 col-lg-5 divContenedorIMG">
+                  <video width="100%" height="100%" controls poster="recursos/img/thumbnail.jpg">
   <source src="recursos/videos/Bamboo_Demo.mp4" type="video/mp4">
 
 </video>
-              </div>
+           
+            </div>
                <div class="col-lg-6 divContenedorTXT" style="display: flex;
     justify-items: baseline;
     justify-content: baseline;
@@ -125,7 +147,7 @@ They can focus on the individual progress in all aspects that can also be shared
         <div class="col-lg-12" data-aos="fade-up">
             <img src="recursos/img/icons/calendar.svg" style="width: 100px; height: 100px;">
         </div>
-        <div class="col-lg-12" style="text-align: center; font-weight: bold">
+        <div class="col-lg-12" style="text-align: center; font-weight: bold; margin-top: 5px;">
          Plan Presentations
         </div>
     </div>
@@ -133,7 +155,7 @@ They can focus on the individual progress in all aspects that can also be shared
         <div class="col-lg-12" data-aos="fade-down">
          <img src="recursos/img/icons/eye-scanner-medical-symbol.svg" style="width: 100px; height: 100px;">
         </div>
-        <div class="col-lg-12" style="text-align: center; font-weight: bold">
+        <div class="col-lg-12" style="text-align: center; font-weight: bold; margin-top: 5px;">
          Record Observations
         </div>
     </div>
@@ -141,7 +163,7 @@ They can focus on the individual progress in all aspects that can also be shared
         <div class="col-lg-12">
          <img src="recursos/img/icons/idea.svg" style="width: 100px; height: 100px;">
         </div>
-        <div class="col-lg-12" style="text-align: center; font-weight: bold">
+        <div class="col-lg-12" style="text-align: center; font-weight: bold; margin-top: 5px;">
          Presentation Ideas
         </div>
     </div>
@@ -151,7 +173,7 @@ They can focus on the individual progress in all aspects that can also be shared
         <div class="col-lg-12">
             <img src="recursos/img/icons/resources.svg" style="width: 100px; height: 100px;">
         </div>
-        <div class="col-lg-12" style="text-align: center; font-weight: bold">
+        <div class="col-lg-12" style="text-align: center; font-weight: bold; margin-top: 5px;">
          Share Resources
         </div>
     </div>
@@ -159,7 +181,7 @@ They can focus on the individual progress in all aspects that can also be shared
         <div class="col-lg-12">
          <img src="recursos/img/icons/progress.svg" style="width: 100px; height: 100px;">
         </div>
-        <div class="col-lg-12" style="text-align: center; font-weight: bold">
+        <div class="col-lg-12" style="text-align: center; font-weight: bold; margin-top: 5px;">
          Progress Tracking
         </div>
     </div>
@@ -168,9 +190,9 @@ They can focus on the individual progress in all aspects that can also be shared
               </div>
                </div>
           </div>
-           <div class="row" style="margin-top: 140px;">
+<!--            <div class="row" style="margin-top: 140px;">
              
-              <div class="col-lg-6 divContenedorTXT" style="display: flex;
+             <div class="col-lg-6 divContenedorTXT" style="display: flex;
     justify-items: baseline;
     justify-content: baseline;
     align-items: center;">
@@ -189,6 +211,7 @@ BAMBOO helps schools stop using paper, digitize their records and keep children'
                   </div>
               </div>
               </div>
+
                 <div class="col-lg-6 divContenedorIMG">
                   <video width="100%" controls class="imgBanner">
   <source src="recursos/videos/Bamboo_Demo.mp4" type="video/mp4">
@@ -196,7 +219,33 @@ BAMBOO helps schools stop using paper, digitize their records and keep children'
 </video>
               </div>
               
-          </div>
+          </div>-->
+<div class="container" style="margin-top: 140px;">
+    <div class="col-lg-12" style="text-align: center;">
+     <h5 style="text-align: center; font-size: 24pt;">Bamboo for Supervisors</h5>
+<p style="font-size: 16pt;">BAMBOO helps schools stop using paper, digitize their records and keep learners' progress and historical data.</p>
+    </div>
+    <div class="row">
+  <div class="column" style="text-align: center;">
+   <div class="col-lg-12" data-aos="fade-up">
+            <img src="recursos/img/icons/website.svg" style="width:70px; height: 70px;">
+        </div>
+        <div class="col-lg-12" style="text-align: center; font-size: 12pt; margin-top: 5px;">
+            At any time, supervisors can extract information on progress related to any learner.<br>
+            Supervisors are able to visualize the guides work in the classroom. <br>Review planned and completed presentations. 
+        </div>
+  </div>
+  <div class="column" style="text-align: center;">
+    <div class="col-lg-12" data-aos="fade-up">
+            <img src="recursos/img/icons/newspaper.svg" style="width: 70px; height: 70px;">
+        </div>
+        <div class="col-lg-12" style="text-align: center;  font-size: 12pt; margin-top: 5px;">
+      The generation of end-of-year reports, or when they are needed, becomes an easy task since all the data and evaluations are already recorded in the system.
+        </div>
+  </div>
+
+</div>
+</div>
            <div class="row" style="margin-top: 140px;">
               <div class="col-lg-6 divContenedorIMG">
                   <video width="100%" controls class="imgBanner">
