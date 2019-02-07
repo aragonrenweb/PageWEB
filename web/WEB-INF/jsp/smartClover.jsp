@@ -1,22 +1,37 @@
-<%-- 
-    Document   : smartClover
-    Created on : 28-ene-2019, 12:43:15
-    Author     : Jesus
---%>
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@taglib prefix="jstl" uri="http://java.sun.com/jstl/core_rt"%>
-<%@taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@taglib prefix="spring" uri="http://www.springframework.org/tags"%>
-<!DOCTYPE html>
+<!doctype html>
 <html>
+   <%@ include file="nav.jsp" %>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+         
+        <title>Animate Scroll Plugin | Demo</title>
+      
+        <style> 
     </head>
-    <body>
-        <h1>Hello World!</h1>
-        <img src= "<spring:message code="home.imgBanner"/>" />
+    <body> 
+        
+        <div class="col-xs-12" style="margin-top: 1000px;margin-bottom: 500px; " >
+            <div class="col-xs-3 " style="background-color:red"  data-aos="fade-in">
+                <div >
+                    <h5>Panel Title</h5>
+                    <p>This is a three columns grid panel with an arbitrary height.</p>
+                </div>
+            </div>
+            <div class="col-xs-6 " style="background-color:green"  data-aos="fade-up">
+                <div >
+                    <h5>Panel Title</h5>
+                    <p>This is a six columns grid panel with an arbitrary height. Bacon ipsum dolor sit amet salami ham hock biltong ball tip drumstick sirloin pancetta meatball short loin.</p>
+                </div>
+            </div>
+            <div class="col-xs-3 " style="background-color:blue"  data-aos="fade-up-right">
+                <div>
+                    <h5>Panel Title</h5>
+                    <p>This is a three columns grid panel with an arbitrary height.</p>
+                </div>
+            </div>
+        </div> 
+
+     
     </body>
+    <%@ include file="footerAOS.jsp" %>
+    
 </html>

@@ -10,6 +10,7 @@
         <script src="recursos/js/modernizr.custom.37797.js"></script>
         <script src="recursos/js/jquery-1.6.1.min.js"></script>
         <script src="recursos/js/parallax.js"></script>
+        
     </head>
 
     <body>
@@ -48,7 +49,7 @@
                                             <img id="bg3" src="recursos/img/parallax/FACTS_Web_Color.png" width="" height="80" alt="FACTS"/>
                                             <h2>Elevating the Education Experience</h2>
 					</header>
-                                    <p>FACTS proporciona soluciones que elevan la experiencia K-12 para administradores escolares, maestros y familias.</p><br>
+                                    <p>FACTS pro<changeWhite>porciona</changeWhite> soluciones que elevan la experiencia <changeWhite>K-12 para a</changeWhite>dministradores escolares, m<changeWhite>aestros y fami</changeWhite>lias.</p><br>
                                         <a href="<c:url value="/factsQueEs.htm" />"><spring:message code="facts.FACTSQueEs"/></a>
 					<nav class="next-prev">
 						<hr />
