@@ -58,8 +58,20 @@ $(document).ready(function() {
 function parallaxScroll(){
 	var scrolled = $(window).scrollTop();
 	$('#parallax-bg1').css('top',(0-(scrolled*.25))+'px');
+        
 	$('#parallax-bg2').css('top',(0-(scrolled*.5))+'px');
+        
 	$('#parallax-bg3').css('top',(0-(scrolled*.75))+'px');
+        
+        $('#bg1-1').css({WebkitTransform: 'transform-origin (50% 50%)'}).css({ WebkitTransform: 'rotate(' + scrolled*.03 + 'deg)'});
+        $('#bg1-2').css({WebkitTransform: 'transform-origin (50% 50%)'}).css({ WebkitTransform: 'rotate(' + scrolled*.02 + 'deg)'});
+        $('#bg1-3').css({WebkitTransform: 'transform-origin (50% 50%)'}).css({ WebkitTransform: 'rotate(' + scrolled*.02 + 'deg)'});
+        $('#bg1-4').css({WebkitTransform: 'transform-origin (50% 50%)'}).css({ WebkitTransform: 'rotate(' + scrolled*.02 + 'deg)'});
+        $('#bg2-5').css({WebkitTransform: 'transform-origin (50% 50%)'}).css({ WebkitTransform: 'rotate(-' + scrolled*.05 + 'deg)'});
+        $('#bg2-4').css({WebkitTransform: 'transform-origin (50% 50%)'}).css({ WebkitTransform: 'rotate(' + scrolled*.02 + 'deg)'});
+        $('#bg2-3').css({WebkitTransform: 'transform-origin (50% 50%)'}).css({ WebkitTransform: 'rotate(-' + scrolled*.2 + 'deg)'});
+        $('#bg2-2').css({WebkitTransform: 'transform-origin (50% 50%)'}).css({ WebkitTransform: 'rotate(' + scrolled*.01 + 'deg)'});
+        $('#bg2-1').css({WebkitTransform: 'transform-origin (50% 50%)'}).css({ WebkitTransform: 'rotate(-' + scrolled*.02 + 'deg)'});
 }
 
 /* Set navigation dots to an active state as the user scrolls */
