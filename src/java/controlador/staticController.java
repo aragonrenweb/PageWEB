@@ -83,5 +83,12 @@ public class staticController {
 
         return mv;
     }
+    @RequestMapping("/bamboo.htm")
+    public ModelAndView bamboo(HttpServletRequest hsr, HttpServletResponse hsr1) throws Exception {
+       
+        ModelAndView mv = new ModelAndView("bamboo");
+
+        return mv;
+    }
     
 }
