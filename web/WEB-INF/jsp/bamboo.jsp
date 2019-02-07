@@ -122,7 +122,7 @@ They can focus on the individual progress in all aspects that can also be shared
                   </div>-->
 <div class="col-lg-12" style="text-align: center; font-size: 14pt; margin-top: 30px;">
     <div class="col-lg-4">
-        <div class="col-lg-12">
+        <div class="col-lg-12" data-aos="fade-up">
             <img src="recursos/img/icons/calendar.svg" style="width: 100px; height: 100px;">
         </div>
         <div class="col-lg-12" style="text-align: center; font-weight: bold">
@@ -130,7 +130,7 @@ They can focus on the individual progress in all aspects that can also be shared
         </div>
     </div>
      <div class="col-lg-4">
-        <div class="col-lg-12">
+        <div class="col-lg-12" data-aos="fade-down">
          <img src="recursos/img/icons/eye-scanner-medical-symbol.svg" style="width: 100px; height: 100px;">
         </div>
         <div class="col-lg-12" style="text-align: center; font-weight: bold">
