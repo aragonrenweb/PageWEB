@@ -3,6 +3,9 @@
 
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" media="all" href="recursos/css/main.css" />
+        <script src="recursos/js/modernizr.custom.37797.js"></script> 
+        <script src="recursos/js/parallax.js"></script>
         <title>Smart Clover</title>
         <style>
             body {
@@ -81,11 +84,19 @@
                 -webkit-transform: scale(1.01);
             }
             .fila{
-                margin-bottom:60px;
+                /*  margin-bottom:60px;*/
             }
             .line{
                 margin-top: 50px;
                 border-bottom: solid 1px  #735331;
+            }
+
+            .smartphoneHorizontal {
+                transform: rotate(270deg); 
+            }
+            .smartphoneVertical {
+                width: 238px !important;
+                height: 455px !important;
             }
             .smartphone {
                 position: relative;
@@ -96,7 +107,7 @@
                 border-top-width: 60px;
                 border-bottom-width: 60px;
                 border-radius: 36px;
-                transform: rotate(270deg);
+
                 -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.27);
                 -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.27);
                 box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.27);
@@ -136,7 +147,8 @@
                 height: 640px;
                 background: white;
             }
-            #myVideo{
+
+            .smartphoneHorizontal>video{
                 transform: rotate(90deg);
                 position: relative;
                 top: 110px;
@@ -146,6 +158,18 @@
                 z-index: 1;
                 border-radius: 10px;
             }
+
+            .smartphoneVertical>video{
+                transform: rotate(90deg);
+                position: relative;
+                top: 70px;
+                right: 77px;
+                left: 1;
+                width: 347px;
+                z-index: 1;
+                border-radius: 10px;
+            }
+
             .filaVideo{
                 max-height: 500px;
                 display: flex;
@@ -169,6 +193,81 @@
                 padding-left: 8px;
                 color: white;
             }
+            .filaContenido h1{
+                margin-bottom: 20px;
+            }
+
+            
+            .lineTop{
+                border-top: solid 1px #eeeeee;
+            }
+            .videoVertical>video{
+                width: 200px;
+                border-radius:5px;
+            }
+            #primary{
+                position:fixed;
+
+            }
+            body{
+                height: auto !important;
+            }
+      
+            .arrow_box {
+                position: relative;
+                background: #ffffff;
+                border: 1px solid #127733;
+                padding-left: 5px;
+                padding-right: 5px;
+                border-radius: 5px;
+                font-size: small;
+                font-weight: normal;
+                color: #3c3c3c; 
+                animation-name: shake-with-delay;
+                animation-duration: 6s;
+                animation-iteration-count: infinite;
+                margin-right: 5px;
+            }
+            .arrow_box:after, .arrow_box:before {
+                left: 100%;
+                top: 50%;
+                border: solid transparent;
+                content: " ";
+                height: 0;
+                width: 0;
+                position: absolute;
+                pointer-events: none;
+            }
+
+            .arrow_box:after {
+                border-color: rgba(136, 183, 213, 0);
+                border-left-color: #127733;
+                border-width: 4px;
+                margin-top: -4px;
+            }
+            .btnDemo{
+                position: fixed;
+                bottom: 15px;
+                right: 15px;
+                width: 300px;
+                display: flex;
+                align-items: center; 
+                justify-content: flex-end;
+            } 
+            @keyframes shake-with-delay {
+                from, 16%, to {
+                    -webkit-transform: translate3d(0, 0, 0);
+                    transform: translate3d(0, 0, 0);
+                }
+                1.6%, 4.8%, 8%, 11.2%, 14.4% {
+                    -webkit-transform: translate3d(-3px, 0, 0);
+                    transform: translate3d(-3px, 0, 0);
+                }
+                3.2%, 6.4%, 9.6%, 12.8% {
+                    -webkit-transform: translate3d(3px, 0, 0);
+                    transform: translate3d(3px, 0, 0);
+                }
+            }
 
         </style>
         <script>
@@ -176,26 +275,42 @@
         </script>
 
     </head>
+
     <body>
         <%@ include file="nav.jsp" %>
-
+        
+        <nav id="primary">
+            <ul>
+                <li>
+                    <h1>School Communicator</h1>
+                    <a class="manned-flight" href="#fila3">View</a>
+                </li>
+                <li>
+                    <h1>Parent Consultation Bot</h1>
+                    <a class="frameless-parachute" href="#fila4">View</a>
+                </li>
+                <li>
+                    <h1>Maintenance Jobs</h1>
+                    <a class="english-channel" href="#fila5">View</a>
+                </li>
+                <li>
+                    <h1>Teacher Chat</h1>
+                    <a class="about" href="#fila6">View</a>
+                </li>
+            </ul>
+        </nav>
         <section  class="hero">
             <div class="hero-inner">
                 <h1>Smart Clover</h1>
-                <h2>-Your new communication assistant at your school-</h2>
-
-
-
+                <h2>-Your new communication assistant at your school-</h2> 
             </div>
             <footer>
                 <label>
-                    Available for:
-
+                    Available for: 
                 </label>
-                <div>
-                    <img id="comp-jn0wb7lfimgimage" alt="logo bamboo.png" data-type="image" src="https://static.wixstatic.com/media/7c6de8_a84f6e7c457f4020a5b77bf0ea096a9d~mv2.png/v1/fill/w_149,h_38,al_c,q_80,usm_0.66_1.00_0.01/logo%20bamboo.webp" style="width: 119px; height: 30px; object-fit: cover;background-color: white">
-                    <img id="comp-jn0wb7lfimgimage" alt="logo bamboo.png" data-type="image" src="https://static.wixstatic.com/media/7c6de8_095915988b614700b2f590d26a1b3083~mv2.png/v1/fill/w_175,h_41,al_c,q_80,usm_0.66_1.00_0.01/Unknown-1.webp" style="width: 119px; height: 30px; object-fit: cover;">
-
+                <div style=" display: flex;">
+                    <img id="comp-jn0wb7lfimgimage" alt="logo bamboo.png" data-type="image" style="margin-right:5px" src="https://static.wixstatic.com/media/7c6de8_a84f6e7c457f4020a5b77bf0ea096a9d~mv2.png/v1/fill/w_149,h_38,al_c,q_80,usm_0.66_1.00_0.01/logo%20bamboo.webp" style="width: 119px; height: 30px; object-fit: cover;background-color: white">
+                    <img id="comp-jn0wb7lfimgimage" alt="logo bamboo.png" data-type="image" src="https://static.wixstatic.com/media/7c6de8_095915988b614700b2f590d26a1b3083~mv2.png/v1/fill/w_175,h_41,al_c,q_80,usm_0.66_1.00_0.01/Unknown-1.webp" style="width: 119px; height: 30px; object-fit: cover;"> 
                 </div>
             </footer>
         </section>
@@ -213,7 +328,7 @@
                             <h1>YOUR INSTANT COMMUNICATION ASSISTANT.</h1>
                         </div>
                         <div class="articleSmart col-xs-10 col-xs-offset-1 "> 
-                            <div class="col-xs-2 col-md-4 col-lg-3 col-lg-offset-1" style="border-top: solid 1px #735331;"></div>
+                            <div class="col-xs-2 col-md-4 col-lg-3 col-lg-offset-1 lineTop"></div>
                             <div class="col-xs-10 col-md-8  ">
                                 <p>Easy to use. Manage all the communication needs of your school.Gives parents instant access to all the information about their child via de personal BOT</p>
                                 <p>Smart Clover integrates with FACTS SIS, pushing out valuable information to parents and students with its 4 modules: a personal BOT, teacher connect, school connect and automatic messenger .</p>
@@ -227,7 +342,7 @@
                     <div class=" col-xs-10 col-xs-offset-1  col-lg-8 col-lg-offset-2"> 
                         <!--<img id="imgMovil" class="imgSmart" alt="MovilCon reflejoOK.png" data-type="image" src="https://static.wixstatic.com/media/7c6de8_31c7afac6006464cad0b9b45b19fe48b~mv2.png/v1/fill/w_489,h_599,al_c,q_80,usm_0.66_1.00_0.01/MovilCon%20reflejoOK.webp" >
                         -->
-                        <div class="smartphone">
+                        <div class="smartphone smartphoneHorizontal">
                             <video autoplay muted loop id="myVideo" width="100%">
                                 <source src="recursos/videos/smartClover/smartClover_video1.mp4" type="video/mp4">
                             </video> 
@@ -235,29 +350,28 @@
 
                     </div>
                 </div>
-                <div class="col-xs-6 col-xs-offset-3 line"></div>
             </div> 
-
+            <div class="col-xs-6 col-xs-offset-3"><hr></div>
             <div class="col-xs-12 fila" id="fila2"> 
                 <div class="col-xs-12 col-md-6" > 
                     <div class=" col-xs-10 col-xs-offset-1  col-lg-8 col-lg-offset-2"> 
                         <div class="col-xs-6"  data-aos="zoom-out">
-                           <img src="recursos/img/smartClover/alwaysConnected.PNG" width="100%">
+                            <img src="recursos/img/smartClover/alwaysConnected.PNG" width="100%">
                         </div>
                         <div class="col-xs-6 " data-aos="zoom-out">
-                           <img src="recursos/img/smartClover/easyConfig.PNG"   width="100%">
+                            <img src="recursos/img/smartClover/easyConfig.PNG"   width="100%">
                         </div>
                         <div class="col-xs-6 " data-aos="zoom-out">
-                           <img src="recursos/img/smartClover/instantResponse.PNG"  width="100%">
+                            <img src="recursos/img/smartClover/instantResponse.PNG"  width="100%">
                         </div>
                         <div class="col-xs-6 " data-aos="zoom-out">
-                           <img src="recursos/img/smartClover/intuitiveDesign.PNG"  width="100%">
+                            <img src="recursos/img/smartClover/intuitiveDesign.PNG"  width="100%">
                         </div>
                         <div class="col-xs-6 " data-aos="zoom-out">
-                           <img src="recursos/img/smartClover/simpleManage.PNG"  width="100%">
+                            <img src="recursos/img/smartClover/simpleManage.PNG"  width="100%">
                         </div>
                         <div class="col-xs-6 " data-aos="zoom-out">
-                           <img src="recursos/img/smartClover/multiplatform.PNG" width="100%">
+                            <img src="recursos/img/smartClover/multiplatform.PNG" width="100%">
                         </div>
                     </div>
                 </div> 
@@ -268,20 +382,20 @@
                             <h1>IT COVERS ALL YOUR NEEDS.</h1>
                         </div>
                         <div class="articleSmart col-xs-10 col-xs-offset-1 "> 
-                            <div class="col-xs-2 col-md-4 col-lg-3 col-lg-offset-1" style="border-top: solid 1px #735331;"></div>
+                            <div class="col-xs-2 col-md-4 col-lg-3 col-lg-offset-1 lineTop"></div>
                             <div class="col-xs-10 col-md-8  ">
                                 <p><u>Smart Clover</u> offers parents all the information they are looking for and helps with the overall communication, in real time.</p>
                                 <div class="col-xs-12 badgeClover" data-aos="fade-left"  data-aos-offset="75">
-                                    <label style="background-color: #366290">1. School Communicator</label>
+                                    <label style="color: #366290"> 1. School Communicator  </label>
                                 </div>
                                 <div class="col-xs-12 badgeClover" data-aos="fade-left"  data-aos-offset="150">
-                                    <label style="background-color: #de911d">2. Parent Consultation Bot</label> 
+                                    <label style="color: #de911d"> 2. Parent Consultation Bot  </label> 
                                 </div>
                                 <div class="col-xs-12 badgeClover" data-aos="fade-left"  data-aos-offset="225">
-                                    <label style="background-color: #863e87">3. Maintenance Jobs</label> 
+                                    <label style="color: #863e87"> 3. Maintenance Jobs  </label> 
                                 </div>
                                 <div class="col-xs-12 badgeClover" data-aos="fade-left"  data-aos-offset="300">
-                                    <label style="background-color: #2b7b4f">4. Teacher Chat</label> 
+                                    <label style="color: #2b7b4f"> 4. Teacher Chat  </label> 
                                 </div>
 
                             </div>
@@ -290,9 +404,9 @@
                         <!--</div>-->
                     </div>
                 </div>  
-                <div class="col-xs-6 col-xs-offset-3 line"></div>
-            </div> 
 
+            </div> 
+            <div class="col-xs-6 col-xs-offset-3"><hr></div>
             <div class="col-xs-12 fila" id="fila3">
                 <!-- <div id="fila1Video" class="hidden">
                      <video autoplay muted loop id="myVideo" width="100%">
@@ -303,36 +417,143 @@
                     <div class="col-xs-12 col-md-6 "> 
                         <!--<div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">--> 
                         <div class="headingSmart col-xs-10 col-xs-offset-1  col-lg-8 col-lg-offset-2" >
-                            <h1>YOUR INSTANT COMMUNICATION ASSISTANT.</h1>
+                            <h1 style="color: #366290">SCHOOL COMMUNICATOR.</h1>
                         </div>
                         <div class="articleSmart col-xs-10 col-xs-offset-1 "> 
-                            <div class="col-xs-2 col-md-4 col-lg-3 col-lg-offset-1" style="border-top: solid 1px #735331;"></div>
+                            <div class="col-xs-2 col-md-4 col-lg-3 col-lg-offset-1 lineTop" ></div>
+                            <div class="col-xs-10 col-md-8">
+                                <p>Througth the communications module, the school can send one-way messages to specific groups of parents- by course,class,enrolled, or any other filter within FACTS SIS.</p><br>
+                                <p><b>Emergency Alert Service</b> in case of emergency,authorized staff members can send a message to the whole school; parents,students,staff ...</p>
+                            </div>
+                        </div>
+
+                        <!--</div>-->
+                    </div>
+                </div>  
+                <div class="col-xs-12 col-md-6 filaVideo" data-aos="fade-left"  data-aos-offset="300">
+                    <div class=" col-xs-10 col-xs-offset-1  col-lg-8 col-lg-offset-2"> 
+                        <!--<img id="imgMovil" class="imgSmart" alt="MovilCon reflejoOK.png" data-type="image" src="https://static.wixstatic.com/media/7c6de8_31c7afac6006464cad0b9b45b19fe48b~mv2.png/v1/fill/w_489,h_599,al_c,q_80,usm_0.66_1.00_0.01/MovilCon%20reflejoOK.webp" >
+                        -->
+                        <div class="videoVertical">
+                            <video autoplay muted loop>
+                                <source src="recursos/videos/smartClover/Testvideo1.mp4" type="video/mp4">
+                            </video> 
+                        </div>
+
+                    </div>
+                </div> 
+
+            </div> 
+            <div class="col-xs-6 col-xs-offset-3"  ><hr></div>
+            <div class="col-xs-12 fila" id="fila4" >
+
+                <div class="col-xs-12 col-md-4 col-md-offset-2 filaVideo" data-aos="fade-right"  data-aos-offset="300">
+                    <div class=" col-xs-10 col-xs-offset-1  col-lg-8 col-lg-offset-2"> 
+                        <!--<img id="imgMovil" class="imgSmart" alt="MovilCon reflejoOK.png" data-type="image" src="https://static.wixstatic.com/media/7c6de8_31c7afac6006464cad0b9b45b19fe48b~mv2.png/v1/fill/w_489,h_599,al_c,q_80,usm_0.66_1.00_0.01/MovilCon%20reflejoOK.webp" >
+                        -->
+                        <div class="videoVertical">
+                            <video autoplay muted loop >
+                                <source src="recursos/videos/smartClover/Testvideo1.mp4" type="video/mp4">
+                            </video> 
+                        </div>
+
+                    </div>
+                </div> 
+                <div class="filaContenido">
+                    <div class="col-xs-12 col-md-6 "> 
+                        <!--<div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">--> 
+                        <div class="headingSmart col-xs-10 col-xs-offset-1  col-lg-8 col-lg-offset-2" >
+                            <h1 style="color: #de911d">THE BOT.</h1>
+                        </div>
+                        <div class="articleSmart col-xs-10 col-xs-offset-1 "> 
+                            <div class="col-xs-2 col-md-4 col-lg-3 col-lg-offset-1 lineTop" ></div>
                             <div class="col-xs-10 col-md-8  ">
-                                <p>Easy to use. Manage all the communication needs of your school.Gives parents instant access to all the information about their child via de personal BOT</p>
-                                <p>Smart Clover integrates with FACTS SIS, pushing out valuable information to parents and students with its 4 modules: a personal BOT, teacher connect, school connect and automatic messenger .</p>
+                                <p><b>Smart Clover</b> allows parents to retrieve information, in real time; behavior, attendance, grades, reports, test, schedules, homework... no more missing out on any important event!</p>
+                                <p>Integrates with FACTS SIS, pushing out valuable information to parents and students. Communication becomes instant and seamless via its 4 modules: a personal BOT, teacher connect, school connect and automatic messenger.</p>
                             </div>
                         </div>
 
                         <!--</div>-->
                     </div>
                 </div> 
-                <div class="col-xs-12 col-md-6 filaVideo" data-aos="fade-left"  data-aos-offset="300">
+            </div> 
+            <div class="col-xs-6 col-xs-offset-3"><hr></div>
+            <div class="col-xs-12 fila" id="fila5">
+
+
+                <div class="filaContenido">
+                    <div class="col-xs-12 col-md-6 "> 
+                        <!--<div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">--> 
+                        <div class="headingSmart col-xs-10 col-xs-offset-1  col-lg-8 col-lg-offset-2" >
+                            <h1 style="color: #863e87">AUTOMATIC MESSENGER.</h1>
+                        </div>
+                        <div class="articleSmart col-xs-10 col-xs-offset-1 "> 
+                            <div class="col-xs-2 col-md-4 col-lg-3 col-lg-offset-1 lineTop" ></div>
+                            <div class="col-xs-10 col-md-8  ">
+                                <p>Automate your communications with periodic notifications. Decide how often, at what time, and whom you want to reach any time.Accounting, Behaviour, Grade Book, Library...</p>
+                                <p><b>Accounting, Behaviour, Grade Book, Library...</b></p>
+                            </div>
+                        </div>
+
+                        <!--</div>-->
+                    </div>
+                    <div class="col-xs-12 col-md-6 filaVideo" data-aos="fade-left"  data-aos-offset="300">
+                        <div class=" col-xs-10 col-xs-offset-1  col-lg-8 col-lg-offset-2"> 
+                            <!--<img id="imgMovil" class="imgSmart" alt="MovilCon reflejoOK.png" data-type="image" src="https://static.wixstatic.com/media/7c6de8_31c7afac6006464cad0b9b45b19fe48b~mv2.png/v1/fill/w_489,h_599,al_c,q_80,usm_0.66_1.00_0.01/MovilCon%20reflejoOK.webp" >
+                            -->
+                            <div class="videoVertical">
+                                <video autoplay muted loop >
+                                    <source src="recursos/videos/smartClover/Testvideo1.mp4" type="video/mp4">
+                                </video> 
+                            </div>
+
+                        </div>
+                    </div> 
+                </div> 
+
+            </div> 
+            <div class="col-xs-6 col-xs-offset-3"><hr></div>
+            <div class="col-xs-12 fila" id="fila6">
+
+                <div class="col-xs-12 col-md-4 col-md-offset-2 filaVideo" data-aos="fade-right"  data-aos-offset="300">
                     <div class=" col-xs-10 col-xs-offset-1  col-lg-8 col-lg-offset-2"> 
                         <!--<img id="imgMovil" class="imgSmart" alt="MovilCon reflejoOK.png" data-type="image" src="https://static.wixstatic.com/media/7c6de8_31c7afac6006464cad0b9b45b19fe48b~mv2.png/v1/fill/w_489,h_599,al_c,q_80,usm_0.66_1.00_0.01/MovilCon%20reflejoOK.webp" >
                         -->
-                        <div class="smartphone">
-                            <video autoplay muted loop id="myVideo" width="100%">
-                                <source src="recursos/videos/smartClover/smartClover_video1.mp4" type="video/mp4">
+                        <div class="videoVertical">
+                            <video autoplay muted loop>
+                                <source src="recursos/videos/smartClover/Testvideo1.mp4" type="video/mp4">
                             </video> 
                         </div>
 
                     </div>
                 </div>
-                <div class="col-xs-6 col-xs-offset-3 line"></div>
+
+                <div class="filaContenido">
+                    <div class="col-xs-12 col-md-6 "> 
+                        <!--<div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">--> 
+                        <div class="headingSmart col-xs-10 col-xs-offset-1  col-lg-8 col-lg-offset-2" >
+                            <h1  style="color: #2b7b4f">TEACHER CHAT.</h1>
+                        </div>
+                        <div class="articleSmart col-xs-10 col-xs-offset-1 "> 
+                            <div class="col-xs-2 col-md-4 col-lg-3 col-lg-offset-1 lineTop" ></div>
+                            <div class="col-xs-10 col-md-8  ">
+                                <p>With <b>Smart Clover</b>your teachers can chat with parents who request it without invading their privacy.</p><br>
+                                <p>Parents do now know the teacher´s number, and the teacher chooses when best to answer.</p>
+                            </div>
+                        </div> 
+                    </div>
+                </div> 
             </div> 
 
         </main>
 
+        <div class="btnDemo ">
+            <label class="arrow_box">Schedule a Demo</label>
+            <img src="recursos/img/smartClover/Logo_Smart_clover_LogoConFondo.png " style="width:50px">
+
+        </div>  
     </body>
+
     <%@ include file="footerAOS.jsp" %>
+
 </html>

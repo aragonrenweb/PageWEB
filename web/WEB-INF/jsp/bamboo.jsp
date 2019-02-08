@@ -15,6 +15,7 @@
 
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+         
         <title>Bamboo Montessori</title>
         <style>
               body {
@@ -296,6 +297,62 @@
             {
                 background-image: none !important;
             }
+            .arrow_box {
+                position: relative;
+                background: #ffffff;
+                border: 1px solid #127733;
+                padding-left: 5px;
+                padding-right: 5px;
+                border-radius: 5px;
+                font-size: small;
+                font-weight: normal;
+                color: #3c3c3c; 
+                animation-name: shake-with-delay;
+                animation-duration: 6s;
+                animation-iteration-count: infinite;
+                margin-right: 5px;
+            }
+            .arrow_box:after, .arrow_box:before {
+                left: 100%;
+                top: 50%;
+                border: solid transparent;
+                content: " ";
+                height: 0;
+                width: 0;
+                position: absolute;
+                pointer-events: none;
+            }
+
+            .arrow_box:after {
+                border-color: rgba(136, 183, 213, 0);
+                border-left-color: #127733;
+                border-width: 4px;
+                margin-top: -4px;
+            }
+            .btnDemo{
+                position: fixed;
+                bottom: 15px;
+                right: 15px;
+                width: 300px;
+                display: flex;
+                align-items: center; 
+                justify-content: flex-end;
+            } 
+            @keyframes shake-with-delay {
+                from, 16%, to {
+                    -webkit-transform: translate3d(0, 0, 0);
+                    transform: translate3d(0, 0, 0);
+                }
+                1.6%, 4.8%, 8%, 11.2%, 14.4% {
+                    -webkit-transform: translate3d(-3px, 0, 0);
+                    transform: translate3d(-3px, 0, 0);
+                }
+                3.2%, 6.4%, 9.6%, 12.8% {
+                    -webkit-transform: translate3d(3px, 0, 0);
+                    transform: translate3d(3px, 0, 0);
+                }
+            }
+            
         </style>
      </head>
     <body>
@@ -490,7 +547,12 @@
                 </div>
             </div>
         </main>
+    <div class="btnDemo">
+            <label class="arrow_box">Schedule a Demo</label>
+            <img src="recursos/img/bamboo/iconBamboo.png " style="width:50px">
 
+        </div>  
     </body>
     <%@ include file="footerAOS.jsp" %>
+  
 </html>
