@@ -15,10 +15,10 @@
 
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-         
+
         <title>Bamboo Montessori</title>
         <style>
-              body {
+            body {
                 margin: 0;
                 font-family: sans-serif;
                 font-size: 24px;
@@ -352,9 +352,9 @@
                     transform: translate3d(3px, 0, 0);
                 }
             }
-            
+
         </style>
-     </head>
+    </head>
     <body>
         <%@ include file="nav.jsp" %>
 
@@ -365,63 +365,63 @@
             </div>
         </section>
         <main>
-               <div class="row" style="margin-top: 140px;">
-                <div class=" col-lg-offset-1 col-lg-5 divContenedorIMG">
+            <div class="row" style="margin-top: 140px;">
+                <div class="col-xs-12 col-md-6 divContenedorIMG">
                     <video width="100%" height="100%" controls poster="recursos/img/thumbnail.jpg">
                         <source src="recursos/videos/Bamboo_Demo.mp4" type="video/mp4">
 
                     </video>
 
                 </div>
-                <div class="col-lg-6 divContenedorTXT" style="display: flex;
+                <div class="col-xs-12 col-md-6" style="display: flex;
                      justify-items: baseline;
                      justify-content: baseline;
                      align-items: center;">
-                    <div class="col-lg-12" CenterVertical>
-                        <div class="col-lg-12">
+                    <div class="col-xs-12 CenterVertical" >
+                        <div class="col-xs-12">
                             <h5 style="text-align: center; font-size: 24pt; color: darkgreen;">Bamboo for Guides</h5>
                             <p style="text-align: center; font-size: 18pt;">A full workspace for Montessori guides in their day to day activities.<br>No more pen and paper</p>
                         </div>
-                        <div class="col-lg-12" style="text-align: center; font-size: 14pt; margin-top: 30px;">
-                            <div class="col-lg-4">
-                                <div class="col-lg-12" data-aos="fade-up">
+                        <div class="col-xs-12" style="text-align: center; font-size: 14pt; margin-top: 30px;">
+                            <div class="col-xs-4">
+                                <div class="col-xs-12" data-aos="fade-up">
                                     <img src="recursos/img/icons/calendar.svg" style="width: 100px; height: 100px;">
                                 </div>
-                                <div class="col-lg-12" style="text-align: center; font-weight: bold; margin-top: 5px;">
+                                <div class="col-xs-12" style="text-align: center; font-weight: bold; margin-top: 5px;">
                                     Plan Presentations
                                 </div>
                             </div>
-                            <div class="col-lg-4">
-                                <div class="col-lg-12" data-aos="fade-down">
+                            <div class="col-xs-4">
+                                <div class="col-xs-12" data-aos="fade-down">
                                     <img src="recursos/img/icons/eye-scanner-medical-symbol.svg" style="width: 100px; height: 100px;">
                                 </div>
-                                <div class="col-lg-12" style="text-align: center; font-weight: bold; margin-top: 5px;">
+                                <div class="col-xs-12" style="text-align: center; font-weight: bold; margin-top: 5px;">
                                     Record Observations
                                 </div>
                             </div>
-                            <div class="col-lg-4">
-                                <div class="col-lg-12">
+                            <div class="col-xs-4">
+                                <div class="col-xs-12">
                                     <img src="recursos/img/icons/idea.svg" style="width: 100px; height: 100px;">
                                 </div>
-                                <div class="col-lg-12" style="text-align: center; font-weight: bold; margin-top: 5px;">
+                                <div class="col-xs-12" style="text-align: center; font-weight: bold; margin-top: 5px;">
                                     Presentation Ideas
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-12" style="text-align: center; font-size: 14pt; margin-top: 30px;">
-                            <div class="col-lg-6">
-                                <div class="col-lg-12">
+                        <div class="col-xs-12" style="text-align: center; font-size: 14pt; margin-top: 30px;">
+                            <div class="col-xs-4 col-xs-offset-2">
+                                <div class="col-xs-12">
                                     <img src="recursos/img/icons/resources.svg" style="width: 100px; height: 100px;">
                                 </div>
-                                <div class="col-lg-12" style="text-align: center; font-weight: bold; margin-top: 5px;">
+                                <div class="col-xs-12" style="text-align: center; font-weight: bold; margin-top: 5px;">
                                     Share Resources
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="col-lg-12">
+                            <div class="col-xs-4">
+                                <div class="col-xs-12">
                                     <img src="recursos/img/icons/progress.svg" style="width: 100px; height: 100px;">
                                 </div>
-                                <div class="col-lg-12" style="text-align: center; font-weight: bold; margin-top: 5px;">
+                                <div class="col-xs-12" style="text-align: center; font-weight: bold; margin-top: 5px;">
                                     Visualize Progress and Learning Gaps
                                 </div>
                             </div>
@@ -429,13 +429,13 @@
                         </div>
                     </div>
                 </div>
-             
+
             </div>
-            <div class="col-lg-12">
-               <hr>
+            <div class="col-xs-12">
+                <hr>
             </div>
             <div class="container" style="margin-top: 140px;">
-                <div class="col-lg-12" style="text-align: center;">
+                <div class="col-xs-12" style="text-align: center;">
                     <h5 style="text-align: center; font-size: 24pt; color: darkgreen; " data-aos="fade-down">Bamboo for Supervisors</h5>
                     <p style="font-size: 16pt;">BAMBOO helps schools stop using paper, digitize their records and keep learners' progress and historical data.</p>
                 </div>
@@ -453,72 +453,72 @@
                         <div class="col-lg-12" data-aos="fade-up">
                             <img src="recursos/img/icons/newspaper.svg" style="width: 70px; height: 70px;">
                         </div>
-                        <div class="col-lg-offset-2 col-lg-8"" style="text-align: center;  font-size: 12pt; margin-top: 10px;">
+                        <div class="col-lg-offset-2 col-lg-8" style="text-align: center;  font-size: 12pt; margin-top: 10px;">
                             The generation of report cards becomes an easy task since all the data and evaluations are already recorded in the system.
                         </div>
                     </div>
 
                 </div>
             </div>
-            <div class="col-lg-12">
-               <hr>
+            <div class="col-xs-12">
+                <hr>
             </div>
             <div class="container sinpadding" style="margin-top: 140px;">
-             
+
                 <div class="col-lg-12" style="text-align: center; margin-bottom: 20px;">
                     <h5 style="text-align: center; font-size: 24pt; color: darkgreen; " data-aos="fade-down">Bamboo for Parents</h5>
                     <p style="font-size: 16pt;">Parents can see week by week how their child is doing in the classroom.<br> The portal is very easy and simple, even parents who are not experts in technology will happily use it.</p>
                 </div>
                 <div class="col-xs-12 sinpadding" style="text-align: center; margin-bottom: 20px;">
                     <div class="col-xs-12 col-lg-6">
-<!--                        <h3 class="title">Text fadeIn bottom</h3>-->
+                        <!--                        <h3 class="title">Text fadeIn bottom</h3>-->
                         <div class="content">
                             <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
                                 <div class="content-overlay"></div>
                                 <img class="content-image" src="recursos/img/bamboo/Capture.PNG">
                                 <div class="content-details fadeIn-bottom">
-<!--                                    <h3 class="content-title">This is a title</h3>-->
+                                    <!--                                    <h3 class="content-title">This is a title</h3>-->
                                     <p class="content-text">In real time, they can see the child's progress in different areas.</p>
                                 </div>
                             </a>
                         </div>
                     </div> 
                     <div class="col-xs-12 col-lg-6">
-<!--                        <h3 class="title">Text fadeIn top</h3>-->
+                        <!--                        <h3 class="title">Text fadeIn top</h3>-->
                         <div class="content">
                             <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
                                 <div class="content-overlay"></div>
                                 <img class="content-image" src="recursos/img/bamboo/Capture2.PNG">
                                 <div class="content-details fadeIn-top">
-<!--                                    <h3>This is a title</h3>-->
+                                    <!--                                    <h3>This is a title</h3>-->
                                     <p>What the teachers say about the child</p>
                                 </div>
                             </a>
                         </div>
                     </div>
                 </div>
-                 <div class="col-xs-12 sinpadding" style="text-align: center; margin-bottom: 20px;">
+                <div class="col-xs-12 sinpadding" style="text-align: center; margin-bottom: 20px;">
                     <div class="col-xs-12 col-lg-6">
-<!--                        <h3 class="title">Text fadeIn bottom</h3>-->
+                        <!--                        <h3 class="title">Text fadeIn bottom</h3>-->
                         <div class="content">
                             <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
                                 <div class="content-overlay"></div>
                                 <img class="content-image" src="recursos/img/bamboo/Capture.PNG">
                                 <div class="content-details fadeIn-bottom">
-<!--                                    <h3 class="content-title">This is a title</h3>-->
+                                    <!--                                    <h3 class="content-title">This is a title</h3>-->
                                     <p class="content-text">What the child is currently learning / trying, and what is planned next.</p>
                                 </div>
                             </a>
                         </div>
                     </div> 
                     <div class="col-xs-12 col-lg-6">
-<!--                        <h3 class="title">Text fadeIn top</h3>-->
+                        <!--                        <h3 class="title">Text fadeIn top</h3>-->
                         <div class="content">
                             <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
                                 <div class="content-overlay"></div>
                                 <img class="content-image" src="recursos/img/bamboo/Capture4.PNG">
                                 <div class="content-details fadeIn-top">
-<!--                                    <h3>This is a title</h3>-->
+                                    <!--                                    <h3>This is a title</h3>-->
                                     <p>The child's report cards or the school calendar and announcements of interest.</p>
                                 </div>
                             </a>
@@ -547,12 +547,12 @@
                 </div>
             </div>
         </main>
-    <div class="btnDemo">
+        <div class="btnDemo">
             <label class="arrow_box">Schedule a Demo</label>
             <img src="recursos/img/bamboo/iconBamboo.png " style="width:50px">
 
         </div>  
     </body>
     <%@ include file="footerAOS.jsp" %>
-  
+
 </html>
