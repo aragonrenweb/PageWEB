@@ -4,8 +4,11 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" media="all" href="recursos/css/main.css" />
-        <script src="recursos/js/modernizr.custom.37797.js"></script> 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="recursos/js/modernizr.custom.37797.js"></script>  
         <script src="recursos/js/parallax.js"></script>
         <title>Smart Clover</title>
         <style>
@@ -302,7 +305,7 @@
                 $(".btnDemo label").hide();
                 $(".btnDemo img").hide();
                 $("#primary ul").hide();
-
+                $('#popoverOption').popover({ trigger: "hover" });
                 if ($(window).width() <= 680) {
 
                     $("#fila1>.filaVideo").css("max-height", "400px");
@@ -371,9 +374,8 @@
         <main> 
             <nav id="primary">
                 <ul>
-                    <li>
-                        <h1>School Communicator</h1>
-                        <a class="manned-flight" href="#fila3">View</a>
+                    <li> 
+                        <a class="manned-flight" href="#comp-jn0wb7lfimgimage" value="Top">View</a>
                     </li>
                     <li>
                         <h1>Parent Consultation Bot</h1>
@@ -386,6 +388,9 @@
                     <li>
                         <h1>Teacher Chat</h1>
                         <a class="about" href="#fila6">View</a>
+                    </li>
+                    <li>
+                         <a id="popoverOption" class="btn" href="#" data-content="Popup with option trigger" rel="popover" data-placement="bottom" data-original-title="Title">Popup with option trigger</a>
                     </li>
                 </ul>
             </nav>
@@ -630,8 +635,8 @@
                                 <h1 style="color: white;text-align:left">SECURITY.</h1>
                             </div>
                             <div class="articleSmart col-xs-12 col-md-10 col-md-offset-1 "> 
-                                <div class="col-xs-0 col-md-4 col-lg-3 col-lg-offset-1 lineTop" ></div>
-                                <div class="col-xs-12 col-md-8  " style="color: #c5c5c5">
+                                <div class="col-xs-0 col-md-2 col-md-offset-0 col-lg-1 lineTop" ></div>
+                                <div class="col-xs-12 col-md-9 " style="color: #c5c5c5">
                                     <p>The protocol is designed for access to a server API from applications running on mobile devices.</p>
                                     <p>It must be emphasized that a web browser is not such an aplication. The protocol is subdivided into three virtually indepent
                                         components:</p>
