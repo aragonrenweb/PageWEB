@@ -22,13 +22,7 @@
                 scrollTop: position
             } /* speed */);
         });
-        $("#primary a").mouseover(function (e) {
-            $(this).popover({
-                content: $(this).attr('value')
-            }).popover('show');
-        }, function () {
-            $(this).popover('hide');
-        });
+         
         AOS.init();
     </script>
 </html>
