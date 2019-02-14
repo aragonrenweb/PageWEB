@@ -670,99 +670,58 @@
                         <div class="articleSmart col-xs-10 col-xs-offset-1"> 
                             <div class="col-xs-2 col-md-4 col-lg-3 col-lg-offset-1 lineTop"></div>
                             <div class="col-xs-10 col-md-8">
+                                <div class="col-lg-12">
                                 <p>LLevar el manejo y control de cada uno de los módulos disponibles en FACTS, es una tarea facil de realizar pero que exige del trabajo del personal de Administración para realizar tareas de configuración y uso de ciertas herramientas que son exclusivas del personal directivo de la escuela.</p>
-                                <p>El manejo del sistema de seguridad de acceso a los diferentes módulos y la impresión de los informes, son dos de las tareas mas importantes que deberá gestionar el personal directivo. Un control riguroso de los permisos de seguridad, proporcionará a la escuela la fiabilidad necesaria para las tareas diarias.</p>
-                                <br>
-                                <div data-packed="false" style="top:;bottom:;left:;right:;width:380px;height:auto;position:;min-height:165px;pointer-events:none" data-min-height="165" class="txtNew" id="comp-joqfg8rr">
-                                    <ul class="font_8" style="font-size:18px; font-family:montserrat, sans-serif;">
+                                <p>El manejo del sistema de seguridad de acceso a los diferentes módulos y la impresión de los informes, son dos de las tareas mas importandivtes que deberá gestionar el personal directivo. Un control riguroso de los permisos de seguridad, proporcionará a la escuela la fiabilidad necesaria para las tareas diarias.</p>
+                                </div>
+                                
+                               
+                                <div class="col-lg-12">
+                                <div class="txtNew col-lg-6">
+                                    <ul class="font_8" style="list-style:circle">
                                         <li style="line-height:1.5em;">
-                                             <p class="font_8" style="font-size:18px; line-height:1.5em;"><span style="font-size:18px;"><span style="font-family:montserrat,sans-serif;">Boletines de notas</span></span></p>
+                                            <p class="font_8" style="font-size:18px; line-height:1.5em;"><span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Boletines de notas</span></span></p>
                                         </li>
                                         <li style="line-height:1.5em;">
-                                             <p class="font_8" style="font-size:18px; line-height:1.5em;"><span style="font-size:18px;"><span style="font-family:montserrat,sans-serif;">Asistencia</span></span></p>
+                                             <p class="font_8" style="font-size:18px; line-height:1.5em;"><span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Asistencia</span></span></p>
                                         </li>
                                         <li style="line-height:1.5em;">
-                                             <p class="font_8" style="font-size:18px; line-height:1.5em;"><span style="font-size:18px;"><span style="font-family:montserrat,sans-serif;">Gestión de HHRR</span></span></p>
+                                             <p class="font_8" style="font-size:18px; line-height:1.5em;"><span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Gestión de HHRR</span></span></p>
                                         </li>
                                         <li style="line-height:1.5em;">
-                                             <p class="font_8" style="font-size:18px; line-height:1.5em;"><span style="font-size:18px;"><span style="font-family:montserrat,sans-serif;">Cobros</span></span></p>
+                                             <p class="font_8" style="font-size:18px; line-height:1.5em;"><span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Cobros</span></span></p>
                                         </li>
                                         <li style="line-height:1.5em;">
-                                             <p class="font_8" style="font-size:18px; line-height:1.5em;"><span style="font-size:18px;"><span style="font-family:montserrat,sans-serif;">Comportamiento</span></span></p>
+                                             <p class="font_8" style="font-size:18px; line-height:1.5em;"><span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Comportamiento</span></span></p>
                                         </li>
                                     </ul>
                                 </div>
                                 
                                 
                                 
-                                
-                                <div data-packed="false" style="top:;bottom:;left:;right:;width:436px;height:auto;position:;min-height:165px;pointer-events:none" data-min-height="165" class="txtNew" id="comp-joqfi203">
-                                    <ul class="font_8" style="font-size:18px; font-family:montserrat, sans-serif;">
+                                <div class="txtNew col-lg-6">
+                                    <ul class="font_8" style="list-style:circle">
 	                             <li style="line-height:1.5em;">
-	                                 <p class="font_8" style="font-size:18px; line-height:1.5em;"><span style="font-size:18px;"><span style="font-family:montserrat,sans-serif;">Gestión de Guardería</span></span></p>
+	                                 <p class="font_8" style="font-size:18px; line-height:1.5em;"><span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Gestión de Guardería</span></span></p>
 	                             </li>
                                      <li style="line-height:1.5em;">
-                                        <p class="font_8" style="font-size:18px; line-height:1.5em;"><span style="font-size:18px;"><span style="font-family:montserrat,sans-serif;">Gestión de Cafetería</span></span></p>
+                                        <p class="font_8" style="font-size:18px; line-height:1.5em;"><span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Gestión de Cafetería</span></span></p>
                                      </li>
                                      <li style="line-height:1.5em;">
-                                        <p class="font_8" style="font-size:18px; line-height:1.5em;"><span style="font-size:18px;"><span style="font-family:montserrat,sans-serif;">Gestor de correo electrónico</span></span></p>
+                                        <p class="font_8" style="font-size:18px; line-height:1.5em;"><span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Gestor de correo electrónico</span></span></p>
                                      </li>
                                      <li style="line-height:1.5em;">
-                                        <p class="font_8" style="font-size:18px; line-height:1.5em;"><span style="font-size:18px;"><span style="font-family:montserrat,sans-serif;">Scheduling</span></span></p>
+                                        <p class="font_8" style="font-size:18px; line-height:1.5em;"><span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Gestor de Horarios</span></span></p>
                                      </li>
                                      <li style="line-height:1.5em;">
-                                        <p class="font_8" style="font-size:18px; line-height:1.5em;"><span style="font-size:18px;"><span style="font-family:montserrat,sans-serif;">Staff information management</span></span></p>
+                                        <p class="font_8" style="font-size:18px; line-height:1.5em;"><span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Familia y Estudiante</span></span></p>
                                      </li>
                                     </ul>
                                 </div>
+                                 </div>
                                 
                                 
-                                <ul>
-                                    <li>Boletines de notas</li>
-                                    <li>Asistencia</li>
-                                    <li>Gestión de HHRR</li>
-                                    <li>Cobros</li>
-                                    <li>Comportamiento</li>
-                                    <li>Gestión de Guardería</li>
-                                    <li>Gestión de Cafetería</li>
-                                    <li>Gestor de correo electrónico</li>
-                                    
-                                </ul>
                                 
-                                <div class="col-xs-12 badgeClover" data-aos="fade-left"  data-aos-offset="75">
-                                    <label style="color: #366290"> 1. Boletines de notas  </label>
-                                </div>
-                                <div class="col-xs-12 badgeClover" data-aos="fade-left"  data-aos-offset="150">
-                                    <label style="color: #de911d"> 2. Asistencia  </label> 
-                                </div>
-                                <div class="col-xs-12 badgeClover" data-aos="fade-left"  data-aos-offset="225">
-                                    <label style="color: #863e87"> 3. Gestión de HHRR  </label> 
-                                </div>
-                                <div class="col-xs-12 badgeClover" data-aos="fade-left"  data-aos-offset="300">
-                                    <label style="color: #2b7b4f"> 4. Cobros  </label> 
-                                </div>
-                                <div class="col-xs-12 badgeClover" data-aos="fade-left"  data-aos-offset="300">
-                                    <label style="color: #2b7b4f"> 5. Comportamiento  </label> 
-                                </div>
-                                <div class="col-xs-12 badgeClover" data-aos="fade-left"  data-aos-offset="300">
-                                    <label style="color: #2b7b4f"> 6. Gestión de Guardería  </label> 
-                                </div>
-                                <div class="col-xs-12 badgeClover" data-aos="fade-left"  data-aos-offset="300">
-                                    <label style="color: #2b7b4f"> 7. Gestión de Cafetería  </label> 
-                                </div>
-                                <div class="col-xs-12 badgeClover" data-aos="fade-left"  data-aos-offset="300">
-                                    <label style="color: #2b7b4f"> 8. Gestor de correo electrónico  </label> 
-                                </div>
-                                <div class="col-xs-12 badgeClover" data-aos="fade-left"  data-aos-offset="300">
-                                    <label style="color: #2b7b4f"> 9. Gestor de Horarios SemiAutomatico  </label> 
-                                </div>
-                                <div class="col-xs-12 badgeClover" data-aos="fade-left"  data-aos-offset="300">
-                                    <label style="color: #2b7b4f"> 10. Información de la Familia y Estudiante  </label> 
-                                </div>
-                                <div class="col-xs-12 badgeClover" data-aos="fade-left"  data-aos-offset="300">
-                                    <label style="color: #2b7b4f"> 11. Admisiones  </label> 
-                                </div>
-                            </div>
                         </div>
 
                         <!--</div>-->
