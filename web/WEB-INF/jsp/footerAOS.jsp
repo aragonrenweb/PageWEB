@@ -11,8 +11,18 @@
     </head>
     <body> 
     </body>
-     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        $("#primary a").click(function (e) {
+            e.preventDefault();
+
+            var position = $($(this).attr("href")).offset().top;
+
+            $("body, html").animate({
+                scrollTop: position
+            } /* speed */);
+        });
+         
+        AOS.init();
+    </script>
 </html>

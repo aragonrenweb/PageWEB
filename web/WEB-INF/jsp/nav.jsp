@@ -12,12 +12,13 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/2013.03.11/hoverintent.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    
+
     <meta name="description" content="animate-scroll demo page"/>  
     <style>
         /* menu on hover - with animation */
@@ -83,6 +84,61 @@
         .fila{
             margin-top: 20px;
         }
+
+        .navbar-toggle {
+            border: none;
+            background: transparent !important;
+        }
+
+        .navbar-toggle:hover {
+            background: transparent !important;
+        }
+
+        .navbar-toggle .icon-bar {
+            width: 22px;
+            -webkit-transition: all 0.2s;
+            transition: all 0.2s;
+        }
+
+
+     
+/* ANIMATED UP ARROW */
+.navbar-toggle.uarr.collapsed .icon-bar:nth-of-type(1) {
+	transform: translate3d(0,0,0) rotate(0deg);
+	width: 22px;
+}
+
+.navbar-toggle.uarr.collapsed .icon-bar:nth-of-type(2) {
+	transform: translate3d(0,0,0) rotate(0deg);
+}
+
+.navbar-toggle.uarr.collapsed .icon-bar:nth-of-type(3) {
+	transform: translate3d(0,0,0) rotate(0deg);
+	width: 22px;
+}
+
+.navbar-toggle.uarr .icon-bar:nth-of-type(1) {
+	transform: translate3d(1px,0,0) rotate(-45deg);
+	transform-origin: center center;
+	width: 11px;
+}
+
+.navbar-toggle.uarr .icon-bar:nth-of-type(2) {
+	transform: rotate(-90deg);
+	transform-origin: center center;
+}
+
+.navbar-toggle.uarr .icon-bar:nth-of-type(3) {
+	transform: translate3d(0px,-14px,0) rotate(-135deg);
+	transform-origin: right top;
+	width: 11px;
+}
+/* END ANIMATED UP ARROW */
+
+.navbar-brand{
+        padding: 10px 10px !important;
+}
+
     </style>
     <script>
 
@@ -131,6 +187,59 @@
 
     </script>
 </head>
+
+<nav class="navbar navbar-inverse" role="navigation">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle uarr collapsed" data-toggle="collapse" data-target="#navbar-collapse-uarr">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button> 
+        <a class="navbar-brand" href="#"><img src="recursos/img/LogoNegativo.svg" height="100%"></a>
+    </div> 
+    <div class="collapse navbar-collapse" id="navbar-collapse-uarr">
+     
+        
+        <ul class="nav navbar-nav navbar-right">
+            <li class="active" data-toggle="collapse" data-target="#navbar-collapse.in"><a href="<c:url value="/index.htm" />">Inicio</a></li>
+ 
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="" href="<c:url value="/facts.htm" />"><spring:message code="facts.FACTS"/>
+                    <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="<c:url value="/factsQueEs.htm" />"><spring:message code="facts.FACTSQueEs"/></a></li>
+                    <li><a href="<c:url value="/factsQueIncluye.htm" />"><spring:message code="facts.FACTSQueIncluye"/></a></li>
+                    <li><a href="<c:url value="/factsPrecios.htm" />"><spring:message code="facts.FACTSPrecios"/></a></li>
+                </ul>
+            </li>
+            
+            <li><a href="<c:url value="/smartClover.htm" />">Smart Clover</a></li>
+            <li><a href="#">Page 3</a></li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="" href="<c:url value="/help.htm" />">Asistencia y Ayudas
+                    <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a class="btn" href="">A</a></li>
+                    <li><a class="btn" href=""></a></li>
+                    <li><a class="btn" href=""></a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="" href="#">Idioma
+                    <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a class="btn" href="datosIdioma.htm?lenguaje=en"><spring:message code="etiq.txtenglish"/></a></li>
+                    <li><a class="btn" href="datosIdioma.htm?lenguaje=es"><spring:message code="etiq.txtspanish"/></a></li>
+                    <li><a class="btn" href="datosIdioma.htm?lenguaje=ar"><spring:message code="etiq.txtarabic"/></a></li>
+                </ul>
+            </li>
+            <li><a href="<c:url value="/bamboo.htm" />">Bamboo Montessori</a></li>
+
+        </ul>
+            
+    </div><!-- .navbar-collapse -->
+</nav>
+<!--
 <nav class="navbar navbar-inverse">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -171,5 +280,5 @@
 
         </ul>
     </div>
-</nav>
+</nav>-->
 
