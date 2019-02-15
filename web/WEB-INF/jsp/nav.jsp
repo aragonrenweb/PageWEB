@@ -23,7 +23,7 @@
     
     <link rel="stylesheet" media="all" href="recursos/css/main.css" />
     <script src="recursos/js/modernizr.custom.37797.js"></script>
-    <script src="recursos/js/jquery-1.6.1.min.js"></script>
+    <!---<script src="recursos/js/jquery-1.6.1.min.js"></script>--->
     <script src="recursos/js/parallax.js"></script>
     
     
@@ -34,9 +34,9 @@
     <meta name="description" content="animate-scroll demo page"/>  
     
 </head>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light" style="position:fixed;width:100%">
   <a class="navbar-brand" href="#">
-      <img src="recursos/img/LogoNegativo.svg" height="100%">
+      <img src="recursos/img/LogoNegativo.svg" style=" width: 120px;">
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
