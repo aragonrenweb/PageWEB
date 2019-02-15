@@ -272,6 +272,7 @@
                 bottom: 15px;
                 right: 15px;
                 width: 300px;
+                height:80px;
                 display: flex;
                 align-items: center; 
                 justify-content: flex-end;
@@ -317,6 +318,9 @@
             .popover-content{
                 display:none;
             }
+            .sinpadding{
+                padding: 0px !important;
+            }
         </style>
         <script>
             $(document).ready(function () {
@@ -359,7 +363,7 @@
                 }
             }
             function checkShowScheduleDemo() {
-                if ($(".hero").height() > $(".btnDemo").offset().top) {
+                if ($(".hero").height() >= $(".btnDemo").offset().top) {
                     $(".btnDemo label").hide();
                     $(".btnDemo img").hide();
                 } else {
@@ -458,25 +462,22 @@
             <div class="col-xs-6 col-xs-offset-3"><hr></div>
             <div class="col-xs-12  col-lg-10 col-lg-offset-1   col-xl-8 col-xl-offset-2  fila" id="fila2"> 
                 <div class="col-xs-12 col-md-6" > 
-                    <div class=" col-xs-10 col-xs-offset-1  col-lg-10 col-lg-offset-1"> 
-                        <div class="col-xs-6"  data-aos="zoom-out">
-                            <img src="recursos/img/smartClover/alwaysConnected.PNG" width="100%">
+                    <div class=" col-xs-10 col-xs-offset-1  col-lg-10 col-lg-offset-1" > 
+                        <div class="col-xs-4  sinpadding"  data-aos="zoom-out">
+                            <img src="recursos/img/smartClover/icon1.svg" width="100%">
                         </div>
-                        <div class="col-xs-6 " data-aos="zoom-out">
-                            <img src="recursos/img/smartClover/easyConfig.PNG"   width="100%">
+                        <div class="col-xs-4 sinpadding" data-aos="zoom-out">
+                            <img src="recursos/img/smartClover/icon2.svg"   width="100%">
                         </div>
-                        <div class="col-xs-6 " data-aos="zoom-out">
-                            <img src="recursos/img/smartClover/instantResponse.PNG"  width="100%">
+                        <div class="col-xs-4  sinpadding" data-aos="zoom-out">
+                            <img src="recursos/img/smartClover/icon3.svg" width="100%">
                         </div>
-                        <div class="col-xs-6 " data-aos="zoom-out">
-                            <img src="recursos/img/smartClover/intuitiveDesign.PNG"  width="100%">
+                        <div class="col-xs-4 col-xs-offset-2 sinpadding" data-aos="zoom-out">
+                            <img src="recursos/img/smartClover/icon4.svg"  width="100%">
                         </div>
-                        <div class="col-xs-6 " data-aos="zoom-out">
-                            <img src="recursos/img/smartClover/simpleManage.PNG"  width="100%">
-                        </div>
-                        <div class="col-xs-6 " data-aos="zoom-out">
-                            <img src="recursos/img/smartClover/multiplatform.PNG" width="100%">
-                        </div>
+                        <div class="col-xs-4 sinpadding" data-aos="zoom-out">
+                            <img src="recursos/img/smartClover/icon5.svg"  width="100%">
+                        </div> 
                     </div>
                 </div> 
                 <div class="filaContenido">
@@ -698,7 +699,7 @@
 
         <div class="btnDemo ">
             <label class="arrow_box">Schedule a Demo</label>
-            <img src="recursos/img/smartClover/Logo_Smart_clover_LogoConFondo.png " style="width:75px">
+            <img src="recursos/img/smartClover/logoSmartCloverNew.svg" style="width:75px">
 
         </div>  
     </body>
