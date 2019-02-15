@@ -12,183 +12,67 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="recursos/js/jquery-1.9.1.min.js" type="text/javascript"></script>
+    
+    <link href="recursos/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <link href="recursos/css/bootstrap-grid.css" rel="stylesheet" type="text/css"/>
+    <link href="recursos/css/bootstrap-reboot.css" rel="stylesheet" type="text/css"/>
+    
+    <script src="recursos/js/bootstrap.js" type="text/javascript"></script>
+    <script src="recursos/js/bootstrap.bundle.js" type="text/javascript"></script>
+    
+    <link rel="stylesheet" media="all" href="recursos/css/main.css" />
+    <script src="recursos/js/modernizr.custom.37797.js"></script>
+    <script src="recursos/js/jquery-1.6.1.min.js"></script>
+    <script src="recursos/js/parallax.js"></script>
+    
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/2013.03.11/hoverintent.min.js"></script>
+    
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <meta name="description" content="animate-scroll demo page"/>  
-    <style>
-        /* menu on hover - with animation */
-        .dropdown.drop-collapsed .dropdown-menu {
-            height: 0 !important;
-            z-index: -1;
-        }
-        .dropdown .dropdown-menu {
-            overflow: hidden;
-            -webkit-transition: height 0.65s ease;
-            transition: height 0.65s ease;
-        }
-        .navbar-nav > li > .dropdown-menu {
-            display: block;
-            visibility: hidden;
-            opacity: 0;
-            filter: alpha(opacity=0);
-        }
-        .navbar-nav > li.open .dropdown-menu {
-            visibility: visible;
-            opacity: 1;
-            filter: alpha(opacity=100);
-        }
-        /*HELP*/
-
-        .div
-        {
-            background: #c8cbcf;
-        }
-        .divPar
-        {
-
-        }
-        .divContenedorIMG
-        {
-            height: 40em;
-            text-align: center;
-        }
-        .divContenedorTXT
-        {
-            height: 40em;
-            display: table;
-        }
-        .CenterVertical
-        {
-            display: table-cell;
-            text-align: center;
-            vertical-align: middle;
-        }
-        .imgBanner
-        {
-            height: 40em;
-        }
-        .navbar{
-            border-radius: 0px;
-            position: fixed;
-            width: 100%;
-            z-index: 5;
-        }
-        .container{
-            margin-top: 60px;
-        }
-        .fila{
-            margin-top: 20px;
-        }
-
-        .navbar-toggle {
-            border: none;
-            background: transparent !important;
-        }
-
-        .navbar-toggle:hover {
-            background: transparent !important;
-        }
-
-        .navbar-toggle .icon-bar {
-            width: 22px;
-            -webkit-transition: all 0.2s;
-            transition: all 0.2s;
-        }
-
-
-     
-/* ANIMATED UP ARROW */
-.navbar-toggle.uarr.collapsed .icon-bar:nth-of-type(1) {
-	transform: translate3d(0,0,0) rotate(0deg);
-	width: 22px;
-}
-
-.navbar-toggle.uarr.collapsed .icon-bar:nth-of-type(2) {
-	transform: translate3d(0,0,0) rotate(0deg);
-}
-
-.navbar-toggle.uarr.collapsed .icon-bar:nth-of-type(3) {
-	transform: translate3d(0,0,0) rotate(0deg);
-	width: 22px;
-}
-
-.navbar-toggle.uarr .icon-bar:nth-of-type(1) {
-	transform: translate3d(1px,0,0) rotate(-45deg);
-	transform-origin: center center;
-	width: 11px;
-}
-
-.navbar-toggle.uarr .icon-bar:nth-of-type(2) {
-	transform: rotate(-90deg);
-	transform-origin: center center;
-}
-
-.navbar-toggle.uarr .icon-bar:nth-of-type(3) {
-	transform: translate3d(0px,-14px,0) rotate(-135deg);
-	transform-origin: right top;
-	width: 11px;
-}
-/* END ANIMATED UP ARROW */
-
-.navbar-brand{
-        padding: 10px 10px !important;
-}
-
-    </style>
-    <script>
-
-        jQuery(document).ready(function () {
-            "use strict";
-            var $ = jQuery.noConflict();
-
-            function showMenu() {
-                $(this).removeClass("drop-collapsed");
-                $(this).addClass("open");
-            }
-            function hideMenu() {
-                $(this).removeClass("open");
-                var $dropdown = $(".dropdown");
-
-                $dropdown.each(function () {
-                    $(this).addClass("drop-collapsed");
-                });
-            }
-
-
-            var $dropdown = $(".dropdown");
-
-            $dropdown.each(function () {
-                var $this = $(this);
-
-                var $dropmenu = $this.find(".dropdown-menu");
-                $dropmenu.css("height", $dropmenu.outerHeight());
-                $this.addClass("drop-collapsed");
-            });
-
-
-            // dropdown menu hover intent
-            var hovsettings = {
-                timeout: 0,
-                interval: 0,
-                over: showMenu,
-                out: hideMenu
-            };
-
-            $(".dropdown").hoverIntent(hovsettings);
-
-
-
-        });
-
-    </script>
+    
 </head>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+      <img src="recursos/img/LogoNegativo.svg" height="100%">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-<nav class="navbar navbar-inverse" role="navigation">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="<c:url value="/index.htm" />">Inicio<span class="sr-only">(current)</span></a>
+      </li>
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="<c:url value="/factsQueEs.htm" />" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <spring:message code="facts.FACTS"/>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="<c:url value="/facts.htm" />"><spring:message code="facts.FACTSQueEs"/></a>
+          <a class="dropdown-item" href="<c:url value="/factsQueIncluye.htm" />"><spring:message code="facts.FACTSQueIncluye"/></a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="<c:url value="/factsPrecios.htm" />"><spring:message code="facts.FACTSPrecios"/></a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="<c:url value="/smartClover.htm" />">Smart Clover</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="<c:url value="/bamboo.htm" />">Bamboo Montessori</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<!--<nav class="navbar navbar-inverse" role="navigation">
     <div class="navbar-header">
         <button type="button" class="navbar-toggle uarr collapsed" data-toggle="collapse" data-target="#navbar-collapse-uarr">
             <span class="icon-bar"></span>
@@ -237,8 +121,8 @@
 
         </ul>
             
-    </div><!-- .navbar-collapse -->
-</nav>
+    </div> .navbar-collapse 
+</nav>-->
 <!--
 <nav class="navbar navbar-inverse">
     <div class="container-fluid">

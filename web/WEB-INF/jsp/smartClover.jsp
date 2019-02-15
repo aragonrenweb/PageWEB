@@ -1,22 +1,11 @@
 <!DOCTYPE html>
 <html>
-
+<%@ include file="nav.jsp" %>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" media="all" href="recursos/css/main.css" />
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-        <script src="recursos/js/modernizr.custom.37797.js"></script>  
-        <script src="recursos/js/parallax.js"></script>
+        
         <title id='t1'>Smart Clover</title>
         <style>
-            body {
-                margin: 0;
-                font-family: sans-serif;
-                font-size: 24px;
-                overflow-x: hidden;
-            }
 
             #bgFila7{
 
@@ -372,7 +361,7 @@
     </head>
 
     <body>
-        <%@ include file="nav.jsp" %>
+        
 
 
         <section  class="hero">

@@ -4,12 +4,7 @@
     Author     : Jesus
 --%>
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@taglib prefix="jstl" uri="http://java.sun.com/jstl/core_rt"%>
-<%@taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@taglib prefix="spring" uri="http://www.springframework.org/tags"%>
-<script src="recursos/js/jquery-1.6.1.min.js"></script>
+
 <!DOCTYPE html>
 <html>
 
@@ -17,7 +12,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
         <title>Bamboo Montessori</title>
-        <style>
+<style>
             body {
                 margin: 0;
                 font-family: sans-serif;
@@ -67,7 +62,7 @@
             .wrap {
                 width: 80%;
                 max-width: 24em;
-                margin: 100px;
+                margin: 200px;
                 padding: 0.25em 0.625em;
                 text-align: center;
 
@@ -434,7 +429,7 @@
             <div class="col-xs-12">
                 <hr>
             </div>
-            <div class="container" style="margin-top: 140px;">
+            <div class="row" style="margin-top: 140px;">
                 <div class="col-xs-12" style="text-align: center;">
                     <h5 style="text-align: center; font-size: 24pt; color: darkgreen; " data-aos="fade-down">Bamboo for Supervisors</h5>
                     <p style="font-size: 16pt;">BAMBOO helps schools stop using paper, digitize their records and keep learners' progress and historical data.</p>
@@ -463,9 +458,9 @@
             <div class="col-xs-12">
                 <hr>
             </div>
-            <div class="container sinpadding" style="margin-top: 140px;">
+            <div class="row" style="margin-top: 140px;">
 
-                <div class="col-lg-12" style="text-align: center; margin-bottom: 20px;">
+                <div class="col" style="text-align: center; margin-bottom: 20px;">
                     <h5 style="text-align: center; font-size: 24pt; color: darkgreen; " data-aos="fade-down">Bamboo for Parents</h5>
                     <p style="font-size: 16pt;">Parents can see week by week how their child is doing in the classroom.<br> The portal is very easy and simple, even parents who are not experts in technology will happily use it.</p>
                 </div>
@@ -526,7 +521,21 @@
                     </div>
                 </div>
             </div>
-            <div class="container">
+            <div class="row">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" data-interval="50" data-src="recursos/img/bamboo/quotation.jpg" alt="First slide [800x400]" src="recursos/img/bamboo/quotation.jpg" data-holder-rendered="true">
+
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" data-interval="50" data-src="recursos/img/bamboo/quotation1.jpg" alt="Second slide" src="recursos/img/bamboo/quotation1.jpg" data-holder-rendered="true">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" data-interval="50" data-src="recursos/img/bamboo/quotation.jpg" alt="First slide [800x400]" src="recursos/img/bamboo/quotation.jpg" data-holder-rendered="true">
+                        </div>
+                    </div>
+                </div>
                 <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carousel" data-slide-to="0" class="active"></li>

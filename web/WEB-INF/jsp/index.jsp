@@ -3,18 +3,14 @@
     "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
+    <%@ include file="nav.jsp" %>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>EduWEBgroup</title>
-        <link rel="stylesheet" media="all" href="recursos/css/main.css" />
-        <script src="recursos/js/modernizr.custom.37797.js"></script>
-        <script src="recursos/js/jquery-1.6.1.min.js"></script>
-        <script src="recursos/js/parallax.js"></script>
-        
     </head>
 
     <body>
-        <%@ include file="nav.jsp" %>
+        
         <div class="container">
             <div id="wrapper">
 			
