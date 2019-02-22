@@ -13,16 +13,14 @@
     </body>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        $("#primary a").click(function (e) {
-            e.preventDefault();
-
-            var position = $($(this).attr("href")).offset().top;
-
-            $("body, html").animate({
-                scrollTop: position
-            } /* speed */);
-        });
-         
+        
+    $("#primary a").click(function (e) {
+                    e.preventDefault(); 
+                    var position = $($(this).attr("href")).offset().top; 
+                    $("body, html").animate({
+                        scrollTop: position
+                    }  );
+                }); 
         AOS.init();
     </script>
 </html>
