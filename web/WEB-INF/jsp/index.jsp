@@ -45,8 +45,7 @@
             }
             .colorFACTSsub
             {
-                background-color: #29abe2;
-                opacity: 0.5;
+                background-color: #81cae8;
                 transform: skewX(-4deg);
 
             }
@@ -64,8 +63,7 @@
             }
             .colorBAMBOOsub
             {
-                background-color: #66c34e;
-                opacity: 0.5;
+                background-color: #a5ca9b;
                 transform: skewX(-4deg);
             }
             .colorSMARTCLOVER
@@ -75,8 +73,7 @@
             }
             .colorSMARTCLOVERsub
             {
-                background-color: #357624;
-                opacity: 0.5;
+                background-color: #57754f;
                 transform: skewX(-4deg);
             }
             .colorSCHEDULE
@@ -86,8 +83,7 @@
             }
             .colorSCHEDULEsub
             {
-                background-color: #0d253f;
-                opacity: 0.5;
+                background-color: #5a7da2;
                 transform: skewX(-4deg);
             }
             .menu
@@ -100,16 +96,42 @@
                 transform: skewX(4deg);
             }
 
+            .colFirstLayer{
+                z-index:5;
+            } 
+            .colSubLayer{
+                z-index:4;
+            }
+            .menu{
+                background-color: #0d253f;
+            }
         </style>
         <script>
             $(document).ready(function () {
                 $(".colorFACTS").click(function () {
-                    $(".colorFACTSsub").toggle("slide", 1000);
+                    hideLayers();
+                    $(".colorFACTSsub").show();
+                    $(".colorFACTSsub").css("left", -300);
+                    $(".colorFACTSsub").animate({
+                        left: 0
+                    }, {
+                        duration: 1325,
+                        step: function (now, fx) {
+                            $(this).css("left", now);
+                        }
+                    });
 
-                });
-                $(".colorBAMBOO").click(function () {
-                    $(".colorBAMBOOsub").toggle("slide", 1000);
-                    $(".colorSMARTCLOVER").css("left", -250);
+                    $(".colorBAMBOO").css("left", -300);
+                    $(".colorBAMBOO").animate({
+                        left: 0
+                    }, {
+                        duration: 1325,
+                        step: function (now, fx) {
+                            $(this).css("left", now);
+                        }
+                    });
+
+                    $(".colorSMARTCLOVER").css("left", -300);
                     $(".colorSMARTCLOVER").animate({
                         left: 0
                     }, {
@@ -118,14 +140,144 @@
                             $(this).css("left", now);
                         }
                     });
+
+                    $(".colorSCHEDULE").css("left", -300);
+                    $(".colorSCHEDULE").animate({
+                        left: 0
+                    }, {
+                        duration: 1325,
+                        step: function (now, fx) {
+                            $(this).css("left", now);
+                        }
+                    });
+
                 });
+                $(".colorBAMBOO").click(function () {
+                    $(".colSubLayer").hide(2000, function () {
+
+
+                        $(".colorBAMBOOsub").show();
+                        $(".colorBAMBOOsub").css("left", -300);
+                        $(".colorBAMBOOsub").animate({
+                            left: 0
+                        }, {
+                            duration: 1325,
+                            step: function (now, fx) {
+                                $(this).css("left", now);
+                            }
+                        });
+
+                        $(".colorSMARTCLOVER").css("left", -300);
+                        $(".colorSMARTCLOVER").animate({
+                            left: 0
+                        }, {
+                            duration: 1325,
+                            step: function (now, fx) {
+                                $(this).css("left", now);
+                            }
+                        });
+
+                        $(".colorSCHEDULE").css("left", -300);
+                        $(".colorSCHEDULE").animate({
+                            left: 0
+                        }, {
+                            duration: 1325,
+                            step: function (now, fx) {
+                                $(this).css("left", now);
+                            }
+                        });
+                    });
+                });
+
+                function hideColSubLayers() {
+                    if ($(".colSubLayer:visible").attr("class") == undefined)
+                        return;
+                    if ($(".colSubLayer:visible").attr("class").includes("colorFACTSsub")) { // FACTS 
+                        setTimeout(function () {
+                            $(".colorFACTSsub").hide();
+                        }, 1325);
+                        $(".colorBAMBOO").animate({
+                            left: -300
+                        }, {
+                            duration: 1325,
+                            step: function (now, fx) {
+                                $(this).css("left", now);
+                            }
+                        });
+
+
+                        $(".colorSMARTCLOVER").animate({
+                            left: -300
+                        }, {
+                            duration: 1325,
+                            step: function (now, fx) {
+                                $(this).css("left", now);
+                            }
+                        });
+
+                        $(".colorSCHEDULE").animate({
+                            left: -300
+                        }, {
+                            duration: 1325,
+                            step: function (now, fx) {
+                                $(this).css("left", now);
+                            }
+                        });
+
+
+                    } else if ($(".colSubLayer:visible").attr("class").includes("colorBAMBOOSsub")) { // BAMBOO
+
+                    } else if ($(".colSubLayer:visible").attr("class").includes("colorSMARTCLOVERsub")) { // SMARTCLOVER
+
+                    } else if ($(".colSubLayer:visible").attr("class").includes("colorSCHEDULEsub")) { //SCHEDULE
+
+                    }
+
+                }
+
                 $(".colorSMARTCLOVER").click(function () {
-                    $(".colorSMARTCLOVERsub").toggle("slide", 1000);
+                    hideLayers();
+                    $(".colorSMARTCLOVERsub").show();
+                    $(".colorSMARTCLOVERsub").css("left", -300);
+                    $(".colorSMARTCLOVERsub").animate({
+                        left: 0
+                    }, {
+                        duration: 1325,
+                        step: function (now, fx) {
+                            $(this).css("left", now);
+                        }
+                    });
+
+                    $(".colorSCHEDULE").css("left", -300);
+                    $(".colorSCHEDULE").animate({
+                        left: 0
+                    }, {
+                        duration: 1325,
+                        step: function (now, fx) {
+                            $(this).css("left", now);
+                        }
+                    });
                 });
                 $(".colorSCHEDULE").click(function () {
-                    $(".colorSCHEDULEsub").toggle("slide", 1000);
+                    hideLayers();
+                    $(".colorSCHEDULEsub").show();
+                    $(".colorSCHEDULEsub").css("left", -300);
+                    $(".colorSCHEDULEsub").animate({
+                        left: 0
+                    }, {
+                        duration: 1325,
+                        step: function (now, fx) {
+                            $(this).css("left", now);
+                        }
+                    });
+
+
                 });
             });
+            function hideLayers() {
+                $(".colSubLayer").hide();
+
+            }
         </script>
         <style type="text/css" id="gwd-text-style">p {
                 margin: 0px;
@@ -566,7 +718,7 @@
 
     <body>
         <div class="row menu">
-            <div class="col colorFACTS" >
+            <div class="col colorFACTS colFirstLayer" >
                 <div class="w-100 h-25 text-center my-auto">
 
                 </div>    
@@ -577,7 +729,7 @@
                     <a class="text-white" >FACTS</a>
                 </div> 
             </div>
-            <div class="col colorFACTSsub" style="display: none;">
+            <div class="col colorFACTSsub colSubLayer" style="display: none;">
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center">
                     Qué es
                 </div>
@@ -589,7 +741,7 @@
                 </div>
             </div>
 
-            <div class="col colorBAMBOO">
+            <div class="col colorBAMBOO colFirstLayer" >
                 <div class="w-100 h-25 text-center my-auto">
 
                 </div>    
@@ -600,7 +752,7 @@
                     <a class="text-white">BAMBOO</a>
                 </div> 
             </div>
-            <div class="col colorBAMBOOsub" style="display: none;">
+            <div class="col colorBAMBOOsub colSubLayer" style="display: none;">
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center">
                     Bamboo for Guides
                 </div>
@@ -615,7 +767,7 @@
                 </div>
             </div>
 
-            <div class="col colorSMARTCLOVER">
+            <div class="col colorSMARTCLOVER colFirstLayer">
                 <div class="w-100 h-25 text-center my-auto">
 
                 </div>    
@@ -626,7 +778,7 @@
                     <a class="text-white">Smart Clover</a>
                 </div> 
             </div>
-            <div class="col colorSMARTCLOVERsub" style="display: none;">
+            <div class="col colorSMARTCLOVERsub colSubLayer" style="display: none;">
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center">
                     Smart for Guides
                 </div>
@@ -640,7 +792,7 @@
                     Smart Experience
                 </div>
             </div>
-            <div class="col colorSCHEDULE" data-toggle="collapse" href="#">
+            <div class="col colorSCHEDULE colFirstLayer" data-toggle="collapse" href="#">
                 <div class="w-100 h-25 text-center my-auto">
 
                 </div>    
@@ -651,7 +803,7 @@
                     <a class="text-white">Schedule</a>
                 </div> 
             </div>
-            <div class="col colorSCHEDULEsub" style="display: none;">
+            <div class="col colorSCHEDULEsub colSubLayer" style="display: none;">
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center">
                     Smart for Guides
                 </div>
@@ -666,6 +818,7 @@
                 </div>
             </div>
         </div>
+        <div class="col-12"><button class="btn btn-lg btn-da" onclick="hideColSubLayers()"> test</button></div>
         <div class="row htmlNoPages">
             <div class="col-12">
                 <img src="recursos/img/LogosMenu/LogoBamboo.svg" id="LogoBamboo" class="gwd-img-ccdq gwd-gen-1rq8gwdanimation">
