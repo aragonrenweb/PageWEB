@@ -24,13 +24,6 @@
         <script src="recursos/js/bootstrap.bundle.js" type="text/javascript"></script>
         <script src="recursos/js/jquery-ui.js" type="text/javascript"></script>
 
-
-        <!--<script src="recursos/js/modernizr.custom.37797.js"></script>
-            <script src="recursos/js/jquery-1.6.1.min.js"></script>
-            <script src="recursos/js/parallax.js"></script>-->
-
-
-        <!--    <script src="recursos/js/jquery-3.2.1.slim.min.js" type="text/javascript"></script>-->
         <script src="recursos/js/popper.js" type="text/javascript"></script>
         <script src="recursos/js/bootstrap.js" type="text/javascript"></script>
 
@@ -105,172 +98,242 @@
             .menu{
                 background-color: #0d253f;
             }
+            .cardPrincipalFacts{
+                background: rgba(255,255,255,1);
+                background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 34%, rgba(190,232,250,1) 34%, rgba(190,232,250,1) 59%, rgba(255,255,255,1) 59%, rgba(255,255,255,1) 100%);
+                background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(34%, rgba(246,246,246,1)), color-stop(34%, rgba(190,232,250,1)), color-stop(59%, rgba(190,232,250,1)), color-stop(59%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+                background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 34%, rgba(190,232,250,1) 34%, rgba(190,232,250,1) 59%, rgba(255,255,255,1) 59%, rgba(255,255,255,1) 100%);
+                background: -o-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 34%, rgba(190,232,250,1) 34%, rgba(190,232,250,1) 59%, rgba(255,255,255,1) 59%, rgba(255,255,255,1) 100%);
+                background: -ms-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 34%, rgba(190,232,250,1) 34%, rgba(190,232,250,1) 59%, rgba(255,255,255,1) 59%, rgba(255,255,255,1) 100%);
+                background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 34%, rgba(190,232,250,1) 34%, rgba(190,232,250,1) 59%, rgba(255,255,255,1) 59%, rgba(255,255,255,1) 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 );
+            }
+            .bgFACTS{
+                background-color: #29abe2;
+            } 
+            .bgFACTS h1{
+                color:white;
+            }
+            .imgTitle{
+                right:0px;
+            }
+            .imgTitle img{
+                height:40px;
+                width:40px;
+            }
+            .cardInfo{
+
+            }
+            .cardInfo p{
+                font-size: medium;
+            }
+            .lineTopGray{
+                border-top: solid 1px #d6d6d6;
+            }
+            .cardPrincipalBamboo{
+                background: rgba(255,255,255,1);
+                background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(224,237,220,1) 35%, rgba(224,237,220,1) 59%, rgba(255,255,255,1) 59%, rgba(255,255,255,1) 100%);
+                background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(35%, rgba(255,255,255,1)), color-stop(35%, rgba(224,237,220,1)), color-stop(59%, rgba(224,237,220,1)), color-stop(59%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+                background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(224,237,220,1) 35%, rgba(224,237,220,1) 59%, rgba(255,255,255,1) 59%, rgba(255,255,255,1) 100%);
+                background: -o-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(224,237,220,1) 35%, rgba(224,237,220,1) 59%, rgba(255,255,255,1) 59%, rgba(255,255,255,1) 100%);
+                background: -ms-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(224,237,220,1) 35%, rgba(224,237,220,1) 59%, rgba(255,255,255,1) 59%, rgba(255,255,255,1) 100%);
+                background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(224,237,220,1) 35%, rgba(224,237,220,1) 59%, rgba(255,255,255,1) 59%, rgba(255,255,255,1) 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 );
+            }
+            .bgBamboo{
+                background-color: #66c34e; 
+            } 
+            .bgBamboo h1{
+                color:white;
+            } 
+            .cardPrincipalSmartClover{
+                background: rgba(255,255,255,1);
+                background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(173,189,168,1) 35%, rgba(173,189,168,1) 59%, rgba(255,255,255,1) 59%, rgba(255,255,255,1) 100%);
+                background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(35%, rgba(255,255,255,1)), color-stop(35%, rgba(173,189,168,1)), color-stop(59%, rgba(173,189,168,1)), color-stop(59%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+                background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(173,189,168,1) 35%, rgba(173,189,168,1) 59%, rgba(255,255,255,1) 59%, rgba(255,255,255,1) 100%);
+                background: -o-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(173,189,168,1) 35%, rgba(173,189,168,1) 59%, rgba(255,255,255,1) 59%, rgba(255,255,255,1) 100%);
+                background: -ms-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(173,189,168,1) 35%, rgba(173,189,168,1) 59%, rgba(255,255,255,1) 59%, rgba(255,255,255,1) 100%);
+                background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(173,189,168,1) 35%, rgba(173,189,168,1) 59%, rgba(255,255,255,1) 59%, rgba(255,255,255,1) 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 ); 
+            }
+            .bgSmartClover{
+                background-color: #357624; 
+            } 
+            .bgSmartClover h1{
+                color:white;
+            }
+
         </style>
         <script>
             $(document).ready(function () {
                 $(".colorFACTS").click(function () {
-                    hideLayers();
-                    $(".colorFACTSsub").show();
-                    $(".colorFACTSsub").css("left", -300);
-                    $(".colorFACTSsub").animate({
-                        left: 0
-                    }, {
-                        duration: 1325,
-                        step: function (now, fx) {
-                            $(this).css("left", now);
-                        }
-                    });
-
-                    $(".colorBAMBOO").css("left", -300);
-                    $(".colorBAMBOO").animate({
-                        left: 0
-                    }, {
-                        duration: 1325,
-                        step: function (now, fx) {
-                            $(this).css("left", now);
-                        }
-                    });
-
-                    $(".colorSMARTCLOVER").css("left", -300);
-                    $(".colorSMARTCLOVER").animate({
-                        left: 0
-                    }, {
-                        duration: 1325,
-                        step: function (now, fx) {
-                            $(this).css("left", now);
-                        }
-                    });
-
-                    $(".colorSCHEDULE").css("left", -300);
-                    $(".colorSCHEDULE").animate({
-                        left: 0
-                    }, {
-                        duration: 1325,
-                        step: function (now, fx) {
-                            $(this).css("left", now);
-                        }
-                    });
-
+                    hideColSubLayers();
+                    $('.colorFACTSsub').animate({'max-width': '24%'}, 500);
+                    /*$(".colorFACTSsub").show();
+                     $(".colorFACTSsub").css("left", -300);
+                     $(".colorFACTSsub").animate({
+                     left: 0
+                     }, {
+                     duration: 1325,
+                     step: function (now, fx) {
+                     $(this).css("left", now);
+                     }
+                     });
+                     
+                     $(".colorBAMBOO").css("left", -300);
+                     $(".colorBAMBOO").animate({
+                     left: 0
+                     }, {
+                     duration: 1325,
+                     step: function (now, fx) {
+                     $(this).css("left", now);
+                     }
+                     });
+                     
+                     $(".colorSMARTCLOVER").css("left", -300);
+                     $(".colorSMARTCLOVER").animate({
+                     left: 0
+                     }, {
+                     duration: 1325,
+                     step: function (now, fx) {
+                     $(this).css("left", now);
+                     }
+                     });
+                     
+                     $(".colorSCHEDULE").css("left", -300);
+                     $(".colorSCHEDULE").animate({
+                     left: 0
+                     }, {
+                     duration: 1325,
+                     step: function (now, fx) {
+                     $(this).css("left", now);
+                     }
+                     });
+                     */
                 });
                 $(".colorBAMBOO").click(function () {
-                    $(".colSubLayer").hide(2000, function () {
-
-
-                        $(".colorBAMBOOsub").show();
-                        $(".colorBAMBOOsub").css("left", -300);
-                        $(".colorBAMBOOsub").animate({
-                            left: 0
-                        }, {
-                            duration: 1325,
-                            step: function (now, fx) {
-                                $(this).css("left", now);
-                            }
-                        });
-
-                        $(".colorSMARTCLOVER").css("left", -300);
-                        $(".colorSMARTCLOVER").animate({
-                            left: 0
-                        }, {
-                            duration: 1325,
-                            step: function (now, fx) {
-                                $(this).css("left", now);
-                            }
-                        });
-
-                        $(".colorSCHEDULE").css("left", -300);
-                        $(".colorSCHEDULE").animate({
-                            left: 0
-                        }, {
-                            duration: 1325,
-                            step: function (now, fx) {
-                                $(this).css("left", now);
-                            }
-                        });
-                    });
+                    hideColSubLayers();
+                    $('.colorBAMBOOsub').animate({'max-width': '24%'}, 500);
+                    /*
+                     hideLayers();
+                     $(".colorBAMBOOsub").show();
+                     $(".colorBAMBOOsub").css("left", -300);
+                     $(".colorBAMBOOsub").animate({
+                     left: 0
+                     }, {
+                     duration: 1325,
+                     step: function (now, fx) {
+                     $(this).css("left", now);
+                     }
+                     });
+                     
+                     $(".colorSMARTCLOVER").css("left", -300);
+                     $(".colorSMARTCLOVER").animate({
+                     left: 0
+                     }, {
+                     duration: 1325,
+                     step: function (now, fx) {
+                     $(this).css("left", now);
+                     }
+                     });
+                     
+                     $(".colorSCHEDULE").css("left", -300);
+                     $(".colorSCHEDULE").animate({
+                     left: 0
+                     }, {
+                     duration: 1325,
+                     step: function (now, fx) {
+                     $(this).css("left", now);
+                     }
+                     });
+                     */
                 });
 
                 function hideColSubLayers() {
-                    if ($(".colSubLayer:visible").attr("class") == undefined)
-                        return;
-                    if ($(".colSubLayer:visible").attr("class").includes("colorFACTSsub")) { // FACTS 
-                        setTimeout(function () {
-                            $(".colorFACTSsub").hide();
-                        }, 1325);
-                        $(".colorBAMBOO").animate({
-                            left: -300
-                        }, {
-                            duration: 1325,
-                            step: function (now, fx) {
-                                $(this).css("left", now);
-                            }
-                        });
+                    var cssObj = {'max-width': '0%'};
+                    $('.colorFACTSsub').animate(cssObj, 500);
+                    $('.colorBAMBOOsub').animate(cssObj, 500);
+                    $('.colorSMARTCLOVERsub').animate(cssObj, 500);
+                    $('.colorSCHEDULEsub').animate(cssObj, 500);
+                    /*if ($(".colSubLayer:visible").attr("class") == undefined)
+                     return;
+                     if ($(".colSubLayer:visible").attr("class").includes("colorFACTSsub")) { // FACTS 
+                     setTimeout(function () {
+                     $(".colorFACTSsub").hide();
+                     }, 1325);
+                     $(".colorBAMBOO").animate({
+                     left: -300
+                     }, {
+                     duration: 1325,
+                     step: function (now, fx) {
+                     $(this).css("left", now);
+                     }
+                     });
+                     
+                     
+                     $(".colorSMARTCLOVER").animate({
+                     left: -300
+                     }, {
+                     duration: 1325,
+                     step: function (now, fx) {
+                     $(this).css("left", now);
+                     }
+                     });
+                     
+                     $(".colorSCHEDULE").animate({
+                     left: -300
+                     }, {
+                     duration: 1325,
+                     step: function (now, fx) {
+                     $(this).css("left", now);
+                     }
+                     });*/
 
-
-                        $(".colorSMARTCLOVER").animate({
-                            left: -300
-                        }, {
-                            duration: 1325,
-                            step: function (now, fx) {
-                                $(this).css("left", now);
-                            }
-                        });
-
-                        $(".colorSCHEDULE").animate({
-                            left: -300
-                        }, {
-                            duration: 1325,
-                            step: function (now, fx) {
-                                $(this).css("left", now);
-                            }
-                        });
-
-
-                    } else if ($(".colSubLayer:visible").attr("class").includes("colorBAMBOOSsub")) { // BAMBOO
-
-                    } else if ($(".colSubLayer:visible").attr("class").includes("colorSMARTCLOVERsub")) { // SMARTCLOVER
-
-                    } else if ($(".colSubLayer:visible").attr("class").includes("colorSCHEDULEsub")) { //SCHEDULE
-
-                    }
 
                 }
 
-                $(".colorSMARTCLOVER").click(function () {
-                    hideLayers();
-                    $(".colorSMARTCLOVERsub").show();
-                    $(".colorSMARTCLOVERsub").css("left", -300);
-                    $(".colorSMARTCLOVERsub").animate({
-                        left: 0
-                    }, {
-                        duration: 1325,
-                        step: function (now, fx) {
-                            $(this).css("left", now);
-                        }
-                    });
 
-                    $(".colorSCHEDULE").css("left", -300);
-                    $(".colorSCHEDULE").animate({
-                        left: 0
-                    }, {
-                        duration: 1325,
-                        step: function (now, fx) {
-                            $(this).css("left", now);
-                        }
-                    });
+                $(".colorSMARTCLOVER").click(function () {
+                    hideColSubLayers();
+                    $('.colorSMARTCLOVERsub').animate({'max-width': '24%'}, 500);
+                    /* hideLayers();
+                     $(".colorSMARTCLOVERsub").show();
+                     $(".colorSMARTCLOVERsub").css("left", -300);
+                     $(".colorSMARTCLOVERsub").animate({
+                     left: 0
+                     }, {
+                     duration: 1325,
+                     step: function (now, fx) {
+                     $(this).css("left", now);
+                     }
+                     });
+                     
+                     $(".colorSCHEDULE").css("left", -300);
+                     $(".colorSCHEDULE").animate({
+                     left: 0
+                     }, {
+                     duration: 1325,
+                     step: function (now, fx) {
+                     $(this).css("left", now);
+                     }
+                     });*/
                 });
                 $(".colorSCHEDULE").click(function () {
-                    hideLayers();
-                    $(".colorSCHEDULEsub").show();
-                    $(".colorSCHEDULEsub").css("left", -300);
-                    $(".colorSCHEDULEsub").animate({
-                        left: 0
-                    }, {
-                        duration: 1325,
-                        step: function (now, fx) {
-                            $(this).css("left", now);
-                        }
-                    });
-
+                    hideColSubLayers();
+                    $('.colorSCHEDULEsub').animate({'max-width': '24%'}, 500);
+                    /*
+                     hideLayers();
+                     $(".colorSCHEDULEsub").show();
+                     $(".colorSCHEDULEsub").css("left", -300);
+                     $(".colorSCHEDULEsub").animate({
+                     left: 0
+                     }, {
+                     duration: 1325,
+                     step: function (now, fx) {
+                     $(this).css("left", now);
+                     }
+                     });
+                     */
 
                 });
             });
@@ -717,8 +780,8 @@
     </head>
 
     <body>
-        <div class="row menu">
-            <div class="col colorFACTS colFirstLayer" >
+        <div class="d-none d-md-flex row menu">
+            <div class="col colorFACTS colFirstLayer p-0" >
                 <div class="w-100 h-25 text-center my-auto">
 
                 </div>    
@@ -729,7 +792,7 @@
                     <a class="text-white" >FACTS</a>
                 </div> 
             </div>
-            <div class="col colorFACTSsub colSubLayer" style="display: none;">
+            <div class="col colorFACTSsub colSubLayer p-0"  style="max-width: 0%;"  >
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center">
                     Qué es
                 </div>
@@ -741,7 +804,7 @@
                 </div>
             </div>
 
-            <div class="col colorBAMBOO colFirstLayer" >
+            <div class="col colorBAMBOO colFirstLayer p-0" >
                 <div class="w-100 h-25 text-center my-auto">
 
                 </div>    
@@ -752,7 +815,7 @@
                     <a class="text-white">BAMBOO</a>
                 </div> 
             </div>
-            <div class="col colorBAMBOOsub colSubLayer" style="display: none;">
+            <div class="col colorBAMBOOsub colSubLayer p-0" style="max-width: 0%;">
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center">
                     Bamboo for Guides
                 </div>
@@ -767,7 +830,7 @@
                 </div>
             </div>
 
-            <div class="col colorSMARTCLOVER colFirstLayer">
+            <div class="col colorSMARTCLOVER colFirstLayer p-0">
                 <div class="w-100 h-25 text-center my-auto">
 
                 </div>    
@@ -778,7 +841,7 @@
                     <a class="text-white">Smart Clover</a>
                 </div> 
             </div>
-            <div class="col colorSMARTCLOVERsub colSubLayer" style="display: none;">
+            <div class="col colorSMARTCLOVERsub colSubLayer p-0" style="max-width: 0%;">
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center">
                     Smart for Guides
                 </div>
@@ -792,7 +855,7 @@
                     Smart Experience
                 </div>
             </div>
-            <div class="col colorSCHEDULE colFirstLayer" data-toggle="collapse" href="#">
+            <div class="col colorSCHEDULE colFirstLayer p-0" data-toggle="collapse" href="#">
                 <div class="w-100 h-25 text-center my-auto">
 
                 </div>    
@@ -803,7 +866,7 @@
                     <a class="text-white">Schedule</a>
                 </div> 
             </div>
-            <div class="col colorSCHEDULEsub colSubLayer" style="display: none;">
+            <div class="col colorSCHEDULEsub colSubLayer p-0" style="max-width: 0%;">
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center">
                     Smart for Guides
                 </div>
@@ -817,15 +880,132 @@
                     Smart Experience
                 </div>
             </div>
-        </div>
-        <div class="col-12"><button class="btn btn-lg btn-da" onclick="hideColSubLayers()"> test</button></div>
-        <div class="row htmlNoPages">
-            <div class="col-12">
-                <img src="recursos/img/LogosMenu/LogoBamboo.svg" id="LogoBamboo" class="gwd-img-ccdq gwd-gen-1rq8gwdanimation">
-                <img src="recursos/img/LogosMenu/LogoFacts.svg" id="LogoFacts" class="gwd-img-35e9 gwd-gen-12ypgwdanimation">
-                <img src="recursos/img/LogosMenu/LogoSmartClover.svg" id="LogoSmartClover" class="gwd-img-7uku gwd-gen-18qsgwdanimation">
-                <img src="recursos/img/LogosMenu/Logo_LogoPositivo.svg" id="Logo_LogoPositivo" class="gwd-img-1twf gwd-gen-1vnrgwdanimation">
+        </div> 
+        <!--<div class="row htmlNoPages">
+             <div class="col-12">
+                 <img src="recursos/img/LogosMenu/LogoBamboo.svg" id="LogoBamboo" class="gwd-img-ccdq gwd-gen-1rq8gwdanimation">
+                 <img src="recursos/img/LogosMenu/LogoFacts.svg" id="LogoFacts" class="gwd-img-35e9 gwd-gen-12ypgwdanimation">
+                 <img src="recursos/img/LogosMenu/LogoSmartClover.svg" id="LogoSmartClover" class="gwd-img-7uku gwd-gen-18qsgwdanimation">
+                 <img src="recursos/img/LogosMenu/Logo_LogoPositivo.svg" id="Logo_LogoPositivo" class="gwd-img-1twf gwd-gen-1vnrgwdanimation">
+             </div>
+         </div>-->
+        <div class="row cardPrincipalFacts">
+            <div class="col-12 bgFACTS d-flex d-md-none" > 
+                <div class="col-12 d-flex align-items-center justify-content-center">
+                    <h1>FACTS</h1>
+                </div>
+                <div class="position-absolute imgTitle">
+                    <a class="navbar-brand logoMenuApps" href="#">
+                        <img src="recursos/img/LogosMenu/LogoFacts.svg"/>
+                    </a> 
+                </div> 
+            </div>
+            <div class="col-12 cardInfo">
+                <div class="col-12"><h4 class="text-center">Qué es?</h4></div> 
+                <div class="col-10 offset-1 text-center">
+                    <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s.
+                    </p>
+                    <footer>mas información</footer>
+                </div>
+            </div>
+            <div class="col-12 cardInfo lineTopGray">
+                <div class="col-12"><h4 class="text-center">Qué incluye?</h4></div> 
+                <div class="col-10 offset-1 text-center">
+                    <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+                    <footer>mas información</footer>
+                </div>
+            </div>
+            <div class="col-12 cardInfo lineTopGray">
+                <div class="col-12"><h4 class="text-center">Qué se personaliza?</h4></div> 
+                <div class="col-10 offset-1 text-center">
+                    <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+                    <footer>mas información</footer>
+                </div>
             </div>
         </div>
+        <div class="row cardPrincipalBamboo">
+            <div class="col-12 bgBamboo d-flex d-md-none" > 
+                <div class="col-12 d-flex align-items-center justify-content-center">
+                    <h1>Bamboo</h1>
+                </div>
+                <div class="position-absolute imgTitle">
+                    <a class="navbar-brand logoMenuApps" href="#">
+                        <img src="recursos/img/LogosMenu/LogoBamboo.svg"/>
+                    </a> 
+                </div> 
+            </div>
+            <div class="col-12 cardInfo">
+                <div class="col-12"><h4 class="text-center">Qué es?</h4></div> 
+                <div class="col-10 offset-1 text-center">
+                    <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s.
+                    </p>
+                    <footer>mas información</footer>
+                </div>
+            </div>
+            <div class="col-12 cardInfo lineTopGray">
+                <div class="col-12"><h4 class="text-center">Qué incluye?</h4></div> 
+                <div class="col-10 offset-1 text-center">
+                    <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+                    <footer>mas información</footer>
+                </div>
+            </div>
+            <div class="col-12 cardInfo lineTopGray">
+                <div class="col-12"><h4 class="text-center">Qué se personaliza?</h4></div> 
+                <div class="col-10 offset-1 text-center">
+                    <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+                    <footer>mas información</footer>
+                </div>
+            </div>
+        </div>
+        <div class="row cardPrincipalSmartClover">
+            <div class="col-12 bgSmartClover d-flex d-md-none" > 
+                <div class="col-12 d-flex align-items-center justify-content-center">
+                    <h1>Smart Clover</h1>
+                </div>
+                <div class="position-absolute imgTitle">
+                    <a class="navbar-brand logoMenuApps" href="#">
+                        <img src="recursos/img/LogosMenu/LogoSmartClover.svg"/>
+                    </a> 
+                </div> 
+            </div>
+            <div class="col-12 cardInfo">
+                <div class="col-12"><h4 class="text-center">Qué es?</h4></div> 
+                <div class="col-10 offset-1 text-center">
+                    <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s.
+                    </p>
+                    <footer>mas información</footer>
+                </div>
+            </div>
+            <div class="col-12 cardInfo lineTopGray">
+                <div class="col-12"><h4 class="text-center">Qué incluye?</h4></div> 
+                <div class="col-10 offset-1 text-center">
+                    <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+                    <footer>mas información</footer>
+                </div>
+            </div>
+            <div class="col-12 cardInfo lineTopGray">
+                <div class="col-12"><h4 class="text-center">Qué se personaliza?</h4></div> 
+                <div class="col-10 offset-1 text-center">
+                    <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+                    <footer>mas información</footer>
+                </div>
+            </div>
+        </div>
+
     </body>
 </html>

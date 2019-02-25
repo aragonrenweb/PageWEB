@@ -204,8 +204,7 @@
             </a>
             <a class="navbar-brand logoMenuApps" id="logoMenuApp4" onclick="showIconsApps()" href="#">
                 <img src="recursos/img/smartClover/logoSmartCloverNew3.svg" >
-            </a>
-
+            </a> 
         </div>
     </div>
 
