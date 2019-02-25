@@ -663,7 +663,7 @@
                         <div class="headingSmart col-12  col-md-10 offset-md-1 col-xl-8 offset-xl-2" >
                             <h1>PERSONAL DIRECTIVO.</h1>
                         </div>
-                        <div class="col-12">                             
+                        <div class="col-12" style="text-align:justify;"> <div class="d-none d-lg-block  col-2 lineTop"></div>                             
                                 <p>LLevar el manejo y control de cada uno de los módulos disponibles en FACTS, es una tarea facil de realizar pero que exige del trabajo del personal de Administración para realizar tareas de configuración y uso de ciertas herramientas que son exclusivas del personal directivo de la escuela.</p>
                                 <p>El manejo del sistema de seguridad de acceso a los diferentes módulos y la impresión de los informes, son dos de las tareas mas importantes que deberá gestionar el personal directivo. Un control riguroso de los permisos de seguridad, proporcionará a la escuela la fiabilidad necesaria para las tareas diarias.</p>                           
                         </div> 
@@ -708,13 +708,13 @@
                                                 <span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Información de Familia y Estudiante</span></span>  
                                             </li>
                                             <li class="font_8" style="font-size:18px; line-height:1.5em;">
-                                                <span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Comportamiento</span></span>  
+                                                <span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Admisiones</span></span>  
                                             </li>
                                         </ul>                                
                             </div>
                         </div>
                     </div> 
-                    <div class="col-6" style="padding:10px;">
+                    <div class="col-6" data-aos="fade-left"  data-aos-offset="300" style="padding:10px;">
                         <!--- METER LAS IMAGENES  --->
                         <img data-type="image" src="recursos/img/Facts/ReportCard.png" height="400" width="700">                      
                     </div>
@@ -726,123 +726,119 @@
      <!--- COMIENZA SECCIÓN PROFESORES ---->           
         
         <div class="col-xs-6 col-xs-offset-3"><hr></div>
-        <div class="col-6 offset-3 hrSmart"></div> 
+        <div class="col-6 offset-3 hrSmart"></div> <br>
             <div class="container-fluid">
-                <div class="row fila" id="fila1">  
-                    <div class="col-xs-12 col-md-6  col-xl-5 offset-xl-1 filaVideo" data-aos="fade-left"  data-aos-offset="300"> 
-                        <div class=" col-xs-12  col-md-10 offset-md-1 col-xl-8 offset-xl-2"> 
-                            <img data-type="image" src="recursos/img/Facts/ReportCard.png" height="400" width="700">  
-                        </div> 
+                <div class="row fila" id="fila1">
+                    <div class="col-xs-12 col-md-6  col-xl-5 offset-xl-1 filaVideo" data-aos="fade-left"  data-aos-offset="300">                      
+                            <img data-type="image" src="recursos/img/Facts/gradebook.png" height="400" width="700" align="left">                           
                     </div> 
                     <div class="col-xs-12 col-md-6 col-xl-5"> 
                         <!--<div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">--> 
                         <div class="headingSmart col-12  col-md-10 offset-md-1 col-lg-8 offset-lg-2 " >
                             <h1>PROFESORES.</h1>
                         </div>
-                        <div class="articleSmart col-12  col-md-10 offset-md-1 col-xl-8 offset-xl-2">  
+                        <div class="col-12" style="text-align:justify;">  
                               <div class="d-none d-lg-block  col-2 lineTop"></div>
                             <div class="col-xs-12 col-md-10 col-xl-10  ">
-                                <p><u>Smart Clover</u> offers parents all the information they are looking for and helps with the overall communication, in real time.</p>
-                                
+                                <p>En un entorno intuitivo, los profesores podrán llevar a cabo el control diario de las actividades de las clases que tienen asignadas, control de asistencia, tareas diarias e incluso interactuar con los estudiantes online fuera del horario lectivo.</p>
+                                <div class="col-12 col-md-6">
+                                        <ul class="font_8" style="list-style:circle">
+                                            <li class="font_8" style="font-size:18px; line-height:1.5em;">
+                                                <span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Learning Management System</span></span>
+                                            </li>
+                                            <li class="font_8" style="font-size:18px; line-height:1.5em;">
+                                                <span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Asistencia</span></span>
+                                            </li>
+                                            <li class="font_8" style="font-size:18px; line-height:1.5em;">
+                                                <span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Evaluación continua (Gradebook)</span></span>                           
+                                            </li>
+                                            <li class="font_8" style="font-size:18px; line-height:1.5em;">
+                                                <span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Informes</span></span>  
+                                            </li>
+                                            <li class="font_8" style="font-size:18px; line-height:1.5em;">
+                                                <span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Comportamiento</span></span>  
+                                            </li>
+                                            <li class="font_8" style="font-size:18px; line-height:1.5em;">
+                                                <span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Envío masivo de correo electrónico</span></span>  
+                                            </li>
+                                        </ul>
+                                </div>                          
                             </div>
                         </div> 
                     </div> 
-                </div> 
+                </div> <br>
             </div>
         
-        
-        
-        
-        
+                
                 
 <!--- COMIENZA SECCIÓN PADRES DE FAMILIA ---->  
             
-            <div class="col-xs-6 col-xs-offset-3"><hr></div>
-            <div class="col-xs-12 fila" id="fila3">
-                <!-- <div id="fila1Video" class="hidden">
-                     <video autoplay muted loop id="myVideo" width="100%">
-                         <source src="recursos/img/smartClover/smartClover_video1.mp4" type="video/mp4">
-                     </video>  
-                 </div>-->
-                <div class="filaContenido">
-                    <div class="col-xs-12 col-md-6 " id="fila5"> 
-                        <!--<div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">--> 
-                        <div class="headingSmart col-xs-10 col-xs-offset-1  col-lg-8 col-lg-offset-2">
+            <div class="col-xs-6 col-xs-offset-3"><hr></div>               
+                <div class="container-fluid">
+                <div class="row fila" id="fila3"> 
+                    <div class="col-12 col-md-6"> 
+                        <div class="headingSmart col-12  col-md-10 offset-md-1 col-xl-8 offset-xl-2" >
                             <h1 id="fila5">PADRES DE FAMILIA.</h1>
-                        </div>
-                        <div class="articleSmart col-xs-10 col-xs-offset-1 "> 
-                            <div class="col-xs-2 col-md-4 col-lg-3 col-lg-offset-1 lineTop" ></div>
-                            <div class="col-xs-10 col-md-8">
-                                <p>Los padres de familia podrán tener un completo conocimiento de la actividad de sus hijos en la escuela. Además de poder recibir correos electrónicos con información directa de la escuela referente a sus hijos, podrán acceder mediante la Web de Padres (Parent Web), a una completa información relativa a los hijos como por ejemplo boletines de notas, calendario escolar, tareas diarias de los estudiantes, información medica, asistencia, formularios web, contabilidad, Cafetería, matriculaciones, etc.</p><br>
-                                <div class="col-lg-12">
-                                
+                        </div>                           
+                                <div class="col-12" style="text-align:justify;"> <div class="d-none d-lg-block  col-2 lineTop"></div>
+                                    <p>Los padres de familia podrán tener un completo conocimiento de la actividad de sus hijos en la escuela. Además de poder recibir correos electrónicos con información directa de la escuela referente a sus hijos, podrán acceder mediante la Web de Padres (Parent Web), a una completa información relativa a los hijos como por ejemplo boletines de notas, calendario escolar, tareas diarias de los estudiantes, información medica, asistencia, formularios web, contabilidad, Cafetería, matriculaciones, etc.</p><br>
+                                </div> 
+                        
+                                <div class="fila col-12 row" style="margin-left:20px">                                    
                                     <ul class="font_8" style="list-style:circle">
-                                        <li style="line-height:1.5em;">
-                                            <p class="font_8" style="font-size:18px; line-height:1.5em;"><span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Boletines de notas</span></span></p>
-                                        </li>
-                                        <li style="line-height:1.5em;">
-                                             <p class="font_8" style="font-size:18px; line-height:1.5em;"><span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Asistencia</span></span></p>
-                                        </li>
-                                        <li style="line-height:1.5em;">
-                                             <p class="font_8" style="font-size:18px; line-height:1.5em;"><span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Evaluación continua (Gradebook)</span></span></p>
-                                        </li>
-                                        <li style="line-height:1.5em;">
-                                             <p class="font_8" style="font-size:18px; line-height:1.5em;"><span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Salud y eventos médicos</span></span></p>
-                                        </li>
-                                        <li style="line-height:1.5em;">
-                                             <p class="font_8" style="font-size:18px; line-height:1.5em;"><span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Comportamiento</span></span></p>
-                                        </li>
-                                        <li style="line-height:1.5em;">
-                                             <p class="font_8" style="font-size:18px; line-height:1.5em;"><span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Gestión de guardería</span></span></p>
-                                        </li>
-                                    </ul>
+                                            <li class="font_8" style="font-size:18px; line-height:1.5em;">
+                                                <span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Boletines de notas</span></span>
+                                            </li>
+                                            <li class="font_8" style="font-size:18px; line-height:1.5em;">
+                                                <span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Asistencia</span></span>
+                                            </li>
+                                            <li class="font_8" style="font-size:18px; line-height:1.5em;">
+                                                <span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Evaluación continua (Gradebook)</span></span>                           
+                                            </li>
+                                            <li class="font_8" style="font-size:18px; line-height:1.5em;">
+                                                <span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Salud y eventos médicos</span></span>  
+                                            </li>
+                                            <li class="font_8" style="font-size:18px; line-height:1.5em;">
+                                                <span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Comportamiento</span></span>  
+                                            </li>
+                                            <li class="font_8" style="font-size:18px; line-height:1.5em;">
+                                                <span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Gestión de guardería</span></span>  
+                                            </li>
+                                        </ul>
+                                    
                                 </div>
-                                
-                            </div>
-                        </div>
-
                         <!--</div>-->
                     </div>
-                    <div class="col-6" style="padding:10px;">
+                    <div class="col-6" data-aos="fade-left"  data-aos-offset="300" style="padding:10px;">
                                     <!--- METER LAS IMAGENES  --->
-                                       <img data-type="image" src="recursos/img/Facts/ReportCard.png" height="400" width="700">                      
-                    
-                    </div> 
-                </div>  
+                                    <img data-type="image" src="recursos/img/Facts/ParentwebUNO.png" height="400" width="700">                                     
+                    </div>   
+                </div> 
           </div>
+           
             
             
  <!--- COMIENZA SECCIÓN ESTUDIANTES ---->   
  
-            <div class="col-xs-6 col-xs-offset-3"  ><hr></div>
-            <div class="col-xs-12 fila" id="fila4" >
-
-                <div class="col-xs-12 col-md-4 col-md-offset-2 filaVideo" data-aos="fade-right"  data-aos-offset="300">
-                    <div class=" col-xs-10 col-xs-offset-1  col-lg-8 col-lg-offset-2"> 
-                        <!--<img id="imgMovil" class="imgSmart" alt="MovilCon reflejoOK.png" data-type="image" src="https://static.wixstatic.com/media/7c6de8_31c7afac6006464cad0b9b45b19fe48b~mv2.png/v1/fill/w_489,h_599,al_c,q_80,usm_0.66_1.00_0.01/MovilCon%20reflejoOK.webp" >
-                        -->
-                        <div class="videoVertical">
-                            <video autoplay muted loop >
-                                <source src="recursos/videos/smartClover/Testvideo1.mp4" type="video/mp4">
-                            </video> 
-                        </div>
-
-                    </div>
-                </div> 
-                <div class="filaContenido" id="fila66">
-                    <div class="col-xs-12 col-md-6 "> 
+         <div class="col-xs-6 col-xs-offset-3"><hr></div>
+        <div class="col-6 offset-3 hrSmart"></div> <br>
+            <div class="container-fluid">
+                <div class="row fila" id="fila1">
+                    <div class="col-xs-12 col-md-6  col-xl-5 offset-xl-1 filaVideo" data-aos="fade-left"  data-aos-offset="300">                      
+                            <img data-type="image" src="recursos/img/Facts/Lms.png" height="400" width="700" align="left">                           
+                    </div> 
+                    <div class="col-xs-12 col-md-6 col-xl-5"> 
                         <!--<div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">--> 
-                        <div class="headingSmart col-xs-10 col-xs-offset-1  col-lg-8 col-lg-offset-2" >
-                            <h1 id="fila66">ESTUDIANTES.</h1>
+                        <div class="headingSmart col-12  col-md-10 offset-md-1 col-lg-8 offset-lg-2 " >
+                            <h1>ESTUDIANTES.</h1>
                         </div>
-                        <div class="articleSmart col-xs-10 col-xs-offset-1 "> 
-                            <div class="col-xs-2 col-md-4 col-lg-3 col-lg-offset-1 lineTop" ></div>
-                            <div class="col-xs-10 col-md-8  ">
+                        <div class="col-12">  
+                              <div class="d-none d-lg-block  col-2 lineTop"></div>
+                            <div class="col-xs-12 col-md-10 col-xl-10" style="text-align:justify;">
                                 <p>A través de Parent web, el estudiante podrá tener a su disposición información sobre las tareas diarias, boletines, calendario, Lesson plan, etc.</p>
                                 <p>Con la herramienta Learning Management System, el estudiante podrá conectarse online con su profesor y realizar tareas programadas, grupos de discusión, pruebas, gracias a un entorno amigable e intuitivo</p>
-                                <div class="col-lg-12">
-                                
-                                    <ul class="font_8" style="list-style:circle">
+                                <div class="col-12 col-md-6">
+                                        <ul class="font_8" style="list-style:circle">
                                         <li style="line-height:1.5em;">
                                             <p class="font_8" style="font-size:18px; line-height:1.5em;"><span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Learning Management System</span></span></p>
                                         </li>
@@ -850,17 +846,13 @@
                                              <p class="font_8" style="font-size:18px; line-height:1.5em;"><span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Evaluación continua (Gradebook)</span></span></p>
                                         </li>
                                     </ul>
-                                </div>
+                                </div>                          
                             </div>
-                        </div>
+                        </div> 
+                    </div> 
+                </div> <br>
+            </div>
 
-                        <!--</div>-->
-                    </div>
-                </div> 
-            </div> 
-            
-            
-            
 
         </main>
 
