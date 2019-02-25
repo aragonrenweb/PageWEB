@@ -13,64 +13,201 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <script src="recursos/js/jquery-1.9.1.min.js" type="text/javascript"></script>
-    
+
     <link href="recursos/css/bootstrap.css" rel="stylesheet" type="text/css"/>
     <link href="recursos/css/bootstrap-grid.css" rel="stylesheet" type="text/css"/>
     <link href="recursos/css/bootstrap-reboot.css" rel="stylesheet" type="text/css"/>
-    
+
     <script src="recursos/js/bootstrap.js" type="text/javascript"></script>
     <script src="recursos/js/bootstrap.bundle.js" type="text/javascript"></script>
-    
+
     <link rel="stylesheet" media="all" href="recursos/css/main.css" />
     <script src="recursos/js/modernizr.custom.37797.js"></script>
     <!---<script src="recursos/js/jquery-1.6.1.min.js"></script>--->
     <script src="recursos/js/parallax.js"></script>
-    
-    
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/2013.03.11/hoverintent.min.js"></script>
-    
+
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <meta name="description" content="animate-scroll demo page"/>  
-    
-</head>
-<nav class="navbar navbar-expand-lg navbar-light bg-light" style="position:fixed;width:100%">
-  <a class="navbar-brand" href="#">
-      <img src="recursos/img/LogoNegativo.svg" style=" width: 120px;">
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="<c:url value="/index.htm" />">Inicio<span class="sr-only">(current)</span></a>
-      </li>
-      
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="<c:url value="/factsQueEs.htm" />" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <spring:message code="facts.FACTS"/>
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="<c:url value="/facts.htm" />"><spring:message code="facts.FACTSQueEs"/></a>
-          <a class="dropdown-item" href="<c:url value="/factsQueIncluye.htm" />"><spring:message code="facts.FACTSQueIncluye"/></a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="<c:url value="/factsPrecios.htm" />"><spring:message code="facts.FACTSPrecios"/></a>
+</head>
+<style>
+    .logoMenuApps {
+        position: absolute;
+        right: 10px;
+        top: 20px;
+    }
+
+    .logoMenuApps>img{
+        width: 60px;
+        height: 60px;
+    }
+    #logoMenuApp1{ 
+        z-index:10;
+    }
+    #logoMenuApp2{ 
+        z-index:9;
+    }
+    #logoMenuApp3{ 
+        z-index:8;
+    }
+    #logoMenuApp4{ 
+        z-index:7;
+    }
+    /*
+    #logoMenuApp2{
+        top: 70px;
+        z-index:9; 
+        -webkit-animation-name: animateLogoMenuApp2;   
+        -webkit-animation-duration: 2s;  
+        animation-name: animateLogoMenuApp2;
+        animation-duration: 2s;    
+
+    }
+
+    #logoMenuApp3{
+        top: 120px;
+        z-index:8; 
+        -webkit-animation-name: animateLogoMenuApp3;  
+        -webkit-animation-duration: 4s;     
+        animation-name: animateLogoMenuApp3;
+        animation-duration: 4s;  
+
+
+    }
+
+    #logoMenuApp4{
+        top: 170px;
+        display:none;
+    }
+
+    #logoMenuApp5{
+        top: 220px;
+        display:none;
+    }
+ 
+    @-webkit-keyframes animateLogoMenuApp2{
+        0%   { right: 10px; top:20px;}   
+        100% { right: 10px; top:70px;} 
+    }
+  
+    @keyframes animateLogoMenuApp2 {
+        0%   { right: 10px; top:20px;}   
+        100% { right: 10px; top:70px;} 
+    } 
+
+    
+    @-webkit-keyframes animateLogoMenuApp3 {
+        0%   { right: 10px; top:20px;}  
+        50% { right: 10px; top:70px;}
+        100% { right: 10px; top:120px;}
+    }
+     
+    @keyframes animateLogoMenuApp3 {
+        0%   { right: 10px; top:20px;}  
+        50% { right: 10px; top:70px;}
+        100% { right: 10px; top:120px;} 
+    }*/
+
+</style>
+<script>
+    function showIconsApps() {
+        if (!$("#menuDesplegable").hasClass("d-show")) {
+            $("#logoMenuApp1").animate({
+                top: 20
+            }, {
+                duration: 1000,
+                step: function (now, fx) {
+                    $(this).css("top", now);
+                }
+            });
+            $("#logoMenuApp2").animate({
+                top: 85
+            }, {
+                duration: 1000,
+                step: function (now, fx) {
+                    $(this).css("top", now);
+                }
+            });
+            $("#logoMenuApp3").animate({
+                top: 150
+            }, {
+                duration: 1000,
+                step: function (now, fx) {
+                    $(this).css("top", now);
+                }
+            });
+            $("#logoMenuApp4").animate({
+                top: 215
+            }, {
+                duration: 1000,
+                step: function (now, fx) {
+                    $(this).css("top", now);
+                }
+            });
+            $("#menuDesplegable").addClass("d-show");
+        } else  {
+             $(".logoMenuApps").animate({
+                top: 20
+            }, {
+                duration: 1000,
+                step: function (now, fx) {
+                    $(this).css("top", now);
+                }
+            }); 
+            $("#menuDesplegable").removeClass("d-show");
+        } 
+    }
+</script>
+<nav class="navbar navbar-expand-lg navbar-light bg-light  fixed-top" style="position:fixed;width:100%;z-index:10">
+    <a class="navbar-brand" href="#">
+        <img src="recursos/img/LogoEduweb.svg">
+    </a> 
+
+    <div class="collapse navbar-collapse d-none d-lg-block" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="<c:url value="/index.htm" />">Inicio<span class="sr-only">(current)</span></a>
+            </li> 
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="<c:url value="/factsQueEs.htm" />" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <spring:message code="facts.FACTS"/>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="<c:url value="/facts.htm" />"><spring:message code="facts.FACTSQueEs"/></a>
+                    <a class="dropdown-item" href="<c:url value="/factsQueIncluye.htm" />"><spring:message code="facts.FACTSQueIncluye"/></a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="<c:url value="/factsPrecios.htm" />"><spring:message code="facts.FACTSPrecios"/></a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="<c:url value="/smartClover.htm" />">Smart Clover</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="<c:url value="/bamboo.htm" />">Bamboo Montessori</a>
+            </li>
+        </ul>  
+    </div> 
+    <div id="menuDesplegable" class="pt-0">
+        <div class="row">
+            <a class="navbar-brand logoMenuApps" id="logoMenuApp1" onclick="showIconsApps()" href="#">
+                <img src="recursos/img/smartClover/logoSmartCloverNew4.svg" >
+            </a>
+            <a class="navbar-brand logoMenuApps" id="logoMenuApp2" onclick="showIconsApps()" href="#">
+                <img src="recursos/img/smartClover/logoSmartCloverNew.svg" >
+            </a>
+            <a class="navbar-brand logoMenuApps" id="logoMenuApp3" onclick="showIconsApps()" href="#">
+                <img src="recursos/img/smartClover/logoSmartCloverNew2.svg" >
+            </a>
+            <a class="navbar-brand logoMenuApps" id="logoMenuApp4" onclick="showIconsApps()" href="#">
+                <img src="recursos/img/smartClover/logoSmartCloverNew3.svg" >
+            </a> 
         </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="<c:url value="/smartClover.htm" />">Smart Clover</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="<c:url value="/bamboo.htm" />">Bamboo Montessori</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
+    </div>
+
 </nav>
 <!--<nav class="navbar navbar-inverse" role="navigation">
     <div class="navbar-header">
