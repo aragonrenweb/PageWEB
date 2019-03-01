@@ -121,6 +121,15 @@
                 height:40px;
                 width:40px;
             }
+            .imgTitleLeft{
+                left:0px;
+            }
+            .imgTitleLeft img{
+                height: 200px;
+                width: auto;
+                opacity: 0.3;
+            }
+
             .cardInfo{
 
             }
@@ -161,6 +170,45 @@
             } 
             .bgSmartClover h1{
                 color:white;
+            }
+
+            .cardPrincipalScheduler{
+                background: rgba(255,255,255,1);
+                background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(115,149,186,1) 35%, rgba(115,149,186,1) 59%, rgba(255,255,255,1) 59%, rgba(255,255,255,1) 100%);
+                background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(35%, rgba(255,255,255,1)), color-stop(35%, rgba(115,149,186,1)), color-stop(59%, rgba(115,149,186,1)), color-stop(59%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+                background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(115,149,186,1) 35%, rgba(115,149,186,1) 59%, rgba(255,255,255,1) 59%, rgba(255,255,255,1) 100%);
+                background: -o-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(115,149,186,1) 35%, rgba(115,149,186,1) 59%, rgba(255,255,255,1) 59%, rgba(255,255,255,1) 100%);
+                background: -ms-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(115,149,186,1) 35%, rgba(115,149,186,1) 59%, rgba(255,255,255,1) 59%, rgba(255,255,255,1) 100%);
+                background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(115,149,186,1) 35%, rgba(115,149,186,1) 59%, rgba(255,255,255,1) 59%, rgba(255,255,255,1) 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 ); 
+            }
+            .bgScheduler{
+                background-color: #0d253f; 
+            } 
+            .bgScheduler h1{
+                color:white;
+            }
+            /*Extra small devices (portrait phones, less than 576px)*/
+            @media (min-width: 576px) {
+
+            }
+            /* Small devices (landscape phones, less than 768px)*/
+            @media (min-width: 768px) { 
+
+            }
+            /* Medium devices (tablets, less than 992px)*/
+            @media (min-width: 992px) {  
+                .cardPrincipal{
+                    height: 500px;
+                   
+                }
+                .cardInfo{
+                    margin-top: 15px;
+                }
+            }
+            /* Large devices (desktops, less than 1200px)*/
+            @media (min-width: 1200px) { 
+
             }
 
         </style>
@@ -889,7 +937,7 @@
                  <img src="recursos/img/LogosMenu/Logo_LogoPositivo.svg" id="Logo_LogoPositivo" class="gwd-img-1twf gwd-gen-1vnrgwdanimation">
              </div>
          </div>-->
-        <div class="row cardPrincipalFacts">
+        <div class="row cardPrincipal cardPrincipalFacts">
             <div class="col-12 bgFACTS d-flex d-md-none" > 
                 <div class="col-12 d-flex align-items-center justify-content-center">
                     <h1>FACTS</h1>
@@ -900,7 +948,13 @@
                     </a> 
                 </div> 
             </div>
-            <div class="col-12 cardInfo">
+            <div class="position-absolute imgTitleLeft d-none d-md-block">
+                <a class="navbar-brand logoMenuApps" href="#">
+                    <img src="recursos/img/LogosMenu/LogoFacts.svg"/>
+                </a> 
+            </div> 
+            <div class="col-12 col-md-4 cardInfo">
+
                 <div class="col-12"><h4 class="text-center">Qué es?</h4></div> 
                 <div class="col-10 offset-1 text-center">
                     <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
@@ -909,7 +963,7 @@
                     <footer>mas información</footer>
                 </div>
             </div>
-            <div class="col-12 cardInfo lineTopGray">
+            <div class="col-12 col-md-4 cardInfo lineTopGray">
                 <div class="col-12"><h4 class="text-center">Qué incluye?</h4></div> 
                 <div class="col-10 offset-1 text-center">
                     <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
@@ -918,7 +972,7 @@
                     <footer>mas información</footer>
                 </div>
             </div>
-            <div class="col-12 cardInfo lineTopGray">
+            <div class="col-12 col-md-4 cardInfo lineTopGray">
                 <div class="col-12"><h4 class="text-center">Qué se personaliza?</h4></div> 
                 <div class="col-10 offset-1 text-center">
                     <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
@@ -928,7 +982,7 @@
                 </div>
             </div>
         </div>
-        <div class="row cardPrincipalBamboo">
+        <div class="row cardPrincipal cardPrincipalBamboo">
             <div class="col-12 bgBamboo d-flex d-md-none" > 
                 <div class="col-12 d-flex align-items-center justify-content-center">
                     <h1>Bamboo</h1>
@@ -967,7 +1021,7 @@
                 </div>
             </div>
         </div>
-        <div class="row cardPrincipalSmartClover">
+        <div class="row cardPrincipal cardPrincipalSmartClover">
             <div class="col-12 bgSmartClover d-flex d-md-none" > 
                 <div class="col-12 d-flex align-items-center justify-content-center">
                     <h1>Smart Clover</h1>
@@ -1006,6 +1060,44 @@
                 </div>
             </div>
         </div>
-
+        <div class="row cardPrincipal cardPrincipalScheduler">
+            <div class="col-12 bgScheduler d-flex d-md-none" > 
+                <div class="col-12 d-flex align-items-center justify-content-center">
+                    <h1>Scheduler</h1>
+                </div>
+                <div class="position-absolute imgTitle">
+                    <a class="navbar-brand logoMenuApps" href="#">
+                        <img src="recursos/img/LogosMenu/LogoSmartClover.svg"/>
+                    </a> 
+                </div> 
+            </div>
+            <div class="col-12 cardInfo">
+                <div class="col-12"><h4 class="text-center">Qué es?</h4></div> 
+                <div class="col-10 offset-1 text-center">
+                    <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s.
+                    </p>
+                    <footer>mas información</footer>
+                </div>
+            </div>
+            <div class="col-12 cardInfo lineTopGray">
+                <div class="col-12"><h4 class="text-center">Qué incluye?</h4></div> 
+                <div class="col-10 offset-1 text-center">
+                    <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+                    <footer>mas información</footer>
+                </div>
+            </div>
+            <div class="col-12 cardInfo lineTopGray">
+                <div class="col-12"><h4 class="text-center">Qué se personaliza?</h4></div> 
+                <div class="col-10 offset-1 text-center">
+                    <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+                    <footer>mas información</footer>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
