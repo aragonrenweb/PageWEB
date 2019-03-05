@@ -28,6 +28,9 @@
         <script src="recursos/js/bootstrap.js" type="text/javascript"></script>
 
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <link rel="stylesheet" type="text/css" href="recursos/css/slick/slick.css"/> 
+        <link rel="stylesheet" type="text/css" href="recursos/css/slick/slick-theme.css"/>
         <title>EduWEBgroup</title>
         <style>
             .colorFACTS
@@ -83,6 +86,7 @@
             {
                 height: 50rem;
                 overflow: hidden;
+                margin-bottom:504px;
             }
             .logo
             {
@@ -124,10 +128,14 @@
             .imgTitleLeft{
                 left:0px;
             }
-            .imgTitleLeft img{
+            .imgTitleSize{
                 height: 200px;
                 width: auto;
-                opacity: 0.3;
+                opacity: 0.1;
+                z-index:1;
+            }
+            .imgTitleRight{
+                right:0px;
             }
 
             .cardInfo{
@@ -188,6 +196,38 @@
             .bgScheduler h1{
                 color:white;
             }
+            footer{
+                position: fixed;
+                width: 100%;
+                padding-left: 44%;
+                left: 0;
+            }
+            .footerFacts{
+                top: 1700; 
+                color:  #5fbce2;
+                border-top: 1px solid #5fbce2;
+                border-bottom: 1px solid #5fbce2;
+
+            }
+            .footerBamboo{
+                top: 2153;
+                color:  #90e35c;
+                border-top: 1px solid #90e35c;
+                border-bottom: 1px solid #90e35c;
+            }
+            .footerSmartClover{
+                top: 2607; 
+                color:  #639e46;
+                border-top: 1px solid #639e46;
+                border-bottom: 1px solid #639e46;
+            }
+            .footerScheduler{
+                top: 3071; 
+                color:  #063a56;
+                border-top: 1px solid #063a56;
+                border-bottom: 1px solid #063a56;
+            }
+
             /*Extra small devices (portrait phones, less than 576px)*/
             @media (min-width: 576px) {
 
@@ -199,11 +239,75 @@
             /* Medium devices (tablets, less than 992px)*/
             @media (min-width: 992px) {  
                 .cardPrincipal{
-                    height: 500px;
-                   
+                    height: 450px;
+                    margin-top: 4px;
                 }
                 .cardInfo{
                     margin-top: 15px;
+                    height: 70%;
+                }
+                .cardPrincipalFacts{
+                    background:none;
+                    /*  background-color: #29abe2 !important;*/
+                    color:white;
+                }
+                .cardPrincipalFacts .cardInfo{
+                    background-color: rgb(41, 171, 226);
+                    transform: skewX(-4deg);
+                    max-width: 27%;
+                    margin-left: 4.5%;
+                    max-height: 500px;
+                    flex-direction: column;
+                    margin-top:0px;
+                    padding-top:15px;
+                }
+                .cardPrincipalBamboo{
+                    background:none;
+                    /*   background-color: #8cc63f !important;*/
+                    color:white;
+                }
+                .cardPrincipalBamboo .cardInfo{
+                    background-color: rgb(102, 195, 78);
+                    transform: skewX(4deg);
+                    max-width: 22%;
+                    margin-left: 2.5%;
+                    max-height: 500px;
+                    flex-direction: column;
+                    margin-top:0px;
+                    padding-top:15px;
+                }
+                .cardPrincipalSmartClover{
+                    background:none;
+                    /*background-color: #357624 !important;*/
+                    color:white;
+                }
+                .cardPrincipalSmartClover .cardInfo{
+                    background-color: rgb(53, 118, 36);
+                    transform: skewX(-4deg);
+                    max-width: 27%;
+                    margin-left: 4.5%;
+                    max-height: 500px;
+                    flex-direction: column;
+                    margin-top:0px;
+                    padding-top:15px;
+                }
+                .cardPrincipalScheduler{
+                    background:none;
+                    /*  background-color: #0d253f !important;*/
+                    color:white;
+                }
+                .cardPrincipalScheduler .cardInfo{
+                    background-color:  rgb(13, 37, 63);
+                    transform: skewX(4deg);
+                    max-width: 27%;
+                    margin-left: 4.5%;
+                    max-height: 500px;
+                    flex-direction: column;
+                    margin-top:0px;
+                    padding-top:15px;
+                }
+                .lineTopGray{
+                    border-top: none;
                 }
             }
             /* Large devices (desktops, less than 1200px)*/
@@ -211,9 +315,31 @@
 
             }
 
+            .lazy img{
+                width: 100%;
+            }
+            .cardPrincipalFacts .slick-arrow{
+                z-index: 31;
+                position: fixed;
+                color: #29abe2;
+                border-radius: 15px;
+                top: 100%;
+            }
+            .cardPrincipalFacts .card .card-header{
+                color: #29abe2;
+            }
+            .cardPrincipalFacts .card .card-body{
+                background-color: #29abe2;
+                color: white;
+            }
+            .cardPrincipalFacts .slick-prev:before, .slick-next:before{
+                color: #29abe2;
+            }
         </style>
         <script>
             $(document).ready(function () {
+
+               
                 $(".colorFACTS").click(function () {
                     hideColSubLayers();
                     $('.colorFACTSsub').animate({'max-width': '24%'}, 500);
@@ -262,132 +388,27 @@
                 $(".colorBAMBOO").click(function () {
                     hideColSubLayers();
                     $('.colorBAMBOOsub').animate({'max-width': '24%'}, 500);
-                    /*
-                     hideLayers();
-                     $(".colorBAMBOOsub").show();
-                     $(".colorBAMBOOsub").css("left", -300);
-                     $(".colorBAMBOOsub").animate({
-                     left: 0
-                     }, {
-                     duration: 1325,
-                     step: function (now, fx) {
-                     $(this).css("left", now);
-                     }
-                     });
-                     
-                     $(".colorSMARTCLOVER").css("left", -300);
-                     $(".colorSMARTCLOVER").animate({
-                     left: 0
-                     }, {
-                     duration: 1325,
-                     step: function (now, fx) {
-                     $(this).css("left", now);
-                     }
-                     });
-                     
-                     $(".colorSCHEDULE").css("left", -300);
-                     $(".colorSCHEDULE").animate({
-                     left: 0
-                     }, {
-                     duration: 1325,
-                     step: function (now, fx) {
-                     $(this).css("left", now);
-                     }
-                     });
-                     */
                 });
-
                 function hideColSubLayers() {
                     var cssObj = {'max-width': '0%'};
                     $('.colorFACTSsub').animate(cssObj, 500);
                     $('.colorBAMBOOsub').animate(cssObj, 500);
                     $('.colorSMARTCLOVERsub').animate(cssObj, 500);
                     $('.colorSCHEDULEsub').animate(cssObj, 500);
-                    /*if ($(".colSubLayer:visible").attr("class") == undefined)
-                     return;
-                     if ($(".colSubLayer:visible").attr("class").includes("colorFACTSsub")) { // FACTS 
-                     setTimeout(function () {
-                     $(".colorFACTSsub").hide();
-                     }, 1325);
-                     $(".colorBAMBOO").animate({
-                     left: -300
-                     }, {
-                     duration: 1325,
-                     step: function (now, fx) {
-                     $(this).css("left", now);
-                     }
-                     });
-                     
-                     
-                     $(".colorSMARTCLOVER").animate({
-                     left: -300
-                     }, {
-                     duration: 1325,
-                     step: function (now, fx) {
-                     $(this).css("left", now);
-                     }
-                     });
-                     
-                     $(".colorSCHEDULE").animate({
-                     left: -300
-                     }, {
-                     duration: 1325,
-                     step: function (now, fx) {
-                     $(this).css("left", now);
-                     }
-                     });*/
-
-
                 }
 
 
                 $(".colorSMARTCLOVER").click(function () {
                     hideColSubLayers();
                     $('.colorSMARTCLOVERsub').animate({'max-width': '24%'}, 500);
-                    /* hideLayers();
-                     $(".colorSMARTCLOVERsub").show();
-                     $(".colorSMARTCLOVERsub").css("left", -300);
-                     $(".colorSMARTCLOVERsub").animate({
-                     left: 0
-                     }, {
-                     duration: 1325,
-                     step: function (now, fx) {
-                     $(this).css("left", now);
-                     }
-                     });
-                     
-                     $(".colorSCHEDULE").css("left", -300);
-                     $(".colorSCHEDULE").animate({
-                     left: 0
-                     }, {
-                     duration: 1325,
-                     step: function (now, fx) {
-                     $(this).css("left", now);
-                     }
-                     });*/
                 });
                 $(".colorSCHEDULE").click(function () {
                     hideColSubLayers();
                     $('.colorSCHEDULEsub').animate({'max-width': '24%'}, 500);
-                    /*
-                     hideLayers();
-                     $(".colorSCHEDULEsub").show();
-                     $(".colorSCHEDULEsub").css("left", -300);
-                     $(".colorSCHEDULEsub").animate({
-                     left: 0
-                     }, {
-                     duration: 1325,
-                     step: function (now, fx) {
-                     $(this).css("left", now);
-                     }
-                     });
-                     */
-
                 });
             });
             function hideLayers() {
                 $(".colSubLayer").hide();
-
             }
         </script>
         <style type="text/css" id="gwd-text-style">p {
@@ -948,7 +969,7 @@
                     </a> 
                 </div> 
             </div>
-            <div class="position-absolute imgTitleLeft d-none d-md-block">
+            <div class="position-absolute imgTitleLeft imgTitleSize d-none d-md-block">
                 <a class="navbar-brand logoMenuApps" href="#">
                     <img src="recursos/img/LogosMenu/LogoFacts.svg"/>
                 </a> 
@@ -960,7 +981,7 @@
                     <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
                         standard dummy text ever since the 1500s.
                     </p>
-                    <footer>mas información</footer>
+                    <!-- <footer>mas información</footer>-->
                 </div>
             </div>
             <div class="col-12 col-md-4 cardInfo lineTopGray">
@@ -969,7 +990,7 @@
                     <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
                         standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                     </p>
-                    <footer>mas información</footer>
+                    <!-- <footer>mas información</footer>-->
                 </div>
             </div>
             <div class="col-12 col-md-4 cardInfo lineTopGray">
@@ -978,9 +999,52 @@
                     <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
                         standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                     </p>
-                    <footer>mas información</footer>
+
                 </div>
+                <section class="lazy slider" data-sizes="50vw">
+
+                    <div class="card">
+                        <div class="card-header">
+                            Boletines de Notas
+                        </div>
+                        <div class="card-body"> 
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+                        </div>
+                    </div>                    
+
+
+                    <div class="card">
+                        <div class="card-header">
+                            Report Card
+                        </div>
+                        <div class="card-body"> 
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> 
+                        </div>
+                    </div>                  
+
+                    <div class="card">
+                        <div class="card-header">
+                            Transcript
+                        </div>
+                        <div class="card-body"> 
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> 
+                        </div>
+                    </div>                
+
+                    <div class="card">
+                        <div class="card-header">
+                            Asistencia
+                        </div>
+                        <div class="card-body"> 
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> 
+                        </div>
+                    </div>                    
+
+
+                </section>
             </div>
+            <footer class="footerFacts">mas información</footer>
         </div>
         <div class="row cardPrincipal cardPrincipalBamboo">
             <div class="col-12 bgBamboo d-flex d-md-none" > 
@@ -993,33 +1057,47 @@
                     </a> 
                 </div> 
             </div>
-            <div class="col-12 cardInfo">
+            <div class="position-absolute imgTitleRight imgTitleSize d-none d-md-block">
+                <a class="navbar-brand logoMenuApps" href="#">
+                    <img src="recursos/img/LogosMenu/LogoBamboo.svg"/>
+                </a> 
+            </div> 
+            <div class="col-12 col-md-3 cardInfo">
                 <div class="col-12"><h4 class="text-center">Qué es?</h4></div> 
                 <div class="col-10 offset-1 text-center">
                     <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
                         standard dummy text ever since the 1500s.
                     </p>
-                    <footer>mas información</footer>
+
                 </div>
             </div>
-            <div class="col-12 cardInfo lineTopGray">
+            <div class="col-12 col-md-3 cardInfo lineTopGray">
                 <div class="col-12"><h4 class="text-center">Qué incluye?</h4></div> 
                 <div class="col-10 offset-1 text-center">
                     <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
                         standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    </p>
-                    <footer>mas información</footer>
+                    </p> 
                 </div>
             </div>
-            <div class="col-12 cardInfo lineTopGray">
+            <div class="col-12 col-md-3 cardInfo lineTopGray">
                 <div class="col-12"><h4 class="text-center">Qué se personaliza?</h4></div> 
                 <div class="col-10 offset-1 text-center">
                     <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
                         standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                     </p>
-                    <footer>mas información</footer>
+
                 </div>
             </div>
+            <div class="col-12 col-md-3 cardInfo lineTopGray">
+                <div class="col-12"><h4 class="text-center">Qué se personaliza?</h4></div> 
+                <div class="col-10 offset-1 text-center">
+                    <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+
+                </div>
+            </div>
+            <footer class="footerBamboo">mas información</footer>
         </div>
         <div class="row cardPrincipal cardPrincipalSmartClover">
             <div class="col-12 bgSmartClover d-flex d-md-none" > 
@@ -1030,35 +1108,42 @@
                     <a class="navbar-brand logoMenuApps" href="#">
                         <img src="recursos/img/LogosMenu/LogoSmartClover.svg"/>
                     </a> 
-                </div> 
+                </div>
+
             </div>
-            <div class="col-12 cardInfo">
+            <div class="position-absolute imgTitleLeft imgTitleSize d-none d-md-block">
+                <a class="navbar-brand logoMenuApps" href="#">
+                    <img src="recursos/img/LogosMenu/LogoSmartClover.svg"/>
+                </a> 
+            </div>
+            <div class="col-12 col-md-4 cardInfo">
                 <div class="col-12"><h4 class="text-center">Qué es?</h4></div> 
                 <div class="col-10 offset-1 text-center">
                     <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
                         standard dummy text ever since the 1500s.
                     </p>
-                    <footer>mas información</footer>
+
                 </div>
             </div>
-            <div class="col-12 cardInfo lineTopGray">
+            <div class="col-12 col-md-4  cardInfo lineTopGray">
                 <div class="col-12"><h4 class="text-center">Qué incluye?</h4></div> 
                 <div class="col-10 offset-1 text-center">
                     <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
                         standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                     </p>
-                    <footer>mas información</footer>
+
                 </div>
             </div>
-            <div class="col-12 cardInfo lineTopGray">
+            <div class="col-12 col-md-4  cardInfo lineTopGray">
                 <div class="col-12"><h4 class="text-center">Qué se personaliza?</h4></div> 
                 <div class="col-10 offset-1 text-center">
                     <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
                         standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                     </p>
-                    <footer>mas información</footer>
+
                 </div>
             </div>
+            <footer  class="footerSmartClover">mas información</footer>
         </div>
         <div class="row cardPrincipal cardPrincipalScheduler">
             <div class="col-12 bgScheduler d-flex d-md-none" > 
@@ -1071,33 +1156,46 @@
                     </a> 
                 </div> 
             </div>
-            <div class="col-12 cardInfo">
+            <div class="position-absolute imgTitleRight imgTitleSize d-none d-md-block">
+                <a class="navbar-brand logoMenuApps" href="#">
+                    <img src="recursos/img/LogosMenu/LogoSmartClover.svg"/>
+                </a> 
+            </div> 
+            <div class="col-12 col-md-4  cardInfo">
                 <div class="col-12"><h4 class="text-center">Qué es?</h4></div> 
                 <div class="col-10 offset-1 text-center">
                     <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
                         standard dummy text ever since the 1500s.
-                    </p>
-                    <footer>mas información</footer>
+                    </p> 
                 </div>
             </div>
-            <div class="col-12 cardInfo lineTopGray">
+            <div class="col-12 col-md-4  cardInfo lineTopGray">
                 <div class="col-12"><h4 class="text-center">Qué incluye?</h4></div> 
                 <div class="col-10 offset-1 text-center">
                     <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
                         standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    </p>
-                    <footer>mas información</footer>
+                    </p> 
                 </div>
             </div>
-            <div class="col-12 cardInfo lineTopGray">
+            <div class="col-12 col-md-4  cardInfo lineTopGray">
                 <div class="col-12"><h4 class="text-center">Qué se personaliza?</h4></div> 
                 <div class="col-10 offset-1 text-center">
                     <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
                         standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    </p>
-                    <footer>mas información</footer>
+                    </p> 
                 </div>
             </div>
-        </div>
+            <footer  class="footerScheduler">mas información</footer>
+        </div>   
+        <script type="text/javascript" src="recursos/css/slick/slick.min.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $(".lazy").slick({
+                    lazyLoad: 'ondemand', // ondemand progressive anticipated
+                    infinite: true
+                });
+            });
+        </script>
     </body>
 </html>
