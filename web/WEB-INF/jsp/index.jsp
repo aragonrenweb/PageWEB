@@ -91,6 +91,8 @@
             .logo
             {
                 transform: skewX(4deg);
+                width: 80%;
+                max-width: 400px;
             }
 
             .colFirstLayer{
@@ -230,14 +232,26 @@
 
             /*Extra small devices (portrait phones, less than 576px)*/
             @media (min-width: 576px) {
+                /* .cardPrincipalBamboo{
+                                        padding-bottom: 50px;
+                                    
+                  }                
+                                
+                               .footerFacts{
+                                    top: 450px;                    
+                                }
+                */                
 
             }
+
             /* Small devices (landscape phones, less than 768px)*/
-            @media (min-width: 768px) { 
+            @media (min-width: 992px) { 
 
             }
             /* Medium devices (tablets, less than 992px)*/
-            @media (min-width: 992px) {  
+            @media (min-width: 768px) {
+
+
                 .cardPrincipal{
                     height: 450px;
                     margin-top: 4px;
@@ -309,6 +323,8 @@
                 .lineTopGray{
                     border-top: none;
                 }
+
+
             }
             /* Large devices (desktops, less than 1200px)*/
             @media (min-width: 1200px) { 
@@ -339,7 +355,7 @@
         <script>
             $(document).ready(function () {
 
-               
+
                 $(".colorFACTS").click(function () {
                     hideColSubLayers();
                     $('.colorFACTSsub').animate({'max-width': '24%'}, 500);
@@ -974,7 +990,7 @@
                     <img src="recursos/img/LogosMenu/LogoFacts.svg"/>
                 </a> 
             </div> 
-            <div class="col-12 col-md-4 cardInfo">
+            <div class="col-12 col-md-4 cardInfo mb-">
 
                 <div class="col-12"><h4 class="text-center">Qué es?</h4></div> 
                 <div class="col-10 offset-1 text-center">
@@ -1001,7 +1017,7 @@
                     </p>
 
                 </div>
-                <section class="lazy slider" data-sizes="50vw">
+                <section class="lazy slider d-none d-xl-block " data-sizes="50vw">
 
                     <div class="card">
                         <div class="card-header">
