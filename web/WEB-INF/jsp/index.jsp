@@ -506,7 +506,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#29abe2', end
                 }); 
             }); 
         </script>
-        <style type="text/css" id="gwd-text-style">p {
+        <style type="text/css" id="gwd-text-style">
+            p {
                 margin: 0px;
             }
             h1 {
@@ -518,7 +519,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#29abe2', end
             h3 {
                 margin: 0px;
             }</style>
-        <style type="text/css">html,
+        <style type="text/css">
+            html,
             body {
                 width: 100%;
                 height: 100%;
@@ -760,7 +762,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#29abe2', end
                 -webkit-animation: gwd-gen-1vnrgwdanimation_gwd-keyframes 2.02s linear 0s 1 normal forwards;
                 -moz-animation: gwd-gen-1vnrgwdanimation_gwd-keyframes 2.02s linear 0s 1 normal forwards;
             }</style>
-        <script type="text/javascript" gwd-events="support">var gwd = gwd || {};
+        <script type="text/javascript" gwd-events="support">
+            var gwd = gwd || {};
             gwd.actions = gwd.actions || {};
             gwd.actions.events = gwd.actions.events || {};
             gwd.actions.events.getElementById = function (id) {
@@ -1045,14 +1048,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#29abe2', end
                 </div>
             </div>
         </div> 
-        <!--<div class="row htmlNoPages">
-             <div class="col-12">
-                 <img src="recursos/img/LogosMenu/LogoBamboo.svg" id="LogoBamboo" class="gwd-img-ccdq gwd-gen-1rq8gwdanimation">
-                 <img src="recursos/img/LogosMenu/LogoFacts.svg" id="LogoFacts" class="gwd-img-35e9 gwd-gen-12ypgwdanimation">
-                 <img src="recursos/img/LogosMenu/LogoSmartClover.svg" id="LogoSmartClover" class="gwd-img-7uku gwd-gen-18qsgwdanimation">
-                 <img src="recursos/img/LogosMenu/Logo_LogoPositivo.svg" id="Logo_LogoPositivo" class="gwd-img-1twf gwd-gen-1vnrgwdanimation">
-             </div>
-         </div>-->
+        <div class="col-12 p-0 align-content-center">
+            <img src="recursos/img/GIF_Iphone.gif" alt="" width="100%"  height="100%"/>
+        </div>
         <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalFacts">
             <div class="col-12 bgFACTS d-flex d-md-none" > 
                 <div class="col-12 d-flex align-items-center justify-content-center">
@@ -1281,7 +1279,164 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#29abe2', end
                 </div>
             </div>
             <div  class="col-12 mt-md-3 footerScheduler">mas información</div>
-        </div>   
+        </div>
+        <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalScheduler">
+            <div class="col-12 bgScheduler d-flex d-md-none" > 
+                <div class="col-12 d-flex align-items-center justify-content-center">
+                    <h1>Privacidad</h1>
+                </div>
+            </div>
+            <div class="position-absolute imgTitleRight imgTitleSize d-none d-md-block">
+                <a class="navbar-brand logoMenuApps" href="#">
+                    <img src="recursos/img/LogosMenu/LogoSmartClover.svg"/>
+                </a> 
+            </div> 
+            <div class="col-12 col-md-4 cardInfo">
+                <div class="col-12"><h4 class="text-center">Política de Privacidad</h4></div> 
+                <div class="col-10 offset-1">
+                    <p class="mb-3">
+                        Privacy Notice<br>
+We like to keep things private<br>
+This is the data protection privacy notice EduWeb Group, INC<br>
+Last updated: March 2019<br>
+EduWeb Group, INC Privacy Notice<br>
+This privacy notice lets you know what happens to any personal data that you give to us, or any that we may collect from or about you. It applies to all products and services, and case/examples where we collect your personal data.
+When it comes to your privacy we never compromise. EduWeb Group, INC is the Data Controller of your personal information.<br>
+We will always be clear about why we need the details we ask for, and ensure your personal information is kept as secure as possible. How we do this is explained below.<br>
+<br>
+Introduction<br>
+DriveTech is committed to protecting your privacy. We comply with data protection regulation and aim to maintain consistently high levels of best practice in our processing of personal and/ or sensitive personal data.
+DriveTech will use your personal information as set out below.<br>
+<br>
+Background<br>
+This privacy notice applies to personal information processed by or on behalf of EduWeb Group, INC.
+ 
+Changes to this privacy notice
+We may change this privacy notice from time to time by updating this document/page in order to reflect changes in the law and/or our privacy practices. We encourage you to check this privacy notice for changes whenever you visit our website – https://www.eduwebgroup.com/.
+ 
+
+What kinds of personal information about you do we process?
+Personal information that we’ll process in connection with all products and services, if relevant, includes:  
+• Personal and contact details, such as title, full name, contact details and contact details history;
+• Your date of birth, gender and/or age;
+• Family members (if relevant to the product or service);
+• Records of your contact with us such as via the phone and, if you get in touch with us online using our online services;
+•  Products and services, you hold with us, as well as have been interested in and have held;
+• Marketing to you and analysing data, including history of those communications, whether you open them or click on links, and information about products or services we think you may be interested in, and analysing data to help target offers to you that we think are of interest or relevance to you;
+
+What is the source of your personal information?
+We’ll collect personal information from the following general sources:
+• From you directly, and any information from family members, associates or beneficiaries of products and services;
+• Information generated about you when you use our products and services;
+• Business partners for example. and others who are a part of providing your products and services or operating our business;
+ 
+What do we use your personal data for?
+We use your personal data, including any of the personal data listed above, for the following purposes:
+• Assessing an application for a product or service; including
+• To provide educational services which may be offered to you by the police;
+• Updating your records, tracing your whereabouts and recovering debt;
+• Managing any aspect of the product or service;
+• To perform and/or test the performance of, our products, services and internal processes;
+• To improve the operation of our business and that of our business partners;
+• To follow guidance and best practice under the change to rules of governmental and regulatory bodies;
+• For management and auditing of our business operations including accounting;
+• To monitor and to keep records of our communications with you and our staff (see below);
+• For market research and analysis and developing statistics;
+• For direct marketing communications and related profiling to help us to offer you relevant products and service, including deciding whether or not to offer you certain products and service. We’ll send marketing to you by SMS, email, phone, post, social media and digital channels (e.g. using Facebook, LinkedIn and Twitter). Offers may relate to any of our products and services as well as to any other offers and advice we think may be of interest;
+• To provide personalised content and services to you, such as tailoring our products and services, our digital customer experience and offerings, and deciding which offers or promotions to show you on our digital channels;
+• To develop new products and services and to review and improve current products and services;
+• To comply with legal and regulatory obligations, requirements and guidance;
+• To provide insight and analysis of our customers both for ourselves and for the benefit of business partners either as part of providing products or services, helping us improve products or services, or to assess or improve the operating of our businesses;
+• To share information, as needed, with business partners, service providers or as part of providing and administering our products and services or operating our business; and
+• To facilitate the sale of one or more parts of our business.
+ 
+What are the legal grounds for our processing of your personal information (including when we share it with others)?
+We rely on the following legal bases to use your personal data:
+Where it is needed to provide you with our products or services, such as:
+Assessing an application for a product or service you hold with us and managing the product or service; including
+• To provide educational services which may be offered to you by the police;
+• Updating your records, tracing your whereabouts to contact you about your account and doing this for recovering debt (where appropriate);
+• Sharing your personal information with business partners and services providers when you apply for a product to help manage your product;
+• All stages and activities relevant to managing the product or service including enquiry, application, administration and management of accounts; and
+• For some of our profiling and other automated decision making to decide whether to offer you a product and/or service, particular payment method and the price or terms of this.
+ 
+Where it is in our legitimate interests to do so, such as:
+• Managing your products and services relating to that, updating your records, tracing your whereabouts to contact you about your account and doing this for recovering debt (where appropriate);
+• To perform and/or test the performance of, our products, services and internal processes;
+• To follow guidance and recommended best practice of government and regulatory bodies;
+• For management and audit of our business operations including accounting;
+• To carry out monitoring and to keep records of our communications with you and our staff (see below);
+• To administer our good governance requirements, such as internal reporting and compliance obligations or administration required;
+• For market research and analysis and developing statistics
+• For direct marketing communications and related profiling to help us to offer you relevant products and services, including deciding whether or not to offer you certain products and service. We will send marketing to you by SMS, email, phone, post and social media and digital channels (e.g. using Facebook, LinkedIn and Twitter);
+• Subject to the appropriate controls, helping us improve products or services, or to assess or to improve the operating of our businesses;
+• For some of our profiling and other automated decision making; and
+• Where we need to share your personal information with people or organisations in order to run our business or comply with any legal and/or regulatory obligations.
+ 
+To comply with our legal obligations
+With your consent or explicit consent:
+• For some direct marketing communications;
+• For some of our profiling and other automated decision making; and
+• For some of our processing of special categories of personal data such as about your health, if you are a vulnerable customer or some criminal records information.
+ 
+For a public interest, such as:
+• Processing of your special categories of personal data such as about your health, criminal records information (including alleged offences), or if you are a vulnerable customer. 
+ 
+When do we share your personal information with other organisations?
+For Legal and Regulatory reasons, we may share information with the following third parties for the purposes listed above:
+• Business partners (e.g. your employer or fleet management company), others who are a part of providing your products and services or operating our business;
+• If necessary, the Police and their nominated support organisations; 
+• Other organisations and businesses who provide services to us such as debt recovery agencies, back up and server hosting providers, IT software and maintenance providers, document storage providers and suppliers of other back office functions; and
+• Market research organisations who help us to develop and improve our products and services.
+ 
+How and when can you withdraw your consent?
+Where we’re relying upon your consent to process personal data, you can withdraw this at any time by contacting us in support@eduwebgroup.com.
+  
+What should you do if your personal information changes?
+You should tell us so that we can update our records via support@eduwebgroup.com. We’ll then update your records if we can.
+ 
+Do you have to provide your personal information to us?
+We’re unable to provide you with our products or services if you do not provide certain information to us.  In cases where providing some personal information is optional, we’ll make this clear.
+ 
+Do we do any monitoring involving processing of your personal information? 
+In this section monitoring means any: listening to, recording of, viewing of, intercepting of, or taking and keeping records (as the case may be) of calls, email, text messages, social media messages, in person (face to face) meetings and other communications. 
+We may monitor where permitted by law and we’ll do this where the law requires it, or to comply with regulatory rules, to prevent or detect crime, in the interests of protecting the security of our communications systems and procedures and for quality control and staff training purposes. This information may be shared for the purposes described above.
+ 
+What about other automated decision making? 
+We sometimes make decisions about you using only technology, where none of our employees or any other individuals have been involved.
+We’ll do this where it is necessary for entering into or performing the relevant contract, is authorised by laws that apply to us, or is based on your explicit consent. 
+ 
+For how long is your personal information retained by us?
+Unless we explain otherwise to you, we’ll hold your personal information based on the following criteria:
+• For as long as we have reasonable business needs, such as managing our relationship with you and managing our operations;
+• For as long as we provide goods and/or services to; and/or
+• Retention periods in line with legal, regulatory and contractual requirements or guidance. 
+ 
+What are your rights under data protection laws?
+Here is a list of the rights that all individuals have under data protection laws. They don’t apply in all circumstances. If you wish to use any of them, we’ll explain at that time if they are engaged or not.
+• The right to be informed about the processing of your personal information;
+• The right to have your personal information corrected if it is inaccurate and to have incomplete personal information completed;
+• The right to object to processing of your personal information;
+• The right to restrict processing of your personal information;
+• The right to have your personal information erased (the “right to be forgotten”);
+• The right to request access to your personal information and to obtain information about how we process it;
+• The right to move, copy or transfer your personal information (“data portability”); and
+• Rights in relation to automated decision making which has a legal effect or otherwise significantly affects you.
+You have the right to complain via email at support@eduwebgroup.com .
+ 
+Your right to object
+You have the right to object to certain purposes for processing, in particular to data processed for direct marketing purposes and to data processed for certain reasons based on our legitimate interests. You can contact us via support@eduwebgroup.com
+ 
+
+Contact Us
+If you have any questions about this privacy notice, or if you wish to exercise your rights at support@eduwebgroup.com
+
+                    </p> 
+                </div>
+            </div>
+            
+            <div  class="col-12 mt-md-3 footerScheduler">mas información</div>
+        </div>  
         <script type="text/javascript" src="recursos/css/slick/slick.min.js"></script>
 
         <script type="text/javascript">
