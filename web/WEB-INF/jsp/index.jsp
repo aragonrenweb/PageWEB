@@ -86,7 +86,7 @@
             {
                 height: 50rem;
                 overflow: hidden;
-/*                margin-bottom:504px;*/
+                /*                margin-bottom:504px;*/
                 transition:background 1s ease;
                 transition:background-color 1s ease;
             }
@@ -107,7 +107,7 @@
                 height: 40% !important;
                 background-color: #0d253f;
             }
-            
+
             .my-auto3{
                 height: 40% !important;
                 background-color: aqua;
@@ -120,7 +120,7 @@
                 background-color: #0d253f;
                 padding-top: 5%;
             }
-            
+
             .my-autoFooter2{                
                 height: 10% !important;
                 align-items: center;
@@ -135,7 +135,7 @@
                 justify-content: center;
                 background-color: #0d253f;
             }
-            
+
             .footerText2{
                 height: 10% !important;
                 align-items: center;
@@ -292,14 +292,14 @@
                 background-color: #0d253f;
             }
             .animacion
-                {
-                    height: 768px;
-            background: url(recursos/img/GIF_Iphone.gif) no-repeat center center fixed;
-             -webkit-background-size: cover;
-             -moz-background-size: cover;
-             -o-background-size: cover;
-             background-size: cover;
-                            }
+            {
+                height: 768px;
+                background: url(recursos/img/GIF_Iphone.gif) no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+            }
 
 
             /*Extra small devices (portrait phones, less than 576px)*/
@@ -429,12 +429,12 @@
                 .animacion
                 {
                     height: 768px;
-            background: url(recursos/img/GIF_Desktop.gif) no-repeat center center fixed;
-             -webkit-background-size: cover;
-             -moz-background-size: cover;
-             -o-background-size: cover;
-             background-size: cover;
-                            }
+                    background: url(recursos/img/GIF_Desktop.gif) no-repeat center center fixed;
+                    -webkit-background-size: cover;
+                    -moz-background-size: cover;
+                    -o-background-size: cover;
+                    background-size: cover;
+                }
             }
             /* Large devices (desktops, less than 1200px)*/
             @media (min-width: 1200px) { 
@@ -448,13 +448,13 @@
                 }
                 .animacion
                 {
-  height: 768px;
-            background: url(recursos/img/GIF_Desktop.gif) no-repeat center center fixed;
-             -webkit-background-size: cover;
-             -moz-background-size: cover;
-             -o-background-size: cover;
-             background-size: cover;
-                            }
+                    height: 768px;
+                    background: url(recursos/img/GIF_Desktop.gif) no-repeat center center fixed;
+                    -webkit-background-size: cover;
+                    -moz-background-size: cover;
+                    -o-background-size: cover;
+                    background-size: cover;
+                }
             }
 
             .lazy img{
@@ -586,7 +586,7 @@
                 });
             });
         </script>
-        
+
         <script type="text/javascript" gwd-events="support">
             var gwd = gwd || {};
             gwd.actions = gwd.actions || {};
@@ -749,7 +749,7 @@
                 }
                 counters[counterName]++
             }
-                </script>
+        </script>
         <script type="text/javascript" gwd-events="handlers">
             gwd.auto_LogoBambooTouchstart = function (event) {
                 // GWD Predefined Function
@@ -872,33 +872,33 @@
 
             <div class="col colorSCHEDULEsub colSubLayer p-0" style="max-width: 0%;">
                 <div col w-100 d-flex h-10 align-content-center align-items-center>
-                <div class="col w-100 d-flex h-10 align-content-center align-items-center">
-                    Smart for Guides
+                    <div class="col w-100 d-flex h-10 align-content-center align-items-center">
+                        Smart for Guides
+                    </div>
+                    <div class="col w-100 d-flex h-10 align-content-center align-items-center">
+                        Smart for Supervisors
+                    </div>
+                    <div class="col w-100 d-flex h-10  align-content-center align-items-center">
+                        Smart for Parents
+                    </div>
+                    <div class="col w-100 d-flex h-10  align-content-center align-items-center">
+                        Smart Experience
+                    </div>
                 </div>
-                <div class="col w-100 d-flex h-10 align-content-center align-items-center">
-                    Smart for Supervisors
-                </div>
-                <div class="col w-100 d-flex h-10  align-content-center align-items-center">
-                    Smart for Parents
-                </div>
-                <div class="col w-100 d-flex h-10  align-content-center align-items-center">
-                    Smart Experience
-                </div>
-                </div>
-                
+
                 <div>
                     <div class="col w-100 d-flex h-10 align-content-center align-items-center">
-                    Smart for Guides
-                </div>
-                <div class="col w-100 d-flex h-10 align-content-center align-items-center">
-                    Smart for Supervisors
-                </div>
-                <div class="col w-100 d-flex h-10  align-content-center align-items-center">
-                    Smart for Parents
-                </div>
-                <div class="col w-100 d-flex h-10  align-content-center align-items-center">
-                    Smart Experience
-                </div>                    
+                        Smart for Guides
+                    </div>
+                    <div class="col w-100 d-flex h-10 align-content-center align-items-center">
+                        Smart for Supervisors
+                    </div>
+                    <div class="col w-100 d-flex h-10  align-content-center align-items-center">
+                        Smart for Parents
+                    </div>
+                    <div class="col w-100 d-flex h-10  align-content-center align-items-center">
+                        Smart Experience
+                    </div>                    
                 </div>
             </div>
 
@@ -910,7 +910,7 @@
         </div> 
         <div class=" row">
             <div class="col-12 " >
-            <div class="col-12 animacion"></div>
+                <div class="col-12 animacion"></div>
             </div>
         </div> 
         <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalFacts">
