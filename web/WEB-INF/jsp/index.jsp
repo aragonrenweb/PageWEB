@@ -264,7 +264,26 @@
                 -o-background-size: cover;
                 background-size: cover;
             }
-
+            
+            .buttonFacts{
+                position: fixed;
+                bottom: 0;
+                left: 50;
+                z-index: 20;
+            }
+            .buttonScheduleClose{
+                position: fixed;
+                bottom: 0;
+                right: 0;
+                z-index: 20;
+            }
+            
+            .buttonScheduleOpen{
+                position: fixed;
+                bottom: 0;
+                right: 0;
+                z-index: 20;
+            }
 
             /*Extra small devices (portrait phones, less than 576px)*/
             @media (min-width: 576px) {
@@ -754,6 +773,7 @@
                 <div class="w-100 h-25 text-center my-auto">
                     <a class="text-white" >FACTS</a>
                 </div> 
+                <input type="button" class="buttonFacts" value="previous"> 
             </div>
             <div class="col colorFACTSsub colSubLayer p-0"  style="max-width: 0%;"  >
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center">
@@ -817,7 +837,7 @@
                 </div>
                 <div class="col w-100 d-flex h-25  align-content-center align-items-center">
                     Smart Experience
-                </div>
+                </div>                
             </div>
 
 
@@ -830,7 +850,9 @@
                 </div> 
                 <div class="w-100 h-25 text-center my-auto">
                     <a class="text-white">Schedule</a>
-                </div>                 
+                </div> 
+<input type="button" class="buttonScheduleOpen" value="next"> 
+
             </div>
 
 
@@ -847,11 +869,8 @@
                 <div class="col w-100 d-flex h-25  align-content-center align-items-center">
                     Smart Experience
                 </div>
-
-
+                <input type="button" class="buttonScheduleClose" value="next"> 
             </div>
-
-
         </div> 
         <div class=" row">
             <div class="col-12 " >
