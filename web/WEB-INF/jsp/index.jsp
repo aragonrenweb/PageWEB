@@ -97,50 +97,14 @@
                 max-width: 400px;
             }
 
-            .logo2{
-                transform: skewX(4deg);
-                width: 60%;
-                max-width: 400px;  
-                margin-top: 10%;
-            }
-            .my-auto2{
-                height: 40% !important;
-                background-color: #0d253f;
+            .alignContent1{
+                flex-direction: column;
+                background-color: #5a7da2;                
             }
 
-            .my-auto3{
-                height: 40% !important;
-                background-color: aqua;
-            }
-
-            .my-autoFooter{                
-                height: 10% !important;
-                align-items: center;
-                justify-content: center;
-                background-color: #0d253f;
-                padding-top: 5%;
-            }
-
-            .my-autoFooter2{                
-                height: 10% !important;
-                align-items: center;
-                justify-content: center;
-                background-color: aqua;
-                padding-top: 5%;
-            }
-
-            .footerText{
-                height: 10% !important;
-                align-items: center;
-                justify-content: center;
-                background-color: #0d253f;
-            }
-
-            .footerText2{
-                height: 10% !important;
-                align-items: center;
-                justify-content: center;
-                background-color: aqua;
+            .alignContent2{
+                flex-direction: column;
+                background-color: #5feaea91;                
             }
 
             .colFirstLayer{
@@ -313,6 +277,7 @@
             @media (min-width: 768px) {
 
 
+
                 .footerFacts{   
                     text-align: center;
                     font-size: unset;
@@ -417,6 +382,9 @@
 
             /* Small devices (landscape phones, less than 768px)*/
             @media (min-width: 992px) { 
+
+
+
                 .cardInfo{
                     /*  margin-top: 15px; */
                     height: 95%;
@@ -438,6 +406,8 @@
             }
             /* Large devices (desktops, less than 1200px)*/
             @media (min-width: 1200px) { 
+
+
                 .card{
                     margin-top: 0px;
                 }
@@ -823,6 +793,7 @@
                 </div>
             </div>
 
+
             <div class="col colorSMARTCLOVER colFirstLayer p-0">
                 <div class="w-100 h-25 text-center my-auto">
 
@@ -849,62 +820,36 @@
                 </div>
             </div>
 
-            <!-- ******* DIV SCHEDULE -->
 
+            <div class="col colorSCHEDULE colFirstLayer p-0" data-toggle="collapse" href="#"> 
+                <div class="w-100 h-25 text-center my-auto">
 
-            <div class="col colorSCHEDULE colFirstLayer p-0" data-toggle="collapse" href="#">   
-                <div class="w-100 h-25 text-center my-auto2">
-                    <img class="d-inline-block logo2" src="recursos/img/LogosMenu/LogoSmartClover.svg">
                 </div> 
-                <div class="w-100 h-25 text-center my-autoFooter">
-                    <a class="text-white footerText">Schedule</a>
-                </div>  
-                <div class="w-100 h-25 text-center my-auto3">
-                    <img class="d-inline-block logo2" src="recursos/img/LogosMenu/LogoSmartClover.svg">
+                <div class="w-100 h-50 text-center my-auto">
+                    <img class="d-inline-block logo" src="recursos/img/LogosMenu/LogoSmartClover.svg">
                 </div> 
-                <div class="w-100 h-25 text-center my-autoFooter2">
-                    <a class="text-white footerText2">Schedule 2</a>
-                </div> 
+                <div class="w-100 h-25 text-center my-auto">
+                    <a class="text-white">Schedule</a>
+                </div>                 
             </div>
 
 
-
-
-            <div class="col colorSCHEDULEsub colSubLayer p-0" style="max-width: 0%;">
-                <div col w-100 d-flex h-10 align-content-center align-items-center>
-                    <div class="col w-100 d-flex h-10 align-content-center align-items-center">
-                        Smart for Guides
-                    </div>
-                    <div class="col w-100 d-flex h-10 align-content-center align-items-center">
-                        Smart for Supervisors
-                    </div>
-                    <div class="col w-100 d-flex h-10  align-content-center align-items-center">
-                        Smart for Parents
-                    </div>
-                    <div class="col w-100 d-flex h-10  align-content-center align-items-center">
-                        Smart Experience
-                    </div>
+            <div class="col h-100 colorSCHEDULEsub colSubLayer p-0" style="max-width: 0%;">
+                <div class="col w-100 d-flex h-25 align-content-center align-items-center">
+                    Smart for Guides
+                </div>
+                <div class="col w-100 d-flex h-25 align-content-center align-items-center">
+                    Smart for Supervisors
+                </div>
+                <div class="col w-100 d-flex h-25  align-content-center align-items-center">
+                    Smart for Parents
+                </div>
+                <div class="col w-100 d-flex h-25  align-content-center align-items-center">
+                    Smart Experience
                 </div>
 
-                <div>
-                    <div class="col w-100 d-flex h-10 align-content-center align-items-center">
-                        Smart for Guides
-                    </div>
-                    <div class="col w-100 d-flex h-10 align-content-center align-items-center">
-                        Smart for Supervisors
-                    </div>
-                    <div class="col w-100 d-flex h-10  align-content-center align-items-center">
-                        Smart for Parents
-                    </div>
-                    <div class="col w-100 d-flex h-10  align-content-center align-items-center">
-                        Smart Experience
-                    </div>                    
-                </div>
+
             </div>
-
-
-
-            <!--  *********** -->
 
 
         </div> 
