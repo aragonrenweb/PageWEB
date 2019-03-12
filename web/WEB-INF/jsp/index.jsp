@@ -289,7 +289,7 @@
             .buttonPrevious{
                 position: fixed;
                 top: 48rem;
-                right: 85%;
+                left: 15%;
                 z-index: 20;
                 color: white !important;
             }
@@ -510,7 +510,7 @@
                 width: 100%;
             }
             .cardPrincipalFacts .slick-arrow{
-                z-index: 31;
+                z-index: 5;
                 position: fixed;
                 color: #29abe2;
                 border-radius: 15px;
@@ -549,6 +549,38 @@
                 background: linear-gradient(to right, rgba(41,171,226,1) 0%, rgba(41,171,226,1) 25%, rgba(101,195,78,1) 25%, rgba(101,195,78,1) 50%, rgba(53,118,36,1) 50%, rgba(53,118,36,1) 75%, rgba(13,37,63,1) 75%, rgba(13,37,63,1) 100%);
                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#29abe2', endColorstr='#0d253f', GradientType=1 );
 
+            }
+            .logoMenuApps {
+                position: absolute;
+                right: 10px;
+                top: 5px;
+                margin:0px;
+            }
+
+            .logoMenuApps>img{
+                width: 60px;
+                height: 60px;
+            }
+            #logoMenuApp0{ 
+                z-index:11;
+            }
+            #logoMenuApp1{ 
+                z-index:10;
+            }
+            #logoMenuApp2{ 
+                z-index:9;
+            }
+            #logoMenuApp3{ 
+                z-index:8;
+            }
+            #logoMenuApp4{ 
+                z-index:7;
+            }
+             #logoMenuApp5{ 
+                z-index:6;
+            }
+            .imgLogo img{
+                width: 150px;
             }
         </style>
         <script>
@@ -668,11 +700,105 @@
                     $('#collapseCondicionesInicio').toggleClass("collapse");
                 });
             });
+            function showIconsApps() {
+
+                if (!$("#menuDesplegable").hasClass("d-show")) {
+                    $("#logoMenuApp1").animate({
+                        top: 70
+                    }, {
+                        duration: 1000,
+                        step: function (now, fx) {
+                            $(this).css("top", now);
+                        }
+                    });
+                    $("#logoMenuApp2").animate({
+                        top: 135
+                    }, {
+                        duration: 1000,
+                        step: function (now, fx) {
+                            $(this).css("top", now);
+                        }
+                    });
+                    $("#logoMenuApp3").animate({
+                        top: 200
+                    }, {
+                        duration: 1000,
+                        step: function (now, fx) {
+                            $(this).css("top", now);
+                        }
+                    });
+                    $("#logoMenuApp4").animate({
+                        top: 265
+                    }, {
+                        duration: 1000,
+                        step: function (now, fx) {
+                            $(this).css("top", now);
+                        }
+                    });
+                    $("#logoMenuApp5").animate({
+                        top: 330
+                    }, {
+                        duration: 1000,
+                        step: function (now, fx) {
+                            $(this).css("top", now);
+                        }
+                    });
+                    $("#menuDesplegable").addClass("d-show");
+                } else {
+                    $(".logoMenuApps").animate({
+                        top: 5
+                    }, {
+                        duration: 1000,
+                        step: function (now, fx) {
+                            $(this).css("top", now);
+                        }
+                    });
+                    $("#menuDesplegable").removeClass("d-show");
+                }
+            }
+            function swapLogo(valLogo) {
+                var auxVal = $("#menuDesplegable a[value='" + valLogo + "']").attr("value");
+                var auxRef = $("#menuDesplegable a[value='" + valLogo + "']").attr("href");
+                var img = $("#menuDesplegable a[value='" + valLogo + "'] img").attr("src");
+
+
+                $("#menuDesplegable a[value='" + valLogo + "']").attr("href", $("#menuDesplegable a").first().next().attr("href"));
+                $("#menuDesplegable a[value='" + valLogo + "']").empty();
+                $("#menuDesplegable a[value='" + valLogo + "']").append('<img src="' + $("#menuDesplegable a img").attr("src") + '" >');
+                $("#menuDesplegable a[value='" + valLogo + "']").attr("value", $("#menuDesplegable a").first().next().attr("value"));
+
+                $("#menuDesplegable a").first().next().attr("value", auxVal);
+                $("#menuDesplegable a").first().next().attr("href", auxRef);
+                $("#menuDesplegable a").first().next().empty();
+                $("#menuDesplegable a").first().next().append('<img src="' + img + '" >');
+            }
         </script>
 
     </head>
 
     <body>
+         <div id="menuDesplegable" class="pt-0">
+        <div class="row" >
+            <a class="navbar-brand logoMenuApps" id="logoMenuApp0" onclick="showIconsApps()">
+                <img src="recursos/img/LogosMenu/LogoApps.svg" >
+            </a> 
+            <a class="navbar-brand logoMenuApps" id="logoMenuApp1" value="facts" href="<c:url value="/facts.htm" />">
+                <img src="recursos/img/LogosMenu/LogoFacts.svg" >
+            </a>
+            <a class="navbar-brand logoMenuApps" id="logoMenuApp2" value="bamboo" href="<c:url value="/bamboo.htm" />">
+                <img src="recursos/img/LogosMenu/LogoBamboo.svg" >
+            </a>
+            <a class="navbar-brand logoMenuApps" id="logoMenuApp3" value="smartClover" href="<c:url value="/smartClover.htm" />">
+                <img src="recursos/img/LogosMenu/LogoSmartClover.svg" >
+            </a>
+            <a class="navbar-brand logoMenuApps" id="logoMenuApp4" value="scheduler" href="<c:url value="/bamboo.htm" />">
+                <img src="recursos/img/LogosMenu/LogoMschedules.svg" >
+            </a>
+            <a class="navbar-brand logoMenuApps" id="logoMenuApp5" value="schoolView" href="<c:url value="/smartClover.htm" />">
+                <img src="recursos/img/LogosMenu/LogoChartSchool.svg" >
+            </a>
+        </div>
+    </div>
         <div class="d-none d-md-flex row menu bgBaseMenu">
             <div class="col colorFACTS colFirstLayer p-0" >
 
@@ -685,7 +811,7 @@
                 <div class="w-100 h-25 text-center my-auto">
                     <a class="text-white" >FACTS</a>
                 </div>                 
-            <a class="buttonPrevious" id="buttonPrevious"  role="button" ><< Previous</a>
+
             </div>
             <div class="col colorFACTSsub colSubLayer p-0"  style="max-width: 0%;"  >
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center">
@@ -708,7 +834,8 @@
                 </div> 
                 <div class="w-100 h-25 text-center my-auto">
                     <a class="text-white">BAMBOO</a>
-                </div> 
+                </div>
+                <a class="buttonPrevious" id="buttonPrevious"  role="button" ><< Previous</a>
             </div>
             <div class="col colorBAMBOOsub colSubLayer p-0" style="max-width: 0%;">
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center">
