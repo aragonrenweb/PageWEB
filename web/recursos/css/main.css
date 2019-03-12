@@ -93,14 +93,15 @@ p {
     margin:1em 0;
 }
 ol {
-  counter-reset: item
+    counter-reset: item;
+    padding-left: 10px;
 }
-ol.li {
-  display: block
+ol li {
+    display: block;
 }
-ol.li:before {
-  content: counters(item, ".") " ";
-  counter-increment: item
+ol li:before {
+    content: counters(item, ".") " ";
+    counter-increment: item;
 }
 /* Common shared styles
 *****************************************************************/
