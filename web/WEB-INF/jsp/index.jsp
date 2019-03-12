@@ -931,28 +931,35 @@
             </div> 
             <div class="col-12 col-md-4 cardInfo">
 
-                <div class="col-12"><h4 class="text-center">Qué es?</h4></div> 
+                <div class="col-12"><h4 class="text-center">A world leader SIS</h4></div> 
                 <div class="col-10 offset-1 text-center">
-                    <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                        standard dummy text ever since the 1500s.
+                    <p class="mb-3">We are the official distributors of a world leader, fully integrated, multiplatform school information system serving more than 6000 schools worldwide.<br>
+   Our customers are located in South America, Africa, Europe and Asia.
+                    </p>
+                    
+                    <!-- <footer>mas información</footer>-->
+                </div>
+            </div>
+            <div class="col-12 col-md-4 cardInfo lineTopGray">
+                <div class="col-12"><h4 class="text-center">Our Services</h4></div> 
+                <div class="col-10 offset-1 text-center">
+                    <p class="mb-3">
+                    <li>Data conversion and system setup</li>
+                    <li>Training and consultancy services</li>
+                    <li>24 hours/5 days live chat support</li>
+                    <li>Customization and integration</li>
                     </p>
                     <!-- <footer>mas información</footer>-->
                 </div>
             </div>
             <div class="col-12 col-md-4 cardInfo lineTopGray">
-                <div class="col-12"><h4 class="text-center">Qué incluye?</h4></div> 
-                <div class="col-10 offset-1 text-center">
-                    <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    </p>
-                    <!-- <footer>mas información</footer>-->
-                </div>
-            </div>
-            <div class="col-12 col-md-4 cardInfo lineTopGray">
-                <div class="col-12"><h4 class="text-center">Qué se personaliza?</h4></div> 
+                <div class="col-12"><h4 class="text-center">It is all about personalization</h4></div> 
                 <div class="col-10 offset-1 p-xl-0 text-center">
-                    <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    <p class="mb-3">Each school's story is unique. That is why our talented team implement the necessary customizations and personalizations for your school to work like clockwork.<br>
+                    <li>Design and Customization of report card and transcript templates</li> 
+                    <li>Design and Customization of administrative reports</li> 
+                    <li>Integration with third party systems</li> 
+                    <li>Automation scripts for saving time and effort in day to day tasks</li>
                     </p>
 
                 </div>
@@ -999,7 +1006,7 @@
 
                 </div>
             </div>
-            <div class="col-12 mt-md-3 footerFacts">mas información</div>
+            <div class="col-12 mt-md-3 footerFacts">more info</div>
         </div>
         <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalBamboo">
             <div class="col-12 bgBamboo d-flex d-md-none" > 
@@ -1018,23 +1025,41 @@
                 </a> 
             </div> 
             <div class="col-12 col-md-3 cardInfo">
-                <div class="col-12"><h4 class="text-center">Qué es?</h4></div> 
+                <div class="col-12"><h4 class="text-center">A rising trend</h4></div> 
                 <div class="col-10 offset-1 text-center">
-                    <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                        standard dummy text ever since the 1500s.
+                    <p class="mb-3">Montessori schools are rising in popularity among today's modern parents worldwide. They moved from Nurseries to full K-12 schools.
+                    International schools could have a stage or a department with Montessori education.
+                    The need arose for 1 system to cover:
                     </p>
-
+                    <li>Administration needs</li>
+                    <li>Multiple curriculums in one school</li>
+                    <li>Montessori record keeping needs</li>
                 </div>
             </div>
             <div class="col-12 col-md-3 cardInfo lineTopGray">
-                <div class="col-12"><h4 class="text-center">Qué incluye?</h4></div> 
+                <div class="col-12"><h4 class="text-center">Go paperless</h4></div> 
                 <div class="col-10 offset-1 text-center">
-                    <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    <p class="mb-3">Bamboo is a web application 100% integrated with the SIS for Montessori record keeping and generation of report cards. 
+                    In addition to the parent portal which keeps parents informed with their child progress, strengths and struggles, guides observations and more  
                     </p> 
+                    <li>Bamboo for Teachers</li>
+                    <li>Bamboo for Parents</li>
+                    <li>Bamboo for Supervisors</li> 
                 </div>
             </div>
             <div class="col-12 col-md-3 cardInfo lineTopGray">
+                <div class="col-12"><h4 class="text-center">Personalize</h4></div> 
+                <div class="col-10 offset-1 text-center">
+                    <p class="mb-3">Each Montessori school could have their scheme of work populated into the system and personalized by their unique values and evaluations. 
+                       In addition to customized report cards to be generated from the system.
+
+                    </p>
+                    <li> The guides will have a clear scheme of work to use in their day to day activities.</li>
+                    <li> Generation of end of term report cards will be an easy task</li>
+
+                </div>
+            </div>
+            <!--<div class="col-12 col-md-3 cardInfo lineTopGray">
                 <div class="col-12"><h4 class="text-center">Qué se personaliza?</h4></div> 
                 <div class="col-10 offset-1 text-center">
                     <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
@@ -1042,17 +1067,8 @@
                     </p>
 
                 </div>
-            </div>
-            <div class="col-12 col-md-3 cardInfo lineTopGray">
-                <div class="col-12"><h4 class="text-center">Qué se personaliza?</h4></div> 
-                <div class="col-10 offset-1 text-center">
-                    <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    </p>
-
-                </div>
-            </div>
-            <div class="col-12 mt-md-3 footerBamboo">mas información</div>
+            </div>-->
+            <div class="col-12 mt-md-3 footerBamboo">more info</div>
         </div>
         <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalSmartClover">
             <div class="col-12 bgSmartClover d-flex d-md-none" > 
@@ -1098,7 +1114,7 @@
 
                 </div>
             </div>
-            <div class="col-12 mt-md-3 footerSmartClover">mas información</div>
+            <div class="col-12 mt-md-3 footerSmartClover">more info</div>
         </div>
         <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalScheduler">
             <div class="col-12 bgScheduler d-flex d-md-none" > 
@@ -1117,32 +1133,37 @@
                 </a> 
             </div> 
             <div class="col-12 col-md-4  cardInfo">
-                <div class="col-12"><h4 class="text-center">Qué es?</h4></div> 
+                <div class="col-12"><h4 class="text-center">Simplify your most complex task</h4></div> 
                 <div class="col-10 offset-1 text-center">
-                    <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                        standard dummy text ever since the 1500s.
+                    <p class="mb-3">
+                        Creating classes and students schedules are everyday more and more complex
+                    </p> 
+                    <li>Satisfy students' course requests</li>
+                    <li>Handle teachers' constraints and allocation</li>
+                    <li>Avoid rooms' conflicts</li> 
+                </div>
+            </div>
+            <div class="col-12 col-md-4  cardInfo lineTopGray">
+                <div class="col-12"><h4 class="text-center">A smart algorithm</h4></div> 
+                <div class="col-10 offset-1 text-center">
+                    <p class="mb-3">Scheduler uses an advanced algorithm that revises the possible combinations of students, teachers and rooms, and present to you the best 
+                    configuration for optimum performance and allocation of the teachers.
+                    <li>No more over booked or under booked teachers</li>
                     </p> 
                 </div>
             </div>
             <div class="col-12 col-md-4  cardInfo lineTopGray">
-                <div class="col-12"><h4 class="text-center">Qué incluye?</h4></div> 
+                <div class="col-12"><h4 class="text-center">Leave it to us</h4></div> 
                 <div class="col-10 offset-1 text-center">
-                    <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    <p class="mb-3">Need help with optimizing your school schedule? Schedule too complex? <br>
+                    We offer a service of schedule creation based on the constraints that you have in your school.
+                    We will deliver to you a clean, optimized schedule implemented in the SIS and ready to use.
                     </p> 
                 </div>
             </div>
-            <div class="col-12 col-md-4  cardInfo lineTopGray">
-                <div class="col-12"><h4 class="text-center">Qué se personaliza?</h4></div> 
-                <div class="col-10 offset-1 text-center">
-                    <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    </p> 
-                </div>
-            </div>
-            <div  class="col-12 mt-md-3 footerScheduler">mas información</div>
+            <div  class="col-12 mt-md-3 footerScheduler">more info</div>
         </div>
-        <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalScheduler">
+        <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal">
             <div class="col-12 bgScheduler d-flex d-md-none" > 
                 <div class="col-12 d-flex align-items-center justify-content-center">
                     <h1>Privacidad</h1>
@@ -1192,7 +1213,7 @@
                                     <div class="form-group">
                                         <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
                                         <div class="col-md-8">
-                                            <textarea class="form-control" id="message" name="message" placeholder="Enter your massage for us here. We will get back to you within 2 business days." rows="7"></textarea>
+                                            <textarea class="form-control" id="message" name="message" placeholder="Enter your massage for us here." rows="7"></textarea>
                                         </div>
                                     </div>
 
@@ -1562,7 +1583,7 @@ El incumplimiento de las presentes condiciones generales de uso, o la utilizaci�
             </div> </p>
             </div>
 </div>
-            <div  class="col-12 mt-md-3 footerScheduler">más información</div>
+            <!--<div  class="col-12 mt-md-3 footerScheduler">más información</div>-->
         </div>  
         <script type="text/javascript" src="recursos/css/slick/slick.min.js"></script>
 
