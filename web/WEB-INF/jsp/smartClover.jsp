@@ -306,6 +306,7 @@
 
         <script type="text/javascript">
             $(document).ready(function () {
+                swapLogo("smartClover");
                 checkShowNavLateral();
                 checkShowScheduleDemo();
                 if ($(window).width() <= 680) {
@@ -330,6 +331,7 @@
                         $("#myVideo").parent().addClass("smartphone");
                     }
                 });
+                
             });
             function checkShowNavLateral() {
                 if ($(".hero").height() > $("#primary").offset().top) {

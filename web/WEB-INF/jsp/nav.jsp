@@ -177,6 +177,22 @@
             $("#menuDesplegable").removeClass("d-show");
         } 
     }
+    function swapLogo(valLogo){
+        var auxVal = $("#menuDesplegable a[value='"+valLogo+"']").attr("value");
+        var auxRef = $("#menuDesplegable a[value='"+valLogo+"']").attr("href");
+        var img =   $("#menuDesplegable a[value='"+valLogo+"'] img").attr("src");      
+        
+       
+        $("#menuDesplegable a[value='"+valLogo+"']").attr("href",$("#menuDesplegable a").first().next().attr("href"));
+        $("#menuDesplegable a[value='"+valLogo+"']").empty();
+        $("#menuDesplegable a[value='"+valLogo+"']").append('<img src="'+$("#menuDesplegable a img").attr("src")+'" >');
+        $("#menuDesplegable a[value='"+valLogo+"']").attr("value",$("#menuDesplegable a").first().next().attr("value"));
+
+        $("#menuDesplegable a").first().next().attr("value",auxVal);
+        $("#menuDesplegable a").first().next().attr("href",auxRef);
+        $("#menuDesplegable a").first().next().empty();
+        $("#menuDesplegable a").first().next().append('<img src="'+img+'" >');
+    }
 </script>
 <nav class="navbar navbar-expand-lg navbar-light bg-light  fixed-top" style="position:fixed;width:100%;z-index:10">
     <a class="navbar-brand imgLogo" href="#">
@@ -209,22 +225,22 @@
     </div> 
     <div id="menuDesplegable" class="pt-0">
         <div class="row" >
-            <a class="navbar-brand logoMenuApps" id="logoMenuApp0" onclick="showIconsApps()">
+            <a class="navbar-brand logoMenuApps" id="logoMenuApp0" onclick="showIconsApps()" style="opacity: 0">
                 <img src="recursos/img/LogosMenu/LogoFacts.svg" >
             </a> 
-            <a class="navbar-brand logoMenuApps" id="logoMenuApp1" href="<c:url value="/smartClover.htm" />">
+            <a class="navbar-brand logoMenuApps" id="logoMenuApp1" value="facts" href="<c:url value="/facts.htm" />">
                 <img src="recursos/img/LogosMenu/LogoFacts.svg" >
             </a>
-            <a class="navbar-brand logoMenuApps" id="logoMenuApp2" href="<c:url value="/bamboo.htm" />">
+            <a class="navbar-brand logoMenuApps" id="logoMenuApp2" value="bamboo" href="<c:url value="/bamboo.htm" />">
                 <img src="recursos/img/LogosMenu/LogoBamboo.svg" >
             </a>
-            <a class="navbar-brand logoMenuApps" id="logoMenuApp3" href="<c:url value="/smartClover.htm" />">
+            <a class="navbar-brand logoMenuApps" id="logoMenuApp3" value="smartClover" href="<c:url value="/smartClover.htm" />">
                 <img src="recursos/img/LogosMenu/LogoSmartClover.svg" >
             </a>
-            <a class="navbar-brand logoMenuApps" id="logoMenuApp4" href="<c:url value="/bamboo.htm" />">
+            <a class="navbar-brand logoMenuApps" id="logoMenuApp4" value="scheduler" href="<c:url value="/bamboo.htm" />">
                 <img src="recursos/img/LogosMenu/LogoMschedules.svg" >
             </a>
-            <a class="navbar-brand logoMenuApps" id="logoMenuApp5" href="<c:url value="/smartClover.htm" />">
+            <a class="navbar-brand logoMenuApps" id="logoMenuApp5" value="schoolView" href="<c:url value="/smartClover.htm" />">
                 <img src="recursos/img/LogosMenu/LogoChartSchool.svg" >
             </a>
         </div>

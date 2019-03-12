@@ -7,20 +7,23 @@
 
 <!DOCTYPE html>
 <html>
-
+<%@ include file="nav.jsp" %>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+    <script src="recursos/js/jquery-1.9.1.min.js" type="text/javascript"></script>
         <title>Bamboo Montessori</title>
+
         <style>
             body {
                 margin: 0;
                 font-family: sans-serif;
                 font-size: 24px;
                 height: auto !important;
+                overflow-y: hidden;
+                    font-size: inherit;
             }
 
-            .hero {
+            .hero2 {
                 /* Sizing */
                 width: 100vw;
                 height: 100vh;
@@ -38,7 +41,7 @@
                 background-repeat: no-repeat;
                 background-attachment: fixed;
             }
-            .hero h1 {
+            .hero2 h1 {
                 /* Text styles */
                 font-size: 5em;
                 color: white;
@@ -47,7 +50,7 @@
                 margin-top: 0;
                 margin-bottom: 0.5em;
             }
-            .hero h2 {
+            .hero2 h2 {
                 /* Text styles */
                 font-size: 2em;
                 color: white;
@@ -293,7 +296,7 @@
             {
                 background-image: none !important;
             }
-             .arrow_box {
+            .arrow_box {
                 position: relative;
                 background: transparent url('recursos/img/bamboo/bgBambooDemo.svg') 4px 0px no-repeat;
 
@@ -326,7 +329,7 @@
                  border-width: 4px;
                  margin-top: -4px;
              }*/
-           
+
             @keyframes shake-with-delay {
                 from, 16%, to {
                     -webkit-transform: translate3d(0, 0, 0);
@@ -351,7 +354,7 @@
                 align-items: center; 
                 justify-content: flex-end;
             } 
-            
+
             .imgRow{
                 width: 100%; 
                 height: auto;
@@ -404,22 +407,22 @@
                 color: #000000;
                 font-weight: 900;
             }
-            
+
             .h150{
                 min-height: 150px;
                 max-height: 200px;
             }
-              .divIconosInvert img{
+            .divIconosInvert img{
                 opacity: 0.5;
-              }
-             /*Extra small devices (portrait phones, less than 576px)*/
+            }
+            /*Extra small devices (portrait phones, less than 576px)*/
             @media (min-width: 576px) {
 
             }   
 
             /* Medium devices (tablets, less than 768px)*/
             @media (min-width: 768px) {
-  
+
             }
 
             /* Small devices (landscape phones, less than 768px)*/
@@ -428,22 +431,28 @@
                     height:400px;
                 }
                 .divIconosInvert img{
-                opacity: 1;
-                 
-            }
+                    opacity: 1;
+
+                }
 
             }
             /* Large devices (desktops, less than 1200px)*/
             @media (min-width: 1200px) { 
-             
+
             }
         </style>
+ 
     </head>
     <body>
-        <%@ include file="nav.jsp" %>
 
-        <section  class="hero">
-            <div class="hero-inner">
+        
+        <script type="text/javascript">
+              $(document).ready(function () {
+                swapLogo("bamboo");
+                });
+        </script>
+        <section  class="hero2">
+            <div class="hero2-inner">
                 <h1>Bamboo for Montessori schools</h1>
                 <h2>-Digitally Transforming Montessori Schools-</h2>
             </div>
@@ -624,13 +633,14 @@
                 </div>
             </div>
         </main>
-        
-        
+
+
         <div class="btnDemo">
             <label class="arrow_box">Schedule a Demo</label>
             <img src="recursos/img/bamboo/iconBamboo.png "  style="width:75px;border-radius: 40px;border: solid 2px #91dc5a;">
 
-        </div>  
+        </div> 
+
     </body>
     <%@ include file="footerAOS.jsp" %>
 
