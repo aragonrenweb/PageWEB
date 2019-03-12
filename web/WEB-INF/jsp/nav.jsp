@@ -38,12 +38,16 @@
     .logoMenuApps {
         position: absolute;
         right: 10px;
-        top: 20px;
+        top: 5px;
+        margin:0px;
     }
 
     .logoMenuApps>img{
         width: 60px;
         height: 60px;
+    }
+    #logoMenuApp0{ 
+        z-index:11;
     }
     #logoMenuApp1{ 
         z-index:10;
@@ -56,6 +60,9 @@
     }
     #logoMenuApp4{ 
         z-index:7;
+    }
+    .imgLogo img{
+        width: 150px;
     }
     /*
     #logoMenuApp2{
@@ -115,9 +122,10 @@
 </style>
 <script>
     function showIconsApps() {
+        
         if (!$("#menuDesplegable").hasClass("d-show")) {
             $("#logoMenuApp1").animate({
-                top: 20
+                top: 5
             }, {
                 duration: 1000,
                 step: function (now, fx) {
@@ -125,7 +133,7 @@
                 }
             });
             $("#logoMenuApp2").animate({
-                top: 85
+                top: 70
             }, {
                 duration: 1000,
                 step: function (now, fx) {
@@ -133,7 +141,7 @@
                 }
             });
             $("#logoMenuApp3").animate({
-                top: 150
+                top: 135
             }, {
                 duration: 1000,
                 step: function (now, fx) {
@@ -141,7 +149,15 @@
                 }
             });
             $("#logoMenuApp4").animate({
-                top: 215
+                top: 200
+            }, {
+                duration: 1000,
+                step: function (now, fx) {
+                    $(this).css("top", now);
+                }
+            });
+            $("#logoMenuApp5").animate({
+                top: 265
             }, {
                 duration: 1000,
                 step: function (now, fx) {
@@ -151,7 +167,7 @@
             $("#menuDesplegable").addClass("d-show");
         } else  {
              $(".logoMenuApps").animate({
-                top: 20
+                top: 5
             }, {
                 duration: 1000,
                 step: function (now, fx) {
@@ -163,7 +179,7 @@
     }
 </script>
 <nav class="navbar navbar-expand-lg navbar-light bg-light  fixed-top" style="position:fixed;width:100%;z-index:10">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand imgLogo" href="#">
         <img src="recursos/img/LogoEduweb.svg">
     </a> 
 
@@ -192,19 +208,25 @@
         </ul>  
     </div> 
     <div id="menuDesplegable" class="pt-0">
-        <div class="row">
-            <a class="navbar-brand logoMenuApps" id="logoMenuApp1" onclick="showIconsApps()" href="#">
-                <img src="recursos/img/smartClover/logoSmartCloverNew4.svg" >
-            </a>
-            <a class="navbar-brand logoMenuApps" id="logoMenuApp2" onclick="showIconsApps()" href="#">
-                <img src="recursos/img/smartClover/logoSmartCloverNew.svg" >
-            </a>
-            <a class="navbar-brand logoMenuApps" id="logoMenuApp3" onclick="showIconsApps()" href="#">
-                <img src="recursos/img/smartClover/logoSmartCloverNew2.svg" >
-            </a>
-            <a class="navbar-brand logoMenuApps" id="logoMenuApp4" onclick="showIconsApps()" href="#">
-                <img src="recursos/img/smartClover/logoSmartCloverNew3.svg" >
+        <div class="row" >
+            <a class="navbar-brand logoMenuApps" id="logoMenuApp0" onclick="showIconsApps()">
+                <img src="recursos/img/LogosMenu/LogoFacts.svg" >
             </a> 
+            <a class="navbar-brand logoMenuApps" id="logoMenuApp1" href="<c:url value="/smartClover.htm" />">
+                <img src="recursos/img/LogosMenu/LogoFacts.svg" >
+            </a>
+            <a class="navbar-brand logoMenuApps" id="logoMenuApp2" href="<c:url value="/bamboo.htm" />">
+                <img src="recursos/img/LogosMenu/LogoBamboo.svg" >
+            </a>
+            <a class="navbar-brand logoMenuApps" id="logoMenuApp3" href="<c:url value="/smartClover.htm" />">
+                <img src="recursos/img/LogosMenu/LogoSmartClover.svg" >
+            </a>
+            <a class="navbar-brand logoMenuApps" id="logoMenuApp4" href="<c:url value="/bamboo.htm" />">
+                <img src="recursos/img/LogosMenu/LogoMschedules.svg" >
+            </a>
+            <a class="navbar-brand logoMenuApps" id="logoMenuApp5" href="<c:url value="/smartClover.htm" />">
+                <img src="recursos/img/LogosMenu/LogoChartSchool.svg" >
+            </a>
         </div>
     </div>
 
@@ -297,8 +319,7 @@
                     <li><a class="btn" href="datosIdioma.htm?lenguaje=ar"><spring:message code="etiq.txtarabic"/></a></li>
                 </ul>
             </li>
-            <li><a href="<c:url value="/bamboo.htm" />">Bamboo Montessori</a></li>
-
+            <li><a href="<c:url value="/bamboo.htm" />">Bamboo Montessori</a></li> 
         </ul>
     </div>
 </nav>-->
