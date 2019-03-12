@@ -331,6 +331,16 @@ a.next:hover {
     top: 1020px;
     left: 450px;
 }
+ .btnDemo{
+                position: fixed;
+                bottom: 15px;
+                right: 15px;
+                width: 300px;
+                height:80px;
+                display: flex;
+                align-items: center; 
+                justify-content: flex-end;
+            } 
 
 
 
