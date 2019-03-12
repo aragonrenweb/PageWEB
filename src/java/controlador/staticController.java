@@ -90,5 +90,12 @@ public class staticController {
 
         return mv;
     }
+    @RequestMapping("/index_1.htm")
+    public ModelAndView index_1(HttpServletRequest hsr, HttpServletResponse hsr1) throws Exception {
+       
+        ModelAndView mv = new ModelAndView("index_1");
+
+        return mv;
+    }
     
 }

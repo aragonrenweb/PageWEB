@@ -36,9 +36,9 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
 }
-ol, ul {
+/*ol, ul {
     list-style: none;
-}
+}*/
 blockquote, q {
     quotes: none;
 }
@@ -92,7 +92,16 @@ img {
 p {
     margin:1em 0;
 }
-
+ol {
+  counter-reset: item
+}
+ol.li {
+  display: block
+}
+ol.li:before {
+  content: counters(item, ".") " ";
+  counter-increment: item
+}
 /* Common shared styles
 *****************************************************************/
 
