@@ -1119,13 +1119,13 @@
             </div>
             <div class="col colorFACTSsub colSubLayer p-0"  style="max-width: 0%;"  >
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center">
-                    <a class="nav-link" href="#AworldLeaderSIS">Qué es</a>
+                    <a class="nav-link" href="#AworldLeaderSIS">A world leader SIS</a>
                 </div>
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center">
-                    <a href="#">Qué incluye</a>
+                    <a href="#">Our Services</a>
                 </div>
                 <div class="col w-100 d-flex h-25  align-content-center align-items-center">
-                    <a href="#">Qué se personaliza</a>
+                    <a href="#">It is all about personalization</a>
                 </div>
             </div>
 
@@ -1146,17 +1146,17 @@
             </div>
             <div class="col colorBAMBOOsub colSubLayer p-0" style="max-width: 0%;">
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center">
-                    Bamboo for Guides
+                    A rising trend
                 </div>
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center">
-                    Bamboo for Supervisors
+                    Go paperless
                 </div>
                 <div class="col w-100 d-flex h-25  align-content-center align-items-center">
-                    Bamboo for Parents
+                    Personalize
                 </div>
-                <div class="col w-100 d-flex h-25  align-content-center align-items-center">
+                <!--<div class="col w-100 d-flex h-25  align-content-center align-items-center">
                     Bamboo Experience
-                </div>
+                </div>-->
             </div>
 
 
@@ -1174,17 +1174,17 @@
             </div>
             <div class="col colorSMARTCLOVERsub colSubLayer p-0" style="max-width: 0%;">
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center">
-                    Smart for Guides
+                    Your instant communication assistant
                 </div>
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center">
-                    Smart for Supervisors
+                    It covers all your needs
                 </div>
                 <div class="col w-100 d-flex h-25  align-content-center align-items-center">
-                    Smart for Parents
+                    Features
                 </div>
-                <div class="col w-100 d-flex h-25  align-content-center align-items-center">
+                <!--<div class="col w-100 d-flex h-25  align-content-center align-items-center">
                     Smart Experience
-                </div>                
+                </div>-->                
             </div>
 
 
@@ -1206,17 +1206,17 @@
 
 
             <div class="col h-100 colorSCHEDULEsub colSubLayer p-0" style="max-width: 0%;">
-                <div class="col w-100 d-flex h-25 align-content-center align-items-center">
+                <!--<div class="col w-100 d-flex h-25 align-content-center align-items-center">
                     Smart for Guides
-                </div>
+                </div>-->
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center">
-                    Smart for Supervisors
+                    Simplify your most complex task
                 </div>
                 <div class="col w-100 d-flex h-25  align-content-center align-items-center">
-                    Smart for Parents
+                    A smart algorithm
                 </div>
                 <div class="col w-100 d-flex h-25  align-content-center align-items-center">
-                    Smart Experience
+                    Leave it to us
                     <div class="buttonNextSub">
                         <i class="fas fa-angle-double-right"></i>
                     </div>
@@ -1238,14 +1238,14 @@
             </div>
             <div class="col colorSchoolAnalyticssub colSubLayer p-0"  style="max-width: 0%;"  >
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center">
-                    Qué es
+                    Coming soon...
                 </div>
-                <div class="col w-100 d-flex h-25 align-content-center align-items-center">
+                <!--<div class="col w-100 d-flex h-25 align-content-center align-items-center">
                     Qué incluye
                 </div>
                 <div class="col w-100 d-flex h-25  align-content-center align-items-center">
                     Qué se personaliza
-                </div>
+                </div>-->
             </div>
 
         </div> 
