@@ -1,3 +1,150 @@
+<div class="d-none d-md-flex row menu bgBaseMenu">
+
+            <div class="col colorFACTS colFirstLayer p-0" >
+
+                <div class="w-100 h-25 text-center my-auto">
+
+                </div>    
+                <div class="w-100 h-50 text-center my-auto">
+                    <img class="d-inline-block logo" src="recursos/img/LogosMenu/LogoFacts.svg">
+                </div> 
+                <div class="w-100 h-25 text-center my-auto">
+                    <a class="text-white" >FACTS</a>                   
+                </div>                 
+                <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
+            </div>
+            <div class="col colorFACTSsub colSubLayer p-0"  style="max-width: 0%;"  >
+                <div class="col w-100 d-flex h-25 align-content-center align-items-center">
+                    A world leader SIS
+                </div>
+                <div class="col w-100 d-flex h-25 align-content-center align-items-center">
+                    Our Services
+                </div>
+                <div class="col w-100 d-flex h-25  align-content-center align-items-center">
+                    It is all about personalization
+                </div>
+            </div>
+
+            <div class="col colorBAMBOO colFirstLayer p-0" >
+                <div class="w-100 h-25 text-center my-auto">
+
+                </div>    
+                <div class="w-100 h-50 text-center my-auto">
+                    <img class="d-inline-block logo" src="recursos/img/LogosMenu/LogoBamboo.svg">
+                </div> 
+                <div class="w-100 h-25 text-center my-auto">
+                    <a class="text-white">BAMBOO</a>
+                    <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
+                    <div class="buttonPrevious">
+                        <i class="fas fa-angle-double-left"></i>
+                    </div> 
+                </div>
+            </div>
+            <div class="col colorBAMBOOsub colSubLayer p-0" style="max-width: 0%;">
+                <div class="col w-100 d-flex h-25 align-content-center align-items-center">
+                    A rising trend
+                </div>
+                <div class="col w-100 d-flex h-25 align-content-center align-items-center">
+                    Go paperless
+                </div>
+                <div class="col w-100 d-flex h-25  align-content-center align-items-center">
+                    Personalize
+                </div>
+                <!--<div class="col w-100 d-flex h-25  align-content-center align-items-center">
+                    Bamboo Experience
+                </div>-->
+            </div>
+
+
+            <div class="col colorSMARTCLOVER colFirstLayer p-0">
+                <div class="w-100 h-25 text-center my-auto">
+
+                </div>    
+                <div class="w-100 h-50 text-center my-auto">
+                    <img class="d-inline-block logo" src="recursos/img/LogosMenu/LogoSmartClover.svg">
+                </div> 
+                <div class="w-100 h-25 text-center my-auto">
+                    <a class="text-white">SMART CLOVER</a>
+                    <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
+                </div> 
+            </div>
+            <div class="col colorSMARTCLOVERsub colSubLayer p-0" style="max-width: 0%;">
+                <div class="col w-100 d-flex h-25 align-content-center align-items-center">
+                    Your instant communication assistant
+                </div>
+                <div class="col w-100 d-flex h-25 align-content-center align-items-center">
+                    It covers all your needs
+                </div>
+                <div class="col w-100 d-flex h-25  align-content-center align-items-center">
+                    Features
+                </div>
+                <!--<div class="col w-100 d-flex h-25  align-content-center align-items-center">
+                    Smart Experience
+                </div>-->                
+            </div>
+
+
+            <div class="col colorSCHEDULE colFirstLayer p-0" data-toggle="collapse" href="#"> 
+                <div class="w-100 h-25 text-center my-auto">
+
+                </div> 
+                <div class="w-100 h-50 text-center my-auto">
+                    <img class="d-inline-block logo" src="recursos/img/LogosMenu/LogoMschedules.svg">
+                </div> 
+                <div class="w-100 h-25 text-center my-auto">
+                    <a class="text-white">SCHEDULE</a>
+                    <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
+                    <div class="buttonNext">
+                        <i class="fas fa-angle-double-right"></i>
+                    </div>
+                </div> 
+            </div>
+
+
+            <div class="col h-100 colorSCHEDULEsub colSubLayer p-0" style="max-width: 0%;">
+                <!--<div class="col w-100 d-flex h-25 align-content-center align-items-center">
+                    Smart for Guides
+                </div>-->
+                <div class="col w-100 d-flex h-25 align-content-center align-items-center">
+                    Simplify your most complex task
+                </div>
+                <div class="col w-100 d-flex h-25  align-content-center align-items-center">
+                    A smart algorithm
+                </div>
+                <div class="col w-100 d-flex h-25  align-content-center align-items-center">
+                    Leave it to us
+                    <div class="buttonNextSub">
+                        <i class="fas fa-angle-double-right"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col colorSchoolAnalytics colFirstLayer p-0"  >
+                <div class="w-100 h-25 text-center my-auto">
+
+                </div>    
+                <div class="w-100 h-50 text-center my-auto">
+                    <img class="d-inline-block logo" src="recursos/img/LogosMenu/LogoChartSchool.svg">
+                </div> 
+                <div class="w-100 h-25 text-center my-auto">
+                    <a class="text-white" >SCHOOL ANALYTICS</a>
+                    <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
+                </div> 
+
+            </div>
+            <div class="col colorSchoolAnalyticssub colSubLayer p-0"  style="max-width: 0%;"  >
+                <div class="col w-100 d-flex h-25 align-content-center align-items-center">
+                    Coming soon
+                </div>
+                <div class="col w-100 d-flex h-25 align-content-center align-items-center">
+                    
+                </div>
+                <div class="col w-100 d-flex h-25  align-content-center align-items-center">
+                    
+                </div>
+            </div>
+
+        </div> 
 no me deja subir cambios , así que copio aquí el codigo
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
