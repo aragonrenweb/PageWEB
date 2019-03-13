@@ -7,12 +7,12 @@
 
 <html>
 
-
     <head>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        
         <link rel="stylesheet" media="all" href="recursos/css/main.css" />
         <link href="recursos/css/bootstrap.css" rel="stylesheet" type="text/css"/>
         <link href="recursos/css/bootstrap-grid.css" rel="stylesheet" type="text/css"/>
@@ -33,6 +33,11 @@
         <link rel="stylesheet" type="text/css" href="recursos/css/slick/slick-theme.css"/>
         <title>EduWEBgroup</title>
         <style>
+            
+            body{
+                overflow: hidden;
+            }
+            
             .colorFACTS
             {
                 background-color: #29abe2;
@@ -98,7 +103,7 @@
             {
                 height: 50rem;
                 overflow: hidden;
-                /*                margin-bottom:504px;*/
+                /*margin-bottom:504px;*/
                 transition:background 1s ease;
                 transition:background-color 1s ease;
             }
@@ -224,6 +229,28 @@
             .bgScheduler h1{
                 color:white;
             }
+
+            .cardPrincipalSchoolAnalytics{
+
+                background: rgba(255,255,255,1);
+                background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(251,176,59,1) 35%, rgba(251,176,59,1) 59%, rgba(255,255,255,1) 59%, rgba(255,255,255,1) 100%);
+                background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(33%, rgba(255,255,255,1)), color-stop(33%, rgba(251,176,59,1)), color-stop(59%, rgba(251,176,59,1)), color-stop(59%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+                background: -webkit-linear-gradient(-45deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 35%, rgba(251,176,59,0.5) 35%, rgba(251,176,59,0.5) 59%, rgba(255,255,255,0.5) 59%, rgba(255,255,255,0.5) 100%);
+                background: -o-linear-gradient(-45deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 35%, rgba(251,176,59,0.5) 35%, rgba(251,176,59,0.5) 59%, rgba(255,255,255,0.5) 59%, rgba(255,255,255,0.5) 100%);
+                background: -ms-linear-gradient(-45deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 35%, rgba(251,176,59,0.5) 35%, rgba(251,176,59,0.5) 59%, rgba(255,255,255,0.5) 59%, rgba(255,255,255,0.5) 100%);
+                background: linear-gradient(135deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 35%, rgba(251,176,59,0.5) 35%, rgba(251,176,59,0.5) 59%, rgba(255,255,255,0.5) 59%, rgba(255,255,255,0.5) 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 );
+
+            }
+
+            .bgSchoolAnalytics{
+                background-color: #f7931e;
+            }
+
+            .bgSchoolAnalytics h1{
+                color: white;
+            }            
+
             footer{
                 position: fixed;
                 width: 100%;
@@ -271,15 +298,15 @@
             .footerSchoolAnalytics{
                 text-align: center;
                 font-size: unset;
-                background-color: white;
-                color: #f7931e;   
+                background-color: #f7931e;
+                color: white;   
                 border-top: 1px solid #f7931e;
                 border-bottom: 1px solid #f7931e;
             }
             .animacion
             {
                 height: 768px;
-                background: url(recursos/img/GIF_Iphone.gif) no-repeat center center fixed;
+                background: url(recursos/img/GIF_Iphone.gif) no-repeat center center;
                 -webkit-background-size: cover;
                 -moz-background-size: cover;
                 -o-background-size: cover;
@@ -287,19 +314,34 @@
             }
 
             .buttonPrevious{
+                width:100px;
+                height: 50px;
                 position: fixed;
-                top: 48rem;
-                left: 15%;
-                z-index: 20;
                 color: white !important;
+                left: 5%;    
+                cursor: pointer;
+                bottom: 0;
             }
 
-            .buttonNext{
+            .buttonNext{                
+                width:100px;
+                height: 50px;
+                color:white !important;
                 position: fixed;
-                top: 48rem;
-                left: 85%;
-                z-index: 20;
-                color: white !important;
+                right: -5%;    
+                cursor: pointer;
+                bottom: 0;
+
+            }
+
+            .buttonNextSub{
+                width:100px;
+                height: 50px;
+                color: black !important;
+                position: fixed;
+                right: -20%;    
+                cursor: pointer;
+                bottom: 0;               
             }
 
             /*Extra small devices (portrait phones, less than 576px)*/
@@ -340,6 +382,14 @@
                     color: #0d253f; 
                 }
 
+                .footerSchoolAnalytics{
+                    text-align: center;
+                    font-size: unset;
+                    background-color: white;
+                    color: #f7931e;
+
+                }
+
                 .cardPrincipal{
                     margin-top: 4px;
                 }
@@ -359,7 +409,7 @@
                     transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-                    max-height: 500px;
+                    max-height: 615px;
                     flex-direction: column;
                     margin-top:0px;
                     padding-top:15px;
@@ -381,7 +431,7 @@
                     transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-                    max-height: 500px;
+                    max-height: 620px;
                     flex-direction: column;
                     margin-top: 0px;
                     padding-top: 15px;
@@ -402,7 +452,7 @@
                     transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-                    max-height: 500px;
+                    max-height: 620px;
                     flex-direction: column;
                     margin-top:0px;
                     padding-top:15px;
@@ -422,7 +472,7 @@
                     transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-                    max-height: 500px;
+                    max-height: 620px;
                     flex-direction: column;
                     margin-top:0px;
                     padding-top:15px;
@@ -446,7 +496,7 @@
                     transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-                    max-height: 500px;
+                    max-height: 620px;
                     flex-direction: column;
                     margin-top:0px;
                     padding-top:15px;
@@ -462,6 +512,62 @@
             /* Small devices (landscape phones, less than 768px)*/
             @media (min-width: 992px) { 
 
+                .cardPrincipalFacts .cardInfo{
+                    background-color: rgb(41, 171, 226, 0.8);
+                    transform: skewX(-4deg);
+                    max-width: 27%;
+                    margin-left: 4.5%;
+                    max-height: 550px;
+                    flex-direction: column;
+                    margin-top:0px;
+                    padding-top:15px;
+                    padding-left: 0px;
+                    padding-right: 0px;
+                }
+
+
+                .cardPrincipalBamboo .cardInfo{
+                    background-color: rgb(102, 195, 78, 0.8);
+                    transform: skewX(4deg);
+                    max-width: 27%;
+                    margin-left: 4.5%;
+                    max-height: 550px;
+                    flex-direction: column;
+                    margin-top: 0px;
+                    padding-top: 15px;
+                }
+
+                .cardPrincipalSmartClover .cardInfo{
+                    background-color: rgb(53, 118, 36, 0.8);
+                    transform: skewX(-4deg);
+                    max-width: 27%;
+                    margin-left: 4.5%;
+                    max-height: 550px;
+                    flex-direction: column;
+                    margin-top:0px;
+                    padding-top:15px;
+                }
+
+                .cardPrincipalScheduler .cardInfo{
+                    background-color:  rgb(13, 37, 63, 0.8);
+                    transform: skewX(4deg);
+                    max-width: 27%;
+                    margin-left: 4.5%;
+                    max-height: 550px;
+                    flex-direction: column;
+                    margin-top:0px;
+                    padding-top:15px;
+                }
+                .cardPrincipalSchoolAnalytics .cardInfo{
+                    background-color: rgb(251,176,59,0.8);
+                    transform: skewX(-4deg);
+                    max-width: 27%;
+                    margin-left: 4.5%;
+                    max-height: 550px;
+                    flex-direction: column;
+                    margin-top:0px;
+                    padding-top:15px;
+                }
 
 
                 .cardInfo{
@@ -476,7 +582,7 @@
                 .animacion
                 {
                     height: 768px;
-                    background: url(recursos/img/GIF_Desktop.gif) no-repeat center center fixed;
+                    background: url(recursos/img/GIF_Desktop.gif) no-repeat center center;
                     -webkit-background-size: cover;
                     -moz-background-size: cover;
                     -o-background-size: cover;
@@ -486,6 +592,63 @@
             /* Large devices (desktops, less than 1200px)*/
             @media (min-width: 1200px) { 
 
+                .cardPrincipalFacts .cardInfo{
+                    background-color: rgb(41, 171, 226, 0.8);
+                    transform: skewX(-4deg);
+                    max-width: 27%;
+                    margin-left: 4.5%;
+                    max-height: 500px;
+                    flex-direction: column;
+                    margin-top:0px;
+                    padding-top:15px;
+                    padding-left: 0px;
+                    padding-right: 0px;
+                }
+
+
+                .cardPrincipalBamboo .cardInfo{
+                    background-color: rgb(102, 195, 78, 0.8);
+                    transform: skewX(4deg);
+                    max-width: 27%;
+                    margin-left: 4.5%;
+                    max-height: 500px;
+                    flex-direction: column;
+                    margin-top: 0px;
+                    padding-top: 15px;
+                }
+
+                .cardPrincipalSmartClover .cardInfo{
+                    background-color: rgb(53, 118, 36, 0.8);
+                    transform: skewX(-4deg);
+                    max-width: 27%;
+                    margin-left: 4.5%;
+                    max-height: 500px;
+                    flex-direction: column;
+                    margin-top:0px;
+                    padding-top:15px;
+                }
+
+                .cardPrincipalScheduler .cardInfo{
+                    background-color:  rgb(13, 37, 63, 0.8);
+                    transform: skewX(4deg);
+                    max-width: 27%;
+                    margin-left: 4.5%;
+                    max-height: 500px;
+                    flex-direction: column;
+                    margin-top:0px;
+                    padding-top:15px;
+                }
+                .cardPrincipalSchoolAnalytics .cardInfo{
+                    background-color: rgb(251,176,59,0.8);
+                    transform: skewX(-4deg);
+                    max-width: 27%;
+                    margin-left: 4.5%;
+                    max-height: 500px;
+                    flex-direction: column;
+                    margin-top:0px;
+                    padding-top:15px;
+                }
+
 
                 .card{
                     margin-top: 0px;
@@ -493,12 +656,12 @@
 
                 .slick-slider{  
                     height: fit-content;  
-                    top: 70px;
+                    top: 0px;
                 }
                 .animacion
                 {
                     height: 768px;
-                    background: url(recursos/img/GIF_Desktop.gif) no-repeat center center fixed;
+                    background: url(recursos/img/GIF_Desktop.gif) no-repeat center center ;
                     -webkit-background-size: cover;
                     -moz-background-size: cover;
                     -o-background-size: cover;
@@ -514,7 +677,7 @@
                 position: fixed;
                 color: #29abe2;
                 border-radius: 15px;
-                top: 70%;
+                top: 75%;
             }
             .cardPrincipalFacts .card .card-header{
                 color: #29abe2;
@@ -576,11 +739,15 @@
             #logoMenuApp4{ 
                 z-index:7;
             }
-             #logoMenuApp5{ 
+            #logoMenuApp5{ 
                 z-index:6;
             }
             .imgLogo img{
                 width: 150px;
+            }
+            
+            .fas{
+                font-size: 25px;
             }
         </style>
         <script>
@@ -635,6 +802,8 @@
                      */
                     $(".menu").removeClass("bginnerSchedule");
                     $(".menu").addClass("bgBaseMenu");
+                    if ($(".colorFACTS").css("max-width") !== "0%")
+                        $(".buttonNext").show();
                 });
 
                 $(".colorBAMBOO").click(function () {
@@ -642,6 +811,8 @@
                     $('.colorBAMBOOsub').animate({'max-width': '24%'}, 500);
                     $(".menu").removeClass("bginnerSchedule");
                     $(".menu").addClass("bgBaseMenu");
+                    if ($(".colorFACTS").css("max-width") !== "0%")
+                        $(".buttonNext").show();
                 });
 
                 function hideColSubLayers() {
@@ -659,6 +830,8 @@
                     $('.colorSMARTCLOVERsub').animate({'max-width': '24%'}, 500);
                     $(".menu").removeClass("bginnerSchedule").delay(600);
                     $(".menu").addClass("bgBaseMenu");
+                    if ($(".colorFACTS").css("max-width") !== "0%")
+                        $(".buttonNext").show();
                 });
 
 
@@ -667,6 +840,12 @@
                     $('.colorSCHEDULEsub').animate({'max-width': '24%'}, 500);
                     $(".menu").removeClass("bgBaseMenu");
                     $(".menu").addClass("bginnerSchedule");
+                    $(".buttonNext").hide();
+                    if ($(".colorFACTS").css("max-width") === "0%") {
+                        $(".buttonNextSub").hide();
+                    } else {
+                        $(".buttonNextSub").show();
+                    }
 
                 });
 
@@ -675,20 +854,33 @@
                     $('.colorSchoolAnalyticssub').animate({'max-width': '24%'}, 500);
                 });
 
-                $(".buttonNext").click(function () {
+                $(".buttonNext").click(function (e) {
                     hideColSubLayers();
                     $('.colorFACTS').animate({'max-width': '0%'}, 500);
-                    $('.colorSchoolAnalytics').show().css('max-width', '0').animate({'max-width': '24%'}, 500);
+                    $('.colorSchoolAnalytics').delay(520).show().css('max-width', '0').animate({'max-width': '24%'}, 500);
                     $(".buttonPrevious").show();
                     $(".buttonNext").hide();
+                    e.stopPropagation();
                 });
 
-                $(".buttonPrevious").click(function () {
+                $(".buttonNextSub").click(function (e) {
+                    hideColSubLayers();
+                    $('.colorFACTS').animate({'max-width': '0%'}, 500);
+                    $('.colorSchoolAnalytics').delay(520).show().css('max-width', '0').animate({'max-width': '24%'}, 500);
+                    $(".buttonPrevious").show();
+                    $(".buttonNext").hide();
+                    $(".buttonNextSub").hide();
+                    e.stopPropagation();
+                });
+
+
+                $(".buttonPrevious").click(function (e) {
                     hideColSubLayers();
                     $('.colorSchoolAnalytics').animate({'max-width': '0%'}, 500);
                     $('.colorFACTS').delay(520).show().css('max-width', '0').animate({'max-width': '24%'}, 500);
                     $(".buttonNext").show();
                     $(".buttonPrevious").hide();
+                    e.stopPropagation();
 
                 });
 
@@ -699,7 +891,10 @@
                 $("#mostrarCondiInicio").click(function () {
                     $('#collapseCondicionesInicio').toggleClass("collapse");
                 });
+
+
             });
+
             function showIconsApps() {
 
                 if (!$("#menuDesplegable").hasClass("d-show")) {
@@ -777,29 +972,32 @@
     </head>
 
     <body>
-         <div id="menuDesplegable" class="pt-0">
-        <div class="row" >
-            <a class="navbar-brand logoMenuApps" id="logoMenuApp0" onclick="showIconsApps()">
-                <img src="recursos/img/LogosMenu/LogoApps.svg" >
-            </a> 
-            <a class="navbar-brand logoMenuApps" id="logoMenuApp1" value="facts" href="<c:url value="/facts.htm" />">
-                <img src="recursos/img/LogosMenu/LogoFacts.svg" >
-            </a>
-            <a class="navbar-brand logoMenuApps" id="logoMenuApp2" value="bamboo" href="<c:url value="/bamboo.htm" />">
-                <img src="recursos/img/LogosMenu/LogoBamboo.svg" >
-            </a>
-            <a class="navbar-brand logoMenuApps" id="logoMenuApp3" value="smartClover" href="<c:url value="/smartClover.htm" />">
-                <img src="recursos/img/LogosMenu/LogoSmartClover.svg" >
-            </a>
-            <a class="navbar-brand logoMenuApps" id="logoMenuApp4" value="scheduler" href="<c:url value="/bamboo.htm" />">
-                <img src="recursos/img/LogosMenu/LogoMschedules.svg" >
-            </a>
-            <a class="navbar-brand logoMenuApps" id="logoMenuApp5" value="schoolView" href="<c:url value="/smartClover.htm" />">
-                <img src="recursos/img/LogosMenu/LogoChartSchool.svg" >
-            </a>
+
+        <div id="menuDesplegable" class="pt-0">
+            <div class="row" >
+                <a class="d-block d-sm-none d-none d-sm-block d-md-none navbar-brand logoMenuApps" id="logoMenuApp0" onclick="showIconsApps()">
+                    <img src="recursos/img/LogosMenu/LogoApps.svg" >
+                </a>                             
+
+                <a class="d-block d-sm-none d-none d-sm-block d-md-none navbar-brand logoMenuApps" id="logoMenuApp1" value="facts" href="<c:url value="/facts.htm" />">
+                    <img src="recursos/img/LogosMenu/LogoFacts.svg" >
+                </a>
+                <a class="d-block d-sm-none d-none d-sm-block d-md-none navbar-brand logoMenuApps" id="logoMenuApp2" value="bamboo" href="<c:url value="/bamboo.htm" />">
+                    <img src="recursos/img/LogosMenu/LogoBamboo.svg" >
+                </a>
+                <a class="d-block d-sm-none d-none d-sm-block d-md-none navbar-brand logoMenuApps" id="logoMenuApp3" value="smartClover" href="<c:url value="/smartClover.htm" />">
+                    <img src="recursos/img/LogosMenu/LogoSmartClover.svg" >
+                </a>
+                <a class="d-block d-sm-none d-none d-sm-block d-md-none navbar-brand logoMenuApps" id="logoMenuApp4" value="scheduler" href="<c:url value="/bamboo.htm" />">
+                    <img src="recursos/img/LogosMenu/LogoMschedules.svg" >
+                </a>
+                <a class="d-block d-sm-none d-none d-sm-block d-md-none navbar-brand logoMenuApps" id="logoMenuApp5" value="schoolView" href="<c:url value="/smartClover.htm" />">
+                    <img src="recursos/img/LogosMenu/LogoChartSchool.svg" >
+                </a>
+            </div>
         </div>
-    </div>
         <div class="d-none d-md-flex row menu bgBaseMenu">
+
             <div class="col colorFACTS colFirstLayer p-0" >
 
                 <div class="w-100 h-25 text-center my-auto">
@@ -809,7 +1007,7 @@
                     <img class="d-inline-block logo" src="recursos/img/LogosMenu/LogoFacts.svg">
                 </div> 
                 <div class="w-100 h-25 text-center my-auto">
-                    <a class="text-white" >FACTS</a>
+                    <a class="text-white" >FACTS</a>                   
                 </div>                 
 
             </div>
@@ -834,8 +1032,10 @@
                 </div> 
                 <div class="w-100 h-25 text-center my-auto">
                     <a class="text-white">BAMBOO</a>
+                    <div class="buttonPrevious">
+                        <i class="fas fa-angle-double-left"></i>
+                    </div> 
                 </div>
-                <a class="buttonPrevious" id="buttonPrevious"  role="button" ><< Previous</a>
             </div>
             <div class="col colorBAMBOOsub colSubLayer p-0" style="max-width: 0%;">
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center">
@@ -889,8 +1089,10 @@
                 </div> 
                 <div class="w-100 h-25 text-center my-auto">
                     <a class="text-white">Schedule</a>
-                </div>
-                <a class="buttonNext" id="buttonNext"  role="button" >Next >> </a>
+                    <div class="buttonNext">
+                        <i class="fas fa-angle-double-right"></i>
+                    </div>
+                </div> 
             </div>
 
 
@@ -906,7 +1108,10 @@
                 </div>
                 <div class="col w-100 d-flex h-25  align-content-center align-items-center">
                     Smart Experience
-                </div> 
+                    <div class="buttonNextSub">
+                        <i class="fas fa-angle-double-right"></i>
+                    </div>
+                </div>
             </div>
 
             <div class="col colorSchoolAnalytics colFirstLayer p-0"  >
@@ -1194,9 +1399,9 @@
 
         <!-- -->
         <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalSchoolAnalytics">
-            <div class="col-12 bgSmartClover d-flex d-md-none" > 
+            <div class="col-12 bgSchoolAnalytics d-flex d-md-none" > 
                 <div class="col-12 d-flex align-items-center justify-content-center">
-                    <h1>Smart Clover</h1>
+                    <h1>School Analytics</h1>
                 </div>
                 <div class="position-absolute imgTitle">
                     <a class="navbar-brand logoMenuApps" href="#">
@@ -1671,15 +1876,15 @@
         <script type="text/javascript" src="recursos/css/slick/slick.min.js"></script>
 
         <script type="text/javascript">
-            $(document).ready(function () {
-                $(".lazy").slick({
-                    lazyLoad: 'ondemand', // ondemand progressive anticipated
-                    infinite: true
-                });
+                    $(document).ready(function () {
+                        $(".lazy").slick({
+                            lazyLoad: 'ondemand', // ondemand progressive anticipated
+                            infinite: true
+                        });
 
 
 
-            });
+                    });
         </script>
     </body>
 </html>
