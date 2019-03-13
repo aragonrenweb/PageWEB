@@ -31,6 +31,7 @@
 
         <link rel="stylesheet" type="text/css" href="recursos/css/slick/slick.css"/> 
         <link rel="stylesheet" type="text/css" href="recursos/css/slick/slick-theme.css"/>
+
         <title>EduWEBgroup</title>
         <style>
 
@@ -797,34 +798,39 @@
                 $(".buttonPrevious").hide();
                 $(".colorSchoolAnalytics").hide();
 
+                $('.nav-link').on('click', function () { 
+                    var top = $($(this).attr("href")).top();
+                    $(window).scrollTop(top);
+                });
+
                 $(".colorFACTS").click(function () {
                     var estado = $('.colorFACTSsub').css('max-width');
-                    if(estado === '0%'){
+                    if (estado === '0%') {
                         hideColSubLayers();
                         $('.colorFACTSsub').animate({'max-width': '24%'}, 500);
                         $(".menu").removeClass("bginnerSchedule");
 //                    $(".menu").removeClass("bginnerSchoolAnalytics").delay(500);
                         $(".menu").addClass("bgBaseMenu");
-                        if ($(".colorFACTS").css("max-width") !== "0%"){
+                        if ($(".colorFACTS").css("max-width") !== "0%") {
                             $(".buttonNext").show();
                         }
-                    }else{
+                    } else {
                         hideColSubLayers();
                     }
                 });
-                    
+
                 $(".colorBAMBOO").click(function () {
                     var estado = $('.colorBAMBOOsub').css('max-width');
-                    if(estado === '0%'){
+                    if (estado === '0%') {
                         hideColSubLayers();
                         $('.colorBAMBOOsub').animate({'max-width': '24%'}, 500);
                         $(".menu").removeClass("bginnerSchedule");
-    //                    $(".menu").removeClass("bginnerSchoolAnalytics").delay(500);
+                        //                    $(".menu").removeClass("bginnerSchoolAnalytics").delay(500);
                         $(".menu").addClass("bgBaseMenu");
-                        if ($(".colorFACTS").css("max-width") !== "0%"){
+                        if ($(".colorFACTS").css("max-width") !== "0%") {
                             $(".buttonNext").show();
                         }
-                    }else{
+                    } else {
                         hideColSubLayers();
                     }
                 });
@@ -841,16 +847,16 @@
 
                 $(".colorSMARTCLOVER").click(function () {
                     var estado = $('.colorSMARTCLOVERsub').css('max-width');
-                    if(estado === '0%'){
+                    if (estado === '0%') {
                         hideColSubLayers();
                         $('.colorSMARTCLOVERsub').animate({'max-width': '24%'}, 500);
                         $(".menu").removeClass("bginnerSchedule").delay(500);
-    //                    $(".menu").removeClass("bginnerSchoolAnalytics").delay(500);
+                        //                    $(".menu").removeClass("bginnerSchoolAnalytics").delay(500);
                         $(".menu").addClass("bgBaseMenu").delay(500);
-                        if ($(".colorFACTS").css("max-width") !== "0%"){
+                        if ($(".colorFACTS").css("max-width") !== "0%") {
                             $(".buttonNext").show();
                         }
-                    }else{
+                    } else {
                         hideColSubLayers();
                     }
                 });
@@ -858,11 +864,11 @@
 
                 $(".colorSCHEDULE").click(function () {
                     var estado = $('.colorSCHEDULEsub').css('max-width');
-                    if(estado === '0%'){
+                    if (estado === '0%') {
                         hideColSubLayers();
                         $('.colorSCHEDULEsub').animate({'max-width': '24%'}, 500);
                         $(".menu").removeClass("bgBaseMenu").delay(500);
-    //                    $(".menu").removeClass("bginnerSchoolAnalytics").delay(500);
+                        //                    $(".menu").removeClass("bginnerSchoolAnalytics").delay(500);
                         $(".menu").addClass("bginnerSchedule").delay(500);
                         $(".buttonNext").hide();
                         if ($(".colorFACTS").css("max-width") === "0%") {
@@ -870,7 +876,7 @@
                         } else {
                             $(".buttonNextSub").show();
                         }
-                    }else{
+                    } else {
                         hideColSubLayers();
                         if ($(".colorFACTS").css("max-width") === "0%") {
                             $(".buttonNext").hide();
@@ -882,10 +888,10 @@
 
                 $(".colorSchoolAnalytics").click(function () {
                     var estado = $('.colorSchoolAnalyticssub').css('max-width');
-                    if(estado === '0%'){
+                    if (estado === '0%') {
                         hideColSubLayers();
                         $('.colorSchoolAnalyticssub').animate({'max-width': '24%'}, 500);
-                    }else{
+                    } else {
                         hideColSubLayers();
                     }
                 });
@@ -921,16 +927,16 @@
                     e.stopPropagation();
                 });
 
-                $('.enlace').click(function(e){
+                $('.enlace').click(function (e) {
                     e.preventDefault();
                     let url = $('body').find($(this).attr('href')).offset().top;
                     $('html, body').animate({
-                      scrollTop : url
-                    },700);
+                        scrollTop: url
+                    }, 700);
                     $(this).parent().addClass('active');
                     $(this).parent().siblings().removeClass('active');
-                    return false;	
-                 });
+                    return false;
+                });
 
 
                 $("#collapseINICIO").click(function () {
@@ -978,6 +984,7 @@
                         });
                     }
                 });
+
 
             });
             function checkInputs() {
@@ -1072,6 +1079,7 @@
                 $("#menuDesplegable a").first().next().empty();
                 $("#menuDesplegable a").first().next().append('<img src="' + img + '" >');
             }
+
         </script>
 
     </head>
@@ -1113,19 +1121,19 @@
                 </div> 
                 <div class="w-100 h-25 text-center my-auto">
                     <a class="text-white" >FACTS</a>  
-                    <a class="enlace" href="#Contact">Request Demo</a>
+                    <a class="nav-link" href="#Contact">Request Demo</a>
                 </div>                 
                 <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
             </div>
             <div class="col colorFACTSsub colSubLayer p-0"  style="max-width: 0%;"  >
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center">
-                    <a class="nav-link" href="#AworldLeaderSIS">A world leader SIS</a>
+                    <a class="nav-link" href="#cPrincFacts">A world leader SIS</a>
                 </div>
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center">
-                    <a href="#">Our Services</a>
+                    <a  class="nav-link" href="#cPrincFacts">Our Services</a>
                 </div>
                 <div class="col w-100 d-flex h-25  align-content-center align-items-center">
-                    <a href="#">It is all about personalization</a>
+                    <a  class="nav-link" href="#cPrincFacts">It is all about personalization</a>
                 </div>
             </div>
 
@@ -1146,13 +1154,13 @@
             </div>
             <div class="col colorBAMBOOsub colSubLayer p-0" style="max-width: 0%;">
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center">
-                    A rising trend
+                    <a class="nav-link" href="#cPrincBamboo">A rising trend</a> 
                 </div>
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center">
-                    Go paperless
+                    <a class="nav-link" href="#cPrincBamboo"> Go paperless</a>  
                 </div>
                 <div class="col w-100 d-flex h-25  align-content-center align-items-center">
-                    Personalize
+                    <a class="nav-link" href="#cPrincBamboo">Personalize</a>   
                 </div>
                 <!--<div class="col w-100 d-flex h-25  align-content-center align-items-center">
                     Bamboo Experience
@@ -1174,19 +1182,19 @@
             </div>
             <div class="col colorSMARTCLOVERsub colSubLayer p-0" style="max-width: 0%;">
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center">
-                    Your instant communication assistant
+                    <a class="nav-link" href="#cPrincClover">Your instant communication assistant</a> 
                 </div>
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center">
-                    It covers all your needs
+                    <a class="nav-link" href="#cPrincClover">It covers all your needs</a>  
                 </div>
                 <div class="col w-100 d-flex h-25  align-content-center align-items-center">
-                    Features
+                     <a class="nav-link" href="#cPrincClover">Features</a>  
+                    
                 </div>
                 <!--<div class="col w-100 d-flex h-25  align-content-center align-items-center">
                     Smart Experience
                 </div>-->                
             </div>
-
 
             <div class="col colorSCHEDULE colFirstLayer p-0" data-toggle="collapse" href="#"> 
                 <div class="w-100 h-25 text-center my-auto">
@@ -1210,13 +1218,15 @@
                     Smart for Guides
                 </div>-->
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center">
-                    Simplify your most complex task
+                    <a class="nav-link" href="#cPrincScheduler"> Simplify your most complex task</a>   
                 </div>
                 <div class="col w-100 d-flex h-25  align-content-center align-items-center">
-                    A smart algorithm
+                    <a class="nav-link" href="#cPrincScheduler"> A smart algorithm</a> 
+                    
                 </div>
                 <div class="col w-100 d-flex h-25  align-content-center align-items-center">
-                    Leave it to us
+                    <a class="nav-link" href="#cPrincScheduler"> Leave it to us</a> 
+                    
                     <div class="buttonNextSub">
                         <i class="fas fa-angle-double-right"></i>
                     </div>
@@ -1249,12 +1259,12 @@
             </div>
 
         </div> 
-        <div class=" row">
+        <!--<div class=" row">
             <div class="col-12 " >
                 <div class="col-12 animacion"></div>
             </div>
-        </div> 
-        <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalFacts" id="AworldLeaderSIS">
+        </div> -->
+        <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalFacts" id="cPrincFacts">
 
             <div class="col-12 bgFACTS d-flex d-md-none" > 
                 <div class="col-12 d-flex align-items-center justify-content-center">
@@ -1353,7 +1363,7 @@
                 <i class="fas fa-circle" style="font-size: 10px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
             </div>
         </div>
-        <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalBamboo">
+        <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalBamboo" id="cPrincBamboo">
             <div class="col-12 bgBamboo d-flex d-md-none" > 
                 <div class="col-12 d-flex align-items-center justify-content-center">
                     <h1>Bamboo</h1>
@@ -1415,7 +1425,7 @@
             </div>-->
             <div class="col-12 mt-md-3 footerBamboo">more info</div>
         </div>
-        <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalSmartClover">
+        <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalSmartClover" id="cPrincClover">
             <div class="col-12 bgSmartClover d-flex d-md-none" > 
                 <div class="col-12 d-flex align-items-center justify-content-center">
                     <h1>Smart Clover</h1>
@@ -1456,28 +1466,28 @@
             <div class="col-12 col-md-4  cardInfo lineTopGray">
                 <div class="col-12"><h4 class="text-center">Features</h4></div> 
                 <div class="col-10 offset-1 text-center">
-                     <p class="mb-3">
+                    <p class="mb-3">
                         Smart clover is available in both Android, IOS or as a desktop version which makes it compatible with the most devices.
                     </p> 
 
                 </div> 
                 <div class="col-10 offset-1 text-center">
-                     <p class="mb-3">
+                    <p class="mb-3">
                         Allows immediate communication because it pushes out the latest information from the FACTS SIS database.
                     </p> 
 
                 </div> 
                 <div class="col-10 offset-1 text-center">
-                     <p class="mb-3">
+                    <p class="mb-3">
                         All the management is done in Facts SIS which makes the app seamless. Groups, Security,
                         broadcasting options - everything default to the configuration in the originating database.
-                        
+
                     </p>  
                 </div>
             </div>
             <div class="col-12 mt-md-3 footerSmartClover">more info</div>
         </div>
-        <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalScheduler">
+        <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalScheduler" id="cPrincScheduler">
             <div class="col-12 bgScheduler d-flex d-md-none" > 
                 <div class="col-12 d-flex align-items-center justify-content-center">
                     <h1>Scheduler</h1>
@@ -2163,6 +2173,8 @@
                             lazyLoad: 'ondemand', // ondemand progressive anticipated
                             infinite: true
                         });
+
+
                     });
         </script>
         <div class="divLoadStudent" id="loadingmessage">

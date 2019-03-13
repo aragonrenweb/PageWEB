@@ -22,10 +22,7 @@
     <script src="recursos/js/bootstrap.bundle.js" type="text/javascript"></script>
 
     <link rel="stylesheet" media="all" href="recursos/css/main.css" />
-    <script src="recursos/js/modernizr.custom.37797.js"></script>
-    <!---<script src="recursos/js/jquery-1.6.1.min.js"></script>--->
-    <script src="recursos/js/parallax.js"></script>
-
+   
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/2013.03.11/hoverintent.min.js"></script>
 
