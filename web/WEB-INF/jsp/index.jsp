@@ -774,6 +774,22 @@
                 bottom: 0
 
             }
+            .divLoadStudent{
+                background-color: #2d2d2d61;
+                position: fixed; 
+                right: 0;
+                bottom: 0;
+                left: 0;
+                z-index: 1050;
+                display: none;
+                overflow: hidden;
+                -webkit-overflow-scrolling: touch;
+                outline: 0;
+                height: 100%;
+
+                align-items: center;
+                justify-content: center;
+            }
         </style>
         <script>
             $(document).ready(function () {
@@ -921,7 +937,66 @@
                 $("#mostrarCondiInicio").click(function () {
                     $('#collapseCondicionesInicio').toggleClass("collapse");
                 });
+
+                $(".form-group input,.form-group textarea").change(function () {
+                    if ($(this).val() === "") {
+                        $(this).css("border", "solid 1px red");
+                        result = false;
+                    } else
+                        $(this).css("border", "solid 1px lightgray");
+                });
+                $("#submitForm").click(function (e) {
+                    e.preventDefault();
+                    if (checkInputs()) {
+                        var myObj = {};
+                        myObj["name"] = $("#fname").val();
+                        myObj["schoolName"] = $("#schoolName").val();
+                        myObj["numStudents"] = $("#numStudents").val();
+                        myObj["email"] = $("#email").val();
+                        myObj["phone"] = $("#phone").val();
+                        myObj["message"] = $("#message").val();
+                        var json = JSON.stringify(myObj);
+                        $('#loadingmessage').css("display", "flex");
+
+                        $.ajax({
+                            type: 'POST',
+                            url: "/PageWEB/sendForm.htm",
+                            data: json,
+                            contentType: "application/json",
+                            success: function (data) {
+                                $('#loadingmessage').hide();
+                                alert("enviado");
+                            },
+                            error: function (xhr, ajaxOptions, thrownError) {
+                                console.log(xhr.status);
+                                console.log(xhr.responseText);
+                                console.log(thrownError);
+                            }
+
+                        });
+                    }
+                });
+
             });
+            function checkInputs() {
+                var result = true;
+
+                $(".form-group input").each(function (index) {
+                    if ($(this).val() === "") {
+                        $(this).css("border", "solid 1px red");
+                        result = false;
+                    } else
+                        $(this).css("border", "solid 1px lightgray");
+
+                });
+                if ($(".form-group textarea").val() === "") {
+                    $(".form-group textarea").css("border", "solid 1px red");
+                    result = false;
+                } else
+                    $(".form-group textarea").css("border", "solid 1px lightgray")
+
+                return result;
+            }
 
             function showIconsApps() {
 
@@ -1355,30 +1430,46 @@
                                 </a> -->
             </div>
             <div class="col-12 col-md-4 cardInfo">
-                <div class="col-12"><h4 class="text-center">Qué es?</h4></div> 
-                <div class="col-10 offset-1 text-center">
-                    <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                        standard dummy text ever since the 1500s.
+                <div class="col-12"><h4 class="text-center">Your instant communication assistant.</h4></div> 
+                <div class="col-10 offset-1 text-center"> 
+                    <p class="mb-3">Easy to use. Manage all the communication needs of your school.Gives parents instant access to all the information about their child via de personal BOT
+                        <br>
+                        Smart Clover integrates with FACTS SIS, pushing out valuable information to parents and students with its 4 modules: a personal BOT, teacher connect, school connect and automatic messenger .
                     </p>
-
                 </div>
             </div>
             <div class="col-12 col-md-4  cardInfo lineTopGray">
-                <div class="col-12"><h4 class="text-center">Qué incluye?</h4></div> 
+                <div class="col-12"><h4 class="text-center">It covers all your needs.</h4></div> 
                 <div class="col-10 offset-1 text-center">
-                    <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    <p class="mb-3">
+                        Smart Clover offers parents all the information they are looking for and helps with the overall communication, in real time.
                     </p>
-
+                    <li>School Communicator</li>
+                    <li>Parent Consultation Bot</li>
+                    <li>Maintenance Jobs</li>
+                    <li>Teacher Chat</li>  
                 </div>
             </div>
             <div class="col-12 col-md-4  cardInfo lineTopGray">
-                <div class="col-12"><h4 class="text-center">Qué se personaliza?</h4></div> 
+                <div class="col-12"><h4 class="text-center">Features</h4></div> 
                 <div class="col-10 offset-1 text-center">
-                    <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    </p>
+                     <p class="mb-3">
+                        Smart clover is available in both Android, IOS or as a desktop version which makes it compatible with the most devices.
+                    </p> 
 
+                </div> 
+                <div class="col-10 offset-1 text-center">
+                     <p class="mb-3">
+                        Allows immediate communication because it pushes out the latest information from the FACTS SIS database.
+                    </p> 
+
+                </div> 
+                <div class="col-10 offset-1 text-center">
+                     <p class="mb-3">
+                        All the management is done in Facts SIS which makes the app seamless. Groups, Security,
+                        broadcasting options - everything default to the configuration in the originating database.
+                        
+                    </p>  
                 </div>
             </div>
             <div class="col-12 mt-md-3 footerSmartClover">more info</div>
@@ -1432,8 +1523,8 @@
         </div>
 
 
-        <!-- -->
-        <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalSchoolAnalytics">
+        <!--
+        <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalSchoolAnalytics ">
             <div class="col-12 bgSchoolAnalytics d-flex d-md-none" > 
                 <div class="col-12 d-flex align-items-center justify-content-center">
                     <h1>School Analytics</h1>
@@ -1446,24 +1537,23 @@
 
             </div>
             <div class="position-absolute imgTitleLeft imgTitleSize d-none d-md-block">
-                <!--                <a class="navbar-brand logoMenuApps" href="#">
-                                    <img src="recursos/img/LogosMenu/LogoSmartClover.svg"/>
-                                </a> -->
+              
             </div>
             <div class="col-12 col-md-4 cardInfo">
-                <div class="col-12"><h4 class="text-center">Qué es?</h4></div> 
+                <div class="col-12"><h4 class="text-center">It covers all your needs.</h4></div> 
                 <div class="col-10 offset-1 text-center">
-                    <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                        standard dummy text ever since the 1500s.
+                    <p class="mb-3">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                     </p>
+
 
                 </div>
             </div>
             <div class="col-12 col-md-4  cardInfo lineTopGray">
                 <div class="col-12"><h4 class="text-center">Qué incluye?</h4></div> 
                 <div class="col-10 offset-1 text-center">
-                    <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    <p class="mb-3">
                     </p>
 
                 </div>
@@ -1478,9 +1568,9 @@
                 </div>
             </div>
             <div class="col-12 mt-md-3 footerSchoolAnalytics">more info</div>
-        </div> 
+        </div>  -->
 
-        <div class="col-12">
+        <!--<div class="col-12">
             <div class="col-12"><h4 class="text-center">Política de Privacidad</h4></div> 
             <div class="col-10 offset-1">
                 <p class="mb-3">
@@ -1635,61 +1725,65 @@
                 </div>
                 </p> 
             </div>
-        </div>
+        </div>-->
 
         <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal">
             <div class="col-12 bgScheduler d-flex d-md-none" > 
                 <div class="col-12 d-flex align-items-center justify-content-center">
                     <h1>Privacidad</h1>
                 </div>
-            </div>
-
-
+            </div> 
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="well well-sm">
-                            <form class="form-horizontal" method="post">
+                            <form class="form-horizontal" >
                                 <fieldset>
                                     <legend class="text-center header">Contact us</legend>
 
-                                    <div class="form-group">
-                                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
-                                        <div class="col-8 offset-2">
-                                            <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
+                                    <div class="form-group d-flex justify-content-center align-items-center">
+                                        <span class="col-1 text-center"><i class="fa fa-user bigicon"></i></span>
+                                        <div class="col-11 col-md-8">
+                                            <input id="fname" name="name" type="text" placeholder="Contact name" class="form-control">
                                         </div>
                                     </div>
-                                    <div class="form-group">
-                                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
-                                        <div class="col-8 offset-2">
-                                            <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
+                                    <div class="form-group d-flex justify-content-center align-items-center">
+                                        <span class="col-1 text-center"><i class="fas fa-school bigicon"></i></span>
+                                        <div class="col-11 col-md-8">
+                                            <input id="schoolName" name="name" type="text" placeholder="School Name" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="form-group d-flex justify-content-center align-items-center">
+                                        <span class="col-1  text-center"><i class="fas fa-graduation-cap bigicon"></i></span>
+                                        <div class="col-11 col-md-8">
+                                            <input id="numStudents" name="name" type="text" placeholder="Number of students" class="form-control">
                                         </div>
                                     </div>
 
-                                    <div class="form-group">
-                                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
-                                        <div class="col-8 offset-2">
-                                            <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
+                                    <div class="form-group d-flex justify-content-center align-items-center">
+                                        <span class="col-1 text-center"><i class="fas fa-at bigicon"></i></span>
+                                        <div class="col-11 col-md-8">
+                                            <input id="email" name="email" type="text" placeholder="Email" class="form-control">
                                         </div>
                                     </div>
 
-                                    <div class="form-group">
-                                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
-                                        <div class="col-8 offset-2">
+                                    <div class="form-group d-flex justify-content-center align-items-center">
+                                        <span class="col-1  text-center"><i class="fas fa-phone bigicon"></i></span>
+                                        <div class="col-11 col-md-8">
                                             <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
                                         </div>
                                     </div>
 
-                                    <div class="form-group">
-                                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
-                                        <div class="col-8 offset-2">
+                                    <div class="form-group d-flex justify-content-center align-items-center">
+                                        <span class="col-1 text-center"><i class="fas fa-comments bigicon"></i></span>
+                                        <div class="col-11 col-md-8">
                                             <textarea class="form-control" id="message" name="message" placeholder="Enter your massage for us here." rows="7"></textarea>
                                         </div>
                                     </div>
 
                                     <div class="form-group">
-                                        <div class="col-md-12 text-center">
-                                            <button type="submit" class="btn btn-primary btn-lg footerScheduler">Submit</button>
+                                        <div class="col-10 col-md-8 offset-md-2 text-center">
+                                            <button  class="btn btn-primary btn-lg footerScheduler" id="submitForm">Submit</button>
                                         </div>
                                     </div>
                                 </fieldset>
@@ -2066,10 +2160,12 @@
                             lazyLoad: 'ondemand', // ondemand progressive anticipated
                             infinite: true
                         });
-
-
-
                     });
         </script>
+        <div class="divLoadStudent" id="loadingmessage">
+            <div class="text-center"> 
+                <img class="imgLoading" src="recursos/img/large_loading.gif"/>
+            </div>
+        </div>
     </body>
 </html>
