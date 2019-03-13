@@ -798,64 +798,35 @@
                 $(".colorSchoolAnalytics").hide();
 
                 $(".colorFACTS").click(function () {
-                    hideColSubLayers();
-                    $('.colorFACTSsub').animate({'max-width': '24%'}, 500);
-                    /*$(".colorFACTSsub").show();
-                     $(".colorFACTSsub").css("left", -300);
-                     $(".colorFACTSsub").animate({
-                     left: 0
-                     }, {
-                     duration: 1325,
-                     step: function (now, fx) {
-                     $(this).css("left", now);
-                     }
-                     });
-                     
-                     $(".colorBAMBOO").css("left", -300);
-                     $(".colorBAMBOO").animate({
-                     left: 0
-                     }, {
-                     duration: 1325,
-                     step: function (now, fx) {
-                     $(this).css("left", now);
-                     }
-                     });
-                     
-                     $(".colorSMARTCLOVER").css("left", -300);
-                     $(".colorSMARTCLOVER").animate({
-                     left: 0
-                     }, {
-                     duration: 1325,
-                     step: function (now, fx) {
-                     $(this).css("left", now);
-                     }
-                     });
-                     
-                     $(".colorSCHEDULE").css("left", -300);
-                     $(".colorSCHEDULE").animate({
-                     left: 0
-                     }, {
-                     duration: 1325,
-                     step: function (now, fx) {
-                     $(this).css("left", now);
-                     }
-                     });
-                     */
-                    $(".menu").removeClass("bginnerSchedule");
+                    var estado = $('.colorFACTSsub').css('max-width');
+                    if(estado === '0%'){
+                        hideColSubLayers();
+                        $('.colorFACTSsub').animate({'max-width': '24%'}, 500);
+                        $(".menu").removeClass("bginnerSchedule");
 //                    $(".menu").removeClass("bginnerSchoolAnalytics").delay(500);
-                    $(".menu").addClass("bgBaseMenu");
-                    if ($(".colorFACTS").css("max-width") !== "0%")
-                        $(".buttonNext").show();
+                        $(".menu").addClass("bgBaseMenu");
+                        if ($(".colorFACTS").css("max-width") !== "0%"){
+                            $(".buttonNext").show();
+                        }
+                    }else{
+                        hideColSubLayers();
+                    }
                 });
-
+                    
                 $(".colorBAMBOO").click(function () {
-                    hideColSubLayers();
-                    $('.colorBAMBOOsub').animate({'max-width': '24%'}, 500);
-                    $(".menu").removeClass("bginnerSchedule");
-//                    $(".menu").removeClass("bginnerSchoolAnalytics").delay(500);
-                    $(".menu").addClass("bgBaseMenu");
-                    if ($(".colorFACTS").css("max-width") !== "0%")
-                        $(".buttonNext").show();
+                    var estado = $('.colorBAMBOOsub').css('max-width');
+                    if(estado === '0%'){
+                        hideColSubLayers();
+                        $('.colorBAMBOOsub').animate({'max-width': '24%'}, 500);
+                        $(".menu").removeClass("bginnerSchedule");
+    //                    $(".menu").removeClass("bginnerSchoolAnalytics").delay(500);
+                        $(".menu").addClass("bgBaseMenu");
+                        if ($(".colorFACTS").css("max-width") !== "0%"){
+                            $(".buttonNext").show();
+                        }
+                    }else{
+                        hideColSubLayers();
+                    }
                 });
 
                 function hideColSubLayers() {
@@ -869,34 +840,54 @@
 
 
                 $(".colorSMARTCLOVER").click(function () {
-                    hideColSubLayers();
-                    $('.colorSMARTCLOVERsub').animate({'max-width': '24%'}, 500);
-                    $(".menu").removeClass("bginnerSchedule").delay(500);
-//                    $(".menu").removeClass("bginnerSchoolAnalytics").delay(500);
-                    $(".menu").addClass("bgBaseMenu").delay(500);
-                    if ($(".colorFACTS").css("max-width") !== "0%")
-                        $(".buttonNext").show();
+                    var estado = $('.colorSMARTCLOVERsub').css('max-width');
+                    if(estado === '0%'){
+                        hideColSubLayers();
+                        $('.colorSMARTCLOVERsub').animate({'max-width': '24%'}, 500);
+                        $(".menu").removeClass("bginnerSchedule").delay(500);
+    //                    $(".menu").removeClass("bginnerSchoolAnalytics").delay(500);
+                        $(".menu").addClass("bgBaseMenu").delay(500);
+                        if ($(".colorFACTS").css("max-width") !== "0%"){
+                            $(".buttonNext").show();
+                        }
+                    }else{
+                        hideColSubLayers();
+                    }
                 });
 
 
                 $(".colorSCHEDULE").click(function () {
-                    hideColSubLayers();
-                    $('.colorSCHEDULEsub').animate({'max-width': '24%'}, 500);
-                    $(".menu").removeClass("bgBaseMenu").delay(500);
-//                    $(".menu").removeClass("bginnerSchoolAnalytics").delay(500);
-                    $(".menu").addClass("bginnerSchedule").delay(500);
-                    $(".buttonNext").hide();
-                    if ($(".colorFACTS").css("max-width") === "0%") {
-                        $(".buttonNextSub").hide();
-                    } else {
-                        $(".buttonNextSub").show();
+                    var estado = $('.colorSCHEDULEsub').css('max-width');
+                    if(estado === '0%'){
+                        hideColSubLayers();
+                        $('.colorSCHEDULEsub').animate({'max-width': '24%'}, 500);
+                        $(".menu").removeClass("bgBaseMenu").delay(500);
+    //                    $(".menu").removeClass("bginnerSchoolAnalytics").delay(500);
+                        $(".menu").addClass("bginnerSchedule").delay(500);
+                        $(".buttonNext").hide();
+                        if ($(".colorFACTS").css("max-width") === "0%") {
+                            $(".buttonNextSub").hide();
+                        } else {
+                            $(".buttonNextSub").show();
+                        }
+                    }else{
+                        hideColSubLayers();
+                        if ($(".colorFACTS").css("max-width") === "0%") {
+                            $(".buttonNext").hide();
+                        } else {
+                            $(".buttonNext").show();
+                        }
                     }
-
                 });
 
                 $(".colorSchoolAnalytics").click(function () {
-                    hideColSubLayers();
-                    $('.colorSchoolAnalyticssub').animate({'max-width': '24%'}, 500);
+                    var estado = $('.colorSchoolAnalyticssub').css('max-width');
+                    if(estado === '0%'){
+                        hideColSubLayers();
+                        $('.colorSchoolAnalyticssub').animate({'max-width': '24%'}, 500);
+                    }else{
+                        hideColSubLayers();
+                    }
                 });
 
                 $(".buttonNext").click(function (e) {
@@ -929,6 +920,17 @@
                     $(".buttonPrevious").hide();
                     e.stopPropagation();
                 });
+
+                $('.enlace').click(function(e){
+                    e.preventDefault();
+                    let url = $('body').find($(this).attr('href')).offset().top;
+                    $('html, body').animate({
+                      scrollTop : url
+                    },700);
+                    $(this).parent().addClass('active');
+                    $(this).parent().siblings().removeClass('active');
+                    return false;	
+                 });
 
 
                 $("#collapseINICIO").click(function () {
@@ -1110,19 +1112,20 @@
                     <img class="d-inline-block logo" src="recursos/img/LogosMenu/LogoFacts.svg">
                 </div> 
                 <div class="w-100 h-25 text-center my-auto">
-                    <a class="text-white" >FACTS</a>                   
+                    <a class="text-white" >FACTS</a>  
+                    <a class="enlace" href="#Contact">Request Demo</a>
                 </div>                 
                 <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
             </div>
             <div class="col colorFACTSsub colSubLayer p-0"  style="max-width: 0%;"  >
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center">
-                    Qué es
+                    <a class="nav-link" href="#AworldLeaderSIS">Qué es</a>
                 </div>
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center">
-                    Qué incluye
+                    <a href="#">Qué incluye</a>
                 </div>
                 <div class="col w-100 d-flex h-25  align-content-center align-items-center">
-                    Qué se personaliza
+                    <a href="#">Qué se personaliza</a>
                 </div>
             </div>
 
@@ -1251,7 +1254,7 @@
                 <div class="col-12 animacion"></div>
             </div>
         </div> 
-        <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalFacts">
+        <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalFacts" id="AworldLeaderSIS">
 
             <div class="col-12 bgFACTS d-flex d-md-none" > 
                 <div class="col-12 d-flex align-items-center justify-content-center">
@@ -1265,7 +1268,7 @@
             </div>
             <div class="col-12 col-md-4 cardInfo">
 
-                <div class="col-12"><h4 class="text-center">A world leader SIS</h4></div> 
+                <div class="col-12"><h4 class="text-center" >A world leader SIS</h4></div> 
                 <div class="col-10 offset-1 text-center">
                     <p class="mb-3">We are the official distributors of a world leader, fully integrated, multiplatform school information system serving more than 6000 schools worldwide.<br>
                            Our customers are located in South America, Africa, Europe and Asia.
@@ -1275,7 +1278,7 @@
                 </div>
             </div>
             <div class="col-12 col-md-4 cardInfo lineTopGray">
-                <div class="col-12"><h4 class="text-center">Our Services</h4></div> 
+                <div class="col-12"><h4 class="text-center" id="OurServices">Our Services</h4></div> 
                 <div class="col-10 offset-1 text-center">
                     <p class="mb-3">
                     <li>Data conversion and system setup</li>
@@ -1287,7 +1290,7 @@
                 </div>
             </div>
             <div class="col-12 col-md-4 cardInfo lineTopGray">
-                <div class="col-12"><h4 class="text-center">It is all about personalization</h4></div> 
+                <div class="col-12"><h4 class="text-center" id="ItIsAllAboutPersonalization">It is all about personalization</h4></div> 
                 <div class="col-10 offset-1 p-xl-0 text-center">
                     <p class="mb-3">Each school's story is unique. That is why our talented team implement the necessary customizations and personalizations for your school to work like clockwork.<br>
                     <li>Design and Customization of report card and transcript templates</li> 
@@ -1733,7 +1736,7 @@
                     <h1>Privacidad</h1>
                 </div>
             </div> 
-            <div class="container">
+            <div class="container" id="Contact">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="well well-sm">
