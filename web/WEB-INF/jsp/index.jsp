@@ -267,7 +267,7 @@
                 /*              border-top: 1px solid #5fbce2;
                                 border-bottom: 1px solid #5fbce2;*/
                 font-size: medium;
-                background-color: #29abe2;
+/*                background-color: #29abe2;*/
                 text-align: center;
                 vertical-align: central;
 
@@ -280,32 +280,36 @@
                 color: #66c34e;
                 /*background-color: #66c34e;*/
                 text-align: center;
+                vertical-align: central;
             }
 
             .footerSmartClover{  
-                border-top: 1px solid #639e46;
-                border-bottom: 1px solid #639e46;
+/*                border-top: 1px solid #639e46;
+                border-bottom: 1px solid #639e46;*/
                 font-size: medium;
-                color: white;
-                background-color: #357624;
+                color: #357624;
+/*                background-color: #357624;*/
                 text-align: center;
+                vertical-align: central;
             }
 
             .footerScheduler{                
-                color: white;
-                border-top: 1px solid #063a56;
-                border-bottom: 1px solid #063a56;
+                color: #0d253f;
+/*                border-top: 1px solid #063a56;
+                border-bottom: 1px solid #063a56;*/
                 text-align: center;
-                background-color: #0d253f;
+                vertical-align: central;
+                /*background-color: #0d253f;*/
             }
 
             .footerSchoolAnalytics{
                 text-align: center;
                 font-size: unset;
-                background-color: #f7931e;
-                color: white;   
-                border-top: 1px solid #f7931e;
-                border-bottom: 1px solid #f7931e;
+                /*background-color: #f7931e;*/
+                color: #fc8c00;
+                vertical-align: central;
+/*                border-top: 1px solid #f7931e;
+                border-bottom: 1px solid #f7931e;*/
             }
             .animacion
             {
@@ -820,6 +824,7 @@
                 /*display: flex;
                 justify-content: center;
                 align-items: center; */
+                z-index: 20;
             }
         </style>
         <script>
@@ -1025,14 +1030,16 @@
                 $(".footerFacts").append(generateSvgMoreInfo('#29abe2', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'>More information</label>" + generateSvgMoreInfo('#29abe2', 'left'))
 
                 $(".footerBamboo").empty();
-                $(".footerBamboo").append(generateSvgMoreInfo('#357624', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'>More information</label>" + generateSvgMoreInfo('#357624', 'left'))
+                $(".footerBamboo").append(generateSvgMoreInfo('#66c34e', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'>More information</label>" + generateSvgMoreInfo('#66c34e', 'left'))
 
                 $(".footerSmartClover").empty();
-                $(".footerSmartClover").append(generateSvgMoreInfo('#66c34e', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'>More information</label>" + generateSvgMoreInfo('#66c34e', 'left'))
+                $(".footerSmartClover").append(generateSvgMoreInfo('#357624', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'>More information</label>" + generateSvgMoreInfo('#357624', 'left'))
 
+                $(".footerScheduler").empty();
+                $(".footerScheduler").append(generateSvgMoreInfo('#0d253f', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'>More information</label>" + generateSvgMoreInfo('#0d253f', 'left'))
 
-
-
+                $(".footerSchoolAnalytics").empty();
+                $(".footerSchoolAnalytics").append(generateSvgMoreInfo('#fc8c00', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'>More information</label>" + generateSvgMoreInfo('#fc8c00', 'left'))
 
             });
             
