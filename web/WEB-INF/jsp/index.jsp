@@ -267,15 +267,15 @@
                 /*              border-top: 1px solid #5fbce2;
                                 border-bottom: 1px solid #5fbce2;*/
                 font-size: medium;
-/*                background-color: #29abe2;*/
+                /*                background-color: #29abe2;*/
                 text-align: center;
                 vertical-align: central;
 
             }
             .footerBamboo{
                 color:  #90e35c;
-/*                border-top: 1px solid #90e35c;
-                border-bottom: 1px solid #90e35c;*/
+                /*                border-top: 1px solid #90e35c;
+                                border-bottom: 1px solid #90e35c;*/
                 font-size: medium;
                 color: #66c34e;
                 /*background-color: #66c34e;*/
@@ -283,33 +283,33 @@
                 vertical-align: central;
             }
 
-            .footerSmartClover{  
-/*                border-top: 1px solid #639e46;
-                border-bottom: 1px solid #639e46;*/
+            .footerSmartClover{ 
                 font-size: medium;
                 color: #357624;
-/*                background-color: #357624;*/
                 text-align: center;
                 vertical-align: central;
+                                /* border-top: 1px solid #639e46;
+                  border-bottom: 1px solid #639e46;              
+                  background-color: #357624;*/
             }
 
             .footerScheduler{                
                 color: #0d253f;
-/*                border-top: 1px solid #063a56;
-                border-bottom: 1px solid #063a56;*/
                 text-align: center;
-                vertical-align: central;
+                vertical-align: central;                
+                /*                border-top: 1px solid #063a56;
+                                border-bottom: 1px solid #063a56;*/
                 /*background-color: #0d253f;*/
             }
 
             .footerSchoolAnalytics{
                 text-align: center;
                 font-size: unset;
-                /*background-color: #f7931e;*/
                 color: #fc8c00;
                 vertical-align: central;
-/*                border-top: 1px solid #f7931e;
-                border-bottom: 1px solid #f7931e;*/
+                /*border-top: 1px solid #f7931e;
+                  border-bottom: 1px solid #f7931e;*/
+                /*background-color: #f7931e;*/
             }
             .animacion
             {
@@ -412,20 +412,6 @@
                     background-position-y: 50%;
                 }
 
-                /***DUPLICADO ***/
-
-
-                .cardPrincipalFacts2{
-                    background:none;
-                    color: #29abe2;
-                    background-image: url(recursos/img/fondos/Fondo_FACTSopacidad25.svg);
-                    text-shadow: 0 0 black;
-                    background-repeat: no-repeat;
-                    background-position-x: 50%;
-                    background-position-y: 50%;
-                }
-
-
                 .cardPrincipalFacts .cardInfo{
                     background-color: rgb(102,195,226,0.2);
                     transform: skewX(-4deg);
@@ -441,12 +427,12 @@
                 .cardPrincipalBamboo{
                     background:none;
                     color: #66c34e;
-                    background-image: url(recursos/img/LogosMenu/LogoBamboo.svg);
+                    background-image: url(recursos/img/fondos/Fondo_Bambooopacidad25.svg);
                     text-shadow: 0 0 black;
                     background-repeat: no-repeat;
                     background-size: 15%;
-                    background-position-x: 95%;
-                    background-position-y: 25%;
+                    background-position-x: 50%;
+                    background-position-y: 50%;
                 }
                 .cardPrincipalBamboo .cardInfo{
                     background-color: rgb(102,195,78,0.2);
@@ -461,12 +447,12 @@
                 .cardPrincipalSmartClover{
                     background:none;
                     color:rgb(55, 119, 61, 1);
-                    background-image: url(recursos/img/LogosMenu/LogoSmartClover.svg);
+                    background-image: url(recursos/img/fondos/Fondo_SmartCloveropacidad25.svg);
                     text-shadow: 0 0 black;
                     background-repeat: no-repeat;
                     background-size: 15%;
-                    background-position-x: 2%;
-                    background-position-y: 25%;
+                    background-position-x: 50%;
+                    background-position-y: 50%;
 
                 }
                 .cardPrincipalSmartClover .cardInfo{
@@ -841,7 +827,7 @@
                 $('.nav-link').click(function () {
                     var sectionTo = $(this).attr('href');
                     $('html, body').animate({
-                        scrollTop: $(sectionTo).offset().top-225
+                        scrollTop: $(sectionTo).offset().top - 225
                     }, 1500);
                 });
                 $(".colorFACTS").click(function () {
@@ -1042,60 +1028,59 @@
                 $(".footerSchoolAnalytics").append(generateSvgMoreInfo('#fc8c00', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'>More information</label>" + generateSvgMoreInfo('#fc8c00', 'left'))
 
             });
-            
-            
-            function generateSvgMoreInfo(color,direction){
+
+
+            function generateSvgMoreInfo(color, direction) {
                 var svgImage = "";
-                if(direction === "right"){
+                if (direction === "right") {
                     return '<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="82.438px" height="14px" viewBox="0 0 82.438 14" enable-background="new 0 0 82.438 14" xml:space="preserve">\n\
-                                <circle opacity="0" fill="'+color+'" cx="7" cy="7" r="7">\n\
+                                <circle opacity="0" fill="' + color + '" cx="7" cy="7" r="7">\n\
                                     <animate id="animation1" attributeName="opacity" values="0;0.2" dur="1s" begin="0s;animation5.end" />		\n\
                                     <animate  attributeName="opacity" values="0.2;0.2" dur="4s" begin="animation1.end" />\n\
                                 </circle>\n\
-                                <circle opacity="0" fill="'+color+'" cx="24.109" cy="7" r="7">		\n\
+                                <circle opacity="0" fill="' + color + '" cx="24.109" cy="7" r="7">		\n\
                                     <animate id="animation2" attributeName="opacity" values="0;0.4" dur="1s" begin="animation1.end" />		\n\
                                     <animate  attributeName="opacity" values="0.4;0.4" dur="3s" begin="animation2.end" />\n\
                                 </circle>\n\
-                                <circle opacity="0" fill="'+color+'" cx="41.219" cy="7" r="7">\n\
+                                <circle opacity="0" fill="' + color + '" cx="41.219" cy="7" r="7">\n\
                                     <animate id="animation3" attributeName="opacity" values="0;0.6" dur="1s" begin="animation2.end"/>\n\
                                     <animate  attributeName="opacity" values="0.6;0.6" dur="2s" begin="animation3.end" />\n\
                                 </circle>\n\
-                                <circle opacity="0" fill="'+color+'" cx="58.328" cy="7" r="7">\n\
+                                <circle opacity="0" fill="' + color + '" cx="58.328" cy="7" r="7">\n\
                                     <animate id="animation4" attributeName="opacity" values="0;0.8" dur="1s" begin="animation3.end"/>\n\
                                     <animate  attributeName="opacity" values="0.8;0.8" dur="1s" begin="animation4.end" />\n\
                                 </circle>\n\
-                                <circle opacity="0" fill="'+color+'" cx="75.25" cy="7" r="7">		\n\
+                                <circle opacity="0" fill="' + color + '" cx="75.25" cy="7" r="7">		\n\
                                     <animate id="animation5" attributeName="opacity" values="0;1" dur="1s" begin="animation4.end"/> \n\
                                 </circle>\n\
                             </svg>';
-                }
-                else{ // left
-                     return '<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="82.438px" height="14px" viewBox="0 0 82.438 14" enable-background="new 0 0 82.438 14" xml:space="preserve">\n\
-                                <circle opacity="0" fill="'+color+'"  cx="75.25" cy="7" r="7">\n\
+                } else { // left
+                    return '<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="82.438px" height="14px" viewBox="0 0 82.438 14" enable-background="new 0 0 82.438 14" xml:space="preserve">\n\
+                                <circle opacity="0" fill="' + color + '"  cx="75.25" cy="7" r="7">\n\
                                     <animate id="animation1" attributeName="opacity" values="0;0.2" dur="1s" begin="0s;animation5.end" />		\n\
                                     <animate  attributeName="opacity" values="0.2;0.2" dur="4s" begin="animation1.end" />\n\
                                 </circle>\n\
-                                <circle opacity="0" fill="'+color+'" cx="58.328" cy="7" r="7">		\n\
+                                <circle opacity="0" fill="' + color + '" cx="58.328" cy="7" r="7">		\n\
                                     <animate id="animation2" attributeName="opacity" values="0;0.4" dur="1s" begin="animation1.end" />		\n\
                                     <animate  attributeName="opacity" values="0.4;0.4" dur="3s" begin="animation2.end" />\n\
                                 </circle>\n\
-                                <circle opacity="0" fill="'+color+'" cx="41.219" cy="7" r="7">\n\
+                                <circle opacity="0" fill="' + color + '" cx="41.219" cy="7" r="7">\n\
                                     <animate id="animation3" attributeName="opacity" values="0;0.6" dur="1s" begin="animation2.end"/>\n\
                                     <animate  attributeName="opacity" values="0.6;0.6" dur="2s" begin="animation3.end" />\n\
                                 </circle>\n\
-                                <circle opacity="0" fill="'+color+'" cx="24.109" cy="7" r="7" >\n\
+                                <circle opacity="0" fill="' + color + '" cx="24.109" cy="7" r="7" >\n\
                                     <animate id="animation4" attributeName="opacity" values="0;0.8" dur="1s" begin="animation3.end"/>\n\
                                     <animate  attributeName="opacity" values="0.8;0.8" dur="1s" begin="animation4.end" />\n\
                                 </circle>\n\
-                                <circle opacity="0" fill="'+color+'" cx="7" cy="7" r="7">		\n\
+                                <circle opacity="0" fill="' + color + '" cx="7" cy="7" r="7">		\n\
                                     <animate id="animation5" attributeName="opacity" values="0;1" dur="1s" begin="animation4.end"/> \n\
                                 </circle>\n\
                             </svg>';
                 }
                 return svgImage;
             }
-            
-            
+
+
             function checkInputs() {
                 var result = true;
 
