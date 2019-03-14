@@ -1888,7 +1888,7 @@
 
                                     <div class="form-group">
                                         <div class="col-10 col-md-8 offset-md-2 text-center">
-                                            <button  class="btn btn-primary btn-lg footerScheduler" id="submitForm">Submit</button>
+                                            <button  class="btn btn-primary btn-lg" id="submitForm">Submit</button>
                                         </div>
                                     </div>
                                 </fieldset>
