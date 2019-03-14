@@ -13,7 +13,7 @@
 
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-<!--        <link rel="stylesheet" media="all" href="recursos/css/main.css" />-->
+        <!--        <link rel="stylesheet" media="all" href="recursos/css/main.css" />-->
         <link href="recursos/css/bootstrap.css" rel="stylesheet" type="text/css"/>
         <link href="recursos/css/bootstrap-grid.css" rel="stylesheet" type="text/css"/>
         <link href="recursos/css/bootstrap-reboot.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +44,7 @@
                 background-color: #29abe2;
                 transform: skewX(-4deg);
                 z-index: 1;
-                
+
             }
             .colorFACTSsub
             {
@@ -264,7 +264,7 @@
             }
             .footerFacts{
                 color:  #5fbce2;
-                /*                border-top: 1px solid #5fbce2;
+                /*              border-top: 1px solid #5fbce2;
                                 border-bottom: 1px solid #5fbce2;*/
                 font-size: medium;
                 background-color: #29abe2;
@@ -274,11 +274,11 @@
             }
             .footerBamboo{
                 color:  #90e35c;
-                border-top: 1px solid #90e35c;
-                border-bottom: 1px solid #90e35c;
+/*                border-top: 1px solid #90e35c;
+                border-bottom: 1px solid #90e35c;*/
                 font-size: medium;
-                color: white;
-                background-color: #66c34e;
+                color: #66c34e;
+                /*background-color: #66c34e;*/
                 text-align: center;
             }
 
@@ -400,16 +400,30 @@
 
                 .cardPrincipalFacts{
                     background:none;
-                    color:white;
-                    background-image: url(recursos/img/LogosMenu/LogoFacts.svg);
+                    color: #29abe2;
+                    background-image: url(recursos/img/fondos/Fondo_FACTSopacidad25.svg);
                     text-shadow: 0 0 black;
                     background-repeat: no-repeat;
-                    background-size: 15%;
-                    background-position-x: 2%;
-                    background-position-y: 25%;
+                    background-position-x: 50%;
+                    background-position-y: 50%;
                 }
+
+                /***DUPLICADO ***/
+
+
+                .cardPrincipalFacts2{
+                    background:none;
+                    color: #29abe2;
+                    background-image: url(recursos/img/fondos/Fondo_FACTSopacidad25.svg);
+                    text-shadow: 0 0 black;
+                    background-repeat: no-repeat;
+                    background-position-x: 50%;
+                    background-position-y: 50%;
+                }
+
+
                 .cardPrincipalFacts .cardInfo{
-                    background-color: rgb(41, 171, 226, 0.8);
+                    background-color: rgb(102,195,226,0.2);
                     transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
@@ -422,7 +436,7 @@
                 }
                 .cardPrincipalBamboo{
                     background:none;
-                    color:white;
+                    color: #66c34e;
                     background-image: url(recursos/img/LogosMenu/LogoBamboo.svg);
                     text-shadow: 0 0 black;
                     background-repeat: no-repeat;
@@ -431,7 +445,7 @@
                     background-position-y: 25%;
                 }
                 .cardPrincipalBamboo .cardInfo{
-                    background-color: rgb(102, 195, 78, 0.8);
+                    background-color: rgb(102,195,78,0.2);
                     transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
@@ -452,7 +466,7 @@
 
                 }
                 .cardPrincipalSmartClover .cardInfo{
-                    background-color: rgb(53, 118, 36, 0.8);
+                    background-color: rgb(55, 119, 61, 0.2);
                     transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
@@ -463,7 +477,7 @@
                 }
                 .cardPrincipalScheduler{
                     background:none;
-                    color:white;                  
+                    color: #0d253f;                  
                     background-image: url(recursos/img/LogosMenu/LogoMschedules.svg);
                     text-shadow: 0 0 black;
                     background-repeat: no-repeat;
@@ -472,7 +486,7 @@
                     background-position-y: 25%;
                 }
                 .cardPrincipalScheduler .cardInfo{
-                    background-color:  rgb(13, 37, 63, 0.8);
+                    background-color: rgb(13,37,63,0.2);
                     transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
@@ -485,7 +499,7 @@
 
                 .cardPrincipalSchoolAnalytics{
                     background:none;
-                    color:white;
+                    color: rgb(252,140,0, 1);
                     background-image: url(recursos/img/LogosMenu/LogoChartSchool.svg);
                     text-shadow: 0 0 black;
                     background-repeat: no-repeat;
@@ -496,7 +510,7 @@
                 }
 
                 .cardPrincipalSchoolAnalytics .cardInfo{
-                    background-color: rgb(251,176,59,0.8);
+                    background-color: rgb(252,140,0, 0.2);
                     transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
@@ -517,7 +531,7 @@
             @media (min-width: 992px) { 
 
                 .cardPrincipalFacts .cardInfo{
-                    background-color: rgb(41, 171, 226, 0.8);
+                    background-color: rgb(102,195,226,0.2);
                     transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
@@ -531,7 +545,7 @@
 
 
                 .cardPrincipalBamboo .cardInfo{
-                    background-color: rgb(102, 195, 78, 0.8);
+                    background-color: rgb(102,195,78,0.2);
                     transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
@@ -542,7 +556,7 @@
                 }
 
                 .cardPrincipalSmartClover .cardInfo{
-                    background-color: rgb(53, 118, 36, 0.8);
+                    background-color: rgb(55, 119, 61, 0.2);
                     transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
@@ -553,7 +567,7 @@
                 }
 
                 .cardPrincipalScheduler .cardInfo{
-                    background-color:  rgb(13, 37, 63, 0.8);
+                    background-color:  rgb(13,37,63,0.2);
                     transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
@@ -563,7 +577,7 @@
                     padding-top:15px;
                 }
                 .cardPrincipalSchoolAnalytics .cardInfo{
-                    background-color: rgb(251,176,59,0.8);
+                    background-color: rgb(252,140,0, 0.2);
                     transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
@@ -597,7 +611,7 @@
             @media (min-width: 1200px) { 
 
                 .cardPrincipalFacts .cardInfo{
-                    background-color: rgb(41, 171, 226, 0.8);
+                    background-color: rgb(102,195,226,0.2);
                     transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
@@ -611,7 +625,7 @@
 
 
                 .cardPrincipalBamboo .cardInfo{
-                    background-color: rgb(102, 195, 78, 0.8);
+                    background-color: rgb(102,195,78,0.2);
                     transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
@@ -633,7 +647,7 @@
                 }
 
                 .cardPrincipalScheduler .cardInfo{
-                    background-color:  rgb(13, 37, 63, 0.8);
+                    background-color:  rgb(13,37,63,0.2);
                     transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
@@ -643,7 +657,7 @@
                     padding-top:15px;
                 }
                 .cardPrincipalSchoolAnalytics .cardInfo{
-                    background-color: rgb(251,176,59,0.8);
+                    background-color: rgb(252,140,0, 0.2);
                     transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
@@ -687,8 +701,8 @@
                 color: #29abe2;
             }
             .cardPrincipalFacts .card .card-body{
-                background-color: rgb(41, 171, 226, 0.8);
-                color: white;
+                background-color: rgb(102,195,226,0.2);
+                color: #29abe2;
             }
             .cardPrincipalFacts .slick-prev:before, .slick-next:before{
                 color: #29abe2;
@@ -733,14 +747,14 @@
             }
             .logoMenuApps {
                 position: absolute;
-                right: 10px;
-                top: 5px;
+                right: 15px;
+                top: 0px;
                 margin:0px;
             }
 
             .logoMenuApps>img{
-                width: 60px;
-                height: 60px;
+                width: 50px;
+                height: 50px;
             }
             #logoMenuApp0{ 
                 z-index:11;
@@ -819,10 +833,10 @@
 //                    $(window).scrollTop(top);
 //                });
 
-                $('.nav-link').click(function() {
+                $('.nav-link').click(function () {
                     var sectionTo = $(this).attr('href');
                     $('html, body').animate({
-                      scrollTop: $(sectionTo).offset().top
+                        scrollTop: $(sectionTo).offset().top-225
                     }, 1500);
                 });
                 $(".colorFACTS").click(function () {
@@ -1007,8 +1021,74 @@
                     }
                 });
 
+                $(".footerFacts").empty();
+                $(".footerFacts").append(generateSvgMoreInfo('#29abe2', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'>More information</label>" + generateSvgMoreInfo('#29abe2', 'left'))
+
+                $(".footerBamboo").empty();
+                $(".footerBamboo").append(generateSvgMoreInfo('#357624', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'>More information</label>" + generateSvgMoreInfo('#357624', 'left'))
+
+                $(".footerSmartClover").empty();
+                $(".footerSmartClover").append(generateSvgMoreInfo('#66c34e', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'>More information</label>" + generateSvgMoreInfo('#66c34e', 'left'))
+
+
+
+
 
             });
+            
+            
+            function generateSvgMoreInfo(color,direction){
+                var svgImage = "";
+                if(direction === "right"){
+                    return '<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="82.438px" height="14px" viewBox="0 0 82.438 14" enable-background="new 0 0 82.438 14" xml:space="preserve">\n\
+                                <circle opacity="0" fill="'+color+'" cx="7" cy="7" r="7">\n\
+                                    <animate id="animation1" attributeName="opacity" values="0;0.2" dur="1s" begin="0s;animation5.end" />		\n\
+                                    <animate  attributeName="opacity" values="0.2;0.2" dur="4s" begin="animation1.end" />\n\
+                                </circle>\n\
+                                <circle opacity="0" fill="'+color+'" cx="24.109" cy="7" r="7">		\n\
+                                    <animate id="animation2" attributeName="opacity" values="0;0.4" dur="1s" begin="animation1.end" />		\n\
+                                    <animate  attributeName="opacity" values="0.4;0.4" dur="3s" begin="animation2.end" />\n\
+                                </circle>\n\
+                                <circle opacity="0" fill="'+color+'" cx="41.219" cy="7" r="7">\n\
+                                    <animate id="animation3" attributeName="opacity" values="0;0.6" dur="1s" begin="animation2.end"/>\n\
+                                    <animate  attributeName="opacity" values="0.6;0.6" dur="2s" begin="animation3.end" />\n\
+                                </circle>\n\
+                                <circle opacity="0" fill="'+color+'" cx="58.328" cy="7" r="7">\n\
+                                    <animate id="animation4" attributeName="opacity" values="0;0.8" dur="1s" begin="animation3.end"/>\n\
+                                    <animate  attributeName="opacity" values="0.8;0.8" dur="1s" begin="animation4.end" />\n\
+                                </circle>\n\
+                                <circle opacity="0" fill="'+color+'" cx="75.25" cy="7" r="7">		\n\
+                                    <animate id="animation5" attributeName="opacity" values="0;1" dur="1s" begin="animation4.end"/> \n\
+                                </circle>\n\
+                            </svg>';
+                }
+                else{ // left
+                     return '<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="82.438px" height="14px" viewBox="0 0 82.438 14" enable-background="new 0 0 82.438 14" xml:space="preserve">\n\
+                                <circle opacity="0" fill="'+color+'"  cx="75.25" cy="7" r="7">\n\
+                                    <animate id="animation1" attributeName="opacity" values="0;0.2" dur="1s" begin="0s;animation5.end" />		\n\
+                                    <animate  attributeName="opacity" values="0.2;0.2" dur="4s" begin="animation1.end" />\n\
+                                </circle>\n\
+                                <circle opacity="0" fill="'+color+'" cx="58.328" cy="7" r="7">		\n\
+                                    <animate id="animation2" attributeName="opacity" values="0;0.4" dur="1s" begin="animation1.end" />		\n\
+                                    <animate  attributeName="opacity" values="0.4;0.4" dur="3s" begin="animation2.end" />\n\
+                                </circle>\n\
+                                <circle opacity="0" fill="'+color+'" cx="41.219" cy="7" r="7">\n\
+                                    <animate id="animation3" attributeName="opacity" values="0;0.6" dur="1s" begin="animation2.end"/>\n\
+                                    <animate  attributeName="opacity" values="0.6;0.6" dur="2s" begin="animation3.end" />\n\
+                                </circle>\n\
+                                <circle opacity="0" fill="'+color+'" cx="24.109" cy="7" r="7" >\n\
+                                    <animate id="animation4" attributeName="opacity" values="0;0.8" dur="1s" begin="animation3.end"/>\n\
+                                    <animate  attributeName="opacity" values="0.8;0.8" dur="1s" begin="animation4.end" />\n\
+                                </circle>\n\
+                                <circle opacity="0" fill="'+color+'" cx="7" cy="7" r="7">		\n\
+                                    <animate id="animation5" attributeName="opacity" values="0;1" dur="1s" begin="animation4.end"/> \n\
+                                </circle>\n\
+                            </svg>';
+                }
+                return svgImage;
+            }
+            
+            
             function checkInputs() {
                 var result = true;
 
@@ -1210,8 +1290,8 @@
                     <a class="nav-link" href="#cPrincClover">It covers all your needs</a>  
                 </div>
                 <div class="col w-100 d-flex h-25  align-content-center align-items-center">
-                     <a class="nav-link" href="#cPrincClover">Features</a>  
-                    
+                    <a class="nav-link" href="#cPrincClover">Features</a>  
+
                 </div>
                 <!--<div class="col w-100 d-flex h-25  align-content-center align-items-center">
                     Smart Experience
@@ -1244,11 +1324,11 @@
                 </div>
                 <div class="col w-100 d-flex h-25  align-content-center align-items-center">
                     <a class="nav-link" href="#cPrincScheduler"> A smart algorithm</a> 
-                    
+
                 </div>
                 <div class="col w-100 d-flex h-25  align-content-center align-items-center">
                     <a class="nav-link" href="#cPrincScheduler"> Leave it to us</a> 
-                    
+
                     <div class="buttonNextSub">
                         <i class="fas fa-angle-double-right"></i>
                     </div>
@@ -1298,6 +1378,7 @@
                     </a> 
                 </div> 
             </div>
+
             <div class="col-12 col-md-4 cardInfo">
 
                 <div class="col-12"><h4 class="text-center" >A world leader SIS</h4></div> 
@@ -1385,6 +1466,7 @@
                 <i class="fas fa-circle" style="font-size: 10px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
             </div>
         </div>
+
         <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalBamboo" id="cPrincBamboo">
             <div class="col-12 bgBamboo d-flex d-md-none" > 
                 <div class="col-12 d-flex align-items-center justify-content-center">
@@ -1558,7 +1640,7 @@
         </div>
 
 
-        <!--
+        <!-- 
         <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalSchoolAnalytics ">
             <div class="col-12 bgSchoolAnalytics d-flex d-md-none" > 
                 <div class="col-12 d-flex align-items-center justify-content-center">
@@ -2205,7 +2287,7 @@
             </div>
         </div>
         <div class="position-fixed btnTop nav-link d-flex justify-content-center align-items-center" href=".menu">
-             <i class="fas fa-angle-double-up"></i>
+            <i class="fas fa-angle-double-up"></i>
         </div>
     </body>
 </html>
