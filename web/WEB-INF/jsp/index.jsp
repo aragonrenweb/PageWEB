@@ -400,7 +400,7 @@
 
                 .cardPrincipalFacts{
                     background:none;
-                    color:white;
+                    color: #29abe2;
                     background-image: url(recursos/img/LogosMenu/LogoFacts.svg);
                     text-shadow: 0 0 black;
                     background-repeat: no-repeat;
@@ -409,7 +409,7 @@
                     background-position-y: 25%;
                 }
                 .cardPrincipalFacts .cardInfo{
-                    background-color: rgb(41, 171, 226, 0.8);
+                    background-color: rgb(102,195,226,0.2);
                     transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
@@ -422,7 +422,7 @@
                 }
                 .cardPrincipalBamboo{
                     background:none;
-                    color:white;
+                    color: #66c34e;
                     background-image: url(recursos/img/LogosMenu/LogoBamboo.svg);
                     text-shadow: 0 0 black;
                     background-repeat: no-repeat;
@@ -431,7 +431,7 @@
                     background-position-y: 25%;
                 }
                 .cardPrincipalBamboo .cardInfo{
-                    background-color: rgb(102, 195, 78, 0.8);
+                    background-color: rgb(102,195,78,0.2);
                     transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
@@ -452,7 +452,7 @@
 
                 }
                 .cardPrincipalSmartClover .cardInfo{
-                    background-color: rgb(53, 118, 36, 0.8);
+                    background-color: rgb(55, 119, 61, 0.2);
                     transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
@@ -463,7 +463,7 @@
                 }
                 .cardPrincipalScheduler{
                     background:none;
-                    color:white;                  
+                    color: #0d253f;                  
                     background-image: url(recursos/img/LogosMenu/LogoMschedules.svg);
                     text-shadow: 0 0 black;
                     background-repeat: no-repeat;
@@ -472,7 +472,7 @@
                     background-position-y: 25%;
                 }
                 .cardPrincipalScheduler .cardInfo{
-                    background-color:  rgb(13, 37, 63, 0.8);
+                    background-color: rgb(13,37,63,0.2);
                     transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
@@ -517,7 +517,7 @@
             @media (min-width: 992px) { 
 
                 .cardPrincipalFacts .cardInfo{
-                    background-color: rgb(41, 171, 226, 0.8);
+                    background-color: rgb(102,195,226,0.2);
                     transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
@@ -531,7 +531,7 @@
 
 
                 .cardPrincipalBamboo .cardInfo{
-                    background-color: rgb(102, 195, 78, 0.8);
+                    background-color: rgb(102,195,78,0.2);
                     transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
@@ -542,7 +542,7 @@
                 }
 
                 .cardPrincipalSmartClover .cardInfo{
-                    background-color: rgb(53, 118, 36, 0.8);
+                    background-color: rgb(55, 119, 61, 0.2);
                     transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
@@ -553,7 +553,7 @@
                 }
 
                 .cardPrincipalScheduler .cardInfo{
-                    background-color:  rgb(13, 37, 63, 0.8);
+                    background-color:  rgb(13,37,63,0.2);
                     transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
@@ -597,7 +597,7 @@
             @media (min-width: 1200px) { 
 
                 .cardPrincipalFacts .cardInfo{
-                    background-color: rgb(41, 171, 226, 0.8);
+                    background-color: rgb(102,195,226,0.2);
                     transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
@@ -611,7 +611,7 @@
 
 
                 .cardPrincipalBamboo .cardInfo{
-                    background-color: rgb(102, 195, 78, 0.8);
+                    background-color: rgb(102,195,78,0.2);
                     transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
@@ -633,7 +633,7 @@
                 }
 
                 .cardPrincipalScheduler .cardInfo{
-                    background-color:  rgb(13, 37, 63, 0.8);
+                    background-color:  rgb(13,37,63,0.2);
                     transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
@@ -687,8 +687,8 @@
                 color: #29abe2;
             }
             .cardPrincipalFacts .card .card-body{
-                background-color: rgb(41, 171, 226, 0.8);
-                color: white;
+                background-color: rgb(102,195,226,0.2);
+                color: #29abe2;
             }
             .cardPrincipalFacts .slick-prev:before, .slick-next:before{
                 color: #29abe2;
