@@ -430,7 +430,6 @@
                     background-image: url(recursos/img/fondos/Fondo_Bambooopacidad25.svg);
                     text-shadow: 0 0 black;
                     background-repeat: no-repeat;
-                    background-size: 15%;
                     background-position-x: 50%;
                     background-position-y: 50%;
                 }
@@ -450,9 +449,8 @@
                     background-image: url(recursos/img/fondos/Fondo_SmartCloveropacidad25.svg);
                     text-shadow: 0 0 black;
                     background-repeat: no-repeat;
-                    background-size: 15%;
                     background-position-x: 50%;
-                    background-position-y: 50%;
+                    background-position-y: 42%;
 
                 }
                 .cardPrincipalSmartClover .cardInfo{
@@ -468,12 +466,11 @@
                 .cardPrincipalScheduler{
                     background:none;
                     color: #0d253f;                  
-                    background-image: url(recursos/img/LogosMenu/LogoMschedules.svg);
+                    background-image: url(recursos/img/fondos/Fondo_Scheduleropacidad25.svg);
                     text-shadow: 0 0 black;
                     background-repeat: no-repeat;
-                    background-size: 15%;
-                    background-position-x: 95%;
-                    background-position-y: 25%;
+                    background-position-x: 50%;
+                    background-position-y: 50%;
                 }
                 .cardPrincipalScheduler .cardInfo{
                     background-color: rgb(13,37,63,0.2);
@@ -490,10 +487,9 @@
                 .cardPrincipalSchoolAnalytics{
                     background:none;
                     color: rgb(252,140,0, 1);
-                    background-image: url(recursos/img/LogosMenu/LogoChartSchool.svg);
+                    background-image: url(recursos/img/fondos/Fondo_SchoolAnalyticsopacidad25.svg);
                     text-shadow: 0 0 black;
                     background-repeat: no-repeat;
-                    background-size: 15%;
                     background-position-x: 2%;
                     background-position-y: 25%;
 
