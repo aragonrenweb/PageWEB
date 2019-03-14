@@ -13,7 +13,7 @@
 
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-        <link rel="stylesheet" media="all" href="recursos/css/main.css" />
+<!--        <link rel="stylesheet" media="all" href="recursos/css/main.css" />-->
         <link href="recursos/css/bootstrap.css" rel="stylesheet" type="text/css"/>
         <link href="recursos/css/bootstrap-grid.css" rel="stylesheet" type="text/css"/>
         <link href="recursos/css/bootstrap-reboot.css" rel="stylesheet" type="text/css"/>
@@ -44,6 +44,7 @@
                 background-color: #29abe2;
                 transform: skewX(-4deg);
                 z-index: 1;
+                
             }
             .colorFACTSsub
             {
@@ -107,6 +108,8 @@
                 /*margin-bottom:504px;*/
                 transition:background 1s ease;
                 transition:background-color 1s ease;
+                cursor:pointer; 
+                cursor: hand;
             }
             .logo
             {
@@ -211,7 +214,7 @@
                 background-color: #357624; 
             } 
             .bgSmartClover h1{
-                color:white;
+                color: white;
             }
 
             .cardPrincipalScheduler{
@@ -439,7 +442,7 @@
                 }
                 .cardPrincipalSmartClover{
                     background:none;
-                    color:white;
+                    color:rgb(55, 119, 61, 1);
                     background-image: url(recursos/img/LogosMenu/LogoSmartClover.svg);
                     text-shadow: 0 0 black;
                     background-repeat: no-repeat;
@@ -619,7 +622,7 @@
                 }
 
                 .cardPrincipalSmartClover .cardInfo{
-                    background-color: rgb(53, 118, 36, 0.8);
+                    background-color: rgb(55, 119, 61, 0.2);
                     transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
@@ -798,11 +801,17 @@
                 $(".buttonPrevious").hide();
                 $(".colorSchoolAnalytics").hide();
 
-                $('.nav-link').on('click', function () { 
-                    var top = $($(this).attr("href")).top();
-                    $(window).scrollTop(top);
-                });
+//                $('.nav-link').on('click', function () { 
+//                    var top = $($(this).attr("href")).top();
+//                    $(window).scrollTop(top);
+//                });
 
+                $('.nav-link').click(function() {
+                    var sectionTo = $(this).attr('href');
+                    $('html, body').animate({
+                      scrollTop: $(sectionTo).offset().top
+                    }, 1500);
+                });
                 $(".colorFACTS").click(function () {
                     var estado = $('.colorFACTSsub').css('max-width');
                     if (estado === '0%') {
@@ -1259,11 +1268,11 @@
             </div>
 
         </div> 
-        <!--<div class=" row">
+        <div class=" row">
             <div class="col-12 " >
                 <div class="col-12 animacion"></div>
             </div>
-        </div> -->
+        </div>
         <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalFacts" id="cPrincFacts">
 
             <div class="col-12 bgFACTS d-flex d-md-none" > 
