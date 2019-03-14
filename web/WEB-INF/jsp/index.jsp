@@ -36,7 +36,7 @@
         <style>
 
             body{
-                overflow: hidden;
+                overflow-x: hidden;
             }
 
             .colorFACTS
@@ -793,6 +793,19 @@
 
                 align-items: center;
                 justify-content: center;
+            }
+            .btnTop{
+                bottom: 10;
+                right: 10;
+                border: 2px solid #353535;
+                color: #353535;
+                /* background: white; */
+                border-radius: 20px;
+                width: 40px;
+                height: 40px;
+                /*display: flex;
+                justify-content: center;
+                align-items: center; */
             }
         </style>
         <script>
@@ -2190,6 +2203,9 @@
             <div class="text-center"> 
                 <img class="imgLoading" src="recursos/img/large_loading.gif"/>
             </div>
+        </div>
+        <div class="position-fixed btnTop nav-link d-flex justify-content-center align-items-center" href=".menu">
+             <i class="fas fa-angle-double-up"></i>
         </div>
     </body>
 </html>
