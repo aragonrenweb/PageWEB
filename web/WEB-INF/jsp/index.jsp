@@ -1009,7 +1009,7 @@
                 });
 
                 $(".footerFacts").empty();
-                $(".footerFacts").append(generateSvgMoreInfo('#29abe2', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'>More information</label>" + generateSvgMoreInfo('#29abe2', 'left'))
+                $(".footerFacts").append(generateSvgMoreInfo('#29abe2', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'><a href=\"<c:url value='/facts.htm' />\">More information</a></label>" + generateSvgMoreInfo('#29abe2', 'left'))
 
                 $(".footerBamboo").empty();
                 $(".footerBamboo").append(generateSvgMoreInfo('#66c34e', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'>More information</label>" + generateSvgMoreInfo('#66c34e', 'left'))
@@ -1210,8 +1210,10 @@
                     <img class="d-inline-block logo" src="recursos/img/LogosMenu/LogoFacts.svg">
                 </div> 
                 <div class="w-100 h-25 text-center my-auto">
-                    <a class="text-white" >FACTS</a>  
-                    <a class="nav-link" href="#Contact">Request Demo</a>
+                    <font class="text-white h3" >FACTS SIS</font><br>
+                    <font class="text-white h5" >360º Management Tool</font> <br>
+                    <br>
+                    <font class="btn nav-link h5" href="#Contact">Request a demo</font>
                 </div>                 
                 <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
             </div>
@@ -1225,6 +1227,9 @@
                 <div class="col w-100 d-flex h-25  align-content-center align-items-center">
                     <a  class="nav-link" href="#cPrincFacts">It is all about personalization</a>
                 </div>
+                <div class="col w-100 d-flex h-25  align-content-center align-items-center">
+                    <a  class="nav-link" href="https://factsmgt.com/" target="_blank">Visit FACST SIS site</a>
+                </div>
             </div>
 
             <div class="col colorBAMBOO colFirstLayer p-0" >
@@ -1235,7 +1240,12 @@
                     <img class="d-inline-block logo" src="recursos/img/LogosMenu/LogoBamboo.svg">
                 </div> 
                 <div class="w-100 h-25 text-center my-auto">
-                    <a class="text-white">BAMBOO</a>
+                    <font class="text-white h3" >BAMBOO</font><br>
+                    <font class="text-white h5" >Montessori Classroom Management</font> <br>
+                    <br>
+                    <font class="btn nav-link h5" href="#Contact">Request a demo</font>
+
+                    
                     <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
                     <div class="buttonPrevious">
                         <i class="fas fa-angle-double-left"></i>
@@ -1267,6 +1277,7 @@
                 </div> 
                 <div class="w-100 h-25 text-center my-auto">
                     <a class="text-white">SMART CLOVER</a>
+                    <a class="text-white" >Instant Messaging</a> 
                     <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
                 </div> 
             </div>
@@ -1295,6 +1306,7 @@
                 </div> 
                 <div class="w-100 h-25 text-center my-auto">
                     <a class="text-white">SCHEDULE</a>
+                    <a class="text-white" >Powerful Schedule Maker</a> 
                     <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
                     <div class="buttonNext">
                         <i class="fas fa-angle-double-right"></i>
@@ -1332,6 +1344,7 @@
                 </div> 
                 <div class="w-100 h-25 text-center my-auto">
                     <a class="text-white" >SCHOOL ANALYTICS</a>
+                    <a class="text-white" >School Analytics.</a>
                     <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
                 </div> 
 
@@ -1448,7 +1461,7 @@
                 <i class="fas fa-circle" style="font-size: 10px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
                 <i class="fas fa-circle" style="font-size: 12px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
                 <i class="fas fa-circle" style="font-size: 14px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
-                more info
+                <a>more info
                 <i class="fas fa-circle" style="font-size: 14px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
                 <i class="fas fa-circle" style="font-size: 12px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
                 <i class="fas fa-circle" style="font-size: 10px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
@@ -1882,7 +1895,7 @@
                                     <div class="form-group d-flex justify-content-center align-items-center">
                                         <span class="col-1 text-center"><i class="fas fa-comments bigicon"></i></span>
                                         <div class="col-11 col-md-8">
-                                            <textarea class="form-control" id="message" name="message" placeholder="Enter your massage for us here." rows="7"></textarea>
+                                            <textarea class="form-control" id="message" name="message" placeholder="Enter your message for us here." rows="7"></textarea>
                                         </div>
                                     </div>
 
