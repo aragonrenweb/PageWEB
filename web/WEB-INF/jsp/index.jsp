@@ -52,6 +52,16 @@
                 transform: skewX(-4deg);
 
             }
+            .colorFACTSsub .nav-link{
+                width: 100%;
+                background-color: #29abe2;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                margin-right: 10%;
+                color: white;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
             .colorFACTSsubDesplegado
             {
                 background-color: #29abe2;
@@ -69,6 +79,17 @@
                 background-color: #a5ca9b;
                 transform: skewX(-4deg);
             }
+            .colorBAMBOOsub .nav-link{
+                width: 100%;
+                background-color: #66c34e;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                margin-right: 10%;
+                color: white;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
+
             .colorSMARTCLOVER
             {
                 background-color: #357624;
@@ -79,6 +100,17 @@
                 background-color: #57754f;
                 transform: skewX(-4deg);
             }
+            .colorSMARTCLOVERsub .nav-link{
+                width: 100%;
+                background-color: #357624;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                margin-right: 10%;
+                color: white;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
+
             .colorSCHEDULE
             {
                 background-color: #0d253f;
@@ -89,7 +121,16 @@
                 background-color: #5a7da2;
                 transform: skewX(-4deg);
             }
-
+            .colorSCHEDULEsub .nav-link{
+                width: 100%;
+                background-color: #0d253f;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                margin-right: 10%;
+                color: white;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
             .colorSchoolAnalytics{
                 background-color: #f7931e;
                 transform: skewX(-4deg);
@@ -100,7 +141,16 @@
                 background-color: #fbb03b;
                 transform: skewX(-4deg);
             }
-
+            .colorSchoolAnalyticssub .nav-link{
+                width: 100%;
+                background-color: #f7931e;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                margin-right: 10%;
+                color: white !important;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
             .menu
             {
                 height: 50rem;
@@ -288,9 +338,9 @@
                 color: #357624;
                 text-align: center;
                 vertical-align: central;
-                                /* border-top: 1px solid #639e46;
-                  border-bottom: 1px solid #639e46;              
-                  background-color: #357624;*/
+                /* border-top: 1px solid #639e46;
+  border-bottom: 1px solid #639e46;              
+  background-color: #357624;*/
             }
 
             .footerScheduler{                
@@ -808,6 +858,10 @@
                 align-items: center; */
                 z-index: 20;
             }
+            .listaFacts{
+                text-align: start;
+                padding-left: 40px;
+            }
         </style>
         <script>
             $(document).ready(function () {
@@ -1009,19 +1063,19 @@
                 });
 
                 $(".footerFacts").empty();
-                $(".footerFacts").append(generateSvgMoreInfo('#29abe2', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'><a href=\"<c:url value='/facts.htm' />\">More information</a></label>" + generateSvgMoreInfo('#29abe2', 'left'))
+                $(".footerFacts").append(generateSvgMoreInfo('#29abe2', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'><a style='color:#29abe2' href=\"<c:url value='/facts.htm' />\">More information</a></label>" + generateSvgMoreInfo('#29abe2', 'left'))
 
                 $(".footerBamboo").empty();
-                $(".footerBamboo").append(generateSvgMoreInfo('#66c34e', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'>More information</label>" + generateSvgMoreInfo('#66c34e', 'left'))
+                $(".footerBamboo").append(generateSvgMoreInfo('#66c34e', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'><a style='color:#66c34e' href=\"<c:url value='/bamboo.htm' />\">More information</a></label>" + generateSvgMoreInfo('#66c34e', 'left'))
 
                 $(".footerSmartClover").empty();
-                $(".footerSmartClover").append(generateSvgMoreInfo('#357624', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'>More information</label>" + generateSvgMoreInfo('#357624', 'left'))
+                $(".footerSmartClover").append(generateSvgMoreInfo('#357624', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'><a style='color:#357624' href=\"<c:url value='/smartClover.htm' />\">More information</a></label>" + generateSvgMoreInfo('#357624', 'left'))
 
                 $(".footerScheduler").empty();
-                $(".footerScheduler").append(generateSvgMoreInfo('#0d253f', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'>More information</label>" + generateSvgMoreInfo('#0d253f', 'left'))
+                $(".footerScheduler").append(generateSvgMoreInfo('#0d253f', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'><a style='color:#0d253f' href='#'>More information</a></label>" + generateSvgMoreInfo('#0d253f', 'left'))
 
                 $(".footerSchoolAnalytics").empty();
-                $(".footerSchoolAnalytics").append(generateSvgMoreInfo('#fc8c00', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'>More information</label>" + generateSvgMoreInfo('#fc8c00', 'left'))
+                $(".footerSchoolAnalytics").append(generateSvgMoreInfo('#fc8c00', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'><a style='color:#fc8c00' href='#'>More information</a></label>" + generateSvgMoreInfo('#fc8c00', 'left'))
 
             });
 
@@ -1218,16 +1272,16 @@
                 <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
             </div>
             <div class="col colorFACTSsub colSubLayer p-0"  style="max-width: 0%;"  >
-                <div class="col w-100 d-flex h-25 align-content-center align-items-center">
+                <div class="col w-100 d-flex h-25 align-content-center align-items-center  p-0">
                     <a class="nav-link" href="#cPrincFacts">A world leader SIS</a>
                 </div>
-                <div class="col w-100 d-flex h-25 align-content-center align-items-center">
-                    <a  class="nav-link" href="#cPrincFacts">Our Services</a>
+                <div class="col w-100 d-flex h-25 align-content-center align-items-center  p-0">
+                    <a  class="nav-link" href="#cPrincFacts">24 hour Consultants and Support</a>
                 </div>
-                <div class="col w-100 d-flex h-25  align-content-center align-items-center">
-                    <a  class="nav-link" href="#cPrincFacts">It is all about personalization</a>
+                <div class="col w-100 d-flex h-25  align-content-center align-items-center  p-0">
+                    <a  class="nav-link" href="#cPrincFacts">A fitted solution for your school</a>
                 </div>
-                <div class="col w-100 d-flex h-25  align-content-center align-items-center">
+                <div class="col w-100 d-flex h-25  align-content-center align-items-center  p-0">
                     <a  class="nav-link" href="https://factsmgt.com/" target="_blank">Visit FACST SIS site</a>
                 </div>
             </div>
@@ -1245,7 +1299,7 @@
                     <br>
                     <font class="btn nav-link h5" href="#Contact">Request a demo</font>
 
-                    
+
                     <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
                     <div class="buttonPrevious">
                         <i class="fas fa-angle-double-left"></i>
@@ -1253,13 +1307,13 @@
                 </div>
             </div>
             <div class="col colorBAMBOOsub colSubLayer p-0" style="max-width: 0%;">
-                <div class="col w-100 d-flex h-25 align-content-center align-items-center">
+                <div class="col w-100 d-flex h-25 align-content-center align-items-center p-0">
                     <a class="nav-link" href="#cPrincBamboo">A rising trend</a> 
                 </div>
-                <div class="col w-100 d-flex h-25 align-content-center align-items-center">
+                <div class="col w-100 d-flex h-25 align-content-center align-items-center p-0">
                     <a class="nav-link" href="#cPrincBamboo"> Go paperless</a>  
                 </div>
-                <div class="col w-100 d-flex h-25  align-content-center align-items-center">
+                <div class="col w-100 d-flex h-25  align-content-center align-items-center  p-0">
                     <a class="nav-link" href="#cPrincBamboo">Personalize</a>   
                 </div>
                 <!--<div class="col w-100 d-flex h-25  align-content-center align-items-center">
@@ -1276,19 +1330,19 @@
                     <img class="d-inline-block logo" src="recursos/img/LogosMenu/LogoSmartClover.svg">
                 </div> 
                 <div class="w-100 h-25 text-center my-auto">
-                    <a class="text-white">SMART CLOVER</a>
-                    <a class="text-white" >Instant Messaging</a> 
+                    <a class="text-white h3">SMART CLOVER</a><br>
+                    <a class="text-white h5" >Instant Messaging</a> 
                     <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
                 </div> 
             </div>
             <div class="col colorSMARTCLOVERsub colSubLayer p-0" style="max-width: 0%;">
-                <div class="col w-100 d-flex h-25 align-content-center align-items-center">
+                <div class="col w-100 d-flex h-25 align-content-center align-items-center  p-0">
                     <a class="nav-link" href="#cPrincClover">Your instant communication assistant</a> 
                 </div>
-                <div class="col w-100 d-flex h-25 align-content-center align-items-center">
+                <div class="col w-100 d-flex h-25 align-content-center align-items-center  p-0">
                     <a class="nav-link" href="#cPrincClover">It covers all your needs</a>  
                 </div>
-                <div class="col w-100 d-flex h-25  align-content-center align-items-center">
+                <div class="col w-100 d-flex h-25  align-content-center align-items-center  p-0">
                     <a class="nav-link" href="#cPrincClover">Features</a>  
 
                 </div>
@@ -1305,8 +1359,8 @@
                     <img class="d-inline-block logo" src="recursos/img/LogosMenu/LogoMschedules.svg">
                 </div> 
                 <div class="w-100 h-25 text-center my-auto">
-                    <a class="text-white">SCHEDULE</a>
-                    <a class="text-white" >Powerful Schedule Maker</a> 
+                    <a class="text-white h3">SCHEDULE</a><br>
+                    <a class="text-white h5" >Powerful Schedule Maker</a> 
                     <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
                     <div class="buttonNext">
                         <i class="fas fa-angle-double-right"></i>
@@ -1319,14 +1373,14 @@
                 <!--<div class="col w-100 d-flex h-25 align-content-center align-items-center">
                     Smart for Guides
                 </div>-->
-                <div class="col w-100 d-flex h-25 align-content-center align-items-center">
+                <div class="col w-100 d-flex h-25 align-content-center align-items-center  p-0">
                     <a class="nav-link" href="#cPrincScheduler"> Simplify your most complex task</a>   
                 </div>
-                <div class="col w-100 d-flex h-25  align-content-center align-items-center">
+                <div class="col w-100 d-flex h-25  align-content-center align-items-center  p-0">
                     <a class="nav-link" href="#cPrincScheduler"> A smart algorithm</a> 
 
                 </div>
-                <div class="col w-100 d-flex h-25  align-content-center align-items-center">
+                <div class="col w-100 d-flex h-25  align-content-center align-items-center  p-0">
                     <a class="nav-link" href="#cPrincScheduler"> Leave it to us</a> 
 
                     <div class="buttonNextSub">
@@ -1343,15 +1397,15 @@
                     <img class="d-inline-block logo" src="recursos/img/LogosMenu/LogoChartSchool.svg">
                 </div> 
                 <div class="w-100 h-25 text-center my-auto">
-                    <a class="text-white" >SCHOOL ANALYTICS</a>
-                    <a class="text-white" >School Analytics.</a>
+                    <a class="text-white h3" >SCHOOL ANALYTICS</a><br>
+                    <a class="text-white h5" >School Analytics.</a>
                     <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
                 </div> 
 
             </div>
             <div class="col colorSchoolAnalyticssub colSubLayer p-0"  style="max-width: 0%;"  >
-                <div class="col w-100 d-flex h-25 align-content-center align-items-center">
-                    Coming soon...
+                <div class="col w-100 d-flex h-25 align-content-center align-items-center  p-0">
+                    <a class="nav-link">Coming soon...</a>
                 </div>
                 <!--<div class="col w-100 d-flex h-25 align-content-center align-items-center">
                     Qué incluye
@@ -1384,55 +1438,71 @@
 
                 <div class="col-12"><h4 class="text-center" >A world leader SIS</h4></div> 
                 <div class="col-10 offset-1 text-center">
-                    <p class="mb-3">We are the official distributors of a world leader, fully integrated, multiplatform school information system serving more than 6000 schools worldwide.<br>
-                           Our customers are located in South America, Africa, Europe and Asia.
+                    <p>
+                        Eduweb is the official distributors of FACTS SIS - a world leading SIS, fully integrated, multiplatform, and serving more than 6000 schools around the globe.
                     </p>
+                    <p>
+                        Our customers are located in Europe, Asia, Nortt and South America, Africa and the Middle East. 
+                    </p>
+                    <div  class="mb-3 listaFacts">
+                        <li>Admissions</li>
+                        <li>Attendance</li> 
+                        <li>Communication</li>  
+                        <li>Report cards</li>
+                        <li>Scheduling</li>
+                        <li>Staff information management</li> 
+                        <li>Transcripts</li> 
+                        <li>and more...</li>
 
+                    </div>
                     <!-- <footer>mas información</footer>-->
                 </div>
             </div>
             <div class="col-12 col-md-4 cardInfo lineTopGray">
-                <div class="col-12"><h4 class="text-center" id="OurServices">Our Services</h4></div> 
+                <div class="col-12"><h4 class="text-center" id="OurServices">24 hour Consultants and Support</h4></div> 
                 <div class="col-10 offset-1 text-center">
-                    <p class="mb-3">
-                    <li>Data conversion and system setup</li>
-                    <li>Training and consultancy services</li>
-                    <li>24 hours/5 days live chat support</li>
-                    <li>Customization and integration</li>
-                    </p>
+                    <div class="mb-3">
+                        <p>The partnership between us and our client schools goes beyond the typical Customer Service-to-client service model</p>
+                        <p>Jumpstart Implementation – only 3 weeks to get your school on a best practices road</p>
+                        <p>Training and consultancy services available online and onsite around the globe</p>
+                        <p>Live Chat 5 days a week</p>
+                        <p>Perfect customizations to match regional requirements</p>
+                        <p>API  Integration Solutions</p>
+                        <p>Multicurriculum functionalities – IB reporting, Standard grading, British and American Curriculum, and even Montessori or Waldorf.</p>
+                    </div>
                     <!-- <footer>mas información</footer>-->
                 </div>
             </div>
             <div class="col-12 col-md-4 cardInfo lineTopGray">
-                <div class="col-12"><h4 class="text-center" id="ItIsAllAboutPersonalization">It is all about personalization</h4></div> 
+                <div class="col-12"><h4 class="text-center" id="ItIsAllAboutPersonalization">A fitted solution for your school</h4></div> 
                 <div class="col-10 offset-1 p-xl-0 text-center">
-                    <p class="mb-3">Each school's story is unique. That is why our talented team implement the necessary customizations and personalizations for your school to work like clockwork.<br>
-                    <li>Design and Customization of report card and transcript templates</li> 
-                    <li>Design and Customization of administrative reports</li> 
-                    <li>Integration with third party systems</li> 
-                    <li>Automation scripts for saving time and effort in day to day tasks</li>
-                    </p>
+                    <div class="mb-3">
+                        <p> Our commitment to the long-term sustainability and stability of schools is rooted in our philosophy of putting customers first, every time, and learning from their uniqueness.</p>
+                        <p>Report Card and Transcript customizations – there is almost nothing that cannot be done to customize a school’s reporting needs. Tell us what you want, we deliver.  </p>
+                        <p>Design and Customization of administrative reports</p>
+                        <p> Integration with third party systems</p>
+                        <p> Save time with automated scripts, and enjoy the results </p>
+                    </div>
 
                 </div>
                 <div class="lazy slider d-none d-xl-block " data-sizes="50vw">
 
                     <div class="card">
                         <div class="card-header">
-                            Boletines de Notas
+                            Report Card
                         </div>
                         <div class="card-body"> 
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-
+                            <p class="card-text text-center">Custom Report (achievement,logo,header,footer,multipage,..).</p> 
                         </div>
                     </div>                    
 
 
                     <div class="card">
                         <div class="card-header">
-                            Report Card
+                            Attendance
                         </div>
                         <div class="card-body"> 
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> 
+                            <p class="card-text text-center">Custom Attendance Report (term,semester,year...).</p> 
                         </div>
                     </div>                  
 
@@ -1441,20 +1511,26 @@
                             Transcript
                         </div>
                         <div class="card-body"> 
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> 
+                            <p class="card-text text-center">Custom Transcript (achievement,logo,header,footer,multipage,...).</p> 
                         </div>
                     </div>                
 
                     <div class="card">
                         <div class="card-header">
-                            Asistencia
+                            Admissions
                         </div>
                         <div class="card-body"> 
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> 
+                            <p class="card-text text-center">All about Admissions can be customized.</p> 
                         </div>
-                    </div>                    
-
-
+                    </div> 
+                    <div class="card">
+                        <div class="card-header">
+                            and more...
+                        </div>
+                        <div class="card-body"> 
+                            <p class="card-text text-center">Behavior,Schedule,Email management,Family and student information,Payments,Kindergarten, ...</p> 
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-12 mt-md-3 footerFacts">
@@ -1462,9 +1538,9 @@
                 <i class="fas fa-circle" style="font-size: 12px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
                 <i class="fas fa-circle" style="font-size: 14px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
                 <a>more info
-                <i class="fas fa-circle" style="font-size: 14px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
-                <i class="fas fa-circle" style="font-size: 12px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
-                <i class="fas fa-circle" style="font-size: 10px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
+                    <i class="fas fa-circle" style="font-size: 14px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
+                    <i class="fas fa-circle" style="font-size: 12px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
+                    <i class="fas fa-circle" style="font-size: 10px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
             </div>
         </div>
 
