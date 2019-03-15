@@ -192,7 +192,7 @@
     }
 </script>
 <nav class="navbar navbar-expand-lg navbar-light bg-light  fixed-top" style="position:fixed;width:100%;z-index:10">
-    <a class="navbar-brand imgLogo" href="#">
+    <a class="navbar-brand imgLogo" href="<c:url value='/index.htm'/>">
         <img src="recursos/img/LogoEduweb.svg">
     </a> 
 
@@ -220,7 +220,7 @@
             </li>
         </ul>  
     </div> 
-    <div id="menuDesplegable" class="pt-0">
+    <div id="menuDesplegable" class="pt-0" style=" cursor: pointer; ">
         <div class="row" >
             <a class="navbar-brand logoMenuApps" id="logoMenuApp0" onclick="showIconsApps()" style="opacity: 0">
                 <img src="recursos/img/LogosMenu/LogoFacts.svg" >

@@ -1119,7 +1119,7 @@
                 });
 
                 $(".footerFacts").empty();
-                $(".footerFacts").append(generateSvgMoreInfo('#29abe2', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'><a style='color:#29abe2' href=\"<c:url value='/facts.htm' />\">More information</a></label>" + generateSvgMoreInfo('#29abe2', 'left'))
+                $(".footerFacts").append(generateSvgMoreInfo('#29abe2', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'><a style='color:#29abe2' href=\"<c:url value='/factsQueIncluye.htm' />\">More information</a></label>" + generateSvgMoreInfo('#29abe2', 'left'))
 
                 $(".footerBamboo").empty();
                 $(".footerBamboo").append(generateSvgMoreInfo('#66c34e', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'><a style='color:#66c34e' href=\"<c:url value='/bamboo.htm' />\">More information</a></label>" + generateSvgMoreInfo('#66c34e', 'left'))
@@ -1497,23 +1497,12 @@ function showInfo(idContenedor){
                 <div class="col-12"><h4 class="text-center" >A world leader SIS</h4></div> 
                 <div class="col-10 offset-1 text-center">
                     <p>
-                        Eduweb is the official distributors of FACTS SIS - a world leading SIS, fully integrated, multiplatform, and serving more than 6000 schools around the globe.
+                        Eduweb is the official distributors of FACTS SIS - a world leading SIS, fully integrated, multiplatform, and serving more than <h4>6000 schools around the globe</h4>.
                     </p>
                     <p>
                         Our customers are located in Europe, Asia, Nortt and South America, Africa and the Middle East. 
                     </p>
-                    <div  class="mb-3 listaFacts">
-                        <li>Admissions</li>
-                        <li>Attendance</li> 
-                        <li>Communication</li>  
-                        <li>Report cards</li>
-                        <li>Scheduling</li>
-                        <li>Staff information management</li> 
-                        <li>Transcripts</li> 
-                        <li>and more...</li>
-
-                    </div>
-                    <footer>mas información</footer>
+                    
                 </div>
             </div>
             <div class="col-12 col-md-6 cardInfo lineTopGray">

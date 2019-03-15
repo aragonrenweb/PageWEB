@@ -15,7 +15,8 @@
 
         <style>
             body {
-                margin: 0;
+                margin: 0; 
+                background: #f5f5f !important;
                 font-family: sans-serif;
                 font-size: 24px;
                 height: auto !important;
