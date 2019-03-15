@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <%@ include file="nav.jsp" %>
@@ -254,16 +255,7 @@
                  border-width: 4px;
                  margin-top: -4px;
              }*/
-            .btnDemo{
-                position: fixed;
-                bottom: 15px;
-                right: 15px;
-                width: 300px;
-                height:80px;
-                display: flex;
-                align-items: center; 
-                justify-content: flex-end;
-            } 
+           
             @keyframes shake-with-delay {
                 from, 16%, to {
                     -webkit-transform: translate3d(0, 0, 0);
@@ -314,6 +306,7 @@
 
         <script type="text/javascript">
             $(document).ready(function () {
+                swapLogo("smartClover");
                 checkShowNavLateral();
                 checkShowScheduleDemo();
                 if ($(window).width() <= 680) {
@@ -338,6 +331,7 @@
                         $("#myVideo").parent().addClass("smartphone");
                     }
                 });
+                
             });
             function checkShowNavLateral() {
                 if ($(".hero").height() > $("#primary").offset().top) {

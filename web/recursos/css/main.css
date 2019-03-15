@@ -17,16 +17,17 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
+article, aside,  canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
-    font: inherit;
+  /*  font-size: 100%;
+    font: inherit;*/
     vertical-align: baseline;
+    scroll-behavior: smooth;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -36,9 +37,9 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
 }
-ol, ul {
+/*ol, ul {
     list-style: none;
-}
+}*/
 blockquote, q {
     quotes: none;
 }
@@ -62,7 +63,7 @@ body {
    /* background: #e3e5e5;*/
    background: white;
     overflow-x: hidden;
-    height: 4550px;
+
     line-height: 1.5;
     color: #000;
     font-size: 14px;
@@ -92,7 +93,17 @@ img {
 p {
     margin:1em 0;
 }
-
+ol {
+    counter-reset: item;
+    padding-left: 10px;
+}
+ol li {
+    display: block;
+}
+ol li:before {
+    content: counters(item, ".") " ";
+    counter-increment: item;
+}
 /* Common shared styles
 *****************************************************************/
 
@@ -321,6 +332,16 @@ a.next:hover {
     top: 1020px;
     left: 450px;
 }
+ .btnDemo{
+                position: fixed;
+                bottom: 15px;
+                right: 15px;
+                width: 300px;
+                height:80px;
+                display: flex;
+                align-items: center; 
+                justify-content: flex-end;
+            } 
 
 
 

@@ -26,7 +26,7 @@
                     <div class="CenterVertical">
                         <h1><spring:message code="help.descripciontitulo"/></h1>
                     <spring:message code="help.descripcion"/>
-                    <a href="<c:url value="https://eduwiki.eduwebgroup.com/mediawiki/index.php/P%C3%A1gina_principal" />">Eduwiki</a>
+                    Eduwiki
                     </div>
                 </div>
             
@@ -39,7 +39,7 @@
                         <h1><spring:message code="help.asistenciaBambootitulo"/></h1>
                     <spring:message code="help.asistenciaBamboo"/>
 
-                    <a href="<c:url value="https://wikiboo.eduwebgroup.com/mediawiki/index.php/P%C3%A1gina_principal" />">Wikiboo</a>
+                    Wikiboo
                     </div>
                 </div>
                 <div class="col-xs-5 divContenedorIMG">
@@ -55,7 +55,7 @@
                     <div class="CenterVertical">
                         <h1><spring:message code="help.asistenciaSmartClovertitulo"/></h1>
                     <spring:message code="help.asistenciaSmartClover"/>
-                    <a href="<c:url value="https://www.google.es/" />">SmartClover</a>
+                    SmartClover
                     </div>
                 </div>
             
@@ -81,7 +81,7 @@
                     <div class="CenterVertical">
                         <h1><spring:message code="help.asistenciaFACTStitulo"/></h1>
                     <spring:message code="help.asistenciaFACTS"/>
-                    <a href="<c:url value="https://www.google.es/" />">WikiSIS</a>
+                    WikiSIS
                     </div>
                 </div>
             

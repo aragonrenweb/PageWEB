@@ -7,6 +7,7 @@
         <script src="recursos/js/modernizr.custom.37797.js"></script> 
         <script src="recursos/js/parallax.js"></script>
         <title>FACTS</title>
+         
         <style>
             body {
                 margin: 0;
@@ -618,6 +619,11 @@
 
     <body>
         <%@ include file="nav.jsp" %>
+         <script type="text/javascript">
+            $(document).ready(function () {
+                swapLogo("facts");
+            });
+        </script>
         <section  class="hero">
             <div class="hero-inner">
                 <h1>FACTS</h1>
