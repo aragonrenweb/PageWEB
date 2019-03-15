@@ -464,7 +464,8 @@
 
                 .cardPrincipalFacts .cardInfo{
                     background-color: rgb(102,195,226,0.2);
-                    transform: skewX(-4deg);
+                    transform: skewX(-4deg);                    
+                    /**/
                     max-width: 27%;
                     margin-left: 4.5%;
                     max-height: 615px;
@@ -1434,7 +1435,7 @@
                 </div> 
             </div>
 
-            <div class="col-12 col-md-4 cardInfo">
+            <div class="col-12 col-md-6 cardInfo">
 
                 <div class="col-12"><h4 class="text-center" >A world leader SIS</h4></div> 
                 <div class="col-10 offset-1 text-center">
@@ -1458,7 +1459,7 @@
                     <!-- <footer>mas información</footer>-->
                 </div>
             </div>
-            <div class="col-12 col-md-4 cardInfo lineTopGray">
+            <div class="col-12 col-md-6 cardInfo lineTopGray">
                 <div class="col-12"><h4 class="text-center" id="OurServices">24 hour Consultants and Support</h4></div> 
                 <div class="col-10 offset-1 text-center">
                     <div class="mb-3">
@@ -1473,7 +1474,32 @@
                     <!-- <footer>mas información</footer>-->
                 </div>
             </div>
-            <div class="col-12 col-md-4 cardInfo lineTopGray">
+            
+            
+            <!-- nueva caja -->
+            
+            <div class="col-12 col-md-6 cardInfo lineTopGray">
+                <div class="col-12"><h4 class="text-center" id="OurServices">24 hour Consultants and Support</h4></div> 
+                <div class="col-10 offset-1 text-center">
+                    <div class="mb-3">
+                        <p>The partnership between us and our client schools goes beyond the typical Customer Service-to-client service model</p>
+                        <p>Jumpstart Implementation – only 3 weeks to get your school on a best practices road</p>
+                        <p>Training and consultancy services available online and onsite around the globe</p>
+                        <p>Live Chat 5 days a week</p>
+                        <p>Perfect customizations to match regional requirements</p>
+                        <p>API  Integration Solutions</p>
+                        <p>Multicurriculum functionalities – IB reporting, Standard grading, British and American Curriculum, and even Montessori or Waldorf.</p>
+                    </div>
+                    <!-- <footer>mas información</footer>-->
+                </div>
+            </div>
+            
+            
+            
+            <!--      -->
+            
+            
+            <div class="col-12 col-md-6 cardInfo lineTopGray">
                 <div class="col-12"><h4 class="text-center" id="ItIsAllAboutPersonalization">A fitted solution for your school</h4></div> 
                 <div class="col-10 offset-1 p-xl-0 text-center">
                     <div class="mb-3">
