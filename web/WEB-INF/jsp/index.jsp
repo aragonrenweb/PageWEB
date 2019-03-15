@@ -5,8 +5,8 @@
 <%@taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 
 
-<html>
-
+<html style="overflow-x: hidden;">
+    
     <head>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -308,27 +308,20 @@
             footer{
                 position: fixed;
                 width: 100%;
-                /*padding-left: 44%;*/
                 text-align:center;
                 left: 0;
             }
             .footerFacts{
                 color:  #5fbce2;
-                /*              border-top: 1px solid #5fbce2;
-                                border-bottom: 1px solid #5fbce2;*/
                 font-size: medium;
-                /*                background-color: #29abe2;*/
                 text-align: center;
                 vertical-align: central;
 
             }
             .footerBamboo{
                 color:  #90e35c;
-                /*                border-top: 1px solid #90e35c;
-                                border-bottom: 1px solid #90e35c;*/
                 font-size: medium;
                 color: #66c34e;
-                /*background-color: #66c34e;*/
                 text-align: center;
                 vertical-align: central;
             }
@@ -338,18 +331,12 @@
                 color: #357624;
                 text-align: center;
                 vertical-align: central;
-                /* border-top: 1px solid #639e46;
-  border-bottom: 1px solid #639e46;              
-  background-color: #357624;*/
             }
 
             .footerScheduler{                
                 color: #0d253f;
                 text-align: center;
-                vertical-align: central;                
-                /*                border-top: 1px solid #063a56;
-                                border-bottom: 1px solid #063a56;*/
-                /*background-color: #0d253f;*/
+                vertical-align: central;   
             }
 
             .footerSchoolAnalytics{
@@ -461,14 +448,14 @@
                     background-position-x: 50%;
                     background-position-y: 50%;
                     transform: skewX(-4deg);
-                    
+                    margin-left: 1px;
+
                 }
 
                 .cardPrincipalFacts .cardInfo{
                     background-color: rgb(102,195,226,0.2);
-                    transform: skewX(0deg);                   
-                    /**/
-                    max-width: 44%;
+                    transform: skewX(0deg);  
+                    max-width: 43%;
                     margin-left: 4.5%;
                     max-height: 615px;
                     flex-direction: column;
@@ -477,9 +464,9 @@
                     padding-left: 0px;
                     padding-right: 0px;
                 }
-                
-                           
-                
+
+
+
                 .cardPrincipalBamboo{
                     background:none;
                     color: #66c34e;
@@ -576,7 +563,7 @@
                     background-color: rgb(102,195,226,0.2);
                     /*transform: skewX(-4deg);*/
                     transform: skewX(0deg);
-                    max-width: 44%;
+                    max-width: 43%;
                     margin-left: 4.5%;
                     max-height: 550px;
                     flex-direction: column;
@@ -652,11 +639,15 @@
             }
             /* Large devices (desktops, less than 1200px)*/
             @media (min-width: 1200px) { 
-
+                
+                .card{
+                    width:90% !important;
+                    margin-left:5%;                    
+                }
                 .cardPrincipalFacts .cardInfo{
                     background-color: rgb(102,195,226,0.2);
                     transform: skewX(0deg);
-                    max-width: 44%;
+                    max-width: 43%;
                     margin-left: 4.5%;
                     max-height: 500px;
                     flex-direction: column;
@@ -746,6 +737,10 @@
             .cardPrincipalFacts .card .card-body{
                 background-color: rgb(102,195,226,0.2);
                 color: #29abe2;
+                height: 80px;
+                padding-top: 0px;
+                padding-bottom: 0px;
+                padding-left:0px;
             }
             .cardPrincipalFacts .slick-prev:before, .slick-next:before{
                 color: #29abe2;
@@ -790,8 +785,8 @@
             }
             .logoMenuApps {
                 position: absolute;
-                right: 15px;
-                top: 0px;
+                right: 25px;
+                top: -2px;
                 margin:0px;
             }
 
@@ -869,13 +864,67 @@
                 text-align: start;
                 padding-left: 40px;
             }
+              .badgeFacts{
+                color: #fff; 
+                height: 30px;
+                line-height: 20px;
+                transform: skewX(-4deg);
+                cursor: pointer;
+                border-radius:0px;
+            }
+            #contDescripFacts{
+                height:95%;
+            }   
+            .badgeFactsMan{
+                background-color: #f2980f;
+            }
+            .contDescipInner{
+                color: #fff; 
+                height: 30px;
+                line-height: 20px;
+                transform: skewX(-4deg);
+                cursor: pointer;
+                border-radius:0px; 
+                width: 60%;
+                margin-left:20%;
+                height: 95%;
+            }
+            .contDescipInner .badge{
+                border-radius:0px; 
+            }
+            
+            .badgeFactsClass{
+                background-color: #7eb529;
+            }
+            .badgeFactsParent{
+                background-color: #6a58a2;
+            }
+            .badgeFactsStudent{
+                background-color: #c35098;
+            } 
+            
+            #contDescripManagement .badge{
+                background-color: #f2980f;
+            }
+             #contDescripClassroom .badge{
+                background-color: #7eb529;
+            }
+             #contDescripParent .badge{
+                background-color: #6a58a2;
+            }
+             #contDescripStudent .badge{
+                background-color: #c35098;
+            }
+          
         </style>
         <script>
             $(document).ready(function () {
 
                 $(".buttonPrevious").hide();
                 $(".colorSchoolAnalytics").hide();
-
+ $("#contDescripClassroom").hide();
+                $("#contDescripParent").hide();
+                $("#contDescripStudent").hide();
 //                $('.nav-link').on('click', function () { 
 //                    var top = $($(this).attr("href")).top();
 //                    $(window).scrollTop(top);
@@ -1230,7 +1279,10 @@
                 $("#menuDesplegable a").first().next().empty();
                 $("#menuDesplegable a").first().next().append('<img src="' + img + '" >');
             }
-
+function showInfo(idContenedor){
+                $(".contDescipInner").hide();
+                $("#"+idContenedor).show();
+            }
         </script>
 
     </head>
@@ -1461,7 +1513,7 @@
                         <li>and more...</li>
 
                     </div>
-                     <footer>mas información</footer>
+                    <footer>mas información</footer>
                 </div>
             </div>
             <div class="col-12 col-md-6 cardInfo lineTopGray">
@@ -1479,31 +1531,9 @@
                     <!-- <footer>mas información</footer>-->
                 </div>
             </div>
-            
-            
-            <!-- nueva caja -->
-            
-            <div class="col-12 col-md-6 cardInfo lineTopGray">
-                <div class="col-12"><h4 class="text-center" id="OurServices">24 hour Consultants and Support</h4></div> 
-                <div class="col-10 offset-1 text-center">
-                    <div class="mb-3">
-                        <p>The partnership between us and our client schools goes beyond the typical Customer Service-to-client service model</p>
-                        <p>Jumpstart Implementation – only 3 weeks to get your school on a best practices road</p>
-                        <p>Training and consultancy services available online and onsite around the globe</p>
-                        <p>Live Chat 5 days a week</p>
-                        <p>Perfect customizations to match regional requirements</p>
-                        <p>API  Integration Solutions</p>
-                        <p>Multicurriculum functionalities – IB reporting, Standard grading, British and American Curriculum, and even Montessori or Waldorf.</p>
-                    </div>
-                    <!-- <footer>mas información</footer>-->
-                </div>
-            </div>
-            
-            
-            
-            <!--      -->
-            
-            
+
+           
+
             <div class="col-12 col-md-6 cardInfo lineTopGray">
                 <div class="col-12"><h4 class="text-center" id="ItIsAllAboutPersonalization">A fitted solution for your school</h4></div> 
                 <div class="col-10 offset-1 p-xl-0 text-center">
@@ -1563,61 +1593,85 @@
                         </div>
                     </div>
                 </div>
-                
-                <!-- nuevo slider -->
-                
-<!--                <div class="lazy slider d-none d-xl-block " data-sizes="50vw">
+            </div>
+            
 
-                    <div class="card">
-                        <div class="card-header">
-                            Report Card2
+            <div class="col-12 col-md-6 cardInfo lineTopGray d-flex flex-row">
+                <div class="col-5 h-100">
+                    <div class="col-12"><h4 class="text-left">360º</h4></div> 
+                    <div class="col-10 offset-1 p-xl-0 text-center ">
+                        <div class="mb-3 d-flex h-75 flex-column justify-content-around">
+                            <span onclick="showInfo('contDescripManagement')" class="badge badgeFacts badgeFactsMan">Management</span>
+                            <span onclick="showInfo('contDescripClassroom')" class="badge badgeFacts badgeFactsClass">Classroom</span>
+                            <span onclick="showInfo('contDescripParent')" class="badge badgeFacts badgeFactsParent">Parents</span>
+                            <span onclick="showInfo('contDescripStudent')" class="badge badgeFacts badgeFactsStudent">Students</span>
                         </div>
-                        <div class="card-body"> 
-                            <p class="card-text text-center">Custom Report (achievement,logo,header,footer,multipage,..).</p> 
-                        </div>
-                    </div>                    
 
-
-                    <div class="card">
-                        <div class="card-header">
-                            Attendance2
-                        </div>
-                        <div class="card-body"> 
-                            <p class="card-text text-center">Custom Attendance Report (term,semester,year...).</p> 
-                        </div>
-                    </div>                  
-
-                    <div class="card">
-                        <div class="card-header">
-                            Transcript2
-                        </div>
-                        <div class="card-body"> 
-                            <p class="card-text text-center">Custom Transcript (achievement,logo,header,footer,multipage,...).</p> 
-                        </div>
-                    </div>                
-
-                    <div class="card">
-                        <div class="card-header">
-                            Admissions2
-                        </div>
-                        <div class="card-body"> 
-                            <p class="card-text text-center">All about Admissions can be customized.</p> 
-                        </div>
                     </div> 
-                    <div class="card">
-                        <div class="card-header">
-                            and more...
-                        </div>
-                        <div class="card-body"> 
-                            <p class="card-text text-center">Behavior,Schedule,Email management,Family and student information,Payments,Kindergarten, ...</p> 
+                </div>
+                <div class="col-7" id="contDescripFacts">
+                    <div class="contDescipInner" id="contDescripManagement">
+                        <div class="mb-3 d-flex h-100 flex-column justify-content-around">
+                            <span class="badge">Report card</span>
+                            <span class="badge">Attendace</span>
+                            <span class="badge">Custom report</span>
+                            <span class="badge">Human resources</span>
+                            <span class="badge">Student billing</span>
+                            <span class="badge">Behavior</span>
+                            <span class="badge">Child care</span>
+                            <span class="badge">Cafeteria</span>
+                            <span class="badge">Comunication</span>
+                            <span class="badge">Scheduling</span>
+                            <span class="badge">Family information</span>
+                            <span class="badge">Admisions</span>
                         </div>
                     </div>
-                </div>-->
-                
-                
-                
-                <!-- -->
+                    <div class="contDescipInner" id="contDescripClassroom">
+                        <div class="mb-3 d-flex h-100 flex-column justify-content-around">
+                            <span class="badge">Learning management system</span>
+                            <span class="badge">Attendace</span>
+                            <span class="badge">Gradebook</span>
+                            <span class="badge">Reports</span> 
+                            <span class="badge">Behavior</span> 
+                            <span class="badge">Comunication</span>
+                            <span class="badge">Lessons plan</span>
+                            <span class="badge">Web documents</span>
+                            <span class="badge">Web test</span>
+                        </div>
+                    </div>
+                    <div class="contDescipInner" id="contDescripParent">
+                        <div class="mb-3 d-flex h-100 flex-column justify-content-around">
+                            <span class="badge">Report card</span>
+                            <span class="badge">Attendace</span>
+                            <span class="badge">Gradebook</span>
+                            <span class="badge">Medical information</span> 
+                            <span class="badge">Behavior</span>
+                            <span class="badge">Child care</span> 
+                        </div>
+                    </div>
+                    <div class="contDescipInner" id="contDescripStudent">
+                        <div class="mb-3 d-flex h-100 flex-column justify-content-around">
+                            <span class="badge">Learning management system</span>
+                            <span class="badge">Attendace</span>
+                            <span class="badge">Gradebook</span>
+                            <span class="badge">Medical information</span> 
+                            <span class="badge">Behavior</span> 
+                            <span class="badge">Child care</span> 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mt-md-3 footerFacts">
+                    <i class="fas fa-circle" style="font-size: 10px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
+                    <i class="fas fa-circle" style="font-size: 12px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
+                    <i class="fas fa-circle" style="font-size: 14px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
+                    <a>more info
+                        <i class="fas fa-circle" style="font-size: 14px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
+                        <i class="fas fa-circle" style="font-size: 12px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
+                        <i class="fas fa-circle" style="font-size: 10px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
+                </div>
             </div>
+
+
             <div class="col-12 mt-md-3 footerFacts">
                 <i class="fas fa-circle" style="font-size: 10px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
                 <i class="fas fa-circle" style="font-size: 12px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
@@ -1628,7 +1682,6 @@
                     <i class="fas fa-circle" style="font-size: 10px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
             </div>
         </div>
-
         <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalBamboo" id="cPrincBamboo">
             <div class="col-12 bgBamboo d-flex d-md-none" > 
                 <div class="col-12 d-flex align-items-center justify-content-center">
@@ -1640,10 +1693,11 @@
                     </a> 
                 </div> 
             </div>
+            
+            
+            
             <div class="position-absolute imgTitleRight imgTitleSize d-none d-md-block">
-                <!--                <a class="navbar-brand logoMenuApps" href="#">
-                                    <img src="recursos/img/LogosMenu/LogoBamboo.svg"/>
-                                </a> -->
+
             </div> 
             <div class="col-12 col-md-4 cardInfo">
                 <div class="col-12"><h4 class="text-center">A rising trend</h4></div> 
@@ -2436,11 +2490,10 @@
         <script type="text/javascript">
                     $(document).ready(function () {
                         $(".lazy").slick({
-                            lazyLoad: 'ondemand', // ondemand progressive anticipated
-                            infinite: true
+                            infinite: true,
+                            slidesToShow: 2,
+                            slidesToScroll: 2
                         });
-
-
                     });
         </script>
         <div class="divLoadStudent" id="loadingmessage">
