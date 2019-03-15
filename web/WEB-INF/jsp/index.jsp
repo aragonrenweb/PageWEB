@@ -460,21 +460,26 @@
                     background-repeat: no-repeat;
                     background-position-x: 50%;
                     background-position-y: 50%;
+                    transform: skewX(-4deg);
+                    
                 }
 
                 .cardPrincipalFacts .cardInfo{
                     background-color: rgb(102,195,226,0.2);
-                    transform: skewX(-4deg);                    
+                    transform: skewX(0deg);                   
                     /**/
-                    max-width: 27%;
+                    max-width: 44%;
                     margin-left: 4.5%;
                     max-height: 615px;
                     flex-direction: column;
-                    margin-top:0px;
+                    margin-top:10px;
                     padding-top:15px;
                     padding-left: 0px;
                     padding-right: 0px;
                 }
+                
+                           
+                
                 .cardPrincipalBamboo{
                     background:none;
                     color: #66c34e;
@@ -569,12 +574,13 @@
 
                 .cardPrincipalFacts .cardInfo{
                     background-color: rgb(102,195,226,0.2);
-                    transform: skewX(-4deg);
-                    max-width: 27%;
+                    /*transform: skewX(-4deg);*/
+                    transform: skewX(0deg);
+                    max-width: 44%;
                     margin-left: 4.5%;
                     max-height: 550px;
                     flex-direction: column;
-                    margin-top:0px;
+                    margin-top:10px;
                     padding-top:15px;
                     padding-left: 0px;
                     padding-right: 0px;
@@ -649,12 +655,12 @@
 
                 .cardPrincipalFacts .cardInfo{
                     background-color: rgb(102,195,226,0.2);
-                    transform: skewX(-4deg);
-                    max-width: 27%;
+                    transform: skewX(0deg);
+                    max-width: 44%;
                     margin-left: 4.5%;
                     max-height: 500px;
                     flex-direction: column;
-                    margin-top:0px;
+                    margin-top:10px;
                     padding-top:15px;
                     padding-left: 0px;
                     padding-right: 0px;
@@ -1436,7 +1442,6 @@
             </div>
 
             <div class="col-12 col-md-6 cardInfo">
-
                 <div class="col-12"><h4 class="text-center" >A world leader SIS</h4></div> 
                 <div class="col-10 offset-1 text-center">
                     <p>
@@ -1456,7 +1461,7 @@
                         <li>and more...</li>
 
                     </div>
-                    <!-- <footer>mas información</footer>-->
+                     <footer>mas información</footer>
                 </div>
             </div>
             <div class="col-12 col-md-6 cardInfo lineTopGray">
@@ -1558,6 +1563,60 @@
                         </div>
                     </div>
                 </div>
+                
+                <!-- nuevo slider -->
+                
+<!--                <div class="lazy slider d-none d-xl-block " data-sizes="50vw">
+
+                    <div class="card">
+                        <div class="card-header">
+                            Report Card2
+                        </div>
+                        <div class="card-body"> 
+                            <p class="card-text text-center">Custom Report (achievement,logo,header,footer,multipage,..).</p> 
+                        </div>
+                    </div>                    
+
+
+                    <div class="card">
+                        <div class="card-header">
+                            Attendance2
+                        </div>
+                        <div class="card-body"> 
+                            <p class="card-text text-center">Custom Attendance Report (term,semester,year...).</p> 
+                        </div>
+                    </div>                  
+
+                    <div class="card">
+                        <div class="card-header">
+                            Transcript2
+                        </div>
+                        <div class="card-body"> 
+                            <p class="card-text text-center">Custom Transcript (achievement,logo,header,footer,multipage,...).</p> 
+                        </div>
+                    </div>                
+
+                    <div class="card">
+                        <div class="card-header">
+                            Admissions2
+                        </div>
+                        <div class="card-body"> 
+                            <p class="card-text text-center">All about Admissions can be customized.</p> 
+                        </div>
+                    </div> 
+                    <div class="card">
+                        <div class="card-header">
+                            and more...
+                        </div>
+                        <div class="card-body"> 
+                            <p class="card-text text-center">Behavior,Schedule,Email management,Family and student information,Payments,Kindergarten, ...</p> 
+                        </div>
+                    </div>
+                </div>-->
+                
+                
+                
+                <!-- -->
             </div>
             <div class="col-12 mt-md-3 footerFacts">
                 <i class="fas fa-circle" style="font-size: 10px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
