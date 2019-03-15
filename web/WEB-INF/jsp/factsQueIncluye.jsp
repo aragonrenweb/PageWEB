@@ -1,18 +1,11 @@
-<%-- 
-    Document   : factsQueIncluye
-    Created on : 01-feb-2019, 11:13:15
-    Author     : Jesus
---%>
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
+
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" media="all" href="recursos/css/main.css" />
-        <script src="recursos/js/modernizr.custom.37797.js"></script> 
-        <script src="recursos/js/parallax.js"></script>
-        <title>FACTS que Incluye</title>
+        
+        <title>FACTS</title>
         <style>
             body {
                 margin: 0;
@@ -280,6 +273,7 @@
     
         </style>
         <style>
+     
             body {
                 margin: 0;
                 font-family: sans-serif;
@@ -614,20 +608,35 @@
                     transform: translate3d(3px, 0, 0);
                 }
             }
-
+            .reportes
+            {
+                width: 100%;
+            }
+            .seleccionado
+            {
+                font-weight: bold;
+                font-size: 16pt;
+            }
+            .sinSeleccionar
+            {
+                font-size:12px;
+                font-family:montserrat,sans-serif;
+            }
+           
+    </style>
+            
         </style>
-        <script>
-
-        </script>
-
+        
+        
     </head>
+
     <body>
         <%@ include file="nav.jsp" %>
+       
         <section  class="hero">
             <div class="hero-inner">
-                <h1>PERSONAL DIRECTIVO</h1>
-                <h1>GestiÃ³n Administrativa</h1>
-                
+                <h1>FACTS</h1>
+                <h2>Sistema de gestión escolar, integrada por módulos que unidos entre si proporcionan un perfecto manejo de las tareas diarias de una escuela</h2> 
             </div>
             <footer>
                 <label>
@@ -643,122 +652,285 @@
         <nav id="primary">
                 <ul>
                     <li> 
-                        <a class="btn popoverOption" href="#t1"rel="popover" data-placement="left" data-original-title="BOLETÃN DE NOTAS."></a>
+
+                        <a class="btn popoverOption" href="#t1"rel="popover" data-placement="left" data-original-title="PERSONAL DIRECTIVO."></a>
                     </li>
                     <li>
-                        <a class="btn popoverOption bgSchoolCommunicator" href="#fila2" rel="popover" data-placement="left" data-original-title="ASISTENCIA."></a>
+                        <a class="btn popoverOption bgSchoolCommunicator" href="#fila2" rel="popover" data-placement="left" data-original-title="PROFESORES."></a>
                     </li>
                     <li>
-                        <a class="btn popoverOption bgBot" href="#fila3" rel="popover" data-placement="left" data-original-title="INFORMES."></a>
+                        <a class="btn popoverOption bgBot" href="#fila3" rel="popover" data-placement="left" data-original-title="PADRES DE FAMILIA."></a>
                     </li>
                     <li>
-                        <a class="btn popoverOption bgMaintenance" href="#fila4" rel="popover" data-placement="left" data-original-title="GESTIÃ“N DE RRHH."></a>                       
+                        <a class="btn popoverOption bgMaintenance" href="#fila4" rel="popover" data-placement="left" data-original-title="ESTUDIANTES."></a>
                     </li>
-                    <li>
-                        <a class="btn popoverOption bgMaintenance" href="#fila4" rel="popover" data-placement="left" data-original-title="COBROS."></a>                       
-                    </li>
-                    <li>
-                        <a class="btn popoverOption bgMaintenance" href="#fila4" rel="popover" data-placement="left" data-original-title="COMPORTAMIENTO."></a>                       
-                    </li>
-                    <li>
-                        <a class="btn popoverOption bgMaintenance" href="#fila4" rel="popover" data-placement="left" data-original-title="GESTIÃ“N DE GUARDERÃA."></a>                       
-                    </li>
-                    <li>
-                        <a class="btn popoverOption bgMaintenance" href="#fila4" rel="popover" data-placement="left" data-original-title="GESTIÃ“N DE CAFETERÃA."></a>                       
-                    </li>
-                    <li>
-                        <a class="btn popoverOption bgMaintenance" href="#fila4" rel="popover" data-placement="left" data-original-title="GESTOR DE CORREO ELECTRÃ“NICO."></a>                       
-                    </li>
-                    <li>
-                        <a class="btn popoverOption bgMaintenance" href="#fila4" rel="popover" data-placement="left" data-original-title="INFORMACIÃ“N DE FAMILIA Y ESTUDIANTE."></a>                       
-                    </li>
-                    <li>
-                        <a class="btn popoverOption bgMaintenance" href="#fila4" rel="popover" data-placement="left" data-original-title="ADMISIONES."></a>                      
-                    </li>
+                    
                 </ul>
             </nav>
         
-        
-        
-        
-        
-        <div class="container-fluid">
+ 
+    
+        <main> 
+            
+            <div class="container-fluid">
                 <div class="row fila" id="fila1"> 
                     <div class="col-12 col-md-6"> 
                         <div class="headingSmart col-12  col-md-10 offset-md-1 col-xl-8 offset-xl-2" >
-                            <h1>Report Card y Transcript</h1>
+                            <%---<h1>PERSONAL DIRECTIVO.</h1>---%>
+                            <h1>MANAGEMENT.</h1>
                         </div>
-                        <div class="col-12" style="text-align:justify;"> <div class="d-none d-lg-block  col-2 lineTop"></div>                             
-                                <p>Como personal directivo los administradores del sistema podrÃ¡n ejercer todas las tareas propias de un maestro, entre las que se encuentran la calificaciÃ³n de los estudiantes e impresiÃ³n de informes. Esto se debe a que desde un punto de vista general, dispondrÃ¡n de todos los permisos necesarios para realizar esas tareas.</p>
-                                <p>Pero en este caso nos centraremos en tareas mas propias de los administradores y la gestÃ­Ã³n administrativa de las escuelas. En este sentido un cometido fundamental, se centra en la configuraciÃ³n del sistema para una correcta simbiosis entre todos los departamentos de la escuela.</p>  
-                                
+                        <div class="col-12" value="ReportCard.png" style="text-align:justify;"> <div class="d-none d-lg-block  col-2 lineTop"></div>                             
+                                <%--<p>LLevar el manejo y control de cada uno de los módulos disponibles en FACTS, es una tarea facil de realizar pero que exige del trabajo del personal de Administración para realizar tareas de configuración y uso de ciertas herramientas que son exclusivas del personal directivo de la escuela.</p>
+                                <p>El manejo del sistema de seguridad de acceso a los diferentes módulos y la impresión de los informes, son dos de las tareas mas importantes que deberá gestionar el personal directivo. Un control riguroso de los permisos de seguridad, proporcionará a la escuela la fiabilidad necesaria para las tareas diarias.</p> ---%>
+                                <p>Taking the management and control of each of the modules available in FACTS is an easy task to perform, but it requires the work of the Administration staff to perform tasks of configuration and use of certain tools that are exclusive to the school's management personnel.
+                                    The management of the security system of access to the different modules and the printing of the reports, are two of the most important tasks that management personnel should manage. A rigorous control of security permits will provide the school with the necessary reliability for daily tasks.</p>
                         </div> 
-                        <div class="fila col-12 row" style="margin-left:20px">
+                        <div class="fila col-12 row lista1" style="margin-left:20px">
                             <div class="col-12 col-md-6">
+                                        <ul style="list-style:circle">
+                                            <li class="font_8" style="font-size:18px; line-height:1.5em;">
+                                                <span style="font-size:12px;font-family:montserrat,sans-serif;" value="ReportCard.png"><%---Boletines de notas---%>Report Cards</span>
+                                            </li>
+                                            <li class="font_8" style="font-size:18px; line-height:1.5em;">
+                                                <span class="sinSeleccionar" value="Attendance.png"><%---Asistencia---%>Attendance</span>
+                                            </li>
+                                            <li class="font_8" style="font-size:18px; line-height:1.5em;">
+                                                <span class="sinSeleccionar" value="Informe.jpg"><%---Informes---%>Custom Reports</span>
+                                                                       
+                                            </li>
+                                            <li class="font_8" style="font-size:18px; line-height:1.5em;">
+                                                
+                                                <span class="sinSeleccionar" value="hhrr.png"><%---Gestión de HHRR---%>Human Resources</span>
+                                            </li>
+                                            <li class="font_8" style="font-size:18px; line-height:1.5em;">
+                                                <span class="sinSeleccionar" value="Cobros.png"><%---Cobros---%>Student Billing</span>
+                                                
+                                            </li>
+                                            <li class="font_8" style="font-size:18px; line-height:1.5em;">
+                                                
+                                                <span class="sinSeleccionar" value="Comportamiento.png"><%---Comportamiento---%>Behavior</span>
+                                            </li>
+                                        </ul>
+                            </div>                          
+                            <div class="col-12 col-md-6 lista1">
+                                        <ul style="list-style:circle">
+                                            <li class="font_8" style="font-size:18px; line-height:1.5em;">
+                                               
+                                               <span class="sinSeleccionar" value="Guarderia.png"><%---Gestión de Guardería---%>Child Care</span>
+                                            </li>
+                                            <li class="font_8" style="font-size:18px; line-height:1.5em;">
+                                                
+                                                <span class="sinSeleccionar" value="Cafeteria.png"><%---Gestión de Cafetería---%>Cafeteria management</span>
+                                            </li>
+                                            <li class="font_8" style="font-size:18px; line-height:1.5em;">
+                                                  
+                                                <span class="sinSeleccionar" value="correo.png"><%---Gestor de correo electrónico---%>Communications management</span>
+                                            </li>
+                                            <li class="font_8" style="font-size:18px; line-height:1.5em;">
+                                                
+                                                <span class="sinSeleccionar" value="Horarios.png"><%---Gestor de Horarios---%>Scheduling</span>
+                                            </li>
+                                            <li class="font_8" style="font-size:18px; line-height:1.5em;">
+                                                 
+                                                <span class="sinSeleccionar" value="Familia.png"><%---Información de Familia y Estudiante---%>Information of families and students</span>
+                                            </li>
+                                            <li class="font_8" style="font-size:18px; line-height:1.5em;">
+                                                
+                                                <span class="sinSeleccionar" value="admisiones2.png"><%---Admisiones---%>Admissions</span>
+                                            </li>
+                                        </ul>                                
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="col-6" data-aos="fade-left"  data-aos-offset="300" style="padding:10px;" id="contFoto1">
+                        <!--- METER LAS IMAGENES  --->
+                        <img id="foto" data-type="image" src="recursos/img/Facts/factsqueincluye/ReportCard.png" width=700 height=400">                     
+                    </div>
+                </div> 
+                
+            </div>
+            
+            
+     <!--- COMIENZA SECCIÓN PROFESORES ---->           
+        
+        <div class="col-xs-6 col-xs-offset-3"><hr></div>
+        <div class="col-6 offset-3 hrSmart"></div> <br><br><br>
+            <div class="container-fluid">
+                <div class="row fila" id="fila1">
+                    <div class="col-xs-12 col-md-6  col-xl-5 offset-xl-1 filaVideo" data-aos="fade-left"  data-aos-offset="300" id="contFoto2">                     
+                            <img data-type="image" src="recursos/img/Facts/gradebook.png" height="400" width="700" align="left">                           
+                    </div> 
+                    <div class="col-xs-12 col-md-6 col-xl-5"> 
+                        <!--<div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">--> 
+                        <div class="headingSmart col-12  col-md-10 offset-md-1 col-lg-8 offset-lg-2 " >
+                            <h1><%---PROFESORES.---%>CLASSROOM.</h1>
+                        </div>
+                        <div class="col-12" style="text-align:justify;">  
+                              <div class="d-none d-lg-block  col-2 lineTop"></div>
+                            <div class="col-xs-12 col-md-10 col-xl-10">
+                                <%---<p>En un entorno intuitivo, los profesores podrán llevar a cabo el control diario de las actividades de las clases que tienen asignadas, control de asistencia, tareas diarias e incluso interactuar con los estudiantes online fuera del horario lectivo.</p>---%>
+                                <p>In an intuitive environment, teachers will be able to carry out the daily control of the activities of the classes they have assigned, attendance control, daily tasks and even interact with students online after school hours.</p>
+                                <div class="col-12 col-md-6 lista2">
                                         <ul class="font_8" style="list-style:circle">
+                                            <li class="font_8" style="font-size:18px; line-height:1.5em;">
+                                                
+                                                <span class="sinSeleccionar" value="Lms.png"><%---Admisiones---%>Learning Management System</span>
+                                            </li>
+                                            <li class="font_8" style="font-size:18px; line-height:1.5em;">
+                                                
+                                                <span class="sinSeleccionar" value="Asistencia3.png"><%---Admisiones---%>Attendance</span>
+                                            </li>
+                                            <li class="font_8" style="font-size:18px; line-height:1.5em;">
+                                                
+                                                <span class="sinSeleccionar" value="Gradebook.png"><%---Admisiones---%>Gradebook</span>
+                                            </li>
+                                            <li class="font_8" style="font-size:18px; line-height:1.5em;">
+                                                
+                                                <span class="sinSeleccionar" value="Reports.png"><%---Admisiones---%>Reports</span>
+                                            </li>
+                                            <li class="font_8" style="font-size:18px; line-height:1.5em;">
+                                                
+                                                <span class="sinSeleccionar" value="Behavior.png"><%---Admisiones---%>Behavior</span>
+                                            </li>
+                                            <li class="font_8" style="font-size:18px; line-height:1.5em;">
+                                                
+                                                <span class="sinSeleccionar" value="correo.png"><%---Admisiones---%>Communications</span>
+                                            </li>
+                                            <li class="font_8" style="font-size:18px; line-height:1.5em;">
+                                                
+                                                <span class="sinSeleccionar" value="correo.png"><%---Admisiones---%>Lesson Plan</span>
+                                            </li>
+                                            <li class="font_8" style="font-size:18px; line-height:1.5em;">
+                                                
+                                                <span class="sinSeleccionar" value="correo.png"><%---Admisiones---%>Web Documents</span>
+                                            </li>
+                                            <li class="font_8" style="font-size:18px; line-height:1.5em;">
+                                                
+                                                <span class="sinSeleccionar" value="correo.png"><%---Admisiones---%>Web Test</span>
+                                            </li>
+                                        </ul>
+                                </div>                          
+                            </div>
+                        </div> 
+                    </div> 
+                </div> <br><br><br><br><br>
+            </div>
+        
+                
+                
+<!--- COMIENZA SECCIÓN PADRES DE FAMILIA ---->  
+            
+            <div class="col-xs-6 col-xs-offset-3"><hr></div>               
+                <div class="container-fluid">
+                <div class="row fila" id="fila3"> 
+                    <div class="col-12 col-md-6"> 
+                        <div class="headingSmart col-12  col-md-10 offset-md-1 col-xl-8 offset-xl-2" >
+                            <h1 id="fila5">PARENTS.</h1>
+                        </div>                           
+                                <div class="col-12" style="text-align:justify;"> <div class="d-none d-lg-block  col-2 lineTop"></div>
+                                    <p>Los padres de familia podrán tener un completo conocimiento de la actividad de sus hijos en la escuela. Además de poder recibir correos electrónicos con información directa de la escuela referente a sus hijos, podrán acceder mediante la Web de Padres (Parent Web), a una completa información relativa a los hijos como por ejemplo boletines de notas, calendario escolar, tareas diarias de los estudiantes, información medica, asistencia, formularios web, contabilidad, Cafetería, matriculaciones, etc.</p><br>
+                                </div> 
+                        
+                                <div class="fila col-12 row" style="margin-left:20px">                                    
+                                    <ul class="font_8" style="list-style:circle">
                                             <li class="font_8" style="font-size:18px; line-height:1.5em;">
                                                 <span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Boletines de notas</span></span>
                                             </li>
                                             <li class="font_8" style="font-size:18px; line-height:1.5em;">
-                                                <span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Transcript</span></span>
-                                            </li>                                            
+                                                <span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Asistencia</span></span>
+                                            </li>
+                                            <li class="font_8" style="font-size:18px; line-height:1.5em;">
+                                                <span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Evaluación continua (Gradebook)</span></span>                           
+                                            </li>
+                                            <li class="font_8" style="font-size:18px; line-height:1.5em;">
+                                                <span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Salud y eventos médicos</span></span>  
+                                            </li>
+                                            <li class="font_8" style="font-size:18px; line-height:1.5em;">
+                                                <span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Comportamiento</span></span>  
+                                            </li>
+                                            <li class="font_8" style="font-size:18px; line-height:1.5em;">
+                                                <span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Gestión de guardería</span></span>  
+                                            </li>
                                         </ul>
-                            </div>                          
-                            
-                        </div>
-                    </div> 
-                    <div class="col-6" data-aos="fade-left"  data-aos-offset="300" style="padding:10px;">
-                        <!--- METER LAS IMAGENES  --->
-                        <img data-type="image" src="recursos/img/Facts/ReportCard.png" height="400" width="700">                      
+                                    
+                                </div>
+                        <!--</div>-->
                     </div>
+                    <div class="col-6" data-aos="fade-left"  data-aos-offset="300" style="padding:10px;">
+                                    <!--- METER LAS IMAGENES  --->
+                                    <img data-type="image" src="recursos/img/Facts/ParentwebUNO.png" height="400" width="700">                                     
+                    </div>   
                 </div> 
-                
-            </div>
-        
-        
-        
-        
-        <div class="container-fluid">
-                <div class="row fila" id="fila1"> 
-                    <div class="col-12 col-md-6"> 
-                        <div class="headingSmart col-12  col-md-10 offset-md-1 col-xl-8 offset-xl-2" >
-                            <h1>Informes</h1>
+          </div>
+           
+            
+            
+ <!--- COMIENZA SECCIÓN ESTUDIANTES ---->   
+ 
+         <div class="col-xs-6 col-xs-offset-3"><hr></div>
+        <div class="col-6 offset-3 hrSmart"></div> <br>
+            <div class="container-fluid">
+                <div class="row fila" id="fila1">
+                    <div class="col-xs-12 col-md-6  col-xl-5 offset-xl-1 filaVideo" data-aos="fade-left"  data-aos-offset="300">                      
+                            <img data-type="image" src="recursos/img/Facts/Lms.png" height="400" width="700" align="left">                           
+                    </div> 
+                    <div class="col-xs-12 col-md-6 col-xl-5"> 
+                        <!--<div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">--> 
+                        <div class="headingSmart col-12  col-md-10 offset-md-1 col-lg-8 offset-lg-2 " >
+                            <h1>STUDENT.</h1>
                         </div>
-                        <div class="col-12" style="text-align:justify;"> <div class="d-none d-lg-block  col-2 lineTop"></div>                             
-                                <p>Entre las herramientas mas destacadas de un sistema de gestiÃ³n escolar, es aquella que nos permite saber el estado de cualquier area escolar. FACTS dispone de una amplio catÃ¡logo de informes, ademÃ¡s de un creador de informes personalizados (Create a Report), donde el personal acadÃ©mico podrÃ¡ seleccionar los campos que desee que sean mostrados en el informe.</p>
-                                <p>Poder crear nuestros informes, siempre que tengamos conocimientos en programaciÃ³n, es una realidad con una herramienta integrada en FACTS, Customization Kit</p>
-                                <p>Pero nosotros queremos dar un paso mas a este sistema de informes, una nueva alternativa que satisfaga todas las necesidades. InformaciÃ³n para estudiantes y padres, boletines de notas, historial acadÃ©mico, informes para organismos oficiales,... ahora con FACTS cualquier informe es posible. Nosotros personalizamos los informes para adaptarlos a las necesidades de cada escuela. </p>  
-                                
+                        <div class="col-12">  
+                              <div class="d-none d-lg-block  col-2 lineTop"></div>
+                            <div class="col-xs-12 col-md-10 col-xl-10" style="text-align:justify;">
+                                <p>A través de Parent web, el estudiante podrá tener a su disposición información sobre las tareas diarias, boletines, calendario, Lesson plan, etc.</p>
+                                <p>Con la herramienta Learning Management System, el estudiante podrá conectarse online con su profesor y realizar tareas programadas, grupos de discusión, pruebas, gracias a un entorno amigable e intuitivo</p>
+                                <div class="col-12 col-md-6">
+                                        <ul class="font_8" style="list-style:circle">
+                                        <li style="line-height:1.5em;">
+                                            <p class="font_8" style="font-size:18px; line-height:1.5em;"><span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Learning Management System</span></span></p>
+                                        </li>
+                                        <li style="line-height:1.5em;">
+                                             <p class="font_8" style="font-size:18px; line-height:1.5em;"><span style="font-size:12px;"><span style="font-family:montserrat,sans-serif;">Evaluación continua (Gradebook)</span></span></p>
+                                        </li>
+                                    </ul>
+                                </div>                          
+                            </div>
                         </div> 
-                        
                     </div> 
-                    <div class="col-6" data-aos="fade-left"  data-aos-offset="300" style="padding:10px;">
-                        <!--- METER LAS IMAGENES  --->
-                        <img data-type="image" src="recursos/img/Facts/ReportCard.png" height="400" width="700">                      
-                    </div>
-                </div> 
-                
+                </div> <br>
             </div>
+
+
+        </main>
+
+        <div class="btnDemo ">
+            <label class="arrow_box">Schedule a Demo</label>
+            <img src="recursos/img/smartClover/Logo_Smart_clover_LogoConFondo.png " style="width:50px">
+
+        </div>  
+         <script type="text/javascript">
+          $(document).ready(function (){
+              
+              $( ".lista1 li span" ).hover(function() {
+                $("#contFoto1").empty();
+                $( ".lista1 li span" ).removeClass('seleccionado');
+                $(this).addClass('seleccionado');
+                $("#contFoto1").append(' <img id="foto" class="reportes" data-type="image" src="recursos/img/Facts/factsqueincluye/'+$(this).attr("value")+'">');
+              });
+          
+              $( ".lista2 li span" ).hover(function() {
+                $("#contFoto2").empty();
+                $( ".lista2 li span" ).removeClass('seleccionado');
+                $(this).addClass('seleccionado');
+                $("#contFoto2").append(' <img id="foto" class="reportes" data-type="image" src="recursos/img/Facts/factsqueincluye/'+$(this).attr("value")+'">');
+              });
+    
+    
+            });
         
-        
-        <div class="container-fluid">
-                <div class="row fila" id="fila1"> 
-                    <div class="col-12 col-md-6"> 
-                        <div class="headingSmart col-12  col-md-10 offset-md-1 col-xl-8 offset-xl-2" >
-                            <h1>Asistencia</h1>
-                        </div>
-                        <div class="col-12" style="text-align:justify;"> <div class="d-none d-lg-block  col-2 lineTop"></div>                             
-                            <p>Gestionar la asistencia una vez al dÃ­a o por cada clase, es posible, pero es necesario que el sistema se adapte a las caracteristicas de las clases. Es por ello que ofrecemos un sistema para que cerando diferentes script, cualquier acciÃ³n o cambio sea posible</p>
-                                
-                        </div> 
-                        
-                    </div> 
-                    <div class="col-6" data-aos="fade-left"  data-aos-offset="300" style="padding:10px;">
-                        <!--- METER LAS IMAGENES  --->
-                        <img data-type="image" src="recursos/img/Facts/ReportCard.png" height="400" width="700">                      
-                    </div>
-                </div> 
-                
-            </div>
+        </script>
     </body>
+
+    <%@ include file="footerAOS.jsp" %>
+
 </html>
