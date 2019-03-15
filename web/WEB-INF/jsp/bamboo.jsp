@@ -599,7 +599,7 @@
                     </div>
                 </div> 
             </div>
-            <div class="col-10 col-lg-8 offset-1 offset-lg-2">
+<!--            <div class="col-10 col-lg-8 offset-1 offset-lg-2">
                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -619,7 +619,7 @@
                         <li data-target="#carousel" data-slide-to="0" class="active"></li>
                         <li data-target="#carousel" data-slide-to="1"></li>
                     </ol>
-                    <!-- Carousel items -->
+                     Carousel items 
                     <div class="carousel-inner">
                         <div class="active item">
 
@@ -628,11 +628,11 @@
 
                         </div>
                     </div>
-                    <!-- Carousel nav -->
+                     Carousel nav 
                     <a class="carousel-control left sinfondo" href="#carousel" data-slide="prev">&lsaquo;</a>
                     <a class="carousel-control right sinfondo" href="#carousel" data-slide="next">&rsaquo;</a>
                 </div>
-            </div>
+            </div>-->
         </main>
 
 
