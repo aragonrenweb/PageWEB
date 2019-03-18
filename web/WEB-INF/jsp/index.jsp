@@ -153,7 +153,7 @@
             }
             .menu
             {
-                height: 50rem;
+                height: 90%;
                 overflow: hidden;
                 /*margin-bottom:504px;*/
                 transition:background 1s ease;
@@ -457,7 +457,7 @@
                     transform: skewX(0deg);  
                     max-width: 43%;
                     margin-left: 4.5%;
-                    /*                    max-height: 615px;*/
+                    max-height: 550px;
                     flex-direction: column;
                     margin-top:10px;
                     padding-top:15px;
