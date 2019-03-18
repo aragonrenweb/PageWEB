@@ -623,14 +623,6 @@
                     background-color: #c35098;
                     width: 100px;
                 } 
-
-                .contNameFacts{
-                    height: 65%; 
-
-                }
-                #contDescripFacts{
-                    max-height: 65%;
-                }
                
             }
 
@@ -714,10 +706,7 @@
                     -o-background-size: cover;
                     background-size: cover;
                 }
-                
-                #contDescripFacts{
-                max-height:65%;
-            } 
+         
             }
             /* Large devices (desktops, less than 1200px)*/
             @media (min-width: 1200px) { 
