@@ -6,7 +6,7 @@
 
 
 <html style="overflow-x: hidden;">
-    
+
     <head>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -457,7 +457,7 @@
                     transform: skewX(0deg);  
                     max-width: 43%;
                     margin-left: 4.5%;
-/*                    max-height: 615px;*/
+                    /*                    max-height: 615px;*/
                     flex-direction: column;
                     margin-top:10px;
                     padding-top:15px;
@@ -481,10 +481,11 @@
                     transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-/*                    max-height: 620px;*/
+                    /*                    max-height: 620px;*/
                     flex-direction: column;
                     margin-top: 0px;
                     padding-top: 15px;
+                    padding-bottom: 5%;
                 }
                 .cardPrincipalSmartClover{
                     background:none;
@@ -501,10 +502,11 @@
                     transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-/*                    max-height: 620px;*/
+                    /*                    max-height: 620px;*/
                     flex-direction: column;
                     margin-top:0px;
                     padding-top:15px;
+                    padding-bottom: 5%;
                 }
                 .cardPrincipalScheduler{
                     background:none;
@@ -520,10 +522,11 @@
                     transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-/*                    max-height: 620px;*/
+                    /*                    max-height: 620px;*/
                     flex-direction: column;
                     margin-top:0px;
                     padding-top:15px;
+                    padding-bottom: 5%;
                 }
 
 
@@ -543,10 +546,11 @@
                     transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-/*                    max-height: 620px;*/
+                    /*                    max-height: 620px;*/
                     flex-direction: column;
                     margin-top:0px;
                     padding-top:15px;
+                    padding-bottom: 5%;
                 }
 
                 .lineTopGray{
@@ -565,7 +569,7 @@
                     transform: skewX(0deg);
                     max-width: 43%;
                     margin-left: 4.5%;
-/*                    max-height: 550px;*/
+                    /*                    max-height: 550px;*/
                     flex-direction: column;
                     margin-top:10px;
                     padding-top:15px;
@@ -579,7 +583,7 @@
                     transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-/*                    max-height: 550px;*/
+                    /*                    max-height: 550px;*/
                     flex-direction: column;
                     margin-top: 0px;
                     padding-top: 15px;
@@ -590,7 +594,7 @@
                     transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-/*                    max-height: 550px;*/
+                    /*                    max-height: 550px;*/
                     flex-direction: column;
                     margin-top:0px;
                     padding-top:15px;
@@ -601,7 +605,7 @@
                     transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-/*                    max-height: 550px;*/
+                    /*                    max-height: 550px;*/
                     flex-direction: column;
                     margin-top:0px;
                     padding-top:15px;
@@ -611,7 +615,7 @@
                     transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-/*                    max-height: 550px;*/
+                    /*                    max-height: 550px;*/
                     flex-direction: column;
                     margin-top:0px;
                     padding-top:15px;
@@ -620,7 +624,7 @@
 
                 .cardInfo{
                     /*  margin-top: 15px; */
-/*                    height: 95%;*/
+                    height: 95%;
                 }
 
                 .slick-slider{  
@@ -639,7 +643,7 @@
             }
             /* Large devices (desktops, less than 1200px)*/
             @media (min-width: 1200px) { 
-                
+
                 .card{
                     width:90% !important;
                     margin-left:5%;                    
@@ -649,7 +653,7 @@
                     transform: skewX(0deg);
                     max-width: 43%;
                     margin-left: 4.5%;
-/*                    max-height: 500px;*/
+                    /*                    max-height: 500px;*/
                     flex-direction: column;
                     margin-top:10px;
                     padding-top:15px;
@@ -663,7 +667,7 @@
                     transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-/*                    max-height: 500px;*/
+                    /*                    max-height: 500px;*/
                     flex-direction: column;
                     margin-top: 0px;
                     padding-top: 15px;
@@ -674,7 +678,7 @@
                     transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-/*                    max-height: 500px;*/
+                    /*                    max-height: 500px;*/
                     flex-direction: column;
                     margin-top:0px;
                     padding-top:15px;
@@ -685,7 +689,7 @@
                     transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-/*                    max-height: 500px;*/
+                    /*                    max-height: 500px;*/
                     flex-direction: column;
                     margin-top:0px;
                     padding-top:15px;
@@ -695,7 +699,7 @@
                     transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-/*                    max-height: 500px;*/
+                    /*                    max-height: 500px;*/
                     flex-direction: column;
                     margin-top:0px;
                     padding-top:15px;
@@ -864,7 +868,7 @@
                 text-align: start;
                 padding-left: 40px;
             }
-              .badgeFacts{
+            .badgeFacts{
                 color: #fff; 
                 height: 30px;
                 line-height: 20px;
@@ -892,7 +896,7 @@
             .contDescipInner .badge{
                 border-radius:0px; 
             }
-            
+
             .badgeFactsClass{
                 background-color: #7eb529;
             }
@@ -902,27 +906,27 @@
             .badgeFactsStudent{
                 background-color: #c35098;
             } 
-            
+
             #contDescripManagement .badge{
                 background-color: #f2980f;
             }
-             #contDescripClassroom .badge{
+            #contDescripClassroom .badge{
                 background-color: #7eb529;
             }
-             #contDescripParent .badge{
+            #contDescripParent .badge{
                 background-color: #6a58a2;
             }
-             #contDescripStudent .badge{
+            #contDescripStudent .badge{
                 background-color: #c35098;
             }
-          
+
         </style>
         <script>
             $(document).ready(function () {
 
                 $(".buttonPrevious").hide();
                 $(".colorSchoolAnalytics").hide();
- $("#contDescripClassroom").hide();
+                $("#contDescripClassroom").hide();
                 $("#contDescripParent").hide();
                 $("#contDescripStudent").hide();
 //                $('.nav-link').on('click', function () { 
@@ -1279,9 +1283,9 @@
                 $("#menuDesplegable a").first().next().empty();
                 $("#menuDesplegable a").first().next().append('<img src="' + img + '" >');
             }
-function showInfo(idContenedor){
+            function showInfo(idContenedor) {
                 $(".contDescipInner").hide();
-                $("#"+idContenedor).show();
+                $("#" + idContenedor).show();
             }
         </script>
 
@@ -1475,7 +1479,7 @@ function showInfo(idContenedor){
             </div>
 
         </div> 
-        <div class=" row">
+        <div class="row">
             <div class="col-12 " >
                 <div class="col-12 animacion"></div>
             </div>
@@ -1493,196 +1497,204 @@ function showInfo(idContenedor){
                 </div> 
             </div>
 
-            <div class="col-12 col-md-6 cardInfo">
-                <div class="col-12"><h4 class="text-center" >A world leader SIS</h4></div> 
-                <div class="col-10 offset-1 text-center">
-                    <p>
-                        Eduweb is the official distributors of FACTS SIS - a world leading SIS, fully integrated, multiplatform, and serving more than <h4>6000 schools around the globe</h4>.
-                    </p>
-                    <p>
-                        Our customers are located in Europe, Asia, Nortt and South America, Africa and the Middle East. 
-                    </p>
+            <div class="row col-12">
+                <div class="col-12 col-md-6 cardInfo">
+                    <div class="col-12"><h4 class="text-center" >A world leader SIS</h4></div> 
+                    <div class="col-10 offset-1 text-center">
+                        <p>
+                            Eduweb is the official distributors of FACTS SIS - a world leading SIS, fully integrated, multiplatform, and serving more than <h4>6000 schools around the globe</h4>.
+                        </p>
+                        <p>
+                            Our customers are located in Europe, Asia, Nortt and South America, Africa and the Middle East. 
+                        </p>
 
-                    <div  class="mb-3 listaFacts">
-                        <li>Admissions</li>
-                        <li>Attendance</li> 
-                        <li>Communication</li>  
-                        <li>Report cards</li>
-                        <li>Scheduling</li>
-                        <li>Staff information management</li> 
-                        <li>Transcripts</li> 
-                        <li>and more...</li>
+                        <div  class="mb-3 listaFacts">
+                            <li>Admissions</li>
+                            <li>Attendance</li> 
+                            <li>Communication</li>  
+                            <li>Report cards</li>
+                            <li>Scheduling</li>
+                            <li>Staff information management</li> 
+                            <li>Transcripts</li> 
+                            <li>and more...</li>
 
+                        </div>
+                        <!--<footer>mas información</footer>--> 
                     </div>
-                    <!--<footer>mas información</footer>--> 
                 </div>
-            </div>
-            <div class="col-12 col-md-6 cardInfo lineTopGray">
-                <div class="col-12"><h4 class="text-center" id="OurServices">24 hour Consultants and Support</h4></div> 
-                <div class="col-10 offset-1 text-center">
-                    <div class="mb-3">
-                        <p>The partnership between us and our client schools goes beyond the typical Customer Service-to-client service model</p>
-                        <p>Jumpstart Implementation – only 3 weeks to get your school on a best practices road</p>
-                        <p>Training and consultancy services available online and onsite around the globe</p>
-                        <p>Live Chat 5 days a week</p>
-                        <p>Perfect customizations to match regional requirements</p>
-                        <p>API  Integration Solutions</p>
-                        <p>Multicurriculum functionalities – IB reporting, Standard grading, British and American Curriculum, and even Montessori or Waldorf.</p>
-                    </div>
-                    <!-- <footer>mas información</footer>-->
-                </div>
-            </div>
-
-           
-
-            <div class="col-12 col-md-6 cardInfo lineTopGray">
-                <div class="col-12"><h4 class="text-center" id="ItIsAllAboutPersonalization">A fitted solution for your school</h4></div> 
-                <div class="col-10 offset-1 p-xl-0 text-center">
-                    <div class="mb-3">
-                        <p> Our commitment to the long-term sustainability and stability of schools is rooted in our philosophy of putting customers first, every time, and learning from their uniqueness.</p>
-                        <p>Report Card and Transcript customizations – there is almost nothing that cannot be done to customize a school’s reporting needs. Tell us what you want, we deliver.  </p>
-                        <p>Design and Customization of administrative reports</p>
-                        <p> Integration with third party systems</p>
-                        <p> Save time with automated scripts, and enjoy the results </p>
-                    </div>
-
-                </div>
-                <div class="lazy slider d-none d-xl-block " data-sizes="50vw">
-
-                    <div class="card">
-                        <div class="card-header">
-                            Report Card
+                <div class="col-12 col-md-6 cardInfo lineTopGray">
+                    <div class="col-12"><h4 class="text-center" id="OurServices">24 hour Consultants and Support</h4></div> 
+                    <div class="col-10 offset-1 text-center">
+                        <div class="mb-3">
+                            <p>The partnership between us and our client schools goes beyond the typical Customer Service-to-client service model</p>
+                            <p>Jumpstart Implementation – only 3 weeks to get your school on a best practices road</p>
+                            <p>Training and consultancy services available online and onsite around the globe</p>
+                            <p>Live Chat 5 days a week</p>
+                            <p>Perfect customizations to match regional requirements</p>
+                            <p>API  Integration Solutions</p>
+                            <p>Multicurriculum functionalities – IB reporting, Standard grading, British and American Curriculum, and even Montessori or Waldorf.</p>
                         </div>
-                        <div class="card-body"> 
-                            <p class="card-text text-center">Custom Report (achievement,logo,header,footer,multipage,..).</p> 
-                        </div>
-                    </div>                    
-
-
-                    <div class="card">
-                        <div class="card-header">
-                            Attendance
-                        </div>
-                        <div class="card-body"> 
-                            <p class="card-text text-center">Custom Attendance Report (term,semester,year...).</p> 
-                        </div>
-                    </div>                  
-
-                    <div class="card">
-                        <div class="card-header">
-                            Transcript
-                        </div>
-                        <div class="card-body"> 
-                            <p class="card-text text-center">Custom Transcript (achievement,logo,header,footer,multipage,...).</p> 
-                        </div>
-                    </div>                
-
-                    <div class="card">
-                        <div class="card-header">
-                            Admissions
-                        </div>
-                        <div class="card-body"> 
-                            <p class="card-text text-center">All about Admissions can be customized.</p> 
-                        </div>
-                    </div> 
-                    <div class="card">
-                        <div class="card-header">
-                            and more...
-                        </div>
-                        <div class="card-body"> 
-                            <p class="card-text text-center">Behavior,Schedule,Email management,Family and student information,Payments,Kindergarten, ...</p> 
-                        </div>
+                        <!-- <footer>mas información</footer>-->
                     </div>
                 </div>
             </div>
-            
 
-            <div class="col-12 col-md-6 cardInfo lineTopGray d-flex flex-row">
-                <div class="col-5 h-100">
-                    <div class="col-12"><h4 class="text-left">360º</h4></div> 
-                    <div class="col-10 offset-1 p-xl-0 text-center ">
-                        <div class="mb-3 d-flex h-75 flex-column justify-content-around">
-                            <span onclick="showInfo('contDescripManagement')" class="badge badgeFacts badgeFactsMan">Management</span>
-                            <span onclick="showInfo('contDescripClassroom')" class="badge badgeFacts badgeFactsClass">Classroom</span>
-                            <span onclick="showInfo('contDescripParent')" class="badge badgeFacts badgeFactsParent">Parents</span>
-                            <span onclick="showInfo('contDescripStudent')" class="badge badgeFacts badgeFactsStudent">Students</span>
+
+
+            <div class="row col-12">
+                <div class="col-12 col-md-6 cardInfo lineTopGray">
+                    <div class="col-12"><h4 class="text-center" id="ItIsAllAboutPersonalization">A fitted solution for your school</h4></div> 
+                    <div class="col-10 offset-1 p-xl-0 text-center">
+                        <div class="mb-3">
+                            <p> Our commitment to the long-term sustainability and stability of schools is rooted in our philosophy of putting customers first, every time, and learning from their uniqueness.</p>
+                            <p>Report Card and Transcript customizations – there is almost nothing that cannot be done to customize a school’s reporting needs. Tell us what you want, we deliver.  </p>
+                            <p>Design and Customization of administrative reports</p>
+                            <p> Integration with third party systems</p>
+                            <p> Save time with automated scripts, and enjoy the results </p>
                         </div>
 
-                    </div> 
-                </div>
-                <div class="col-7" id="contDescripFacts">
-                    <div class="contDescipInner" id="contDescripManagement">
-                        <div class="mb-3 d-flex h-100 flex-column justify-content-around">
-                            <span class="badge">Report card</span>
-                            <span class="badge">Attendace</span>
-                            <span class="badge">Custom report</span>
-                            <span class="badge">Human resources</span>
-                            <span class="badge">Student billing</span>
-                            <span class="badge">Behavior</span>
-                            <span class="badge">Child care</span>
-                            <span class="badge">Cafeteria</span>
-                            <span class="badge">Comunication</span>
-                            <span class="badge">Scheduling</span>
-                            <span class="badge">Family information</span>
-                            <span class="badge">Admisions</span>
-                        </div>
                     </div>
-                    <div class="contDescipInner" id="contDescripClassroom">
-                        <div class="mb-3 d-flex h-100 flex-column justify-content-around">
-                            <span class="badge">Learning management system</span>
-                            <span class="badge">Attendace</span>
-                            <span class="badge">Gradebook</span>
-                            <span class="badge">Reports</span> 
-                            <span class="badge">Behavior</span> 
-                            <span class="badge">Comunication</span>
-                            <span class="badge">Lessons plan</span>
-                            <span class="badge">Web documents</span>
-                            <span class="badge">Web test</span>
-                        </div>
-                    </div>
-                    <div class="contDescipInner" id="contDescripParent">
-                        <div class="mb-3 d-flex h-100 flex-column justify-content-around">
-                            <span class="badge">Report card</span>
-                            <span class="badge">Attendace</span>
-                            <span class="badge">Gradebook</span>
-                            <span class="badge">Medical information</span> 
-                            <span class="badge">Behavior</span>
-                            <span class="badge">Child care</span> 
-                        </div>
-                    </div>
-                    <div class="contDescipInner" id="contDescripStudent">
-                        <div class="mb-3 d-flex h-100 flex-column justify-content-around">
-                            <span class="badge">Learning management system</span>
-                            <span class="badge">Attendace</span>
-                            <span class="badge">Gradebook</span>
-                            <span class="badge">Medical information</span> 
-                            <span class="badge">Behavior</span> 
-                            <span class="badge">Child care</span> 
+                    <div class="lazy slider d-none d-xl-block " data-sizes="50vw">
+
+                        <div class="card">
+                            <div class="card-header">
+                                Report Card
+                            </div>
+                            <div class="card-body"> 
+                                <p class="card-text text-center">Custom Report (achievement,logo,header,footer,multipage,..).</p> 
+                            </div>
+                        </div>                    
+
+
+                        <div class="card">
+                            <div class="card-header">
+                                Attendance
+                            </div>
+                            <div class="card-body"> 
+                                <p class="card-text text-center">Custom Attendance Report (term,semester,year...).</p> 
+                            </div>
+                        </div>                  
+
+                        <div class="card">
+                            <div class="card-header">
+                                Transcript
+                            </div>
+                            <div class="card-body"> 
+                                <p class="card-text text-center">Custom Transcript (achievement,logo,header,footer,multipage,...).</p> 
+                            </div>
+                        </div>                
+
+                        <div class="card">
+                            <div class="card-header">
+                                Admissions
+                            </div>
+                            <div class="card-body"> 
+                                <p class="card-text text-center">All about Admissions can be customized.</p> 
+                            </div>
+                        </div> 
+                        <div class="card">
+                            <div class="card-header">
+                                and more...
+                            </div>
+                            <div class="card-body"> 
+                                <p class="card-text text-center">Behavior,Schedule,Email management,Family and student information,Payments,Kindergarten, ...</p> 
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 mt-md-3 footerFacts">
-                    <i class="fas fa-circle" style="font-size: 10px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
-                    <i class="fas fa-circle" style="font-size: 12px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
-                    <i class="fas fa-circle" style="font-size: 14px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
-                    <a>more info
-                        <i class="fas fa-circle" style="font-size: 14px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
-                        <i class="fas fa-circle" style="font-size: 12px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
-                        <i class="fas fa-circle" style="font-size: 10px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
+
+
+                <div class="col-12 col-md-6 cardInfo lineTopGray d-flex flex-row">
+                    <div class="col-5 h-100">
+                        <div class="col-12"><h4 class="text-left">360º</h4></div> 
+                        <div class="col-10 offset-1 p-xl-0 text-center ">
+                            <div class="mb-3 d-flex h-75 flex-column justify-content-around">
+                                <span onclick="showInfo('contDescripManagement')" class="badge badgeFacts badgeFactsMan">Management</span>
+                                <span onclick="showInfo('contDescripClassroom')" class="badge badgeFacts badgeFactsClass">Classroom</span>
+                                <span onclick="showInfo('contDescripParent')" class="badge badgeFacts badgeFactsParent">Parents</span>
+                                <span onclick="showInfo('contDescripStudent')" class="badge badgeFacts badgeFactsStudent">Students</span>
+                            </div>
+
+                        </div> 
+                    </div>
+                    <div class="col-7" id="contDescripFacts">
+                        <div class="contDescipInner" id="contDescripManagement">
+                            <div class="mb-3 d-flex h-100 flex-column justify-content-around">
+                                <span class="badge">Report card</span>
+                                <span class="badge">Attendace</span>
+                                <span class="badge">Custom report</span>
+                                <span class="badge">Human resources</span>
+                                <span class="badge">Student billing</span>
+                                <span class="badge">Behavior</span>
+                                <span class="badge">Child care</span>
+                                <span class="badge">Cafeteria</span>
+                                <span class="badge">Comunication</span>
+                                <span class="badge">Scheduling</span>
+                                <span class="badge">Family information</span>
+                                <span class="badge">Admisions</span>
+                            </div>
+                        </div>
+                        <div class="contDescipInner" id="contDescripClassroom">
+                            <div class="mb-3 d-flex h-100 flex-column justify-content-around">
+                                <span class="badge">Learning management system</span>
+                                <span class="badge">Attendace</span>
+                                <span class="badge">Gradebook</span>
+                                <span class="badge">Reports</span> 
+                                <span class="badge">Behavior</span> 
+                                <span class="badge">Comunication</span>
+                                <span class="badge">Lessons plan</span>
+                                <span class="badge">Web documents</span>
+                                <span class="badge">Web test</span>
+                            </div>
+                        </div>
+                        <div class="contDescipInner" id="contDescripParent">
+                            <div class="mb-3 d-flex h-100 flex-column justify-content-around">
+                                <span class="badge">Report card</span>
+                                <span class="badge">Attendace</span>
+                                <span class="badge">Gradebook</span>
+                                <span class="badge">Medical information</span> 
+                                <span class="badge">Behavior</span>
+                                <span class="badge">Child care</span> 
+                            </div>
+                        </div>
+                        <div class="contDescipInner" id="contDescripStudent">
+                            <div class="mb-3 d-flex h-100 flex-column justify-content-around">
+                                <span class="badge">Learning management system</span>
+                                <span class="badge">Attendace</span>
+                                <span class="badge">Gradebook</span>
+                                <span class="badge">Medical information</span> 
+                                <span class="badge">Behavior</span> 
+                                <span class="badge">Child care</span> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- -->
+                    <!--                <div class="col-12 mt-md-3 footerFacts">
+                                        <i class="fas fa-circle" style="font-size: 10px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
+                                        <i class="fas fa-circle" style="font-size: 12px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
+                                        <i class="fas fa-circle" style="font-size: 14px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
+                                        <a>more info
+                                            <i class="fas fa-circle" style="font-size: 14px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
+                                            <i class="fas fa-circle" style="font-size: 12px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
+                                            <i class="fas fa-circle" style="font-size: 10px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
+                                    </div>-->
                 </div>
             </div>
 
 
             <div class="col-12 mt-md-3 footerFacts">
-                <i class="fas fa-circle" style="font-size: 10px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
+<!--                <i class="fas fa-circle" style="font-size: 10px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
                 <i class="fas fa-circle" style="font-size: 12px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
                 <i class="fas fa-circle" style="font-size: 14px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
                 <a>more info
                     <i class="fas fa-circle" style="font-size: 14px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
                     <i class="fas fa-circle" style="font-size: 12px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
-                    <i class="fas fa-circle" style="font-size: 10px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
+                    <i class="fas fa-circle" style="font-size: 10px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> -->
             </div>
         </div>
+
+
         <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalBamboo" id="cPrincBamboo">
             <div class="col-12 bgBamboo d-flex d-md-none" > 
                 <div class="col-12 d-flex align-items-center justify-content-center">
@@ -1694,58 +1706,61 @@ function showInfo(idContenedor){
                     </a> 
                 </div> 
             </div>
-            
-            
-            
-            <div class="position-absolute imgTitleRight imgTitleSize d-none d-md-block">
 
-            </div> 
-            <div class="col-12 col-md-4 cardInfo">
-                <div class="col-12"><h4 class="text-center">A rising trend</h4></div> 
-                <div class="col-10 offset-1 text-center">
-                    <p class="mb-3">Montessori schools are rising in popularity among today's modern parents worldwide. They moved from Nurseries to full K-12 schools.
-                        International schools could have a stage or a department with Montessori education.
-                        The need arose for 1 system to cover:
-                    </p>
-                    <li>Administration needs</li>
-                    <li>Multiple curriculums in one school</li>
-                    <li>Montessori record keeping needs</li>
-                </div>
-            </div>
-            <div class="col-12 col-md-4 cardInfo lineTopGray">
-                <div class="col-12"><h4 class="text-center">Go paperless</h4></div> 
-                <div class="col-10 offset-1 text-center">
-                    <p class="mb-3">Bamboo is a web application 100% integrated with the SIS for Montessori record keeping and generation of report cards. 
-                        In addition to the parent portal which keeps parents informed with their child progress, strengths and struggles, guides observations and more  
-                    </p> 
-                    <li>Bamboo for Teachers</li>
-                    <li>Bamboo for Parents</li>
-                    <li>Bamboo for Supervisors</li> 
-                </div>
-            </div>
-            <div class="col-12 col-md-4 cardInfo lineTopGray">
-                <div class="col-12"><h4 class="text-center">Personalize</h4></div> 
-                <div class="col-10 offset-1 text-center">
-                    <p class="mb-3">Each Montessori school could have their scheme of work populated into the system and personalized by their unique values and evaluations. 
-                           In addition to customized report cards to be generated from the system.
 
-                    </p>
-                    <li> The guides will have a clear scheme of work to use in their day to day activities.</li>
-                    <li> Generation of end of term report cards will be an easy task</li>
+            <div class="row col-12">
+                <div class="position-absolute imgTitleRight imgTitleSize d-none d-md-block">
 
+                </div> 
+                <div class="col-12 col-md-4 cardInfo">
+                    <div class="col-12"><h4 class="text-center">A rising trend</h4></div> 
+                    <div class="col-10 offset-1 text-center">
+                        <p class="mb-3">Montessori schools are rising in popularity among today's modern parents worldwide. They moved from Nurseries to full K-12 schools.
+                            International schools could have a stage or a department with Montessori education.
+                            The need arose for 1 system to cover:
+                        </p>
+                        <li>Administration needs</li>
+                        <li>Multiple curriculums in one school</li>
+                        <li>Montessori record keeping needs</li>
+                    </div>
                 </div>
-            </div>
-            <!--<div class="col-12 col-md-3 cardInfo lineTopGray">
-                <div class="col-12"><h4 class="text-center">Qué se personaliza?</h4></div> 
-                <div class="col-10 offset-1 text-center">
-                    <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    </p>
+                <div class="col-12 col-md-4 cardInfo lineTopGray">
+                    <div class="col-12"><h4 class="text-center">Go paperless</h4></div> 
+                    <div class="col-10 offset-1 text-center">
+                        <p class="mb-3">Bamboo is a web application 100% integrated with the SIS for Montessori record keeping and generation of report cards. 
+                            In addition to the parent portal which keeps parents informed with their child progress, strengths and struggles, guides observations and more  
+                        </p> 
+                        <li>Bamboo for Teachers</li>
+                        <li>Bamboo for Parents</li>
+                        <li>Bamboo for Supervisors</li> 
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 cardInfo lineTopGray">
+                    <div class="col-12"><h4 class="text-center">Personalize</h4></div> 
+                    <div class="col-10 offset-1 text-center">
+                        <p class="mb-3">Each Montessori school could have their scheme of work populated into the system and personalized by their unique values and evaluations. 
+                               In addition to customized report cards to be generated from the system.
 
+                        </p>
+                        <li> The guides will have a clear scheme of work to use in their day to day activities.</li>
+                        <li> Generation of end of term report cards will be an easy task</li>
+
+                    </div>
                 </div>
-            </div>-->
-            <div class="col-12 mt-md-3 footerBamboo">more info</div>
-        </div>
+                <!--<div class="col-12 col-md-3 cardInfo lineTopGray">
+                    <div class="col-12"><h4 class="text-center">Qué se personaliza?</h4></div> 
+                    <div class="col-10 offset-1 text-center">
+                        <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        </p>
+    
+                    </div>
+                </div>-->
+            </div>       
+        <div class="col-12 mt-md-3 footerBamboo">more info</div>
+ </div>
+
+
         <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalSmartClover" id="cPrincClover">
             <div class="col-12 bgSmartClover d-flex d-md-none" > 
                 <div class="col-12 d-flex align-items-center justify-content-center">
@@ -1758,56 +1773,61 @@ function showInfo(idContenedor){
                 </div>
 
             </div>
-            <div class="position-absolute imgTitleLeft imgTitleSize d-none d-md-block">
-                <!--                <a class="navbar-brand logoMenuApps" href="#">
-                                    <img src="recursos/img/LogosMenu/LogoSmartClover.svg"/>
-                                </a> -->
-            </div>
-            <div class="col-12 col-md-4 cardInfo">
-                <div class="col-12"><h4 class="text-center">Your instant communication assistant.</h4></div> 
-                <div class="col-10 offset-1 text-center"> 
-                    <p class="mb-3">Easy to use. Manage all the communication needs of your school.Gives parents instant access to all the information about their child via de personal BOT
-                        <br>
-                        Smart Clover integrates with FACTS SIS, pushing out valuable information to parents and students with its 4 modules: a personal BOT, teacher connect, school connect and automatic messenger .
-                    </p>
+
+            <div class="row col-12">
+                <div class="position-absolute imgTitleLeft imgTitleSize d-none d-md-block">
+                    <!--                <a class="navbar-brand logoMenuApps" href="#">
+                                        <img src="recursos/img/LogosMenu/LogoSmartClover.svg"/>
+                                    </a> -->
                 </div>
-            </div>
-            <div class="col-12 col-md-4  cardInfo lineTopGray">
-                <div class="col-12"><h4 class="text-center">It covers all your needs.</h4></div> 
-                <div class="col-10 offset-1 text-center">
-                    <p class="mb-3">
-                        Smart Clover offers parents all the information they are looking for and helps with the overall communication, in real time.
-                    </p>
-                    <li>School Communicator</li>
-                    <li>Parent Consultation Bot</li>
-                    <li>Maintenance Jobs</li>
-                    <li>Teacher Chat</li>  
+                <div class="col-12 col-md-4 cardInfo">
+                    <div class="col-12"><h4 class="text-center">Your instant communication assistant.</h4></div> 
+                    <div class="col-10 offset-1 text-center"> 
+                        <p class="mb-3">Easy to use. Manage all the communication needs of your school.Gives parents instant access to all the information about their child via de personal BOT
+                            <br>
+                            Smart Clover integrates with FACTS SIS, pushing out valuable information to parents and students with its 4 modules: a personal BOT, teacher connect, school connect and automatic messenger .
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-12 col-md-4  cardInfo lineTopGray">
-                <div class="col-12"><h4 class="text-center">Features</h4></div> 
-                <div class="col-10 offset-1 text-center">
-                    <p class="mb-3">
-                        Smart clover is available in both Android, IOS or as a desktop version which makes it compatible with the most devices.
-                    </p> 
+                <div class="col-12 col-md-4  cardInfo lineTopGray">
+                    <div class="col-12"><h4 class="text-center">It covers all your needs.</h4></div> 
+                    <div class="col-10 offset-1 text-center">
+                        <p class="mb-3">
+                            Smart Clover offers parents all the information they are looking for and helps with the overall communication, in real time.
+                        </p>
+                        <li>School Communicator</li>
+                        <li>Parent Consultation Bot</li>
+                        <li>Maintenance Jobs</li>
+                        <li>Teacher Chat</li>  
+                    </div>
+                </div>
+                <div class="col-12 col-md-4  cardInfo lineTopGray">
+                    <div class="col-12"><h4 class="text-center">Features</h4></div> 
+                    <div class="col-10 offset-1 text-center">
+                        <p class="mb-3">
+                            Smart clover is available in both Android, IOS or as a desktop version which makes it compatible with the most devices.
+                        </p> 
 
-                </div> 
-                <div class="col-10 offset-1 text-center">
-                    <p class="mb-3">
-                        Allows immediate communication because it pushes out the latest information from the FACTS SIS database.
-                    </p> 
+                    </div> 
+                    <div class="col-10 offset-1 text-center">
+                        <p class="mb-3">
+                            Allows immediate communication because it pushes out the latest information from the FACTS SIS database.
+                        </p> 
 
-                </div> 
-                <div class="col-10 offset-1 text-center">
-                    <p class="mb-3">
-                        All the management is done in Facts SIS which makes the app seamless. Groups, Security,
-                        broadcasting options - everything default to the configuration in the originating database.
+                    </div> 
+                    <div class="col-10 offset-1 text-center">
+                        <p class="mb-3">
+                            All the management is done in Facts SIS which makes the app seamless. Groups, Security,
+                            broadcasting options - everything default to the configuration in the originating database.
 
-                    </p>  
+                        </p>  
+                    </div>
                 </div>
             </div>
             <div class="col-12 mt-md-3 footerSmartClover">more info</div>
         </div>
+
+
         <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalScheduler" id="cPrincScheduler">
             <div class="col-12 bgScheduler d-flex d-md-none" > 
                 <div class="col-12 d-flex align-items-center justify-content-center">
@@ -1824,35 +1844,38 @@ function showInfo(idContenedor){
                                     <img src="recursos/img/LogosMenu/LogoSmartClover.svg"/>
                                 </a> -->
             </div> 
-            <div class="col-12 col-md-4  cardInfo">
-                <div class="col-12"><h4 class="text-center">Simplify your most complex task</h4></div> 
-                <div class="col-10 offset-1 text-center">
-                    <p class="mb-3">
-                        Creating classes and students schedules are everyday more and more complex
-                    </p> 
-                    <li>Satisfy students' course requests</li>
-                    <li>Handle teachers' constraints and allocation</li>
-                    <li>Avoid rooms' conflicts</li> 
+
+            <div class="row col-12">
+                <div class="col-12 col-md-4  cardInfo">
+                    <div class="col-12"><h4 class="text-center">Simplify your most complex task</h4></div> 
+                    <div class="col-10 offset-1 text-center">
+                        <p class="mb-3">
+                            Creating classes and students schedules are everyday more and more complex
+                        </p> 
+                        <li>Satisfy students' course requests</li>
+                        <li>Handle teachers' constraints and allocation</li>
+                        <li>Avoid rooms' conflicts</li> 
+                    </div>
                 </div>
-            </div>
-            <div class="col-12 col-md-4  cardInfo lineTopGray">
-                <div class="col-12"><h4 class="text-center">A smart algorithm</h4></div> 
-                <div class="col-10 offset-1 text-center">
-                    <p class="mb-3">Scheduler uses an advanced algorithm that revises the possible combinations of students, teachers and rooms, and present to you the best 
-                        configuration for optimum performance and allocation of the teachers.
-                    <li>No more over booked or under booked teachers</li>
-                    </p> 
+                <div class="col-12 col-md-4  cardInfo lineTopGray">
+                    <div class="col-12"><h4 class="text-center">A smart algorithm</h4></div> 
+                    <div class="col-10 offset-1 text-center">
+                        <p class="mb-3">Scheduler uses an advanced algorithm that revises the possible combinations of students, teachers and rooms, and present to you the best 
+                            configuration for optimum performance and allocation of the teachers.
+                        <li>No more over booked or under booked teachers</li>
+                        </p> 
+                    </div>
                 </div>
-            </div>
-            <div class="col-12 col-md-4  cardInfo lineTopGray">
-                <div class="col-12"><h4 class="text-center">Leave it to us</h4></div> 
-                <div class="col-10 offset-1 text-center">
-                    <p class="mb-3">Need help with optimizing your school schedule? Schedule too complex? <br>
-                        We offer a service of schedule creation based on the constraints that you have in your school.
-                        We will deliver to you a clean, optimized schedule implemented in the SIS and ready to use.
-                    </p> 
+                <div class="col-12 col-md-4  cardInfo lineTopGray">
+                    <div class="col-12"><h4 class="text-center">Leave it to us</h4></div> 
+                    <div class="col-10 offset-1 text-center">
+                        <p class="mb-3">Need help with optimizing your school schedule? Schedule too complex? <br>
+                            We offer a service of schedule creation based on the constraints that you have in your school.
+                            We will deliver to you a clean, optimized schedule implemented in the SIS and ready to use.
+                        </p> 
+                    </div>
                 </div>
-            </div>
+            </div>        
             <div  class="col-12 mt-md-3 footerScheduler">more info</div>
         </div>
 
@@ -2489,13 +2512,13 @@ function showInfo(idContenedor){
         <script type="text/javascript" src="recursos/css/slick/slick.min.js"></script>
 
         <script type="text/javascript">
-                    $(document).ready(function () {
-                        $(".lazy").slick({
-                            infinite: true,
-                            slidesToShow: 2,
-                            slidesToScroll: 2
-                        });
-                    });
+                                    $(document).ready(function () {
+                                        $(".lazy").slick({
+                                            infinite: true,
+                                            slidesToShow: 2,
+                                            slidesToScroll: 2
+                                        });
+                                    });
         </script>
         <div class="divLoadStudent" id="loadingmessage">
             <div class="text-center"> 
