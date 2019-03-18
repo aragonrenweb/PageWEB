@@ -720,7 +720,7 @@
                     transform: skewX(0deg);
                     max-width: 43%;
                     margin-left: 4.5%;
-                    /*                    max-height: 500px;*/
+                                        max-height: 500px;
                     flex-direction: column;
                     margin-top:10px;
                     padding-top:15px;
@@ -734,7 +734,7 @@
                     transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-                    /*                    max-height: 500px;*/
+                                        max-height: 400px;
                     flex-direction: column;
                     margin-top: 0px;
                     padding-top: 15px;
@@ -745,7 +745,7 @@
                     transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-                    /*                    max-height: 500px;*/
+                                        max-height: 400px;
                     flex-direction: column;
                     margin-top:0px;
                     padding-top:15px;
@@ -756,7 +756,7 @@
                     transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-                    /*                    max-height: 500px;*/
+                                        max-height: 400px;
                     flex-direction: column;
                     margin-top:0px;
                     padding-top:15px;
@@ -1117,6 +1117,7 @@
                     $('.colorSchoolAnalytics').delay(520).show().css('max-width', '0').animate({'max-width': '24%'}, 500);
                     $(".buttonPrevious").show();
                     $(".buttonNext").hide();
+                    $(".colorSchoolAnalytics div").show();
                     e.stopPropagation();
                 });
 
@@ -1128,6 +1129,7 @@
                     $(".buttonPrevious").show();
                     $(".buttonNext").hide();
                     $(".buttonNextSub").hide();
+                    $(".colorSchoolAnalytics div").show();
                     e.stopPropagation();
                 });
 
@@ -1138,6 +1140,7 @@
                     $('.colorFACTS').delay(520).show().css('max-width', '0').animate({'max-width': '24%'}, 500);
                     $(".buttonNext").show();
                     $(".buttonPrevious").hide();
+                    $(".colorSchoolAnalytics div").hide();
                     e.stopPropagation();
                 });
 
@@ -1370,27 +1373,27 @@
 
     <body>
 
-        <div id="menuDesplegable" class="pt-0" style=" cursor: pointer; position: fixed;  right: 0px; z-index: 11;">
+        <div id="menuDesplegable" class="pt-0" style=" cursor: pointer; position: fixed;top:10px;  right: -15px; z-index: 11;">
             <div class="row" >
-                <a class="d-block d-sm-none d-none d-sm-block d-md-none navbar-brand logoMenuApps" id="logoMenuApp0" onclick="showIconsApps()">
+                <a class="d-block d-sm-none d-none d-sm-block d-md-none navbar-brand logoMenuApps nav-link" id="logoMenuApp0" onclick="showIconsApps()">
                     <img src="recursos/img/LogosMenu/LogoApps.svg" >
                 </a>                             
 
-                <a class="d-block d-sm-none d-none d-sm-block d-md-none navbar-brand logoMenuApps" id="logoMenuApp1" value="facts" href="<c:url value="/facts.htm" />">
+                <a class="d-block d-sm-none d-none d-sm-block d-md-none navbar-brand logoMenuApps nav-link" id="logoMenuApp1" value="facts" href="#cPrincFacts">
                     <img src="recursos/img/LogosMenu/LogoFacts.svg" >
                 </a>
-                <a class="d-block d-sm-none d-none d-sm-block d-md-none navbar-brand logoMenuApps" id="logoMenuApp2" value="bamboo" href="<c:url value="/bamboo.htm" />">
+                <a class="d-block d-sm-none d-none d-sm-block d-md-none navbar-brand logoMenuApps nav-link" id="logoMenuApp2" value="bamboo" href="#cPrincBamboo">
                     <img src="recursos/img/LogosMenu/LogoBamboo.svg" >
                 </a>
-                <a class="d-block d-sm-none d-none d-sm-block d-md-none navbar-brand logoMenuApps" id="logoMenuApp3" value="smartClover" href="<c:url value="/smartClover.htm" />">
+                <a class="d-block d-sm-none d-none d-sm-block d-md-none navbar-brand logoMenuApps nav-link" id="logoMenuApp3" value="smartClover" href="#cPrincClover">
                     <img src="recursos/img/LogosMenu/LogoSmartClover.svg" >
                 </a>
-                <a class="d-block d-sm-none d-none d-sm-block d-md-none navbar-brand logoMenuApps" id="logoMenuApp4" value="scheduler" href="<c:url value="/bamboo.htm" />">
+                <a class="d-block d-sm-none d-none d-sm-block d-md-none navbar-brand logoMenuApps nav-link" id="logoMenuApp4" value="scheduler" href="#cPrincScheduler">
                     <img src="recursos/img/LogosMenu/LogoMschedules.svg" >
                 </a>
-                <a class="d-block d-sm-none d-none d-sm-block d-md-none navbar-brand logoMenuApps" id="logoMenuApp5" value="schoolView" href="<c:url value="/smartClover.htm" />">
+<!--                <a class="d-block d-sm-none d-none d-sm-block d-md-none navbar-brand logoMenuApps nav-link" id="logoMenuApp5" value="schoolView" href="<c:url value="/smartClover.htm" />">
                     <img src="recursos/img/LogosMenu/LogoChartSchool.svg" >
-                </a>
+                </a>-->
             </div>
         </div>
         <div class="d-none d-md-flex row menu bgBaseMenu">
@@ -1574,7 +1577,7 @@
                 </div> 
             </div>
 
-            <div class="row col-12">
+            <div class="row col-12  pr-0">
                 <div class="col-12 col-md-6 cardInfo">
                     <div class="col-12"><h4 class="text-center" >A world leader SIS</h4></div> 
                     <div class="col-10 offset-1 text-center">
@@ -1618,7 +1621,7 @@
 
 
 
-            <div class="row col-12">
+            <div class="row col-12  pr-0">
                 <div class="col-12 col-md-6 cardInfo lineTopGray">
                     <div class="col-12"><h4 class="text-center" id="ItIsAllAboutPersonalization">A fitted solution for your school</h4></div> 
                     <div class="col-10 offset-1 p-xl-0 text-center">
@@ -1785,7 +1788,7 @@
             </div>
 
 
-            <div class="row col-12">
+            <div class="row col-12  pr-0">
                 <div class="position-absolute imgTitleRight imgTitleSize d-none d-md-block">
 
                 </div> 
@@ -1851,7 +1854,7 @@
 
             </div>
 
-            <div class="row col-12">
+            <div class="row col-12  pr-0">
                 <div class="position-absolute imgTitleLeft imgTitleSize d-none d-md-block">
                     <!--                <a class="navbar-brand logoMenuApps" href="#">
                                         <img src="recursos/img/LogosMenu/LogoSmartClover.svg"/>
@@ -1922,7 +1925,7 @@
                                 </a> -->
             </div> 
 
-            <div class="row col-12">
+            <div class="row col-12  pr-0">
                 <div class="col-12 col-md-4  cardInfo">
                     <div class="col-12"><h4 class="text-center">Simplify your most complex task</h4></div> 
                     <div class="col-10 offset-1 text-center">
