@@ -457,7 +457,7 @@
                     transform: skewX(0deg);  
                     max-width: 43%;
                     margin-left: 4.5%;
-                    max-height: 615px;
+/*                    max-height: 615px;*/
                     flex-direction: column;
                     margin-top:10px;
                     padding-top:15px;
@@ -481,7 +481,7 @@
                     transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-                    max-height: 620px;
+/*                    max-height: 620px;*/
                     flex-direction: column;
                     margin-top: 0px;
                     padding-top: 15px;
@@ -501,7 +501,7 @@
                     transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-                    max-height: 620px;
+/*                    max-height: 620px;*/
                     flex-direction: column;
                     margin-top:0px;
                     padding-top:15px;
@@ -520,7 +520,7 @@
                     transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-                    max-height: 620px;
+/*                    max-height: 620px;*/
                     flex-direction: column;
                     margin-top:0px;
                     padding-top:15px;
@@ -543,7 +543,7 @@
                     transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-                    max-height: 620px;
+/*                    max-height: 620px;*/
                     flex-direction: column;
                     margin-top:0px;
                     padding-top:15px;
@@ -565,7 +565,7 @@
                     transform: skewX(0deg);
                     max-width: 43%;
                     margin-left: 4.5%;
-                    max-height: 550px;
+/*                    max-height: 550px;*/
                     flex-direction: column;
                     margin-top:10px;
                     padding-top:15px;
@@ -579,7 +579,7 @@
                     transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-                    max-height: 550px;
+/*                    max-height: 550px;*/
                     flex-direction: column;
                     margin-top: 0px;
                     padding-top: 15px;
@@ -590,7 +590,7 @@
                     transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-                    max-height: 550px;
+/*                    max-height: 550px;*/
                     flex-direction: column;
                     margin-top:0px;
                     padding-top:15px;
@@ -601,7 +601,7 @@
                     transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-                    max-height: 550px;
+/*                    max-height: 550px;*/
                     flex-direction: column;
                     margin-top:0px;
                     padding-top:15px;
@@ -611,7 +611,7 @@
                     transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-                    max-height: 550px;
+/*                    max-height: 550px;*/
                     flex-direction: column;
                     margin-top:0px;
                     padding-top:15px;
@@ -620,7 +620,7 @@
 
                 .cardInfo{
                     /*  margin-top: 15px; */
-                    height: 95%;
+/*                    height: 95%;*/
                 }
 
                 .slick-slider{  
@@ -649,7 +649,7 @@
                     transform: skewX(0deg);
                     max-width: 43%;
                     margin-left: 4.5%;
-                    max-height: 500px;
+/*                    max-height: 500px;*/
                     flex-direction: column;
                     margin-top:10px;
                     padding-top:15px;
@@ -663,7 +663,7 @@
                     transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-                    max-height: 500px;
+/*                    max-height: 500px;*/
                     flex-direction: column;
                     margin-top: 0px;
                     padding-top: 15px;
@@ -674,7 +674,7 @@
                     transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-                    max-height: 500px;
+/*                    max-height: 500px;*/
                     flex-direction: column;
                     margin-top:0px;
                     padding-top:15px;
@@ -685,7 +685,7 @@
                     transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-                    max-height: 500px;
+/*                    max-height: 500px;*/
                     flex-direction: column;
                     margin-top:0px;
                     padding-top:15px;
@@ -695,7 +695,7 @@
                     transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-                    max-height: 500px;
+/*                    max-height: 500px;*/
                     flex-direction: column;
                     margin-top:0px;
                     padding-top:15px;
@@ -1502,7 +1502,19 @@ function showInfo(idContenedor){
                     <p>
                         Our customers are located in Europe, Asia, Nortt and South America, Africa and the Middle East. 
                     </p>
-                    
+
+                    <div  class="mb-3 listaFacts">
+                        <li>Admissions</li>
+                        <li>Attendance</li> 
+                        <li>Communication</li>  
+                        <li>Report cards</li>
+                        <li>Scheduling</li>
+                        <li>Staff information management</li> 
+                        <li>Transcripts</li> 
+                        <li>and more...</li>
+
+                    </div>
+                    <!--<footer>mas información</footer>--> 
                 </div>
             </div>
             <div class="col-12 col-md-6 cardInfo lineTopGray">
