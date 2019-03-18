@@ -22,7 +22,7 @@
     <script src="recursos/js/bootstrap.bundle.js" type="text/javascript"></script>
 
     <link rel="stylesheet" media="all" href="recursos/css/main.css" />
-   
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/2013.03.11/hoverintent.min.js"></script>
 
@@ -32,6 +32,7 @@
 
 </head>
 <style>
+  
     .logoMenuApps {
         position: absolute;
         right: 10px;
@@ -119,7 +120,7 @@
 </style>
 <script>
     function showIconsApps() {
-        
+
         if (!$("#menuDesplegable").hasClass("d-show")) {
             $("#logoMenuApp1").animate({
                 top: 5
@@ -162,33 +163,33 @@
                 }
             });
             $("#menuDesplegable").addClass("d-show");
-        } else  {
-             $(".logoMenuApps").animate({
+        } else {
+            $(".logoMenuApps").animate({
                 top: 5
             }, {
                 duration: 1000,
                 step: function (now, fx) {
                     $(this).css("top", now);
                 }
-            }); 
+            });
             $("#menuDesplegable").removeClass("d-show");
-        } 
+        }
     }
-    function swapLogo(valLogo){
-        var auxVal = $("#menuDesplegable a[value='"+valLogo+"']").attr("value");
-        var auxRef = $("#menuDesplegable a[value='"+valLogo+"']").attr("href");
-        var img =   $("#menuDesplegable a[value='"+valLogo+"'] img").attr("src");      
-        
-       
-        $("#menuDesplegable a[value='"+valLogo+"']").attr("href",$("#menuDesplegable a").first().next().attr("href"));
-        $("#menuDesplegable a[value='"+valLogo+"']").empty();
-        $("#menuDesplegable a[value='"+valLogo+"']").append('<img src="'+$("#menuDesplegable a img").attr("src")+'" >');
-        $("#menuDesplegable a[value='"+valLogo+"']").attr("value",$("#menuDesplegable a").first().next().attr("value"));
+    function swapLogo(valLogo) {
+        var auxVal = $("#menuDesplegable a[value='" + valLogo + "']").attr("value");
+        var auxRef = $("#menuDesplegable a[value='" + valLogo + "']").attr("href");
+        var img = $("#menuDesplegable a[value='" + valLogo + "'] img").attr("src");
 
-        $("#menuDesplegable a").first().next().attr("value",auxVal);
-        $("#menuDesplegable a").first().next().attr("href",auxRef);
+
+        $("#menuDesplegable a[value='" + valLogo + "']").attr("href", $("#menuDesplegable a").first().next().attr("href"));
+        $("#menuDesplegable a[value='" + valLogo + "']").empty();
+        $("#menuDesplegable a[value='" + valLogo + "']").append('<img src="' + $("#menuDesplegable a img").attr("src") + '" >');
+        $("#menuDesplegable a[value='" + valLogo + "']").attr("value", $("#menuDesplegable a").first().next().attr("value"));
+
+        $("#menuDesplegable a").first().next().attr("value", auxVal);
+        $("#menuDesplegable a").first().next().attr("href", auxRef);
         $("#menuDesplegable a").first().next().empty();
-        $("#menuDesplegable a").first().next().append('<img src="'+img+'" >');
+        $("#menuDesplegable a").first().next().append('<img src="' + img + '" >');
     }
 </script>
 <nav class="navbar navbar-expand-lg navbar-light bg-light  fixed-top" style="position:fixed;width:100%;z-index:10">
@@ -220,7 +221,7 @@
             </li>
         </ul>  
     </div> 
-    <div id="menuDesplegable" class="pt-0" style=" cursor: pointer; ">
+    <div id="menuDesplegable" class="pt-0" style=" cursor: pointer; position: fixed;  right: 0px; z-index: 11;">
         <div class="row" >
             <a class="navbar-brand logoMenuApps" id="logoMenuApp0" onclick="showIconsApps()" style="opacity: 0">
                 <img src="recursos/img/LogosMenu/LogoFacts.svg" >

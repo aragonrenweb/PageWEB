@@ -34,7 +34,9 @@
 
         <title>EduWEBgroup</title>
         <style>
-
+            html{
+                scroll-behavior: smooth;
+            }
             body{
                 overflow-x: hidden;
             }
@@ -389,6 +391,36 @@
                 bottom: 0;               
             }
 
+
+            #contDescripManagement .badge{
+                background-color: #f2980f;
+                margin-top:5px;
+                width:180px;
+            }
+            #contDescripClassroom .badge{
+                background-color: #7eb529;
+                margin-top:5px;
+                width:180px;
+            }
+            #contDescripParent .badge{
+                background-color: #6a58a2;
+                margin-top:5px;
+                width:180px;
+            }
+            #contDescripStudent .badge{
+                background-color: #c35098;
+                margin-top:5px;
+                width:180px;
+            }
+
+            .contNameFacts{
+                height: 100%;                 
+            }
+
+            #contDescripFacts{
+                height:100%;
+            }   
+
             /*Extra small devices (portrait phones, less than 576px)*/
             @media (min-width: 576px) {
 
@@ -457,7 +489,7 @@
                     transform: skewX(0deg);  
                     max-width: 43%;
                     margin-left: 4.5%;
-                    max-height: 550px;
+                    max-height: 615px;
                     flex-direction: column;
                     margin-top:10px;
                     padding-top:15px;
@@ -557,7 +589,49 @@
                     border-top: none;
                 }
 
+                #contDescripManagement .badge{
+                    background-color: #f2980f;
+                    width: 120px;
+                }
+                #contDescripClassroom .badge{
+                    background-color: #7eb529;
+                    width: 120px;
+                }
+                #contDescripParent .badge{
+                    background-color: #6a58a2;
+                    width: 120px;
+                }
+                #contDescripStudent .badge{
+                    background-color: #c35098;
+                    width: 120px;
+                }
 
+                .badgeFactsMan{
+                    background-color: #f2980f;
+                    width: 100px;
+                }
+
+                .badgeFactsClass{
+                    background-color: #7eb529;
+                    width: 100px;
+                }
+                .badgeFactsParent{
+                    background-color: #6a58a2;
+                    width: 100px;
+                }
+                .badgeFactsStudent{
+                    background-color: #c35098;
+                    width: 100px;
+                } 
+
+                .contNameFacts{
+                    height: 65%; 
+
+                }
+                #contDescripFacts{
+                    max-height: 65%;
+                }
+               
             }
 
             /* Small devices (landscape phones, less than 768px)*/
@@ -640,6 +714,10 @@
                     -o-background-size: cover;
                     background-size: cover;
                 }
+                
+                #contDescripFacts{
+                max-height:65%;
+            } 
             }
             /* Large devices (desktops, less than 1200px)*/
             @media (min-width: 1200px) { 
@@ -863,6 +941,7 @@
                 justify-content: center;
                 align-items: center; */
                 z-index: 20;
+                cursor: pointer;
             }
             .listaFacts{
                 text-align: start;
@@ -877,7 +956,7 @@
                 border-radius:0px;
             }
             #contDescripFacts{
-                height:95%;
+                height:100%;
             }   
             .badgeFactsMan{
                 background-color: #f2980f;
@@ -909,6 +988,7 @@
 
             #contDescripManagement .badge{
                 background-color: #f2980f;
+                /*margin-top:5px;*/
             }
             #contDescripClassroom .badge{
                 background-color: #7eb529;
@@ -929,17 +1009,25 @@
                 $("#contDescripClassroom").hide();
                 $("#contDescripParent").hide();
                 $("#contDescripStudent").hide();
-//                $('.nav-link').on('click', function () { 
-//                    var top = $($(this).attr("href")).top();
-//                    $(window).scrollTop(top);
-//                });
-
-                $('.nav-link').click(function () {
-                    var sectionTo = $(this).attr('href');
-                    $('html, body').animate({
-                        scrollTop: $(sectionTo).offset().top - 225
-                    }, 1500);
+                $('.nav-link').on('click', function () {
+                    var top = $($(this).attr("href")).position().top;
+                    $(window).scrollTop(top - 225);
                 });
+                
+                 $('.btnDemoEvento').click(function (e) {
+                    var top = $($(this).attr("href")).position().top;
+                    $(window).scrollTop(top - 225);
+                    e.stopPropagation();
+                });
+                
+                
+
+//                $('.nav-link').click(function () {
+//                    var sectionTo = $(this).attr('href');
+//                    $('html, body').animate({
+//                        scrollTop: $(sectionTo).offset().top - 225
+//                    }, 1500);
+//                });
                 $(".colorFACTS").click(function () {
                     var estado = $('.colorFACTSsub').css('max-width');
                     if (estado === '0%') {
@@ -1293,7 +1381,7 @@
 
     <body>
 
-        <div id="menuDesplegable" class="pt-0">
+        <div id="menuDesplegable" class="pt-0" style=" cursor: pointer; position: fixed;  right: 0px; z-index: 11;">
             <div class="row" >
                 <a class="d-block d-sm-none d-none d-sm-block d-md-none navbar-brand logoMenuApps" id="logoMenuApp0" onclick="showIconsApps()">
                     <img src="recursos/img/LogosMenu/LogoApps.svg" >
@@ -1330,7 +1418,7 @@
                     <font class="text-white h3" >FACTS SIS</font><br>
                     <font class="text-white h5" >360º Management Tool</font> <br>
                     <br>
-                    <font class="btn nav-link h5" href="#Contact">Request a demo</font>
+                    <font class="btn nav-link h5 btnDemoEvento" href="#Contact">Request a demo</font>
                 </div>                 
                 <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
             </div>
@@ -1360,7 +1448,7 @@
                     <font class="text-white h3" >BAMBOO</font><br>
                     <font class="text-white h5" >Montessori Classroom Management</font> <br>
                     <br>
-                    <font class="btn nav-link h5" href="#Contact">Request a demo</font>
+                    <font class="btn nav-link h5 btnDemoEvento" href="#Contact">Request a demo</font>
 
 
                     <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
@@ -1607,7 +1695,7 @@
                 <div class="col-12 col-md-6 cardInfo lineTopGray d-flex flex-row">
                     <div class="col-5 h-100">
                         <div class="col-12"><h4 class="text-left">360º</h4></div> 
-                        <div class="col-10 offset-1 p-xl-0 text-center ">
+                        <div class="col-10 offset-1 p-xl-0 text-center contNameFacts">
                             <div class="mb-3 d-flex h-75 flex-column justify-content-around">
                                 <span onclick="showInfo('contDescripManagement')" class="badge badgeFacts badgeFactsMan">Management</span>
                                 <span onclick="showInfo('contDescripClassroom')" class="badge badgeFacts badgeFactsClass">Classroom</span>
@@ -1684,13 +1772,13 @@
 
 
             <div class="col-12 mt-md-3 footerFacts">
-<!--                <i class="fas fa-circle" style="font-size: 10px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
-                <i class="fas fa-circle" style="font-size: 12px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
-                <i class="fas fa-circle" style="font-size: 14px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
-                <a>more info
-                    <i class="fas fa-circle" style="font-size: 14px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
-                    <i class="fas fa-circle" style="font-size: 12px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
-                    <i class="fas fa-circle" style="font-size: 10px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> -->
+                <!--                <i class="fas fa-circle" style="font-size: 10px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
+                                <i class="fas fa-circle" style="font-size: 12px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
+                                <i class="fas fa-circle" style="font-size: 14px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
+                                <a>more info
+                                    <i class="fas fa-circle" style="font-size: 14px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
+                                    <i class="fas fa-circle" style="font-size: 12px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
+                                    <i class="fas fa-circle" style="font-size: 10px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> -->
             </div>
         </div>
 
@@ -1757,8 +1845,8 @@
                     </div>
                 </div>-->
             </div>       
-        <div class="col-12 mt-md-3 footerBamboo">more info</div>
- </div>
+            <div class="col-12 mt-md-3 footerBamboo">more info</div>
+        </div>
 
 
         <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalSmartClover" id="cPrincClover">
