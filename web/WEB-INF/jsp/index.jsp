@@ -2230,12 +2230,167 @@
                 </div>
             </div>
             <div class="col-12">
-                <div class="col-12"><h4 class="text-center">Política de Privacidad</h4></div> 
+                <div class="col-12"><h4 class="text-center">Privacy Policy Eduweb Group SL</h4></div> 
                 <div class="col-10 offset-1">
                     <p class="mb-3">
                         Privacy Notice<br>
                         We like to keep things private<br>
-                        This is the data protection privacy notice EduWeb Group, INC<br>
+                        This is the data protection privacy notice EduWeb Group, SL (B87202156)<br>
+                        Last updated: March 2019<br>
+                        EduWeb Group, SL Privacy Notice<br>
+                        This privacy notice lets you know what happens to any personal data that you give to us, or any that we may collect from or about you. It applies to all products and services, and case/examples where we collect your personal data.
+                        When it comes to your privacy we never compromise. EduWeb Group, SL is the Data Controller of your personal information.<br>
+                        We will always be clear about why we need the details we ask for, and ensure your personal information is kept as secure as possible. How we do this is explained below.<br>
+                        <br>
+                        Introduction<br>
+                        EduWeb Group, SL is committed to protecting your privacy. We comply with data protection regulation and aim to maintain consistently high levels of best practice in our processing of personal and/ or sensitive personal data.
+                        EduWeb Group, SL will use your personal information as set out below.<a class="" data-toggle="collapse" href="#collapsePrivacy" role="button" aria-expanded="false" aria-controls="collapsePrivacy">
+                            Read more...</a><br>
+                        <br>
+                    <div class="collapse" id="collapsePrivacy">Background<br>
+                        This privacy notice applies to personal information processed by or on behalf of EduWeb Group, SL.<br><br>
+
+                        Changes to this privacy notice<br>
+                        We may change this privacy notice from time to time by updating this document/page in order to reflect changes in the law and/or our privacy practices. We encourage you to check this privacy notice for changes whenever you visit our website – https://www.eduwebgroup.com/.<br><br>
+
+
+                        What kinds of personal information about you do we process?<br>
+                        Personal information that we’ll process in connection with all products and services, if relevant, includes:<br> 
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Personal and contact details, such as title, full name, contact details and contact details history;</li>
+                            <li class="list-group-item">Your date of birth, gender and/or age;</li>
+                            <li class="list-group-item">Family members (if relevant to the product or service);</li>
+                            <li class="list-group-item">Records of your contact with us such as via the phone and, if you get in touch with us online using our online services;</li>
+                            <li class="list-group-item">Products and services, you hold with us, as well as have been interested in and have held;</li>
+                            <li class="list-group-item">Marketing to you and analysing data, including history of those communications, whether you open them or click on links, and information about products or services we think you may be interested in, and analysing data to help target offers to you that we think are of interest or relevance to you;</li>
+                        </ul><br><br>
+                        What is the source of your personal information?<br>
+                        We’ll collect personal information from the following general sources:<br>
+                        <ul class="list-group list-group-flush">                    
+                            <li class="list-group-item">From you directly, and any information from family members, associates or beneficiaries of products and services;</li>
+                            <li class="list-group-item">Information generated about you when you use our products and services;</li>
+                            <li class="list-group-item">Business partners for example. and others who are a part of providing your products and services or operating our business;</li>
+                        </ul><br><br> 
+                        What do we use your personal data for?<br>
+                        We use your personal data, including any of the personal data listed above, for the following purposes:<br>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Assessing an application for a product or service; including</li>
+                            <li class="list-group-item">To provide educational services which may be offered to you by the police;</li>
+                            <li class="list-group-item">Updating your records, tracing your whereabouts and recovering debt;</li>
+                            <li class="list-group-item">Managing any aspect of the product or service;</li>
+                            <li class="list-group-item">To perform and/or test the performance of, our products, services and internal processes;</li>
+                            <li class="list-group-item">To improve the operation of our business and that of our business partners;</li>
+                            <li class="list-group-item">To follow guidance and best practice under the change to rules of governmental and regulatory bodies;</li>
+                            <li class="list-group-item">For management and auditing of our business operations including accounting;</li>
+                            <li class="list-group-item">To monitor and to keep records of our communications with you and our staff (see below);</li>
+                            <li class="list-group-item">For market research and analysis and developing statistics;</li>
+                            <li class="list-group-item">For direct marketing communications and related profiling to help us to offer you relevant products and service, including deciding whether or not to offer you certain products and service. We’ll send marketing to you by SMS, email, phone, post, social media and digital channels (e.g. using Facebook, LinkedIn and Twitter). Offers may relate to any of our products and services as well as to any other offers and advice we think may be of interest;</li>
+                            <li class="list-group-item">To provide personalised content and services to you, such as tailoring our products and services, our digital customer experience and offerings, and deciding which offers or promotions to show you on our digital channels;</li>
+                            <li class="list-group-item">To develop new products and services and to review and improve current products and services;</li>
+                            <li class="list-group-item">To comply with legal and regulatory obligations, requirements and guidance;</li>
+                            <li class="list-group-item">To provide insight and analysis of our customers both for ourselves and for the benefit of business partners either as part of providing products or services, helping us improve products or services, or to assess or improve the operating of our businesses;</li>
+                            <li class="list-group-item">To share information, as needed, with business partners, service providers or as part of providing and administering our products and services or operating our business; and</li>
+                            <li class="list-group-item">To facilitate the sale of one or more parts of our business.</li>
+                        </ul>
+                        <br><br>
+                        What are the legal grounds for our processing of your personal information (including when we share it with others)?<br>
+                        We rely on the following legal bases to use your personal data:<br>
+                        Where it is needed to provide you with our products or services, such as:<br>
+                        Assessing an application for a product or service you hold with us and managing the product or service; including<br>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">To provide educational services which may be offered to you by the police;</li>
+                            <li class="list-group-item">Updating your records, tracing your whereabouts to contact you about your account and doing this for recovering debt (where appropriate);</li>
+                            <li class="list-group-item">Sharing your personal information with business partners and services providers when you apply for a product to help manage your product;</li>
+                            <li class="list-group-item">All stages and activities relevant to managing the product or service including enquiry, application, administration and management of accounts; and</li>
+                            <li class="list-group-item">For some of our profiling and other automated decision making to decide whether to offer you a product and/or service, particular payment method and the price or terms of this.</li>
+                        </ul><br><br> 
+                        Where it is in our legitimate interests to do so, such as:<br>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Managing your products and services relating to that, updating your records, tracing your whereabouts to contact you about your account and doing this for recovering debt (where appropriate);</li>
+                            <li class="list-group-item">To perform and/or test the performance of, our products, services and internal processes;</li>
+                            <li class="list-group-item">To follow guidance and recommended best practice of government and regulatory bodies;</li>
+                            <li class="list-group-item">For management and audit of our business operations including accounting;</li>
+                            <li class="list-group-item">To carry out monitoring and to keep records of our communications with you and our staff (see below);</li>
+                            <li class="list-group-item">To administer our good governance requirements, such as internal reporting and compliance obligations or administration required;</li>
+                            <li class="list-group-item">For market research and analysis and developing statistics</li>
+                            <li class="list-group-item">For direct marketing communications and related profiling to help us to offer you relevant products and services, including deciding whether or not to offer you certain products and service. We will send marketing to you by SMS, email, phone, post and social media and digital channels (e.g. using Facebook, LinkedIn and Twitter);</li>
+                            <li class="list-group-item">Subject to the appropriate controls, helping us improve products or services, or to assess or to improve the operating of our businesses;</li>
+                            <li class="list-group-item">For some of our profiling and other automated decision making; and</li>
+                            <li class="list-group-item">Where we need to share your personal information with people or organisations in order to run our business or comply with any legal and/or regulatory obligations.</li>
+                        </ul><br><br> 
+                        To comply with our legal obligations<br>
+                        With your consent or explicit consent:<br>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">For some direct marketing communications;</li>
+                            <li class="list-group-item">For some of our profiling and other automated decision making; and</li>
+                            <li class="list-group-item">For some of our processing of special categories of personal data such as about your health, if you are a vulnerable customer or some criminal records information.</li>
+                        </ul><br><br>  
+                        For a public interest, such as:<br>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Processing of your special categories of personal data such as about your health, criminal records information (including alleged offences), or if you are a vulnerable customer.</li>
+                        </ul><br><br> 
+                        When do we share your personal information with other organisations?<br>
+                        For Legal and Regulatory reasons, we may share information with the following third parties for the purposes listed above:<br>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Business partners (e.g. your employer or fleet management company), others who are a part of providing your products and services or operating our business;</li>
+                            <li class="list-group-item">If necessary, the Police and their nominated support organisations;</li> 
+                            <li class="list-group-item">Other organisations and businesses who provide services to us such as debt recovery agencies, back up and server hosting providers, IT software and maintenance providers, document storage providers and suppliers of other back office functions; and</li>
+                            <li class="list-group-item">Market research organisations who help us to develop and improve our products and services.</li>
+                        </ul><br><br> 
+                        How and when can you withdraw your consent?<br> 
+                        Where we’re relying upon your consent to process personal data, you can withdraw this at any time by contacting us in support@eduwebgroup.com.<br> <br> 
+
+                        What should you do if your personal information changes?<br> 
+                        You should tell us so that we can update our records via support@eduwebgroup.com. We’ll then update your records if we can.<br> <br> 
+
+                        Do you have to provide your personal information to us?<br> 
+                        We’re unable to provide you with our products or services if you do not provide certain information to us.  In cases where providing some personal information is optional, we’ll make this clear.<br> <br> 
+
+                        Do we do any monitoring involving processing of your personal information? <br> 
+                        In this section monitoring means any: listening to, recording of, viewing of, intercepting of, or taking and keeping records (as the case may be) of calls, email, text messages, social media messages, in person (face to face) meetings and other communications.<br>  
+                        We may monitor where permitted by law and we’ll do this where the law requires it, or to comply with regulatory rules, to prevent or detect crime, in the interests of protecting the security of our communications systems and procedures and for quality control and staff training purposes. This information may be shared for the purposes described above.<br> <br> 
+
+                        What about other automated decision making? <br> 
+                        We sometimes make decisions about you using only technology, where none of our employees or any other individuals have been involved.<br> 
+                        We’ll do this where it is necessary for entering into or performing the relevant contract, is authorised by laws that apply to us, or is based on your explicit consent. <br> <br> 
+
+                        For how long is your personal information retained by us?<br> 
+                        Unless we explain otherwise to you, we’ll hold your personal information based on the following criteria:<br> 
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">For as long as we have reasonable business needs, such as managing our relationship with you and managing our operations;</li>
+                            <li class="list-group-item">For as long as we provide goods and/or services to; and/or</li>
+                            <li class="list-group-item">Retention periods in line with legal, regulatory and contractual requirements or guidance.</li>
+                        </ul><br><br>  
+                        What are your rights under data protection laws?<br> 
+                        Here is a list of the rights that all individuals have under data protection laws. They don’t apply in all circumstances. If you wish to use any of them, we’ll explain at that time if they are engaged or not.<br> 
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">The right to be informed about the processing of your personal information;</li>
+                            <li class="list-group-item">The right to have your personal information corrected if it is inaccurate and to have incomplete personal information completed;</li>
+                            <li class="list-group-item">The right to object to processing of your personal information;</li>
+                            <li class="list-group-item">The right to restrict processing of your personal information;</li>
+                            <li class="list-group-item">The right to have your personal information erased (the “right to be forgotten”);</li>
+                            <li class="list-group-item">The right to request access to your personal information and to obtain information about how we process it;</li>
+                            <li class="list-group-item">The right to move, copy or transfer your personal information (“data portability”); and</li>
+                            <li class="list-group-item">Rights in relation to automated decision making which has a legal effect or otherwise significantly affects you.</li>
+                        </ul><br>
+                        You have the right to complain via email at support@eduwebgroup.com .<br><br>
+
+                        Your right to object<br>
+                        You have the right to object to certain purposes for processing, in particular to data processed for direct marketing purposes and to data processed for certain reasons based on our legitimate interests. You can contact us via support@eduwebgroup.com<br><br>
+
+
+                        Contact Us<br>
+                        If you have any questions about this privacy notice, or if you wish to exercise your rights at support@eduwebgroup.com<br><br>
+                    </div>
+                    </p> 
+                </div>
+                <div class="col-12 mb-4"><h4 class="text-center"><a class="" data-toggle="collapse" href="#collapsePrivacy2" role="button" aria-expanded="false" aria-controls="collapsePrivacy">
+                            Privacy Policy Eduweb Group INC</a></h4></div> 
+                <div class="col-10 offset-1 collapse" id="collapsePrivacy2">
+                    <p class="mb-3">
+                        Privacy Notice<br>
+                        We like to keep things private<br>
+                        This is the data protection privacy notice EduWeb Group, INC <br>
                         Last updated: March 2019<br>
                         EduWeb Group, INC Privacy Notice<br>
                         This privacy notice lets you know what happens to any personal data that you give to us, or any that we may collect from or about you. It applies to all products and services, and case/examples where we collect your personal data.
@@ -2243,12 +2398,165 @@
                         We will always be clear about why we need the details we ask for, and ensure your personal information is kept as secure as possible. How we do this is explained below.<br>
                         <br>
                         Introduction<br>
-                        DriveTech is committed to protecting your privacy. We comply with data protection regulation and aim to maintain consistently high levels of best practice in our processing of personal and/ or sensitive personal data.
-                        DriveTech will use your personal information as set out below.<a class="" data-toggle="collapse" href="#collapsePrivacy" role="button" aria-expanded="false" aria-controls="collapsePrivacy">
-                            Leer más...</a><br>
+                        EduWeb Group, INC is committed to protecting your privacy. We comply with data protection regulation and aim to maintain consistently high levels of best practice in our processing of personal and/ or sensitive personal data.
+                        EduWeb Group, INC will use your personal information as set out below.<br>
                         <br>
-                    <div class="collapse" id="collapsePrivacy">Background<br>
+                    <div>Background<br>
                         This privacy notice applies to personal information processed by or on behalf of EduWeb Group, INC.<br><br>
+
+                        Changes to this privacy notice<br>
+                        We may change this privacy notice from time to time by updating this document/page in order to reflect changes in the law and/or our privacy practices. We encourage you to check this privacy notice for changes whenever you visit our website – https://www.eduwebgroup.com/.<br><br>
+
+
+                        What kinds of personal information about you do we process?<br>
+                        Personal information that we’ll process in connection with all products and services, if relevant, includes:<br> 
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Personal and contact details, such as title, full name, contact details and contact details history;</li>
+                            <li class="list-group-item">Your date of birth, gender and/or age;</li>
+                            <li class="list-group-item">Family members (if relevant to the product or service);</li>
+                            <li class="list-group-item">Records of your contact with us such as via the phone and, if you get in touch with us online using our online services;</li>
+                            <li class="list-group-item">Products and services, you hold with us, as well as have been interested in and have held;</li>
+                            <li class="list-group-item">Marketing to you and analysing data, including history of those communications, whether you open them or click on links, and information about products or services we think you may be interested in, and analysing data to help target offers to you that we think are of interest or relevance to you;</li>
+                        </ul><br><br>
+                        What is the source of your personal information?<br>
+                        We’ll collect personal information from the following general sources:<br>
+                        <ul class="list-group list-group-flush">                    
+                            <li class="list-group-item">From you directly, and any information from family members, associates or beneficiaries of products and services;</li>
+                            <li class="list-group-item">Information generated about you when you use our products and services;</li>
+                            <li class="list-group-item">Business partners for example. and others who are a part of providing your products and services or operating our business;</li>
+                        </ul><br><br> 
+                        What do we use your personal data for?<br>
+                        We use your personal data, including any of the personal data listed above, for the following purposes:<br>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Assessing an application for a product or service; including</li>
+                            <li class="list-group-item">To provide educational services which may be offered to you by the police;</li>
+                            <li class="list-group-item">Updating your records, tracing your whereabouts and recovering debt;</li>
+                            <li class="list-group-item">Managing any aspect of the product or service;</li>
+                            <li class="list-group-item">To perform and/or test the performance of, our products, services and internal processes;</li>
+                            <li class="list-group-item">To improve the operation of our business and that of our business partners;</li>
+                            <li class="list-group-item">To follow guidance and best practice under the change to rules of governmental and regulatory bodies;</li>
+                            <li class="list-group-item">For management and auditing of our business operations including accounting;</li>
+                            <li class="list-group-item">To monitor and to keep records of our communications with you and our staff (see below);</li>
+                            <li class="list-group-item">For market research and analysis and developing statistics;</li>
+                            <li class="list-group-item">For direct marketing communications and related profiling to help us to offer you relevant products and service, including deciding whether or not to offer you certain products and service. We’ll send marketing to you by SMS, email, phone, post, social media and digital channels (e.g. using Facebook, LinkedIn and Twitter). Offers may relate to any of our products and services as well as to any other offers and advice we think may be of interest;</li>
+                            <li class="list-group-item">To provide personalised content and services to you, such as tailoring our products and services, our digital customer experience and offerings, and deciding which offers or promotions to show you on our digital channels;</li>
+                            <li class="list-group-item">To develop new products and services and to review and improve current products and services;</li>
+                            <li class="list-group-item">To comply with legal and regulatory obligations, requirements and guidance;</li>
+                            <li class="list-group-item">To provide insight and analysis of our customers both for ourselves and for the benefit of business partners either as part of providing products or services, helping us improve products or services, or to assess or improve the operating of our businesses;</li>
+                            <li class="list-group-item">To share information, as needed, with business partners, service providers or as part of providing and administering our products and services or operating our business; and</li>
+                            <li class="list-group-item">To facilitate the sale of one or more parts of our business.</li>
+                        </ul>
+                        <br><br>
+                        What are the legal grounds for our processing of your personal information (including when we share it with others)?<br>
+                        We rely on the following legal bases to use your personal data:<br>
+                        Where it is needed to provide you with our products or services, such as:<br>
+                        Assessing an application for a product or service you hold with us and managing the product or service; including<br>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">To provide educational services which may be offered to you by the police;</li>
+                            <li class="list-group-item">Updating your records, tracing your whereabouts to contact you about your account and doing this for recovering debt (where appropriate);</li>
+                            <li class="list-group-item">Sharing your personal information with business partners and services providers when you apply for a product to help manage your product;</li>
+                            <li class="list-group-item">All stages and activities relevant to managing the product or service including enquiry, application, administration and management of accounts; and</li>
+                            <li class="list-group-item">For some of our profiling and other automated decision making to decide whether to offer you a product and/or service, particular payment method and the price or terms of this.</li>
+                        </ul><br><br> 
+                        Where it is in our legitimate interests to do so, such as:<br>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Managing your products and services relating to that, updating your records, tracing your whereabouts to contact you about your account and doing this for recovering debt (where appropriate);</li>
+                            <li class="list-group-item">To perform and/or test the performance of, our products, services and internal processes;</li>
+                            <li class="list-group-item">To follow guidance and recommended best practice of government and regulatory bodies;</li>
+                            <li class="list-group-item">For management and audit of our business operations including accounting;</li>
+                            <li class="list-group-item">To carry out monitoring and to keep records of our communications with you and our staff (see below);</li>
+                            <li class="list-group-item">To administer our good governance requirements, such as internal reporting and compliance obligations or administration required;</li>
+                            <li class="list-group-item">For market research and analysis and developing statistics</li>
+                            <li class="list-group-item">For direct marketing communications and related profiling to help us to offer you relevant products and services, including deciding whether or not to offer you certain products and service. We will send marketing to you by SMS, email, phone, post and social media and digital channels (e.g. using Facebook, LinkedIn and Twitter);</li>
+                            <li class="list-group-item">Subject to the appropriate controls, helping us improve products or services, or to assess or to improve the operating of our businesses;</li>
+                            <li class="list-group-item">For some of our profiling and other automated decision making; and</li>
+                            <li class="list-group-item">Where we need to share your personal information with people or organisations in order to run our business or comply with any legal and/or regulatory obligations.</li>
+                        </ul><br><br> 
+                        To comply with our legal obligations<br>
+                        With your consent or explicit consent:<br>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">For some direct marketing communications;</li>
+                            <li class="list-group-item">For some of our profiling and other automated decision making; and</li>
+                            <li class="list-group-item">For some of our processing of special categories of personal data such as about your health, if you are a vulnerable customer or some criminal records information.</li>
+                        </ul><br><br>  
+                        For a public interest, such as:<br>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Processing of your special categories of personal data such as about your health, criminal records information (including alleged offences), or if you are a vulnerable customer.</li>
+                        </ul><br><br> 
+                        When do we share your personal information with other organisations?<br>
+                        For Legal and Regulatory reasons, we may share information with the following third parties for the purposes listed above:<br>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Business partners (e.g. your employer or fleet management company), others who are a part of providing your products and services or operating our business;</li>
+                            <li class="list-group-item">If necessary, the Police and their nominated support organisations;</li> 
+                            <li class="list-group-item">Other organisations and businesses who provide services to us such as debt recovery agencies, back up and server hosting providers, IT software and maintenance providers, document storage providers and suppliers of other back office functions; and</li>
+                            <li class="list-group-item">Market research organisations who help us to develop and improve our products and services.</li>
+                        </ul><br><br> 
+                        How and when can you withdraw your consent?<br> 
+                        Where we’re relying upon your consent to process personal data, you can withdraw this at any time by contacting us in support@eduwebgroup.com.<br> <br> 
+
+                        What should you do if your personal information changes?<br> 
+                        You should tell us so that we can update our records via support@eduwebgroup.com. We’ll then update your records if we can.<br> <br> 
+
+                        Do you have to provide your personal information to us?<br> 
+                        We’re unable to provide you with our products or services if you do not provide certain information to us.  In cases where providing some personal information is optional, we’ll make this clear.<br> <br> 
+
+                        Do we do any monitoring involving processing of your personal information? <br> 
+                        In this section monitoring means any: listening to, recording of, viewing of, intercepting of, or taking and keeping records (as the case may be) of calls, email, text messages, social media messages, in person (face to face) meetings and other communications.<br>  
+                        We may monitor where permitted by law and we’ll do this where the law requires it, or to comply with regulatory rules, to prevent or detect crime, in the interests of protecting the security of our communications systems and procedures and for quality control and staff training purposes. This information may be shared for the purposes described above.<br> <br> 
+
+                        What about other automated decision making? <br> 
+                        We sometimes make decisions about you using only technology, where none of our employees or any other individuals have been involved.<br> 
+                        We’ll do this where it is necessary for entering into or performing the relevant contract, is authorised by laws that apply to us, or is based on your explicit consent. <br> <br> 
+
+                        For how long is your personal information retained by us?<br> 
+                        Unless we explain otherwise to you, we’ll hold your personal information based on the following criteria:<br> 
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">For as long as we have reasonable business needs, such as managing our relationship with you and managing our operations;</li>
+                            <li class="list-group-item">For as long as we provide goods and/or services to; and/or</li>
+                            <li class="list-group-item">Retention periods in line with legal, regulatory and contractual requirements or guidance.</li>
+                        </ul><br><br>  
+                        What are your rights under data protection laws?<br> 
+                        Here is a list of the rights that all individuals have under data protection laws. They don’t apply in all circumstances. If you wish to use any of them, we’ll explain at that time if they are engaged or not.<br> 
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">The right to be informed about the processing of your personal information;</li>
+                            <li class="list-group-item">The right to have your personal information corrected if it is inaccurate and to have incomplete personal information completed;</li>
+                            <li class="list-group-item">The right to object to processing of your personal information;</li>
+                            <li class="list-group-item">The right to restrict processing of your personal information;</li>
+                            <li class="list-group-item">The right to have your personal information erased (the “right to be forgotten”);</li>
+                            <li class="list-group-item">The right to request access to your personal information and to obtain information about how we process it;</li>
+                            <li class="list-group-item">The right to move, copy or transfer your personal information (“data portability”); and</li>
+                            <li class="list-group-item">Rights in relation to automated decision making which has a legal effect or otherwise significantly affects you.</li>
+                        </ul><br>
+                        You have the right to complain via email at support@eduwebgroup.com .<br><br>
+
+                        Your right to object<br>
+                        You have the right to object to certain purposes for processing, in particular to data processed for direct marketing purposes and to data processed for certain reasons based on our legitimate interests. You can contact us via support@eduwebgroup.com<br><br>
+
+
+                        Contact Us<br>
+                        If you have any questions about this privacy notice, or if you wish to exercise your rights at support@eduwebgroup.com<br><br>
+                    </div>
+                    </p> 
+                </div>
+                <div class="col-12 mb-4"><h4 class="text-center"><a class="" data-toggle="collapse" href="#collapsePrivacy3" role="button" aria-expanded="false" aria-controls="collapsePrivacy">
+                            Privacy Policy Eduweb Consulting Services</a></h4></div> 
+                <div class="col-10 offset-1 collapse" id="collapsePrivacy3">
+                    <p class="mb-3">
+                        Privacy Notice<br>
+                        We like to keep things private<br>
+                        This is the data protection privacy notice Eduweb Consulting Services<br>
+                        Last updated: March 2019<br>
+                        Eduweb Consulting Services Privacy Notice<br>
+                        This privacy notice lets you know what happens to any personal data that you give to us, or any that we may collect from or about you. It applies to all products and services, and case/examples where we collect your personal data.
+                        When it comes to your privacy we never compromise. Eduweb Consulting Services is the Data Controller of your personal information.<br>
+                        We will always be clear about why we need the details we ask for, and ensure your personal information is kept as secure as possible. How we do this is explained below.<br>
+                        <br>
+                        Introduction<br>
+                        Eduweb Consulting Services is committed to protecting your privacy. We comply with data protection regulation and aim to maintain consistently high levels of best practice in our processing of personal and/ or sensitive personal data.
+                        Eduweb Consulting Services will use your personal information as set out below.<br>
+                        <br>
+                    <div>Background<br>
+                        This privacy notice applies to personal information processed by or on behalf of Eduweb Consulting Services.<br><br>
 
                         Changes to this privacy notice<br>
                         We may change this privacy notice from time to time by updating this document/page in order to reflect changes in the law and/or our privacy practices. We encourage you to check this privacy notice for changes whenever you visit our website – https://www.eduwebgroup.com/.<br><br>
