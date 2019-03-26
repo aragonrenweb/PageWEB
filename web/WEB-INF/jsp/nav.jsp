@@ -221,7 +221,8 @@
             </li>
         </ul>  
     </div> 
-    <div id="menuDesplegable" class="pt-0" style=" cursor: pointer; position: fixed;  right: 0px; z-index: 11;">
+            <div id="menuDesplegable" class="pt-0" style=" cursor: pointer; right: 0px; z-index: 11;">
+<!--    <div id="menuDesplegable" class="pt-0" style=" cursor: pointer; position: fixed;  right: 0px; z-index: 11;">-->
         <div class="row" >
             <a class="navbar-brand logoMenuApps" id="logoMenuApp0" onclick="showIconsApps()" style="opacity: 0">
                 <img src="recursos/img/LogosMenu/LogoFacts.svg" >

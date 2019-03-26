@@ -697,11 +697,10 @@
         </main>
 
 
-        <div class="btnDemo ">
+         <a class="btnDemo" target="_blank" href="<c:url value='/index.htm#Contact'/>">
             <label class="arrow_box">Schedule a Demo</label>
             <img src="recursos/img/smartClover/logoSmartCloverNew.svg" style="width:75px">
-
-        </div>  
+        </a>  
 
     </body>
     <%@ include file="footerAOS.jsp" %>

@@ -904,10 +904,12 @@
                     </div> 
                 </div> <br>
             </div>
-
-
         </main>
 
+                                          <a class="btnDemo" target="_blank" href="<c:url value='/index.htm#Contact'/>">
+            <label class="arrow_box">Schedule a Demo</label>
+            <img src="recursos/img/LogosMenu/LogoFacts.svg" style="width:75px">
+        </a> 
         
         <div id="modal1" class="modal fade" role="dialog" >
             <div class="modal-dialog"  style="    max-width: 80%;">

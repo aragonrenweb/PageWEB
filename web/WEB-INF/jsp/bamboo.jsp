@@ -635,12 +635,10 @@
             </div>-->
         </main>
 
-
-        <div class="btnDemo">
+        <a class="btnDemo" target="_blank" href="<c:url value='/index.htm#Contact'/>">
             <label class="arrow_box">Schedule a Demo</label>
             <img src="recursos/img/bamboo/iconBamboo.png "  style="width:75px;border-radius: 40px;border: solid 2px #91dc5a;">
-
-        </div> 
+        </a>
 
     </body>
     <%@ include file="footerAOS.jsp" %>
