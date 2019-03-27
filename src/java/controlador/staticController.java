@@ -91,12 +91,25 @@ public class staticController {
 
     @RequestMapping("/bamboo.htm")
     public ModelAndView bamboo(HttpServletRequest hsr, HttpServletResponse hsr1) throws Exception {
-
+       
         ModelAndView mv = new ModelAndView("bamboo");
 
         return mv;
     }
+    
+    @RequestMapping("/index.htm")
+    public ModelAndView index(HttpServletRequest hsr, HttpServletResponse hsr1) throws Exception {
+        /* recoger valor del campo oculto */
+//                Formulario form = new Formulario();
+                
+        String valorForm = hsr.getParameter("informacion");   
+                
+        ModelAndView mv = new ModelAndView("index");
 
+        return mv;
+    }
+
+    
     @RequestMapping("/index_1.htm")
     public ModelAndView index_1(HttpServletRequest hsr, HttpServletResponse hsr1) throws Exception {
 

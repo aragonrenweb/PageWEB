@@ -7,10 +7,10 @@
 
 <!DOCTYPE html>
 <html>
-<%@ include file="nav.jsp" %>
+    <%@ include file="nav.jsp" %>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <script src="recursos/js/jquery-1.9.1.min.js" type="text/javascript"></script>
+        <script src="recursos/js/jquery-1.9.1.min.js" type="text/javascript"></script>
         <title>Bamboo Montessori</title>
 
         <style>
@@ -21,7 +21,7 @@
                 font-size: 24px;
                 height: auto !important;
                 overflow-y: hidden;
-                    font-size: inherit;
+                font-size: inherit;
             }
 
             .hero2 {
@@ -442,15 +442,15 @@
 
             }
         </style>
- 
-    </head>
-    <body>
 
-        
+    </head>
+    
+
+
         <script type="text/javascript">
-              $(document).ready(function () {
+            $(document).ready(function () {
                 swapLogo("bamboo");
-                });
+            });
         </script>
         <section  class="hero2">
             <div class="hero2-inner">
@@ -599,48 +599,48 @@
                     </div>
                 </div> 
             </div>
-<!--            <div class="col-10 col-lg-8 offset-1 offset-lg-2">
-                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="d-block w-100" data-interval="50" data-src="recursos/img/bamboo/quotation.jpg" alt="First slide [800x400]" src="recursos/img/bamboo/quotation.jpg" data-holder-rendered="true">
-
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" data-interval="50" data-src="recursos/img/bamboo/quotation1.jpg" alt="Second slide" src="recursos/img/bamboo/quotation1.jpg" data-holder-rendered="true">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" data-interval="50" data-src="recursos/img/bamboo/quotation.jpg" alt="First slide [800x400]" src="recursos/img/bamboo/quotation.jpg" data-holder-rendered="true">
-                        </div>
-                    </div>
-                </div>
-                <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel" data-slide-to="1"></li>
-                    </ol>
-                     Carousel items 
-                    <div class="carousel-inner">
-                        <div class="active item">
-
-                        </div>
-                        <div class="item">
-
-                        </div>
-                    </div>
-                     Carousel nav 
-                    <a class="carousel-control left sinfondo" href="#carousel" data-slide="prev">&lsaquo;</a>
-                    <a class="carousel-control right sinfondo" href="#carousel" data-slide="next">&rsaquo;</a>
-                </div>
-            </div>-->
+            <!--            <div class="col-10 col-lg-8 offset-1 offset-lg-2">
+                            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100" data-interval="50" data-src="recursos/img/bamboo/quotation.jpg" alt="First slide [800x400]" src="recursos/img/bamboo/quotation.jpg" data-holder-rendered="true">
+            
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" data-interval="50" data-src="recursos/img/bamboo/quotation1.jpg" alt="Second slide" src="recursos/img/bamboo/quotation1.jpg" data-holder-rendered="true">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" data-interval="50" data-src="recursos/img/bamboo/quotation.jpg" alt="First slide [800x400]" src="recursos/img/bamboo/quotation.jpg" data-holder-rendered="true">
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel" data-slide-to="1"></li>
+                                </ol>
+                                 Carousel items 
+                                <div class="carousel-inner">
+                                    <div class="active item">
+            
+                                    </div>
+                                    <div class="item">
+            
+                                    </div>
+                                </div>
+                                 Carousel nav 
+                                <a class="carousel-control left sinfondo" href="#carousel" data-slide="prev">&lsaquo;</a>
+                                <a class="carousel-control right sinfondo" href="#carousel" data-slide="next">&rsaquo;</a>
+                            </div>
+                        </div>-->
         </main>
 
-        <a class="btnDemo" target="_blank" href="<c:url value='/index.htm#Contact'/>">
+        <a class="btnDemo" href="<c:url value='/index.htm?informacion=bamboo#Contact'/>">
             <label class="arrow_box">Schedule a Demo</label>
-            <img src="recursos/img/bamboo/iconBamboo.png "  style="width:75px;border-radius: 40px;border: solid 2px #91dc5a;">
-        </a>
+            <img src="recursos/img/bamboo/iconBamboo.png" style="width:75px;border-radius: 40px;border: solid 2px #91dc5a;">
+        </a>        
 
-    </body>
+    
     <%@ include file="footerAOS.jsp" %>
 
 </html>

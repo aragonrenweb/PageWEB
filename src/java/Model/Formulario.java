@@ -16,6 +16,11 @@ public class Formulario {
     private String email;
     private String phone;
     private String message;
+    
+    /*para el campo oculto con la informacion del producto*/
+    private String informacion;
+    
+    
     public String generateBody(){
         return "<b>Name:</b> "+ name +"<br>" + "<b>School name:</b> "+ schoolName +"<br>" + "<b>Number of students:</b> "+ numStudents +"<br>" + "<b>Email:</b> "+ email +"<br>"+ "<b>Phone:</b> "+ phone +"<br>" +  "<b>Message:</b> <br>"+message;
     }
@@ -67,6 +72,15 @@ public class Formulario {
     public void setMessage(String message) {
         this.message = message;
     }
+
+    public String getInformacion() {
+        return informacion;
+    }
+
+    public void setInformacion(String informacion) {
+        this.informacion = informacion;
+    }
    
+    
     
 }
