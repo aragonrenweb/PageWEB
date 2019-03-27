@@ -3,7 +3,7 @@
 <%@taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@taglib prefix="spring" uri="http://www.springframework.org/tags"%>
-
+<fmt:setLocale value="en" scope="session"/>
 
 <html style="overflow-x: hidden;">
 
@@ -1064,11 +1064,12 @@
 
                 $(".buttonPrevious").hide();
                 var url = $("#informacion").val(window.location.href);
-
+                if(url.val().indexOf("Yes") >= 0){
                 var info = (url.val().split("=")[1]).split("#")[0];
                // alert(info);
 
                 $("#informacion").val(info);
+            }
                 $(".colorSchoolAnalytics").hide();
                 $("#contDescripClassroom").hide();
                 $("#contDescripParent").hide();
@@ -1519,7 +1520,7 @@
             </div>
             <div class="col colorFACTSsub colSubLayer p-0"  style="max-width: 0%;"  >
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center  p-0">
-                    <a class="nav-link-evento" href="#cPrincFacts">A world leader SIS</a>
+                    <a class="nav-link-evento" href="#cPrincFacts">A world leader SIS <spring:message code="home.SIS"/></a>
                 </div>
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center  p-0">
                     <a  class="nav-link-evento" href="#cPrincFacts">24 hour Consultants and Support</a>
