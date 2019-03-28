@@ -1511,25 +1511,25 @@
                     <img class="d-inline-block logo" src="recursos/img/LogosMenu/LogoFacts.svg">
                 </div> 
                 <div class="w-100 h-25 text-center my-auto">
-                    <font class="text-white h3" >FACTS SIS</font><br>
-                    <font class="text-white h5" >360º Management Tool</font> <br>
+                    <font class="text-white h3" >FACTS <spring:message code="home.SIS1"/></font><br>
+                    <font class="text-white h5" ><spring:message code="home.SIS2"/></font> <br>
                     <br>
-                    <font class="btn nav-link-evento h5 btnDemoEvento" href="#Contact">Request a demo</font>
+                    <font class="btn nav-link-evento h5 btnDemoEvento" href="#Contact"><spring:message code="request.demo"/></font>
                 </div>                 
                 <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
             </div>
             <div class="col colorFACTSsub colSubLayer p-0"  style="max-width: 0%;"  >
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center  p-0">
-                    <a class="nav-link-evento" href="#cPrincFacts">A world leader SIS <spring:message code="home.SIS"/></a>
+                    <a class="nav-link-evento" href="#cPrincFacts"><spring:message code="home.SIS3"/></a>
                 </div>
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center  p-0">
-                    <a  class="nav-link-evento" href="#cPrincFacts">24 hour Consultants and Support</a>
+                    <a  class="nav-link-evento" href="#cPrincFacts"><spring:message code="home.SIS4"/></a>
                 </div>
                 <div class="col w-100 d-flex h-25  align-content-center align-items-center  p-0">
-                    <a  class="nav-link-evento" href="#cPrincFacts">A fitted solution for your school</a>
+                    <a  class="nav-link-evento" href="#cPrincFacts"><spring:message code="home.SIS5"/></a>
                 </div>
                 <div class="col w-100 d-flex h-25  align-content-center align-items-center  p-0">
-                    <a  class="nav-link-evento" href="https://factsmgt.com/" target="_blank">Visit FACST SIS site</a>
+                    <a  class="nav-link-evento" href="https://factsmgt.com/" target="_blank"><spring:message code="home.SIS6"/></a>
                 </div>
             </div>
 
@@ -1542,10 +1542,9 @@
                 </div> 
                 <div class="w-100 h-25 text-center my-auto">
                     <font class="text-white h3" >BAMBOO</font><br>
-                    <font class="text-white h5" >Montessori Classroom Management</font> <br>
+                     <font class="text-white h5" ><spring:message code="home.BAMBOO1"/></font> <br> 
                     <br>
-                    <font class="btn nav-link-evento h5 btnDemoEvento" href="#Contact">Request a demo</font>
-
+                     <font class="btn nav-link-evento h5 btnDemoEvento" href="#Contact"><spring:message code="request.demo"/></font>    
 
                     <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
                     <div class="buttonPrevious">
@@ -1555,13 +1554,13 @@
             </div>
             <div class="col colorBAMBOOsub colSubLayer p-0" style="max-width: 0%;">
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center p-0">
-                    <a class="nav-link-evento" href="#cPrincBamboo">A rising trend</a> 
+                    <a class="nav-link-evento" href="#cPrincBamboo"><spring:message code="home.BAMBOO2"/></a> 
                 </div>
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center p-0">
-                    <a class="nav-link-evento" href="#cPrincBamboo"> Go paperless</a>  
+                    <a class="nav-link-evento" href="#cPrincBamboo"><spring:message code="home.BAMBOO3"/></a>  
                 </div>
                 <div class="col w-100 d-flex h-25  align-content-center align-items-center  p-0">
-                    <a class="nav-link-evento" href="#cPrincBamboo">Personalize</a>   
+                    <a class="nav-link-evento" href="#cPrincBamboo"><spring:message code="home.BAMBOO4"/></a>   
                 </div>
                 <!--<div class="col w-100 d-flex h-25  align-content-center align-items-center">
                     Bamboo Experience
@@ -1578,19 +1577,19 @@
                 </div> 
                 <div class="w-100 h-25 text-center my-auto">
                     <a class="text-white h3">SMART CLOVER</a><br>
-                    <a class="text-white h5" >Instant Messaging</a> 
+                    <a class="text-white h5"><spring:message code="home.SMARTCLOVER1"/></a> 
                     <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
                 </div> 
             </div>
             <div class="col colorSMARTCLOVERsub colSubLayer p-0" style="max-width: 0%;">
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center  p-0">
-                    <a class="nav-link-evento" href="#cPrincClover">Your instant communication assistant</a> 
+                    <a class="nav-link-evento" href="#cPrincClover"><spring:message code="home.SMARTCLOVER2"/></a> 
                 </div>
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center  p-0">
-                    <a class="nav-link-evento" href="#cPrincClover">It covers all your needs</a>  
+                    <a class="nav-link-evento" href="#cPrincClover"><spring:message code="home.SMARTCLOVER3"/></a>  
                 </div>
                 <div class="col w-100 d-flex h-25  align-content-center align-items-center  p-0">
-                    <a class="nav-link-evento" href="#cPrincClover">Features</a>  
+                    <a class="nav-link-evento" href="#cPrincClover"><spring:message code="home.SMARTCLOVER4"/></a>  
 
                 </div>
                 <!--<div class="col w-100 d-flex h-25  align-content-center align-items-center">
@@ -1607,7 +1606,7 @@
                 </div> 
                 <div class="w-100 h-25 text-center my-auto">
                     <a class="text-white h3">SCHEDULE</a><br>
-                    <a class="text-white h5" >Powerful Schedule Maker</a> 
+                    <a class="text-white h5"><spring:message code="home.SCHEDULE1"/></a> 
                     <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
                     <div class="buttonNext">
                         <i class="fas fa-angle-double-right"></i>
@@ -1621,14 +1620,14 @@
                     Smart for Guides
                 </div>-->
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center  p-0">
-                    <a class="nav-link-evento" href="#cPrincScheduler"> Simplify your most complex task</a>   
+                    <a class="nav-link-evento" href="#cPrincScheduler"><spring:message code="home.SCHEDULE2"/></a>   
                 </div>
                 <div class="col w-100 d-flex h-25  align-content-center align-items-center  p-0">
-                    <a class="nav-link-evento" href="#cPrincScheduler"> A smart algorithm</a> 
+                    <a class="nav-link-evento" href="#cPrincScheduler"><spring:message code="home.SCHEDULE3"/></a> 
 
                 </div>
                 <div class="col w-100 d-flex h-25  align-content-center align-items-center  p-0">
-                    <a class="nav-link-evento" href="#cPrincScheduler"> Leave it to us</a> 
+                   <a class="nav-link-evento" href="#cPrincScheduler"><spring:message code="home.SCHEDULE4"/></a> 
 
                     <div class="buttonNextSub">
                         <i class="fas fa-angle-double-right"></i>
@@ -1645,14 +1644,14 @@
                 </div> 
                 <div class="w-100 h-25 text-center my-auto">
                     <a class="text-white h3" >SCHOOL ANALYTICS</a><br>
-                    <a class="text-white h5" >School Analytics.</a>
+                    <a class="text-white h5" ><spring:message code="home.ANALYTICS1"/></a>
                     <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
                 </div> 
 
             </div>
             <div class="col colorSchoolAnalyticssub colSubLayer p-0"  style="max-width: 0%;"  >
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center  p-0">
-                    <a class="nav-link-evento">Coming soon...</a>
+                    <a class="nav-link-evento"><spring:message code="home.ANALYTICS2"/></a>
                 </div>
                 <!--<div class="col w-100 d-flex h-25 align-content-center align-items-center">
                     Qué incluye
@@ -1683,24 +1682,24 @@
 
             <div class="row col-12  pr-0">
                 <div class="col-12 col-md-6 cardInfo">
-                    <div class="col-12"><h4 class="text-center" style="transform: skewX(4deg);">A world leader SIS</h4></div> 
+                    <div class="col-12"><h4 class="text-center" style="transform: skewX(4deg);"><spring:message code="body.FACTS1"/> <spring:message code="home.SIS1"/></h4></div> 
                     <div class="col-10 offset-1 text-center" style="transform: skewX(4deg);">
                         <p>
-                            Eduweb is the official distributors of FACTS SIS - a world leading SIS, fully integrated, multiplatform, and serving more than <h4>6000 schools around the globe</h4>.
+                            <spring:message code="body.FACTS2"/> <spring:message code="home.SIS1"/> <spring:message code="body.FACTS3"/> <spring:message code="home.SIS1"/> <spring:message code="body.FACTS4"/> <h4><spring:message code="body.FACTS5"/></h4>.
                         </p>
                         <p>
-                            Our customers are located in Europe, Asia, Nortt and South America, Africa and the Middle East. 
+                           <spring:message code="body.FACTS6"/> 
                         </p>
 
                         <div  class="mb-3 listaFacts">
-                            <li>Admissions</li>
-                            <li>Attendance</li> 
-                            <li>Communication</li>  
-                            <li>Report cards</li>
-                            <li>Scheduling</li>
-                            <li>Staff information management</li> 
-                            <li>Transcripts</li> 
-                            <li>and more...</li>
+                            <li><spring:message code="body.FACTS.LI1"/></li>
+                            <li><spring:message code="body.FACTS.LI2"/></li> 
+                            <li><spring:message code="body.FACTS.LI3"/></li>  
+                            <li><spring:message code="body.FACTS.LI4"/></li>
+                            <li><spring:message code="body.FACTS.LI5"/></li>
+                            <li><spring:message code="body.FACTS.LI6"/></li> 
+                            <li><spring:message code="body.FACTS.LI7"/></li> 
+                            <li><spring:message code="body.FACTS.LI8"/></li>
 
                         </div>
                         <!--<footer>mas información</footer>--> 
@@ -1730,7 +1729,7 @@
                     <div class="col-12"><h4 class="text-center" id="ItIsAllAboutPersonalization" style="transform: skewX(4deg);">A fitted solution for your school</h4></div> 
                     <div class="col-10 offset-1 p-xl-0 text-center" style="transform: skewX(4deg);">
                         <div class="mb-3">
-                            <p> Our commitment to the long-term sustainability and stability of schools is rooted in our philosophy of putting customers first, every time, and learning from their uniqueness.</p>
+                            <p>Our commitment to the long-term sustainability and stability of schools is rooted in our philosophy of putting customers first, every time, and learning from their uniqueness.</p>
                             <p>Report Card and Transcript customizations – there is almost nothing that cannot be done to customize a school’s reporting needs. Tell us what you want, we deliver.  </p>
                             <p>Design and Customization of administrative reports</p>
                             <p> Integration with third party systems</p>
@@ -2832,9 +2831,9 @@
                 </div>
             </div>
 
-
-            <!-- /*******************/ -->
+            
             <div class="col-12">
+                <hr>
                 <div class="col-12"><h4 class="text-center">Condiciones Generales de uso de la tienda online</h4></div> 
                 <div class="col-10 offset-1">
                     <p class="mb-3">

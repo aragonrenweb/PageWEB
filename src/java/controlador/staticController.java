@@ -6,13 +6,14 @@
 package controlador;
 
 import Model.Formulario;
+import java.util.Locale;
 import java.util.Properties;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.servlet.ServletContext;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession; 
+import javax.servlet.http.HttpSession;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
@@ -28,6 +29,9 @@ import javax.mail.Session;
 import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
+import org.apache.jasper.tagplugins.jstl.core.Redirect;
+import org.springframework.web.servlet.support.RequestContextUtils;
+
 /**
  *
  * @author nmohamed
@@ -90,26 +94,27 @@ public class staticController {
     }
 
     @RequestMapping("/bamboo.htm")
-    public ModelAndView bamboo(HttpServletRequest hsr, HttpServletResponse hsr1) throws Exception {
-       
-        ModelAndView mv = new ModelAndView("bamboo");
+    public ModelAndView bamboo(HttpServletRequest request, HttpServletResponse hsr1) throws Exception {
+
+        ModelAndView mv = new ModelAndView("redirect:/datosIdioma.htm?idioma="+request.getLocale().getLanguage()+"&page=bamboo");
 
         return mv;
     }
-    
+
     @RequestMapping("/index.htm")
-    public ModelAndView index(HttpServletRequest hsr, HttpServletResponse hsr1) throws Exception {
+    public ModelAndView index(HttpServletRequest request, HttpServletResponse response) throws Exception {
         /* recoger valor del campo oculto */
-//                Formulario form = new Formulario();
-                
-        String valorForm = hsr.getParameter("informacion");   
-                
-        ModelAndView mv = new ModelAndView("index");
-
+//                Formulario form = new Formulario(); 
+        //RequestContextUtils.getLocaleResolver(request).setLocale(request, response, new Locale(request.getParameter(request.getLocale().toString())));
+       
+        String l = request.getLocale().getLanguage();
+        String valorForm = request.getParameter("informacion");
+        ModelAndView mv = new ModelAndView("redirect:/datosIdioma.htm");
+        mv.addObject("idioma", request.getLocale().getLanguage());
+         mv.addObject("page", "index");
         return mv;
     }
 
-    
     @RequestMapping("/index_1.htm")
     public ModelAndView index_1(HttpServletRequest hsr, HttpServletResponse hsr1) throws Exception {
 
@@ -132,25 +137,25 @@ public class staticController {
         props.put("mail.smtp.auth", "true");
 //     
         Session session = Session.getDefaultInstance(props);
-        try { 
-                MimeMessage message = new MimeMessage(session);
-                message.setFrom(new InternetAddress("sales@eduwebgroup.com")); 
-                message.setRecipients(Message.RecipientType.TO, InternetAddress.parse("sales@eduwebgroup.com"));//m.getRecipient()));
-                message.setSubject("Form Webpage");
-                message.setContent(f.generateBody(), "text/html; charset=utf-8");
-               
-                session.getProperties().put("mail.smtp.ssl.trust", "smtp.gmail.com");
-                Transport transport = session.getTransport("smtp");
-                transport.connect("smtp.gmail.com", 587, "sales@eduwebgroup.com", "Madrid2019");
-                transport.sendMessage(message, message.getAllRecipients());
-                transport.close();
-                aux = "Sent message successfully....";
-                Class.forName("org.postgresql.Driver");
-                
+        try {
+            MimeMessage message = new MimeMessage(session);
+            message.setFrom(new InternetAddress("sales@eduwebgroup.com"));
+            message.setRecipients(Message.RecipientType.TO, InternetAddress.parse("sales@eduwebgroup.com"));//m.getRecipient()));
+            message.setSubject("Form Webpage");
+            message.setContent(f.generateBody(), "text/html; charset=utf-8");
+
+            session.getProperties().put("mail.smtp.ssl.trust", "smtp.gmail.com");
+            Transport transport = session.getTransport("smtp");
+            transport.connect("smtp.gmail.com", 587, "sales@eduwebgroup.com", "Madrid2019");
+            transport.sendMessage(message, message.getAllRecipients());
+            transport.close();
+            aux = "Sent message successfully....";
+            Class.forName("org.postgresql.Driver");
+
         } catch (Exception e) {
-            aux = "Error"; 
-        }  
-        
+            aux = "Error";
+        }
+
         return aux;
     }
 }
