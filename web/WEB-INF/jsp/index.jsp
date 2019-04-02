@@ -2987,86 +2987,86 @@
                                     
                                     <li><spring:message code="condgen.tit3.8"/></li><br><br>
 
-                                    Según la Ley 47/2002 de Ordenación del Comercio Minorista, no podrán devolverse aquellos productos que puedan ser reproducidos o copiados con carácter inmediato, (Compact Disc, software, películas de vídeo, libros, etc…), así como consumibles que hayan sido desprecintados. EduWebGroup se reserva el derecho de no aceptar la devolución.<br><br>
+                                    <spring:message code="condgen.parraf3.8.1"/><br><br>
 
-                                    · Desde el domicilio<br>
-                                    Si por cualquier motivo no está satisfecho con su pedido, dispone de un plazo de 15 días hábiles a contar desde la fecha de recepción para devolverlo. Antes de realizar cualquier tipo de devolución, debe contactar con nosotros para agilizar los trámites posteriores.<br><br>
+                                    <spring:message code="condgen.parraf3.8.2"/><br>
+                                    <spring:message code="condgen.parraf3.8.3"/><br><br>
 
-                                    Debe enviar los productos en perfectas condiciones y con su embalaje original, incluyendo todos los accesorios (drivers, manuales, cables, etc). Es importante que nos devuelva los productos perfectamente embalados y con una copia del e-mail que recibirá en su correo cuando nos solicite la devolución.<br><br>
+                                    <spring:message code="condgen.parraf3.8.4"/><br><br>
 
-                                    Una vez recibidos los artículos en nuestros almacenes y comprobado que se cumplen las condiciones anteriores, procederemos al reintegro del importe. Los gastos de envío no serán abonados.<br><br>
+                                    <spring:message code="condgen.parraf3.8.5"/><br><br>
 
-                                    Recibirá el reintegro del importe en el mismo soporte en que realizó el pago (transferencia bancaria, paypal).<br><br>
+                                    <spring:message code="condgen.parraf3.8.6"/><br><br>
 
-                                    Reintegro por Transferencia bancaria:<br><br>
+                                    <spring:message code="condgen.parraf3.8.7"/><br><br>
 
-                                    Si su pedido ha sido pagado mediante Transferencia Bancaria, el reembolso será abonado en su cuenta en un período de 5 a 8 días hábiles.<br><br>
+                                    <spring:message code="condgen.parraf3.8.8"/><br><br>
 
-                                    Los portes serán por cuenta del cliente, siempre que el producto no esté defectuoso. En este último caso y cuando el producto esté dentro de los primeros 15 días desde la fecha de recepción del pedido, EduWebGroup correrá con todos los gastos de transporte. EduWebGroup se encargará de gestionar el transporte con la agencia.<br><br>
+                                    <spring:message code="condgen.parraf3.8.9"/><br><br>
 
-                                    Por favor, ten en cuenta que EduWebGroup no admite envíos a portes debidos, a no ser que se reciban por la empresa de transporte utilizada por el portal, previa autorización.<br><br>
+                                    <spring:message code="condgen.parraf3.8.10"/><br><br>
 
-                                    <li>Garantías</li><br><br>
+                                    <li><spring:message code="condgen.tit3.9"/></li><br><br>
 
-                                    EduWebGroup manifiesta y garantiza que puede vender productos y servicios desde la página Web www.eduwebgroup.com<br>
-                                    EduWebGroup manifiesta y garantiza que sus plataformas de Internet están técnicamente preparadas para la venta de productos y servicios.<br><br>
+                                    <spring:message code="condgen.parraf3.9.1"/><br>
+                                    <spring:message code="condgen.parraf3.9.2"/><br><br>
 
-                                    Todos los artículos tienen una garantía de 2 años en conformidad a lo establecido en el Real Decreto Legislativo 1/2007, de 16 de noviembre, por el que se aprueba el texto refundido de la Ley General para la Defensa de los Consumidores y Usuarios y otras leyes complementarias . Las garantías de calidad o funcionamiento de los productos o servicios de EduWebGroup serán, en su caso, establecidas caso por caso en las condiciones particulares , sin prejuicio de los derechos reconocidos por esa norma, el consumidor goza de una garantía comercial ofrecida por el fabricante del producto, cuyo plazo y condiciones dependen del tipo de bien, debiendo consultarse en su caso la garantía específica del fabricante que se entrega por escrito junto con el producto adquirido<br><br>
+                                    <spring:message code="condgen.parraf3.9.3"/><spring:message code="condgen.parraf3.9.4"/><br><br>
 
-                                    EduWebGroup no otorga ninguna garantía sobre productos o servicios de terceros.<br><br>
+                                    <spring:message code="condgen.parraf3.9.5"/><br><br>
 
-                                    La garantía dejara de ser efectiva, si EduWebGroup comprueba fehacientemente manipulación por parte del cliente, para lo cual los equipos vienen provistos con precintos de seguridad.<br><br>
+                                    <spring:message code="condgen.parraf3.9.6"/><br><br>
 
-                                    El comprador no será responsable, salvo que se indique lo contrario, de los gastos de transporte, telefónicos, correos y otros gastos ocurridos durante el periodo de garantía.<br><br>
+                                    <spring:message code="condgen.parraf3.9.7"/><br><br>
 
-                                    <li>Reserva de propiedad</li><br><br>
+                                    <li><spring:message code="condgen.tit3.10"/></li><br><br>
 
-                                    EduWebGroup se reserva expresamente la propiedad de los productos entregados hasta el pago integro del precio de venta, intereses, gastos, etc. En consecuencia, según la presente disposición, no se considerará efectuado el pago, de las letras de cambio, los pagarés, los cheques o cualquier otro título que cree obligación de pagar hasta que se llegue a buen fin con el cobro de dichos documentos.<br><br>
+                                    <spring:message code="condgen.parraf3.10.1"/><br><br>
 
-                                    No obstante, los riesgos se transfieren al Cliente desde la entrega de los productos. El Cliente se compromete a la custodia y conservación de los productos y a suscribir los seguros pertinentes a fin de cubrir los desperfectos y siniestros susceptibles de ser causados a los productos.<br><br>
+                                    <spring:message code="condgen.parraf3.10.2"/><br><br>
 
-                                    En caso de que el Cliente suspenda los pagos, EduWebGroup podrá reclamar los productos. Las cantidades a cuenta anteriormente pagadas quedarán en poder de EduWebGroup en concepto de cláusula de penalización.<br><br>
+                                    <spring:message code="condgen.parraf3.10.3"/><br><br>
 
-                                    <li>Tecnología segura de encriptación.</li><br><br>
+                                    <li><spring:message code="condgen.tit3.11"/></li><br><br>
 
-                                    EduWebGroup con el fin de no compremeter sus datos, le redireccionamos al método de pago de Paypal en caso que decida no hacer una transferencia bancaria, para que sus datos viajen seguros empleando la tecnología de seguridad SSL (Secure Socket Layer), estándar reconocido en Internet para efectuar transacciones comerciales. Este sistema encripta toda su información personal, incluyendo los datos de su tarjeta de crédito, su nombre e incluso tu dirección de forma que es imposible leer los datos mientras se trasladan por la red. Un icono mostrando una llave o un candado cerrado aparecerá en el borde inferior de la mayoría a de los navegadores para indicar que la seguridad SSL está operativa. Si pulsas sobre este icono tendrás acceso al certificado asociado con la conexión de seguridad. Este certificado garantiza la identidad del ordenador de destino al cual se está enviando datos. Igualmente, al trabajar bajo servidor seguro , la dirección Web o URL comienza por https: en lugar del habitual http:<br>
+                                    <spring:message code="condgen.parraf3.11.1"/><spring:message code="condgen.parraf3.11.2"/><spring:message code="condgen.parraf3.11.3"/><spring:message code="condgen.parraf3.11.4"/><br>
                                 </ol>
                             </li>
-                            <li>Condiciones de acceso.</li><br><br>
+                            <li><spring:message code="condgen.tit4"/></li><br><br>
 
-                            La prestación del servicio de sitio Web por parte de EduWebGroup tiene carácter gratuito para los usuarios, y no exige la previa suscripción o registro. Sin embargo, si el usuario desea recibir vía e-mail periódicamente las nuevas noticias publicadas sobre nuestros productos, deberá previamente registrarse mediante la cumplimentación del formulario on line “suscríbete a nuestro boletín”, contenido en la página, que igualmente no conllevará ningún tipo de obligación de pago. Si por otro lado el usuario desea realizar una compra a través de las páginas asignadas para tal fin, también deberá registrarse o darse de alta previamente, igualmente sin conllevar ningún tipo de pago adicional.<br><br>
+                            <spring:message code="condgen.parraf4.1"/><spring:message code="condgen.parraf4.2"/> <spring:message code="condgen.parraf4.3"/>
+                            
+                            <li><spring:message code="condgen.tit5"/></li><br><br>
 
-                            <li>Derechos de autor, propiedad intelectual e industrial.</li><br><br>
+                            <spring:message code="condgen.parraf5.1"/><spring:message code="condgen.parraf5.2"/><spring:message code="condgen.parraf5.3"/><spring:message code="condgen.parraf5.4"/><br><br>
 
-                            Son de propiedad de EduWebGroup todos los contenidos de www.eduwebgroup.com que supongan: su diseño gráfico, sus logos, las imágenes, los textos y demás elementos contenidos en la misma. Igualmente, el usuario reconoce y acepta que todas las marcas, nombres comerciales o signos distintivos, y todos los derechos de propiedad industrial e intelectual inherentes a los mismos, sobre los contenidos y/o cualesquiera otros elementos insertados en la página, son propiedad exclusiva de EduWebGroup y/o de terceros, quienes tienen el derecho exclusivo de utilizarlos en el tráfico económico. Bajo ningún supuesto, el acceso a los contenidos de la página Web supone la renuncia, transmisión, cesión, licencia total o parcial de dichos derechos, ni confiere ningún derecho de utilización, traducción, adaptación, alteración, explotación, reproducción, distribución o comunicación pública de dichos contenidos, sin la previa y expresa autorización de EduWebGroup o sus titulares legales. Ningún material de los que se presentan en la página Web de EduWebGroup podrá ser copiado, reproducido, publicado, cargado en equipos informáticos, enviado por correo, transmitido o distribuido en forma alguna, en especial mediante publicación en otras páginas Web o en entornos de red, distinta de la descarga en su ordenador personal para su exclusivo uso doméstico, respetando rigurosamente todos los copyright y avisos de propiedad.<br><br>
+                            <li><spring:message code="condgen.tit6"/></li><br><br>
 
-                            <li>Responsabilidad.</li><br><br>
+                            <spring:message code="condgen.parraf6.1"/><br><br><spring:message code="condgen.parraf6.2"/><spring:message code="condgen.parraf6.3"/>
 
-                            EduWebGroup no garantiza la ausencia de virus o elementos similares en los documentos electrónicos y ficheros almacenados en su sistema informático y en su página Web, que pudieran producir alteraciones de software y hardware para el usuario. La utilización de nuestra página Web y de sus contenidos supone la aceptación por parte del usuario de los anteriores riesgos y, por ello, éste excluye a EduWebGroup de cualquier responsabilidad por los daños y perjuicios de toda naturaleza derivados de la eventual presencia de virus u otros elementos análogos. EduWebGroup intentará con todos los medios a su alcance garantizar la seguridad de la información facilitada por los usuarios. No obstante, como es comúnmente conocido, la seguridad en el entorno de Internet no puede ser garantizada en su totalidad, en ningún momento.<br><br>
+                            <li><spring:message code="condgen.tit7"/></li><br><br>
 
-                            <li>Links.</li><br><br>
+                            <spring:message code="condgen.parraf7.1"/><spring:message code="condgen.parraf7.2"/><br><br>
+                            
+                            <li><spring:message code="condgen.tit8"/></li><br><br>
 
-                            Nuestro sitio Web contiene vínculos a otras páginas Web, en que las prácticas de información y condiciones de uso pueden ser diferentes de las nuestras. Por ello, los usuarios deberán consultar las notificaciones de privacidad de las otras páginas a las que accedan; ya que EduWebGroup no conoce, controla, vigila o hace propios los contenidos de las mismas y, por tanto, no se hace responsable de la información suministrada o recogida por estos terceros, excluyendo expresamente cualquier responsabilidad por los daños y perjuicios de toda clase que pudieran derivarse del acceso a las páginas o contenidos que enlacen directamente desde www.eduwebgroup.com. Por consiguiente, EduWebGroup declina cualquier responsabilidad respecto a la información que se incluya fuera de este sitio Web y no gestionada por www.eduwebgroup.com<br><br>
+                            <spring:message code="condgen.parraf8.1"/><spring:message code="condgen.parraf8.2"/><br><br>
 
-                            <li>Uso de tecnología cookie.</li><br><br>
+                            <li><spring:message code="condgen.tit9"/></li><br><br>
 
-                            EduWebGroup se reserva el derecho de utilización de las denominadas cookies o archivos similares, en cualquier tipo de utilización del portal. No obstante, las cookies utilizadas se asocian únicamente con usuarios anónimos y sus terminales, sin proporcionar referencias que permitan deducir datos personales del usuario. Asimismo, en relación a cuanto antecede, EduWebGroup le informa sobre el hecho de que la mayoría de los navegadores en la red, permiten a los usuarios borrar las cookies del disco duro de su ordenador, bloquearlas o recibir un mensaje antes de grabar una.<br><br>
+                            <spring:message code="condgen.parraf9.1"/><spring:message code="condgen.parraf9.2"/><br><br>
 
-                            <li>Modificaciones en el sitio Web, en los servicios y en los contenidos.</li><br><br>
+                            <li><spring:message code="condgen.tit10"/></li><br><br>
 
-                            EduWebGroup se reserva el derecho a modificar unilateralmente y en cualquier momento, sin previo aviso, la presentación y contenido del sitio Web, sus servicios y las condiciones generales de uso. Dichas modificaciones serán para mejorar la página, mejorando simultáneamente los servicios ofrecidos al usuario. Por cuanto antecede, EduWebGroup le ruega encarecidamente que proceda a la revisión y comprobación de las condiciones generales de uso, cada una de las veces que acceda a la Web, siendo de su propia responsabilidad el no hacerlo y suponiendo ello que, aun así, acepta tácitamente el contenido de las mismas.<br><br>
+                            <spring:message code="condgen.parraf10.1"/><br><br>
 
-                            <li>Terminación.</li><br><br>
+                            <li><spring:message code="condgen.tit11"/></li><br><br>
 
-                            Si bien, en principio, la duración de este sitio Web es indeterminada, EduWebGroup se reserva el derecho a suspender o dar por terminada la prestación de algunos o todos de sus servicios, sin que esta decisión deba ser comunicada con antelación a los usuarios del mismo.<br><br>
+                            <spring:message code="condgen.parraf11.1"/><br><br>
 
-                            <li>Ley y jurisdicción aplicables.</li><br><br>
-
-                            Las presentes condiciones generales de uso se rigen por las Leyes Españolas. Cualquier controversia en relación con el sitio Web de EduWebGroup se sustanciará ante la jurisdicción española.<br><br>
-
-                            <li>Responsabilidades.</li><br><br>
+                            <li><spring:message code="condgen.tit12"/></li><br><br>
                         </ol>
-                        El incumplimiento de las presentes condiciones generales de uso, o la utilización de la página Web www.eduwebgroup.com en términos contrarios a los establecidos, dará lugar a la exigencia de las responsabilidades derivadas de cuanto antecede, mediante el ejercicio de las acciones judiciales que EduWebGroup estime pertinentes en cada momento.<br><br>        
+                        <spring:message code="condgen.parraf12.1"/><br><br>        
                     </div> </p>
                 </div>
             </div>
