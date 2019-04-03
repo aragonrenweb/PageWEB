@@ -33,7 +33,7 @@
     </bean>
    
     <bean id="localeResolver" class="org.springframework.web.servlet.i18n.SessionLocaleResolver">
-      <property name="defaultLocale" value="es" />
+      <property name="defaultLocale" value="en" />
     </bean>
 
 <bean class="controlador.DatosUsuarioControlador" name="ControladorIdioma"/>

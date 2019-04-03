@@ -30,6 +30,8 @@ public class DatosUsuarioControlador implements Controller {
          
             idioma = request.getParameter("idioma");
             pagina = request.getParameter("page");
+            if(!idioma.equals("es"))
+                idioma = "en";
             RequestContextUtils.getLocaleResolver(request).setLocale(request, response, new Locale(idioma));
             
           
