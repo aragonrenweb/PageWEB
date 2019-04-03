@@ -1693,10 +1693,10 @@
 
             <div class="row col-12  pr-0">
                 <div class="col-12 col-md-6 cardInfo">
-                    <div class="col-12"><h4 class="text-center" style="transform: skewX(4deg);"><spring:message code="body.FACTS1"/> <spring:message code="home.SIS1"/></h4></div> 
-                    <div class="col-10 offset-1 text-center" style="transform: skewX(4deg);">
+                    <div class="col-12"><h4 class="text-center"><spring:message code="body.FACTS1"/> <spring:message code="home.SIS1"/></h4></div> 
+                    <div class="col-10 offset-1 text-center">
                         <p>
-                        <spring:message code="body.FACTS2"/> <spring:message code="home.SIS1"/> <spring:message code="body.FACTS3"/> <spring:message code="home.SIS1"/> <spring:message code="body.FACTS4"/> <h4><spring:message code="body.FACTS5"/></h4>.
+                        <spring:message code="body.FACTS2"/> <spring:message code="home.SIS1"/> <spring:message code="body.FACTS3"/> <spring:message code="home.SIS1"/> <spring:message code="body.FACTS4"/> <h4><spring:message code="body.FACTS5"/></h4>
                         </p>
                         <p>
                             <spring:message code="body.FACTS6"/> 
