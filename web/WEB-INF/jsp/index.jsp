@@ -2330,6 +2330,7 @@
                     </div>
                 </div>
             </div>
+        </div>
 
             <%--             <div class="col-12">
                            <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -2813,13 +2814,13 @@
         </div>--%>
 
 
-            <div class="col-12">
-                <hr>
-                <div class="col-12"><h4 class="text-center"><spring:message code="condgen.tit"/></h4></div> 
-                <div class="col-10 offset-1">
-                    <p class="mb-3">
-                        <spring:message code="condgen.tit"/><br><br>
-                    <div id="collapseCondicionesInicio">
+            <%--           <div class="col-12">
+                            <hr>
+                            <div class="col-12"><h4 class="text-center"><spring:message code="condgen.tit"/></h4></div> 
+                            <div class="col-10 offset-1">
+                                <p class="mb-3">
+                                    <spring:message code="condgen.tit"/><br><br>
+                                <div id="collapseCondicionesInicio">
 
                         <ol class="primero">
                             <li><spring:message code="condgen.tit1"/></li><br><br>
@@ -3006,7 +3007,7 @@
                         <spring:message code="condgen.parraf12.1"/><br><br>        
                     </div> </p>
                 </div>
-            </div>
+            </div>--%>
 
             <hr>
             <hr>
@@ -3030,11 +3031,14 @@
                             padding: 0;
                             overflow: hidden;">
                             <h6 class="font-weight-bold text-uppercase mt-3 mb-4 text-left">Sobre nosotros</h6>
-                            <li style="float:left;"><a href="">Política de privacidad EduWebGroup SL</a></li><br>
-                            <li style="float:left;"><a href="">Política de privacidad EduWebGroup INC</a></li><br>
-                            <li style="float:left;"><a href="">Política de privacidad Servicios de consultoría EduWeb</a></li><br>
+                            <li style="float:left;"><a href="<c:url value='/privacyPolicy.htm?informacion=privacyPolicy#privacyPolicyEduwebSL'/>">Política de privacidad EduWebGroup SL</a></li><br>
+                            <li style="float:left;"><a href="<c:url value='/privacyPolicy.htm?informacion=privacyPolicy#privacyPolicyEduwebINC'/>">Política de privacidad EduWebGroup INC</a></li><br>
+                            <li style="float:left;"><a href="<c:url value='/privacyPolicy.htm?informacion=privacyPolicy#privacyPolicyEduwebServices' />">Política de privacidad Servicios de consultoría EduWeb</a></li><br>
+                            <li style="float:left;"><a href="<c:url value='' />"><spring:message code="condgen.tit"/></a></li><br>
                         </ul>
                     </div>
+
+
 
                     <div class="col-md-4 mx-auto">
 
@@ -3096,18 +3100,18 @@
 
             </footer>
 
-       
-                <div class="col-3 md-offset-1 text-left">
-                    <i class='fa fa-globe-americas' style="margin-left: 25%;
-                          margin-right: 2%;"></i>
-                    <a href=" <c:url value='/privacyPolicy.htm' /> "> EN </a> -
-                    <a href=" "> ES </a> -
-                    <a href=" "> AR </a>
-                </div>
-                <div class="col-8">
-                    <p class="text-right"> Eduweb group @2019. Todos los derechos reservados.  </p>
-                </div>
-         
+
+            <div class="col-3 md-offset-1 text-left">
+                <i class='fa fa-globe-americas' style="margin-left: 25%;
+                   margin-right: 2%;"></i>
+                <a href=" "> EN </a> -
+                <a href=" "> ES </a> -
+                <a href=" "> AR </a>
+            </div>
+            <div class="col-8">
+                <p class="text-right"> Eduweb group @2019. Todos los derechos reservados.  </p>
+            </div>
+
 
 
 

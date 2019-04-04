@@ -103,11 +103,11 @@ public class staticController {
 
     
     
-    /*politicas privacidad*/
+    /*politicas privacidad, cambiar request.getLocale por la variable del idioma en el que pinchen*/
     
      @RequestMapping("/privacyPolicy.htm")
     public ModelAndView privacyPolicy(HttpServletRequest request, HttpServletResponse hsr1) throws Exception {
-
+         
         ModelAndView mv = new ModelAndView("redirect:/datosIdioma.htm?idioma="+request.getLocale().getLanguage()+"&page=privacyPolicy");
 
         return mv;
