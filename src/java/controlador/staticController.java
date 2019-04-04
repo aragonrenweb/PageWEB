@@ -96,9 +96,8 @@ public class staticController {
     @RequestMapping("/bamboo.htm")
     public ModelAndView bamboo(HttpServletRequest request, HttpServletResponse hsr1) throws Exception {
 
-        ModelAndView mv = new ModelAndView("redirect:/datosIdioma.htm?idioma="+request.getLocale().getLanguage()+"&page=bamboo");
-
-        return mv;
+        return new ModelAndView("redirect:/datosIdioma.htm?idioma="+request.getLocale().getLanguage()+"&page=bamboo");
+ 
     }
 
     
@@ -107,10 +106,8 @@ public class staticController {
     
      @RequestMapping("/privacyPolicy.htm")
     public ModelAndView privacyPolicy(HttpServletRequest request, HttpServletResponse hsr1) throws Exception {
-         
-        ModelAndView mv = new ModelAndView("redirect:/datosIdioma.htm?idioma="+request.getLocale().getLanguage()+"&page=privacyPolicy");
-
-        return mv;
+        String paramIdioma = request.getParameter("lenguaje");
+        return new ModelAndView("redirect:/datosIdioma.htm?idioma="+paramIdioma+"&page=privacyPolicy");
     }
     
     /**************/

@@ -3019,7 +3019,7 @@
                         <h6 class="text-muted text-left">
                             Paseo de la Castellana 153<br>
                             Madrid<br>
-                            Teléfono: 3112641818<br>
+                            Teléfono: +34 91 64 28 97<br>
                             Correo electrónico: sales@eduwebgroup.com
                         </h6>
                     </div>
@@ -3104,9 +3104,9 @@
             <div class="col-3 md-offset-1 text-left">
                 <i class='fa fa-globe-americas' style="margin-left: 25%;
                    margin-right: 2%;"></i>
-                <a href=" "> EN </a> -
-                <a href=" "> ES </a> -
-                <a href=" "> AR </a>
+                <a href="privacyPolicy.htm?lenguaje=en"> EN </a> -
+                <a href="privacyPolicy.htm?lenguaje=es"> ES </a> -
+                <a href="privacyPolicy.htm?lenguaje=ar "> AR </a>
             </div>
             <div class="col-8">
                 <p class="text-right"> Eduweb group @2019. Todos los derechos reservados.  </p>

@@ -50,6 +50,7 @@
                 <prop key="index.htm">ControladorIdioma</prop>
                 <prop key="facts.htm">staticController</prop> 
                 <prop key="datosIdioma.htm">ControladorIdioma</prop>
+                <prop key="privacyPolicy.htm">ControladorIdioma</prop>
             </props>
         </property>
     </bean>
