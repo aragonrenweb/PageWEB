@@ -2331,21 +2331,21 @@
                 </div>
             </div>
 
-            <div class="col-12">
-                <ul class="nav nav-tabs" id="myTab" role="tablist">
-                    <li class="nav-item">
-                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#privacyPolicySL" role="tab" aria-controls="privacyPolicySL" aria-selected="true" onclick="privacyPolicySL()"><spring:message code="polp.pest1"/></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#privacyPolicyINC" role="tab" aria-controls="privacyPolicyINC" aria-selected="false" onclick="privacyPolicyINC()"><spring:message code="polp.pest2"/></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#privacyPolicyCon" role="tab" aria-controls="privacyPolicyCon" aria-selected="false" onclick="privacyPolicyCon()"><spring:message code="polp.pest3"/></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#privacyPayments" role="tab" aria-controls="privacyPayments" aria-selected="false" onclick="privacyPayments()"><spring:message code="polp.pest4"/></a>
-                    </li>
-                </ul>
+            <%--             <div class="col-12">
+                           <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#privacyPolicySL" role="tab" aria-controls="privacyPolicySL" aria-selected="true" onclick="privacyPolicySL()"><spring:message code="polp.pest1"/></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#privacyPolicyINC" role="tab" aria-controls="privacyPolicyINC" aria-selected="false" onclick="privacyPolicyINC()"><spring:message code="polp.pest2"/></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#privacyPolicyCon" role="tab" aria-controls="privacyPolicyCon" aria-selected="false" onclick="privacyPolicyCon()"><spring:message code="polp.pest3"/></a>
+                                </li>
+                                                    <li class="nav-item">
+                                                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#privacyPayments" role="tab" aria-controls="privacyPayments" aria-selected="false" onclick="privacyPayments()"><spring:message code="polp.pest4"/></a>
+                                                    </li>
+                            </ul>
 
 
                 <div class="tab-content" id="myTabContent">
@@ -2364,7 +2364,7 @@
                                 <spring:message code="polp.sl.intro.parraf1"/><a class="" data-toggle="collapse" href="#collapsePrivacy" role="button" aria-expanded="false" aria-controls="collapsePrivacy">
                                     Read more...</a><br>
                                 <br>
-                           <div class="collapse" id="collapsePrivacy">Background<br>
+                            <div class="collapse" id="collapsePrivacy">Background<br>
                                 <spring:message code="polp.sl.intro.parraf2"/><br><br>
 
                                 <spring:message code="polp.sl.intro.parraf3"/>
@@ -2514,14 +2514,14 @@
                                 <a class="" data-toggle="collapse" href="#collapsePrivacy" role="button" aria-expanded="false" aria-controls="collapsePrivacy">
                                     Read more...</a><br>
                                 <br>
-                           <div class="collapse" id="collapsePrivacy">Background<br>
+                            <div class="collapse" id="collapsePrivacy">Background<br>
                                 <spring:message code="polp.inc.intro.parraf2"/><br><br>
 
                                 <spring:message code="polp.inc.intro.parraf3"/><br>
                                 <spring:message code="polp.inc.intro.parraf4"/><br><br>
 
 
-                                 <spring:message code="polp.inc.intro.parraf5"/><br>
+                                <spring:message code="polp.inc.intro.parraf5"/><br>
                                 <spring:message code="polp.inc.intro.parraf6"/><br> 
                                 <ul class="list-group list-group-flush">
                                     <li class="list-group-item"><spring:message code="polp.inc.intro.li6.1"/></li>
@@ -2538,7 +2538,7 @@
                                     <li class="list-group-item"><spring:message code="polp.inc.intro.li8.2"/></li>
                                     <li class="list-group-item"><spring:message code="polp.inc.intro.li8.3"/></li>
                                 </ul><br><br> 
-                               <spring:message code="polp.inc.intro.parraf9"/><br>
+                                <spring:message code="polp.inc.intro.parraf9"/><br>
                                 <spring:message code="polp.inc.intro.parraf10"/><br>
                                 <ul class="list-group list-group-flush">
                                     <li class="list-group-item"><spring:message code="polp.inc.intro.li10.1"/></li>
@@ -2574,18 +2574,18 @@
                                 <spring:message code="polp.inc.intro.parraf15"/><br>
                                 <ul class="list-group list-group-flush">
                                     <li class="list-group-item"><spring:message code="polp.inc.intro.li15.1"/></li>
-                                     <li class="list-group-item"><spring:message code="polp.inc.intro.li15.2"/></li>
+                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li15.2"/></li>
                                     <li class="list-group-item"><spring:message code="polp.inc.intro.li15.3"/></li>
-                                     <li class="list-group-item"><spring:message code="polp.inc.intro.li15.4"/></li>
+                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li15.4"/></li>
                                     <li class="list-group-item"><spring:message code="polp.inc.intro.li15.5"/></li>
                                     <li class="list-group-item"><spring:message code="polp.inc.intro.li15.6"/></li>
                                     <li class="list-group-item"><spring:message code="polp.inc.intro.li15.7"/></li>
                                     <li class="list-group-item"><spring:message code="polp.inc.intro.li15.8"/></li>
                                     <li class="list-group-item"><spring:message code="polp.inc.intro.li15.9"/></li>
                                     <li class="list-group-item"><spring:message code="polp.inc.intro.li15.10"/></li>
-                                   <li class="list-group-item"><spring:message code="polp.inc.intro.li15.11"/></li>
+                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li15.11"/></li>
                                 </ul><br><br> 
-                              
+
                                 <spring:message code="polp.inc.intro.parraf16"/><br>
                                 <spring:message code="polp.inc.intro.parraf17"/><br>
                                 <ul class="list-group list-group-flush">
@@ -2665,7 +2665,7 @@
                                 <spring:message code="polp.con.parraf5"/><br>
                                 <spring:message code="polp.con.parraf6"/><br> 
                                 <br>
-                                  <spring:message code="polp.con.intro.tit"/><br>
+                                <spring:message code="polp.con.intro.tit"/><br>
                                 <spring:message code="polp.con.intro.parraf1"/>
                                 <a class="" data-toggle="collapse" href="#collapsePrivacy" role="button" aria-expanded="false" aria-controls="collapsePrivacy">
                                     Read more...</a><br>
@@ -2806,74 +2806,11 @@
                             </div>
                             </p> 
                         </div> 
-
-                    </div>
-
-                    <div class="tab-pane fade" id="privacyPayments" role="tabpanel" aria-labelledby="profile-tab">
-                        <div class="col-10 offset-1">
-                            <p class="mb-3">
-                                <spring:message code="pol.metpag.parraf1"/><br>
-                                <spring:message code="pol.metpag.parraf2"/><br>
-                                <spring:message code="pol.metpag.parraf3"/>
-                                <br>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item"><spring:message code="pol.metpag.li3.1"/><br>
-                                    <spring:message code="pol.metpag.li3.2"/></li><br>
-
-
-                                <li class="list-group-item"><spring:message code="pol.metpag.li3.3"/><br>
-                                    <spring:message code="pol.metpag.li3.4"/>
-                                    <a class="" data-toggle="collapse" href="#collapsePrivacy" role="button" aria-expanded="false" aria-controls="collapsePrivacy">
-                                        Read more...</a><br>
-                                </li><br> 
-
-                                <div class="collapse" id="collapsePrivacy">Background<br>
-                                    <li class="list-group-item"><spring:message code="pol.metpag.li3.5"/><br>
-                                        <spring:message code="pol.metpag.li3.6"/>
-                                    </li><br> 
-                                    <li class="list-group-item"><spring:message code="pol.metpag.li3.7"/> <br>
-                                        <spring:message code="pol.metpag.li3.8"/>
-                                    </li><br> 
-                                    <li class="list-group-item"><spring:message code="pol.metpag.li3.9"/><br>
-                                        <spring:message code="pol.metpag.li3.10"/>
-                                    </li><br> 
-                                    <li class="list-group-item"><spring:message code="pol.metpag.li3.11"/><br>
-                                        <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">
-                                                <spring:message code="pol.metpag.li3.12"/><br>
-                                                <spring:message code="pol.metpag.li3.13"/>
-                                            </li>
-                                            <li class="list-group-item">
-                                                <spring:message code="pol.metpag.li3.14"/>
-                                            </li>
-                                        </ul>
-                                    <li class="list-group-item"><spring:message code="pol.metpag.li3.15"/><br>
-                                        <spring:message code="pol.metpag.li3.16"/>
-                                    </li><br>
-                                    <li class="list-group-item"><spring:message code="pol.metpag.li3.17"/><br>
-                                        <spring:message code="pol.metpag.li3.18"/>
-                                    </li><br>
-                                    <li class="list-group-item"><spring:message code="pol.metpag.li3.19"/><br>
-                                        <spring:message code="pol.metpag.li3.20"/>
-                                    </li><br>
-                                    <li class="list-group-item"><spring:message code="pol.metpag.li3.21"/><br>
-                                        <spring:message code="pol.metpag.li3.22"/>
-                                    </li><br>
-                                    <li class="list-group-item"><spring:message code="pol.metpag.li3.23"/><br>
-                                        <spring:message code="pol.metpag.li3.24"/>
-                                    </li><br>
-                                    <li class="list-group-item"><spring:message code="pol.metpag.li3.25"/><br>
-                                        <spring:message code="pol.metpag.li3.26"/>
-                                    </li><br>
-                                    <!--</li><br>--> 
-                                    </ul><br><br>  
-                                </div>                   
-                                </p> 
-                        </div>
                     </div>
                 </div>
-
-            </div>
+            </div>                          
+                            
+        </div>--%>
 
 
             <div class="col-12">
@@ -2887,7 +2824,7 @@
                         <ol class="primero">
                             <li><spring:message code="condgen.tit1"/></li><br><br>
 
-                           <spring:message code="condgen.parraf1"/><br><br>
+                            <spring:message code="condgen.parraf1"/><br><br>
 
 
                             <li><spring:message code="condgen.tit2"/></li><br><br>
@@ -2920,19 +2857,19 @@
                             <spring:message code="condgen.parraf13.1.3"/><br>
                             <spring:message code="condgen.parraf13.1.4"/><br>
 
-                            
+
                             <a id="mostrarCondiInicio" data-toggle="collapse" href="#collapseCondiciones" role="button" aria-expanded="false" aria-controls="collapseCondiciones">
                                 Leer menos...
                             </a>
                             <li><spring:message code="condgen.tit3"/><br><br>
                                 <ol>
                                     <li><spring:message code="condgen.tit3.1"/></li><br><br>
-                                    
+
                                     <spring:message code="condgen.parraf3.1.1"/><br>
                                     <spring:message code="condgen.parraf3.1.2"/><br>
                                     <spring:message code="condgen.parraf3.1.3"/><br>
                                     <spring:message code="condgen.parraf3.1.4"/><br><br>
-                                    
+
                                     <li><spring:message code="condgen.tit3.3"/></li><br><br>
                                     <spring:message code="condgen.parraf3.2.1"/><br><br>
                                     <li><spring:message code="condgen.tit03.03"/></li><br><br>
@@ -2956,25 +2893,25 @@
                                     <spring:message code="condgen.titular"/> EDUWEB GROUP, S.L.<br>
                                     <spring:message code="condgen.moneda"/> Euros<br><br>
 
-                                   <spring:message code="condgen.parraf"/><br><br>
+                                    <spring:message code="condgen.parraf"/><br><br>
 
-                                     <spring:message code="condgen.pago.p1"/><br><br>
+                                    <spring:message code="condgen.pago.p1"/><br><br>
 
                                     <spring:message code="condgen.pago.p2"/><br><br>
                                     <spring:message code="condgen.pago.p3"/><br><br>
-                                    
+
                                     <spring:message code="condgen.pago.p4"/><br>
                                     <spring:message code="condgen.pago.p5"/><br>
-                                    
+
                                     <li><spring:message code="condgen.tit3.5"/></li><br><br>
-                                    
+
                                     <spring:message code="condgen.parraf3.5.1"/><br>
                                     <spring:message code="condgen.parraf3.5.2"/><br>
                                     <spring:message code="condgen.parraf3.5.3"/><br>
-                                    
+
                                     <li><spring:message code="condgen.tit3.6"/></li><br><br>
                                         <spring:message code="condgen.parraf3.6.1"/>
-                                    
+
                                     <li><spring:message code="condgen.tit3.7"/></li><br><br>
 
                                     <spring:message code="condgen.parraf3.7.1"/><br><br>
@@ -2983,8 +2920,8 @@
                                     <spring:message code="condgen.parraf3.7.4"/><br><br>
                                     <spring:message code="condgen.parraf3.7.5"/><br><br>
                                     <spring:message code="condgen.parraf3.7.6"/><br><br>
-                                    
-                                    
+
+
                                     <li><spring:message code="condgen.tit3.8"/></li><br><br>
 
                                     <spring:message code="condgen.parraf3.8.1"/><br><br>
@@ -3035,7 +2972,7 @@
                             <li><spring:message code="condgen.tit4"/></li><br><br>
 
                             <spring:message code="condgen.parraf4.1"/><spring:message code="condgen.parraf4.2"/> <spring:message code="condgen.parraf4.3"/>
-                            
+
                             <li><spring:message code="condgen.tit5"/></li><br><br>
 
                             <spring:message code="condgen.parraf5.1"/><spring:message code="condgen.parraf5.2"/><spring:message code="condgen.parraf5.3"/><spring:message code="condgen.parraf5.4"/><br><br>
@@ -3047,7 +2984,7 @@
                             <li><spring:message code="condgen.tit7"/></li><br><br>
 
                             <spring:message code="condgen.parraf7.1"/><spring:message code="condgen.parraf7.2"/><br><br>
-                            
+
                             <li><spring:message code="condgen.tit8"/></li><br><br>
 
                             <spring:message code="condgen.parraf8.1"/><spring:message code="condgen.parraf8.2"/><br><br>
@@ -3070,27 +3007,128 @@
                     </div> </p>
                 </div>
             </div>
-            <!--<div  class="col-12 mt-md-3 footerScheduler">más información</div>-->
-        </div>  
 
-        <script type="text/javascript" src="recursos/css/slick/slick.min.js"></script>
+            <hr>
+            <hr>
 
-        <script type="text/javascript">
-                            $(document).ready(function () {
-                                $(".lazy").slick({
-                                    infinite: true,
-                                    slidesToShow: 2,
-                                    slidesToScroll: 2
-                                });
-                            });
-        </script>
-        <div class="divLoadStudent" id="loadingmessage">
-            <div class="text-center"> 
-                <img class="imgLoading" src="recursos/img/large_loading.gif"/>
+            <footer class="col-12 mb-4">
+                <div class="row" style="margin-left: 5%;">
+                    <div class="col-md-4 mx-auto">
+                        <h6 class="font-weight-bold text-uppercase mt-3 mb-4 text-left">CONTACTO</h6>
+                        <h6 class="text-muted text-left">
+                            Paseo de la Castellana 153<br>
+                            Madrid<br>
+                            Teléfono: 3112641818<br>
+                            Correo electrónico: sales@eduwebgroup.com
+                        </h6>
+                    </div>
+
+                    <hr class="clearfix w-100 d-md-none">
+                    <div class="col-md-4 mx-auto">
+                        <ul style="list-style-type: none;
+                            margin: 0;
+                            padding: 0;
+                            overflow: hidden;">
+                            <h6 class="font-weight-bold text-uppercase mt-3 mb-4 text-left">Sobre nosotros</h6>
+                            <li style="float:left;"><a href="">Política de privacidad EduWebGroup SL</a></li><br>
+                            <li style="float:left;"><a href="">Política de privacidad EduWebGroup INC</a></li><br>
+                            <li style="float:left;"><a href="">Política de privacidad Servicios de consultoría EduWeb</a></li><br>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-4 mx-auto">
+
+                        <ul style="list-style-type: none;
+                            margin: 0;
+                            padding: 0;
+                            overflow: hidden;">
+                            <h6 class="font-weight-bold text-uppercase mt-3 mb-4 text-left">Información de interés</h6>
+                            <li style="float:left;"><a href="">Política de devoluciones, reembolsos y cancelaciones</a></li><br>
+                            <li style="float:left;"><a href="">Política de entrega</a></li><br>
+                            <li style="float:left;"><a href="">Política de privacidad</a></li><br>
+                            <li style="float:left;"><a href="">Política de cookie y redes sociales</a></li><br>
+                            <li style="float:left;"><a href="">Aceptación de términos y políticas</a></li><br> 
+                        </ul>
+                    </div>
+                </div>
+
+
+                <!--
+                     Call to action 
+                    <ul class="list-unstyled list-inline text-center py-2">
+                      <li class="list-inline-item">
+                        <h5 class="mb-1">Register for free</h5>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#!" class="btn btn-danger btn-rounded">Sign up!</a>
+                      </li>
+                    </ul>
+    
+    
+                <!--             Social buttons 
+                            <ul class="list-unstyled list-inline text-center">
+                                <li class="list-inline-item">
+                                    <a class="btn-floating btn-fb mx-1">
+                                        <i class="fab fa-facebook-f"> </i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="btn-floating btn-tw mx-1">
+                                        <i class="fab fa-twitter"> </i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="btn-floating btn-gplus mx-1">
+                                        <i class="fab fa-google-plus-g"> </i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="btn-floating btn-li mx-1">
+                                        <i class="fab fa-linkedin-in"> </i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="btn-floating btn-dribbble mx-1">
+                                        <i class="fab fa-dribbble"> </i>
+                                    </a>
+                                </li>
+                            </ul>-->
+
+            </footer>
+
+       
+                <div class="col-3 md-offset-1 text-left">
+                    <i class='fa fa-globe-americas' style="margin-left: 25%;
+                          margin-right: 2%;"></i>
+                    <a href=" <c:url value='/privacyPolicy.htm' /> "> EN </a> -
+                    <a href=" "> ES </a> -
+                    <a href=" "> AR </a>
+                </div>
+                <div class="col-8">
+                    <p class="text-right"> Eduweb group @2019. Todos los derechos reservados.  </p>
+                </div>
+         
+
+
+
+            <script type="text/javascript" src="recursos/css/slick/slick.min.js"></script>
+
+            <script type="text/javascript">
+                                    $(document).ready(function () {
+                                        $(".lazy").slick({
+                                            infinite: true,
+                                            slidesToShow: 2,
+                                            slidesToScroll: 2
+                                        });
+                                    });
+            </script>
+            <div class="divLoadStudent" id="loadingmessage">
+                <div class="text-center"> 
+                    <img class="imgLoading" src="recursos/img/large_loading.gif"/>
+                </div>
             </div>
-        </div>
-        <div class="position-fixed btnTop nav-link-evento d-flex justify-content-center align-items-center" href=".menu">
-            <i class="fas fa-angle-double-up"></i>
-        </div>
+            <div class="position-fixed btnTop nav-link-evento d-flex justify-content-center align-items-center" href=".menu">
+                <i class="fas fa-angle-double-up"></i>
+            </div>
     </body>
 </html>
