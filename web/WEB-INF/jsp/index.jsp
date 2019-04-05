@@ -2332,21 +2332,21 @@
             </div>
         </div>
 
-            <%--             <div class="col-12">
-                           <ul class="nav nav-tabs" id="myTab" role="tablist">
-                                <li class="nav-item">
-                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#privacyPolicySL" role="tab" aria-controls="privacyPolicySL" aria-selected="true" onclick="privacyPolicySL()"><spring:message code="polp.pest1"/></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#privacyPolicyINC" role="tab" aria-controls="privacyPolicyINC" aria-selected="false" onclick="privacyPolicyINC()"><spring:message code="polp.pest2"/></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#privacyPolicyCon" role="tab" aria-controls="privacyPolicyCon" aria-selected="false" onclick="privacyPolicyCon()"><spring:message code="polp.pest3"/></a>
-                                </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#privacyPayments" role="tab" aria-controls="privacyPayments" aria-selected="false" onclick="privacyPayments()"><spring:message code="polp.pest4"/></a>
-                                                    </li>
-                            </ul>
+        <%--             <div class="col-12">
+                       <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#privacyPolicySL" role="tab" aria-controls="privacyPolicySL" aria-selected="true" onclick="privacyPolicySL()"><spring:message code="polp.pest1"/></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#privacyPolicyINC" role="tab" aria-controls="privacyPolicyINC" aria-selected="false" onclick="privacyPolicyINC()"><spring:message code="polp.pest2"/></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#privacyPolicyCon" role="tab" aria-controls="privacyPolicyCon" aria-selected="false" onclick="privacyPolicyCon()"><spring:message code="polp.pest3"/></a>
+                            </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#privacyPayments" role="tab" aria-controls="privacyPayments" aria-selected="false" onclick="privacyPayments()"><spring:message code="polp.pest4"/></a>
+                                                </li>
+                        </ul>
 
 
                 <div class="tab-content" id="myTabContent">
@@ -2814,13 +2814,13 @@
         </div>--%>
 
 
-            <%--           <div class="col-12">
-                            <hr>
-                            <div class="col-12"><h4 class="text-center"><spring:message code="condgen.tit"/></h4></div> 
-                            <div class="col-10 offset-1">
-                                <p class="mb-3">
-                                    <spring:message code="condgen.tit"/><br><br>
-                                <div id="collapseCondicionesInicio">
+        <%--           <div class="col-12">
+                        <hr>
+                        <div class="col-12"><h4 class="text-center"><spring:message code="condgen.tit"/></h4></div> 
+                        <div class="col-10 offset-1">
+                            <p class="mb-3">
+                                <spring:message code="condgen.tit"/><br><br>
+                            <div id="collapseCondicionesInicio">
 
                         <ol class="primero">
                             <li><spring:message code="condgen.tit1"/></li><br><br>
@@ -3010,112 +3010,120 @@
             </div>--%>
 
 
-            <footer class="col-12 mb-4" style="background-color: gainsboro;">
-                <div class="row" style="margin-left: 5%;" >
-                    <div class="col-md-4 mx-auto">
-                        <h6 class="font-weight-bold text-uppercase mt-3 mb-4 text-left"><spring:message code="footContact"/></h6>
-                        <h6 class="text-muted text-left">
-                            Paseo de la Castellana 153<br>
-                            Madrid<br>
-                            Teléfono: +34 91 64 28 97<br>
-                            Correo electrónico: sales@eduwebgroup.com
-                        </h6>
-                    </div>
+        <footer class="col-12 mb-4" style="background-color: gainsboro;">
+            <div class="row" style="margin-left: 5%;" >
+                <div class="col-md-4 mx-auto">
+                    <h6 class="font-weight-bold text-uppercase mt-3 mb-4 text-left"><spring:message code="footContact"/></h6>
+                    <h6 class="text-muted text-left">
+                        Paseo de la Castellana 153<br>
+                        Madrid<br>
+                        Teléfono: +34 91 64 28 97<br>
+                        Correo electrónico: sales@eduwebgroup.com
+                    </h6>
+                </div>
 
-                    <hr class="clearfix w-100 d-md-none">
-                    <div class="col-md-4 mx-auto">
-                        <ul style="list-style-type: none;
-                            margin: 0;
-                            padding: 0;                      
-                            overflow: hidden;">
-                            <h6 class="font-weight-bold text-uppercase mt-3 mb-4 text-left"><spring:message code="footAboutUs"/></h6>
-                            <li style="float:left;"><a href="<c:url value='/privacyPolicy.htm?politicapri=privacyPolicy?idioma=en#privacyPolicyEduwebSL'/>" target="_blank"><spring:message code="polp.pest1"/></a></li><br>
-                            <li style="float:left;"><a href="<c:url value='/privacyPolicy.htm?politicapri=privacyPolicy#privacyPolicyEduwebINC'/>" target="_blank"><spring:message code="polp.pest2"/></a></li><br>
-                            <li style="float:left;"><a href="<c:url value='/privacyPolicy.htm?politicapri=privacyPolicy#privacyPolicyEduwebServices'/>" target="_blank"><spring:message code="polp.pest3"/></a></li><br>
-                            <li style="float:left;"><a href="<c:url value='/privacyPolicy.htm?politicapri=privacyPolicy#generalConditions'/>"target="_blank" ><spring:message code="condgen.tit"/></a></li><br> 
-                        </ul>
-                    </div>
-
-
-
-                    <div class="col-md-4 mx-auto">
-
-                        <ul style="list-style-type: none;
-                            margin: 0;
-                            padding: 0;
-                            overflow: hidden;">
-                            <h6 class="font-weight-bold text-uppercase mt-3 mb-4 text-left"><spring:message code="footOtherInfo"/></h6>
-                            <li style="float:left;"><a href="">Política de devoluciones, reembolsos y cancelaciones</a></li><br>
-                            <li style="float:left;"><a href="">Política de entrega</a></li><br>
-                            <li style="float:left;"><a href="">Política de privacidad</a></li><br>
-                            <li style="float:left;"><a href="">Política de cookie y redes sociales</a></li><br>
-                            <li style="float:left;"><a href="">Aceptación de términos y políticas</a></li><br> 
-                        </ul>
-                    </div>
+                <hr class="clearfix w-100 d-md-none">
+                <div class="col-md-4 mx-auto">
+                    <ul style="list-style-type: none;
+                        margin: 0;
+                        padding: 0;                      
+                        overflow: hidden;">
+                        <h6 class="font-weight-bold text-uppercase mt-3 mb-4 text-left"><spring:message code="footAboutUs"/></h6>
+                        <li style="float:left;"><a href="<c:url value='/privacyPolicy.htm?politicapri=privacyPolicy?idioma=en#privacyPolicyEduwebSL'/>" target="_blank"><spring:message code="polp.pest1"/></a></li><br>
+                        <li style="float:left;"><a href="<c:url value='/privacyPolicy.htm?politicapri=privacyPolicy#privacyPolicyEduwebINC'/>" target="_blank"><spring:message code="polp.pest2"/></a></li><br>
+                        <li style="float:left;"><a href="<c:url value='/privacyPolicy.htm?politicapri=privacyPolicy#privacyPolicyEduwebServices'/>" target="_blank"><spring:message code="polp.pest3"/></a></li><br>
+                        <li style="float:left;"><a href="<c:url value='/privacyPolicy.htm?politicapri=privacyPolicy#generalConditions'/>"target="_blank" ><spring:message code="condgen.tit"/></a></li><br> 
+                    </ul>
                 </div>
 
 
-                <!--
-                     Call to action 
-                    <ul class="list-unstyled list-inline text-center py-2">
-                      <li class="list-inline-item">
-                        <h5 class="mb-1">Register for free</h5>
-                      </li>
-                      <li class="list-inline-item">
-                        <a href="#!" class="btn btn-danger btn-rounded">Sign up!</a>
-                      </li>
+
+                <div class="col-md-4 mx-auto">
+
+                    <ul style="list-style-type: none;
+                        margin: 0;
+                        padding: 0;
+                        overflow: hidden;">
+                        <h6 class="font-weight-bold text-uppercase mt-3 mb-4 text-left"><spring:message code="footOtherInfo"/></h6>
+                        <!--                            <li style="float:left;"><a href="">Política de devoluciones, reembolsos y cancelaciones</a></li><br>
+                                                    <li style="float:left;"><a href="">Política de entrega</a></li><br>
+                                                    <li style="float:left;"><a href="">Política de privacidad</a></li><br>
+                                                    <li style="float:left;"><a href="">Política de cookie y redes sociales</a></li><br>
+                                                    <li style="float:left;"><a href="">Aceptación de términos y políticas</a></li><br> -->
+                        
+                        <!--/*sin enlace-->
+                        <li style="float:left;"><a name="" style="color:#007bff">Política de devoluciones, reembolsos y cancelaciones</a></li><br>
+                        <li style="float:left;"><a name="" style="color:#007bff">Política de entrega</a></li><br>
+                        <li style="float:left;"><a name="" style="color:#007bff">Política de privacidad</a></li><br>
+                        <li style="float:left;"><a name="" style="color:#007bff">Política de cookie y redes sociales</a></li><br>
+                        <li style="float:left;"><a name="" style="color:#007bff">Aceptación de términos y políticas</a></li><br>
+
                     </ul>
-    
-    
-                <!--             Social buttons 
-                            <ul class="list-unstyled list-inline text-center">
-                                <li class="list-inline-item">
-                                    <a class="btn-floating btn-fb mx-1">
-                                        <i class="fab fa-facebook-f"> </i>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a class="btn-floating btn-tw mx-1">
-                                        <i class="fab fa-twitter"> </i>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a class="btn-floating btn-gplus mx-1">
-                                        <i class="fab fa-google-plus-g"> </i>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a class="btn-floating btn-li mx-1">
-                                        <i class="fab fa-linkedin-in"> </i>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a class="btn-floating btn-dribbble mx-1">
-                                        <i class="fab fa-dribbble"> </i>
-                                    </a>
-                                </li>
-                            </ul>-->
-
-            </footer>
-
-
-            <div class="col-3 md-offset-1 text-left">
-                <i class='fa fa-globe-americas' style="margin-left: 25%;
-                   margin-right: 2%;"></i>
-                <a href="index.htm?lenguaje=en"> EN </a> -
-                <a href="index.htm?lenguaje=es"> ES </a> -
-                <a href="index.htm?lenguaje=ar"> AR </a>
-            </div>
-            <div class="col-8">
-                <p class="text-right"> Eduweb group @2019. Todos los derechos reservados.  </p>
+                </div>
             </div>
 
 
+            <!--
+                 Call to action 
+                <ul class="list-unstyled list-inline text-center py-2">
+                  <li class="list-inline-item">
+                    <h5 class="mb-1">Register for free</h5>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#!" class="btn btn-danger btn-rounded">Sign up!</a>
+                  </li>
+                </ul>
 
 
-            <script type="text/javascript" src="recursos/css/slick/slick.min.js"></script>
+            <!--             Social buttons 
+                        <ul class="list-unstyled list-inline text-center">
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-fb mx-1">
+                                    <i class="fab fa-facebook-f"> </i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-tw mx-1">
+                                    <i class="fab fa-twitter"> </i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-gplus mx-1">
+                                    <i class="fab fa-google-plus-g"> </i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-li mx-1">
+                                    <i class="fab fa-linkedin-in"> </i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="btn-floating btn-dribbble mx-1">
+                                    <i class="fab fa-dribbble"> </i>
+                                </a>
+                            </li>
+                        </ul>-->
 
-            <script type="text/javascript">
+        </footer>
+
+
+        <div class="col-3 md-offset-1 text-left">
+            <i class='fa fa-globe-americas' style="margin-left: 25%;
+               margin-right: 2%;"></i>
+            <a href="index.htm?lenguaje=en"> EN </a> -
+            <a href="index.htm?lenguaje=es"> ES </a> 
+            <!--<a href="index.htm?lenguaje=ar"> AR </a>-->
+        </div>
+        <div class="col-8">
+            <p class="text-right"> Eduweb group @2019. Todos los derechos reservados.  </p>
+        </div>
+
+
+
+
+        <script type="text/javascript" src="recursos/css/slick/slick.min.js"></script>
+
+        <script type="text/javascript">
                                     $(document).ready(function () {
                                         $(".lazy").slick({
                                             infinite: true,
@@ -3123,14 +3131,14 @@
                                             slidesToScroll: 2
                                         });
                                     });
-            </script>
-            <div class="divLoadStudent" id="loadingmessage">
-                <div class="text-center"> 
-                    <img class="imgLoading" src="recursos/img/large_loading.gif"/>
-                </div>
+        </script>
+        <div class="divLoadStudent" id="loadingmessage">
+            <div class="text-center"> 
+                <img class="imgLoading" src="recursos/img/large_loading.gif"/>
             </div>
-            <div class="position-fixed btnTop nav-link-evento d-flex justify-content-center align-items-center" href=".menu">
-                <i class="fas fa-angle-double-up"></i>
-            </div>
+        </div>
+        <div class="position-fixed btnTop nav-link-evento d-flex justify-content-center align-items-center" href=".menu">
+            <i class="fas fa-angle-double-up"></i>
+        </div>
     </body>
 </html>

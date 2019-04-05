@@ -10,7 +10,7 @@
                 font-family: sans-serif;
                 font-size: 24px;
                 overflow-x: hidden;
-              
+
             }
 
             .hero {
@@ -662,9 +662,44 @@
                 border-top: 1px solid #29abe2 !important;
                 width: 50% !important;
             }
-         
+
             img{
                 border-radius: 10px;
+            }
+
+            /*REPORT CARD*/
+
+            #modalCustomReportCard{
+                padding-top: 3px;
+                /*font-size: large;*/
+                background-color: white;
+                padding: 0px;
+                text-align: center;
+                color: #0b3a6d;
+            }   
+
+            #modalBasicReportCard{
+                padding-top: 3px;
+                /*font-size: large;*/
+                background-color: #0b3a6d;
+                padding: 0px;
+                text-align: center;
+                color: #ffffff;
+            }
+            
+            #bodyBasicReport{
+                
+                         background-color: #f9f9f9;                         
+                         background-color: #0b3a6d;
+                         border-top-right-radius: 4px;
+                         border-bottom-right-radius: 4px;
+                
+            }
+            
+            #bodyCustomReport{
+                border-top-left-radius: 4px;
+                border-bottom-left-radius: 4px;
+                background-color: #ffffff; 
             }
         </style>
 
@@ -819,7 +854,7 @@
             </div>
 
 
-           <div class="col-xs-6 col-xs-offset-3"><hr></div>
+            <div class="col-xs-6 col-xs-offset-3"><hr></div>
             <div class="col-6 offset-3 hrSmart"></div> <br><br><br>              
             <div class="container-fluid ">
                 <div class="row fila" id="fila3"> 
@@ -903,14 +938,35 @@
                         </div> 
                     </div> 
                 </div> <br>
+
+
             </div>
+
+        
+            <div class="col-xs-6 col-xs-offset-3"><hr></div>
+            <div class="col-6 offset-3 hrSmart"></div> <br><br><br>
+
+            <div class="container-fluid ">
+                <div class="row fila" id="fila3"> 
+                    <div class="col-12 col-md-12"> 
+                        <div class="headingSmart col-12 text-center" >
+                            <h1>REPORT CARD</h1>
+                        </div>                           
+
+                        <div class="col-12 contFoto d-flex justify-content-center"  style="padding:10px;" id="contFoto5">                       
+                            <img data-type="image" style=" width: 500px" src="recursos/img/Facts/factsqueincluye/factsTest.svg" height="400" width="700">                                  
+                        </div>  
+                    </div> 
+                </div> 
+
+              
         </main>
 
-                                          <a class="btnDemo" target="_blank" href="<c:url value='/index.htm?informacion=facts#Contact'/>">
+        <a class="btnDemo" target="_blank" href="<c:url value='/index.htm?informacion=facts#Contact'/>">
             <label class="arrow_box">Schedule a Demo</label>
             <img src="recursos/img/LogosMenu/LogoFacts.svg" style="width:75px">
         </a> 
-        
+
         <div id="modal1" class="modal fade" role="dialog" >
             <div class="modal-dialog"  style="    max-width: 80%;">
 
@@ -1150,56 +1206,97 @@
 
             </div>
         </div>
-        <script type="text/javascript">
-            $(document).ready(function () {
 
-                $(".lista1 li span").hover(function () {
-                    var value = $(this).attr("value");
-                    //$('#contFoto1 img').attr('src','recursos/img/Facts/factsqueincluye/'+$(this).attr("value")); 
-                    $("#contFoto1 img").fadeOut(200, function () {
-                        $('#contFoto1 img').attr('src', 'recursos/img/Facts/factsqueincluye/' + value);
-                    }).fadeIn(200);
-                });
+            
+     
+        <div class="modal fade" id="modal5" role="dialog">
+            <div class="modal-dialog modal-xl">
 
-                $(".lista2 li span").hover(function () {
-                    var value = $(this).attr("value");
-                    //$('#contFoto1 img').attr('src','recursos/img/Facts/factsqueincluye/'+$(this).attr("value")); 
-                    $("#contFoto2 img").fadeOut(200, function () {
-                        $('#contFoto2 img').attr('src', 'recursos/img/Facts/factsqueincluye/' + value);
-                    }).fadeIn(200);
-                    // $('#contFoto2 img').attr('src', 'recursos/img/Facts/factsqueincluye/' + $(this).attr("value"));
-                });
-                $(".lista3 li span").hover(function () {
-                    var value = $(this).attr("value");
-                    //$('#contFoto1 img').attr('src','recursos/img/Facts/factsqueincluye/'+$(this).attr("value")); 
-                    $("#contFoto3 img").fadeOut(200, function () {
-                        $('#contFoto3 img').attr('src', 'recursos/img/Facts/factsqueincluye/' + value);
-                    }).fadeIn(200);
-                    // $('#contFoto2 img').attr('src', 'recursos/img/Facts/factsqueincluye/' + $(this).attr("value"));
-                });
-                $(".lista4 li span").hover(function () {
-                    var value = $(this).attr("value");
-                    //$('#contFoto1 img').attr('src','recursos/img/Facts/factsqueincluye/'+$(this).attr("value")); 
-                    $("#contFoto4 img").fadeOut(200, function () {
-                        $('#contFoto4 img').attr('src', 'recursos/img/Facts/factsqueincluye/' + value);
-                    }).fadeIn(200);
-                    // $('#contFoto2 img').attr('src', 'recursos/img/Facts/factsqueincluye/' + $(this).attr("value"));
-                });
+                <!-- Modal content-->
+                <div class="modal-content flex-column flex-lg-row">
+                    <div class="col-12 col-lg-6" id="bodyCustomReport">
+                        <div class="modal-header d-flex justify-content-center " style= "border-bottom:#0b3a6d solid 1px;""> 
 
-                $("#contFoto1").click(function () {
-                    $("#modal1").modal('show');
+                            <div class="modal-title h3 " id="modalCustomReportCard">Custom Report</div>
+                        </div>
+                        <div class="modal-body text-center"  >
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        </div>
+
+                        <div class="col-12">
+                            <img class="imgIcon mr-1"  style=" width: 100%" src="recursos/img/Facts/factsqueincluye/customReport.PNG"    alt="image">
+                        </div>
+                    </div>
+
+
+                    <div class="col-12 col-lg-6" id="bodyBasicReport">
+                        <div class="modal-header d-flex justify-content-center">  
+                            <div class="modal-title h3 " id="modalBasicReportCard">Basic Report</div>
+                        </div>
+                        <div class="modal-body text-center" style="color:white" >
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        </div>
+                        <div class="col-12">
+                            <img class="imgIcon mr-1" style=" width: 100%" src="recursos/img/Facts/factsqueincluye/basicReport.PNG" alt="image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+         
+
+            <script type="text/javascript">
+                $(document).ready(function () {
+
+                    $(".lista1 li span").hover(function () {
+                        var value = $(this).attr("value");
+                        //$('#contFoto1 img').attr('src','recursos/img/Facts/factsqueincluye/'+$(this).attr("value")); 
+                        $("#contFoto1 img").fadeOut(200, function () {
+                            $('#contFoto1 img').attr('src', 'recursos/img/Facts/factsqueincluye/' + value);
+                        }).fadeIn(200);
+                    });
+
+                    $(".lista2 li span").hover(function () {
+                        var value = $(this).attr("value");
+                        //$('#contFoto1 img').attr('src','recursos/img/Facts/factsqueincluye/'+$(this).attr("value")); 
+                        $("#contFoto2 img").fadeOut(200, function () {
+                            $('#contFoto2 img').attr('src', 'recursos/img/Facts/factsqueincluye/' + value);
+                        }).fadeIn(200);
+                        // $('#contFoto2 img').attr('src', 'recursos/img/Facts/factsqueincluye/' + $(this).attr("value"));
+                    });
+                    $(".lista3 li span").hover(function () {
+                        var value = $(this).attr("value");
+                        //$('#contFoto1 img').attr('src','recursos/img/Facts/factsqueincluye/'+$(this).attr("value")); 
+                        $("#contFoto3 img").fadeOut(200, function () {
+                            $('#contFoto3 img').attr('src', 'recursos/img/Facts/factsqueincluye/' + value);
+                        }).fadeIn(200);
+                        // $('#contFoto2 img').attr('src', 'recursos/img/Facts/factsqueincluye/' + $(this).attr("value"));
+                    });
+                    $(".lista4 li span").hover(function () {
+                        var value = $(this).attr("value");
+                        //$('#contFoto1 img').attr('src','recursos/img/Facts/factsqueincluye/'+$(this).attr("value")); 
+                        $("#contFoto4 img").fadeOut(200, function () {
+                            $('#contFoto4 img').attr('src', 'recursos/img/Facts/factsqueincluye/' + value);
+                        }).fadeIn(200);
+                        // $('#contFoto2 img').attr('src', 'recursos/img/Facts/factsqueincluye/' + $(this).attr("value"));
+                    });
+
+                    $("#contFoto1").click(function () {
+                        $("#modal1").modal('show');
+                    });
+                    $("#contFoto2").click(function () {
+                        $("#modal2").modal('show');
+                    });
+                    $("#contFoto3").click(function () {
+                        $("#modal3").modal('show');
+                    });
+                    $("#contFoto4").click(function () {
+                        $("#modal4").modal('show');
+                    });
+                    $("#contFoto5").click(function () {
+                        $("#modal5").modal('show');
+                    });
                 });
-                $("#contFoto2").click(function () {
-                    $("#modal2").modal('show');
-                });
-                $("#contFoto3").click(function () {
-                    $("#modal3").modal('show');
-                });
-                $("#contFoto4").click(function () {
-                    $("#modal4").modal('show');
-                });
-            });
-        </script>
+            </script>
 
     </body>
 

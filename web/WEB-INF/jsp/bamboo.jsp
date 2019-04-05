@@ -642,7 +642,7 @@
                                 <b>Plan Presentations</b>
                             </div>
                             <div class="col-4 col-lg-12  p-0">
-                                <img src="recursos/img/icons/Calendar_1.svg" class="imgRow">
+                                <img src="recursos/img/bamboo/IconosWebBamboo-03.svg" class="imgRow">
                             </div> 
                         </div>
 
@@ -651,7 +651,7 @@
                                 <b>Record Observations</b>
                             </div>
                             <div class="col-4 col-lg-12 p-0">
-                                <img src="recursos/img/icons/eye-scanner-medical-symbol-2.svg" class="imgRow">
+                                <img src="recursos/img/bamboo/IconosWebBamboo-04.svg" class="imgRow">
                             </div>
                         </div>
 
@@ -660,7 +660,7 @@
                                 <b> Presentation Ideas</b>
                             </div>
                             <div class="col-4 col-lg-12 p-0">
-                                <img src="recursos/img/icons/LessonsIdea.svg" class="imgRow">
+                                <img src="recursos/img/bamboo/IconosWebBamboo-01.svg" class="imgRow">
                             </div> 
                         </div>
 
@@ -668,7 +668,7 @@
                     <div class="row justify-content-center align-items-end">
                         <div class="col-10  col-lg-3  d-lg-block d-flex  d-lg-block mt-2 pb-2" data-aos="fade-left"> 
                             <div class="col-4 col-lg-12 p-0">
-                                <img src="recursos/img/icons/clip.png" class="imgRow">
+                                <img src="recursos/img/bamboo/IconosWebBamboo-02.svg" class="imgRow">
                             </div> 
                             <div class="col-8 col-lg-12 d-flex justify-content-start  justify-content-lg-center align-items-center colorTextGray p-0 text-center">
                                 <b>Share Resources</b>
@@ -676,7 +676,7 @@
                         </div>
                         <div class="col-10 col-lg-3  d-lg-block   d-lg-block d-flex mt-2" data-aos="fade-right">                             
                             <div class="col-4 col-lg-12 p-0">
-                                <img src="recursos/img/icons/progress-2.svg" class="imgRow">
+                                <img src="recursos/img/bamboo/IconosWebBamboo-05.svg" class="imgRow">
                             </div> 
                             <div class="col-8 col-lg-12 d-flex justify-content-start  justify-content-lg-center align-items-center colorTextGray p-0 text-center">
                                 <b>Visualize Progress and Learning Gaps</b>
