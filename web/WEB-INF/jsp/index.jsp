@@ -1233,12 +1233,12 @@
                 });
 
 
-                $("#collapseINICIO").click(function () {
-                    $('#collapseCondicionesInicio').toggleClass("collapse");
-                });
-                $("#mostrarCondiInicio").click(function () {
-                    $('#collapseCondicionesInicio').toggleClass("collapse");
-                });
+//                $("#collapseINICIO").click(function () {
+//                    $('#collapseCondicionesInicio').toggleClass("collapse");
+//                });
+//                $("#mostrarCondiInicio").click(function () {
+//                    $('#collapseCondicionesInicio').toggleClass("collapse");
+//                });
 
                 $(".form-group input,.form-group textarea").change(function () {
                     if ($(this).val() === "") {
@@ -2263,8 +2263,8 @@
                     <h1><spring:message code="Privacy"/></h1>
                 </div>
             </div> 
-            <div class="container" id="Contact">
-                <div class="row">
+            <div class="container" id="Contact" style="background-color: #f1f1f1;transform: skewX(-4deg);">
+                <div class="row" stlye="transform: skewX(4deg);">
                     <div class="col-md-12">
                         <div class="well well-sm">
                             <form class="form-horizontal" >
@@ -2307,7 +2307,7 @@
                                     <div class="form-group d-flex justify-content-center align-items-center">
                                         <!--<span class="col-1  text-center"><i class="fas fa-phone bigicon"></i></span>-->
                                         <div class="col-11 col-md-8">
-                                            <input id="informacion" name="informacion" type="hidden" placeholder="Phone" class="form-control" value="1">
+                                            <input id="informacion" name="informacion" type="hidden" placeholder="informacion" class="form-control" value="1">
                                         </div>
                                     </div>
 
@@ -2320,7 +2320,7 @@
 
                                     <div class="form-group">
                                         <div class="col-10 col-md-8 offset-md-2 text-center">
-                                            <button  class="btn btn-primary btn-lg" id="submitForm"><spring:message code="submit"/></button>
+                                            <button  class="btn btn-dark btn-lg" id="submitForm"><spring:message code="submit"/></button>
                                         </div>
                                     </div>
 
@@ -3009,13 +3009,11 @@
                 </div>
             </div>--%>
 
-            <hr>
-            <hr>
 
-            <footer class="col-12 mb-4">
-                <div class="row" style="margin-left: 5%;">
+            <footer class="col-12 mb-4" style="background-color: gainsboro;">
+                <div class="row" style="margin-left: 5%;" >
                     <div class="col-md-4 mx-auto">
-                        <h6 class="font-weight-bold text-uppercase mt-3 mb-4 text-left">CONTACTO</h6>
+                        <h6 class="font-weight-bold text-uppercase mt-3 mb-4 text-left"><spring:message code="footContact"/></h6>
                         <h6 class="text-muted text-left">
                             Paseo de la Castellana 153<br>
                             Madrid<br>
@@ -3028,13 +3026,13 @@
                     <div class="col-md-4 mx-auto">
                         <ul style="list-style-type: none;
                             margin: 0;
-                            padding: 0;
+                            padding: 0;                      
                             overflow: hidden;">
-                            <h6 class="font-weight-bold text-uppercase mt-3 mb-4 text-left">Sobre nosotros</h6>
-                            <li style="float:left;"><a href="<c:url value='/privacyPolicy.htm?informacion=privacyPolicy#privacyPolicyEduwebSL'/>">Política de privacidad EduWebGroup SL</a></li><br>
-                            <li style="float:left;"><a href="<c:url value='/privacyPolicy.htm?informacion=privacyPolicy#privacyPolicyEduwebINC'/>">Política de privacidad EduWebGroup INC</a></li><br>
-                            <li style="float:left;"><a href="<c:url value='/privacyPolicy.htm?informacion=privacyPolicy#privacyPolicyEduwebServices' />">Política de privacidad Servicios de consultoría EduWeb</a></li><br>
-                            <li style="float:left;"><a href="<c:url value='' />"><spring:message code="condgen.tit"/></a></li><br>
+                            <h6 class="font-weight-bold text-uppercase mt-3 mb-4 text-left"><spring:message code="footAboutUs"/></h6>
+                            <li style="float:left;"><a href="<c:url value='/privacyPolicy.htm?politicapri=privacyPolicy?idioma=en#privacyPolicyEduwebSL'/>" target="_blank"><spring:message code="polp.pest1"/></a></li><br>
+                            <li style="float:left;"><a href="<c:url value='/privacyPolicy.htm?politicapri=privacyPolicy#privacyPolicyEduwebINC'/>" target="_blank"><spring:message code="polp.pest2"/></a></li><br>
+                            <li style="float:left;"><a href="<c:url value='/privacyPolicy.htm?politicapri=privacyPolicy#privacyPolicyEduwebServices'/>" target="_blank"><spring:message code="polp.pest3"/></a></li><br>
+                            <li style="float:left;"><a href="<c:url value='/privacyPolicy.htm?politicapri=privacyPolicy#generalConditions'/>"target="_blank" ><spring:message code="condgen.tit"/></a></li><br> 
                         </ul>
                     </div>
 
@@ -3046,7 +3044,7 @@
                             margin: 0;
                             padding: 0;
                             overflow: hidden;">
-                            <h6 class="font-weight-bold text-uppercase mt-3 mb-4 text-left">Información de interés</h6>
+                            <h6 class="font-weight-bold text-uppercase mt-3 mb-4 text-left"><spring:message code="footOtherInfo"/></h6>
                             <li style="float:left;"><a href="">Política de devoluciones, reembolsos y cancelaciones</a></li><br>
                             <li style="float:left;"><a href="">Política de entrega</a></li><br>
                             <li style="float:left;"><a href="">Política de privacidad</a></li><br>
@@ -3104,9 +3102,9 @@
             <div class="col-3 md-offset-1 text-left">
                 <i class='fa fa-globe-americas' style="margin-left: 25%;
                    margin-right: 2%;"></i>
-                <a href="privacyPolicy.htm?lenguaje=en"> EN </a> -
-                <a href="privacyPolicy.htm?lenguaje=es"> ES </a> -
-                <a href="privacyPolicy.htm?lenguaje=ar "> AR </a>
+                <a href="index.htm?lenguaje=en"> EN </a> -
+                <a href="index.htm?lenguaje=es"> ES </a> -
+                <a href="index.htm?lenguaje=ar"> AR </a>
             </div>
             <div class="col-8">
                 <p class="text-right"> Eduweb group @2019. Todos los derechos reservados.  </p>

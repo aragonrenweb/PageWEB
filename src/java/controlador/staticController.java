@@ -104,9 +104,9 @@ public class staticController {
     
     /*politicas privacidad, cambiar request.getLocale por la variable del idioma en el que pinchen*/
     
-     @RequestMapping("/privacyPolicy.htm")
+    @RequestMapping("/privacyPolicy.htm")
     public ModelAndView privacyPolicy(HttpServletRequest request, HttpServletResponse hsr1) throws Exception {
-        String paramIdioma = request.getParameter("lenguaje");
+        String paramIdioma = request.getParameter("politicapri");
         return new ModelAndView("redirect:/datosIdioma.htm?idioma="+paramIdioma+"&page=privacyPolicy");
     }
     
@@ -114,15 +114,16 @@ public class staticController {
     
     @RequestMapping("/index.htm")
     public ModelAndView index(HttpServletRequest request, HttpServletResponse response) throws Exception {
-        /* recoger valor del campo oculto */
-//                Formulario form = new Formulario(); 
-        //RequestContextUtils.getLocaleResolver(request).setLocale(request, response, new Locale(request.getParameter(request.getLocale().toString())));
-       
-        String l = request.getLocale().getLanguage();
+
+        //String l = request.getLocale().getLanguage();
         String valorForm = request.getParameter("informacion");
-        ModelAndView mv = new ModelAndView("redirect:/datosIdioma.htm");
-        mv.addObject("idioma", request.getLocale().getLanguage());
-         mv.addObject("page", "index");
+        String paramIdioma = request.getParameter("lenguaje");
+        
+        ModelAndView mv = new ModelAndView("redirect:/datosIdioma.htm?idioma="+paramIdioma);
+        
+        mv.addObject("idioma", paramIdioma);
+//        mv.addObject("idioma", request.getLocale().getLanguage());
+        mv.addObject("page", "index");
         return mv;
     }
 

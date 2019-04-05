@@ -10,17 +10,95 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <fmt:setLocale value="en" scope="session"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+<!--        <link rel="stylesheet" media="all" href="recursos/css/main.css" />-->
+<link href="recursos/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+<link href="recursos/css/bootstrap-grid.css" rel="stylesheet" type="text/css"/>
+<link href="recursos/css/bootstrap-reboot.css" rel="stylesheet" type="text/css"/>
+<!--    <link href="recursos/css/animate.css" rel="stylesheet" type="text/css"/>-->
+<link href="recursos/js/jquery-ui.css" rel="stylesheet" type="text/css"/>
+<script src="recursos/js/jquery-3.3.1.min.js" type="text/javascript"></script>
+
+<script src="recursos/js/bootstrap.bundle.js" type="text/javascript"></script>
+<script src="recursos/js/jquery-ui.js" type="text/javascript"></script>
+
+<script src="recursos/js/popper.js" type="text/javascript"></script>
+<script src="recursos/js/bootstrap.js" type="text/javascript"></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link rel="stylesheet" type="text/css" href="recursos/css/slick/slick.css"/> 
+<link rel="stylesheet" type="text/css" href="recursos/css/slick/slick-theme.css"/>
+
+
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>EduWEBgroup</title>
+        <style>
+            #privacyPolicyEduwebSL{
+                margin-left: 5%;
+                margin-right: 5%;
+                text-align: justify;
+            }
+
+            #privacyPolicyEduwebINC{
+                margin-left: 5%;
+                margin-right: 5%;
+                text-align: justify;
+
+            }
+
+            #privacyPolicyEduwebServices{
+                margin-left: 5%;
+                margin-right: 5%;
+                text-align: justify;
+
+            }
+            #generalConditions{
+                margin-left: 5%;
+                margin-right: 5%;
+                text-align: justify;
+            }
+
+            h4{
+                text-align: center;
+                font-size: 20px;
+                margin-top: 2%;
+                font-weight: bold;
+
+            }
+
+
+        </style> 
+
+        <script>
+            $(document).ready(function () {
+            $("#collapseINICIO").click(function () {
+            $('#collapseCondicionesInicio').toggleClass("collapse");
+            });
+                    $("#mostrarCondiInicio").click(function () {
+            $('#collapseCondicionesInicio').toggleClass("collapse");
+            });
+
+
+        </script>
+
     </head>
     <body>
         <div id="privacyPolicyEduwebSL">
             <h4><spring:message code="polp.pest1"/></h4>
 
-            <div class="tab-pane fade show active" id="privacyPolicySL" role="tabpanel" aria-labelledby="home-tab">
+            <div class="tab-pane show active" id="privacyPolicySL" role="tabpanel" aria-labelledby="home-tab">
                 <div class="col-10 offset-1">
                     <p class="mb-3">
                         <spring:message code="polp.sl.tit1"/><br>
@@ -32,10 +110,13 @@
                         <spring:message code="polp.sl.parraf6"/>
                         <br>
                         <spring:message code="polp.sl.intro"/><br>
-                        <spring:message code="polp.sl.intro.parraf1"/><a class="" data-toggle="collapse" href="#collapsePrivacy" role="button" aria-expanded="false" aria-controls="collapsePrivacy">
-                            Read more...</a><br>
+                        <spring:message code="polp.sl.intro.parraf1"/><br><br>
+                        <!--                        <a class="" data-toggle="collapse" href="#collapsePrivacy" role="button" aria-expanded="false" aria-controls="collapsePrivacy">
+                                                    Read more...</a><br>-->
+                        <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#demo">Read more..</button>
                         <br>
-                    <div class="collapse" id="collapsePrivacy">Background<br>
+                        <!--                    <div class="collapse" id="collapsePrivacy">-->
+                    <div class="collapse" id="demo">
                         <spring:message code="polp.sl.intro.parraf2"/><br><br>
 
                         <spring:message code="polp.sl.intro.parraf3"/>
@@ -170,11 +251,11 @@
                 </div>
             </div>
         </div> 
-
+        <hr><hr>
         <div id="privacyPolicyEduwebINC">           
             <h4><spring:message code="polp.pest2"/></h4>
 
-            <div class="tab-pane fade" id="privacyPolicyINC" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="tab-pane" id="privacyPolicyINC" role="tabpanel" aria-labelledby="profile-tab">
                 <div class="col-10 offset-1">
                     <p class="mb-3">
                         <spring:message code="polp.inc.tit1"/><br>
@@ -185,11 +266,14 @@
                         <spring:message code="polp.inc.parraf5"/><br>
                         <spring:message code="polp.inc.parraf6"/><br>
                         <spring:message code="polp.inc.intro"/><br>
-                        <spring:message code="polp.inc.intro.parraf1"/>
-                        <a class="" data-toggle="collapse" href="#collapsePrivacy" role="button" aria-expanded="false" aria-controls="collapsePrivacy">
-                            Read more...</a><br>
+                        <spring:message code="polp.inc.intro.parraf1"/><br><br>
+                        <!--                                                <a class="" data-toggle="collapse" href="#collapsePrivacy" role="button" aria-expanded="false" aria-controls="collapsePrivacy">
+                                                                            Read more...</a><br>-->
+
+                        <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#demo2">Read more..</button>
                         <br>
-                    <div class="collapse" id="collapsePrivacy">Background<br>
+                        <!--                    <div class="collapse" id="collapsePrivacy">-->
+                    <div class="collapse" id="demo2">
                         <spring:message code="polp.inc.intro.parraf2"/><br><br>
 
                         <spring:message code="polp.inc.intro.parraf3"/><br>
@@ -328,12 +412,12 @@
                 </div>
             </div> 
         </div>
-
+        <hr><hr>
 
         <div id="privacyPolicyEduwebServices"> 
             <h4><spring:message code="polp.pest3"/></h4>
 
-            <div class="tab-pane fade" id="privacyPolicyCon" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="tab-pane" id="privacyPolicyCon" role="tabpanel" aria-labelledby="profile-tab">
                 <div class="col-10 offset-1">
                     <p class="mb-3">
                         <spring:message code="polp.con.tit1"/><br>
@@ -346,10 +430,16 @@
                         <br>
                         <spring:message code="polp.con.intro.tit"/><br>
                         <spring:message code="polp.con.intro.parraf1"/>
-                        <a class="" data-toggle="collapse" href="#collapsePrivacy" role="button" aria-expanded="false" aria-controls="collapsePrivacy">
-                            Read more...</a><br>
+                        <!--                        <a class="" data-toggle="collapse" href="#collapsePrivacy" role="button" aria-expanded="false" aria-controls="collapsePrivacy">
+                                                    Read more...</a><br>
+                                                <br>
+                                            <div class="collapse" id="collapsePrivacy">-->
+                        <br><br>
+
+
+                        <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#demo3">Read more..</button>
                         <br>
-                    <div class="collapse" id="collapsePrivacy">Background<br>
+                    <div class="collapse" id="demo3">
                         <spring:message code="polp.con.intro.parraf2"/><br><br>
 
                         <spring:message code="polp.con.intro.parraf3"/><br>
@@ -489,16 +579,16 @@
             </div>
         </div>
 
+        <hr><hr>
 
-
-        <div id="">
+        <div id="generalConditions">
             <h4><spring:message code="condgen.tit"/></h4>
             <div class="col-12"> 
                 <div class="col-10 offset-1">
                     <p class="mb-3">
                     <div id="collapseCondicionesInicio">
 
-                        <ol class="primero">
+                        <ol class="primero" style="padding-left: 0px;">
                             <li><spring:message code="condgen.tit1"/></li><br><br>
 
                             <spring:message code="condgen.parraf1"/><br><br>
@@ -515,180 +605,183 @@
                             <spring:message code="condgen.parraf2.5"/><br><br>
 
                         </ol>
-                        <a id="collapseINICIO" data-toggle="collapse" href="#collapseCondiciones" role="button" aria-expanded="false" aria-controls="collapseCondiciones">
-                            Leer más...</a>
+                        <!--                        <a id="collapseINICIO" data-toggle="collapse" href="#collapseCondiciones" role="button" aria-expanded="false" aria-controls="collapseCondiciones">
+                                                    Leer más...</a>
+                                            </div>
+                                            <div class="collapse" id="collapseCondiciones">-->
+
+                        <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#demo4">Read more..</button>
+                        <br>
+                        <div class="collapse" id="demo4">
+                            <ol>
+
+                                <li><spring:message code="condgen.tit13"/></li><br><br>
+
+                                <spring:message code="condgen.tit13.1"/><br><br>
+
+                                <li><spring:message code="condgen.parraf13.1"/></li><br><br>
+
+                                <spring:message code="condgen.parraf13.1.1"/><br>
+                                <spring:message code="condgen.parraf13.1.2"/><br>
+                                <spring:message code="condgen.parraf13.1.3"/><br>
+                                <spring:message code="condgen.parraf13.1.4"/><br>
+
+
+<!--                                <a id="mostrarCondiInicio" data-toggle="collapse" href="#collapseCondiciones" role="button" aria-expanded="false" aria-controls="collapseCondiciones">
+                                    Leer menos...
+                                </a>-->
+                                <li><spring:message code="condgen.tit3"/><br><br>
+                                    <ol>
+                                        <li><spring:message code="condgen.tit3.1"/></li><br><br>
+
+                                        <spring:message code="condgen.parraf3.1.1"/><br>
+                                        <spring:message code="condgen.parraf3.1.2"/><br>
+                                        <spring:message code="condgen.parraf3.1.3"/><br>
+                                        <spring:message code="condgen.parraf3.1.4"/><br><br>
+
+                                        <li><spring:message code="condgen.tit3.3"/></li><br><br>
+                                        <spring:message code="condgen.parraf3.2.1"/><br><br>
+                                        <li><spring:message code="condgen.tit03.03"/></li><br><br>
+
+                                        <spring:message code="condgen.parraf03.03.1"/><br><br>
+                                        <li><spring:message code="condgen.tit3.3"/><br><br>
+                                            <ol>
+                                                <li><spring:message code="condgen.parraf3.3.1"/></li>
+                                                <li><spring:message code="condgen.parraf3.3.2"/></li>
+                                                <li><spring:message code="condgen.parraf3.3.3"/></li>
+                                                <li><spring:message code="condgen.parraf3.3.4"/></li>
+                                                <li><spring:message code="condgen.parraf3.3.5"/></li><br><br>
+                                            </ol>
+                                        </li>
+                                        <spring:message code="condgen.pago1"/><br><br>
+                                        <spring:message code="condgen.pago2"/><br><br>
+
+                                        <spring:message code="condgen.cuenta"/>	0081-5732-03-0001190922<br>
+                                        IBAN / BIC:	ES04 0081 5732 0300 0119 0922 / BSAB ESBB<br>
+                                        <spring:message code="condgen.nombre"/><br>
+                                        <spring:message code="condgen.titular"/> EDUWEB GROUP, S.L.<br>
+                                        <spring:message code="condgen.moneda"/> Euros<br><br>
+
+                                        <spring:message code="condgen.parraf"/><br><br>
+
+                                        <spring:message code="condgen.pago.p1"/><br><br>
+
+                                        <spring:message code="condgen.pago.p2"/><br><br>
+                                        <spring:message code="condgen.pago.p3"/><br><br>
+
+                                        <spring:message code="condgen.pago.p4"/><br>
+                                        <spring:message code="condgen.pago.p5"/><br>
+
+                                        <li><spring:message code="condgen.tit3.5"/></li><br><br>
+
+                                        <spring:message code="condgen.parraf3.5.1"/><br>
+                                        <spring:message code="condgen.parraf3.5.2"/><br>
+                                        <spring:message code="condgen.parraf3.5.3"/><br>
+
+                                        <li><spring:message code="condgen.tit3.6"/></li><br><br>
+                                            <spring:message code="condgen.parraf3.6.1"/>
+
+                                        <li><spring:message code="condgen.tit3.7"/></li><br><br>
+
+                                        <spring:message code="condgen.parraf3.7.1"/><br><br>
+                                        <spring:message code="condgen.parraf3.7.2"/><br><br>
+                                        <spring:message code="condgen.parraf3.7.3"/><br><br>
+                                        <spring:message code="condgen.parraf3.7.4"/><br><br>
+                                        <spring:message code="condgen.parraf3.7.5"/><br><br>
+                                        <spring:message code="condgen.parraf3.7.6"/><br><br>
+
+
+                                        <li><spring:message code="condgen.tit3.8"/></li><br><br>
+
+                                        <spring:message code="condgen.parraf3.8.1"/><br><br>
+
+                                        <spring:message code="condgen.parraf3.8.2"/><br>
+                                        <spring:message code="condgen.parraf3.8.3"/><br><br>
+
+                                        <spring:message code="condgen.parraf3.8.4"/><br><br>
+
+                                        <spring:message code="condgen.parraf3.8.5"/><br><br>
+
+                                        <spring:message code="condgen.parraf3.8.6"/><br><br>
+
+                                        <spring:message code="condgen.parraf3.8.7"/><br><br>
+
+                                        <spring:message code="condgen.parraf3.8.8"/><br><br>
+
+                                        <spring:message code="condgen.parraf3.8.9"/><br><br>
+
+                                        <spring:message code="condgen.parraf3.8.10"/><br><br>
+
+                                        <li><spring:message code="condgen.tit3.9"/></li><br><br>
+
+                                        <spring:message code="condgen.parraf3.9.1"/><br>
+                                        <spring:message code="condgen.parraf3.9.2"/><br><br>
+
+                                        <spring:message code="condgen.parraf3.9.3"/><spring:message code="condgen.parraf3.9.4"/><br><br>
+
+                                        <spring:message code="condgen.parraf3.9.5"/><br><br>
+
+                                        <spring:message code="condgen.parraf3.9.6"/><br><br>
+
+                                        <spring:message code="condgen.parraf3.9.7"/><br><br>
+
+                                        <li><spring:message code="condgen.tit3.10"/></li><br><br>
+
+                                        <spring:message code="condgen.parraf3.10.1"/><br><br>
+
+                                        <spring:message code="condgen.parraf3.10.2"/><br><br>
+
+                                        <spring:message code="condgen.parraf3.10.3"/><br><br>
+
+                                        <li><spring:message code="condgen.tit3.11"/></li><br><br>
+
+                                        <spring:message code="condgen.parraf3.11.1"/><spring:message code="condgen.parraf3.11.2"/><spring:message code="condgen.parraf3.11.3"/><spring:message code="condgen.parraf3.11.4"/><br>
+                                    </ol>
+                                </li>
+                                <li><spring:message code="condgen.tit4"/></li><br><br>
+
+                                <spring:message code="condgen.parraf4.1"/><spring:message code="condgen.parraf4.2"/> <spring:message code="condgen.parraf4.3"/>
+
+                                <li><spring:message code="condgen.tit5"/></li><br><br>
+
+                                <spring:message code="condgen.parraf5.1"/><spring:message code="condgen.parraf5.2"/><spring:message code="condgen.parraf5.3"/><spring:message code="condgen.parraf5.4"/><br><br>
+
+                                <li><spring:message code="condgen.tit6"/></li><br><br>
+
+                                <spring:message code="condgen.parraf6.1"/><br><br><spring:message code="condgen.parraf6.2"/><spring:message code="condgen.parraf6.3"/>
+
+                                <li><spring:message code="condgen.tit7"/></li><br><br>
+
+                                <spring:message code="condgen.parraf7.1"/><spring:message code="condgen.parraf7.2"/><br><br>
+
+                                <li><spring:message code="condgen.tit8"/></li><br><br>
+
+                                <spring:message code="condgen.parraf8.1"/><spring:message code="condgen.parraf8.2"/><br><br>
+
+                                <li><spring:message code="condgen.tit9"/></li><br><br>
+
+                                <spring:message code="condgen.parraf9.1"/><spring:message code="condgen.parraf9.2"/><br><br>
+
+                                <li><spring:message code="condgen.tit10"/></li><br><br>
+
+                                <spring:message code="condgen.parraf10.1"/><br><br>
+
+                                <li><spring:message code="condgen.tit11"/></li><br><br>
+
+                                <spring:message code="condgen.parraf11.1"/><br><br>
+
+                                <li><spring:message code="condgen.tit12"/></li><br><br>
+                            </ol>
+                            <spring:message code="condgen.parraf12.1"/><br><br>        
+                        </div> </p>
                     </div>
-                    <div class="collapse" id="collapseCondiciones">
-                        <ol>
-
-                            <li><spring:message code="condgen.tit13"/></li><br><br>
-
-                            <spring:message code="condgen.tit13.1"/><br><br>
-
-
-                            <li><spring:message code="condgen.parraf13.1"/></li><br><br>
-
-                            <spring:message code="condgen.parraf13.1.1"/><br>
-                            <spring:message code="condgen.parraf13.1.2"/><br>
-                            <spring:message code="condgen.parraf13.1.3"/><br>
-                            <spring:message code="condgen.parraf13.1.4"/><br>
-
-
-                            <a id="mostrarCondiInicio" data-toggle="collapse" href="#collapseCondiciones" role="button" aria-expanded="false" aria-controls="collapseCondiciones">
-                                Leer menos...
-                            </a>
-                            <li><spring:message code="condgen.tit3"/><br><br>
-                                <ol>
-                                    <li><spring:message code="condgen.tit3.1"/></li><br><br>
-
-                                    <spring:message code="condgen.parraf3.1.1"/><br>
-                                    <spring:message code="condgen.parraf3.1.2"/><br>
-                                    <spring:message code="condgen.parraf3.1.3"/><br>
-                                    <spring:message code="condgen.parraf3.1.4"/><br><br>
-
-                                    <li><spring:message code="condgen.tit3.3"/></li><br><br>
-                                    <spring:message code="condgen.parraf3.2.1"/><br><br>
-                                    <li><spring:message code="condgen.tit03.03"/></li><br><br>
-
-                                    <spring:message code="condgen.parraf03.03.1"/><br><br>
-                                    <li><spring:message code="condgen.tit3.3"/><br><br>
-                                        <ol>
-                                            <li><spring:message code="condgen.parraf3.3.1"/></li>
-                                            <li><spring:message code="condgen.parraf3.3.2"/></li>
-                                            <li><spring:message code="condgen.parraf3.3.3"/></li>
-                                            <li><spring:message code="condgen.parraf3.3.4"/></li>
-                                            <li><spring:message code="condgen.parraf3.3.5"/></li><br><br>
-                                        </ol>
-                                    </li>
-                                    <spring:message code="condgen.pago1"/><br><br>
-                                    <spring:message code="condgen.pago2"/><br><br>
-
-                                    <spring:message code="condgen.cuenta"/>	0081-5732-03-0001190922<br>
-                                    IBAN / BIC:	ES04 0081 5732 0300 0119 0922 / BSAB ESBB<br>
-                                    <spring:message code="condgen.nombre"/><br>
-                                    <spring:message code="condgen.titular"/> EDUWEB GROUP, S.L.<br>
-                                    <spring:message code="condgen.moneda"/> Euros<br><br>
-
-                                    <spring:message code="condgen.parraf"/><br><br>
-
-                                    <spring:message code="condgen.pago.p1"/><br><br>
-
-                                    <spring:message code="condgen.pago.p2"/><br><br>
-                                    <spring:message code="condgen.pago.p3"/><br><br>
-
-                                    <spring:message code="condgen.pago.p4"/><br>
-                                    <spring:message code="condgen.pago.p5"/><br>
-
-                                    <li><spring:message code="condgen.tit3.5"/></li><br><br>
-
-                                    <spring:message code="condgen.parraf3.5.1"/><br>
-                                    <spring:message code="condgen.parraf3.5.2"/><br>
-                                    <spring:message code="condgen.parraf3.5.3"/><br>
-
-                                    <li><spring:message code="condgen.tit3.6"/></li><br><br>
-                                        <spring:message code="condgen.parraf3.6.1"/>
-
-                                    <li><spring:message code="condgen.tit3.7"/></li><br><br>
-
-                                    <spring:message code="condgen.parraf3.7.1"/><br><br>
-                                    <spring:message code="condgen.parraf3.7.2"/><br><br>
-                                    <spring:message code="condgen.parraf3.7.3"/><br><br>
-                                    <spring:message code="condgen.parraf3.7.4"/><br><br>
-                                    <spring:message code="condgen.parraf3.7.5"/><br><br>
-                                    <spring:message code="condgen.parraf3.7.6"/><br><br>
-
-
-                                    <li><spring:message code="condgen.tit3.8"/></li><br><br>
-
-                                    <spring:message code="condgen.parraf3.8.1"/><br><br>
-
-                                    <spring:message code="condgen.parraf3.8.2"/><br>
-                                    <spring:message code="condgen.parraf3.8.3"/><br><br>
-
-                                    <spring:message code="condgen.parraf3.8.4"/><br><br>
-
-                                    <spring:message code="condgen.parraf3.8.5"/><br><br>
-
-                                    <spring:message code="condgen.parraf3.8.6"/><br><br>
-
-                                    <spring:message code="condgen.parraf3.8.7"/><br><br>
-
-                                    <spring:message code="condgen.parraf3.8.8"/><br><br>
-
-                                    <spring:message code="condgen.parraf3.8.9"/><br><br>
-
-                                    <spring:message code="condgen.parraf3.8.10"/><br><br>
-
-                                    <li><spring:message code="condgen.tit3.9"/></li><br><br>
-
-                                    <spring:message code="condgen.parraf3.9.1"/><br>
-                                    <spring:message code="condgen.parraf3.9.2"/><br><br>
-
-                                    <spring:message code="condgen.parraf3.9.3"/><spring:message code="condgen.parraf3.9.4"/><br><br>
-
-                                    <spring:message code="condgen.parraf3.9.5"/><br><br>
-
-                                    <spring:message code="condgen.parraf3.9.6"/><br><br>
-
-                                    <spring:message code="condgen.parraf3.9.7"/><br><br>
-
-                                    <li><spring:message code="condgen.tit3.10"/></li><br><br>
-
-                                    <spring:message code="condgen.parraf3.10.1"/><br><br>
-
-                                    <spring:message code="condgen.parraf3.10.2"/><br><br>
-
-                                    <spring:message code="condgen.parraf3.10.3"/><br><br>
-
-                                    <li><spring:message code="condgen.tit3.11"/></li><br><br>
-
-                                    <spring:message code="condgen.parraf3.11.1"/><spring:message code="condgen.parraf3.11.2"/><spring:message code="condgen.parraf3.11.3"/><spring:message code="condgen.parraf3.11.4"/><br>
-                                </ol>
-                            </li>
-                            <li><spring:message code="condgen.tit4"/></li><br><br>
-
-                            <spring:message code="condgen.parraf4.1"/><spring:message code="condgen.parraf4.2"/> <spring:message code="condgen.parraf4.3"/>
-
-                            <li><spring:message code="condgen.tit5"/></li><br><br>
-
-                            <spring:message code="condgen.parraf5.1"/><spring:message code="condgen.parraf5.2"/><spring:message code="condgen.parraf5.3"/><spring:message code="condgen.parraf5.4"/><br><br>
-
-                            <li><spring:message code="condgen.tit6"/></li><br><br>
-
-                            <spring:message code="condgen.parraf6.1"/><br><br><spring:message code="condgen.parraf6.2"/><spring:message code="condgen.parraf6.3"/>
-
-                            <li><spring:message code="condgen.tit7"/></li><br><br>
-
-                            <spring:message code="condgen.parraf7.1"/><spring:message code="condgen.parraf7.2"/><br><br>
-
-                            <li><spring:message code="condgen.tit8"/></li><br><br>
-
-                            <spring:message code="condgen.parraf8.1"/><spring:message code="condgen.parraf8.2"/><br><br>
-
-                            <li><spring:message code="condgen.tit9"/></li><br><br>
-
-                            <spring:message code="condgen.parraf9.1"/><spring:message code="condgen.parraf9.2"/><br><br>
-
-                            <li><spring:message code="condgen.tit10"/></li><br><br>
-
-                            <spring:message code="condgen.parraf10.1"/><br><br>
-
-                            <li><spring:message code="condgen.tit11"/></li><br><br>
-
-                            <spring:message code="condgen.parraf11.1"/><br><br>
-
-                            <li><spring:message code="condgen.tit12"/></li><br><br>
-                        </ol>
-                        <spring:message code="condgen.parraf12.1"/><br><br>        
-                    </div> </p>
                 </div>
             </div>
-        </div>
 
-        <h4>Política de devoluciones, reembolsos y cancelaciones</h4>
-        <h4>Política de entrega</h4>
-        <h4>oPlítica de privacidad</h4>
-        <h4>Política de cookie y redes sociales</h4>
-        <h4>Aceptación de términos y políticas</h4>
+            <!--        <h4>Política de devoluciones, reembolsos y cancelaciones</h4>
+                    <h4>Política de entrega</h4>
+                    <h4>Plítica de privacidad</h4>
+                    <h4>Política de cookie y redes sociales</h4>
+                    <h4>Aceptación de términos y políticas</h4>-->
     </body>
 </html>
