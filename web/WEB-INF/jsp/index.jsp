@@ -3029,10 +3029,10 @@
                         padding: 0;                      
                         overflow: hidden;">
                         <h6 class="font-weight-bold text-uppercase mt-3 mb-4 text-left"><spring:message code="footAboutUs"/></h6>
-                        <li style="float:left;"><a href="<c:url value='/privacyPolicy.htm?politicapri=privacyPolicy?idioma=en#privacyPolicyEduwebSL'/>" target="_blank"><spring:message code="polp.pest1"/></a></li><br>
-                        <li style="float:left;"><a href="<c:url value='/privacyPolicy.htm?politicapri=privacyPolicy#privacyPolicyEduwebINC'/>" target="_blank"><spring:message code="polp.pest2"/></a></li><br>
-                        <li style="float:left;"><a href="<c:url value='/privacyPolicy.htm?politicapri=privacyPolicy#privacyPolicyEduwebServices'/>" target="_blank"><spring:message code="polp.pest3"/></a></li><br>
-                        <li style="float:left;"><a href="<c:url value='/privacyPolicy.htm?politicapri=privacyPolicy#generalConditions'/>"target="_blank" ><spring:message code="condgen.tit"/></a></li><br> 
+                        <li style="float:left; text-align: initial;"><a href="<c:url value='/privacyPolicy.htm?politicapri=privacyPolicy?idioma=en#privacyPolicyEduwebSL'/>" target="_blank"><spring:message code="polp.pest1"/></a></li><br>
+                        <li style="float:left; text-align: initial;"><a href="<c:url value='/privacyPolicy.htm?politicapri=privacyPolicy#privacyPolicyEduwebINC'/>" target="_blank"><spring:message code="polp.pest2"/></a></li><br>
+                        <li style="float:left; text-align: initial;"><a href="<c:url value='/privacyPolicy.htm?politicapri=privacyPolicy#privacyPolicyEduwebServices'/>" target="_blank"><spring:message code="polp.pest3"/></a></li><br>
+                        <li style="float:left; text-align: initial;"><a href="<c:url value='/privacyPolicy.htm?politicapri=privacyPolicy#generalConditions'/>"target="_blank" ><spring:message code="condgen.tit"/></a></li><br> 
                     </ul>
                 </div>
 
@@ -3040,10 +3040,7 @@
 
                 <div class="col-md-4 mx-auto">
 
-                    <ul style="list-style-type: none;
-                        margin: 0;
-                        padding: 0;
-                        overflow: hidden;">
+                    <ul style="list-style-type: none;margin: 0;  padding: 0; overflow: hidden;">
                         <h6 class="font-weight-bold text-uppercase mt-3 mb-4 text-left"><spring:message code="footOtherInfo"/></h6>
                         <!--                            <li style="float:left;"><a href="">Política de devoluciones, reembolsos y cancelaciones</a></li><br>
                                                     <li style="float:left;"><a href="">Política de entrega</a></li><br>
@@ -3052,11 +3049,11 @@
                                                     <li style="float:left;"><a href="">Aceptación de términos y políticas</a></li><br> -->
                         
                         <!--/*sin enlace-->
-                        <li style="float:left;"><a name="" style="color:#007bff">Política de devoluciones, reembolsos y cancelaciones</a></li><br>
-                        <li style="float:left;"><a name="" style="color:#007bff">Política de entrega</a></li><br>
-                        <li style="float:left;"><a name="" style="color:#007bff">Política de privacidad</a></li><br>
-                        <li style="float:left;"><a name="" style="color:#007bff">Política de cookie y redes sociales</a></li><br>
-                        <li style="float:left;"><a name="" style="color:#007bff">Aceptación de términos y políticas</a></li><br>
+                        <li style="float:left; text-align: initial;"><a name="" style="color:#007bff;">Política de devoluciones, reembolsos y cancelaciones</a></li><br>
+                        <li style="float:left; text-align: initial;"><a name="" style="color:#007bff">Política de entrega</a></li><br>
+                        <li style="float:left; text-align: initial;"><a name="" style="color:#007bff">Política de privacidad</a></li><br>
+                        <li style="float:left; text-align: initial;"><a name="" style="color:#007bff">Política de cookie y redes sociales</a></li><br>
+                        <li style="float:left; text-align: initial;"><a name="" style="color:#007bff">Aceptación de términos y políticas</a></li><br>
 
                     </ul>
                 </div>

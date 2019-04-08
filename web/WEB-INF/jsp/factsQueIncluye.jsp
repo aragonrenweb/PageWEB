@@ -1217,7 +1217,7 @@
                     <div class="col-12 col-lg-6" id="bodyCustomReport">
                         <div class="modal-header d-flex justify-content-center " style= "border-bottom:#0b3a6d solid 1px;""> 
 
-                            <div class="modal-title h3 " id="modalCustomReportCard">Custom Report</div>
+                            <div class="modal-title h3" id="modalCustomReportCard">Custom Report</div>
                         </div>
                         <div class="modal-body text-center"  >
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
