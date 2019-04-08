@@ -893,6 +893,7 @@
                 background: linear-gradient(to right, rgba(41,171,226,1) 0%, rgba(41,171,226,1) 25%, rgba(101,195,78,1) 25%, rgba(101,195,78,1) 50%, rgba(53,118,36,1) 50%, rgba(53,118,36,1) 75%, rgba(13,37,63,1) 75%, rgba(90,125,162,1) 98%, rgba(90,125,162,1) 100%);
                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#29abe2', endColorstr='#5a7da2', GradientType=1 );
 
+                min-height: 550px;
             }
 
             .bgBaseMenu{
@@ -918,6 +919,13 @@
                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66c34e', endColorstr='#f7931e', GradientType=1 );
 
 
+
+            }
+
+            .logo{
+                transform: skewX(4deg);
+                width: 60%;
+                max-width: 400px;
 
             }
             .logoMenuApps {
@@ -3042,13 +3050,6 @@
 
                     <ul style="list-style-type: none;margin: 0;  padding: 0; overflow: hidden;">
                         <h6 class="font-weight-bold text-uppercase mt-3 mb-4 text-left"><spring:message code="footOtherInfo"/></h6>
-                        <!--                            <li style="float:left;"><a href="">Política de devoluciones, reembolsos y cancelaciones</a></li><br>
-                                                    <li style="float:left;"><a href="">Política de entrega</a></li><br>
-                                                    <li style="float:left;"><a href="">Política de privacidad</a></li><br>
-                                                    <li style="float:left;"><a href="">Política de cookie y redes sociales</a></li><br>
-                                                    <li style="float:left;"><a href="">Aceptación de términos y políticas</a></li><br> -->
-                        
-                        <!--/*sin enlace-->
                         <li style="float:left; text-align: initial;"><a name="" style="color:#007bff;">Política de devoluciones, reembolsos y cancelaciones</a></li><br>
                         <li style="float:left; text-align: initial;"><a name="" style="color:#007bff">Política de entrega</a></li><br>
                         <li style="float:left; text-align: initial;"><a name="" style="color:#007bff">Política de privacidad</a></li><br>
@@ -3105,14 +3106,13 @@
 
 
         <div class="col-3 md-offset-1 text-left">
-            <i class='fa fa-globe-americas' style="margin-left: 25%;
-               margin-right: 2%;"></i>
+            <i class='fa fa-globe-americas' style="margin-left: 25%; margin-right: 2%;"></i>
             <a href="index.htm?lenguaje=en"> EN </a> -
             <a href="index.htm?lenguaje=es"> ES </a> 
             <!--<a href="index.htm?lenguaje=ar"> AR </a>-->
         </div>
-        <div class="col-8">
-            <p class="text-right"> Eduweb group @2019. Todos los derechos reservados.  </p>
+        <div class="col-7">
+            <p class="text-right"> Eduweb group @2019. <spring:message code="derechosReservados"/>  </p>
         </div>
 
 
