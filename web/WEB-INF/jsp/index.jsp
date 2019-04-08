@@ -3117,7 +3117,7 @@
             <a href="index.htm?lenguaje=es"> ES </a> 
             <!--<a href="index.htm?lenguaje=ar"> AR </a>-->
         </div>
-        <div class="col-md-7 offset-2 col-xs-12">
+        <div class="col-md-7 md-offset-2 col-xs-12 col-lg-12 lg-offset-4">
             <p class="text-center"> Eduweb group @2019. <spring:message code="derechosReservados"/>  </p>
         </div>
 
