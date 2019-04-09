@@ -636,54 +636,92 @@
                         <h3 style="text-align: center;" class="colorTextBamboo">Bamboo for Guides</h5>
                             <p style="text-align: center; " class="pl-3 pr-3">A full workspace for Montessori guides in their day to day activities.<b> No more pen and paper</b></p>
                     </div>
+                    <!--                    <div class="row justify-content-center">
+                                            <div class="col-10  offset-1 col-lg-3   d-lg-block  offset-lg-0 d-flex mt-4 pb-2" data-aos="fade-right"> 
+                                                    <div class="col-4 col-lg-12  p-0">
+                                                    <img src="recursos/img/bamboo/IconosWebBamboo-03.svg" class="imgRow" style="margin-top:15px"> 
+                                                </div> 
+                                                <div class="col-8 col-lg-12 d-flex justify-content-start justify-content-lg-center align-items-center colorTextGray p-0 text-center">
+                                                    <b>Plan Presentations</b>
+                                                </div>
+                                            
+                                            </div>
+                    
+                                            <div class="col-10 offset-1  col-lg-3  d-lg-block offset-lg-0  d-flex mt-2 pb-2" data-aos="fade-left">  
+                                                <div class="col-4 col-lg-12 p-0">
+                                                    <img src="recursos/img/bamboo/IconosWebBamboo-04.svg" class="imgRow">
+                                                </div>
+                                                <div class="col-8 col-lg-12 d-flex justify-content-end justify-content-lg-center  align-items-center colorTextGray p-0 text-center">
+                                                    <b>Record Observations</b>
+                                                </div>
+                                                
+                                            </div>
+                    
+                                            <div class="col-10 offset-1  col-lg-3  d-lg-block offset-lg-0  d-flex mt-2 pb-2" data-aos="fade-right"> 
+                                               <div class="col-4 col-lg-12 p-0">
+                                                    <img src="recursos/img/bamboo/IconosWebBamboo-01.svg" class="imgRow" style="margin-top:15px">
+                                                </div> 
+                                                <div class="col-8 col-lg-12 d-flex justify-content-start  justify-content-lg-center align-items-center colorTextGray p-0 text-center">
+                                                    <b style="margin-top: 15px;"> Presentation Ideas</b>
+                                                </div>
+                                                
+                                            </div>
+                    
+                                        </div>-->
+
+
                     <div class="row justify-content-center">
-                        <div class="col-10  offset-1 col-lg-3   d-lg-block  offset-lg-0 d-flex mt-4 pb-2" data-aos="fade-right"> 
-                            <div class="col-8 col-lg-12 d-flex justify-content-start justify-content-lg-center align-items-center colorTextGray p-0 text-center">
-                                <b>Plan Presentations</b>
-                            </div>
-                            <div class="col-4 col-lg-12  p-0">
+                        <div class="col-12" data-aos="fade-right" style="display:flex;"> 
+                            <div class="col-3">
                                 <img src="recursos/img/bamboo/IconosWebBamboo-03.svg" class="imgRow" style="margin-top:15px"> 
                             </div> 
+                            <div class="col-9">
+                                <div class="col-12 text-center p-0"><b>Plan Presentations</b></div> 
+                                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            </div>
                         </div>
 
-                        <div class="col-10 offset-1  col-lg-3  d-lg-block offset-lg-0  d-flex mt-2 pb-2" data-aos="fade-left">  
-                            <div class="col-4 col-lg-12 p-0">
-                                <img src="recursos/img/bamboo/IconosWebBamboo-04.svg" class="imgRow">
+                        <div class="col-12" data-aos="fade-right" style="display:flex;"> 
+                            <div class="col-3">
+                                <img src="recursos/img/bamboo/IconosWebBamboo-04.svg" class="imgRow" style="margin-top:15px"> 
+                            </div> 
+                            <div class="col-9">
+                                <div class="col-12 text-center p-0"><b>Record Observations</b></div> 
+                                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                             </div>
-                            <div class="col-8 col-lg-12 d-flex justify-content-end justify-content-lg-center  align-items-center colorTextGray p-0 text-center">
-                                <b>Record Observations</b>
-                            </div>
-                            
                         </div>
 
-                        <div class="col-10 offset-1  col-lg-3  d-lg-block offset-lg-0  d-flex mt-2 pb-2" data-aos="fade-right"> 
-                            <div class="col-8 col-lg-12 d-flex justify-content-start  justify-content-lg-center align-items-center colorTextGray p-0 text-center">
-                                <b style="margin-top: 15px;"> Presentation Ideas</b>
-                            </div>
-                            <div class="col-4 col-lg-12 p-0">
-                                <img src="recursos/img/bamboo/IconosWebBamboo-01.svg" class="imgRow" style="margin-top:15px">
+                        <div class="col-12" data-aos="fade-right" style="display:flex;"> 
+                            <div class="col-3">
+                                <img src="recursos/img/bamboo/IconosWebBamboo-01.svg" class="imgRow" style="margin-top:15px"> 
                             </div> 
+                            <div class="col-9">
+                                <div class="col-12 text-center p-0"><b>Presentation Ideas</b></div> 
+                                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            </div>
                         </div>
 
-                    </div>
-                    <div class="row justify-content-center align-items-end" style="margin-top:15px;">
-                        <div class="col-10  col-lg-3  d-lg-block d-flex  d-lg-block mt-2 pb-2" data-aos="fade-left"> 
-                            <div class="col-4 col-lg-12 p-0">
-                                <img src="recursos/img/bamboo/IconosWebBamboo-02.svg" class="imgRow" style="margin-bottom: 15px;">
+                        <div class="col-12" data-aos="fade-right" style="display:flex;"> 
+                            <div class="col-3">
+                                <img src="recursos/img/bamboo/IconosWebBamboo-02.svg" class="imgRow" style="margin-top:15px"> 
                             </div> 
-                            <div class="col-8 col-lg-12 d-flex justify-content-start  justify-content-lg-center align-items-center colorTextGray p-0 text-center">
-                                <b>Share Resources</b>
+                            <div class="col-9">
+                                <div class="col-12 text-center p-0"><b>Share Resources</b></div>                                
+                                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                             </div>
                         </div>
-                        <div class="col-10 col-lg-3  d-lg-block   d-lg-block d-flex mt-2" data-aos="fade-right"> 
-                            <div class="col-8 col-lg-12 d-flex justify-content-start  justify-content-lg-center align-items-center colorTextGray p-0 text-center">
-                                <b>Visualize Progress and Learning Gaps</b>
-                            </div>                            
-                            <div class="col-4 col-lg-12 p-0">
-                                <img src="recursos/img/bamboo/IconosWebBamboo-05.svg" class="imgRow">
+
+
+                        <div class="col-12" data-aos="fade-right" style="display:flex;"> 
+                            <div class="col-3">
+                                <img src="recursos/img/bamboo/IconosWebBamboo-05.svg" class="imgRow" style="margin-top:15px"> 
                             </div> 
+                            <div class="col-9">
+                                <div class="col-12 text-center p-0"><b>Visualize Progress and Learning Gaps</b></div>                               
+                                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            </div>
                         </div>
-                    </div>
+                    </div>                    
                 </div>
             </div>
         </div> 
@@ -1906,7 +1944,6 @@
                 </button>
                 <!--/-->
             </div>
-
         </div>
 
     </div>
@@ -2032,11 +2069,11 @@
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true" style="
                                       position: absolute;
-    bottom: -3%;
-    right: -6%;
-    font-size: larger;
-    background-color: #ffffff;
-    width: 5%;
+                                      bottom: -3%;
+                                      right: -6%;
+                                      font-size: larger;
+                                      background-color: #ffffff;
+                                      width: 5%;
                                       ">&times;
                                 </span>
                             </button>

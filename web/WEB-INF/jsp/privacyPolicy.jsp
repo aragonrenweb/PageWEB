@@ -670,16 +670,16 @@
                                         <spring:message code="condgen.pago.p3"/><br><br>
 
                                         <spring:message code="condgen.pago.p4"/><br>
-                                        <spring:message code="condgen.pago.p5"/><br>
+                                        <spring:message code="condgen.pago.p5"/><br><br>
 
                                         <li><spring:message code="condgen.tit3.5"/></li><br><br>
 
                                         <spring:message code="condgen.parraf3.5.1"/><br>
                                         <spring:message code="condgen.parraf3.5.2"/><br>
-                                        <spring:message code="condgen.parraf3.5.3"/><br>
+                                        <spring:message code="condgen.parraf3.5.3"/><br><br>
 
                                         <li><spring:message code="condgen.tit3.6"/></li><br><br>
-                                            <spring:message code="condgen.parraf3.6.1"/>
+                                        <spring:message code="condgen.parraf3.6.1"/><br><br>
 
                                         <li><spring:message code="condgen.tit3.7"/></li><br><br>
 
@@ -737,10 +737,10 @@
 
                                         <spring:message code="condgen.parraf3.11.1"/><spring:message code="condgen.parraf3.11.2"/><spring:message code="condgen.parraf3.11.3"/><spring:message code="condgen.parraf3.11.4"/><br>
                                     </ol>
-                                </li>
+                                </li> <br>
                                 <li><spring:message code="condgen.tit4"/></li><br><br>
 
-                                <spring:message code="condgen.parraf4.1"/><spring:message code="condgen.parraf4.2"/> <spring:message code="condgen.parraf4.3"/>
+                                <spring:message code="condgen.parraf4.1"/><spring:message code="condgen.parraf4.2"/> <spring:message code="condgen.parraf4.3"/> <br><br>
 
                                 <li><spring:message code="condgen.tit5"/></li><br><br>
 
@@ -748,7 +748,7 @@
 
                                 <li><spring:message code="condgen.tit6"/></li><br><br>
 
-                                <spring:message code="condgen.parraf6.1"/><br><br><spring:message code="condgen.parraf6.2"/><spring:message code="condgen.parraf6.3"/>
+                                <spring:message code="condgen.parraf6.1"/><br><br><spring:message code="condgen.parraf6.2"/><spring:message code="condgen.parraf6.3"/> <br><br> 
 
                                 <li><spring:message code="condgen.tit7"/></li><br><br>
 
