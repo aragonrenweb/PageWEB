@@ -117,6 +117,7 @@
             {
                 background-color: #0d253f;
                 transform: skewX(-4deg);
+                max-width: 0%;
             }
             .colorSCHEDULEsub
             {
@@ -135,8 +136,7 @@
             }
             .colorSchoolAnalytics{
                 background-color: #f7931e;
-                transform: skewX(-4deg);
-                max-width: 0%;
+                transform: skewX(-4deg);                
             }
 
             .colorSchoolAnalyticssub{
@@ -346,9 +346,6 @@
                 font-size: unset;
                 color: #fc8c00;
                 vertical-align: central;
-                /*border-top: 1px solid #f7931e;
-                  border-bottom: 1px solid #f7931e;*/
-                /*background-color: #f7931e;*/
             }
             .animacion
             {
@@ -378,7 +375,6 @@
                 right: -5%;    
                 cursor: pointer;
                 bottom: 0;
-
             }
 
             .buttonNextSub{
@@ -570,7 +566,7 @@
                 }
                 .cardPrincipalScheduler .cardInfo{
                     background-color: rgb(13,37,63,0.2);
-                    transform: skewX(4deg);
+                    transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
                     /*                    max-height: 620px;*/
@@ -649,13 +645,13 @@
 
             /* Small devices (landscape phones, less than 768px)*/
             @media (min-width: 992px) { 
-                
-                .logo{
-                transform: skewX(4deg);
-                width: 60%;
-                max-width: 400px;
 
-            }
+                .logo{
+                    transform: skewX(4deg);
+                    width: 60%;
+                    max-width: 400px;
+
+                }
 
                 .contDescipInner{
                     color: #fff; 
@@ -699,7 +695,6 @@
                     padding-right: 0px;
                 }
 
-
                 .cardPrincipalBamboo .cardInfo{
                     background-color: rgb(102,195,78,0.2);
                     transform: skewX(4deg);
@@ -734,7 +729,7 @@
                 }
                 .cardPrincipalSchoolAnalytics .cardInfo{
                     background-color: rgb(252,140,0, 0.2);
-                    transform: skewX(-4deg);
+                    transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
                     max-height: 550px;
@@ -742,7 +737,6 @@
                     margin-top:0px;
                     padding-top:15px;
                 }
-
 
                 .cardInfo{
                     /*  margin-top: 15px; */
@@ -909,8 +903,6 @@
                 background: -ms-linear-gradient(left, rgba(41,171,226,1) 0%, rgba(41,171,226,1) 25%, rgba(101,195,78,1) 25%, rgba(101,195,78,1) 50%, rgba(53,118,36,1) 50%, rgba(53,118,36,1) 75%, rgba(13,37,63,1) 75%, rgba(13,37,63,1) 100%);
                 background: linear-gradient(to right, rgba(41,171,226,1) 0%, rgba(41,171,226,1) 25%, rgba(101,195,78,1) 25%, rgba(101,195,78,1) 50%, rgba(53,118,36,1) 50%, rgba(53,118,36,1) 75%, rgba(13,37,63,1) 75%, rgba(13,37,63,1) 100%);
                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#29abe2', endColorstr='#0d253f', GradientType=1 );
-                
-                
                 min-height: 550px;
             }
 
@@ -923,8 +915,6 @@
                 background: -ms-linear-gradient(left, rgba(102,195,78,1) 0%, rgba(102,195,78,1) 25%, rgba(53,118,36,1) 25%, rgba(53,118,36,1) 50%, rgba(13,37,63,1) 50%, rgba(13,37,63,1) 77%, rgba(251,176,59,1) 77%, rgba(247,147,30,1) 100%);
                 background: linear-gradient(to right, rgba(102,195,78,1) 0%, rgba(102,195,78,1) 25%, rgba(53,118,36,1) 25%, rgba(53,118,36,1) 50%, rgba(13,37,63,1) 50%, rgba(13,37,63,1) 77%, rgba(251,176,59,1) 77%, rgba(247,147,30,1) 100%);
                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66c34e', endColorstr='#f7931e', GradientType=1 );
-
-
 
             }
 
@@ -1084,7 +1074,7 @@
 
                     $("#informacion").val(info);
                 }
-                $(".colorSchoolAnalytics").hide();
+                $(".colorSCHEDULE").hide();
                 $("#contDescripClassroom").hide();
                 $("#contDescripParent").hide();
                 $("#contDescripStudent").hide();
@@ -1172,9 +1162,22 @@
                     if (estado === '0%') {
                         hideColSubLayers();
                         $('.colorSCHEDULEsub').animate({'max-width': '24%'}, 500);
-                        $(".menu").removeClass("bgBaseMenu").delay(500);
-                        //                    $(".menu").removeClass("bginnerSchoolAnalytics").delay(500);
-                        $(".menu").addClass("bginnerSchedule").delay(500);
+                    } else {
+                        hideColSubLayers();
+                    }
+                });
+
+
+                $(".colorSchoolAnalytics").click(function () {
+                    var estado = $('.colorSchoolAnalyticssub').css('max-width');
+                    if (estado === '0%') {
+                        hideColSubLayers();
+                        $('.colorSchoolAnalyticssub').animate({'max-width': '24%'}, 500);
+                        if (estado === '0%') {
+                            $('.colorSchoolAnalyticssub').animate({'max-width': '24%'}, 500);
+                            $(".menu").removeClass("bgBaseMenu").delay(500);
+                        }
+                        $(".menu").addClass("bginnerSchoolAnalytics").delay(500);
                         $(".buttonNext").hide();
                         if ($(".colorFACTS").css("max-width") === "0%") {
                             $(".buttonNextSub").hide();
@@ -1191,24 +1194,14 @@
                     }
                 });
 
-                $(".colorSchoolAnalytics").click(function () {
-                    var estado = $('.colorSchoolAnalyticssub').css('max-width');
-                    if (estado === '0%') {
-                        hideColSubLayers();
-                        $('.colorSchoolAnalyticssub').animate({'max-width': '24%'}, 500);
-                    } else {
-                        hideColSubLayers();
-                    }
-                });
-
                 $(".buttonNext").click(function (e) {
                     hideColSubLayers();
 //                    $(".menu").addClass("bginnerSchoolAnalytics").delay(700);
                     $('.colorFACTS').animate({'max-width': '0%'}, 500);
-                    $('.colorSchoolAnalytics').delay(520).show().css('max-width', '0').animate({'max-width': '24%'}, 500);
+                    $('.colorSCHEDULE').delay(520).show().css('max-width', '0').animate({'max-width': '24%'}, 500);
                     $(".buttonPrevious").show();
                     $(".buttonNext").hide();
-                    $(".colorSchoolAnalytics div").show();
+                    $(".colorSCHEDULE div").show();
                     e.stopPropagation();
                 });
 
@@ -1216,22 +1209,22 @@
                     hideColSubLayers();
 //                    $(".menu").addClass("bginnerSchoolAnalytics").delay(700);
                     $('.colorFACTS').animate({'max-width': '0%'}, 500);
-                    $('.colorSchoolAnalytics').delay(520).show().css('max-width', '0').animate({'max-width': '24%'}, 500);
+                    $('.colorSCHEDULE').delay(520).show().css('max-width', '0').animate({'max-width': '24%'}, 500);
                     $(".buttonPrevious").show();
                     $(".buttonNext").hide();
                     $(".buttonNextSub").hide();
-                    $(".colorSchoolAnalytics div").show();
+                    $(".colorSCHEDULE div").show();
                     e.stopPropagation();
                 });
 
 
                 $(".buttonPrevious").click(function (e) {
                     hideColSubLayers();
-                    $('.colorSchoolAnalytics').animate({'max-width': '0%'}, 500);
+                    $('.colorSCHEDULE').animate({'max-width': '0%'}, 500);
                     $('.colorFACTS').delay(520).show().css('max-width', '0').animate({'max-width': '24%'}, 500);
                     $(".buttonNext").show();
                     $(".buttonPrevious").hide();
-                    $(".colorSchoolAnalytics div").hide();
+                    $(".colorSCHEDULE div").hide();
                     e.stopPropagation();
                 });
 
@@ -1622,6 +1615,39 @@
                 </div>-->                
             </div>
 
+                    
+                    
+            <div class="col colorSchoolAnalytics colFirstLayer p-0"  >
+                <div class="w-100 h-25 text-center my-auto">
+
+                </div>    
+                <div class="w-100 h-50 text-center my-auto">
+                    <img class="d-inline-block logo" src="recursos/img/LogosMenu/LogoChartSchool.svg">
+                </div> 
+                <div class="w-100 h-25 text-center my-auto">
+                    <a class="text-white h3" >SCHOOL ANALYTICS</a><br>
+                    <a class="text-white h5" ><spring:message code="home.ANALYTICS1"/></a>
+                    <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
+                    <div class="buttonNext">
+                        <i class="fas fa-angle-double-right"></i>
+                    </div>
+                </div> 
+
+            </div>
+            <div class="col colorSchoolAnalyticssub colSubLayer p-0"  style="max-width: 0%;"  >
+                <div class="col w-100 d-flex h-25 align-content-center align-items-center  p-0">
+                    <a class="nav-link-evento"><spring:message code="home.ANALYTICS2"/></a>
+                    <div class="buttonNextSub">
+                        <i class="fas fa-angle-double-right"></i>
+                    </div>
+                </div>
+                <!--<div class="col w-100 d-flex h-25 align-content-center align-items-center">
+                    Qué incluye
+                </div>
+                <div class="col w-100 d-flex h-25  align-content-center align-items-center">
+                    Qué se personaliza
+                </div>-->
+            </div>
             <div class="col colorSCHEDULE colFirstLayer p-0" data-toggle="collapse" href="#"> 
                 <div class="w-100 h-25 text-center my-auto">
 
@@ -1633,9 +1659,9 @@
                     <a class="text-white h3">SCHEDULE</a><br>
                     <a class="text-white h5"><spring:message code="home.SCHEDULE1"/></a> 
                     <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
-                    <div class="buttonNext">
-                        <i class="fas fa-angle-double-right"></i>
-                    </div>
+                    <!--                    <div class="buttonNext">
+                                            <i class="fas fa-angle-double-right"></i>
+                                        </div>-->
                 </div> 
             </div>
 
@@ -1654,37 +1680,12 @@
                 <div class="col w-100 d-flex h-25  align-content-center align-items-center  p-0">
                     <a class="nav-link-evento" href="#cPrincScheduler"><spring:message code="home.SCHEDULE4"/></a> 
 
-                    <div class="buttonNextSub">
-                        <i class="fas fa-angle-double-right"></i>
-                    </div>
+                    <!--                    <div class="buttonNextSub">
+                                            <i class="fas fa-angle-double-right"></i>
+                                        </div>-->
                 </div>
             </div>
 
-            <div class="col colorSchoolAnalytics colFirstLayer p-0"  >
-                <div class="w-100 h-25 text-center my-auto">
-
-                </div>    
-                <div class="w-100 h-50 text-center my-auto">
-                    <img class="d-inline-block logo" src="recursos/img/LogosMenu/LogoChartSchool.svg">
-                </div> 
-                <div class="w-100 h-25 text-center my-auto">
-                    <a class="text-white h3" >SCHOOL ANALYTICS</a><br>
-                    <a class="text-white h5" ><spring:message code="home.ANALYTICS1"/></a>
-                    <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
-                </div> 
-
-            </div>
-            <div class="col colorSchoolAnalyticssub colSubLayer p-0"  style="max-width: 0%;"  >
-                <div class="col w-100 d-flex h-25 align-content-center align-items-center  p-0">
-                    <a class="nav-link-evento"><spring:message code="home.ANALYTICS2"/></a>
-                </div>
-                <!--<div class="col w-100 d-flex h-25 align-content-center align-items-center">
-                    Qué incluye
-                </div>
-                <div class="col w-100 d-flex h-25  align-content-center align-items-center">
-                    Qué se personaliza
-                </div>-->
-            </div>
 
         </div> 
         <div class="row">
@@ -2019,6 +2020,53 @@
         </div>
 
 
+
+        <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalSchoolAnalytics ">
+            <div class="col-12 bgSchoolAnalytics d-flex d-md-none" > 
+                <div class="col-12 d-flex align-items-center justify-content-center">
+                    <h1>School Analytics</h1>
+                </div>
+                <div class="position-absolute imgTitle">
+                    <a class="navbar-brand logoMenuApps" href="#">
+                        <img src="recursos/img/LogosMenu/LogoChartSchool.svg"/>
+                    </a> 
+                </div>
+
+            </div>
+            <div class="position-absolute imgTitleLeft imgTitleSize d-none d-md-block">
+
+            </div>
+            <div class="col-12 col-md-4 cardInfo">
+                <div class="col-12"><h4 class="text-center">It covers all your needs.</h4></div> 
+                <div class="col-10 offset-1 text-center">
+                    <p class="mb-3">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+
+
+                </div>
+            </div>
+            <div class="col-12 col-md-4  cardInfo lineTopGray">
+                <div class="col-12"><h4 class="text-center">Qué incluye?</h4></div> 
+                <div class="col-10 offset-1 text-center">
+                    <p class="mb-3">
+                    </p>
+
+                </div>
+            </div>
+            <div class="col-12 col-md-4  cardInfo lineTopGray">
+                <div class="col-12"><h4 class="text-center">Qué se personaliza?</h4></div> 
+                <div class="col-10 offset-1 text-center">
+                    <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+
+                </div>
+            </div>
+            <div class="col-12 mt-md-3 footerSchoolAnalytics">more info</div>
+        </div>  
+
         <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalScheduler" id="cPrincScheduler">
             <div class="col-12 bgScheduler d-flex d-md-none" > 
                 <div class="col-12 d-flex align-items-center justify-content-center">
@@ -2067,52 +2115,7 @@
         </div>
 
 
-        <!-- 
-        <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalSchoolAnalytics ">
-            <div class="col-12 bgSchoolAnalytics d-flex d-md-none" > 
-                <div class="col-12 d-flex align-items-center justify-content-center">
-                    <h1>School Analytics</h1>
-                </div>
-                <div class="position-absolute imgTitle">
-                    <a class="navbar-brand logoMenuApps" href="#">
-                        <img src="recursos/img/LogosMenu/LogoChartSchool.svg"/>
-                    </a> 
-                </div>
 
-            </div>
-            <div class="position-absolute imgTitleLeft imgTitleSize d-none d-md-block">
-              
-            </div>
-            <div class="col-12 col-md-4 cardInfo">
-                <div class="col-12"><h4 class="text-center">It covers all your needs.</h4></div> 
-                <div class="col-10 offset-1 text-center">
-                    <p class="mb-3">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    </p>
-
-
-                </div>
-            </div>
-            <div class="col-12 col-md-4  cardInfo lineTopGray">
-                <div class="col-12"><h4 class="text-center">Qué incluye?</h4></div> 
-                <div class="col-10 offset-1 text-center">
-                    <p class="mb-3">
-                    </p>
-
-                </div>
-            </div>
-            <div class="col-12 col-md-4  cardInfo lineTopGray">
-                <div class="col-12"><h4 class="text-center">Qué se personaliza?</h4></div> 
-                <div class="col-10 offset-1 text-center">
-                    <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    </p>
-
-                </div>
-            </div>
-            <div class="col-12 mt-md-3 footerSchoolAnalytics">more info</div>
-        </div>  -->
 
         <!--<div class="col-12">
             <div class="col-12"><h4 class="text-center">Política de Privacidad</h4></div> 
@@ -2346,687 +2349,9 @@
             </div>
         </div>
 
-        <%--             <div class="col-12">
-                       <ul class="nav nav-tabs" id="myTab" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#privacyPolicySL" role="tab" aria-controls="privacyPolicySL" aria-selected="true" onclick="privacyPolicySL()"><spring:message code="polp.pest1"/></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#privacyPolicyINC" role="tab" aria-controls="privacyPolicyINC" aria-selected="false" onclick="privacyPolicyINC()"><spring:message code="polp.pest2"/></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#privacyPolicyCon" role="tab" aria-controls="privacyPolicyCon" aria-selected="false" onclick="privacyPolicyCon()"><spring:message code="polp.pest3"/></a>
-                            </li>
-                                                <li class="nav-item">
-                                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#privacyPayments" role="tab" aria-controls="privacyPayments" aria-selected="false" onclick="privacyPayments()"><spring:message code="polp.pest4"/></a>
-                                                </li>
-                        </ul>
-
-
-                <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade show active" id="privacyPolicySL" role="tabpanel" aria-labelledby="home-tab">
-                        <div class="col-10 offset-1">
-                            <p class="mb-3">
-                                <spring:message code="polp.sl.tit1"/><br>
-                                <spring:message code="polp.sl.parraf1"/><br>
-                                <spring:message code="polp.sl.parraf2"/><br>
-                                <spring:message code="polp.sl.parraf3"/><br>
-                                <spring:message code="polp.sl.parraf4"/><br>
-                                <spring:message code="polp.sl.parraf5"/>
-                                <spring:message code="polp.sl.parraf6"/>
-                                <br>
-                                <spring:message code="polp.sl.intro"/><br>
-                                <spring:message code="polp.sl.intro.parraf1"/><a class="" data-toggle="collapse" href="#collapsePrivacy" role="button" aria-expanded="false" aria-controls="collapsePrivacy">
-                                    Read more...</a><br>
-                                <br>
-                            <div class="collapse" id="collapsePrivacy">Background<br>
-                                <spring:message code="polp.sl.intro.parraf2"/><br><br>
-
-                                <spring:message code="polp.sl.intro.parraf3"/>
-
-                                <spring:message code="polp.sl.intro.parraf4"/><br>
-                                <spring:message code="polp.sl.intro.parraf5"/><br> 
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li5.1"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li5.2"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li5.3"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li5.4"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li5.5"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li5.6"/></li>
-                                </ul><br><br>
-                                <spring:message code="polp.sl.intro.parraf6"/><br>
-                                <spring:message code="polp.sl.intro.parraf7"/><br>
-                                <ul class="list-group list-group-flush">                    
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li7.1"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li7.2"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li7.3"/></li>
-                                </ul><br><br> 
-                                <spring:message code="polp.sl.intro.parraf8"/><br>
-                                <spring:message code="polp.sl.intro.parraf9"/>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li9.1"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li9.2"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li9.3"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li9.4"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li9.5"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li9.6"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li9.7"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li9.8"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li9.9"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li9.10"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li9.11"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li9.12"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li9.13"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li9.14"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li9.15"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li9.16"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li9.17"/></li>
-                                </ul>
-                                <br><br>
-                                <spring:message code="polp.sl.intro.parraf10"/><br>
-                                <spring:message code="polp.sl.intro.parraf11"/><br>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li11.1"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li11.2"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li11.3"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li11.4"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li11.5"/></li>
-                                </ul><br><br> 
-                                <spring:message code="polp.sl.intro.parraf12"/><br>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li12.1"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li12.2"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li12.3"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li12.4"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li12.5"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li12.6"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li12.7"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li12.8"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li12.9"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li12.10"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li12.11"/></li>
-                                </ul><br><br> 
-                                <spring:message code="polp.sl.intro.parraf13"/><br>
-                                <spring:message code="polp.sl.intro.parraf14"/><br>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.lil14.1"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.lil14.2"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.lil14.3"/></li>
-                                </ul><br><br>  
-                                <spring:message code="polp.sl.intro.parraf15"/><br>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.lil15.1"/></li>
-                                </ul><br><br> 
-                                <spring:message code="polp.sl.intro.parraf16"/><br>
-                                <spring:message code="polp.sl.intro.parraf17"/><br>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.lil17.1"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.lil17.2"/></li> 
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.lil17.3"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.lil17.4"/></li>
-                                </ul><br><br> 
-                                <spring:message code="polp.sl.intro.parraf18"/><br> 
-                                <spring:message code="polp.sl.intro.parraf19"/><br><br> 
-
-                                <spring:message code="polp.sl.intro.parraf20"/><br> 
-                                <spring:message code="polp.sl.intro.parraf21"/><br> <br> 
-
-                                <spring:message code="polp.sl.intro.parraf22"/><br> 
-                                <spring:message code="polp.sl.intro.parraf23"/><br> <br> 
-
-                                <spring:message code="polp.sl.intro.parraf24"/> <br> 
-                                <spring:message code="polp.sl.intro.parraf25"/><br>  
-                                <spring:message code="polp.sl.intro.parraf26"/><br> <br> 
-
-                                <spring:message code="polp.sl.intro.parraf27"/><br> 
-                                <spring:message code="polp.sl.intro.parraf28"/><br> 
-                                <spring:message code="polp.sl.intro.parraf29"/> <br> <br> 
-
-                                <spring:message code="polp.sl.intro.parraf30"/><br> 
-                                <spring:message code="polp.sl.intro.parraf31"/><br> 
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li31.1"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li31.2"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li31.3"/></li>
-                                </ul><br><br>  
-                                <spring:message code="polp.sl.intro.li33.2"/><br> 
-                                <spring:message code="polp.sl.intro.parraf33"/><br> 
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li33.1"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li33.2"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li33.3"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li33.4"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li33.5"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li33.6"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li33.7"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.sl.intro.li33.8"/></li>
-                                </ul><br>
-                                <spring:message code="polp.sl.intro.parraf34"/><br><br>
-
-                                <spring:message code="polp.sl.intro.parraf35"/><br>
-                                <spring:message code="polp.sl.intro.parraf36"/><br><br>
-
-
-                                <spring:message code="polp.sl.intro.parraf37"/><br>
-                                <spring:message code="polp.sl.intro.parraf38"/><br><br>
-                            </div>
-                            </p> 
-                        </div>
-                    </div>
-
-                    <div class="tab-pane fade" id="privacyPolicyINC" role="tabpanel" aria-labelledby="profile-tab">
-                        <div class="col-10 offset-1">
-                            <p class="mb-3">
-                                <spring:message code="polp.inc.tit1"/><br>
-                                <spring:message code="polp.inc.parraf1"/><br>
-                                <spring:message code="polp.inc.parraf2"/> <br>
-                                <spring:message code="polp.inc.parraf3"/><br>
-                                <spring:message code="polp.inc.parraf4"/><br>
-                                <spring:message code="polp.inc.parraf5"/><br>
-                                <spring:message code="polp.inc.parraf6"/><br>
-                                <spring:message code="polp.inc.intro"/><br>
-                                <spring:message code="polp.inc.intro.parraf1"/>
-                                <a class="" data-toggle="collapse" href="#collapsePrivacy" role="button" aria-expanded="false" aria-controls="collapsePrivacy">
-                                    Read more...</a><br>
-                                <br>
-                            <div class="collapse" id="collapsePrivacy">Background<br>
-                                <spring:message code="polp.inc.intro.parraf2"/><br><br>
-
-                                <spring:message code="polp.inc.intro.parraf3"/><br>
-                                <spring:message code="polp.inc.intro.parraf4"/><br><br>
-
-
-                                <spring:message code="polp.inc.intro.parraf5"/><br>
-                                <spring:message code="polp.inc.intro.parraf6"/><br> 
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li6.1"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li6.2"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li6.3"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li6.4"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li6.5"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li6.6"/></li>
-                                </ul><br><br>
-                                <spring:message code="polp.inc.intro.parraf7"/><br>
-                                <spring:message code="polp.inc.intro.parraf8"/><br>
-                                <ul class="list-group list-group-flush">                    
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li8.1"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li8.2"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li8.3"/></li>
-                                </ul><br><br> 
-                                <spring:message code="polp.inc.intro.parraf9"/><br>
-                                <spring:message code="polp.inc.intro.parraf10"/><br>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li10.1"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li10.2"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li10.3"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li10.4"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li10.5"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li10.6"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li10.7"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li10.8"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li10.9"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li10.9"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li10.10"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li10.11"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li10.12"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li10.13"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li10.14"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li10.15"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li10.16"/></li>
-                                </ul>
-                                <br><br>
-                                <spring:message code="polp.inc.intro.parraf11"/><br>
-                                <spring:message code="polp.inc.intro.parraf12"/><br>
-                                <spring:message code="polp.inc.intro.parraf13"/><br>
-                                <spring:message code="polp.inc.intro.parraf14"/><br>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li14.1"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li14.2"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li14.3"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li14.4"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li14.5"/></li>
-                                </ul><br><br> 
-                                <spring:message code="polp.inc.intro.parraf15"/><br>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li15.1"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li15.2"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li15.3"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li15.4"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li15.5"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li15.6"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li15.7"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li15.8"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li15.9"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li15.10"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li15.11"/></li>
-                                </ul><br><br> 
-
-                                <spring:message code="polp.inc.intro.parraf16"/><br>
-                                <spring:message code="polp.inc.intro.parraf17"/><br>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li17.1"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li17.2"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li17.3"/></li>
-                                </ul><br><br>  
-                                <spring:message code="polp.inc.intro.parraf18"/><br>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li18.1"/></li>
-                                </ul><br><br> 
-                                <spring:message code="polp.inc.intro.parraf19"/><br>
-                                <spring:message code="polp.inc.intro.parraf20"/><br>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li20.1"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li20.2"/></li> 
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li20.3"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li20.4"/></li>
-                                </ul><br><br> 
-                                <spring:message code="polp.inc.intro.parraf21"/><br> 
-                                <spring:message code="polp.inc.intro.parraf22"/><br> <br> 
-
-                                <spring:message code="polp.inc.intro.parraf23"/><br> 
-                                <spring:message code="polp.inc.intro.parraf24"/><br> <br> 
-
-                                <spring:message code="polp.inc.intro.parraf25"/><br> 
-                                <spring:message code="polp.inc.intro.parraf26"/><br> <br> 
-
-                                <spring:message code="polp.inc.intro.parraf27"/><br> 
-                                <spring:message code="polp.inc.intro.parraf28"/><br>  
-                                <spring:message code="polp.inc.intro.parraf29"/><br> <br> 
-
-                                <spring:message code="polp.inc.intro.parraf30"/> <br> 
-                                <spring:message code="polp.inc.intro.parraf31"/><br> 
-                                <spring:message code="polp.inc.intro.parraf32"/> <br> <br> 
-
-                                <spring:message code="polp.inc.intro.parraf33"/><br> 
-                                <spring:message code="polp.inc.intro.parraf34"/><br> 
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li34.1"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li34.2"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li34.3"/></li>
-                                </ul><br><br>  
-                                <spring:message code="polp.inc.intro.parraf35"/><br> 
-                                <spring:message code="polp.inc.intro.parraf36"/><br> 
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li36.1"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li36.2"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li36.3"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li36.4"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li36.5"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li36.6"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li36.7"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.inc.intro.li36.8"/></li>
-                                </ul><br>
-                                <spring:message code="polp.inc.intro.parraf37"/><br><br>
-
-                                <spring:message code="polp.inc.intro.parraf38"/><br>
-                                <spring:message code="polp.inc.intro.parraf39"/><br><br>
-
-                                <spring:message code="polp.inc.intro.parraf40"/><br>
-                                <spring:message code="polp.inc.intro.parraf41"/><br><br>
-                            </div>
-                            </p> 
-                        </div>
-                    </div> 
-
-
-                    <div class="tab-pane fade" id="privacyPolicyCon" role="tabpanel" aria-labelledby="profile-tab">
-                        <div class="col-10 offset-1">
-                            <p class="mb-3">
-                                <spring:message code="polp.con.tit1"/><br>
-                                <spring:message code="polp.con.parraf1"/><br>
-                                <spring:message code="polp.con.parraf2"/><br>
-                                <spring:message code="polp.con.parraf3"/><br>
-                                <spring:message code="polp.con.parraf4"/><br>
-                                <spring:message code="polp.con.parraf5"/><br>
-                                <spring:message code="polp.con.parraf6"/><br> 
-                                <br>
-                                <spring:message code="polp.con.intro.tit"/><br>
-                                <spring:message code="polp.con.intro.parraf1"/>
-                                <a class="" data-toggle="collapse" href="#collapsePrivacy" role="button" aria-expanded="false" aria-controls="collapsePrivacy">
-                                    Read more...</a><br>
-                                <br>
-                            <div class="collapse" id="collapsePrivacy">Background<br>
-                                <spring:message code="polp.con.intro.parraf2"/><br><br>
-
-                                <spring:message code="polp.con.intro.parraf3"/><br>
-                                <spring:message code="polp.con.intro.parraf4"/><br><br>
-
-
-                                <spring:message code="polp.con.intro.parraf5"/><br>
-                                <spring:message code="polp.con.intro.parraf6"/><br> 
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li6.1"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li6.2"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li6.3"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li6.4"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li6.5"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li6.6"/></li>
-                                </ul><br><br>
-                                <spring:message code="polp.con.intro.parraf7"/><br>
-                                <spring:message code="polp.con.intro.parraf8"/><br>
-                                <ul class="list-group list-group-flush">                    
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li8.1"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li8.2"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li8.3"/></li>
-                                </ul><br><br> 
-                                <spring:message code="polp.con.intro.parraf9"/><br>
-                                <spring:message code="polp.con.intro.parraf10"/><br>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li10.1"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li10.2"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li10.3"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li10.4"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li10.5"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li10.6"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li10.7"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li10.8"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li10.9"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li10.10"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li10.11"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li10.12"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li10.13"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li10.14"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li10.15"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li10.16"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li10.17"/></li>
-                                </ul>
-                                <br><br>
-                                <spring:message code="polp.con.intro.parraf11"/><br>
-                                <spring:message code="polp.con.intro.parraf12"/><br>
-                                <spring:message code="polp.con.intro.parraf13"/><br>
-                                <spring:message code="polp.con.intro.parraf14"/><br>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li14.1"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li14.2"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li14.3"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li14.4"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li14.5"/></li>
-                                </ul><br><br> 
-                                <spring:message code="polp.con.intro.parraf15"/><br>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li15.1"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li15.2"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li15.3"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li15.4"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li15.5"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li15.6"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li15.7"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li15.8"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li15.9"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li15.10"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li15.11"/></li>
-                                </ul><br><br> 
-                                <spring:message code="polp.con.intro.parraf16"/><br>
-                                <spring:message code="polp.con.intro.parraf17"/><br>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li17.1"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li17.1"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li17.1"/></li>
-                                </ul><br><br>  
-                                <spring:message code="polp.con.intro.parraf18"/><br>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li18.1"/></li>
-                                </ul><br><br> 
-                                <spring:message code="polp.con.intro.parraf19"/><br>
-                                <spring:message code="polp.con.intro.parraf20"/><br>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li20.1"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li20.2"/></li> 
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li20.3"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li20.4"/></li>
-                                </ul><br><br> 
-                                <spring:message code="polp.con.intro.parraf21"/><br> 
-                                <spring:message code="polp.con.intro.parraf22"/><br> <br> 
-
-                                <spring:message code="polp.con.intro.parraf23"/><br> 
-                                <spring:message code="polp.con.intro.parraf24"/><br> <br> 
-
-                                <spring:message code="polp.con.intro.parraf25"/><br> 
-                                <spring:message code="polp.con.intro.parraf26"/><br> <br> 
-
-                                <spring:message code="polp.con.intro.parraf27"/><br> 
-                                <spring:message code="polp.con.intro.parraf28"/><br>  
-                                <spring:message code="polp.con.intro.parraf29"/><br> <br> 
-
-                                <spring:message code="polp.con.intro.parraf30"/><br> 
-                                <spring:message code="polp.con.intro.parraf31"/><br> 
-                                <spring:message code="polp.con.intro.parraf32"/> <br> <br> 
-
-                                <spring:message code="polp.con.intro.parraf33"/><br> 
-                                <spring:message code="polp.con.intro.parraf34"/><br> 
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li34.1"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li34.2"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li34.3"/></li>
-                                </ul><br><br>  
-                                <spring:message code="polp.con.intro.parraf35"/><br> 
-                                <spring:message code="polp.con.intro.parraf36"/><br> 
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li36.1"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li36.2"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li36.3"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li36.4"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li36.5"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li36.6"/></li>
-                                    <li class="list-group-item"><spring:message code="polp.con.intro.li36.7"/></li>
-                                </ul><br>
-                                <spring:message code="polp.con.intro.parraf37"/><br><br>
-
-                                <spring:message code="polp.con.intro.parraf38"/><br>
-                                <spring:message code="polp.con.intro.parraf39"/><br><br>
-
-
-                                <spring:message code="polp.con.intro.parraf40"/><br>
-                                <spring:message code="polp.con.intro.parraf41"/><br><br>
-                            </div>
-                            </p> 
-                        </div> 
-                    </div>
-                </div>
-            </div>                          
-                            
-        </div>--%>
-
-
-        <%--           <div class="col-12">
-                        <hr>
-                        <div class="col-12"><h4 class="text-center"><spring:message code="condgen.tit"/></h4></div> 
-                        <div class="col-10 offset-1">
-                            <p class="mb-3">
-                                <spring:message code="condgen.tit"/><br><br>
-                            <div id="collapseCondicionesInicio">
-
-                        <ol class="primero">
-                            <li><spring:message code="condgen.tit1"/></li><br><br>
-
-                            <spring:message code="condgen.parraf1"/><br><br>
-
-
-                            <li><spring:message code="condgen.tit2"/></li><br><br>
-
-                            <spring:message code="condgen.parraf2"/><br>
-
-                            <spring:message code="condgen.parraf2.2"/><br>
-
-                            <spring:message code="condgen.parraf2.3"/><br>
-                            <spring:message code="condgen.parraf2.4"/><br>
-
-                            <spring:message code="condgen.parraf2.5"/><br><br>
-
-                        </ol>
-                        <a id="collapseINICIO" data-toggle="collapse" href="#collapseCondiciones" role="button" aria-expanded="false" aria-controls="collapseCondiciones">
-                            Leer más...</a>
-                    </div>
-                    <div class="collapse" id="collapseCondiciones">
-                        <ol>
-
-                            <li><spring:message code="condgen.tit13"/></li><br><br>
-
-                            <spring:message code="condgen.tit13.1"/><br><br>
-
-
-                            <li><spring:message code="condgen.parraf13.1"/></li><br><br>
-
-                            <spring:message code="condgen.parraf13.1.1"/><br>
-                            <spring:message code="condgen.parraf13.1.2"/><br>
-                            <spring:message code="condgen.parraf13.1.3"/><br>
-                            <spring:message code="condgen.parraf13.1.4"/><br>
-
-
-                            <a id="mostrarCondiInicio" data-toggle="collapse" href="#collapseCondiciones" role="button" aria-expanded="false" aria-controls="collapseCondiciones">
-                                Leer menos...
-                            </a>
-                            <li><spring:message code="condgen.tit3"/><br><br>
-                                <ol>
-                                    <li><spring:message code="condgen.tit3.1"/></li><br><br>
-
-                                    <spring:message code="condgen.parraf3.1.1"/><br>
-                                    <spring:message code="condgen.parraf3.1.2"/><br>
-                                    <spring:message code="condgen.parraf3.1.3"/><br>
-                                    <spring:message code="condgen.parraf3.1.4"/><br><br>
-
-                                    <li><spring:message code="condgen.tit3.3"/></li><br><br>
-                                    <spring:message code="condgen.parraf3.2.1"/><br><br>
-                                    <li><spring:message code="condgen.tit03.03"/></li><br><br>
-
-                                    <spring:message code="condgen.parraf03.03.1"/><br><br>
-                                    <li><spring:message code="condgen.tit3.3"/><br><br>
-                                        <ol>
-                                            <li><spring:message code="condgen.parraf3.3.1"/></li>
-                                            <li><spring:message code="condgen.parraf3.3.2"/></li>
-                                            <li><spring:message code="condgen.parraf3.3.3"/></li>
-                                            <li><spring:message code="condgen.parraf3.3.4"/></li>
-                                            <li><spring:message code="condgen.parraf3.3.5"/></li><br><br>
-                                        </ol>
-                                    </li>
-                                    <spring:message code="condgen.pago1"/><br><br>
-                                    <spring:message code="condgen.pago2"/><br><br>
-
-                                    <spring:message code="condgen.cuenta"/>	0081-5732-03-0001190922<br>
-                                    IBAN / BIC:	ES04 0081 5732 0300 0119 0922 / BSAB ESBB<br>
-                                    <spring:message code="condgen.nombre"/><br>
-                                    <spring:message code="condgen.titular"/> EDUWEB GROUP, S.L.<br>
-                                    <spring:message code="condgen.moneda"/> Euros<br><br>
-
-                                    <spring:message code="condgen.parraf"/><br><br>
-
-                                    <spring:message code="condgen.pago.p1"/><br><br>
-
-                                    <spring:message code="condgen.pago.p2"/><br><br>
-                                    <spring:message code="condgen.pago.p3"/><br><br>
-
-                                    <spring:message code="condgen.pago.p4"/><br>
-                                    <spring:message code="condgen.pago.p5"/><br>
-
-                                    <li><spring:message code="condgen.tit3.5"/></li><br><br>
-
-                                    <spring:message code="condgen.parraf3.5.1"/><br>
-                                    <spring:message code="condgen.parraf3.5.2"/><br>
-                                    <spring:message code="condgen.parraf3.5.3"/><br>
-
-                                    <li><spring:message code="condgen.tit3.6"/></li><br><br>
-                                        <spring:message code="condgen.parraf3.6.1"/>
-
-                                    <li><spring:message code="condgen.tit3.7"/></li><br><br>
-
-                                    <spring:message code="condgen.parraf3.7.1"/><br><br>
-                                    <spring:message code="condgen.parraf3.7.2"/><br><br>
-                                    <spring:message code="condgen.parraf3.7.3"/><br><br>
-                                    <spring:message code="condgen.parraf3.7.4"/><br><br>
-                                    <spring:message code="condgen.parraf3.7.5"/><br><br>
-                                    <spring:message code="condgen.parraf3.7.6"/><br><br>
-
-
-                                    <li><spring:message code="condgen.tit3.8"/></li><br><br>
-
-                                    <spring:message code="condgen.parraf3.8.1"/><br><br>
-
-                                    <spring:message code="condgen.parraf3.8.2"/><br>
-                                    <spring:message code="condgen.parraf3.8.3"/><br><br>
-
-                                    <spring:message code="condgen.parraf3.8.4"/><br><br>
-
-                                    <spring:message code="condgen.parraf3.8.5"/><br><br>
-
-                                    <spring:message code="condgen.parraf3.8.6"/><br><br>
-
-                                    <spring:message code="condgen.parraf3.8.7"/><br><br>
-
-                                    <spring:message code="condgen.parraf3.8.8"/><br><br>
-
-                                    <spring:message code="condgen.parraf3.8.9"/><br><br>
-
-                                    <spring:message code="condgen.parraf3.8.10"/><br><br>
-
-                                    <li><spring:message code="condgen.tit3.9"/></li><br><br>
-
-                                    <spring:message code="condgen.parraf3.9.1"/><br>
-                                    <spring:message code="condgen.parraf3.9.2"/><br><br>
-
-                                    <spring:message code="condgen.parraf3.9.3"/><spring:message code="condgen.parraf3.9.4"/><br><br>
-
-                                    <spring:message code="condgen.parraf3.9.5"/><br><br>
-
-                                    <spring:message code="condgen.parraf3.9.6"/><br><br>
-
-                                    <spring:message code="condgen.parraf3.9.7"/><br><br>
-
-                                    <li><spring:message code="condgen.tit3.10"/></li><br><br>
-
-                                    <spring:message code="condgen.parraf3.10.1"/><br><br>
-
-                                    <spring:message code="condgen.parraf3.10.2"/><br><br>
-
-                                    <spring:message code="condgen.parraf3.10.3"/><br><br>
-
-                                    <li><spring:message code="condgen.tit3.11"/></li><br><br>
-
-                                    <spring:message code="condgen.parraf3.11.1"/><spring:message code="condgen.parraf3.11.2"/><spring:message code="condgen.parraf3.11.3"/><spring:message code="condgen.parraf3.11.4"/><br>
-                                </ol>
-                            </li>
-                            <li><spring:message code="condgen.tit4"/></li><br><br>
-
-                            <spring:message code="condgen.parraf4.1"/><spring:message code="condgen.parraf4.2"/> <spring:message code="condgen.parraf4.3"/>
-
-                            <li><spring:message code="condgen.tit5"/></li><br><br>
-
-                            <spring:message code="condgen.parraf5.1"/><spring:message code="condgen.parraf5.2"/><spring:message code="condgen.parraf5.3"/><spring:message code="condgen.parraf5.4"/><br><br>
-
-                            <li><spring:message code="condgen.tit6"/></li><br><br>
-
-                            <spring:message code="condgen.parraf6.1"/><br><br><spring:message code="condgen.parraf6.2"/><spring:message code="condgen.parraf6.3"/>
-
-                            <li><spring:message code="condgen.tit7"/></li><br><br>
-
-                            <spring:message code="condgen.parraf7.1"/><spring:message code="condgen.parraf7.2"/><br><br>
-
-                            <li><spring:message code="condgen.tit8"/></li><br><br>
-
-                            <spring:message code="condgen.parraf8.1"/><spring:message code="condgen.parraf8.2"/><br><br>
-
-                            <li><spring:message code="condgen.tit9"/></li><br><br>
-
-                            <spring:message code="condgen.parraf9.1"/><spring:message code="condgen.parraf9.2"/><br><br>
-
-                            <li><spring:message code="condgen.tit10"/></li><br><br>
-
-                            <spring:message code="condgen.parraf10.1"/><br><br>
-
-                            <li><spring:message code="condgen.tit11"/></li><br><br>
-
-                            <spring:message code="condgen.parraf11.1"/><br><br>
-
-                            <li><spring:message code="condgen.tit12"/></li><br><br>
-                        </ol>
-                        <spring:message code="condgen.parraf12.1"/><br><br>        
-                    </div> </p>
-                </div>
-            </div>--%>
-
-
         <footer class="col-12 mb-4" style="background-color: gainsboro;">
             <div class="row" style="margin-left: 5%;" >
-                <div class="col-md-4 mx-auto">
+                <div class="col-md-3 mx-auto">
                     <h6 class="font-weight-bold text-uppercase mt-3 mb-4 text-left"><spring:message code="footContact"/></h6>
                     <h6 class="text-muted text-left">
                         Paseo de la Castellana 153<br>
@@ -3037,7 +2362,7 @@
                 </div>
 
                 <hr class="clearfix w-100 d-md-none">
-                <div class="col-md-4 mx-auto">
+                <div class="col-md-3 mx-auto">
                     <ul style="list-style-type: none;
                         margin: 0;
                         padding: 0;                      
@@ -3052,71 +2377,76 @@
 
 
 
-                <div class="col-md-4 mx-auto">
+                <div class="col-md-3 mx-auto">
 
                     <ul style="list-style-type: none;margin: 0;  padding: 0; overflow: hidden;">
                         <h6 class="font-weight-bold text-uppercase mt-3 mb-4 text-left"><spring:message code="footOtherInfo"/></h6>
-                        <li style="float:left; text-align: initial;"><a name="" style="color:#007bff;">Política de devoluciones, reembolsos y cancelaciones</a></li><br>
-                        <li style="float:left; text-align: initial;"><a name="" style="color:#007bff">Política de entrega</a></li><br>
-                        <li style="float:left; text-align: initial;"><a name="" style="color:#007bff">Política de privacidad</a></li><br>
-                        <li style="float:left; text-align: initial;"><a name="" style="color:#007bff">Política de cookie y redes sociales</a></li><br>
-                        <li style="float:left; text-align: initial;"><a name="" style="color:#007bff">Aceptación de términos y políticas</a></li><br>
+                        <li style="float:left; text-align: initial;"><a name="" style="color:#007bff;"><spring:message code="polp.pest5"/></a></li><br>
+                        <li style="float:left; text-align: initial;"><a name="" style="color:#007bff"><spring:message code="polp.pest6"/></a></li><br>
+                        <li style="float:left; text-align: initial;"><a name="" style="color:#007bff"><spring:message code="polp.pest7"/></a></li><br>
+                        <li style="float:left; text-align: initial;"><a name="" style="color:#007bff"><spring:message code="polp.pest8"/></a></li><br>
+                        <li style="float:left; text-align: initial;"><a name="" style="color:#007bff"><spring:message code="polp.pest9"/></a></li><br>
 
+                    </ul>
+                </div>
+
+                <div class="col-md-3 mx-auto">
+                    <h6 class="font-weight-bold text-uppercase mt-3 mb-4 text-left"><spring:message code="metPago"/></h6>
+                    <ul class="list-unstyled list-inline text-left">
+
+                        <li class="list-inline-item">
+                            <img class="imgLoading" src="recursos/img/visa-mastercard.png" style="width:100px;"/>
+                        </li>
+                        <h6 class="font-weight-bold text-uppercase mt-3 mb-4 text-left"><spring:message code="moneda"/></h6>
+                        <li class="list-inline-item">
+                            <i class="fas fa-euro-sign"></i>
+                        </li>
+                        <!--         <li class="list-inline-item">
+                                      <i class="fab fa-cc-visa"></i>
+                                  </li>
+                                 <li class="list-inline-item">
+                                      <i class="fab fa-cc-mastercard"></i>  <li class="list-inline-item">
+                                      <i class="fab fa-cc-visa"></i>
+                                  </li>
+                                  <li class="list-inline-item">
+                                      <i class="fab fa-cc-mastercard"></i>
+                                  </li>-->
                     </ul>
                 </div>
             </div>
 
 
-            <!--
-                 Call to action 
-                <ul class="list-unstyled list-inline text-center py-2">
-                  <li class="list-inline-item">
-                    <h5 class="mb-1">Register for free</h5>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="#!" class="btn btn-danger btn-rounded">Sign up!</a>
-                  </li>
-                </ul>
+
+            <!--                 Call to action 
+                            <ul class="list-unstyled list-inline text-center py-2">
+                              <li class="list-inline-item">
+                                <h5 class="mb-1">Register for free</h5>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#!" class="btn btn-danger btn-rounded">Sign up!</a>
+                              </li>
+                            </ul> 
+            
+            
+                                     Social buttons -->
 
 
-            <!--             Social buttons 
-                        <ul class="list-unstyled list-inline text-center">
-                            <li class="list-inline-item">
-                                <a class="btn-floating btn-fb mx-1">
-                                    <i class="fab fa-facebook-f"> </i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="btn-floating btn-tw mx-1">
-                                    <i class="fab fa-twitter"> </i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="btn-floating btn-gplus mx-1">
-                                    <i class="fab fa-google-plus-g"> </i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="btn-floating btn-li mx-1">
-                                    <i class="fab fa-linkedin-in"> </i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="btn-floating btn-dribbble mx-1">
-                                    <i class="fab fa-dribbble"> </i>
-                                </a>
-                            </li>
-                        </ul>-->
+
+
 
         </footer>
+
 
 
         <div class="col-md-3 md-offset-1 col-xs-12 text-left">
             <i class='fa fa-globe-americas' style="margin-left: 25%; margin-right: 2%;"></i>
             <a href="index.htm?lenguaje=en"> EN </a> -
             <a href="index.htm?lenguaje=es"> ES </a> 
-            <!--<a href="index.htm?lenguaje=ar"> AR </a>-->
+            <!--<a href="index.htm?lenguaje=ar"> AR </a> -->
+
         </div>
+
+
         <div class="col-md-7 md-offset-2 col-xs-12 col-lg-12 lg-offset-4">
             <p class="text-center"> Eduweb group @2019. <spring:message code="derechosReservados"/>  </p>
         </div>
