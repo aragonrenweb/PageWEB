@@ -583,14 +583,14 @@
                     background-image: url(recursos/img/fondos/Fondo_SchoolAnalyticsopacidad25.svg);
                     text-shadow: 0 0 black;
                     background-repeat: no-repeat;
-                    background-position-x: 2%;
-                    background-position-y: 25%;
+                    background-position-x: 50%;
+                    background-position-y: 50%;
 
                 }
 
                 .cardPrincipalSchoolAnalytics .cardInfo{
                     background-color: rgb(252,140,0, 0.2);
-                    transform: skewX(-4deg);
+                    transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
                     /*                    max-height: 620px;*/
@@ -719,7 +719,7 @@
 
                 .cardPrincipalScheduler .cardInfo{
                     background-color:  rgb(13,37,63,0.2);
-                    transform: skewX(4deg);
+                    transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
                     max-height: 550px;
@@ -819,7 +819,7 @@
 
                 .cardPrincipalScheduler .cardInfo{
                     background-color:  rgb(13,37,63,0.2);
-                    transform: skewX(4deg);
+                    transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
                     max-height: 500px;
@@ -829,10 +829,10 @@
                 }
                 .cardPrincipalSchoolAnalytics .cardInfo{
                     background-color: rgb(252,140,0, 0.2);
-                    transform: skewX(-4deg);
+                    transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-                    /*                    max-height: 500px;*/
+                                        max-height: 500px;
                     flex-direction: column;
                     margin-top:0px;
                     padding-top:15px;
@@ -1513,9 +1513,9 @@
                 <a class="d-block d-sm-none d-none d-sm-block d-md-none navbar-brand logoMenuApps nav-link-evento" id="logoMenuApp4" value="scheduler" href="#cPrincScheduler">
                     <img src="recursos/img/LogosMenu/LogoMschedules.svg" >
                 </a>
-<!--                <a class="d-block d-sm-none d-none d-sm-block d-md-none navbar-brand logoMenuApps nav-link" id="logoMenuApp5" value="schoolView" href="<c:url value="/smartClover.htm" />">
+                <a class="d-block d-sm-none d-none d-sm-block d-md-none navbar-brand logoMenuApps nav-link-evento" id="logoMenuApp5" value="schoolAnalytics" href="#cPrincSchoolAnalytics">
                     <img src="recursos/img/LogosMenu/LogoChartSchool.svg" >
-                </a>-->
+                </a>
             </div>
         </div>
         <div class="d-none d-md-flex row menu bgBaseMenu">
@@ -1617,7 +1617,7 @@
 
                     
                     
-            <div class="col colorSchoolAnalytics colFirstLayer p-0"  >
+            <div class="col colorSchoolAnalytics colFirstLayer p-0" >
                 <div class="w-100 h-25 text-center my-auto">
 
                 </div>    
@@ -1636,17 +1636,24 @@
             </div>
             <div class="col colorSchoolAnalyticssub colSubLayer p-0"  style="max-width: 0%;"  >
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center  p-0">
-                    <a class="nav-link-evento"><spring:message code="home.ANALYTICS2"/></a>
+                    <a class="nav-link-evento" href="#cPrincSchoolAnalytics"><spring:message code="home.ANALYTICS2"/></a>
                     <div class="buttonNextSub">
                         <i class="fas fa-angle-double-right"></i>
                     </div>
                 </div>
-                <!--<div class="col w-100 d-flex h-25 align-content-center align-items-center">
-                    Qué incluye
+                    
+                    <div class="col w-100 d-flex h-25 align-content-center align-items-center  p-0">
+                    <a class="nav-link-evento" href="#cPrincSchoolAnalytics"><spring:message code="home.ANALYTICS2"/></a>
+                    <div class="buttonNextSub">
+                        <i class="fas fa-angle-double-right"></i>
+                    </div>
                 </div>
-                <div class="col w-100 d-flex h-25  align-content-center align-items-center">
-                    Qué se personaliza
-                </div>-->
+                    <div class="col w-100 d-flex h-25 align-content-center align-items-center  p-0">
+                    <a class="nav-link-evento" href="#cPrincSchoolAnalytics"><spring:message code="home.ANALYTICS2"/></a>
+                    <div class="buttonNextSub">
+                        <i class="fas fa-angle-double-right"></i>
+                    </div>
+                </div>
             </div>
             <div class="col colorSCHEDULE colFirstLayer p-0" data-toggle="collapse" href="#"> 
                 <div class="w-100 h-25 text-center my-auto">
@@ -1902,7 +1909,7 @@
                                     <i class="fas fa-circle" style="font-size: 10px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> -->
             </div>
         </div>
-
+                            
 
         <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalBamboo" id="cPrincBamboo">
             <div class="col-12 bgBamboo d-flex d-md-none" > 
@@ -2019,53 +2026,51 @@
             <div class="col-12 mt-md-3 footerSmartClover">more info</div>
         </div>
 
-
-
-        <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalSchoolAnalytics ">
+                    
+                    <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalSchoolAnalytics" id="cPrincSchoolAnalytics">
             <div class="col-12 bgSchoolAnalytics d-flex d-md-none" > 
                 <div class="col-12 d-flex align-items-center justify-content-center">
                     <h1>School Analytics</h1>
-                </div>
-                <div class="position-absolute imgTitle">
-                    <a class="navbar-brand logoMenuApps" href="#">
-                        <img src="recursos/img/LogosMenu/LogoChartSchool.svg"/>
-                    </a> 
-                </div>
-
+                </div> 
             </div>
-            <div class="position-absolute imgTitleLeft imgTitleSize d-none d-md-block">
-
-            </div>
-            <div class="col-12 col-md-4 cardInfo">
-                <div class="col-12"><h4 class="text-center">It covers all your needs.</h4></div> 
-                <div class="col-10 offset-1 text-center">
-                    <p class="mb-3">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    </p>
 
 
+            <div class="row col-12  pr-0">
+                <div class="position-absolute imgTitleRight imgTitleSize d-none d-md-block">
+
+                </div> 
+                <div class="col-12 col-md-4 cardInfo">
+                    <div class="col-12"><h4 class="text-center" style="transform: skewX(-4deg);"> <spring:message code="body.BAMBOO.left1"/></h4></div> 
+                    <div class="col-10 offset-1 text-center" style="transform: skewX(-4deg);">
+                        <p class="mb-3"><spring:message code="body.BAMBOO.left2"/>
+                        </p>
+                        <li><spring:message code="body.BAMBOO.left3"/></li>
+                        <li><spring:message code="body.BAMBOO.left4"/></li>
+                        <li><spring:message code="body.BAMBOO.left5"/></li>
+                    </div>
                 </div>
-            </div>
-            <div class="col-12 col-md-4  cardInfo lineTopGray">
-                <div class="col-12"><h4 class="text-center">Qué incluye?</h4></div> 
-                <div class="col-10 offset-1 text-center">
-                    <p class="mb-3">
-                    </p>
-
+                <div class="col-12 col-md-4 cardInfo lineTopGray">
+                    <div class="col-12"><h4 class="text-center" style="transform: skewX(-4deg);"><spring:message code="body.BAMBOO.center1"/></h4></div> 
+                    <div class="col-10 offset-1 text-center" style="transform: skewX(-4deg);">
+                        <p class="mb-3"><spring:message code="body.BAMBOO.center2"/> <spring:message code="home.SIS1"/> <spring:message code="body.BAMBOO.center3"/> </p> 
+                        <li><spring:message code="body.BAMBOO.center4"/></li>
+                        <li><spring:message code="body.BAMBOO.center5"/></li>
+                        <li><spring:message code="body.BAMBOO.center6"/></li> 
+                    </div>
                 </div>
-            </div>
-            <div class="col-12 col-md-4  cardInfo lineTopGray">
-                <div class="col-12"><h4 class="text-center">Qué se personaliza?</h4></div> 
-                <div class="col-10 offset-1 text-center">
-                    <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                    </p>
+                <div class="col-12 col-md-4 cardInfo lineTopGray">
+                    <div class="col-12"><h4 class="text-center" style="transform: skewX(-4deg);"><spring:message code="body.BAMBOO.right1"/></h4></div> 
+                    <div class="col-10 offset-1 text-center" style="transform: skewX(-4deg);">
+                        <p class="mb-3"><spring:message code="body.BAMBOO.right2"/></p>
+                        <li><spring:message code="body.BAMBOO.right3"/></li>
+                        <li><spring:message code="body.BAMBOO.right4"/></li>
 
+                    </div>
                 </div>
-            </div>
+            </div>       
             <div class="col-12 mt-md-3 footerSchoolAnalytics">more info</div>
-        </div>  
+        </div>
+
 
         <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalScheduler" id="cPrincScheduler">
             <div class="col-12 bgScheduler d-flex d-md-none" > 
@@ -2277,10 +2282,10 @@
         <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal">
             <div class="col-12 bgScheduler d-flex d-md-none" > 
                 <div class="col-12 d-flex align-items-center justify-content-center">
-                    <h1><spring:message code="Privacy"/></h1>
+                    <h1><spring:message code="contactForm"/></h1>
                 </div>
             </div> 
-            <div class="container" id="Contact" style="background-color: #f1f1f1;transform: skewX(-4deg);">
+            <div class="container" id="Contact" style="background-color: #f1f1f1;transform: skewX(4deg);">
                 <div class="row" stlye="transform: skewX(4deg);">
                     <div class="col-md-12">
                         <div class="well well-sm">
