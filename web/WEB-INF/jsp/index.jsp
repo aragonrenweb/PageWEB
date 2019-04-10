@@ -2040,7 +2040,7 @@
 
                 </div> 
                 <div class="col-12 col-md-4 cardInfo">
-                    <div class="col-12"><h4 class="text-center" style="transform: skewX(-4deg);"> <spring:message code="body.BAMBOO.left1"/></h4></div> 
+                    <div class="col-12"><h4 class="text-center" style="transform: skewX(-4deg);"> <spring:message code="body.SCHOOL.left1"/></h4></div> 
                     <div class="col-10 offset-1 text-center" style="transform: skewX(-4deg);">
                         <p class="mb-3"><spring:message code="body.BAMBOO.left2"/>
                         </p>
@@ -2050,7 +2050,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-4 cardInfo lineTopGray">
-                    <div class="col-12"><h4 class="text-center" style="transform: skewX(-4deg);"><spring:message code="body.BAMBOO.center1"/></h4></div> 
+                    <div class="col-12"><h4 class="text-center" style="transform: skewX(-4deg);"><spring:message code="body.SCHOOL.center1"/></h4></div> 
                     <div class="col-10 offset-1 text-center" style="transform: skewX(-4deg);">
                         <p class="mb-3"><spring:message code="body.BAMBOO.center2"/> <spring:message code="home.SIS1"/> <spring:message code="body.BAMBOO.center3"/> </p> 
                         <li><spring:message code="body.BAMBOO.center4"/></li>
@@ -2059,7 +2059,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-4 cardInfo lineTopGray">
-                    <div class="col-12"><h4 class="text-center" style="transform: skewX(-4deg);"><spring:message code="body.BAMBOO.right1"/></h4></div> 
+                    <div class="col-12"><h4 class="text-center" style="transform: skewX(-4deg);"><spring:message code="body.SCHOOL.right1"/></h4></div> 
                     <div class="col-10 offset-1 text-center" style="transform: skewX(-4deg);">
                         <p class="mb-3"><spring:message code="body.BAMBOO.right2"/></p>
                         <li><spring:message code="body.BAMBOO.right3"/></li>
