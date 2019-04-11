@@ -22,19 +22,23 @@
                 font-size: inherit;
             }
             
-            .bgSchoolAnalytics{                
-                background: rgba(102,195,78,1);
-                background: -moz-linear-gradient(left, rgba(102,195,78,1) 0%, rgba(102,195,78,1) 25%, rgba(53,118,36,1) 25%, rgba(53,118,36,1) 50%, rgba(13,37,63,1) 50%, rgba(13,37,63,1) 77%, rgba(251,176,59,1) 77%, rgba(247,147,30,1) 100%);
-                background: -webkit-gradient(left top, right top, color-stop(0%, rgba(102,195,78,1)), color-stop(25%, rgba(102,195,78,1)), color-stop(25%, rgba(53,118,36,1)), color-stop(50%, rgba(53,118,36,1)), color-stop(50%, rgba(13,37,63,1)), color-stop(77%, rgba(13,37,63,1)), color-stop(77%, rgba(251,176,59,1)), color-stop(100%, rgba(247,147,30,1)));
-                background: -webkit-linear-gradient(left, rgba(102,195,78,1) 0%, rgba(102,195,78,1) 25%, rgba(53,118,36,1) 25%, rgba(53,118,36,1) 50%, rgba(13,37,63,1) 50%, rgba(13,37,63,1) 77%, rgba(251,176,59,1) 77%, rgba(247,147,30,1) 100%);
-                background: -o-linear-gradient(left, rgba(102,195,78,1) 0%, rgba(102,195,78,1) 25%, rgba(53,118,36,1) 25%, rgba(53,118,36,1) 50%, rgba(13,37,63,1) 50%, rgba(13,37,63,1) 77%, rgba(251,176,59,1) 77%, rgba(247,147,30,1) 100%);
-                background: -ms-linear-gradient(left, rgba(102,195,78,1) 0%, rgba(102,195,78,1) 25%, rgba(53,118,36,1) 25%, rgba(53,118,36,1) 50%, rgba(13,37,63,1) 50%, rgba(13,37,63,1) 77%, rgba(251,176,59,1) 77%, rgba(247,147,30,1) 100%);
-                background: linear-gradient(to right, rgba(102,195,78,1) 0%, rgba(102,195,78,1) 25%, rgba(53,118,36,1) 25%, rgba(53,118,36,1) 50%, rgba(13,37,63,1) 50%, rgba(13,37,63,1) 77%, rgba(251,176,59,1) 77%, rgba(247,147,30,1) 100%);
-                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66c34e', endColorstr='#f7931e', GradientType=1 );
-               
+            header, .full-width {
+                width: 100%;
+                background: #ccc;
             }
             
-            
+            .bgSchoolAnalytics{                
+                background: rgba(255,255,255,1);
+                background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(251,176,59,1) 35%, rgba(251,176,59,1) 59%, rgba(255,255,255,1) 59%, rgba(255,255,255,1) 100%);
+                background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(33%, rgba(255,255,255,1)), color-stop(33%, rgba(251,176,59,1)), color-stop(59%, rgba(251,176,59,1)), color-stop(59%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+                background: -webkit-linear-gradient(-45deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 35%, rgba(251,176,59,0.5) 35%, rgba(251,176,59,0.5) 59%, rgba(255,255,255,0.5) 59%, rgba(255,255,255,0.5) 100%);
+                background: -o-linear-gradient(-45deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 35%, rgba(251,176,59,0.5) 35%, rgba(251,176,59,0.5) 59%, rgba(255,255,255,0.5) 59%, rgba(255,255,255,0.5) 100%);
+                background: -ms-linear-gradient(-45deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 35%, rgba(251,176,59,0.5) 35%, rgba(251,176,59,0.5) 59%, rgba(255,255,255,0.5) 59%, rgba(255,255,255,0.5) 100%);
+                background: linear-gradient(135deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 35%, rgba(251,176,59,0.5) 35%, rgba(251,176,59,0.5) 59%, rgba(255,255,255,0.5) 59%, rgba(255,255,255,0.5) 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 );
+            }
+
+
             .arrow_box {
                 position: relative;
                 /*background: transparent url('recursos/img/schoolAnalytics/LogoChartSchool.svg') 4px 0px no-repeat;*/
@@ -50,6 +54,49 @@
                 animation-duration: 6s;
                 animation-iteration-count: infinite;
                 margin-right: 5px;
+            }
+
+            .hero2 {
+                /* Sizing */
+                width: 100vw;
+                height: 100vh;
+
+                /* Flexbox stuff */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                /* Text styles */
+                text-align: center;
+                /* Background styles */
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('recursos/img/schoolAnalytics/LogoChartSchool.svg');
+                background-size: cover;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+
+
+            .hero2 h1 {
+                /* Text styles */
+                font-size: 5em;
+                color: white;
+                font-weight: bolder;
+                /* Margins */
+                margin-top: 0;
+                margin-bottom: 0.5em;
+            }
+            .hero2 h2 {
+                /* Text styles */
+                font-size: 2em;
+                color: white;
+                font-weight: bolder;
+                /* Margins */
+                margin-top: 0;
+                margin-bottom: 0.5em;
+            }
+            
+            * {
+                box-sizing: border-box;
             }
 
 
@@ -85,18 +132,24 @@
 
     <script type="text/javascript">
         $(document).ready(function () {
-         
- 
+
+
 
         });
         }
     </script>
 
     <main>
-        <div class="row mt-2 pb-2 bgSchoolAnalytics" >
-        
+        <section  class="hero2">
+            <div class="hero2-inner">
+                <h1>School Analytics</h1>
+                <h2>What is Lorem Ipsum?</h2>
+            </div>
+        </section>
+        <div class="row mt-2 pb-2 bgSchoolAnalytics" style="height:500px">
+
         </div>
-        <h1>Hello World!</h1>
+
     </main>
 
     <a class="btnDemo" href="<c:url value='/index.htm?informacion=schoolAnalytics#Contact'/>">

@@ -32,7 +32,7 @@
 
 </head>
 <style>
-  
+
     .logoMenuApps {
         position: absolute;
         right: 10px;
@@ -221,8 +221,8 @@
             </li>
         </ul>  
     </div> 
-            <div id="menuDesplegable" class="pt-0" style=" cursor: pointer; right: 0px; z-index: 11;">
-<!--    <div id="menuDesplegable" class="pt-0" style=" cursor: pointer; position: fixed;  right: 0px; z-index: 11;">-->
+    <div id="menuDesplegable" class="pt-0" style=" cursor: pointer; right: 0px; z-index: 11;">
+        <!--    <div id="menuDesplegable" class="pt-0" style=" cursor: pointer; position: fixed;  right: 0px; z-index: 11;">-->
         <div class="row" >
             <a class="navbar-brand logoMenuApps" id="logoMenuApp0" onclick="showIconsApps()" style="opacity: 0">
                 <img src="recursos/img/LogosMenu/LogoFacts.svg" >
@@ -239,7 +239,7 @@
             <a class="navbar-brand logoMenuApps" id="logoMenuApp4" value="scheduler" href="<c:url value="/bamboo.htm" />">
                 <img src="recursos/img/LogosMenu/LogoMschedules.svg" >
             </a>
-            <a class="navbar-brand logoMenuApps" id="logoMenuApp5" value="schoolView" href="<c:url value="/smartClover.htm" />">
+            <a class="navbar-brand logoMenuApps" id="logoMenuApp5" value="schoolView" href="<c:url value="/schoolAnalytics.htm" />">
                 <img src="recursos/img/LogosMenu/LogoChartSchool.svg" >
             </a>
         </div>

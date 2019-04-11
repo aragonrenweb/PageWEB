@@ -915,7 +915,7 @@
                 background: -ms-linear-gradient(left, rgba(102,195,78,1) 0%, rgba(102,195,78,1) 25%, rgba(53,118,36,1) 25%, rgba(53,118,36,1) 50%, rgba(13,37,63,1) 50%, rgba(13,37,63,1) 77%, rgba(251,176,59,1) 77%, rgba(247,147,30,1) 100%);
                 background: linear-gradient(to right, rgba(102,195,78,1) 0%, rgba(102,195,78,1) 25%, rgba(53,118,36,1) 25%, rgba(53,118,36,1) 50%, rgba(13,37,63,1) 50%, rgba(13,37,63,1) 77%, rgba(251,176,59,1) 77%, rgba(247,147,30,1) 100%);
                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66c34e', endColorstr='#f7931e', GradientType=1 );
-
+                
             }
 
             .logo{
@@ -1072,7 +1072,7 @@
                     var info = (url.val().split("=")[1]).split("#")[0];
                     // alert(info);
 
-                    $("#informacion").val(info);
+                $("#informacion").val(info);
                 }
                 $(".colorSCHEDULE").hide();
                 $("#contDescripClassroom").hide();
