@@ -1302,12 +1302,6 @@
                 $(".footerSchoolAnalytics").empty();
                 $(".footerSchoolAnalytics").append(generateSvgMoreInfo('#fc8c00', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'><a style='color:#fc8c00' href=\"<c:url value='/schoolAnalytics.htm' />\"><spring:message code="moreInfo"/></a></label>" + generateSvgMoreInfo('#fc8c00', 'left'))
 
-
-
-
-
-
-
             });
 
 
@@ -2040,7 +2034,7 @@
 
                 </div> 
                <div class="col-12 col-md-4 cardInfo">
-                    <div class="col-12"><h4 class="text-center" style="transform: skewX(-4deg);"> <spring:message code="body.SCHOOL.center1"/></h4></div> 
+                    <div class="col-12"><h4 class="text-center" style="transform: skewX(-4deg);"> <spring:message code="body.SCHOOL.left1"/></h4></div> 
                     <div class="col-10 offset-1 text-center" style="transform: skewX(-4deg);">
                         <p class="mb-3"><spring:message code="body.SCHOOL.center1"/>
                         </p>
