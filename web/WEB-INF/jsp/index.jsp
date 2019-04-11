@@ -431,14 +431,22 @@
                 margin-top: 10px;
                 padding: 15px; 
                 padding-right: 0px;
-                max-width: 88%;
-                margin-left: 6%;
+                max-width: 89%;
+                margin-left: 4.5%;
             }
 
             /* Medium devices (tablets, less than 768px)*/
             @media (min-width: 768px) {
+          
+            
                 .rowListaFacts{
                     background-color: rgb(102,195,226,0.2);
+                    transform: skewX(0deg); 
+                margin-top: 10px;
+                padding: 15px; 
+                padding-right: 0px;
+                max-width: 88.5%;
+                margin-left: 4.5%;
                 }
  
                 .contDescipInner{
@@ -655,7 +663,18 @@
 
             /* Small devices (landscape phones, less than 768px)*/
             @media (min-width: 992px) { 
-
+                
+                .rowListaFacts{
+                    background-color:none;
+                    transform: skewX(0deg); 
+                margin-top: 10px;
+                padding: 15px; 
+                padding-right: 0px;
+                max-width: 88.7%;
+                margin-left: 4.5%;
+                }
+                
+                
                 .logo{
                     transform: skewX(4deg);
                     width: 60%;
@@ -786,7 +805,19 @@
             }
             /* Large devices (desktops, less than 1200px)*/
             @media (min-width: 1200px) { 
-
+                
+                
+                .rowListaFacts{
+                background-color: none;
+                transform: skewX(0deg); 
+                margin-top: 10px;
+                padding: 15px; 
+                padding-right: 0px;
+                max-width: 89.3%;
+                margin-left: 4.5%;
+            }
+            
+            
                 .card{
                     width:90% !important;
                     margin-left:5%;                    
@@ -1763,6 +1794,7 @@
                         <!--<footer>mas información</footer>--> 
                     </div>
                 </div>
+                                                   
                 <div class="col-12 col-md-4 cardInfo lineTopGray">
                     <div class="col-12"><h4 class="text-center" id="OurServices" style="transform: skewX(4deg);"><spring:message code="body.FACTS.P1"/></h4></div> 
                     <div class="col-10 offset-1 text-center" style="transform: skewX(4deg);">
@@ -1843,10 +1875,11 @@
 
 
             <div class="row col-12 pr-0 rowListaFacts">
-                 <div class="col-12"><h4 class="text-left">360º</h4></div>  
+                
+                 <div class="col-12"><h4 class="text-center">360º</h4></div>  
                 <div class="col-12 col-md-3 lineTopGray listCol" style="color: #f7931e;">
                     <div class="col-12"><h4 class="text-left"><spring:message code="body.FACTS.badgeLeft1"/></h4></div> 
-                    <div class="col-10 p-0 pl-3 offset-1 text-left">
+                    <div class="col-10 p-0 offset-1 text-left">
                         <li><spring:message code="body.FACTS.badgeOrange1"/></li>
                         <li><spring:message code="body.FACTS.badgeOrange2"/></li>
                         <li><spring:message code="body.FACTS.badgeOrange3"/></li>
@@ -1864,7 +1897,7 @@
                 </div>
                 <div class="col-12 col-md-3 lineTopGray listCol" style="color: #7eb529;">
                     <div class="col-12"><h4 class="text-left"><spring:message code="body.FACTS.badgeLeft2"/></h4></div> 
-                    <div class="col-10 p-0 pl-3 offset-1 text-left">
+                    <div class="col-10 p-0 offset-1 text-left">
                         <li><spring:message code="body.FACTS.badgeGreen1"/></li>
                         <li><spring:message code="body.FACTS.badgeGreen2"/></li>
                         <li><spring:message code="body.FACTS.badgeGreen3"/></li>
@@ -1879,7 +1912,7 @@
                 </div>        
                 <div class="col-12 col-md-3 lineTopGray listCol" style="color: #6a58a2;">
                     <div class="col-12"><h4 class="text-left"><spring:message code="body.FACTS.badgeLeft3"/></h4></div> 
-                    <div class="col-10 p-0 pl-3 offset-1 text-left">
+                    <div class="col-10 p-0 offset-1 text-left">
                         <li><spring:message code="body.FACTS.badgePurple1"/></li>
                         <li><spring:message code="body.FACTS.badgePurple2"/></li>
                         <li><spring:message code="body.FACTS.badgePurple3"/></li>
@@ -1891,7 +1924,7 @@
                 </div> 
                 <div class="col-12 col-md-3 lineTopGray listCol" style="color: #c35098;">
                     <div class="col-12"><h4 class="text-left"><spring:message code="body.FACTS.badgeLeft4"/></h4></div> 
-                    <div class="col-10 p-0 pl-3 offset-1 text-left">
+                    <div class="col-10 p-0 offset-1 text-left">
                         <li><spring:message code="body.FACTS.badgePink1"/></li>
                         <li><spring:message code="body.FACTS.badgePink2"/></li>
                         <li><spring:message code="body.FACTS.badgePink3"/></li>
