@@ -626,7 +626,6 @@
             <div class="col-12 col-lg-6 offset-lg-0 divContenedorIMG d-flex align-items-center">
                 <video width="100%" height="auto" controls poster="recursos/img/thumbnail.jpg">
                     <source src="recursos/videos/Bamboo_Demo.mp4" type="video/mp4">
-
                 </video>
 
             </div>

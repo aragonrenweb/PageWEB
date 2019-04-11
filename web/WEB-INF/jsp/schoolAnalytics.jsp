@@ -21,12 +21,12 @@
                 overflow-y: hidden;
                 font-size: inherit;
             }
-            
+
             header, .full-width {
                 width: 100%;
                 background: #ccc;
             }
-            
+
             .bgSchoolAnalytics{                
                 background: rgba(255,255,255,1);
                 background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(251,176,59,1) 35%, rgba(251,176,59,1) 59%, rgba(255,255,255,1) 59%, rgba(255,255,255,1) 100%);
@@ -94,7 +94,7 @@
                 margin-top: 0;
                 margin-bottom: 0.5em;
             }
-            
+
             * {
                 box-sizing: border-box;
             }
@@ -132,11 +132,11 @@
 
     <script type="text/javascript">
         $(document).ready(function () {
-
+            swapLogo("schoolView");
 
 
         });
-        }
+        
     </script>
 
     <main>
@@ -146,10 +146,88 @@
                 <h2>What is Lorem Ipsum?</h2>
             </div>
         </section>
-        <div class="row mt-2 pb-2 bgSchoolAnalytics" style="height:500px">
+        <div class="row mt-2 pb-2 bgSchoolAnalytics">
+            <div class="col-12 d-flex justify-content-around align-items-center ">
+                <div class="col-12 divIconos" >
+                    <div class="col-12">
+                        <h3 style="text-align: center;">School Analytics</h5>
+                            <p style="text-align: center; " class="pl-3 pr-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                    </div>
 
+                    <div class="row justify-content-center">
+<!--                        <div class="col-12" data-aos="fade-right" style="display:flex;"> 
+                            <div class="col-3">
+                                <img src="recursos/img/bamboo/IconosWebBamboo-03.svg" class="imgRow" style="margin-top:15px"> 
+                            </div> 
+                            <div class="col-9">
+                                <div class="col-12 text-center p-0"><b>Plan Presentations</b></div> 
+                                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-12" data-aos="fade-right" style="display:flex;"> 
+                            <div class="col-3">
+                                <img src="recursos/img/bamboo/IconosWebBamboo-04.svg" class="imgRow" style="margin-top:15px"> 
+                            </div> 
+                            <div class="col-9">
+                                <div class="col-12 text-center p-0"><b>Record Observations</b></div> 
+                                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-12" data-aos="fade-right" style="display:flex;"> 
+                            <div class="col-3">
+                                <img src="recursos/img/bamboo/IconosWebBamboo-01.svg" class="imgRow" style="margin-top:15px"> 
+                            </div> 
+                            <div class="col-9">
+                                <div class="col-12 text-center p-0"><b>Presentation Ideas</b></div> 
+                                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-12" data-aos="fade-right" style="display:flex;"> 
+                            <div class="col-3">
+                                <img src="recursos/img/bamboo/IconosWebBamboo-02.svg" class="imgRow" style="margin-top:15px"> 
+                            </div> 
+                            <div class="col-9">
+                                <div class="col-12 text-center p-0"><b>Share Resources</b></div>                                
+                                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-12" data-aos="fade-right" style="display:flex;"> 
+                            <div class="col-3">
+                                <img src="recursos/img/bamboo/IconosWebBamboo-05.svg" class="imgRow" style="margin-top:15px"> 
+                            </div> 
+                            <div class="col-9">
+                                <div class="col-12 text-center p-0"><b>Visualize Progress and Learning Gaps</b></div>                               
+                                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            </div>
+                        </div>-->
+                    </div>                    
+                </div>
+            </div>
         </div>
 
+        <div class="row pt-3 mt-2 divIconosInvert"  >
+            <div class="col-12" style="text-align: center;">
+                <h3 style="text-align: center;" class="colorTextBamboo">Live gradebook</h3>
+                <p class="pl-3 pr-3 text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-6 h150 text-center"> 
+                    <div class="col-10 offset-1 col-lg-8 offset-lg-2 infSuper h-100" style="text-align: center; font-size: 12pt; margin-top: 10px;">
+                        <b>  Lorem Ipsum is simply dummy text of the printing and typesetting industry. </b>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 mt-4 mt-lg-0 h150 text-center"> 
+                    <div class="col-10 offset-1 col-lg-8 offset-lg-2 infSuper2 pb-5 h-100" style="text-align: center; font-size: 12pt; margin-top: 10px;">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </div>
+                </div>
+
+            </div>
+        </div> 
     </main>
 
     <a class="btnDemo" href="<c:url value='/index.htm?informacion=schoolAnalytics#Contact'/>">
