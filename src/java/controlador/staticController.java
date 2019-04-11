@@ -100,7 +100,12 @@ public class staticController {
  
     }
 
-    
+     @RequestMapping("/schoolAnalytics.htm")
+    public ModelAndView schoolAnalytics(HttpServletRequest request, HttpServletResponse hsr1) throws Exception {
+
+        return new ModelAndView("redirect:/datosIdioma.htm?idioma="+request.getLocale().getLanguage()+"&page=schoolAnalytics");
+ 
+    }
     
     /*politicas privacidad, cambiar request.getLocale por la variable del idioma en el que pinchen*/
     

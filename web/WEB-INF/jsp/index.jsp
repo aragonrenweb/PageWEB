@@ -1300,7 +1300,7 @@
                 $(".footerScheduler").append(generateSvgMoreInfo('#0d253f', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'><a style='color:#0d253f' href='#'><spring:message code="moreInfo"/></a></label>" + generateSvgMoreInfo('#0d253f', 'left'))
 
                 $(".footerSchoolAnalytics").empty();
-                $(".footerSchoolAnalytics").append(generateSvgMoreInfo('#fc8c00', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'><a style='color:#fc8c00' href='#'><spring:message code="moreInfo"/></a></label>" + generateSvgMoreInfo('#fc8c00', 'left'))
+                $(".footerSchoolAnalytics").append(generateSvgMoreInfo('#fc8c00', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'><a style='color:#fc8c00' href=\"<c:url value='/schoolAnalytics.htm' />\"><spring:message code="moreInfo"/></a></label>" + generateSvgMoreInfo('#fc8c00', 'left'))
 
 
 
@@ -1643,13 +1643,13 @@
                 </div>
                     
                     <div class="col w-100 d-flex h-25 align-content-center align-items-center  p-0">
-                    <a class="nav-link-evento" href="#cPrincSchoolAnalytics"><spring:message code="home.ANALYTICS2"/></a>
+                    <a class="nav-link-evento" href="#cPrincSchoolAnalytics"><spring:message code="home.ANALYTICS3"/></a>
                     <div class="buttonNextSub">
                         <i class="fas fa-angle-double-right"></i>
                     </div>
                 </div>
                     <div class="col w-100 d-flex h-25 align-content-center align-items-center  p-0">
-                    <a class="nav-link-evento" href="#cPrincSchoolAnalytics"><spring:message code="home.ANALYTICS2"/></a>
+                    <a class="nav-link-evento" href="#cPrincSchoolAnalytics"><spring:message code="home.ANALYTICS4"/></a>
                     <div class="buttonNextSub">
                         <i class="fas fa-angle-double-right"></i>
                     </div>
@@ -2039,32 +2039,31 @@
                 <div class="position-absolute imgTitleRight imgTitleSize d-none d-md-block">
 
                 </div> 
-                <div class="col-12 col-md-4 cardInfo">
-                    <div class="col-12"><h4 class="text-center" style="transform: skewX(-4deg);"> <spring:message code="body.SCHOOL.left1"/></h4></div> 
+               <div class="col-12 col-md-4 cardInfo">
+                    <div class="col-12"><h4 class="text-center" style="transform: skewX(-4deg);"> <spring:message code="body.SCHOOL.center1"/></h4></div> 
                     <div class="col-10 offset-1 text-center" style="transform: skewX(-4deg);">
-                        <p class="mb-3"><spring:message code="body.BAMBOO.left2"/>
+                        <p class="mb-3"><spring:message code="body.SCHOOL.center1"/>
                         </p>
-                        <li><spring:message code="body.BAMBOO.left3"/></li>
-                        <li><spring:message code="body.BAMBOO.left4"/></li>
-                        <li><spring:message code="body.BAMBOO.left5"/></li>
+                        <li><spring:message code="body.SCHOOL.center1"/></li>
+                        <li><spring:message code="body.SCHOOL.center1"/></li>
+                        <li><spring:message code="body.SCHOOL.center1"/></li>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 cardInfo lineTopGray">
                     <div class="col-12"><h4 class="text-center" style="transform: skewX(-4deg);"><spring:message code="body.SCHOOL.center1"/></h4></div> 
                     <div class="col-10 offset-1 text-center" style="transform: skewX(-4deg);">
-                        <p class="mb-3"><spring:message code="body.BAMBOO.center2"/> <spring:message code="home.SIS1"/> <spring:message code="body.BAMBOO.center3"/> </p> 
-                        <li><spring:message code="body.BAMBOO.center4"/></li>
-                        <li><spring:message code="body.BAMBOO.center5"/></li>
-                        <li><spring:message code="body.BAMBOO.center6"/></li> 
+                        <p class="mb-3"><spring:message code="body.SCHOOL.center2"/> </p> 
+                        <li><spring:message code="body.SCHOOL.center3"/></li>
+                        <li><spring:message code="body.SCHOOL.center4"/></li>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 cardInfo lineTopGray">
                     <div class="col-12"><h4 class="text-center" style="transform: skewX(-4deg);"><spring:message code="body.SCHOOL.right1"/></h4></div> 
                     <div class="col-10 offset-1 text-center" style="transform: skewX(-4deg);">
-                        <p class="mb-3"><spring:message code="body.BAMBOO.right2"/></p>
-                        <li><spring:message code="body.BAMBOO.right3"/></li>
-                        <li><spring:message code="body.BAMBOO.right4"/></li>
-
+                        <p class="mb-3"><spring:message code="body.SCHOOL.right2"/></p>
+                        <li><spring:message code="body.SCHOOL.right3"/></li>
+                        <li><spring:message code="body.SCHOOL.right4"/></li>
+                        <li><spring:message code="body.SCHOOL.right5"/></li>
                     </div>
                 </div>
             </div>       
