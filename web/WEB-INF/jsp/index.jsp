@@ -425,11 +425,22 @@
 
             }
 
-
+            .rowListaFacts{
+                background-color: none;
+                transform: skewX(0deg); 
+                margin-top: 10px;
+                padding: 15px; 
+                padding-right: 0px;
+                max-width: 88%;
+                margin-left: 6%;
+            }
 
             /* Medium devices (tablets, less than 768px)*/
             @media (min-width: 768px) {
-
+                .rowListaFacts{
+                    background-color: rgb(102,195,226,0.2);
+                }
+ 
                 .contDescipInner{
                     color: #fff; 
                     height: 30px;
@@ -489,8 +500,7 @@
                 .cardPrincipalFacts{
                     background:none;
                     color: #29abe2;
-                    background-image: url(recursos/img/fondos/Fondo_FACTSopacidad25.svg);
-                    text-shadow: 0 0 black;
+                    background-image: url(recursos/img/fondos/Fondo_FACTSopacidad25.svg); 
                     background-repeat: no-repeat;
                     background-position-x: 50%;
                     background-position-y: 50%;
@@ -502,9 +512,9 @@
                 .cardPrincipalFacts .cardInfo{
                     background-color: rgb(102,195,226,0.2);
                     transform: skewX(0deg);  
-                    max-width: 43%;
+                    max-width: 27%;
                     margin-left: 4.5%;
-                    max-height: 615px;
+                    max-height: 650px;
                     flex-direction: column;
                     margin-top:10px;
                     padding-top:15px;
@@ -685,9 +695,9 @@
                     background-color: rgb(102,195,226,0.2);
                     /*transform: skewX(-4deg);*/
                     transform: skewX(0deg);
-                    max-width: 43%;
+                    max-width: 27%;
                     margin-left: 4.5%;
-                    max-height: 550px;
+                    max-height: 680px;
                     flex-direction: column;
                     margin-top:10px;
                     padding-top:15px;
@@ -784,9 +794,9 @@
                 .cardPrincipalFacts .cardInfo{
                     background-color: rgb(102,195,226,0.2);
                     transform: skewX(0deg);
-                    max-width: 43%;
+                    max-width: 27%;
                     margin-left: 4.5%;
-                    max-height: 500px;
+                    max-height: 650px;
                     flex-direction: column;
                     margin-top:10px;
                     padding-top:15px;
@@ -832,7 +842,7 @@
                     transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-                                        max-height: 500px;
+                    max-height: 500px;
                     flex-direction: column;
                     margin-top:0px;
                     padding-top:15px;
@@ -857,7 +867,21 @@
                     background-size: cover;
                 }
             }
-
+            @media (min-width: 1400px) {
+                .cardPrincipalFacts .cardInfo{ 
+                    max-height: 620px; 
+                }
+            } 
+  @media (min-width: 1600px) {
+                .cardPrincipalFacts .cardInfo{ 
+                    max-height: 580px; 
+                }
+            } 
+            @media (min-width: 1800px) {
+                .cardPrincipalFacts .cardInfo{ 
+                    max-height: 520px; 
+                }
+            }
             .lazy img{
                 width: 100%;
             }
@@ -866,7 +890,7 @@
                 position: fixed;
                 color: #29abe2;
                 border-radius: 15px;
-                top: 75%;
+                top: 45px;
             }
             .cardPrincipalFacts .card .card-header{
                 color: #29abe2;
@@ -1061,7 +1085,14 @@
                 background-color: #c35098;
                 width: 120%;
             }
-
+         
+            .listCol{
+                padding-bottom: 0.5rem !important;
+                padding-top: 0.5rem !important; 
+            }
+            .listCol h4{ 
+                border-top: solid 3px; 
+            }
         </style>
         <script>
             $(document).ready(function () {
@@ -1609,8 +1640,8 @@
                 </div>-->                
             </div>
 
-                    
-                    
+
+
             <div class="col colorSchoolAnalytics colFirstLayer p-0" >
                 <div class="w-100 h-25 text-center my-auto">
 
@@ -1635,14 +1666,14 @@
                         <i class="fas fa-angle-double-right"></i>
                     </div>
                 </div>
-                    
-                    <div class="col w-100 d-flex h-25 align-content-center align-items-center  p-0">
+
+                <div class="col w-100 d-flex h-25 align-content-center align-items-center  p-0">
                     <a class="nav-link-evento" href="#cPrincSchoolAnalytics"><spring:message code="home.ANALYTICS3"/></a>
                     <div class="buttonNextSub">
                         <i class="fas fa-angle-double-right"></i>
                     </div>
                 </div>
-                    <div class="col w-100 d-flex h-25 align-content-center align-items-center  p-0">
+                <div class="col w-100 d-flex h-25 align-content-center align-items-center  p-0">
                     <a class="nav-link-evento" href="#cPrincSchoolAnalytics"><spring:message code="home.ANALYTICS4"/></a>
                     <div class="buttonNextSub">
                         <i class="fas fa-angle-double-right"></i>
@@ -1707,8 +1738,8 @@
                 </div> 
             </div>
 
-            <div class="row col-12  pr-0">
-                <div class="col-12 col-md-6 cardInfo">
+            <div class="row col-12  pr-0 ">
+                <div class="col-12 col-md-4 cardInfo">
                     <div class="col-12"><h4 class="text-center"><spring:message code="body.FACTS1"/> <spring:message code="home.SIS1"/></h4></div> 
                     <div class="col-10 offset-1 text-center">
                         <p>
@@ -1717,47 +1748,42 @@
                         <p>
                             <spring:message code="body.FACTS6"/> 
                         </p>
-
-                        <div  class="mb-3 listaFacts">
-                            <li><spring:message code="body.FACTS.LI1"/></li>
-                            <li><spring:message code="body.FACTS.LI2"/></li> 
-                            <li><spring:message code="body.FACTS.LI3"/></li>  
-                            <li><spring:message code="body.FACTS.LI4"/></li>
-                            <li><spring:message code="body.FACTS.LI5"/></li>
-                            <li><spring:message code="body.FACTS.LI6"/></li> 
-                            <li><spring:message code="body.FACTS.LI7"/></li> 
-                            <li><spring:message code="body.FACTS.LI8"/></li>
-
-                        </div>
+                        <!--
+                                                <div  class="mb-3 listaFacts">
+                                                    <li><spring:message code="body.FACTS.LI1"/></li>
+                                                    <li><spring:message code="body.FACTS.LI2"/></li> 
+                                                    <li><spring:message code="body.FACTS.LI3"/></li>  
+                                                    <li><spring:message code="body.FACTS.LI4"/></li>
+                                                    <li><spring:message code="body.FACTS.LI5"/></li>
+                                                    <li><spring:message code="body.FACTS.LI6"/></li> 
+                                                    <li><spring:message code="body.FACTS.LI7"/></li> 
+                                                    <li><spring:message code="body.FACTS.LI8"/></li>
+                        
+                                                </div>-->
                         <!--<footer>mas información</footer>--> 
                     </div>
                 </div>
-                <div class="col-12 col-md-6 cardInfo lineTopGray">
+                <div class="col-12 col-md-4 cardInfo lineTopGray">
                     <div class="col-12"><h4 class="text-center" id="OurServices" style="transform: skewX(4deg);"><spring:message code="body.FACTS.P1"/></h4></div> 
                     <div class="col-10 offset-1 text-center" style="transform: skewX(4deg);">
                         <div class="mb-3">
                             <p><spring:message code="body.FACTS.P2"/></p>
-                            <p><spring:message code="body.FACTS.P3"/></p>
+                            <p class="d-md-none d-xl-block"><spring:message code="body.FACTS.P3"/></p>
                             <p><spring:message code="body.FACTS.P4"/></p>
                             <p><spring:message code="body.FACTS.P5"/></p>
                             <p><spring:message code="body.FACTS.P6"/></p>
                             <p><spring:message code="body.FACTS.P7"/></p>
-                            <p><spring:message code="body.FACTS.P8"/></p>
+                            <p class="d-md-none d-xl-block"><spring:message code="body.FACTS.P8"/></p>
                         </div>
                         <!-- <footer>mas información</footer>-->
                     </div>
                 </div>
-            </div>
-
-
-
-            <div class="row col-12  pr-0">
-                <div class="col-12 col-md-6 cardInfo lineTopGray">
+                <div class="col-12 col-md-4 cardInfo lineTopGray">
                     <div class="col-12"><h4 class="text-center" id="ItIsAllAboutPersonalization" style="transform: skewX(4deg);"><spring:message code="body.FACTS.P9"/></h4></div> 
                     <div class="col-10 offset-1 p-xl-0 text-center" style="transform: skewX(4deg);">
                         <div class="mb-3">
                             <p><spring:message code="body.FACTS.P10"/></p>
-                            <p><spring:message code="body.FACTS.P11"/></p>
+                            <p class="d-md-none d-xl-block"><spring:message code="body.FACTS.P11"/></p>
                             <p><spring:message code="body.FACTS.P12"/></p>
                             <p><spring:message code="body.FACTS.P13"/></p>
                             <p><spring:message code="body.FACTS.P14"/></p>
@@ -1812,84 +1838,148 @@
                         </div>
                     </div>
                 </div>
+            </div>
 
 
-                <div class="col-12 col-md-6 cardInfo lineTopGray d-flex flex-row">
-                    <div class="col-5 h-100">
-                        <div class="col-12"><h4 class="text-left" style="transform: skewX(4deg);">360º</h4></div> 
-                        <div class="col-10 offset-1 p-xl-0 text-center contNameFacts">
-                            <div class="mb-3 d-flex h-75 flex-column justify-content-around" style=" padding-left: 5%; transform: skewX(4deg);">
-                                <span onclick="showInfo('contDescripManagement')" class="badge badgeFacts badgeFactsMan"><spring:message code="body.FACTS.badgeLeft1"/></span>
-                                <span onclick="showInfo('contDescripClassroom')" class="badge badgeFacts badgeFactsClass"><spring:message code="body.FACTS.badgeLeft2"/></span>
-                                <span onclick="showInfo('contDescripParent')" class="badge badgeFacts badgeFactsParent"><spring:message code="body.FACTS.badgeLeft3"/></span>
-                                <span onclick="showInfo('contDescripStudent')" class="badge badgeFacts badgeFactsStudent"><spring:message code="body.FACTS.badgeLeft4"/></span>
-                            </div>
 
-                        </div> 
+            <div class="row col-12 pr-0 rowListaFacts">
+                 <div class="col-12"><h4 class="text-left">360º</h4></div>  
+                <div class="col-12 col-md-3 lineTopGray listCol" style="color: #f7931e;">
+                    <div class="col-12"><h4 class="text-left"><spring:message code="body.FACTS.badgeLeft1"/></h4></div> 
+                    <div class="col-10 p-0 pl-3 offset-1 text-left">
+                        <li><spring:message code="body.FACTS.badgeOrange1"/></li>
+                        <li><spring:message code="body.FACTS.badgeOrange2"/></li>
+                        <li><spring:message code="body.FACTS.badgeOrange3"/></li>
+                        <li><spring:message code="body.FACTS.badgeOrange4"/></li>
+                        <li><spring:message code="body.FACTS.badgeOrange5"/></li>
+                        <li><spring:message code="body.FACTS.badgeOrange6"/></li>
+                        <li><spring:message code="body.FACTS.badgeOrange7"/></li>
+                        <li><spring:message code="body.FACTS.badgeOrange8"/></li>
+                        <li><spring:message code="body.FACTS.badgeOrange9"/></li>
+                        <li><spring:message code="body.FACTS.badgeOrange10"/></li>
+                        <li><spring:message code="body.FACTS.badgeOrange11"/></li>
+                        <li><spring:message code="body.FACTS.badgeOrange12"/></li>
+                        <!--<footer>mas información</footer>--> 
                     </div>
-                    <div class="col-7" id="contDescripFacts">
-                        <div class="contDescipInner" id="contDescripManagement">
-                            <div class="mb-3 d-flex h-100 flex-column justify-content-around">
-                                <span class="badge"><spring:message code="body.FACTS.badgeOrange1"/></span>
-                                <span class="badge"><spring:message code="body.FACTS.badgeOrange2"/></span>
-                                <span class="badge"><spring:message code="body.FACTS.badgeOrange3"/></span>
-                                <span class="badge"><spring:message code="body.FACTS.badgeOrange4"/></span>
-                                <span class="badge"><spring:message code="body.FACTS.badgeOrange5"/></span>
-                                <span class="badge"><spring:message code="body.FACTS.badgeOrange6"/></span>
-                                <span class="badge"><spring:message code="body.FACTS.badgeOrange7"/></span>
-                                <span class="badge"><spring:message code="body.FACTS.badgeOrange8"/></span>
-                                <span class="badge"><spring:message code="body.FACTS.badgeOrange9"/></span>
-                                <span class="badge"><spring:message code="body.FACTS.badgeOrange10"/></span>
-                                <span class="badge"><spring:message code="body.FACTS.badgeOrange11"/></span>
-                                <span class="badge"><spring:message code="body.FACTS.badgeOrange12"/></span>
-                            </div>
-                        </div>
-                        <div class="contDescipInner" id="contDescripClassroom">
-                            <div class="mb-3 d-flex h-100 flex-column justify-content-around">
-                                <span class="badge"><spring:message code="body.FACTS.badgeGreen1"/></span>
-                                <span class="badge"><spring:message code="body.FACTS.badgeGreen2"/></span>
-                                <span class="badge"><spring:message code="body.FACTS.badgeGreen3"/></span>
-                                <span class="badge"><spring:message code="body.FACTS.badgeGreen4"/></span> 
-                                <span class="badge"><spring:message code="body.FACTS.badgeGreen5"/></span> 
-                                <span class="badge"><spring:message code="body.FACTS.badgeGreen6"/></span>
-                                <span class="badge"><spring:message code="body.FACTS.badgeGreen7"/></span>
-                                <span class="badge"><spring:message code="body.FACTS.badgeGreen8"/></span>
-                                <span class="badge"><spring:message code="body.FACTS.badgeGreen9"/></span>
-                            </div>
-                        </div>
-                        <div class="contDescipInner" id="contDescripParent">
-                            <div class="mb-3 d-flex h-100 flex-column justify-content-around">
-                                <span class="badge"><spring:message code="body.FACTS.badgePurple1"/></span>
-                                <span class="badge"><spring:message code="body.FACTS.badgePurple2"/></span>
-                                <span class="badge"><spring:message code="body.FACTS.badgePurple3"/></span>
-                                <span class="badge"><spring:message code="body.FACTS.badgePurple4"/></span> 
-                                <span class="badge"><spring:message code="body.FACTS.badgePurple5"/></span>
-                                <span class="badge"><spring:message code="body.FACTS.badgePurple6"/></span> 
-                            </div>
-                        </div>
-                        <div class="contDescipInner" id="contDescripStudent">
-                            <div class="mb-3 d-flex h-100 flex-column justify-content-around">
-                                <span class="badge"><spring:message code="body.FACTS.badgePink1"/></span>
-                                <span class="badge"><spring:message code="body.FACTS.badgePink2"/></span>
-                                <span class="badge"><spring:message code="body.FACTS.badgePink3"/></span>
-                                <span class="badge"><spring:message code="body.FACTS.badgePink4"/></span> 
-                                <span class="badge"><spring:message code="body.FACTS.badgePink5"/></span> 
-                                <span class="badge"><spring:message code="body.FACTS.badgePink6"/></span> 
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- -->
-                    <!--                <div class="col-12 mt-md-3 footerFacts">
-                                        <i class="fas fa-circle" style="font-size: 10px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
-                                        <i class="fas fa-circle" style="font-size: 12px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
-                                        <i class="fas fa-circle" style="font-size: 14px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
-                                        <a>more info
-                                            <i class="fas fa-circle" style="font-size: 14px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
-                                            <i class="fas fa-circle" style="font-size: 12px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
-                                            <i class="fas fa-circle" style="font-size: 10px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
-                                    </div>-->
                 </div>
+                <div class="col-12 col-md-3 lineTopGray listCol" style="color: #7eb529;">
+                    <div class="col-12"><h4 class="text-left"><spring:message code="body.FACTS.badgeLeft2"/></h4></div> 
+                    <div class="col-10 p-0 pl-3 offset-1 text-left">
+                        <li><spring:message code="body.FACTS.badgeGreen1"/></li>
+                        <li><spring:message code="body.FACTS.badgeGreen2"/></li>
+                        <li><spring:message code="body.FACTS.badgeGreen3"/></li>
+                        <li><spring:message code="body.FACTS.badgeGreen4"/></li>
+                        <li><spring:message code="body.FACTS.badgeGreen5"/></li>
+                        <li><spring:message code="body.FACTS.badgeGreen6"/></li>
+                        <li><spring:message code="body.FACTS.badgeGreen7"/></li>
+                        <li><spring:message code="body.FACTS.badgeGreen8"/></li>
+                        <li><spring:message code="body.FACTS.badgeGreen9"/></li> 
+                        <!--<footer>mas información</footer>--> 
+                    </div>
+                </div>        
+                <div class="col-12 col-md-3 lineTopGray listCol" style="color: #6a58a2;">
+                    <div class="col-12"><h4 class="text-left"><spring:message code="body.FACTS.badgeLeft3"/></h4></div> 
+                    <div class="col-10 p-0 pl-3 offset-1 text-left">
+                        <li><spring:message code="body.FACTS.badgePurple1"/></li>
+                        <li><spring:message code="body.FACTS.badgePurple2"/></li>
+                        <li><spring:message code="body.FACTS.badgePurple3"/></li>
+                        <li><spring:message code="body.FACTS.badgePurple4"/></li>
+                        <li><spring:message code="body.FACTS.badgePurple5"/></li>
+                        <li><spring:message code="body.FACTS.badgePurple6"/></li> 
+                        <!--<footer>mas información</footer>--> 
+                    </div>
+                </div> 
+                <div class="col-12 col-md-3 lineTopGray listCol" style="color: #c35098;">
+                    <div class="col-12"><h4 class="text-left"><spring:message code="body.FACTS.badgeLeft4"/></h4></div> 
+                    <div class="col-10 p-0 pl-3 offset-1 text-left">
+                        <li><spring:message code="body.FACTS.badgePink1"/></li>
+                        <li><spring:message code="body.FACTS.badgePink2"/></li>
+                        <li><spring:message code="body.FACTS.badgePink3"/></li>
+                        <li><spring:message code="body.FACTS.badgePink4"/></li>
+                        <li><spring:message code="body.FACTS.badgePink5"/></li>
+                        <li><spring:message code="body.FACTS.badgePink6"/></li> 
+                        <!--<footer>mas información</footer>--> 
+                    </div>
+                </div> 
+                <!--                
+                
+                
+                                <div class="col-12 col-md-6 cardInfo lineTopGray d-flex flex-row">
+                                    <div class="col-5 h-100">
+                                        <div class="col-12"><h4 class="text-left" style="transform: skewX(4deg);">360º</h4></div> 
+                                        <div class="col-10 offset-1 p-xl-0 text-center contNameFacts">
+                                            <div class="mb-3 d-flex h-75 flex-column justify-content-around" style=" padding-left: 5%; transform: skewX(4deg);">
+                                                <span onclick="showInfo('contDescripManagement')" class="badge badgeFacts badgeFactsMan"><spring:message code="body.FACTS.badgeLeft1"/></span>
+                                                <span onclick="showInfo('contDescripClassroom')" class="badge badgeFacts badgeFactsClass"><spring:message code="body.FACTS.badgeLeft2"/></span>
+                                                <span onclick="showInfo('contDescripParent')" class="badge badgeFacts badgeFactsParent"><spring:message code="body.FACTS.badgeLeft3"/></span>
+                                                <span onclick="showInfo('contDescripStudent')" class="badge badgeFacts badgeFactsStudent"><spring:message code="body.FACTS.badgeLeft4"/></span>
+                                            </div>
+                
+                                        </div> 
+                                    </div>
+                                    <div class="col-7" id="contDescripFacts">
+                                        <div class="contDescipInner" id="contDescripManagement">
+                                            <div class="mb-3 d-flex h-100 flex-column justify-content-around">
+                                                <span class="badge"><spring:message code="body.FACTS.badgeOrange1"/></span>
+                                                <span class="badge"><spring:message code="body.FACTS.badgeOrange2"/></span>
+                                                <span class="badge"><spring:message code="body.FACTS.badgeOrange3"/></span>
+                                                <span class="badge"><spring:message code="body.FACTS.badgeOrange4"/></span>
+                                                <span class="badge"><spring:message code="body.FACTS.badgeOrange5"/></span>
+                                                <span class="badge"><spring:message code="body.FACTS.badgeOrange6"/></span>
+                                                <span class="badge"><spring:message code="body.FACTS.badgeOrange7"/></span>
+                                                <span class="badge"><spring:message code="body.FACTS.badgeOrange8"/></span>
+                                                <span class="badge"><spring:message code="body.FACTS.badgeOrange9"/></span>
+                                                <span class="badge"><spring:message code="body.FACTS.badgeOrange10"/></span>
+                                                <span class="badge"><spring:message code="body.FACTS.badgeOrange11"/></span>
+                                                <span class="badge"><spring:message code="body.FACTS.badgeOrange12"/></span>
+                                            </div>
+                                        </div>
+                                        <div class="contDescipInner" id="contDescripClassroom">
+                                            <div class="mb-3 d-flex h-100 flex-column justify-content-around">
+                                                <span class="badge"><spring:message code="body.FACTS.badgeGreen1"/></span>
+                                                <span class="badge"><spring:message code="body.FACTS.badgeGreen2"/></span>
+                                                <span class="badge"><spring:message code="body.FACTS.badgeGreen3"/></span>
+                                                <span class="badge"><spring:message code="body.FACTS.badgeGreen4"/></span> 
+                                                <span class="badge"><spring:message code="body.FACTS.badgeGreen5"/></span> 
+                                                <span class="badge"><spring:message code="body.FACTS.badgeGreen6"/></span>
+                                                <span class="badge"><spring:message code="body.FACTS.badgeGreen7"/></span>
+                                                <span class="badge"><spring:message code="body.FACTS.badgeGreen8"/></span>
+                                                <span class="badge"><spring:message code="body.FACTS.badgeGreen9"/></span>
+                                            </div>
+                                        </div>
+                                        <div class="contDescipInner" id="contDescripParent">
+                                            <div class="mb-3 d-flex h-100 flex-column justify-content-around">
+                                                <span class="badge"><spring:message code="body.FACTS.badgePurple1"/></span>
+                                                <span class="badge"><spring:message code="body.FACTS.badgePurple2"/></span>
+                                                <span class="badge"><spring:message code="body.FACTS.badgePurple3"/></span>
+                                                <span class="badge"><spring:message code="body.FACTS.badgePurple4"/></span> 
+                                                <span class="badge"><spring:message code="body.FACTS.badgePurple5"/></span>
+                                                <span class="badge"><spring:message code="body.FACTS.badgePurple6"/></span> 
+                                            </div>
+                                        </div>
+                                        <div class="contDescipInner" id="contDescripStudent">
+                                            <div class="mb-3 d-flex h-100 flex-column justify-content-around">
+                                                <span class="badge"><spring:message code="body.FACTS.badgePink1"/></span>
+                                                <span class="badge"><spring:message code="body.FACTS.badgePink2"/></span>
+                                                <span class="badge"><spring:message code="body.FACTS.badgePink3"/></span>
+                                                <span class="badge"><spring:message code="body.FACTS.badgePink4"/></span> 
+                                                <span class="badge"><spring:message code="body.FACTS.badgePink5"/></span> 
+                                                <span class="badge"><spring:message code="body.FACTS.badgePink6"/></span> 
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                     
+                                                    <div class="col-12 mt-md-3 footerFacts">
+                                                        <i class="fas fa-circle" style="font-size: 10px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
+                                                        <i class="fas fa-circle" style="font-size: 12px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
+                                                        <i class="fas fa-circle" style="font-size: 14px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
+                                                        <a>more info
+                                                            <i class="fas fa-circle" style="font-size: 14px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
+                                                            <i class="fas fa-circle" style="font-size: 12px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
+                                                            <i class="fas fa-circle" style="font-size: 10px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
+                                                    </div>
+                                </div>-->
             </div>
 
 
@@ -1903,7 +1993,7 @@
                                     <i class="fas fa-circle" style="font-size: 10px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> -->
             </div>
         </div>
-                            
+
 
         <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalBamboo" id="cPrincBamboo">
             <div class="col-12 bgBamboo d-flex d-md-none" > 
@@ -2020,8 +2110,8 @@
             <div class="col-12 mt-md-3 footerSmartClover">more info</div>
         </div>
 
-                    
-                    <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalSchoolAnalytics" id="cPrincSchoolAnalytics">
+
+        <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalSchoolAnalytics" id="cPrincSchoolAnalytics">
             <div class="col-12 bgSchoolAnalytics d-flex d-md-none" > 
                 <div class="col-12 d-flex align-items-center justify-content-center">
                     <h1>School Analytics</h1>
@@ -2033,7 +2123,7 @@
                 <div class="position-absolute imgTitleRight imgTitleSize d-none d-md-block">
 
                 </div> 
-               <div class="col-12 col-md-4 cardInfo">
+                <div class="col-12 col-md-4 cardInfo">
                     <div class="col-12"><h4 class="text-center" style="transform: skewX(-4deg);"> <spring:message code="body.SCHOOL.left1"/></h4></div> 
                     <div class="col-10 offset-1 text-center" style="transform: skewX(-4deg);">
                         <p class="mb-3"><spring:message code="body.SCHOOL.center1"/>
@@ -2455,13 +2545,13 @@
         <script type="text/javascript" src="recursos/css/slick/slick.min.js"></script>
 
         <script type="text/javascript">
-                                    $(document).ready(function () {
-                                        $(".lazy").slick({
-                                            infinite: true,
-                                            slidesToShow: 2,
-                                            slidesToScroll: 2
-                                        });
-                                    });
+                    $(document).ready(function () {
+                        $(".lazy").slick({
+                            infinite: true,
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        });
+                    });
         </script>
         <div class="divLoadStudent" id="loadingmessage">
             <div class="text-center"> 
