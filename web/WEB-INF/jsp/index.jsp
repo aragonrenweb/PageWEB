@@ -2159,11 +2159,11 @@
                 <div class="col-12 col-md-4 cardInfo">
                     <div class="col-12"><h4 class="text-center" style="transform: skewX(-4deg);"> <spring:message code="body.SCHOOL.left1"/></h4></div> 
                     <div class="col-10 offset-1 text-center" style="transform: skewX(-4deg);">
-                        <p class="mb-3"><spring:message code="body.SCHOOL.center1"/>
+                        <p class="mb-3"><spring:message code="body.SCHOOL.left2"/>
                         </p>
-                        <li><spring:message code="body.SCHOOL.center1"/></li>
-                        <li><spring:message code="body.SCHOOL.center1"/></li>
-                        <li><spring:message code="body.SCHOOL.center1"/></li>
+                        <li><spring:message code="body.SCHOOL.left3"/></li>
+                        <li><spring:message code="body.SCHOOL.left4"/></li>
+                        <li><spring:message code="body.SCHOOL.left5"/></li>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 cardInfo lineTopGray">
