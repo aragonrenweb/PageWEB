@@ -813,7 +813,7 @@
                 margin-top: 10px;
                 padding: 15px; 
                 padding-right: 0px;
-                max-width: 89.3%;
+                max-width: 89%;
                 margin-left: 4.5%;
             }
             
