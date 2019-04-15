@@ -231,11 +231,8 @@
                 <h3 style="text-align: center;" class="colorTextBamboo">DEMO</h3>
                 <p class="pl-3 pr-3 text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 
-                <!--                        <div class="col-12 col-lg-6 mt-4 mt-lg-0 h150 text-center"> 
-                                            <div class="col-10 offset-1 col-lg-8 offset-lg-2 infSuper2 pb-5 h-100 text-center" style="margin-top: 10px;">
-                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                            </div>
-                                        </div>-->
+                
+                
             </div>
             <div class="row">
 

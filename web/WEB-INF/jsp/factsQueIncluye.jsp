@@ -968,7 +968,7 @@
         </a> 
 
         <div id="modal1" class="modal fade" role="dialog" >
-            <div class="modal-dialog"  style="    max-width: 80%;">
+            <div class="modal-dialog"  style=" max-width: 80%;">
 
                 <!-- Modal content-->
                 <div class="modal-content">
@@ -1242,6 +1242,7 @@
                     </div>
                 </div>
             </div>
+        </div>
          
 
             <script type="text/javascript">

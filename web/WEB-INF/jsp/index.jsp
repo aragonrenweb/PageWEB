@@ -420,35 +420,42 @@
             .badge{
                 white-space: pre-line !important;
             }
+            .rowListaFacts{
+                background-color: none;
+                transform: skewX(-4deg); 
+                margin-top: 50px;
+                padding: 15px; 
+                padding-right: 0px;
+                max-width: 89%;
+                margin-left: 4%;
+            }
+            .container{
+                margin-top: 10px;
+            }
             /*Extra small devices (portrait phones, less than 576px)*/
             @media (min-width: 576px) {
 
             }
 
-            .rowListaFacts{
-                background-color: none;
-                transform: skewX(0deg); 
-                margin-top: 10px;
-                padding: 15px; 
-                padding-right: 0px;
-                max-width: 89%;
-                margin-left: 4.5%;
-            }
+
 
             /* Medium devices (tablets, less than 768px)*/
             @media (min-width: 768px) {
-          
-            
+                .container{
+                    width: 650px;
+
+                }
+
                 .rowListaFacts{
                     background-color: rgb(102,195,226,0.2);
-                    transform: skewX(0deg); 
-                margin-top: 10px;
-                padding: 15px; 
-                padding-right: 0px;
-                max-width: 88.5%;
-                margin-left: 4.5%;
+                    transform: skewX(4deg); 
+                    margin-top: 50px;
+                    padding: 15px; 
+                    padding-right: 0px;
+                    max-width: 89%;
+                    margin-left: 4%;
                 }
- 
+
                 .contDescipInner{
                     color: #fff; 
                     height: 30px;
@@ -512,7 +519,7 @@
                     background-repeat: no-repeat;
                     background-position-x: 50%;
                     background-position-y: 50%;
-                    transform: skewX(-4deg);
+                    transform: skewX(0deg);
                     margin-left: 1px;
 
                 }
@@ -522,7 +529,7 @@
                     transform: skewX(0deg);  
                     max-width: 27%;
                     margin-left: 4.5%;
-                    max-height: 650px;
+                    /*max-height: 500px;*/
                     flex-direction: column;
                     margin-top:10px;
                     padding-top:15px;
@@ -543,7 +550,7 @@
                 }
                 .cardPrincipalBamboo .cardInfo{
                     background-color: rgb(102,195,78,0.2);
-                    transform: skewX(4deg);
+                    transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
                     /*                    max-height: 620px;*/
@@ -564,10 +571,10 @@
                 }
                 .cardPrincipalSmartClover .cardInfo{
                     background-color: rgb(55, 119, 61, 0.2);
-                    transform: skewX(-4deg);
+                    transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-                    /*                    max-height: 620px;*/
+                    /*max-height: 550px;*/
                     flex-direction: column;
                     margin-top:0px;
                     padding-top:15px;
@@ -584,10 +591,10 @@
                 }
                 .cardPrincipalScheduler .cardInfo{
                     background-color: rgb(13,37,63,0.2);
-                    transform: skewX(-4deg);
+                    transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-                    /*                    max-height: 620px;*/
+                    /*max-height: 550px;*/
                     flex-direction: column;
                     margin-top:0px;
                     padding-top:15px;
@@ -608,7 +615,7 @@
 
                 .cardPrincipalSchoolAnalytics .cardInfo{
                     background-color: rgb(252,140,0, 0.2);
-                    transform: skewX(4deg);
+                    transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
                     /*                    max-height: 620px;*/
@@ -663,18 +670,21 @@
 
             /* Small devices (landscape phones, less than 768px)*/
             @media (min-width: 992px) { 
-                
+                .container{
+                    width: 900px;
+
+                }
                 .rowListaFacts{
                     background-color:none;
-                    transform: skewX(0deg); 
-                margin-top: 10px;
-                padding: 15px; 
-                padding-right: 0px;
-                max-width: 88.7%;
-                margin-left: 4.5%;
+                    transform: skewX(4deg); 
+                    margin-top: 50px;
+                    padding: 15px; 
+                    padding-right: 0px;
+                    max-width: 89%;
+                    margin-left: 4%;
                 }
-                
-                
+
+
                 .logo{
                     transform: skewX(4deg);
                     width: 60%;
@@ -726,7 +736,7 @@
 
                 .cardPrincipalBamboo .cardInfo{
                     background-color: rgb(102,195,78,0.2);
-                    transform: skewX(4deg);
+                    transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
                     max-height: 550px;
@@ -737,7 +747,7 @@
 
                 .cardPrincipalSmartClover .cardInfo{
                     background-color: rgb(55, 119, 61, 0.2);
-                    transform: skewX(-4deg);
+                    transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
                     max-height: 550px !important;
@@ -748,7 +758,7 @@
 
                 .cardPrincipalScheduler .cardInfo{
                     background-color:  rgb(13,37,63,0.2);
-                    transform: skewX(-4deg);
+                    transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
                     max-height: 550px;
@@ -758,7 +768,7 @@
                 }
                 .cardPrincipalSchoolAnalytics .cardInfo{
                     background-color: rgb(252,140,0, 0.2);
-                    transform: skewX(4deg);
+                    transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
                     max-height: 550px;
@@ -805,19 +815,22 @@
             }
             /* Large devices (desktops, less than 1200px)*/
             @media (min-width: 1200px) { 
-                
-                
+
+                .container{
+                    width: 1000px;
+
+                }
                 .rowListaFacts{
-                background-color: none;
-                transform: skewX(0deg); 
-                margin-top: 10px;
-                padding: 15px; 
-                padding-right: 0px;
-                max-width: 89%;
-                margin-left: 4.5%;
-            }
-            
-            
+                    background-color: none;
+                    transform: skewX(4deg); 
+                    margin-top: 50px;
+                    padding: 15px; 
+                    padding-right: 0px;
+                    max-width: 89%;
+                    margin-left: 4%;
+                }
+
+
                 .card{
                     width:90% !important;
                     margin-left:5%;                    
@@ -838,7 +851,7 @@
 
                 .cardPrincipalBamboo .cardInfo{
                     background-color: rgb(102,195,78,0.2);
-                    transform: skewX(4deg);
+                    transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
                     max-height: 500px;
@@ -849,7 +862,7 @@
 
                 .cardPrincipalSmartClover .cardInfo{
                     background-color: rgb(55, 119, 61, 0.2);
-                    transform: skewX(-4deg);
+                    transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
                     max-height: 500px;
@@ -860,7 +873,7 @@
 
                 .cardPrincipalScheduler .cardInfo{
                     background-color:  rgb(13,37,63,0.2);
-                    transform: skewX(-4deg);
+                    transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
                     max-height: 500px;
@@ -870,7 +883,7 @@
                 }
                 .cardPrincipalSchoolAnalytics .cardInfo{
                     background-color: rgb(252,140,0, 0.2);
-                    transform: skewX(4deg);
+                    transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
                     max-height: 500px;
@@ -903,7 +916,7 @@
                     max-height: 620px; 
                 }
             } 
-  @media (min-width: 1600px) {
+            @media (min-width: 1600px) {
                 .cardPrincipalFacts .cardInfo{ 
                     max-height: 580px; 
                 }
@@ -913,6 +926,9 @@
                     max-height: 520px; 
                 }
             }
+
+
+
             .lazy img{
                 width: 100%;
             }
@@ -970,7 +986,7 @@
                 background: -ms-linear-gradient(left, rgba(102,195,78,1) 0%, rgba(102,195,78,1) 25%, rgba(53,118,36,1) 25%, rgba(53,118,36,1) 50%, rgba(13,37,63,1) 50%, rgba(13,37,63,1) 77%, rgba(251,176,59,1) 77%, rgba(247,147,30,1) 100%);
                 background: linear-gradient(to right, rgba(102,195,78,1) 0%, rgba(102,195,78,1) 25%, rgba(53,118,36,1) 25%, rgba(53,118,36,1) 50%, rgba(13,37,63,1) 50%, rgba(13,37,63,1) 77%, rgba(251,176,59,1) 77%, rgba(247,147,30,1) 100%);
                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66c34e', endColorstr='#f7931e', GradientType=1 );
-                
+
             }
 
             .logo{
@@ -1038,7 +1054,6 @@
                 -webkit-overflow-scrolling: touch;
                 outline: 0;
                 height: 100%;
-
                 align-items: center;
                 justify-content: center;
             }
@@ -1116,7 +1131,7 @@
                 background-color: #c35098;
                 width: 120%;
             }
-         
+
             .listCol{
                 padding-bottom: 0.5rem !important;
                 padding-top: 0.5rem !important; 
@@ -1134,7 +1149,7 @@
                     var info = (url.val().split("=")[1]).split("#")[0];
                     // alert(info);
 
-                $("#informacion").val(info);
+                    $("#informacion").val(info);
                 }
                 $(".colorSCHEDULE").hide();
                 $("#contDescripClassroom").hide();
@@ -1769,9 +1784,9 @@
                 </div> 
             </div>
 
-            <div class="row col-12  pr-0 ">
-                <div class="col-12 col-md-4 cardInfo">
-                    <div class="col-12"><h4 class="text-center"><spring:message code="body.FACTS1"/> <spring:message code="home.SIS1"/></h4></div> 
+            <div class="row col-12  pr-0" style="transform: skewX(-4deg)">
+                <div class="col-12 col-md-4 cardInfo" >
+                    <div class="col-12"><h4 class="text-center" style="transform: skewX(0deg);"> <spring:message code="body.FACTS1"/> <spring:message code="home.SIS1"/></h4></div> 
                     <div class="col-10 offset-1 text-center">
                         <p>
                         <spring:message code="body.FACTS2"/> <spring:message code="home.SIS1"/> <spring:message code="body.FACTS3"/> <spring:message code="home.SIS1"/> <spring:message code="body.FACTS4"/> <h4><spring:message code="body.FACTS5"/></h4>
@@ -1779,7 +1794,7 @@
                         <p>
                             <spring:message code="body.FACTS6"/> 
                         </p>
-                        <!--
+                        <%--
                                                 <div  class="mb-3 listaFacts">
                                                     <li><spring:message code="body.FACTS.LI1"/></li>
                                                     <li><spring:message code="body.FACTS.LI2"/></li> 
@@ -1791,13 +1806,13 @@
                                                     <li><spring:message code="body.FACTS.LI8"/></li>
                         
                                                 </div>-->
-                        <!--<footer>mas información</footer>--> 
+                        <!--<footer>mas información</footer>--%> 
                     </div>
                 </div>
-                                                   
+
                 <div class="col-12 col-md-4 cardInfo lineTopGray">
-                    <div class="col-12"><h4 class="text-center" id="OurServices" style="transform: skewX(4deg);"><spring:message code="body.FACTS.P1"/></h4></div> 
-                    <div class="col-10 offset-1 text-center" style="transform: skewX(4deg);">
+                    <div class="col-12"><h4 class="text-center" id="OurServices" style="transform: skewX(0deg);"><spring:message code="body.FACTS.P1"/></h4></div> 
+                    <div class="col-12 col-lg-10 offset-lg-1 text-center" style="transform: skewX(0deg);">
                         <div class="mb-3">
                             <p><spring:message code="body.FACTS.P2"/></p>
                             <p class="d-md-none d-xl-block"><spring:message code="body.FACTS.P3"/></p>
@@ -1811,8 +1826,8 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-4 cardInfo lineTopGray">
-                    <div class="col-12"><h4 class="text-center" id="ItIsAllAboutPersonalization" style="transform: skewX(4deg);"><spring:message code="body.FACTS.P9"/></h4></div> 
-                    <div class="col-10 offset-1 p-xl-0 text-center" style="transform: skewX(4deg);">
+                    <div class="col-12"><h4 class="text-center" id="ItIsAllAboutPersonalization" style="transform: skewX(0deg);"><spring:message code="body.FACTS.P9"/></h4></div> 
+                    <div class="col-12 col-lg-10 offset-lg-1 text-center" style="transform: skewX(0deg);">
                         <div class="mb-3">
                             <p><spring:message code="body.FACTS.P10"/></p>
                             <p class="d-md-none d-xl-block"><spring:message code="body.FACTS.P11"/></p>
@@ -1822,7 +1837,7 @@
                         </div>
 
                     </div>
-                    <div class="lazy slider d-none d-xl-block " data-sizes="50vw" style="transform: skewX(4deg);">
+                    <div class="lazy slider d-none d-xl-block " data-sizes="50vw" style="transform: skewX(0deg);">
 
                         <div class="card">
                             <div class="card-header">
@@ -1871,13 +1886,14 @@
                     </div>
                 </div>
             </div>
+        </div>
 
 
-
+        <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalFacts" id="cPrincFacts">                            
             <div class="row col-12 pr-0 rowListaFacts">
-                
-                 <div class="col-12"><h4 class="text-center">360º</h4></div>  
-                <div class="col-12 col-md-3 lineTopGray listCol" style="color: #f7931e;">
+
+                <div class="col-12"><h4 class="text-center">360º</h4></div>  
+                <div class="col-12 col-md-6 col-lg-3 lineTopGray listCol" style="color: #f7931e;">
                     <div class="col-12"><h4 class="text-left"><spring:message code="body.FACTS.badgeLeft1"/></h4></div> 
                     <div class="col-10 p-0 offset-1 text-left">
                         <li><spring:message code="body.FACTS.badgeOrange1"/></li>
@@ -1895,7 +1911,7 @@
                         <!--<footer>mas información</footer>--> 
                     </div>
                 </div>
-                <div class="col-12 col-md-3 lineTopGray listCol" style="color: #7eb529;">
+                <div class="col-12 col-md-6 col-lg-3 lineTopGray listCol" style="color: #7eb529;">
                     <div class="col-12"><h4 class="text-left"><spring:message code="body.FACTS.badgeLeft2"/></h4></div> 
                     <div class="col-10 p-0 offset-1 text-left">
                         <li><spring:message code="body.FACTS.badgeGreen1"/></li>
@@ -1909,8 +1925,9 @@
                         <li><spring:message code="body.FACTS.badgeGreen9"/></li> 
                         <!--<footer>mas información</footer>--> 
                     </div>
-                </div>        
-                <div class="col-12 col-md-3 lineTopGray listCol" style="color: #6a58a2;">
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 lineTopGray listCol" style="color: #6a58a2;">
                     <div class="col-12"><h4 class="text-left"><spring:message code="body.FACTS.badgeLeft3"/></h4></div> 
                     <div class="col-10 p-0 offset-1 text-left">
                         <li><spring:message code="body.FACTS.badgePurple1"/></li>
@@ -1922,7 +1939,7 @@
                         <!--<footer>mas información</footer>--> 
                     </div>
                 </div> 
-                <div class="col-12 col-md-3 lineTopGray listCol" style="color: #c35098;">
+                <div class="col-12 col-md-6 col-lg-3 lineTopGray listCol" style="color: #c35098;">
                     <div class="col-12"><h4 class="text-left"><spring:message code="body.FACTS.badgeLeft4"/></h4></div> 
                     <div class="col-10 p-0 offset-1 text-left">
                         <li><spring:message code="body.FACTS.badgePink1"/></li>
@@ -1934,7 +1951,7 @@
                         <!--<footer>mas información</footer>--> 
                     </div>
                 </div> 
-                <!--                
+                <%--                
                 
                 
                                 <div class="col-12 col-md-6 cardInfo lineTopGray d-flex flex-row">
@@ -2012,7 +2029,7 @@
                                                             <i class="fas fa-circle" style="font-size: 12px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
                                                             <i class="fas fa-circle" style="font-size: 10px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
                                                     </div>
-                                </div>-->
+                                </div>--%>
             </div>
 
 
@@ -2047,7 +2064,7 @@
                 </div> 
                 <div class="col-12 col-md-4 cardInfo">
                     <div class="col-12"><h4 class="text-center" style="transform: skewX(-4deg);"> <spring:message code="body.BAMBOO.left1"/></h4></div> 
-                    <div class="col-10 offset-1 text-center" style="transform: skewX(-4deg);">
+                    <div class="col-12 col-lg-10 offset-lg-1 text-center" style="transform: skewX(-4deg);">
                         <p class="mb-3"><spring:message code="body.BAMBOO.left2"/>
                         </p>
                         <li><spring:message code="body.BAMBOO.left3"/></li>
@@ -2057,7 +2074,7 @@
                 </div>
                 <div class="col-12 col-md-4 cardInfo lineTopGray">
                     <div class="col-12"><h4 class="text-center" style="transform: skewX(-4deg);"><spring:message code="body.BAMBOO.center1"/></h4></div> 
-                    <div class="col-10 offset-1 text-center" style="transform: skewX(-4deg);">
+                    <div class="col-12 col-lg-10 offset-lg-1 text-center" style="transform: skewX(-4deg);">
                         <p class="mb-3"><spring:message code="body.BAMBOO.center2"/> <spring:message code="home.SIS1"/> <spring:message code="body.BAMBOO.center3"/> </p> 
                         <li><spring:message code="body.BAMBOO.center4"/></li>
                         <li><spring:message code="body.BAMBOO.center5"/></li>
@@ -2066,7 +2083,7 @@
                 </div>
                 <div class="col-12 col-md-4 cardInfo lineTopGray">
                     <div class="col-12"><h4 class="text-center" style="transform: skewX(-4deg);"><spring:message code="body.BAMBOO.right1"/></h4></div> 
-                    <div class="col-10 offset-1 text-center" style="transform: skewX(-4deg);">
+                    <div class="col-12 col-lg-10 offset-lg-1 text-center" style="transform: skewX(-4deg);">
                         <p class="mb-3"><spring:message code="body.BAMBOO.right2"/></p>
                         <li><spring:message code="body.BAMBOO.right3"/></li>
                         <li><spring:message code="body.BAMBOO.right4"/></li>
@@ -2107,8 +2124,8 @@
                                     </a> -->
                 </div>
                 <div class="col-12 col-md-4 cardInfo">
-                    <div class="col-12"><h4 class="text-center" style="transform: skewX(4deg);"><spring:message code="body.SMARTCLOVER.left1"/></h4></div> 
-                    <div class="col-10 offset-1 text-center" style="transform: skewX(4deg);"> 
+                    <div class="col-12"><h4 class="text-center" style="transform: skewX(0deg);"><spring:message code="body.SMARTCLOVER.left1"/></h4></div> 
+                    <div class="col-12 col-lg-10 offset-lg-1 text-center" style="transform: skewX(0deg);"> 
                         <p class="mb-3"><spring:message code="body.SMARTCLOVER.left2"/>
                             <br>
                             <spring:message code="body.SMARTCLOVER.left3"/> <spring:message code="home.SIS1"/> <spring:message code="body.SMARTCLOVER.left4"/>
@@ -2116,8 +2133,8 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-4  cardInfo lineTopGray">
-                    <div class="col-12"><h4 class="text-center" style="transform: skewX(4deg);"><spring:message code="body.SMARTCLOVER.center1"/></h4></div> 
-                    <div class="col-10 offset-1 text-center" style="transform: skewX(4deg);">
+                    <div class="col-12"><h4 class="text-center" style="transform: skewX(0deg);"><spring:message code="body.SMARTCLOVER.center1"/></h4></div> 
+                    <div class="col-12 col-lg-10 offset-lg-1 text-center" style="transform: skewX(0deg);">
                         <p class="mb-3"><spring:message code="body.SMARTCLOVER.center2"/> </p>
                         <li><spring:message code="body.SMARTCLOVER.center3"/></li>
                         <li><spring:message code="body.SMARTCLOVER.center4"/></li>
@@ -2126,8 +2143,8 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-4  cardInfo lineTopGray">
-                    <div class="col-12"><h4 class="text-center" style="transform: skewX(4deg);"><spring:message code="body.SMARTCLOVER.right1"/></h4></div> 
-                    <div class="col-10 offset-1 text-center" style="transform: skewX(4deg);">
+                    <div class="col-12"><h4 class="text-center" style="transform: skewX(0deg);"><spring:message code="body.SMARTCLOVER.right1"/></h4></div> 
+                    <div class="col-12 col-lg-10 offset-lg-1 text-center" style="transform: skewX(0deg);">
                         <p class="mb-3"><spring:message code="body.SMARTCLOVER.right2"/> </p> 
 
                     </div> 
@@ -2157,8 +2174,8 @@
 
                 </div> 
                 <div class="col-12 col-md-4 cardInfo">
-                    <div class="col-12"><h4 class="text-center" style="transform: skewX(-4deg);"> <spring:message code="body.SCHOOL.left1"/></h4></div> 
-                    <div class="col-10 offset-1 text-center" style="transform: skewX(-4deg);">
+                    <div class="col-12"><h4 class="text-center" style="transform: skewX(0deg);"> <spring:message code="body.SCHOOL.left1"/></h4></div> 
+                    <div class="col-12 col-lg-10 offset-lg-1 text-center" style="transform: skewX(0deg);">
                         <p class="mb-3"><spring:message code="body.SCHOOL.left2"/>
                         </p>
                         <li><spring:message code="body.SCHOOL.left3"/></li>
@@ -2167,16 +2184,16 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-4 cardInfo lineTopGray">
-                    <div class="col-12"><h4 class="text-center" style="transform: skewX(-4deg);"><spring:message code="body.SCHOOL.center1"/></h4></div> 
-                    <div class="col-10 offset-1 text-center" style="transform: skewX(-4deg);">
+                    <div class="col-12"><h4 class="text-center" style="transform: skewX(0deg);"><spring:message code="body.SCHOOL.center1"/></h4></div> 
+                    <div class="col-12 col-lg-10 offset-lg-1 text-center" style="transform: skewX(0deg);">
                         <p class="mb-3"><spring:message code="body.SCHOOL.center2"/> </p> 
                         <li><spring:message code="body.SCHOOL.center3"/></li>
                         <li><spring:message code="body.SCHOOL.center4"/></li>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 cardInfo lineTopGray">
-                    <div class="col-12"><h4 class="text-center" style="transform: skewX(-4deg);"><spring:message code="body.SCHOOL.right1"/></h4></div> 
-                    <div class="col-10 offset-1 text-center" style="transform: skewX(-4deg);">
+                    <div class="col-12"><h4 class="text-center" style="transform: skewX(0deg);"><spring:message code="body.SCHOOL.right1"/></h4></div> 
+                    <div class="col-12 col-lg-10 offset-lg-1 text-center" style="transform: skewX(0deg);">
                         <p class="mb-3"><spring:message code="body.SCHOOL.right2"/></p>
                         <li><spring:message code="body.SCHOOL.right3"/></li>
                         <li><spring:message code="body.SCHOOL.right4"/></li>
@@ -2207,8 +2224,8 @@
 
             <div class="row col-12  pr-0">
                 <div class="col-12 col-md-4  cardInfo">
-                    <div class="col-12"><h4 class="text-center" style="transform: skewX(-4deg);"><spring:message code="body.SCHEDULER.left1"/></h4></div> 
-                    <div class="col-10 offset-1 text-center" style="transform: skewX(-4deg);">
+                    <div class="col-12"><h4 class="text-center" style="transform: skewX(0deg);"><spring:message code="body.SCHEDULER.left1"/></h4></div> 
+                    <div class="col-12 col-lg-10 offset-lg-1 text-center" style="transform: skewX(0deg);">
                         <p class="mb-3"><spring:message code="body.SCHEDULER.left2"/></p> 
                         <li><spring:message code="body.SCHEDULER.left3"/></li>
                         <li><spring:message code="body.SCHEDULER.left4"/></li>
@@ -2216,16 +2233,16 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-4  cardInfo lineTopGray">
-                    <div class="col-12"><h4 class="text-center"style="transform: skewX(-4deg);"><spring:message code="body.SCHEDULER.center1"/></h4></div> 
-                    <div class="col-10 offset-1 text-center" style="transform: skewX(-4deg);" >
+                    <div class="col-12"><h4 class="text-center"style="transform: skewX(0deg);"><spring:message code="body.SCHEDULER.center1"/></h4></div> 
+                    <div class="col-12 col-lg-10 offset-lg-1 text-center" style="transform: skewX(0deg);" >
                         <p class="mb-3"><spring:message code="body.SCHEDULER.center2"/>
                         <li><spring:message code="body.SCHEDULER.center3"/></li> 
                         </p> 
                     </div>
                 </div>
                 <div class="col-12 col-md-4  cardInfo lineTopGray">
-                    <div class="col-12"><h4 class="text-center" style="transform: skewX(-4deg);"><spring:message code="body.SCHEDULER.right1"/></h4></div> 
-                    <div class="col-10 offset-1 text-center" style="transform: skewX(-4deg);">
+                    <div class="col-12"><h4 class="text-center" style="transform: skewX(0deg);"><spring:message code="body.SCHEDULER.right1"/></h4></div> 
+                    <div class="col-12 col-lg-10 offset-lg-1 text-center" style="transform: skewX(0deg);">
                         <p class="mb-3"><spring:message code="body.SCHEDULER.right2"/><br>                            
                             <spring:message code="body.SCHEDULER.right3"/><spring:message code="home.SIS1"/> <spring:message code="body.SCHEDULER.right4"/>
                         </p> 
@@ -2401,8 +2418,8 @@
                     <h1><spring:message code="contactForm"/></h1>
                 </div>
             </div> 
-            <div class="container" id="Contact" style="background-color: #f1f1f1;transform: skewX(4deg);">
-                <div class="row" stlye="transform: skewX(4deg);">
+            <div class="container" id="Contact" style="background-color: #f1f1f1;">
+                <div class="row">
                     <div class="col-md-12">
                         <div class="well well-sm">
                             <form class="form-horizontal" >
@@ -2471,7 +2488,7 @@
         </div>
 
         <footer class="col-12 mb-4" style="background-color: gainsboro;">
-            <div class="row" style="margin-left: 5%;" >
+            <div class="row" >
                 <div class="col-md-3 mx-auto">
                     <h6 class="font-weight-bold text-uppercase mt-3 mb-4 text-left"><spring:message code="footContact"/></h6>
                     <h6 class="text-muted text-left">
