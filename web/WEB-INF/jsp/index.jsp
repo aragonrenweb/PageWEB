@@ -29,7 +29,7 @@
 
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-        <link rel="stylesheet" type="text/css" href="recursos/css/slick/slick.css"/> 
+        <link rel="stylesheet" type="text/css" href="recursos/css/slick/slick.css"/>
         <link rel="stylesheet" type="text/css" href="recursos/css/slick/slick-theme.css"/>
 
         <title>EduWEBgroup</title>
@@ -136,7 +136,7 @@
             }
             .colorSchoolAnalytics{
                 background-color: #f7931e;
-                transform: skewX(-4deg);                
+                transform: skewX(-4deg);
             }
 
             .colorSchoolAnalyticssub{
@@ -160,7 +160,7 @@
                 /*margin-bottom:504px;*/
                 transition:background 1s ease;
                 transition:background-color 1s ease;
-                cursor:pointer; 
+                cursor:pointer;
                 cursor: hand;
             }
             .logo
@@ -172,17 +172,17 @@
 
             .alignContent1{
                 flex-direction: column;
-                background-color: #5a7da2;                
+                background-color: #5a7da2;
             }
 
             .alignContent2{
                 flex-direction: column;
-                background-color: #5feaea91;                
+                background-color: #5feaea91;
             }
 
             .colFirstLayer{
                 z-index:5;
-            } 
+            }
             .colSubLayer{
                 z-index:4;
             }
@@ -203,7 +203,7 @@
             }
             .bgFACTS{
                 background-color: #29abe2;
-            } 
+            }
             .bgFACTS h1{
                 color:white;
             }
@@ -247,11 +247,11 @@
                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 );
             }
             .bgBamboo{
-                background-color: #66c34e; 
-            } 
+                background-color: #66c34e;
+            }
             .bgBamboo h1{
                 color:white;
-            } 
+            }
             .cardPrincipalSmartClover{
                 background: rgba(255,255,255,1);
                 background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(173,189,168,1) 35%, rgba(173,189,168,1) 59%, rgba(255,255,255,1) 59%, rgba(255,255,255,1) 100%);
@@ -260,11 +260,11 @@
                 background: -o-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(173,189,168,1) 35%, rgba(173,189,168,1) 59%, rgba(255,255,255,1) 59%, rgba(255,255,255,1) 100%);
                 background: -ms-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(173,189,168,1) 35%, rgba(173,189,168,1) 59%, rgba(255,255,255,1) 59%, rgba(255,255,255,1) 100%);
                 background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(173,189,168,1) 35%, rgba(173,189,168,1) 59%, rgba(255,255,255,1) 59%, rgba(255,255,255,1) 100%);
-                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 ); 
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 );
             }
             .bgSmartClover{
-                background-color: #357624; 
-            } 
+                background-color: #357624;
+            }
             .bgSmartClover h1{
                 color: white;
             }
@@ -277,11 +277,11 @@
                 background: -o-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(115,149,186,1) 35%, rgba(115,149,186,1) 59%, rgba(255,255,255,1) 59%, rgba(255,255,255,1) 100%);
                 background: -ms-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(115,149,186,1) 35%, rgba(115,149,186,1) 59%, rgba(255,255,255,1) 59%, rgba(255,255,255,1) 100%);
                 background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(115,149,186,1) 35%, rgba(115,149,186,1) 59%, rgba(255,255,255,1) 59%, rgba(255,255,255,1) 100%);
-                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 ); 
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 );
             }
             .bgScheduler{
-                background-color: #0d253f; 
-            } 
+                background-color: #0d253f;
+            }
             .bgScheduler h1{
                 color:white;
             }
@@ -305,7 +305,7 @@
 
             .bgSchoolAnalytics h1{
                 color: white;
-            }            
+            }
 
             footer{
                 position: fixed;
@@ -328,17 +328,17 @@
                 vertical-align: central;
             }
 
-            .footerSmartClover{ 
+            .footerSmartClover{
                 font-size: medium;
                 color: #357624;
                 text-align: center;
                 vertical-align: central;
             }
 
-            .footerScheduler{                
+            .footerScheduler{
                 color: #0d253f;
                 text-align: center;
-                vertical-align: central;   
+                vertical-align: central;
             }
 
             .footerSchoolAnalytics{
@@ -362,17 +362,17 @@
                 height: 50px;
                 position: fixed;
                 color: white !important;
-                left: 5%;    
+                left: 5%;
                 cursor: pointer;
                 bottom: 0;
             }
 
-            .buttonNext{                
+            .buttonNext{
                 width:100px;
                 height: 50px;
                 color:white !important;
                 position: fixed;
-                right: -5%;    
+                right: -5%;
                 cursor: pointer;
                 bottom: 0;
             }
@@ -382,9 +382,9 @@
                 height: 50px;
                 color: black !important;
                 position: fixed;
-                right: -20%;    
+                right: -20%;
                 cursor: pointer;
-                bottom: 0;               
+                bottom: 0;
             }
 
 
@@ -410,21 +410,21 @@
             }
 
             .contNameFacts{
-                height: 100%; 
-                transform: skewX(-4deg);                
+                height: 100%;
+                transform: skewX(-4deg);
             }
 
             #contDescripFacts{
                 height:100%;
-            }   
+            }
             .badge{
                 white-space: pre-line !important;
             }
             .rowListaFacts{
                 background-color: none;
-                transform: skewX(-4deg); 
+                transform: skewX(-4deg);
                 margin-top: 50px;
-                padding: 15px; 
+                padding: 15px;
                 padding-right: 0px;
                 max-width: 89%;
                 margin-left: 4%;
@@ -448,31 +448,31 @@
 
                 .rowListaFacts{
                     background-color: rgb(102,195,226,0.2);
-                    transform: skewX(4deg); 
+                    transform: skewX(4deg);
                     margin-top: 50px;
-                    padding: 15px; 
+                    padding: 15px;
                     padding-right: 0px;
                     max-width: 89%;
                     margin-left: 4%;
                 }
 
                 .contDescipInner{
-                    color: #fff; 
+                    color: #fff;
                     height: 30px;
                     line-height: 20px;
                     transform: skewX(-4deg);
                     cursor: pointer;
-                    border-radius:0px; 
+                    border-radius:0px;
                     width: 60%;
                     margin-left:5% !important;
                     height: 65% !important;
                 }
 
 
-                .contNameFacts{                    
+                .contNameFacts{
                     height: 65% !important;
                 }
-                .footerFacts{   
+                .footerFacts{
                     text-align: center;
                     font-size: unset;
                     background-color: white;
@@ -490,14 +490,14 @@
                     text-align: center;
                     font-size: unset;
                     background-color: white;
-                    color: #357624;                    
+                    color: #357624;
                 }
 
                 .footerScheduler{
                     text-align: center;
                     font-size: unset;
                     background-color: white;
-                    color: #0d253f; 
+                    color: #0d253f;
                 }
 
                 .footerSchoolAnalytics{
@@ -515,7 +515,7 @@
                 .cardPrincipalFacts{
                     background:none;
                     color: #29abe2;
-                    background-image: url(recursos/img/fondos/Fondo_FACTSopacidad25.svg); 
+                    background-image: url(recursos/img/fondos/Fondo_FACTSopacidad25.svg);
                     background-repeat: no-repeat;
                     background-position-x: 50%;
                     background-position-y: 50%;
@@ -526,7 +526,7 @@
 
                 .cardPrincipalFacts .cardInfo{
                     background-color: rgb(102,195,226,0.2);
-                    transform: skewX(0deg);  
+                    transform: skewX(0deg);
                     max-width: 27%;
                     margin-left: 4.5%;
                     /*max-height: 500px;*/
@@ -582,7 +582,7 @@
                 }
                 .cardPrincipalScheduler{
                     background:none;
-                    color: #0d253f;                  
+                    color: #0d253f;
                     background-image: url(recursos/img/fondos/Fondo_Scheduleropacidad25.svg);
                     text-shadow: 0 0 black;
                     background-repeat: no-repeat;
@@ -664,21 +664,21 @@
                 .badgeFactsStudent{
                     background-color: #c35098;
                     width: 100px;
-                } 
+                }
 
             }
 
             /* Small devices (landscape phones, less than 768px)*/
-            @media (min-width: 992px) { 
+            @media (min-width: 992px) {
                 .container{
                     width: 900px;
 
                 }
                 .rowListaFacts{
                     background-color:none;
-                    transform: skewX(4deg); 
+                    transform: skewX(4deg);
                     margin-top: 50px;
-                    padding: 15px; 
+                    padding: 15px;
                     padding-right: 0px;
                     max-width: 89%;
                     margin-left: 4%;
@@ -693,19 +693,19 @@
                 }
 
                 .contDescipInner{
-                    color: #fff; 
+                    color: #fff;
                     height: 30px;
                     line-height: 20px;
                     transform: skewX(-4deg);
                     cursor: pointer;
-                    border-radius:0px; 
+                    border-radius:0px;
                     width: 60%;
                     margin-left:5% !important;
                     height: 85% !important;
                 }
 
 
-                .contNameFacts{                    
+                .contNameFacts{
                     height: 120% !important;
 
                 }
@@ -782,8 +782,8 @@
                     height: 95%;
                 }
 
-                .slick-slider{  
-                    height: fit-content;  
+                .slick-slider{
+                    height: fit-content;
                     top: 70px;
                 }
                 .animacion{
@@ -814,7 +814,7 @@
 
             }
             /* Large devices (desktops, less than 1200px)*/
-            @media (min-width: 1200px) { 
+            @media (min-width: 1200px) {
 
                 .container{
                     width: 1000px;
@@ -822,9 +822,9 @@
                 }
                 .rowListaFacts{
                     background-color: none;
-                    transform: skewX(4deg); 
+                    transform: skewX(4deg);
                     margin-top: 50px;
-                    padding: 15px; 
+                    padding: 15px;
                     padding-right: 0px;
                     max-width: 89%;
                     margin-left: 4%;
@@ -833,7 +833,7 @@
 
                 .card{
                     width:90% !important;
-                    margin-left:5%;                    
+                    margin-left:5%;
                 }
                 .cardPrincipalFacts .cardInfo{
                     background-color: rgb(102,195,226,0.2);
@@ -897,8 +897,8 @@
                     margin-top: 0px;
                 }
 
-                .slick-slider{  
-                    height: fit-content;  
+                .slick-slider{
+                    height: fit-content;
                     top: 0px;
                 }
                 .animacion
@@ -912,18 +912,18 @@
                 }
             }
             @media (min-width: 1400px) {
-                .cardPrincipalFacts .cardInfo{ 
-                    max-height: 620px; 
+                .cardPrincipalFacts .cardInfo{
+                    max-height: 620px;
                 }
-            } 
+            }
             @media (min-width: 1600px) {
-                .cardPrincipalFacts .cardInfo{ 
-                    max-height: 580px; 
+                .cardPrincipalFacts .cardInfo{
+                    max-height: 580px;
                 }
-            } 
+            }
             @media (min-width: 1800px) {
-                .cardPrincipalFacts .cardInfo{ 
-                    max-height: 520px; 
+                .cardPrincipalFacts .cardInfo{
+                    max-height: 520px;
                 }
             }
 
@@ -987,32 +987,29 @@
                 background: linear-gradient(to right, rgba(41,171,226,1) 0%, rgba(41,171,226,1) 25%, rgba(101,195,78,1) 25%, rgba(101,195,78,1) 50%, rgba(53,118,36,1) 50%, rgba(53,118,36,1) 75%, rgba(247,147,30,1) 75%, rgba(247,147,30,1) 100%);
                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#29abe2', endColorstr='#f7931e', GradientType=1 );
             }
-            
-            .bgBaseMenuRight{
-                background: rgba(41,171,226,1);
-                            background: -moz-linear-gradient(left, rgba(41,171,226,1) 0%, rgba(41,171,226,1) 25%, rgba(101,195,78,1) 25%, rgba(101,195,78,1) 50%, rgba(53,118,36,1) 50%, rgba(53,118,36,1) 75%, rgba(13,37,63,1) 75%, rgba(13,37,63,1) 100%);
-                            background: -webkit-gradient(left top, right top, color-stop(0%, rgba(41,171,226,1)), color-stop(25%, rgba(41,171,226,1)), color-stop(25%, rgba(101,195,78,1)), color-stop(50%, rgba(101,195,78,1)), color-stop(50%, rgba(53,118,36,1)), color-stop(75%, rgba(53,118,36,1)), color-stop(75%, rgba(13,37,63,1)), color-stop(100%, rgba(13,37,63,1)));
-                            background: -webkit-linear-gradient(left, rgba(41,171,226,1) 0%, rgba(41,171,226,1) 25%, rgba(101,195,78,1) 25%, rgba(101,195,78,1) 50%, rgba(53,118,36,1) 50%, rgba(53,118,36,1) 75%, rgba(13,37,63,1) 75%, rgba(13,37,63,1) 100%);
-                            background: -o-linear-gradient(left, rgba(41,171,226,1) 0%, rgba(41,171,226,1) 25%, rgba(101,195,78,1) 25%, rgba(101,195,78,1) 50%, rgba(53,118,36,1) 50%, rgba(53,118,36,1) 75%, rgba(13,37,63,1) 75%, rgba(13,37,63,1) 100%);
-                            background: -ms-linear-gradient(left, rgba(41,171,226,1) 0%, rgba(41,171,226,1) 25%, rgba(101,195,78,1) 25%, rgba(101,195,78,1) 50%, rgba(53,118,36,1) 50%, rgba(53,118,36,1) 75%, rgba(13,37,63,1) 75%, rgba(13,37,63,1) 100%);
-                            background: linear-gradient(to right, rgba(41,171,226,1) 0%, rgba(41,171,226,1) 25%, rgba(101,195,78,1) 25%, rgba(101,195,78,1) 50%, rgba(53,118,36,1) 50%, rgba(53,118,36,1) 75%, rgba(13,37,63,1) 75%, rgba(13,37,63,1) 100%);
-                            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#29abe2', endColorstr='#0d253f', GradientType=1 );
-                            min-height: 550px;
-                
-                
-            }
 
+ 
+            /*            .bginnerSchoolAnalytics{
+                            background: rgba(102,195,78,1);
+                            background: -moz-linear-gradient(left, rgba(102,195,78,1) 0%, rgba(102,195,78,1) 25%, rgba(53,118,36,1) 25%, rgba(53,118,36,1) 50%, rgba(13,37,63,1) 50%, rgba(13,37,63,1) 77%, rgba(251,176,59,1) 77%, rgba(247,147,30,1) 100%);
+                            background: -webkit-gradient(left top, right top, color-stop(0%, rgba(102,195,78,1)), color-stop(25%, rgba(102,195,78,1)), color-stop(25%, rgba(53,118,36,1)), color-stop(50%, rgba(53,118,36,1)), color-stop(50%, rgba(13,37,63,1)), color-stop(77%, rgba(13,37,63,1)), color-stop(77%, rgba(251,176,59,1)), color-stop(100%, rgba(247,147,30,1)));
+                            background: -webkit-linear-gradient(left, rgba(102,195,78,1) 0%, rgba(102,195,78,1) 25%, rgba(53,118,36,1) 25%, rgba(53,118,36,1) 50%, rgba(13,37,63,1) 50%, rgba(13,37,63,1) 77%, rgba(251,176,59,1) 77%, rgba(247,147,30,1) 100%);
+                            background: -o-linear-gradient(left, rgba(102,195,78,1) 0%, rgba(102,195,78,1) 25%, rgba(53,118,36,1) 25%, rgba(53,118,36,1) 50%, rgba(13,37,63,1) 50%, rgba(13,37,63,1) 77%, rgba(251,176,59,1) 77%, rgba(247,147,30,1) 100%);
+                            background: -ms-linear-gradient(left, rgba(102,195,78,1) 0%, rgba(102,195,78,1) 25%, rgba(53,118,36,1) 25%, rgba(53,118,36,1) 50%, rgba(13,37,63,1) 50%, rgba(13,37,63,1) 77%, rgba(251,176,59,1) 77%, rgba(247,147,30,1) 100%);
+                            background: linear-gradient(to right, rgba(102,195,78,1) 0%, rgba(102,195,78,1) 25%, rgba(53,118,36,1) 25%, rgba(53,118,36,1) 50%, rgba(13,37,63,1) 50%, rgba(13,37,63,1) 77%, rgba(251,176,59,1) 77%, rgba(247,147,30,1) 100%);
+                            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66c34e', endColorstr='#f7931e', GradientType=1 );
+            
+                        }*/
 
             .bginnerSchoolAnalytics{
                 background: rgba(102,195,78,1);
-                background: -moz-linear-gradient(left, rgba(102,195,78,1) 0%, rgba(102,195,78,1) 25%, rgba(53,118,36,1) 25%, rgba(53,118,36,1) 50%, rgba(13,37,63,1) 50%, rgba(13,37,63,1) 77%, rgba(251,176,59,1) 77%, rgba(247,147,30,1) 100%);
-                background: -webkit-gradient(left top, right top, color-stop(0%, rgba(102,195,78,1)), color-stop(25%, rgba(102,195,78,1)), color-stop(25%, rgba(53,118,36,1)), color-stop(50%, rgba(53,118,36,1)), color-stop(50%, rgba(13,37,63,1)), color-stop(77%, rgba(13,37,63,1)), color-stop(77%, rgba(251,176,59,1)), color-stop(100%, rgba(247,147,30,1)));
-                background: -webkit-linear-gradient(left, rgba(102,195,78,1) 0%, rgba(102,195,78,1) 25%, rgba(53,118,36,1) 25%, rgba(53,118,36,1) 50%, rgba(13,37,63,1) 50%, rgba(13,37,63,1) 77%, rgba(251,176,59,1) 77%, rgba(247,147,30,1) 100%);
-                background: -o-linear-gradient(left, rgba(102,195,78,1) 0%, rgba(102,195,78,1) 25%, rgba(53,118,36,1) 25%, rgba(53,118,36,1) 50%, rgba(13,37,63,1) 50%, rgba(13,37,63,1) 77%, rgba(251,176,59,1) 77%, rgba(247,147,30,1) 100%);
-                background: -ms-linear-gradient(left, rgba(102,195,78,1) 0%, rgba(102,195,78,1) 25%, rgba(53,118,36,1) 25%, rgba(53,118,36,1) 50%, rgba(13,37,63,1) 50%, rgba(13,37,63,1) 77%, rgba(251,176,59,1) 77%, rgba(247,147,30,1) 100%);
-                background: linear-gradient(to right, rgba(102,195,78,1) 0%, rgba(102,195,78,1) 25%, rgba(53,118,36,1) 25%, rgba(53,118,36,1) 50%, rgba(13,37,63,1) 50%, rgba(13,37,63,1) 77%, rgba(251,176,59,1) 77%, rgba(247,147,30,1) 100%);
-                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66c34e', endColorstr='#f7931e', GradientType=1 );
-
+                background: -moz-linear-gradient(left, rgba(102,195,78,1) 0%, rgba(102,195,78,1) 25%, rgba(53,118,36,1) 25%, rgba(53,118,36,1) 50%, rgba(251,176,59,1) 50%, rgba(251,176,59,1) 75%, rgba(13,37,63,1) 75%, rgba(13,37,63,1) 100%);
+                background: -webkit-gradient(left top, right top, color-stop(0%, rgba(102,195,78,1)), color-stop(25%, rgba(102,195,78,1)), color-stop(25%, rgba(53,118,36,1)), color-stop(50%, rgba(53,118,36,1)), color-stop(50%, rgba(251,176,59,1)), color-stop(75%, rgba(251,176,59,1)), color-stop(75%, rgba(13,37,63,1)), color-stop(100%, rgba(13,37,63,1)));
+                background: -webkit-linear-gradient(left, rgba(102,195,78,1) 0%, rgba(102,195,78,1) 25%, rgba(53,118,36,1) 25%, rgba(53,118,36,1) 50%, rgba(251,176,59,1) 50%, rgba(251,176,59,1) 75%, rgba(13,37,63,1) 75%, rgba(13,37,63,1) 100%);
+                background: -o-linear-gradient(left, rgba(102,195,78,1) 0%, rgba(102,195,78,1) 25%, rgba(53,118,36,1) 25%, rgba(53,118,36,1) 50%, rgba(251,176,59,1) 50%, rgba(251,176,59,1) 75%, rgba(13,37,63,1) 75%, rgba(13,37,63,1) 100%);
+                background: -ms-linear-gradient(left, rgba(102,195,78,1) 0%, rgba(102,195,78,1) 25%, rgba(53,118,36,1) 25%, rgba(53,118,36,1) 50%, rgba(251,176,59,1) 50%, rgba(251,176,59,1) 75%, rgba(13,37,63,1) 75%, rgba(13,37,63,1) 100%);
+                background: linear-gradient(to right, rgba(102,195,78,1) 0%, rgba(102,195,78,1) 25%, rgba(53,118,36,1) 25%, rgba(53,118,36,1) 50%, rgba(251,176,59,1) 50%, rgba(251,176,59,1) 75%, rgba(13,37,63,1) 75%, rgba(13,37,63,1) 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66c34e', endColorstr='#0d253f', GradientType=1 );
             }
 
             .logo{
@@ -1032,22 +1029,22 @@
                 width: 50px;
                 height: 50px;
             }
-            #logoMenuApp0{ 
+            #logoMenuApp0{
                 z-index:11;
             }
-            #logoMenuApp1{ 
+            #logoMenuApp1{
                 z-index:10;
             }
-            #logoMenuApp2{ 
+            #logoMenuApp2{
                 z-index:9;
             }
-            #logoMenuApp3{ 
+            #logoMenuApp3{
                 z-index:8;
             }
-            #logoMenuApp4{ 
+            #logoMenuApp4{
                 z-index:7;
             }
-            #logoMenuApp5{ 
+            #logoMenuApp5{
                 z-index:6;
             }
             .imgLogo img{
@@ -1070,7 +1067,7 @@
             }
             .divLoadStudent{
                 background-color: #2d2d2d61;
-                position: fixed; 
+                position: fixed;
                 right: 0;
                 bottom: 0;
                 left: 0;
@@ -1103,7 +1100,7 @@
                 padding-left: 40px;
             }
             .badgeFacts{
-                color: #fff; 
+                color: #fff;
                 height: 30px;
                 line-height: 20px;
                 transform: skewX(-4deg);
@@ -1112,23 +1109,23 @@
             }
             #contDescripFacts{
                 height:100%;
-            }   
+            }
             .badgeFactsMan{
                 background-color: #f2980f;
             }
             .contDescipInner{
-                color: #fff; 
+                color: #fff;
                 height: 30px;
                 line-height: 20px;
                 transform: skewX(-4deg);
                 cursor: pointer;
-                border-radius:0px; 
+                border-radius:0px;
                 width: 60%;
                 margin-left:20%;
                 height: 95%;
             }
             .contDescipInner .badge{
-                border-radius:0px; 
+                border-radius:0px;
             }
 
             .badgeFactsClass{
@@ -1139,7 +1136,7 @@
             }
             .badgeFactsStudent{
                 background-color: #c35098;
-            } 
+            }
 
             #contDescripManagement .badge{
                 background-color: #f2980f;
@@ -1160,10 +1157,10 @@
 
             .listCol{
                 padding-bottom: 0.5rem !important;
-                padding-top: 0.5rem !important; 
+                padding-top: 0.5rem !important;
             }
-            .listCol h4{ 
-                border-top: solid 3px; 
+            .listCol h4{
+                border-top: solid 3px;
             }
         </style>
         <script>
@@ -1278,9 +1275,9 @@
                         $('.colorSchoolAnalyticssub').animate({'max-width': '24%'}, 500);
                         if (estado === '0%') {
                             $('.colorSchoolAnalyticssub').animate({'max-width': '24%'}, 500);
-                            $(".menu").removeClass("bgBaseMenu").delay(500);
+//                            $(".menu").removeClass("bgBaseMenu").delay(500);
                         }
-                        $(".menu").addClass("bginnerSchoolAnalytics").delay(500);
+//                        $(".menu").addClass("bginnerSchoolAnalytics").delay(500);
                         $(".buttonNext").hide();
                         if ($(".colorFACTS").css("max-width") === "0%") {
                             $(".buttonNextSub").hide();
@@ -1304,6 +1301,9 @@
                     $('.colorSCHEDULE').delay(520).show().css('max-width', '0').animate({'max-width': '24%'}, 500);
                     $(".buttonPrevious").show();
                     $(".buttonNext").hide();
+                    
+//                    $(".bginnerSchoolAnalytics").show();
+
                     $(".colorSCHEDULE div").show();
                     e.stopPropagation();
                 });
@@ -1316,7 +1316,8 @@
                     $(".buttonPrevious").show();
                     $(".buttonNext").hide();
                     $(".buttonNextSub").hide();
-                    $(".bgBaseMenuRight").show();
+                    $(".bgBaseMenu").hide();
+                    
                     $(".colorSCHEDULE div").show();
                     e.stopPropagation();
                 });
@@ -1597,7 +1598,7 @@
             <div class="row" >
                 <a class="d-block d-sm-none d-none d-sm-block d-md-none navbar-brand logoMenuApps nav-link-evento" id="logoMenuApp0" onclick="showIconsApps()">
                     <img src="recursos/img/LogosMenu/LogoApps.svg" >
-                </a>                             
+                </a>
 
                 <a class="d-block d-sm-none d-none d-sm-block d-md-none navbar-brand logoMenuApps nav-link-evento" id="logoMenuApp1" value="facts" href="#cPrincFacts">
                     <img src="recursos/img/LogosMenu/LogoFacts.svg" >
@@ -1622,16 +1623,16 @@
 
                 <div class="w-100 h-25 text-center my-auto">
 
-                </div>    
+                </div>
                 <div class="w-100 h-50 text-center my-auto">
                     <img class="d-inline-block logo" src="recursos/img/LogosMenu/LogoFacts.svg">
-                </div> 
+                </div>
                 <div class="w-100 h-25 text-center my-auto">
                     <font class="text-white h3" >FACTS <spring:message code="home.SIS1"/></font><br>
                     <font class="text-white h5" ><spring:message code="home.SIS2"/></font> <br>
                     <br>
                     <font class="btn nav-link-evento h5 btnDemoEvento" href="#Contact"><spring:message code="request.demo"/></font>
-                </div>                 
+                </div>
                 <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
             </div>
             <div class="col colorFACTSsub colSubLayer p-0"  style="max-width: 0%;"  >
@@ -1652,31 +1653,31 @@
             <div class="col colorBAMBOO colFirstLayer p-0" >
                 <div class="w-100 h-25 text-center my-auto">
 
-                </div>    
+                </div>
                 <div class="w-100 h-50 text-center my-auto">
                     <img class="d-inline-block logo" src="recursos/img/LogosMenu/LogoBamboo.svg">
-                </div> 
+                </div>
                 <div class="w-100 h-25 text-center my-auto">
                     <font class="text-white h3" >BAMBOO</font><br>
-                    <font class="text-white h5" ><spring:message code="home.BAMBOO1"/></font> <br> 
+                    <font class="text-white h5" ><spring:message code="home.BAMBOO1"/></font> <br>
                     <br>
-                    <font class="btn nav-link-evento h5 btnDemoEvento" href="#Contact"><spring:message code="request.demo"/></font>    
+                    <font class="btn nav-link-evento h5 btnDemoEvento" href="#Contact"><spring:message code="request.demo"/></font>
 
                     <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
                     <div class="buttonPrevious">
                         <i class="fas fa-angle-double-left"></i>
-                    </div> 
+                    </div>
                 </div>
             </div>
             <div class="col colorBAMBOOsub colSubLayer p-0" style="max-width: 0%;">
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center p-0">
-                    <a class="nav-link-evento" href="#cPrincBamboo"><spring:message code="home.BAMBOO2"/></a> 
+                    <a class="nav-link-evento" href="#cPrincBamboo"><spring:message code="home.BAMBOO2"/></a>
                 </div>
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center p-0">
-                    <a class="nav-link-evento" href="#cPrincBamboo"><spring:message code="home.BAMBOO3"/></a>  
+                    <a class="nav-link-evento" href="#cPrincBamboo"><spring:message code="home.BAMBOO3"/></a>
                 </div>
                 <div class="col w-100 d-flex h-25  align-content-center align-items-center  p-0">
-                    <a class="nav-link-evento" href="#cPrincBamboo"><spring:message code="home.BAMBOO4"/></a>   
+                    <a class="nav-link-evento" href="#cPrincBamboo"><spring:message code="home.BAMBOO4"/></a>
                 </div>
                 <!--<div class="col w-100 d-flex h-25  align-content-center align-items-center">
                     Bamboo Experience
@@ -1687,30 +1688,30 @@
             <div class="col colorSMARTCLOVER colFirstLayer p-0">
                 <div class="w-100 h-25 text-center my-auto">
 
-                </div>    
+                </div>
                 <div class="w-100 h-50 text-center my-auto">
                     <img class="d-inline-block logo" src="recursos/img/LogosMenu/LogoSmartClover.svg">
-                </div> 
+                </div>
                 <div class="w-100 h-25 text-center my-auto">
                     <a class="text-white h3">SMART CLOVER</a><br>
-                    <a class="text-white h5"><spring:message code="home.SMARTCLOVER1"/></a> 
+                    <a class="text-white h5"><spring:message code="home.SMARTCLOVER1"/></a>
                     <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
-                </div> 
+                </div>
             </div>
             <div class="col colorSMARTCLOVERsub colSubLayer p-0" style="max-width: 0%;">
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center  p-0">
-                    <a class="nav-link-evento" href="#cPrincClover"><spring:message code="home.SMARTCLOVER2"/></a> 
+                    <a class="nav-link-evento" href="#cPrincClover"><spring:message code="home.SMARTCLOVER2"/></a>
                 </div>
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center  p-0">
-                    <a class="nav-link-evento" href="#cPrincClover"><spring:message code="home.SMARTCLOVER3"/></a>  
+                    <a class="nav-link-evento" href="#cPrincClover"><spring:message code="home.SMARTCLOVER3"/></a>
                 </div>
                 <div class="col w-100 d-flex h-25  align-content-center align-items-center  p-0">
-                    <a class="nav-link-evento" href="#cPrincClover"><spring:message code="home.SMARTCLOVER4"/></a>  
+                    <a class="nav-link-evento" href="#cPrincClover"><spring:message code="home.SMARTCLOVER4"/></a>
 
                 </div>
                 <!--<div class="col w-100 d-flex h-25  align-content-center align-items-center">
                     Smart Experience
-                </div>-->                
+                </div>-->
             </div>
 
 
@@ -1718,10 +1719,10 @@
             <div class="col colorSchoolAnalytics colFirstLayer p-0" >
                 <div class="w-100 h-25 text-center my-auto">
 
-                </div>    
+                </div>
                 <div class="w-100 h-50 text-center my-auto">
                     <img class="d-inline-block logo" src="recursos/img/LogosMenu/LogoChartSchool.svg">
-                </div> 
+                </div>
                 <div class="w-100 h-25 text-center my-auto">
                     <a class="text-white h3" >SCHOOL ANALYTICS</a><br>
                     <a class="text-white h5" ><spring:message code="home.ANALYTICStit"/></a>
@@ -1729,7 +1730,7 @@
                     <div class="buttonNext">
                         <i class="fas fa-angle-double-right"></i>
                     </div>
-                </div> 
+                </div>
 
             </div>
             <div class="col colorSchoolAnalyticssub colSubLayer p-0"  style="max-width: 0%;"  >
@@ -1753,21 +1754,21 @@
                     </div>
                 </div>
             </div>
-            <div class="col colorSCHEDULE colFirstLayer p-0" data-toggle="collapse" href="#"> 
+            <div class="col colorSCHEDULE colFirstLayer p-0" data-toggle="collapse" href="#">
                 <div class="w-100 h-25 text-center my-auto">
 
-                </div> 
+                </div>
                 <div class="w-100 h-50 text-center my-auto">
                     <img class="d-inline-block logo" src="recursos/img/LogosMenu/LogoMschedules.svg">
-                </div> 
+                </div>
                 <div class="w-100 h-25 text-center my-auto">
                     <a class="text-white h3">SCHEDULE</a><br>
-                    <a class="text-white h5"><spring:message code="home.SCHEDULE1"/></a> 
+                    <a class="text-white h5"><spring:message code="home.SCHEDULE1"/></a>
                     <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
                     <!--                    <div class="buttonNext">
                                             <i class="fas fa-angle-double-right"></i>
                                         </div>-->
-                </div> 
+                </div>
             </div>
 
 
@@ -1776,14 +1777,14 @@
                     Smart for Guides
                 </div>-->
                 <div class="col w-100 d-flex h-25 align-content-center align-items-center  p-0">
-                    <a class="nav-link-evento" href="#cPrincScheduler"><spring:message code="home.SCHEDULE2"/></a>   
+                    <a class="nav-link-evento" href="#cPrincScheduler"><spring:message code="home.SCHEDULE2"/></a>
                 </div>
                 <div class="col w-100 d-flex h-25  align-content-center align-items-center  p-0">
-                    <a class="nav-link-evento" href="#cPrincScheduler"><spring:message code="home.SCHEDULE3"/></a> 
+                    <a class="nav-link-evento" href="#cPrincScheduler"><spring:message code="home.SCHEDULE3"/></a>
 
                 </div>
                 <div class="col w-100 d-flex h-25  align-content-center align-items-center  p-0">
-                    <a class="nav-link-evento" href="#cPrincScheduler"><spring:message code="home.SCHEDULE4"/></a> 
+                    <a class="nav-link-evento" href="#cPrincScheduler"><spring:message code="home.SCHEDULE4"/></a>
 
                     <!--                    <div class="buttonNextSub">
                                             <i class="fas fa-angle-double-right"></i>
@@ -1792,7 +1793,7 @@
             </div>
 
 
-        </div> 
+        </div>
         <div class="row">
             <div class="col-12 " >
                 <div class="col-12 animacion"></div>
@@ -1800,45 +1801,45 @@
         </div>
         <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalFacts" id="cPrincFacts">
 
-            <div class="col-12 bgFACTS d-flex d-md-none" > 
+            <div class="col-12 bgFACTS d-flex d-md-none" >
                 <div class="col-12 d-flex align-items-center justify-content-center">
                     <h1>FACTS</h1>
                 </div>
                 <div class="position-absolute imgTitle">
                     <a class="navbar-brand logoMenuApps" href="#">
                         <img src="recursos/img/LogosMenu/LogoFacts.svg"/>
-                    </a> 
-                </div> 
+                    </a>
+                </div>
             </div>
 
             <div class="row col-12  pr-0" style="transform: skewX(-4deg)">
                 <div class="col-12 col-md-4 cardInfo" >
-                    <div class="col-12"><h4 class="text-center" style="transform: skewX(0deg);"> <spring:message code="body.FACTS1"/> <spring:message code="home.SIS1"/></h4></div> 
+                    <div class="col-12"><h4 class="text-center" style="transform: skewX(0deg);"> <spring:message code="body.FACTS1"/> <spring:message code="home.SIS1"/></h4></div>
                     <div class="col-10 offset-1 text-center">
                         <p>
                         <spring:message code="body.FACTS2"/> <spring:message code="home.SIS1"/> <spring:message code="body.FACTS3"/> <spring:message code="home.SIS1"/> <spring:message code="body.FACTS4"/> <h4><spring:message code="body.FACTS5"/></h4>
                         </p>
                         <p>
-                            <spring:message code="body.FACTS6"/> 
+                            <spring:message code="body.FACTS6"/>
                         </p>
                         <%--
                                                 <div  class="mb-3 listaFacts">
                                                     <li><spring:message code="body.FACTS.LI1"/></li>
-                                                    <li><spring:message code="body.FACTS.LI2"/></li> 
-                                                    <li><spring:message code="body.FACTS.LI3"/></li>  
+                                                    <li><spring:message code="body.FACTS.LI2"/></li>
+                                                    <li><spring:message code="body.FACTS.LI3"/></li>
                                                     <li><spring:message code="body.FACTS.LI4"/></li>
                                                     <li><spring:message code="body.FACTS.LI5"/></li>
-                                                    <li><spring:message code="body.FACTS.LI6"/></li> 
-                                                    <li><spring:message code="body.FACTS.LI7"/></li> 
+                                                    <li><spring:message code="body.FACTS.LI6"/></li>
+                                                    <li><spring:message code="body.FACTS.LI7"/></li>
                                                     <li><spring:message code="body.FACTS.LI8"/></li>
-                        
+
                                                 </div>-->
-                        <!--<footer>mas información</footer>--%> 
+                        <!--<footer>mas información</footer>--%>
                     </div>
                 </div>
 
                 <div class="col-12 col-md-4 cardInfo lineTopGray">
-                    <div class="col-12"><h4 class="text-center" id="OurServices" style="transform: skewX(0deg);"><spring:message code="body.FACTS.P1"/></h4></div> 
+                    <div class="col-12"><h4 class="text-center" id="OurServices" style="transform: skewX(0deg);"><spring:message code="body.FACTS.P1"/></h4></div>
                     <div class="col-12 col-lg-10 offset-lg-1 text-center" style="transform: skewX(0deg);">
                         <div class="mb-3">
                             <p><spring:message code="body.FACTS.P2"/></p>
@@ -1853,7 +1854,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-4 cardInfo lineTopGray">
-                    <div class="col-12"><h4 class="text-center" id="ItIsAllAboutPersonalization" style="transform: skewX(0deg);"><spring:message code="body.FACTS.P9"/></h4></div> 
+                    <div class="col-12"><h4 class="text-center" id="ItIsAllAboutPersonalization" style="transform: skewX(0deg);"><spring:message code="body.FACTS.P9"/></h4></div>
                     <div class="col-12 col-lg-10 offset-lg-1 text-center" style="transform: skewX(0deg);">
                         <div class="mb-3">
                             <p><spring:message code="body.FACTS.P10"/></p>
@@ -1870,44 +1871,44 @@
                             <div class="card-header">
                                 <spring:message code="body.FACTS.slick1"/>
                             </div>
-                            <div class="card-body"> 
-                                <p class="card-text text-center"><spring:message code="body.Facts.slick.p1"/></p> 
+                            <div class="card-body">
+                                <p class="card-text text-center"><spring:message code="body.Facts.slick.p1"/></p>
                             </div>
-                        </div>                    
+                        </div>
 
 
                         <div class="card">
                             <div class="card-header">
                                 <spring:message code="body.FACTS.slick2"/>
                             </div>
-                            <div class="card-body"> 
-                                <p class="card-text text-center"><spring:message code="body.Facts.slick.p2"/></p> 
+                            <div class="card-body">
+                                <p class="card-text text-center"><spring:message code="body.Facts.slick.p2"/></p>
                             </div>
-                        </div>                  
+                        </div>
 
                         <div class="card">
                             <div class="card-header">
                                 <spring:message code="body.FACTS.slick3"/>
                             </div>
-                            <div class="card-body"> 
-                                <p class="card-text text-center"><spring:message code="body.Facts.slick.p3"/></p> 
+                            <div class="card-body">
+                                <p class="card-text text-center"><spring:message code="body.Facts.slick.p3"/></p>
                             </div>
-                        </div>                
+                        </div>
 
                         <div class="card">
                             <div class="card-header">
                                 <spring:message code="body.FACTS.slick4"/>
                             </div>
-                            <div class="card-body"> 
-                                <p class="card-text text-center"><spring:message code="body.Facts.slick.p4"/></p> 
+                            <div class="card-body">
+                                <p class="card-text text-center"><spring:message code="body.Facts.slick.p4"/></p>
                             </div>
-                        </div> 
+                        </div>
                         <div class="card">
                             <div class="card-header">
                                 <spring:message code="body.FACTS.slick5"/>
                             </div>
-                            <div class="card-body"> 
-                                <p class="card-text text-center"><spring:message code="body.Facts.slick.p5"/></p> 
+                            <div class="card-body">
+                                <p class="card-text text-center"><spring:message code="body.Facts.slick.p5"/></p>
                             </div>
                         </div>
                     </div>
@@ -1916,12 +1917,12 @@
         </div>
 
 
-        <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalFacts" id="cPrincFacts">                            
+        <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalFacts" id="cPrincFacts">
             <div class="row col-12 pr-0 rowListaFacts">
 
-                <div class="col-12"><h4 class="text-center">360º</h4></div>  
+                <div class="col-12"><h4 class="text-center">360º</h4></div>
                 <div class="col-12 col-md-6 col-lg-3 lineTopGray listCol" style="color: #f7931e;">
-                    <div class="col-12"><h4 class="text-left"><spring:message code="body.FACTS.badgeLeft1"/></h4></div> 
+                    <div class="col-12"><h4 class="text-left"><spring:message code="body.FACTS.badgeLeft1"/></h4></div>
                     <div class="col-10 p-0 offset-1 text-left">
                         <li><spring:message code="body.FACTS.badgeOrange1"/></li>
                         <li><spring:message code="body.FACTS.badgeOrange2"/></li>
@@ -1935,11 +1936,11 @@
                         <li><spring:message code="body.FACTS.badgeOrange10"/></li>
                         <li><spring:message code="body.FACTS.badgeOrange11"/></li>
                         <li><spring:message code="body.FACTS.badgeOrange12"/></li>
-                        <!--<footer>mas información</footer>--> 
+                        <!--<footer>mas información</footer>-->
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3 lineTopGray listCol" style="color: #7eb529;">
-                    <div class="col-12"><h4 class="text-left"><spring:message code="body.FACTS.badgeLeft2"/></h4></div> 
+                    <div class="col-12"><h4 class="text-left"><spring:message code="body.FACTS.badgeLeft2"/></h4></div>
                     <div class="col-10 p-0 offset-1 text-left">
                         <li><spring:message code="body.FACTS.badgeGreen1"/></li>
                         <li><spring:message code="body.FACTS.badgeGreen2"/></li>
@@ -1949,41 +1950,41 @@
                         <li><spring:message code="body.FACTS.badgeGreen6"/></li>
                         <li><spring:message code="body.FACTS.badgeGreen7"/></li>
                         <li><spring:message code="body.FACTS.badgeGreen8"/></li>
-                        <li><spring:message code="body.FACTS.badgeGreen9"/></li> 
-                        <!--<footer>mas información</footer>--> 
+                        <li><spring:message code="body.FACTS.badgeGreen9"/></li>
+                        <!--<footer>mas información</footer>-->
                     </div>
                 </div>
 
                 <div class="col-12 col-md-6 col-lg-3 lineTopGray listCol" style="color: #6a58a2;">
-                    <div class="col-12"><h4 class="text-left"><spring:message code="body.FACTS.badgeLeft3"/></h4></div> 
+                    <div class="col-12"><h4 class="text-left"><spring:message code="body.FACTS.badgeLeft3"/></h4></div>
                     <div class="col-10 p-0 offset-1 text-left">
                         <li><spring:message code="body.FACTS.badgePurple1"/></li>
                         <li><spring:message code="body.FACTS.badgePurple2"/></li>
                         <li><spring:message code="body.FACTS.badgePurple3"/></li>
                         <li><spring:message code="body.FACTS.badgePurple4"/></li>
                         <li><spring:message code="body.FACTS.badgePurple5"/></li>
-                        <li><spring:message code="body.FACTS.badgePurple6"/></li> 
-                        <!--<footer>mas información</footer>--> 
+                        <li><spring:message code="body.FACTS.badgePurple6"/></li>
+                        <!--<footer>mas información</footer>-->
                     </div>
-                </div> 
+                </div>
                 <div class="col-12 col-md-6 col-lg-3 lineTopGray listCol" style="color: #c35098;">
-                    <div class="col-12"><h4 class="text-left"><spring:message code="body.FACTS.badgeLeft4"/></h4></div> 
+                    <div class="col-12"><h4 class="text-left"><spring:message code="body.FACTS.badgeLeft4"/></h4></div>
                     <div class="col-10 p-0 offset-1 text-left">
                         <li><spring:message code="body.FACTS.badgePink1"/></li>
                         <li><spring:message code="body.FACTS.badgePink2"/></li>
                         <li><spring:message code="body.FACTS.badgePink3"/></li>
                         <li><spring:message code="body.FACTS.badgePink4"/></li>
                         <li><spring:message code="body.FACTS.badgePink5"/></li>
-                        <li><spring:message code="body.FACTS.badgePink6"/></li> 
-                        <!--<footer>mas información</footer>--> 
+                        <li><spring:message code="body.FACTS.badgePink6"/></li>
+                        <!--<footer>mas información</footer>-->
                     </div>
-                </div> 
-                <%--                
-                
-                
+                </div>
+                <%--
+
+
                                 <div class="col-12 col-md-6 cardInfo lineTopGray d-flex flex-row">
                                     <div class="col-5 h-100">
-                                        <div class="col-12"><h4 class="text-left" style="transform: skewX(4deg);">360º</h4></div> 
+                                        <div class="col-12"><h4 class="text-left" style="transform: skewX(4deg);">360º</h4></div>
                                         <div class="col-10 offset-1 p-xl-0 text-center contNameFacts">
                                             <div class="mb-3 d-flex h-75 flex-column justify-content-around" style=" padding-left: 5%; transform: skewX(4deg);">
                                                 <span onclick="showInfo('contDescripManagement')" class="badge badgeFacts badgeFactsMan"><spring:message code="body.FACTS.badgeLeft1"/></span>
@@ -1991,8 +1992,8 @@
                                                 <span onclick="showInfo('contDescripParent')" class="badge badgeFacts badgeFactsParent"><spring:message code="body.FACTS.badgeLeft3"/></span>
                                                 <span onclick="showInfo('contDescripStudent')" class="badge badgeFacts badgeFactsStudent"><spring:message code="body.FACTS.badgeLeft4"/></span>
                                             </div>
-                
-                                        </div> 
+
+                                        </div>
                                     </div>
                                     <div class="col-7" id="contDescripFacts">
                                         <div class="contDescipInner" id="contDescripManagement">
@@ -2016,8 +2017,8 @@
                                                 <span class="badge"><spring:message code="body.FACTS.badgeGreen1"/></span>
                                                 <span class="badge"><spring:message code="body.FACTS.badgeGreen2"/></span>
                                                 <span class="badge"><spring:message code="body.FACTS.badgeGreen3"/></span>
-                                                <span class="badge"><spring:message code="body.FACTS.badgeGreen4"/></span> 
-                                                <span class="badge"><spring:message code="body.FACTS.badgeGreen5"/></span> 
+                                                <span class="badge"><spring:message code="body.FACTS.badgeGreen4"/></span>
+                                                <span class="badge"><spring:message code="body.FACTS.badgeGreen5"/></span>
                                                 <span class="badge"><spring:message code="body.FACTS.badgeGreen6"/></span>
                                                 <span class="badge"><spring:message code="body.FACTS.badgeGreen7"/></span>
                                                 <span class="badge"><spring:message code="body.FACTS.badgeGreen8"/></span>
@@ -2029,9 +2030,9 @@
                                                 <span class="badge"><spring:message code="body.FACTS.badgePurple1"/></span>
                                                 <span class="badge"><spring:message code="body.FACTS.badgePurple2"/></span>
                                                 <span class="badge"><spring:message code="body.FACTS.badgePurple3"/></span>
-                                                <span class="badge"><spring:message code="body.FACTS.badgePurple4"/></span> 
+                                                <span class="badge"><spring:message code="body.FACTS.badgePurple4"/></span>
                                                 <span class="badge"><spring:message code="body.FACTS.badgePurple5"/></span>
-                                                <span class="badge"><spring:message code="body.FACTS.badgePurple6"/></span> 
+                                                <span class="badge"><spring:message code="body.FACTS.badgePurple6"/></span>
                                             </div>
                                         </div>
                                         <div class="contDescipInner" id="contDescripStudent">
@@ -2039,58 +2040,58 @@
                                                 <span class="badge"><spring:message code="body.FACTS.badgePink1"/></span>
                                                 <span class="badge"><spring:message code="body.FACTS.badgePink2"/></span>
                                                 <span class="badge"><spring:message code="body.FACTS.badgePink3"/></span>
-                                                <span class="badge"><spring:message code="body.FACTS.badgePink4"/></span> 
-                                                <span class="badge"><spring:message code="body.FACTS.badgePink5"/></span> 
-                                                <span class="badge"><spring:message code="body.FACTS.badgePink6"/></span> 
+                                                <span class="badge"><spring:message code="body.FACTS.badgePink4"/></span>
+                                                <span class="badge"><spring:message code="body.FACTS.badgePink5"/></span>
+                                                <span class="badge"><spring:message code="body.FACTS.badgePink6"/></span>
                                             </div>
                                         </div>
                                     </div>
-                
-                                     
+
+
                                                     <div class="col-12 mt-md-3 footerFacts">
-                                                        <i class="fas fa-circle" style="font-size: 10px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
-                                                        <i class="fas fa-circle" style="font-size: 12px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
-                                                        <i class="fas fa-circle" style="font-size: 14px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
+                                                        <i class="fas fa-circle" style="font-size: 10px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i>
+                                                        <i class="fas fa-circle" style="font-size: 12px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i>
+                                                        <i class="fas fa-circle" style="font-size: 14px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i>
                                                         <a>more info
-                                                            <i class="fas fa-circle" style="font-size: 14px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
-                                                            <i class="fas fa-circle" style="font-size: 12px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
-                                                            <i class="fas fa-circle" style="font-size: 10px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
+                                                            <i class="fas fa-circle" style="font-size: 14px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i>
+                                                            <i class="fas fa-circle" style="font-size: 12px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i>
+                                                            <i class="fas fa-circle" style="font-size: 10px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i>
                                                     </div>
                                 </div>--%>
             </div>
 
 
             <div class="col-12 mt-md-3 footerFacts">
-                <!--                <i class="fas fa-circle" style="font-size: 10px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
-                                <i class="fas fa-circle" style="font-size: 12px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
-                                <i class="fas fa-circle" style="font-size: 14px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
+                <!--                <i class="fas fa-circle" style="font-size: 10px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i>
+                                <i class="fas fa-circle" style="font-size: 12px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i>
+                                <i class="fas fa-circle" style="font-size: 14px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i>
                                 <a>more info
-                                    <i class="fas fa-circle" style="font-size: 14px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
-                                    <i class="fas fa-circle" style="font-size: 12px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> 
+                                    <i class="fas fa-circle" style="font-size: 14px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i>
+                                    <i class="fas fa-circle" style="font-size: 12px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i>
                                     <i class="fas fa-circle" style="font-size: 10px; color:#5fbce2; margin-left: 10px; margin-right: 10px;"></i> -->
             </div>
         </div>
 
 
         <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalBamboo" id="cPrincBamboo">
-            <div class="col-12 bgBamboo d-flex d-md-none" > 
+            <div class="col-12 bgBamboo d-flex d-md-none" >
                 <div class="col-12 d-flex align-items-center justify-content-center">
                     <h1>Bamboo</h1>
                 </div>
                 <div class="position-absolute imgTitle">
                     <a class="navbar-brand logoMenuApps" href="#">
                         <img src="recursos/img/LogosMenu/LogoBamboo.svg"/>
-                    </a> 
-                </div> 
+                    </a>
+                </div>
             </div>
 
 
             <div class="row col-12  pr-0">
                 <div class="position-absolute imgTitleRight imgTitleSize d-none d-md-block">
 
-                </div> 
+                </div>
                 <div class="col-12 col-md-4 cardInfo">
-                    <div class="col-12"><h4 class="text-center" style="transform: skewX(-4deg);"> <spring:message code="body.BAMBOO.left1"/></h4></div> 
+                    <div class="col-12"><h4 class="text-center" style="transform: skewX(-4deg);"> <spring:message code="body.BAMBOO.left1"/></h4></div>
                     <div class="col-12 col-lg-10 offset-lg-1 text-center" style="transform: skewX(-4deg);">
                         <p class="mb-3"><spring:message code="body.BAMBOO.left2"/>
                         </p>
@@ -2100,16 +2101,16 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-4 cardInfo lineTopGray">
-                    <div class="col-12"><h4 class="text-center" style="transform: skewX(-4deg);"><spring:message code="body.BAMBOO.center1"/></h4></div> 
+                    <div class="col-12"><h4 class="text-center" style="transform: skewX(-4deg);"><spring:message code="body.BAMBOO.center1"/></h4></div>
                     <div class="col-12 col-lg-10 offset-lg-1 text-center" style="transform: skewX(-4deg);">
-                        <p class="mb-3"><spring:message code="body.BAMBOO.center2"/> <spring:message code="home.SIS1"/> <spring:message code="body.BAMBOO.center3"/> </p> 
+                        <p class="mb-3"><spring:message code="body.BAMBOO.center2"/> <spring:message code="home.SIS1"/> <spring:message code="body.BAMBOO.center3"/> </p>
                         <li><spring:message code="body.BAMBOO.center4"/></li>
                         <li><spring:message code="body.BAMBOO.center5"/></li>
-                        <li><spring:message code="body.BAMBOO.center6"/></li> 
+                        <li><spring:message code="body.BAMBOO.center6"/></li>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 cardInfo lineTopGray">
-                    <div class="col-12"><h4 class="text-center" style="transform: skewX(-4deg);"><spring:message code="body.BAMBOO.right1"/></h4></div> 
+                    <div class="col-12"><h4 class="text-center" style="transform: skewX(-4deg);"><spring:message code="body.BAMBOO.right1"/></h4></div>
                     <div class="col-12 col-lg-10 offset-lg-1 text-center" style="transform: skewX(-4deg);">
                         <p class="mb-3"><spring:message code="body.BAMBOO.right2"/></p>
                         <li><spring:message code="body.BAMBOO.right3"/></li>
@@ -2118,28 +2119,28 @@
                     </div>
                 </div>
                 <!--<div class="col-12 col-md-3 cardInfo lineTopGray">
-                    <div class="col-12"><h4 class="text-center">Qué se personaliza?</h4></div> 
+                    <div class="col-12"><h4 class="text-center">Qué se personaliza?</h4></div>
                     <div class="col-10 offset-1 text-center">
-                        <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                        <p class="mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
                             standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                         </p>
-    
+
                     </div>
                 </div>-->
-            </div>       
+            </div>
             <div class="col-12 mt-md-3 footerBamboo">more info</div>
         </div>
 
 
         <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalSmartClover" id="cPrincClover">
-            <div class="col-12 bgSmartClover d-flex d-md-none" > 
+            <div class="col-12 bgSmartClover d-flex d-md-none" >
                 <div class="col-12 d-flex align-items-center justify-content-center">
                     <h1>Smart Clover</h1>
                 </div>
                 <div class="position-absolute imgTitle">
                     <a class="navbar-brand logoMenuApps" href="#">
                         <img src="recursos/img/LogosMenu/LogoSmartClover.svg"/>
-                    </a> 
+                    </a>
                 </div>
 
             </div>
@@ -2151,8 +2152,8 @@
                                     </a> -->
                 </div>
                 <div class="col-12 col-md-4 cardInfo">
-                    <div class="col-12"><h4 class="text-center" style="transform: skewX(0deg);"><spring:message code="body.SMARTCLOVER.left1"/></h4></div> 
-                    <div class="col-12 col-lg-10 offset-lg-1 text-center" style="transform: skewX(0deg);"> 
+                    <div class="col-12"><h4 class="text-center" style="transform: skewX(0deg);"><spring:message code="body.SMARTCLOVER.left1"/></h4></div>
+                    <div class="col-12 col-lg-10 offset-lg-1 text-center" style="transform: skewX(0deg);">
                         <p class="mb-3"><spring:message code="body.SMARTCLOVER.left2"/>
                             <br>
                             <spring:message code="body.SMARTCLOVER.left3"/> <spring:message code="home.SIS1"/> <spring:message code="body.SMARTCLOVER.left4"/>
@@ -2160,27 +2161,27 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-4  cardInfo lineTopGray">
-                    <div class="col-12"><h4 class="text-center" style="transform: skewX(0deg);"><spring:message code="body.SMARTCLOVER.center1"/></h4></div> 
+                    <div class="col-12"><h4 class="text-center" style="transform: skewX(0deg);"><spring:message code="body.SMARTCLOVER.center1"/></h4></div>
                     <div class="col-12 col-lg-10 offset-lg-1 text-center" style="transform: skewX(0deg);">
                         <p class="mb-3"><spring:message code="body.SMARTCLOVER.center2"/> </p>
                         <li><spring:message code="body.SMARTCLOVER.center3"/></li>
                         <li><spring:message code="body.SMARTCLOVER.center4"/></li>
                         <li><spring:message code="body.SMARTCLOVER.center5"/></li>
-                        <li><spring:message code="body.SMARTCLOVER.center6"/></li> 
+                        <li><spring:message code="body.SMARTCLOVER.center6"/></li>
                     </div>
                 </div>
                 <div class="col-12 col-md-4  cardInfo lineTopGray">
-                    <div class="col-12"><h4 class="text-center" style="transform: skewX(0deg);"><spring:message code="body.SMARTCLOVER.right1"/></h4></div> 
+                    <div class="col-12"><h4 class="text-center" style="transform: skewX(0deg);"><spring:message code="body.SMARTCLOVER.right1"/></h4></div>
                     <div class="col-12 col-lg-10 offset-lg-1 text-center" style="transform: skewX(0deg);">
-                        <p class="mb-3"><spring:message code="body.SMARTCLOVER.right2"/> </p> 
+                        <p class="mb-3"><spring:message code="body.SMARTCLOVER.right2"/> </p>
 
-                    </div> 
+                    </div>
                     <div class="col-10 offset-1 text-center">
-                        <p class="mb-3"><spring:message code="body.SMARTCLOVER.right3"/><spring:message code="home.SIS1"/> </p> 
+                        <p class="mb-3"><spring:message code="body.SMARTCLOVER.right3"/><spring:message code="home.SIS1"/> </p>
 
-                    </div> 
+                    </div>
                     <div class="col-10 offset-1 text-center">
-                        <p class="mb-3"><spring:message code="body.SMARTCLOVER.right4"/> <spring:message code="home.SIS1"/> <spring:message code="body.SMARTCLOVER.right5"/></p>  
+                        <p class="mb-3"><spring:message code="body.SMARTCLOVER.right4"/> <spring:message code="home.SIS1"/> <spring:message code="body.SMARTCLOVER.right5"/></p>
                     </div>
                 </div>
             </div>
@@ -2189,19 +2190,19 @@
 
 
         <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalSchoolAnalytics" id="cPrincSchoolAnalytics">
-            <div class="col-12 bgSchoolAnalytics d-flex d-md-none" > 
+            <div class="col-12 bgSchoolAnalytics d-flex d-md-none" >
                 <div class="col-12 d-flex align-items-center justify-content-center">
                     <h1>School Analytics</h1>
-                </div> 
+                </div>
             </div>
 
 
             <div class="row col-12  pr-0">
                 <div class="position-absolute imgTitleRight imgTitleSize d-none d-md-block">
 
-                </div> 
+                </div>
                 <div class="col-12 col-md-4 cardInfo">
-                    <div class="col-12"><h4 class="text-center" style="transform: skewX(0deg);"> <spring:message code="body.SCHOOL.left1"/></h4></div> 
+                    <div class="col-12"><h4 class="text-center" style="transform: skewX(0deg);"> <spring:message code="body.SCHOOL.left1"/></h4></div>
                     <div class="col-12 col-lg-10 offset-lg-1 text-center" style="transform: skewX(0deg);">
                         <p class="mb-3"><spring:message code="body.SCHOOL.left2"/>
                         </p>
@@ -2211,15 +2212,15 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-4 cardInfo lineTopGray">
-                    <div class="col-12"><h4 class="text-center" style="transform: skewX(0deg);"><spring:message code="body.SCHOOL.center1"/></h4></div> 
+                    <div class="col-12"><h4 class="text-center" style="transform: skewX(0deg);"><spring:message code="body.SCHOOL.center1"/></h4></div>
                     <div class="col-12 col-lg-10 offset-lg-1 text-center" style="transform: skewX(0deg);">
-                        <p class="mb-3"><spring:message code="body.SCHOOL.center2"/> </p> 
+                        <p class="mb-3"><spring:message code="body.SCHOOL.center2"/> </p>
                         <li><spring:message code="body.SCHOOL.center3"/></li>
                         <li><spring:message code="body.SCHOOL.center4"/></li>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 cardInfo lineTopGray">
-                    <div class="col-12"><h4 class="text-center" style="transform: skewX(0deg);"><spring:message code="body.SCHOOL.right1"/></h4></div> 
+                    <div class="col-12"><h4 class="text-center" style="transform: skewX(0deg);"><spring:message code="body.SCHOOL.right1"/></h4></div>
                     <div class="col-12 col-lg-10 offset-lg-1 text-center" style="transform: skewX(0deg);">
                         <p class="mb-3"><spring:message code="body.SCHOOL.right2"/></p>
                         <li><spring:message code="body.SCHOOL.right3"/></li>
@@ -2227,55 +2228,55 @@
                         <li><spring:message code="body.SCHOOL.right5"/></li>
                     </div>
                 </div>
-            </div>       
+            </div>
             <div class="col-12 mt-md-3 footerSchoolAnalytics">more info</div>
         </div>
 
 
         <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalScheduler" id="cPrincScheduler">
-            <div class="col-12 bgScheduler d-flex d-md-none" > 
+            <div class="col-12 bgScheduler d-flex d-md-none" >
                 <div class="col-12 d-flex align-items-center justify-content-center">
                     <h1>Scheduler</h1>
                 </div>
                 <div class="position-absolute imgTitle">
                     <a class="navbar-brand logoMenuApps" href="#">
                         <img src="recursos/img/LogosMenu/LogoMschedules.svg"/>
-                    </a> 
-                </div> 
+                    </a>
+                </div>
             </div>
             <div class="position-absolute imgTitleRight imgTitleSize d-none d-md-block">
                 <!--                <a class="navbar-brand logoMenuApps" href="#">
                                     <img src="recursos/img/LogosMenu/LogoSmartClover.svg"/>
                                 </a> -->
-            </div> 
+            </div>
 
             <div class="row col-12  pr-0">
                 <div class="col-12 col-md-4  cardInfo">
-                    <div class="col-12"><h4 class="text-center" style="transform: skewX(0deg);"><spring:message code="body.SCHEDULER.left1"/></h4></div> 
+                    <div class="col-12"><h4 class="text-center" style="transform: skewX(0deg);"><spring:message code="body.SCHEDULER.left1"/></h4></div>
                     <div class="col-12 col-lg-10 offset-lg-1 text-center" style="transform: skewX(0deg);">
-                        <p class="mb-3"><spring:message code="body.SCHEDULER.left2"/></p> 
+                        <p class="mb-3"><spring:message code="body.SCHEDULER.left2"/></p>
                         <li><spring:message code="body.SCHEDULER.left3"/></li>
                         <li><spring:message code="body.SCHEDULER.left4"/></li>
-                        <li><spring:message code="body.SCHEDULER.left5"/></li> 
+                        <li><spring:message code="body.SCHEDULER.left5"/></li>
                     </div>
                 </div>
                 <div class="col-12 col-md-4  cardInfo lineTopGray">
-                    <div class="col-12"><h4 class="text-center"style="transform: skewX(0deg);"><spring:message code="body.SCHEDULER.center1"/></h4></div> 
+                    <div class="col-12"><h4 class="text-center"style="transform: skewX(0deg);"><spring:message code="body.SCHEDULER.center1"/></h4></div>
                     <div class="col-12 col-lg-10 offset-lg-1 text-center" style="transform: skewX(0deg);" >
                         <p class="mb-3"><spring:message code="body.SCHEDULER.center2"/>
-                        <li><spring:message code="body.SCHEDULER.center3"/></li> 
-                        </p> 
+                        <li><spring:message code="body.SCHEDULER.center3"/></li>
+                        </p>
                     </div>
                 </div>
                 <div class="col-12 col-md-4  cardInfo lineTopGray">
-                    <div class="col-12"><h4 class="text-center" style="transform: skewX(0deg);"><spring:message code="body.SCHEDULER.right1"/></h4></div> 
+                    <div class="col-12"><h4 class="text-center" style="transform: skewX(0deg);"><spring:message code="body.SCHEDULER.right1"/></h4></div>
                     <div class="col-12 col-lg-10 offset-lg-1 text-center" style="transform: skewX(0deg);">
-                        <p class="mb-3"><spring:message code="body.SCHEDULER.right2"/><br>                            
+                        <p class="mb-3"><spring:message code="body.SCHEDULER.right2"/><br>
                             <spring:message code="body.SCHEDULER.right3"/><spring:message code="home.SIS1"/> <spring:message code="body.SCHEDULER.right4"/>
-                        </p> 
+                        </p>
                     </div>
                 </div>
-            </div>        
+            </div>
             <div  class="col-12 mt-md-3 footerScheduler">more info</div>
         </div>
 
@@ -2283,7 +2284,7 @@
 
 
         <!--<div class="col-12">
-            <div class="col-12"><h4 class="text-center">Política de Privacidad</h4></div> 
+            <div class="col-12"><h4 class="text-center">Política de Privacidad</h4></div>
             <div class="col-10 offset-1">
                 <p class="mb-3">
                     Privacy Notice<br>
@@ -2308,7 +2309,7 @@
 
 
                     What kinds of personal information about you do we process?<br>
-                    Personal information that we’ll process in connection with all products and services, if relevant, includes:<br> 
+                    Personal information that we’ll process in connection with all products and services, if relevant, includes:<br>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">Personal and contact details, such as title, full name, contact details and contact details history;</li>
                         <li class="list-group-item">Your date of birth, gender and/or age;</li>
@@ -2319,11 +2320,11 @@
                     </ul><br><br>
                     What is the source of your personal information?<br>
                     We’ll collect personal information from the following general sources:<br>
-                    <ul class="list-group list-group-flush">                    
+                    <ul class="list-group list-group-flush">
                         <li class="list-group-item">From you directly, and any information from family members, associates or beneficiaries of products and services;</li>
                         <li class="list-group-item">Information generated about you when you use our products and services;</li>
                         <li class="list-group-item">Business partners for example. and others who are a part of providing your products and services or operating our business;</li>
-                    </ul><br><br> 
+                    </ul><br><br>
                     What do we use your personal data for?<br>
                     We use your personal data, including any of the personal data listed above, for the following purposes:<br>
                     <ul class="list-group list-group-flush">
@@ -2356,7 +2357,7 @@
                         <li class="list-group-item">Sharing your personal information with business partners and services providers when you apply for a product to help manage your product;</li>
                         <li class="list-group-item">All stages and activities relevant to managing the product or service including enquiry, application, administration and management of accounts; and</li>
                         <li class="list-group-item">For some of our profiling and other automated decision making to decide whether to offer you a product and/or service, particular payment method and the price or terms of this.</li>
-                    </ul><br><br> 
+                    </ul><br><br>
                     Where it is in our legitimate interests to do so, such as:<br>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">Managing your products and services relating to that, updating your records, tracing your whereabouts to contact you about your account and doing this for recovering debt (where appropriate);</li>
@@ -2370,52 +2371,52 @@
                         <li class="list-group-item">Subject to the appropriate controls, helping us improve products or services, or to assess or to improve the operating of our businesses;</li>
                         <li class="list-group-item">For some of our profiling and other automated decision making; and</li>
                         <li class="list-group-item">Where we need to share your personal information with people or organisations in order to run our business or comply with any legal and/or regulatory obligations.</li>
-                    </ul><br><br> 
+                    </ul><br><br>
                     To comply with our legal obligations<br>
                     With your consent or explicit consent:<br>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">For some direct marketing communications;</li>
                         <li class="list-group-item">For some of our profiling and other automated decision making; and</li>
                         <li class="list-group-item">For some of our processing of special categories of personal data such as about your health, if you are a vulnerable customer or some criminal records information.</li>
-                    </ul><br><br>  
+                    </ul><br><br>
                     For a public interest, such as:<br>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">Processing of your special categories of personal data such as about your health, criminal records information (including alleged offences), or if you are a vulnerable customer.</li>
-                    </ul><br><br> 
+                    </ul><br><br>
                     When do we share your personal information with other organisations?<br>
                     For Legal and Regulatory reasons, we may share information with the following third parties for the purposes listed above:<br>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">Business partners (e.g. your employer or fleet management company), others who are a part of providing your products and services or operating our business;</li>
-                        <li class="list-group-item">If necessary, the Police and their nominated support organisations;</li> 
+                        <li class="list-group-item">If necessary, the Police and their nominated support organisations;</li>
                         <li class="list-group-item">Other organisations and businesses who provide services to us such as debt recovery agencies, back up and server hosting providers, IT software and maintenance providers, document storage providers and suppliers of other back office functions; and</li>
                         <li class="list-group-item">Market research organisations who help us to develop and improve our products and services.</li>
-                    </ul><br><br> 
-                    How and when can you withdraw your consent?<br> 
-                    Where we’re relying upon your consent to process personal data, you can withdraw this at any time by contacting us in support@eduwebgroup.com.<br> <br> 
+                    </ul><br><br>
+                    How and when can you withdraw your consent?<br>
+                    Where we’re relying upon your consent to process personal data, you can withdraw this at any time by contacting us in support@eduwebgroup.com.<br> <br>
 
-                    What should you do if your personal information changes?<br> 
-                    You should tell us so that we can update our records via support@eduwebgroup.com. We’ll then update your records if we can.<br> <br> 
+                    What should you do if your personal information changes?<br>
+                    You should tell us so that we can update our records via support@eduwebgroup.com. We’ll then update your records if we can.<br> <br>
 
-                    Do you have to provide your personal information to us?<br> 
-                    We’re unable to provide you with our products or services if you do not provide certain information to us.  In cases where providing some personal information is optional, we’ll make this clear.<br> <br> 
+                    Do you have to provide your personal information to us?<br>
+                    We’re unable to provide you with our products or services if you do not provide certain information to us.  In cases where providing some personal information is optional, we’ll make this clear.<br> <br>
 
-                    Do we do any monitoring involving processing of your personal information? <br> 
-                    In this section monitoring means any: listening to, recording of, viewing of, intercepting of, or taking and keeping records (as the case may be) of calls, email, text messages, social media messages, in person (face to face) meetings and other communications.<br>  
-                    We may monitor where permitted by law and we’ll do this where the law requires it, or to comply with regulatory rules, to prevent or detect crime, in the interests of protecting the security of our communications systems and procedures and for quality control and staff training purposes. This information may be shared for the purposes described above.<br> <br> 
+                    Do we do any monitoring involving processing of your personal information? <br>
+                    In this section monitoring means any: listening to, recording of, viewing of, intercepting of, or taking and keeping records (as the case may be) of calls, email, text messages, social media messages, in person (face to face) meetings and other communications.<br>
+                    We may monitor where permitted by law and we’ll do this where the law requires it, or to comply with regulatory rules, to prevent or detect crime, in the interests of protecting the security of our communications systems and procedures and for quality control and staff training purposes. This information may be shared for the purposes described above.<br> <br>
 
-                    What about other automated decision making? <br> 
-                    We sometimes make decisions about you using only technology, where none of our employees or any other individuals have been involved.<br> 
-                    We’ll do this where it is necessary for entering into or performing the relevant contract, is authorised by laws that apply to us, or is based on your explicit consent. <br> <br> 
+                    What about other automated decision making? <br>
+                    We sometimes make decisions about you using only technology, where none of our employees or any other individuals have been involved.<br>
+                    We’ll do this where it is necessary for entering into or performing the relevant contract, is authorised by laws that apply to us, or is based on your explicit consent. <br> <br>
 
-                    For how long is your personal information retained by us?<br> 
-                    Unless we explain otherwise to you, we’ll hold your personal information based on the following criteria:<br> 
+                    For how long is your personal information retained by us?<br>
+                    Unless we explain otherwise to you, we’ll hold your personal information based on the following criteria:<br>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">For as long as we have reasonable business needs, such as managing our relationship with you and managing our operations;</li>
                         <li class="list-group-item">For as long as we provide goods and/or services to; and/or</li>
                         <li class="list-group-item">Retention periods in line with legal, regulatory and contractual requirements or guidance.</li>
-                    </ul><br><br>  
-                    What are your rights under data protection laws?<br> 
-                    Here is a list of the rights that all individuals have under data protection laws. They don’t apply in all circumstances. If you wish to use any of them, we’ll explain at that time if they are engaged or not.<br> 
+                    </ul><br><br>
+                    What are your rights under data protection laws?<br>
+                    Here is a list of the rights that all individuals have under data protection laws. They don’t apply in all circumstances. If you wish to use any of them, we’ll explain at that time if they are engaged or not.<br>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">The right to be informed about the processing of your personal information;</li>
                         <li class="list-group-item">The right to have your personal information corrected if it is inaccurate and to have incomplete personal information completed;</li>
@@ -2435,16 +2436,16 @@
                     Contact Us<br>
                     If you have any questions about this privacy notice, or if you wish to exercise your rights at support@eduwebgroup.com<br><br>
                 </div>
-                </p> 
+                </p>
             </div>
         </div>-->
 
         <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal">
-            <div class="col-12 bgScheduler d-flex d-md-none" > 
+            <div class="col-12 bgScheduler d-flex d-md-none" >
                 <div class="col-12 d-flex align-items-center justify-content-center">
                     <h1><spring:message code="contactForm"/></h1>
                 </div>
-            </div> 
+            </div>
             <div class="container" id="Contact" style="background-color: #f1f1f1;">
                 <div class="row">
                     <div class="col-md-12">
@@ -2530,13 +2531,13 @@
                 <div class="col-md-3 mx-auto">
                     <ul style="list-style-type: none;
                         margin: 0;
-                        padding: 0;                      
+                        padding: 0;
                         overflow: hidden;">
                         <h6 class="font-weight-bold text-uppercase mt-3 mb-4 text-left"><spring:message code="footAboutUs"/></h6>
                         <li style="float:left; text-align: initial;"><a href="<c:url value='/privacyPolicy.htm?politicapri=privacyPolicy?idioma=en#privacyPolicyEduwebSL'/>" target="_blank"><spring:message code="polp.pest1"/></a></li><br>
                         <li style="float:left; text-align: initial;"><a href="<c:url value='/privacyPolicy.htm?politicapri=privacyPolicy#privacyPolicyEduwebINC'/>" target="_blank"><spring:message code="polp.pest2"/></a></li><br>
                         <li style="float:left; text-align: initial;"><a href="<c:url value='/privacyPolicy.htm?politicapri=privacyPolicy#privacyPolicyEduwebServices'/>" target="_blank"><spring:message code="polp.pest3"/></a></li><br>
-                        <li style="float:left; text-align: initial;"><a href="<c:url value='/privacyPolicy.htm?politicapri=privacyPolicy#generalConditions'/>"target="_blank" ><spring:message code="condgen.tit"/></a></li><br> 
+                        <li style="float:left; text-align: initial;"><a href="<c:url value='/privacyPolicy.htm?politicapri=privacyPolicy#generalConditions'/>"target="_blank" ><spring:message code="condgen.tit"/></a></li><br>
                     </ul>
                 </div>
 
@@ -2582,7 +2583,7 @@
 
 
 
-            <!--                 Call to action 
+            <!--                 Call to action
                             <ul class="list-unstyled list-inline text-center py-2">
                               <li class="list-inline-item">
                                 <h5 class="mb-1">Register for free</h5>
@@ -2590,9 +2591,9 @@
                               <li class="list-inline-item">
                                 <a href="#!" class="btn btn-danger btn-rounded">Sign up!</a>
                               </li>
-                            </ul> 
-            
-            
+                            </ul>
+
+
                                      Social buttons -->
 
 
@@ -2606,7 +2607,7 @@
         <div class="col-md-3 md-offset-1 col-xs-12 text-left">
             <i class='fa fa-globe-americas' style="margin-left: 25%; margin-right: 2%;"></i>
             <a href="index.htm?lenguaje=en"> EN </a> -
-            <a href="index.htm?lenguaje=es"> ES </a> 
+            <a href="index.htm?lenguaje=es"> ES </a>
             <!--<a href="index.htm?lenguaje=ar"> AR </a> -->
 
         </div>
@@ -2631,7 +2632,7 @@
                     });
         </script>
         <div class="divLoadStudent" id="loadingmessage">
-            <div class="text-center"> 
+            <div class="text-center">
                 <img class="imgLoading" src="recursos/img/large_loading.gif"/>
             </div>
         </div>
