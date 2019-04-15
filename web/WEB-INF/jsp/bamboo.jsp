@@ -624,11 +624,16 @@
     <main>
         <div class="row mt-2 pb-2 bgBamboo">
             <div class="col-12 col-lg-6 offset-lg-0 divContenedorIMG d-flex align-items-center">
+                
                 <video width="100%" height="auto" controls poster="recursos/img/thumbnail.jpg">
                     <source src="recursos/videos/Bamboo_Demo.mp4" type="video/mp4">
                 </video>
 
             </div>
+<!--            <div class="col-12">
+                    <h3 style="text-align: center;" class="colorTextBamboo"> A day in the life of a Montessori guide</h3>
+                    <p style="text-align: center; " class="pl-3 pr-3">The Montessori guide plays many roles as both an educator and a guide leading students toward confident, independent learning.<br> Bamboo offers guides the right tools to enable them to work efficiently and give the attention each child needs without being overwhelmed.   </p>    
+                </div>-->
             <div class="col-12 col-lg-6 mt-5 mt-lg-0 d-flex justify-content-around align-items-center ">
                 <div class="col-12 divIconos" >
                     <div class="col-12">
@@ -643,7 +648,8 @@
                             </div> 
                             <div class="col-9">
                                 <div class="col-12 text-center p-0"><b>Plan Presentations</b></div> 
-                                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                <p> Guides could plan their daily presentations, schedule them choosing learners from different age groups.
+                                They could chose from the students that are recommended for the presentation based on their progress & manage their workload and have an overview on their daily, weekly or monthly schedule</p>
                             </div>
                         </div>
 
@@ -653,7 +659,7 @@
                             </div> 
                             <div class="col-9">
                                 <div class="col-12 text-center p-0"><b>Record Observations</b></div> 
-                                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                <p> Guides could observe their learners and document their observations at the same time in a quick and easy way. Record your comment, your rating and which step the learner has done to achieve his/her objective.</p>
                             </div>
                         </div>
 
@@ -663,7 +669,7 @@
                             </div> 
                             <div class="col-9">
                                 <div class="col-12 text-center p-0"><b>Presentation Ideas</b></div> 
-                                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                <p> Guides wanting to record the ideas they have for capturing the attention of their young learners could easily add them to Bamboo and choosing them later when planning their daily presentations.</p>
                             </div>
                         </div>
 
@@ -673,7 +679,7 @@
                             </div> 
                             <div class="col-9">
                                 <div class="col-12 text-center p-0"><b>Share Resources</b></div>                                
-                                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                <p> Guides could add the articles and the resources they will use in their presentations and share them with other guides in the school.</p>
                             </div>
                         </div>
 
@@ -683,7 +689,7 @@
                             </div> 
                             <div class="col-9">
                                 <div class="col-12 text-center p-0"><b>Visualize Progress and Learning Gaps</b></div>                               
-                                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                <p>Visual representation of every learner progress and learning gaps, keeping track even in the busiest days. A complete view of how learners are growing,their every day successes & struggles.  </p>
                             </div>
                         </div>
                     </div>                    
@@ -716,7 +722,7 @@
                 <h3 style="text-align: center;" class="colorTextBamboo">Bamboo for Parents</h3>
                 <p class="pl-4 pr-4 text-center">Parents can see week by week how their child is doing in the classroom.</p>
                 <p class="col-10 offset-1 text-center"><b>The portal is very easy and simple, even parents who are not experts in technology will happily use it.</b> </p>
-
+                <p class="col-10 offset-1 text-center"><b>Click on the buttons below to experience first hand how parents will interact with the portal.</b> </p>
             </div> 
 
 
@@ -1609,7 +1615,9 @@
                             ">Academic Progress</h4>
                     </div>
                     <div class="modal-body text-center">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                       A graphic overview for each subject and how the learner is progressing in the different objectives.
+                       If parents need more information about the objective they can click on the objective to display a short description.
+                       Go ahead try it yourself.
                     </div>
                 </div>
                 <div class="col-12 col-lg-8 p-0" style="
@@ -1934,7 +1942,7 @@
                             ">Teachers Observations</h4>
                     </div>
                     <div class="modal-body text-center">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        Guides share with the parents, with a click of a button, the observations they had about their child. Parents will not have to request a meeting or contact the guides to know how their child is doing inside the classroom.
                     </div>
                 </div>
                 <div class="col-12 col-lg-8 p-0" style="
@@ -1986,9 +1994,10 @@
                                 </div>
                                 <div class="col-3 d-flex flex-column align-items-center justify-content-center">
                                     <div class="fotoTeacher">
-                                        <img src="http://www.christiangarces.org/wp-content/uploads/2017/11/perfil-profesional.jpg">
+<!--                                        <img src="http://www.christiangarces.org/wp-content/uploads/2017/11/perfil-profesional.jpg">-->
+                                            <img src="recursos\img\bamboo\malvestida-magazine-295605-unsplash.jpg">
                                     </div>	
-                                    <label> Carl Admin</label>
+                                    <label> Susan </label>
                                 </div>
                                 <div class="col-8">
                                     <div class="bocadillo pl-2">
@@ -1999,35 +2008,37 @@
                             </div>
                             <div class="col-12 d-inline-flex align-items-center mt-2" >
                                 <div class="col-1">
-                                    <div class="circle d-flex align-items-center justify-content-center">04</div>	
+                                    <div class="circle d-flex align-items-center justify-content-center">05</div>	
                                 </div>
                                 <div class="col-3 d-flex flex-column align-items-center justify-content-center">
                                     <div class="fotoTeacher">
-                                        <img src="http://www.christiangarces.org/wp-content/uploads/2017/11/perfil-profesional.jpg">
+<!--                                        <img src="http://www.christiangarces.org/wp-content/uploads/2017/11/perfil-profesional.jpg">-->
+                                            <img src="recursos\img\bamboo\malvestida-magazine-295605-unsplash.jpg">
                                     </div>	
-                                    <label> Carl Admin</label>
+                                    <label> Susan</label>
                                 </div>
                                 <div class="col-8">
                                     <div class="bocadillo pl-2">
-                                        <strong>Type:</strong> Emotional<br>
-                                        Was a bit stressed today with a minor problem. He resolved it easily through communication
+                                        <strong>Type:</strong> Literacy<br>
+                                        Carley was reading oliver twist at lunchtime today.
                                     </div>	
                                 </div>
                             </div>
                             <div class="col-12 d-inline-flex align-items-center mt-2" >
                                 <div class="col-1">
-                                    <div class="circle d-flex align-items-center justify-content-center">04</div>	
+                                    <div class="circle d-flex align-items-center justify-content-center">07</div>	
                                 </div>
                                 <div class="col-3 d-flex flex-column align-items-center justify-content-center">
                                     <div class="fotoTeacher">
-                                        <img src="http://www.christiangarces.org/wp-content/uploads/2017/11/perfil-profesional.jpg">
+<!--                                        <img src="http://www.christiangarces.org/wp-content/uploads/2017/11/perfil-profesional.jpg">-->
+                                            <img src="recursos\img\bamboo\zoe-fernandez-598290-unsplash.jpg">
                                     </div>	
-                                    <label> Carl Admin</label>
+                                    <label> Kelly</label>
                                 </div>
                                 <div class="col-8">
                                     <div class="bocadillo pl-2">
-                                        <strong>Type:</strong> Emotional<br>
-                                        Was a bit stressed today with a minor problem. He resolved it easily through communication
+                                        <strong>Type:</strong> Social<br>
+                                        Carley invited all his friends to play with him. He shared without any problems.
                                     </div>	
                                 </div>
                             </div>
