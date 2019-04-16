@@ -2572,7 +2572,7 @@
                     <ul class="list-unstyled list-inline text-left">
 
                         <li class="list-inline-item">
-                            <img class="imgLoading" src="recursos/img/visa-mastercard.png" style="width:100px; opacity:0.6"/>
+                            <img class="imgLoading" src="recursos/img/visa-mastercard.png" style="width:100px;"/>
                         </li>
                         <h6 class="font-weight-bold text-uppercase mt-3 mb-4 text-left"><spring:message code="moneda"/></h6>
                         <li class="list-inline-item">

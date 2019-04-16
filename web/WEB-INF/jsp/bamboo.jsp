@@ -1922,7 +1922,7 @@
                      border: solid 1px lightgray;
                      ">
                     <div class="modal-body h-100" style=" height: 600px !important;">
-                        <object data="recursos/img/bamboo/report.pdf"  type="application/pdf" width="100%" height="100%"> 
+                        <object data="recursos/img/bamboo/EjemploBamboo.pdf"  type="application/pdf" width="100%" height="100%"> 
                         </object>
                     </div>
                 </div>
