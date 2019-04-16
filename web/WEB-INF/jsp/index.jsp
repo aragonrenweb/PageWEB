@@ -988,7 +988,7 @@
                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#29abe2', endColorstr='#f7931e', GradientType=1 );
             }
 
- 
+
             /*            .bginnerSchoolAnalytics{
                             background: rgba(102,195,78,1);
                             background: -moz-linear-gradient(left, rgba(102,195,78,1) 0%, rgba(102,195,78,1) 25%, rgba(53,118,36,1) 25%, rgba(53,118,36,1) 50%, rgba(13,37,63,1) 50%, rgba(13,37,63,1) 77%, rgba(251,176,59,1) 77%, rgba(247,147,30,1) 100%);
@@ -1301,7 +1301,12 @@
                     $('.colorSCHEDULE').delay(520).show().css('max-width', '0').animate({'max-width': '24%'}, 500);
                     $(".buttonPrevious").show();
                     $(".buttonNext").hide();
-                    
+
+                    $(".menu").removeClass("bgBaseMenu");
+                    $(".menu").addClass("bginnerSchoolAnalytics");
+
+
+
 //                    $(".bginnerSchoolAnalytics").show();
 
                     $(".colorSCHEDULE div").show();
@@ -1317,7 +1322,10 @@
                     $(".buttonNext").hide();
                     $(".buttonNextSub").hide();
                     $(".bgBaseMenu").hide();
-                    
+
+                    $(".menu").removeClass("bgBaseMenu");
+                    $(".menu").addClass("bginnerSchoolAnalytics");
+
                     $(".colorSCHEDULE div").show();
                     e.stopPropagation();
                 });
@@ -1330,6 +1338,9 @@
                     $(".buttonNext").show();
                     $(".buttonPrevious").hide();
                     $(".colorSCHEDULE div").hide();
+                    
+                    $(".menu").removeClass("bginnerSchoolAnalytics");
+                    $(".menu").addClass("bgBaseMenu");
                     e.stopPropagation();
                 });
 
@@ -1396,7 +1407,7 @@
                 $(".footerFacts").append(generateSvgMoreInfo('#29abe2', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'><a style='color:#29abe2' href=\"<c:url value='/factsQueIncluye.htm' />\"><spring:message code="moreInfo"/></a></label>" + generateSvgMoreInfo('#29abe2', 'left'))
 
                 $(".footerBamboo").empty();
-                $(".footerBamboo").append(generateSvgMoreInfo('#66c34e', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'><a style='color:#66c34e' href=\"<c:url value='/bamboo.htm' />\"><spring:message code="moreInfo"/></a></label>" + generateSvgMoreInfo('#66c34e', 'left'))
+                $(".footerBamboo").append(generateSvgMoreInfo('#66c34e', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'><a style='color:#66c34e' href=\"<c:url value='/bamboo.htm?idioma=${idioma}' />\"><spring:message code="moreInfo"/></a></label>" + generateSvgMoreInfo('#66c34e', 'left'))
 
                 $(".footerSmartClover").empty();
                 $(".footerSmartClover").append(generateSvgMoreInfo('#357624', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'><a style='color:#357624' href=\"<c:url value='/smartClover.htm' />\"><spring:message code="moreInfo"/></a></label>" + generateSvgMoreInfo('#357624', 'left'))

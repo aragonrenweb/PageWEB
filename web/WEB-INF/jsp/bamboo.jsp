@@ -624,21 +624,21 @@
     <main>
         <div class="row mt-2 pb-2 bgBamboo">
             <div class="col-12 col-lg-6 offset-lg-0 divContenedorIMG d-flex align-items-center">
-                
+
                 <video width="100%" height="auto" controls poster="recursos/img/thumbnail.jpg">
                     <source src="recursos/videos/Bamboo_Demo.mp4" type="video/mp4">
                 </video>
 
             </div>
-<!--            <div class="col-12">
-                    <h3 style="text-align: center;" class="colorTextBamboo"> A day in the life of a Montessori guide</h3>
-                    <p style="text-align: center; " class="pl-3 pr-3">The Montessori guide plays many roles as both an educator and a guide leading students toward confident, independent learning.<br> Bamboo offers guides the right tools to enable them to work efficiently and give the attention each child needs without being overwhelmed.   </p>    
-                </div>-->
+            <!--            <div class="col-12">
+                                <h3 style="text-align: center;" class="colorTextBamboo"> A day in the life of a Montessori guide</h3>
+                                <p style="text-align: center; " class="pl-3 pr-3">The Montessori guide plays many roles as both an educator and a guide leading students toward confident, independent learning.<br> Bamboo offers guides the right tools to enable them to work efficiently and give the attention each child needs without being overwhelmed.   </p>    
+                            </div>-->
             <div class="col-12 col-lg-6 mt-5 mt-lg-0 d-flex justify-content-around align-items-center ">
                 <div class="col-12 divIconos" >
                     <div class="col-12">
-                        <h3 style="text-align: center;" class="colorTextBamboo">Bamboo for Guides</h5>
-                            <p style="text-align: center; " class="pl-3 pr-3">A full workspace for Montessori guides in their day to day activities.<b> No more pen and paper</b></p>
+                        <h3 style="text-align: center;" class="colorTextBamboo"><spring:message code="tit"/></h5>
+                            <p style="text-align: center; " class="pl-3 pr-3"><spring:message code="subtit"/><b> <spring:message code="subtit2"/></b></p>
                     </div>
 
                     <div class="row justify-content-center">
@@ -647,9 +647,8 @@
                                 <img src="recursos/img/bamboo/IconosWebBamboo-03.svg" class="imgRow" style="margin-top:15px"> 
                             </div> 
                             <div class="col-9">
-                                <div class="col-12 text-center p-0"><b>Plan Presentations</b></div> 
-                                <p> Guides could plan their daily presentations, schedule them choosing learners from different age groups.
-                                They could chose from the students that are recommended for the presentation based on their progress & manage their workload and have an overview on their daily, weekly or monthly schedule</p>
+                                <div class="col-12 text-center p-0"><b><spring:message code="planPresentationTit"/></b></div> 
+                                <p><spring:message code="planPresentationBody"/></p>
                             </div>
                         </div>
 
@@ -658,8 +657,8 @@
                                 <img src="recursos/img/bamboo/IconosWebBamboo-04.svg" class="imgRow" style="margin-top:15px"> 
                             </div> 
                             <div class="col-9">
-                                <div class="col-12 text-center p-0"><b>Record Observations</b></div> 
-                                <p> Guides could observe their learners and document their observations at the same time in a quick and easy way. Record your comment, your rating and which step the learner has done to achieve his/her objective.</p>
+                                <div class="col-12 text-center p-0"><b><spring:message code="RecordObservationsTit"/></b></div> 
+                                <p><spring:message code="RecordObservationsBody"/></p>
                             </div>
                         </div>
 
@@ -668,8 +667,8 @@
                                 <img src="recursos/img/bamboo/IconosWebBamboo-01.svg" class="imgRow" style="margin-top:15px"> 
                             </div> 
                             <div class="col-9">
-                                <div class="col-12 text-center p-0"><b>Presentation Ideas</b></div> 
-                                <p> Guides wanting to record the ideas they have for capturing the attention of their young learners could easily add them to Bamboo and choosing them later when planning their daily presentations.</p>
+                                <div class="col-12 text-center p-0"><b><spring:message code="PresentationIdeasTit"/></b></div> 
+                                <p><spring:message code="PresentationIdeasBody"/></p>
                             </div>
                         </div>
 
@@ -677,9 +676,9 @@
                             <div class="col-3">
                                 <img src="recursos/img/bamboo/IconosWebBamboo-02.svg" class="imgRow" style="margin-top:15px"> 
                             </div> 
-                            <div class="col-9">
-                                <div class="col-12 text-center p-0"><b>Share Resources</b></div>                                
-                                <p> Guides could add the articles and the resources they will use in their presentations and share them with other guides in the school.</p>
+                            <div class="col-9"> 
+                                <div class="col-12 text-center p-0"><b><spring:message code="ShareResourcesTit"/></b></div>                                
+                                <p><spring:message code="ShareResourcesBody"/></p>
                             </div>
                         </div>
 
@@ -688,8 +687,8 @@
                                 <img src="recursos/img/bamboo/IconosWebBamboo-05.svg" class="imgRow" style="margin-top:15px"> 
                             </div> 
                             <div class="col-9">
-                                <div class="col-12 text-center p-0"><b>Visualize Progress and Learning Gaps</b></div>                               
-                                <p>Visual representation of every learner progress and learning gaps, keeping track even in the busiest days. A complete view of how learners are growing,their every day successes & struggles.  </p>
+                                <div class="col-12 text-center p-0"><b><spring:message code="VisualizeProgressTit"/></b></div>                               
+                                <p><spring:message code="VisualizeProgressBody"/> </p>
                             </div>
                         </div>
                     </div>                    
@@ -699,19 +698,18 @@
 
         <div class="row pt-3 mt-2 divIconosInvert"  >
             <div class="col-12" style="text-align: center;">
-                <h3 style="text-align: center;" class="colorTextBamboo">Bamboo for Supervisors</h3>
-                <p class="pl-3 pr-3 text-center">BAMBOO helps schools stop using paper, digitize their records and keep learners' progress and historical data.</p>
+                <h3 style="text-align: center;" class="colorTextBamboo"><spring:message code="BambooSupervisorsTit"/></h3>
+                <p class="pl-3 pr-3 text-center"><spring:message code="BambooSupervisorsBody1"/></p>
             </div>
             <div class="row">
                 <div class="col-12 col-lg-6 h150 text-center"> 
                     <div class="col-10 offset-1 col-lg-8 offset-lg-2 infSuper h-100" style="text-align: center; font-size: 12pt; margin-top: 10px;">
-                        At any time, supervisors can extract progress information related to any learner.
-                        Supervisors are able to visualize the guides work in the classroom. <br><b>Review planned and completed presentations. </b>
+                        <spring:message code="BambooSupervisorsBody2"/> <br><b><spring:message code="BambooSupervisorsBody3"/></b>
                     </div>
                 </div>
                 <div class="col-12 col-lg-6 mt-4 mt-lg-0 h150 text-center"> 
                     <div class="col-10 offset-1 col-lg-8 offset-lg-2 infSuper2 pb-5 h-100" style="text-align: center; font-size: 12pt; margin-top: 10px;">
-                        The generation of report cards becomes an easy task since all the data and evaluations are already recorded in the system.
+                        <spring:message code="BambooSupervisorsBody4"/>
                     </div>
                 </div>
 
@@ -719,10 +717,10 @@
         </div> 
         <div class="row pt-3 mt-2 divIconosInvert h-100"> 
             <div class="col-12" style="text-align: center;">
-                <h3 style="text-align: center;" class="colorTextBamboo">Bamboo for Parents</h3>
-                <p class="pl-4 pr-4 text-center">Parents can see week by week how their child is doing in the classroom.</p>
-                <p class="col-10 offset-1 text-center"><b>The portal is very easy and simple, even parents who are not experts in technology will happily use it.</b> </p>
-                <p class="col-10 offset-1 text-center"><b>Click on the buttons below to experience first hand how parents will interact with the portal.</b> </p>
+                <h3 style="text-align: center;" class="colorTextBamboo"><spring:message code="ParentsTit"/></h3>
+                <p class="pl-4 pr-4 text-center"><spring:message code="ParentsBody1"/></p>
+                <p class="col-10 offset-1 text-center"><b><spring:message code="ParentsBody2"/></b> </p>
+                <p class="col-10 offset-1 text-center"><b><spring:message code="ParentsBody3"/></b> </p>
             </div> 
 
 
@@ -1591,7 +1589,7 @@
     </main>
 
     <a class="btnDemo" href="<c:url value='/index.htm?informacion=bamboo#Contact'/>">
-        <label class="arrow_box">Schedule a Demo</label>
+        <label class="arrow_box"><spring:message code="request.demo"/></label>
         <img src="recursos/img/bamboo/iconBamboo.png" style="width:75px;border-radius: 40px;border: solid 2px #91dc5a;">
     </a>        
 
@@ -1601,25 +1599,25 @@
 
             <!-- Modal content-->
             <div class="modal-content flex-column flex-lg-row">
-                <div class="col-12 col-lg-4">
-                    <div class="modal-header d-flex justify-content-center align-items-center"> 
-                        <img class="imgIcon mr-1" style="background-color:#862200" src="recursos/img/bamboo/aProgress.svg"  alt="image">
-                        <h4 class="modal-title " style="
-                            padding-top: 3px;
-                            text-decoration: underline double;
-                            font-size: large;
-                            background-color: white;
-                            padding: 0px;
-                            text-align: center;
-                            color: #3aaa35;
-                            ">Academic Progress</h4>
-                    </div>
-                    <div class="modal-body text-center">
-                       A graphic overview for each subject and how the learner is progressing in the different objectives.
-                       If parents need more information about the objective they can click on the objective to display a short description.
-                       Go ahead try it yourself.
-                    </div>
-                </div>
+                   <div class="col-12 col-lg-4">
+                      <div class="modal-header d-flex justify-content-center align-items-center"> 
+                          <img class="imgIcon mr-1" style="background-color:#862200" src="recursos/img/bamboo/aProgress.svg"  alt="image">
+                          <h4 class="modal-title " style="
+                              padding-top: 3px;
+                              text-decoration: underline double;
+                              font-size: large;
+                              background-color: white;
+                              padding: 0px;
+                              text-align: center;
+                              color: #3aaa35;"> 
+                              <spring:message code="modal1Tit"/></h4>
+                      </div>
+                      <div class="modal-body text-center">
+                         <spring:message code="modal1"/>
+                      </div>
+                  </div>
+                      
+                
                 <div class="col-12 col-lg-8 p-0" style="
                      background-color: #f9f9f9;
                      margin-top: 10px;
@@ -1632,34 +1630,33 @@
                         <div id="academicsPage" class="col-xs-12 d-flex h-100">   
 
                             <div class="col-4 p-0 d-flex flex-column contCeldaMenu"> 
-                                <div class="celdaMenu">Art<span class="badge badgeAcademics">1</span></div>
-                                <div class="celdaMenu">History<span class="badge badgeAcademics">4</span></div>
-                                <div class="celdaMenu" style="color:black">Geography<span class="badge badgeAcademics">3</span></div> 
+                                <div class="celdaMenu"><spring:message code="modal1.Art"/><span class="badge badgeAcademics">1</span></div>
+                                <div class="celdaMenu"><spring:message code="modal1.History"/><span class="badge badgeAcademics">4</span></div>
+                                <div class="celdaMenu" style="color:black"><spring:message code="modal1.Geography"/><span class="badge badgeAcademics">3</span></div> 
                             </div>
                             <div class="col-8 p-0 ">
-                                <div class="col-12 text-right">March</div>
+                                <div class="col-12 text-right"><spring:message code="modal1.March"/></div>
                                 <div class="col-12 d-flex justify-content-center align-items-center">
-                                    <font class="h3" style="color: #3aaa35;">Geography</font> 
+                                    <font class="h3" style="color: #3aaa35;"><spring:message code="modal1.Geography"/></font> 
                                 </div> 
                                 <div class="col-xs-12 " id="accordionAcade1"> 
                                     <div class="col-12">
                                         <div data-toggle="collapse" data-target="#demo4" class="tituloAcademics">  
-                                            <div class="col-12">Globes</div> 
+                                            <div class="col-12"><spring:message code="modal1.Globes"/></div> 
                                             <div class="col-12 p-0 progress" style="height:20px;	">
                                                 <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:33%;background-color: #bd8938;font-weight: bold;">
-                                                    Presented
+                                                    <spring:message code="modal.Presented"/>
                                                 </div>
                                                 <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:33%;background-color: #7f4725;font-weight: bold;">
-                                                    Attempted
+                                                    <spring:message code="modal.Attemped"/>
                                                 </div>
                                                 <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:34%;background-color: #3aaa35;font-weight: bold;">
-                                                    Mastered
+                                                    <spring:message code="modal.Mastered"/>
                                                 </div>
                                             </div>
                                         </div> 
                                         <div id="demo4" class="collapse textAccordion"> 
-                                            Pangea, Continents and oceans, land/water/air (Solid/liquid/gas), understanding, identifying, recognising, classifying, exploring, drawing, colouring, labelling
-
+                                            <spring:message code="modal1.GlobesBody"/>
                                         </div>
 
                                     </div> 
@@ -1667,16 +1664,15 @@
                                 <div class="col-xs-12 " id="accordionAcade2"> 
                                     <div class="col-12">
                                         <div data-toggle="collapse" data-target="#demo5" class="tituloAcademics">  
-                                            <div class="col-12">Land and water forms</div> 
+                                            <div class="col-12"><spring:message code="modal1.Land"/></div> 
                                             <div class="col-12 p-0 progress" style="height:20px;	">
                                                 <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:33%;background-color: #bd8938;font-weight: bold;">
-                                                    Presented
+                                                    <spring:message code="modal.Presented"/>
                                                 </div> 
                                             </div>
                                         </div> 
                                         <div id="demo5" class="collapse textAccordion"> 
-                                            Bay and Cape, Lake and Islands, System of lakes and Archipelago, Strait and Isthmus, Gulf and Peninsula, understanding, researching, recording, exploring and model making
-
+                                            <spring:message code="modal1.LadnBody"/>
                                         </div>
 
                                     </div> 
@@ -1684,19 +1680,18 @@
                                 <div class="col-xs-12 " id="accordionAcade3"> 
                                     <div class="col-12">
                                         <div data-toggle="collapse" data-target="#demo6" class="tituloAcademics">  
-                                            <div class="col-12">Parts of the Earth</div> 
+                                            <div class="col-12"><spring:message code="modal1.Earth"/></div> 
                                             <div class="col-12 p-0 progress" style="height:20px;	">
                                                 <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:33%;background-color: #bd8938;font-weight: bold;">
-                                                    Presented
+                                                    <spring:message code="modal.Presented"/>
                                                 </div>
                                                 <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:33%;background-color: #7f4725;font-weight: bold;">
-                                                    Attempted
+                                                    <spring:message code="modal.Attemped"/>
                                                 </div> 
                                             </div>
                                         </div> 
-                                        <div id="demo6" class="collapse textAccordion"> 
-                                            Exploring, researching, understanding, naming, identifying, recognising, drawing, labelling and model-making
-
+                                        <div id="demo6" class="collapse textAccordion">                                             
+                                            <spring:message code="modal1.EarthBody"/>
                                         </div>
 
                                     </div> 
@@ -1741,7 +1736,7 @@
                             padding: 0px;
                             text-align: center;
                             color: #3aaa35;
-                            ">Calendar and Announcements</h4>
+                            "><spring:message code="modal2.tit"/></h4>
                     </div>
                     <div class="modal-body text-center">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -1759,85 +1754,82 @@
                     <div class="modal-body h-100">
                         <div class="row">
                             <div class="col calendarCol">
-                                <div class="col calendarTitle text-center"><h4>Announcements</h4></div>
+                                <div class="col calendarTitle text-center"><h4><spring:message code="modal2.tit2"/></h4></div>
                                 <div class="col d-flex calendarVerde mb-2">
                                     <div class="col-1 p-0  d-flex align-items-center justify-content-center">
                                         <img style="width:20px;height: 20px" src="recursos/img/bamboo/Announcements.svg"  alt="image">
                                     </div>
                                     <div class="col-11 mb-1 mt-1"> 
-                                        <b>Activities Calendar 2018</b></div>
+                                        <b><spring:message code="modal2.annoucements.parraf1"/></b></div>
                                 </div>
                                 <div class="col d-flex calendarBlanco mb-2">
                                     <div class="col-1 p-0  d-flex align-items-center justify-content-center">
                                         <img style="width:20px;height: 20px" src="recursos/img/bamboo/Announcements.svg" alt="image">
                                     </div>
                                     <div class="col-11 mb-1 mt-1"> 
-                                        <b>Assembly orientation montessori methodology</b> Presenter: Vincent Watters.</div>
+                                        <b><spring:message code="modal2.annoucements.parraf2"/></b> Presenter: Vincent Watters.</div>
                                 </div>
                                 <div class="col d-flex calendarVerde  mb-2">
                                     <div class="col-1 p-0  d-flex align-items-center justify-content-center">
                                         <img style="width:20px;height: 20px" src="recursos/img/bamboo/Announcements.svg" alt="image">
                                     </div>
                                     <div class="col-11 mb-1 mt-1"> 
-                                        <b>Renweb platform in Spanish and English</b> Orientation on changing the language in ParentWEB.</div>
+                                        <b><spring:message code="modal2.annoucements.parraf3.1"/></b> <spring:message code="modal2.annoucements.parraf3.2"/></div>
                                 </div>
                                 <div class="col d-flex calendarBlanco  mb-2	">
                                     <div class="col-1 p-0  d-flex align-items-center justify-content-center">
                                         <img style="width:20px;height: 20px" src="recursos/img/bamboo/Announcements.svg" alt="image">
                                     </div>
                                     <div class="col-11 mb-1 mt-1"> 
-                                        <b>Registration open for football team.</b></div>
+                                        <b><spring:message code="modal2.annoucements.parraf4"/></b></div>
                                 </div>
                                 <div class="col d-flex calendarVerde  mb-2">
                                     <div class="col-1 p-0  d-flex align-items-center justify-content-center">
                                         <img style="width:20px;height: 20px" src="recursos/img/bamboo/Announcements.svg" alt="image">
                                     </div>
                                     <div class="col-11 mb-1 mt-1"> 
-                                        <b>Flag raising ceremony</b><br>There will be a flag raising ceremony next Monday. All students must wear white uniforms.Don´t be late.</div>
+                                        <b><spring:message code="modal2.annoucements.parraf5"/></b><br><spring:message code="modal2.annoucements.parraf6"/></div>
                                 </div>
 
                             </div>
                             <div class="col calendarCol ml-1">
-                                <div class="col calendarTitle text-center"><h4>School Calendar: Dates to note</h4></div>
+                                <div class="col calendarTitle text-center"><h4><spring:message code="modal2.tit3"/></h4></div>
                                 <div class="col d-flex calendarVerde mb-2 justify-content-center align-items-center flex-column">
-                                    <b class="boldDateCalendar mt-1">07/04/2018</b>2018: Term End
+                                    <b class="boldDateCalendar mt-1">07/04/2018</b>2018: <spring:message code="modal2.li1"/>
                                 </div>
 
                                 <div class="col d-flex calendarBlanco mb-2 justify-content-center align-items-center flex-column">
-                                    <b class="boldDateCalendar mt-1">07/10/2018</b>Winter vacations
+                                    <b class="boldDateCalendar mt-1">07/10/2018</b><spring:message code="modal2.li2"/>
                                 </div>   
                                 <div class="col d-flex calendarVerde mb-2 justify-content-center align-items-center flex-column">
-                                    <b class="boldDateCalendar mt-1">07/11/2018</b>Winter vacations
+                                    <b class="boldDateCalendar mt-1">07/11/2018</b><spring:message code="modal2.li3"/>
                                 </div>   
                                 <div class="col d-flex calendarBlanco mb-2 justify-content-center align-items-center flex-column">
-                                    <b class="boldDateCalendar mt-1">07/12/2018</b>Winter vacations
+                                    <b class="boldDateCalendar mt-1">07/12/2018</b><spring:message code="modal2.li4"/>
                                 </div>   
                                 <div class="col d-flex calendarVerde mb-2 justify-content-center align-items-center flex-column">
-                                    <b class="boldDateCalendar mt-1">07/13/2018</b>Winter vacations
+                                    <b class="boldDateCalendar mt-1">07/13/2018</b><spring:message code="modal2.li5"/>
                                 </div>  
 
                                 <div class="col d-flex calendarBlanco mb-2 justify-content-center align-items-center flex-column">
-                                    <b class="boldDateCalendar mt-1">07/14/2018</b>Winter vacations
-                                </div>   
-                                <div class="col d-flex calendarVerde mb-2 justify-content-center align-items-center flex-column">
-                                    <b class="boldDateCalendar mt-1">07/15/2018</b>Winter vacations
-                                </div>  
+                                    <b class="boldDateCalendar mt-1">07/14/2018</b><spring:message code="modal2.li6"/>
+                                </div> 
                             </div>
                             <div class="col calendarCol ml-1">
-                                <div class="col calendarTitle text-center"><h4>Today´s Events</h4></div>
+                                <div class="col calendarTitle text-center"><h4><spring:message code="modal2.tit4"/></h4></div>
                                 <div class="col d-flex calendarBlanco mb-2 justify-content-center align-items-center flex-column">
                                     <b class="boldDateCalendar mt-1 " style="
                                        border: solid 1px #efefef;
-                                       ">09:00 h</b>Lorem Ipsum has been the industry's standard dummy.
+                                       ">09:00 h</b> <spring:message code="modal2.li7"/>
                                 </div>
 
                                 <div class="col d-flex calendarGray mb-2 justify-content-center align-items-center flex-column">
-                                    <b class="boldDateCalendar mt-1">11:00 h</b>Lorem Ipsum has been the industry's standard dummy.
+                                    <b class="boldDateCalendar mt-1">11:00 h</b><spring:message code="modal2.li8"/>
                                 </div>   
                                 <div class="col d-flex calendarBlanco mb-2 justify-content-center align-items-center flex-column">
                                     <b class="boldDateCalendar mt-1" style="
                                        border: solid 1px #efefef;
-                                       ">14:00 h</b>Lorem Ipsum has been the industry's standard dummy.
+                                       ">14:00 h</b><spring:message code="modal2.li9"/>
                                 </div>   
 
                             </div>
@@ -1939,11 +1931,10 @@
                             padding: 0px;
                             text-align: center;
                             color: #3aaa35;
-                            ">Teachers Observations</h4>
+                            "><spring:message code="modal3.tit"/></h4>
                     </div>
                     <div class="modal-body text-center">
-                        Guides share with the parents, with a click of a button, the observations they had about their child. Parents will not have to request a meeting or contact the guides to know how their child is doing inside the classroom.
-                    </div>
+                    <spring:message code="modal3.body"/></div>
                 </div>
                 <div class="col-12 col-lg-8 p-0" style="
                      background-color: #f9f9f9;
@@ -1994,15 +1985,15 @@
                                 </div>
                                 <div class="col-3 d-flex flex-column align-items-center justify-content-center">
                                     <div class="fotoTeacher">
-<!--                                        <img src="http://www.christiangarces.org/wp-content/uploads/2017/11/perfil-profesional.jpg">-->
-                                            <img src="recursos\img\bamboo\malvestida-magazine-295605-unsplash.jpg">
+                                        <!--                                        <img src="http://www.christiangarces.org/wp-content/uploads/2017/11/perfil-profesional.jpg">-->
+                                        <img src="recursos\img\bamboo\malvestida-magazine-295605-unsplash.jpg">
                                     </div>	
                                     <label> Susan </label>
                                 </div>
                                 <div class="col-8">
                                     <div class="bocadillo pl-2">
-                                        <strong>Type:</strong> Emotional<br>
-                                        Was a bit stressed today with a minor problem. He resolved it easily through communication
+                                        <strong> <spring:message code="modal3.type"/> </strong><spring:message code="modal3.emocional"/> <br>
+                                        <spring:message code="modal3.descr1"/>
                                     </div>	
                                 </div>
                             </div>
@@ -2012,15 +2003,15 @@
                                 </div>
                                 <div class="col-3 d-flex flex-column align-items-center justify-content-center">
                                     <div class="fotoTeacher">
-<!--                                        <img src="http://www.christiangarces.org/wp-content/uploads/2017/11/perfil-profesional.jpg">-->
-                                            <img src="recursos\img\bamboo\malvestida-magazine-295605-unsplash.jpg">
+                                        <!--                                        <img src="http://www.christiangarces.org/wp-content/uploads/2017/11/perfil-profesional.jpg">-->
+                                        <img src="recursos\img\bamboo\malvestida-magazine-295605-unsplash.jpg">
                                     </div>	
                                     <label> Susan</label>
                                 </div>
                                 <div class="col-8">
                                     <div class="bocadillo pl-2">
-                                        <strong>Type:</strong> Literacy<br>
-                                        Carley was reading oliver twist at lunchtime today.
+                                        <strong><spring:message code="modal3.type"/></strong> <spring:message code="modal3.Alfabetismo"/><br>
+                                        <spring:message code="modal3.descr2"/>
                                     </div>	
                                 </div>
                             </div>
@@ -2030,15 +2021,15 @@
                                 </div>
                                 <div class="col-3 d-flex flex-column align-items-center justify-content-center">
                                     <div class="fotoTeacher">
-<!--                                        <img src="http://www.christiangarces.org/wp-content/uploads/2017/11/perfil-profesional.jpg">-->
-                                            <img src="recursos\img\bamboo\zoe-fernandez-598290-unsplash.jpg">
+                                        <!--                                        <img src="http://www.christiangarces.org/wp-content/uploads/2017/11/perfil-profesional.jpg">-->
+                                        <img src="recursos\img\bamboo\zoe-fernandez-598290-unsplash.jpg">
                                     </div>	
                                     <label> Kelly</label>
                                 </div>
                                 <div class="col-8">
                                     <div class="bocadillo pl-2">
-                                        <strong>Type:</strong> Social<br>
-                                        Carley invited all his friends to play with him. He shared without any problems.
+                                        <strong><spring:message code="modal3.type"/></strong> Social<br>
+                                        <spring:message code="modal3.descr3"/>
                                     </div>	
                                 </div>
                             </div>

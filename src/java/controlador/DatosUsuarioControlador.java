@@ -26,6 +26,7 @@ public class DatosUsuarioControlador implements Controller {
             throws ServletException, IOException {
          String pagina = "";
          String idioma = "";
+         ModelAndView mv = null;
         try {  
          
             idioma = request.getParameter("idioma");
@@ -33,13 +34,15 @@ public class DatosUsuarioControlador implements Controller {
             if((!idioma.equals("es")) && (!idioma.equals("ar")))
                 idioma = "en";
             RequestContextUtils.getLocaleResolver(request).setLocale(request, response, new Locale(idioma));
-            
+           
+            mv = new ModelAndView(pagina);
+            mv.addObject("idioma", idioma);
           
         } catch (Exception ex) {
             System.err.println("");
         }
 
-        return new ModelAndView(pagina);
+        return mv;
     }
 
 }

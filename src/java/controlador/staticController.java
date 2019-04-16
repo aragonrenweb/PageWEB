@@ -95,15 +95,15 @@ public class staticController {
 
     @RequestMapping("/bamboo.htm")
     public ModelAndView bamboo(HttpServletRequest request, HttpServletResponse hsr1) throws Exception {
-
-        return new ModelAndView("redirect:/datosIdioma.htm?idioma="+request.getLocale().getLanguage()+"&page=bamboo");
+        String paramIdioma = request.getParameter("idioma");
+        return new ModelAndView("redirect:/datosIdioma.htm?idioma="+paramIdioma+"&page=bamboo");
  
     }
 
      @RequestMapping("/schoolAnalytics.htm")
     public ModelAndView schoolAnalytics(HttpServletRequest request, HttpServletResponse hsr1) throws Exception {
-
-        return new ModelAndView("redirect:/datosIdioma.htm?idioma="+request.getLocale().getLanguage()+"&page=schoolAnalytics");
+        String paramIdioma = request.getLocale().getLanguage();
+        return new ModelAndView("redirect:/datosIdioma.htm?idioma="+paramIdioma+"&page=schoolAnalytics");
  
     }
     
@@ -119,12 +119,12 @@ public class staticController {
     
     @RequestMapping("/index.htm")
     public ModelAndView index(HttpServletRequest request, HttpServletResponse response) throws Exception {
-
-        //String l = request.getLocale().getLanguage();
-        String valorForm = request.getParameter("informacion");
+ 
         String paramIdioma = request.getParameter("lenguaje");
+        if(paramIdioma == null)
+            paramIdioma = "en";
         
-        ModelAndView mv = new ModelAndView("redirect:/datosIdioma.htm?idioma="+paramIdioma);
+        ModelAndView mv = new ModelAndView("redirect:/datosIdioma.htm");
         
         mv.addObject("idioma", paramIdioma);
 //        mv.addObject("idioma", request.getLocale().getLanguage());
