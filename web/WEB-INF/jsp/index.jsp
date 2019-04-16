@@ -1925,10 +1925,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+<!--        </div>
 
 
-        <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalFacts" id="cPrincFacts">
+        <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalFacts" id="cPrincFacts">-->
             <div class="row col-12 pr-0 rowListaFacts">
 
                 <div class="col-12"><h4 class="text-center">360º</h4></div>

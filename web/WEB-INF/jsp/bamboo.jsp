@@ -356,8 +356,13 @@
             } 
 
             .imgRow{
-                width: 100%; 
+                /*                width: 100%; */
                 height: auto;
+            }
+
+            #imgModal{
+                width: 100px;  
+                height: 150px
             }
             .colorTextBamboo{
                 color: #91dc5a;
@@ -516,11 +521,33 @@
                 color: white;
                 border-radius: 10px;
             }
-            .fotoTeacher img{
-                width: 100px;
-                height: auto;
-                border-radius: 50px;
+            /*            .fotoTeacher img{
+                            width: 100px;
+                            height: auto;
+                            border-radius: 50px;
+                        }*/
+
+
+            div.fotoTeacher{
+                width: 110px;
+                height: 110px;
+                border-radius: 55px;
+                margin: 0 auto;
+                padding: 0;
+                position: relative;
+                overflow: hidden;
+            } 
+
+
+            div.fotoTeacher img{
+                width: 100%;
+                display: block;
+                max-width: none;
             }
+
+
+
+
             .calendarTitle{
                 color: #8bc26e;
             }
@@ -623,11 +650,16 @@
     </section>
     <main>
         <div class="row mt-2 pb-2 bgBamboo">
-            <div class="col-12 col-lg-6 offset-lg-0 divContenedorIMG d-flex align-items-center">
-
-                <video width="100%" height="auto" controls poster="recursos/img/thumbnail.jpg">
-                    <source src="recursos/videos/Bamboo_Demo.mp4" type="video/mp4">
-                </video>
+            <div class="row col-12 col-lg-6 offset-lg-0 divContenedorIMG d-flex align-items-center">
+                <div class="col-12">
+                    <h3 style="text-align: center;" class="colorTextBamboo"> A day in the life of a Montessori guide</h3>
+                    <p style="text-align: center; " class="pl-3 pr-3">The Montessori guide plays many roles as both an educator and a guide leading students toward confident, independent learning.<br> Bamboo offers guides the right tools to enable them to work efficiently and give the attention each child needs without being overwhelmed.   </p>    
+                </div>
+                <div class="col-12">
+                    <video width="100%" height="auto" controls poster="recursos/img/thumbnail.jpg">
+                        <source src="recursos/videos/Bamboo_Demo.mp4" type="video/mp4">
+                    </video>
+                </div>
 
             </div>
             <!--            <div class="col-12">
@@ -643,50 +675,50 @@
 
                     <div class="row justify-content-center">
                         <div class="col-12" data-aos="fade-right" style="display:flex;"> 
-                            <div class="col-3">
+                            <div class="col-2 d-flex align-items-center justify-content-center">
                                 <img src="recursos/img/bamboo/IconosWebBamboo-03.svg" class="imgRow" style="margin-top:15px"> 
                             </div> 
-                            <div class="col-9">
+                            <div class="col-10">
                                 <div class="col-12 text-center p-0"><b><spring:message code="planPresentationTit"/></b></div> 
                                 <p><spring:message code="planPresentationBody"/></p>
                             </div>
                         </div>
 
                         <div class="col-12" data-aos="fade-right" style="display:flex;"> 
-                            <div class="col-3">
+                            <div class="col-2 d-flex align-items-center justify-content-center">
                                 <img src="recursos/img/bamboo/IconosWebBamboo-04.svg" class="imgRow" style="margin-top:15px"> 
                             </div> 
-                            <div class="col-9">
+                            <div class="col-10">
                                 <div class="col-12 text-center p-0"><b><spring:message code="RecordObservationsTit"/></b></div> 
                                 <p><spring:message code="RecordObservationsBody"/></p>
                             </div>
                         </div>
 
                         <div class="col-12" data-aos="fade-right" style="display:flex;"> 
-                            <div class="col-3">
+                            <div class="col-2 d-flex align-items-center justify-content-center">
                                 <img src="recursos/img/bamboo/IconosWebBamboo-01.svg" class="imgRow" style="margin-top:15px"> 
                             </div> 
-                            <div class="col-9">
+                            <div class="col-10">
                                 <div class="col-12 text-center p-0"><b><spring:message code="PresentationIdeasTit"/></b></div> 
                                 <p><spring:message code="PresentationIdeasBody"/></p>
                             </div>
                         </div>
 
                         <div class="col-12" data-aos="fade-right" style="display:flex;"> 
-                            <div class="col-3">
+                            <div class="col-2 d-flex align-items-center justify-content-center">
                                 <img src="recursos/img/bamboo/IconosWebBamboo-02.svg" class="imgRow" style="margin-top:15px"> 
                             </div> 
-                            <div class="col-9"> 
+                            <div class="col-10"> 
                                 <div class="col-12 text-center p-0"><b><spring:message code="ShareResourcesTit"/></b></div>                                
                                 <p><spring:message code="ShareResourcesBody"/></p>
                             </div>
                         </div>
 
                         <div class="col-12" data-aos="fade-right" style="display:flex;"> 
-                            <div class="col-3">
+                            <div class="col-2 d-flex align-items-center justify-content-center">
                                 <img src="recursos/img/bamboo/IconosWebBamboo-05.svg" class="imgRow" style="margin-top:15px"> 
                             </div> 
-                            <div class="col-9">
+                            <div class="col-10">
                                 <div class="col-12 text-center p-0"><b><spring:message code="VisualizeProgressTit"/></b></div>                               
                                 <p><spring:message code="VisualizeProgressBody"/> </p>
                             </div>
@@ -1599,25 +1631,25 @@
 
             <!-- Modal content-->
             <div class="modal-content flex-column flex-lg-row">
-                   <div class="col-12 col-lg-4">
-                      <div class="modal-header d-flex justify-content-center align-items-center"> 
-                          <img class="imgIcon mr-1" style="background-color:#862200" src="recursos/img/bamboo/aProgress.svg"  alt="image">
-                          <h4 class="modal-title " style="
-                              padding-top: 3px;
-                              text-decoration: underline double;
-                              font-size: large;
-                              background-color: white;
-                              padding: 0px;
-                              text-align: center;
-                              color: #3aaa35;"> 
-                              <spring:message code="modal1Tit"/></h4>
-                      </div>
-                      <div class="modal-body text-center">
-                         <spring:message code="modal1"/>
-                      </div>
-                  </div>
-                      
-                
+                <div class="col-12 col-lg-4">
+                    <div class="modal-header d-flex justify-content-center align-items-center"> 
+                        <img class="imgIcon mr-1" style="background-color:#862200" src="recursos/img/bamboo/aProgress.svg"  alt="image">
+                        <h4 class="modal-title " style="
+                            padding-top: 3px;
+                            text-decoration: underline double;
+                            font-size: large;
+                            background-color: white;
+                            padding: 0px;
+                            text-align: center;
+                            color: #3aaa35;"> 
+                            <spring:message code="modal1Tit"/></h4>
+                    </div>
+                    <div class="modal-body text-center">
+                        <spring:message code="modal1"/>
+                    </div>
+                </div>
+
+
                 <div class="col-12 col-lg-8 p-0" style="
                      background-color: #f9f9f9;
                      margin-top: 10px;
@@ -1934,7 +1966,7 @@
                             "><spring:message code="modal3.tit"/></h4>
                     </div>
                     <div class="modal-body text-center">
-                    <spring:message code="modal3.body"/></div>
+                        <spring:message code="modal3.body"/></div>
                 </div>
                 <div class="col-12 col-lg-8 p-0" style="
                      background-color: #f9f9f9;
@@ -1986,12 +2018,12 @@
                                 <div class="col-3 d-flex flex-column align-items-center justify-content-center">
                                     <div class="fotoTeacher">
                                         <!--                                        <img src="http://www.christiangarces.org/wp-content/uploads/2017/11/perfil-profesional.jpg">-->
-                                        <img src="recursos\img\bamboo\malvestida-magazine-295605-unsplash.jpg">
+                                        <img src="recursos\img\bamboo\Teacher1.jpg">
                                     </div>	
                                     <label> Susan </label>
                                 </div>
                                 <div class="col-8">
-                                    <div class="bocadillo pl-2">
+                                    <div class="bocadillo pl-2" >
                                         <strong> <spring:message code="modal3.type"/> </strong><spring:message code="modal3.emocional"/> <br>
                                         <spring:message code="modal3.descr1"/>
                                     </div>	
@@ -2004,14 +2036,16 @@
                                 <div class="col-3 d-flex flex-column align-items-center justify-content-center">
                                     <div class="fotoTeacher">
                                         <!--                                        <img src="http://www.christiangarces.org/wp-content/uploads/2017/11/perfil-profesional.jpg">-->
-                                        <img src="recursos\img\bamboo\malvestida-magazine-295605-unsplash.jpg">
+                                        <img src="recursos\img\bamboo\Teacher1.jpg">
                                     </div>	
                                     <label> Susan</label>
                                 </div>
                                 <div class="col-8">
-                                    <div class="bocadillo pl-2">
+                                    <div class="bocadillo pl-2" style="display:flex;">
                                         <strong><spring:message code="modal3.type"/></strong> <spring:message code="modal3.Alfabetismo"/><br>
                                         <spring:message code="modal3.descr2"/>
+
+                                        <img src="recursos/img/bamboo/lectura1.jpg" id="imgModal"> 
                                     </div>	
                                 </div>
                             </div>
@@ -2022,7 +2056,7 @@
                                 <div class="col-3 d-flex flex-column align-items-center justify-content-center">
                                     <div class="fotoTeacher">
                                         <!--                                        <img src="http://www.christiangarces.org/wp-content/uploads/2017/11/perfil-profesional.jpg">-->
-                                        <img src="recursos\img\bamboo\zoe-fernandez-598290-unsplash.jpg">
+                                        <img src="recursos\img\bamboo\susan1.jpg">
                                     </div>	
                                     <label> Kelly</label>
                                 </div>
