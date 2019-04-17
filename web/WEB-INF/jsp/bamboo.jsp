@@ -650,23 +650,8 @@
     </section>
     <main>
         <div class="row mt-2 pb-2 bgBamboo">
-            <div class="row col-12 col-lg-6 offset-lg-0 divContenedorIMG d-flex align-items-center">
-                <div class="col-12">
-                    <h3 style="text-align: center;" class="colorTextBamboo"> A day in the life of a Montessori guide</h3>
-                    <p style="text-align: center; " class="pl-3 pr-3">The Montessori guide plays many roles as both an educator and a guide leading students toward confident, independent learning.<br> Bamboo offers guides the right tools to enable them to work efficiently and give the attention each child needs without being overwhelmed.   </p>    
-                </div>
-                <div class="col-12">
-                    <video width="100%" height="auto" controls poster="recursos/img/thumbnail.jpg">
-                        <source src="recursos/videos/Bamboo_Demo.mp4" type="video/mp4">
-                    </video>
-                </div>
 
-            </div>
-            <!--            <div class="col-12">
-                                <h3 style="text-align: center;" class="colorTextBamboo"> A day in the life of a Montessori guide</h3>
-                                <p style="text-align: center; " class="pl-3 pr-3">The Montessori guide plays many roles as both an educator and a guide leading students toward confident, independent learning.<br> Bamboo offers guides the right tools to enable them to work efficiently and give the attention each child needs without being overwhelmed.   </p>    
-                            </div>-->
-            <div class="col-12 col-lg-6 mt-5 mt-lg-0 d-flex justify-content-around align-items-center ">
+            <div class="col-12 col-lg-12 mt-5 mt-lg-0 d-flex justify-content-around align-items-center ">
                 <div class="col-12 divIconos" >
                     <div class="col-12">
                         <h3 style="text-align: center;" class="colorTextBamboo"><spring:message code="tit"/></h5>
@@ -674,59 +659,104 @@
                     </div>
 
                     <div class="row justify-content-center">
-                        <div class="col-12" data-aos="fade-right" style="display:flex;"> 
-                            <div class="col-2 d-flex align-items-center justify-content-center">
-                                <img src="recursos/img/bamboo/IconosWebBamboo-03.svg" class="imgRow" style="margin-top:15px"> 
-                            </div> 
-                            <div class="col-10">
-                                <div class="col-12 text-center p-0"><b><spring:message code="planPresentationTit"/></b></div> 
-                                <p><spring:message code="planPresentationBody"/></p>
+                        <div class="row col-12">
+                            
+                            <!------IMAGENES ------->
+                            <div class="row col-12">
+                                <div class="col-4 d-flex align-items-center justify-content-center">
+                                    <img src="recursos/img/bamboo/IconosWebBamboo-03.svg" class="imgRow" style="margin-top:15px"> 
+                                </div> 
+                                <div class="col-4 d-flex align-items-center justify-content-center">
+                                    <img src="recursos/img/bamboo/IconosWebBamboo-04.svg" class="imgRow" style="margin-top:15px"> 
+                                </div>
+                                 <div class="col-4 d-flex align-items-center justify-content-center">
+                                    <img src="recursos/img/bamboo/IconosWebBamboo-01.svg" class="imgRow" style="margin-top:15px"> 
+                                </div>
+                            </div>
+                            
+                            <!------------->
+                            <div class="col-4" data-aos="fade-right" style="display:flex;"> 
+<!--                                <div class="col-2 d-flex align-items-center justify-content-center">
+                                    <img src="recursos/img/bamboo/IconosWebBamboo-03.svg" class="imgRow" style="margin-top:15px"> 
+                                </div> -->
+                                <div class="col-10">
+                                    <div class="col-10 text-center p-0"><b><spring:message code="planPresentationTit"/></b></div> 
+                                    <p><spring:message code="planPresentationBody"/></p>
+                                </div>
+                            </div>
+
+                            <div class="col-4" data-aos="fade-right" style="display:flex;"> 
+<!--                                <div class="col-2 d-flex align-items-center justify-content-center">
+                                    <img src="recursos/img/bamboo/IconosWebBamboo-04.svg" class="imgRow" style="margin-top:15px"> 
+                                </div> -->
+                                <div class="col-10">
+                                    <div class="col-10 text-center p-0"><b><spring:message code="RecordObservationsTit"/></b></div> 
+                                    <p><spring:message code="RecordObservationsBody"/></p>
+                                </div>
+                            </div>
+
+                            <div class="col-4" data-aos="fade-right" style="display:flex;"> 
+<!--                                <div class="col-2 d-flex align-items-center justify-content-center">
+                                    <img src="recursos/img/bamboo/IconosWebBamboo-01.svg" class="imgRow" style="margin-top:15px"> 
+                                </div> -->
+                                <div class="col-10">
+                                    <div class="col-10 text-center p-0"><b><spring:message code="PresentationIdeasTit"/></b></div> 
+                                    <p><spring:message code="PresentationIdeasBody"/></p>
+                                </div>
                             </div>
                         </div>
-
-                        <div class="col-12" data-aos="fade-right" style="display:flex;"> 
-                            <div class="col-2 d-flex align-items-center justify-content-center">
-                                <img src="recursos/img/bamboo/IconosWebBamboo-04.svg" class="imgRow" style="margin-top:15px"> 
-                            </div> 
-                            <div class="col-10">
-                                <div class="col-12 text-center p-0"><b><spring:message code="RecordObservationsTit"/></b></div> 
-                                <p><spring:message code="RecordObservationsBody"/></p>
+                        <div class="row col-12">
+                            <div class="row col-12">
+                                 <div class="col-6 d-flex align-items-center justify-content-center">
+                                    <img src="recursos/img/bamboo/IconosWebBamboo-02.svg" class="imgRow" style="margin-top:15px"> 
+                                </div>
+                                
+                                <div class="col-6 d-flex align-items-center justify-content-center">
+                                    <img src="recursos/img/bamboo/IconosWebBamboo-05.svg" class="imgRow" style="margin-top:15px"> 
+                                </div>
+                                
                             </div>
-                        </div>
-
-                        <div class="col-12" data-aos="fade-right" style="display:flex;"> 
-                            <div class="col-2 d-flex align-items-center justify-content-center">
-                                <img src="recursos/img/bamboo/IconosWebBamboo-01.svg" class="imgRow" style="margin-top:15px"> 
-                            </div> 
-                            <div class="col-10">
-                                <div class="col-12 text-center p-0"><b><spring:message code="PresentationIdeasTit"/></b></div> 
-                                <p><spring:message code="PresentationIdeasBody"/></p>
+                            <div class="col-6" data-aos="fade-right" style="display:flex;"> 
+<!--                                <div class="col-2 d-flex align-items-center justify-content-center">
+                                    <img src="recursos/img/bamboo/IconosWebBamboo-02.svg" class="imgRow" style="margin-top:15px"> 
+                                </div> -->
+                                <div class="col-10"> 
+                                    <div class="col-6 text-center p-0"><b><spring:message code="ShareResourcesTit"/></b></div>                                
+                                    <p><spring:message code="ShareResourcesBody"/></p>
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="col-12" data-aos="fade-right" style="display:flex;"> 
-                            <div class="col-2 d-flex align-items-center justify-content-center">
-                                <img src="recursos/img/bamboo/IconosWebBamboo-02.svg" class="imgRow" style="margin-top:15px"> 
-                            </div> 
-                            <div class="col-10"> 
-                                <div class="col-12 text-center p-0"><b><spring:message code="ShareResourcesTit"/></b></div>                                
-                                <p><spring:message code="ShareResourcesBody"/></p>
-                            </div>
-                        </div>
-
-                        <div class="col-12" data-aos="fade-right" style="display:flex;"> 
-                            <div class="col-2 d-flex align-items-center justify-content-center">
-                                <img src="recursos/img/bamboo/IconosWebBamboo-05.svg" class="imgRow" style="margin-top:15px"> 
-                            </div> 
-                            <div class="col-10">
-                                <div class="col-12 text-center p-0"><b><spring:message code="VisualizeProgressTit"/></b></div>                               
-                                <p><spring:message code="VisualizeProgressBody"/> </p>
+                            <div class="col-6" data-aos="fade-right" style="display:flex;"> 
+<!--                                <div class="col-2 d-flex align-items-center justify-content-center">
+                                    <img src="recursos/img/bamboo/IconosWebBamboo-05.svg" class="imgRow" style="margin-top:15px"> 
+                                </div> -->
+                                <div class="col-10">
+                                    <div class="col-6 text-center p-0"><b><spring:message code="VisualizeProgressTit"/></b></div>                               
+                                    <p><spring:message code="VisualizeProgressBody"/> </p>
+                                </div>
                             </div>
                         </div>
                     </div>                    
                 </div>
-            </div>
+            </div>        
         </div> 
+
+        <div class="row col-12 col-lg-10 offset-lg-1 mt-3 divContenedorIMG d-flex align-items-center">
+            <div class="col-12">
+                <h3 style="text-align: center;" class="colorTextBamboo"> <spring:message code="titVideo"/></h3>
+                <p style="text-align: center; " class="pl-3 pr-3"><spring:message code="textoVideo1"/><br><spring:message code="textoVideo2"/></p>    
+            </div>
+            <div class="col-12">
+                <video width="100%" height="auto" controls poster="recursos/img/thumbnail.jpg">
+                    <source src="recursos/videos/Bamboo_Demo.mp4" type="video/mp4">
+                </video>
+            </div>
+
+        </div>
+        <!--            <div class="col-12">
+                            <h3 style="text-align: center;" class="colorTextBamboo"> A day in the life of a Montessori guide</h3>
+                            <p style="text-align: center; " class="pl-3 pr-3">The Montessori guide plays many roles as both an educator and a guide leading students toward confident, independent learning.<br> Bamboo offers guides the right tools to enable them to work efficiently and give the attention each child needs without being overwhelmed.   </p>    
+                        </div>-->
 
         <div class="row pt-3 mt-2 divIconosInvert"  >
             <div class="col-12" style="text-align: center;">
