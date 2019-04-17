@@ -818,11 +818,11 @@
                 <p class="col-10 offset-1 text-center"><b><spring:message code="ParentsBody3"/></b> </p>
             </div> 
 
-<div class="smartphone smartphoneHorizontal">
+<!--<div class="smartphone smartphoneHorizontal">
                                 <video autoplay muted loop id="myVideo" width="100%">
                                     <source src="recursos/videos/smartClover/smartClover_video1.mp4" type="video/mp4">
                                 </video> 
-                            </div>
+                            </div>-->
             <div class="col-12">
                 <svg id="imgSVG" style="width:100%" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                      width="1920px" height="939.979px" viewBox="0 0 1920 939.979" enable-background="new 0 0 1920 939.979" xml:space="preserve">
