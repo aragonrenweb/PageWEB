@@ -17,11 +17,11 @@
             .smartphone {
                 position: relative;
                 width: 500px;
-                height: 1000px;
+                height: 760px;
                 margin: auto;  
                 border: 22px #d4d4d4 solid;
-                border-top-width: 20px;
-                border-bottom-width: 20px;
+                border-top-width: 60px;
+                border-bottom-width: 60px;
                 border-radius: 36px;
 
                 -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.27);
@@ -33,6 +33,59 @@
                 transform: rotate(270deg); 
             }
 
+            .smartphoneHorizontal>tablet{
+                transform: rotate(90deg);
+                position: relative;
+                top: 110px;
+                right: 122px;
+                left: 1;
+                width: 541px;
+                z-index: 1;
+                border-radius: 10px;
+
+            }
+            
+            .tablet{
+                width: 455px;
+                height: 640px;
+                
+            }
+            
+           
+
+            .smartphone:before {
+                content: '';
+                display: block;
+                width: 60px;
+                height: 5px;
+                position: absolute;
+                top: -30px;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background: #333;
+                border-radius: 10px;
+            }
+
+            /* The circle on the bottom of the device */
+            .smartphone:after {
+                content: '';
+                display: block;
+                width: 35px;
+                height: 35px;
+                position: absolute;
+                left: 50%;
+                bottom: -65px;
+                transform: translate(-50%, -50%);
+                background: #333;
+                border-radius: 50%;
+            }
+
+            /* The screen (or content) of the device */
+            .smartphone .content {
+                width: 455px;
+                height: 640px;
+                background: white;
+            }
 
 
             body {
@@ -725,7 +778,7 @@
                         </div>
 
 
-                        <div class="col-4" data-aos="fade-right" style="display:block;"> 
+                        <div class="col-4" data-aos="fade-left" style="display:block;"> 
                             <div class="col-10 mb-2 d-flex align-items-center justify-content-center">
                                 <img src="recursos/img/bamboo/IconosWebBamboo-02.svg" class="imgRow2"> 
                             </div>
@@ -734,7 +787,7 @@
                                 <p><spring:message code="ShareResourcesBody"/></p>
                             </div>
                         </div>
-                        <div class="col-4" data-aos="fade-right" style="display:block;"> 
+                        <div class="col-4" data-aos="fade-left" style="display:block;"> 
                             <div class="col-10 mb-2 d-flex align-items-center justify-content-center">
                                 <img src="recursos/img/bamboo/IconosWebBamboo-05.svg" class="imgRow2"> 
                             </div> 
@@ -792,10 +845,12 @@
                 <p class="col-10 offset-1 text-center"><b><spring:message code="ParentsBody3"/></b> </p>
             </div> 
             <!---------------->
+
+
             <div class="smartphone smartphoneHorizontal">
 
-                <div class="content">
-                    <svg id="imgSVG" style="width:100%" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                <div class="tablet">
+                    <svg id="imgSVG" style="width:100%; transform: rotate(90deg);width: 600px;height: 650px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                          width="1920px" height="939.979px" viewBox="0 0 1920 939.979" enable-background="new 0 0 1920 939.979" xml:space="preserve">
                     <rect y="0" fill="#FFFFFF" width="1920" height="939.979"/>
                     <rect y="0" fill="#222221" width="1920" height="107.995"/>
