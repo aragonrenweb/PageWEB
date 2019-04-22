@@ -421,8 +421,7 @@
                 white-space: pre-line !important;
             }
             .rowListaFacts{
-                background-color: none;
-                transform: skewX(-4deg);
+                background-color: none; 
                 margin-top: 50px;
                 padding: 15px;
                 padding-right: 0px;
@@ -665,7 +664,12 @@
                     background-color: #c35098;
                     width: 100px;
                 }
-
+                .skewFactsOne{
+                    transform: skewX(-4deg);
+                }
+                .skewFactsTwo{
+                    transform: skewX(4deg);
+                }
             }
 
             /* Small devices (landscape phones, less than 768px)*/
@@ -1416,7 +1420,7 @@
                 $(".footerScheduler").append(generateSvgMoreInfo('#0d253f', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'><a style='color:#0d253f' href='#'><spring:message code="moreInfo"/></a></label>" + generateSvgMoreInfo('#0d253f', 'left'))
 
                 $(".footerSchoolAnalytics").empty();
-                $(".footerSchoolAnalytics").append(generateSvgMoreInfo('#fc8c00', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'><a style='color:#fc8c00' href=\"<c:url value='/schoolAnalytics.htm' />\"><spring:message code="moreInfo"/></a></label>" + generateSvgMoreInfo('#fc8c00', 'left'))
+                $(".footerSchoolAnalytics").append(generateSvgMoreInfo('#fc8c00', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'><a style='color:#fc8c00' href='#'><spring:message code="moreInfo"/></a></label>" + generateSvgMoreInfo('#fc8c00', 'left'))
 
             });
 
@@ -1823,7 +1827,7 @@
                 </div>
             </div>
 
-            <div class="row col-12  pr-0" style="transform: skewX(-4deg)">
+            <div class="row col-12  pr-0 skewFactsOne" >
                 <div class="col-12 col-md-4 cardInfo" >
                     <div class="col-12"><h4 class="text-center" style="transform: skewX(0deg);"> <spring:message code="body.FACTS1"/> <spring:message code="home.SIS1"/></h4></div>
                     <div class="col-10 offset-1 text-center">
@@ -2532,8 +2536,8 @@
                     <h6 class="font-weight-bold text-uppercase mt-3 mb-4 text-left"><spring:message code="footContact"/></h6>
                     <h6 class="text-muted text-left">
                         Paseo de la Castellana 153<br>
-                        Madrid<br>
-                        Teléfono: +34 91 64 28 97<br>
+                        Madrid<br> 
+                        Teléfono: +34 91 649 28 97<br>
                         Correo electrónico: sales@eduwebgroup.com
                     </h6>
                 </div>

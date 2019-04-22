@@ -946,7 +946,7 @@
             <div class="col-xs-6 col-xs-offset-3"><hr></div>
             <div class="col-6 offset-3 hrSmart"></div> <br><br><br>
 
-            <div class="container-fluid ">
+            <div class="container-fluid d-none">
                 <div class="row fila" id="fila3"> 
                     <div class="col-12 col-md-12"> 
                         <div class="headingSmart col-12 text-center" >
@@ -958,7 +958,7 @@
                         </div>  
                     </div> 
                 </div> 
-
+            </div>
               
         </main>
 
