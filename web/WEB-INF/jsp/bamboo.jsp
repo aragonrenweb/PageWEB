@@ -3487,7 +3487,7 @@
                             "><spring:message code="modal2.tit"/></h4>
                     </div>
                     <div class="modal-body text-center">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                       Parents will easily access school announcements and calendar events.
                     </div>
                 </div>
                 <div class="col-12 col-lg-9 p-0" style="
@@ -3517,21 +3517,15 @@
                                     <div class="col-11 mb-1 mt-1"> 
                                         <b><spring:message code="modal2.annoucements.parraf2"/></b> Presenter: Vincent Watters.</div>
                                 </div>
-                                <div class="col d-flex calendarVerde  mb-2">
-                                    <div class="col-1 p-0  d-flex align-items-center justify-content-center">
-                                        <img style="width:20px;height: 20px" src="recursos/img/bamboo/Announcements.svg" alt="image">
-                                    </div>
-                                    <div class="col-11 mb-1 mt-1"> 
-                                        <b><spring:message code="modal2.annoucements.parraf3.1"/></b> <spring:message code="modal2.annoucements.parraf3.2"/></div>
-                                </div>
-                                <div class="col d-flex calendarBlanco  mb-2	">
+
+                                <div class="col d-flex  calendarVerde  mb-2	">
                                     <div class="col-1 p-0  d-flex align-items-center justify-content-center">
                                         <img style="width:20px;height: 20px" src="recursos/img/bamboo/Announcements.svg" alt="image">
                                     </div>
                                     <div class="col-11 mb-1 mt-1"> 
                                         <b><spring:message code="modal2.annoucements.parraf4"/></b></div>
                                 </div>
-                                <div class="col d-flex calendarVerde  mb-2">
+                                <div class="col d-flex calendarBlanco  mb-2">
                                     <div class="col-1 p-0  d-flex align-items-center justify-content-center">
                                         <img style="width:20px;height: 20px" src="recursos/img/bamboo/Announcements.svg" alt="image">
                                     </div>
@@ -3627,7 +3621,7 @@
                     </div>
 
                     <div class="modal-body text-center">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                       Go paperless and share the report cards with families online that they can access from any device.
                     </div>
                 </div>
                 <div class="col-12 col-lg-8 p-0" style="
@@ -3823,7 +3817,7 @@
                             ">What I am learning now?</h4>
                     </div>
                     <div class="modal-body text-center">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        The parent will know what the child is working on this week, celebrate the child accomplishments and engage the child in the topics he is learning.  
                     </div>
                 </div>
                 <div class="col-12 col-lg-8" style="
@@ -3854,7 +3848,7 @@
                                     <div style="
                                          color: #2f4591;
                                          font-size: 18px;
-                                         ">Afrikaans (FAL)</div>
+                                         ">Biology</div>
                                 </div> 
                                 <div class="col-12">
                                     <div data-toggle="collapse" data-target="#demo2"><div class="objectiveWhats" style="
@@ -3863,7 +3857,7 @@
                                                                                           align-items: center;cursor: pointer;
                                                                                           ">
                                             <img style="width:20px;height: 20px" src="recursos/img/bamboo/target.svg"    alt="image">
-                                            <div>Luister en sing 1</div>
+                                            <div>Study of Plants</div>
 
                                         </div>
                                         <div class="stepsSeleccionables d-flex">
@@ -3877,16 +3871,18 @@
                                     <div id="demo2" class="collapse">
                                         <ul id="menu2">
                                             <li class="d-flex">
-                                                <img class="mr-1" style="width:20px;height: 20px"  src="recursos/img/bamboo/step.svg"   alt="imgSVGmage">write the song
+                                                <img class="mr-1" style="width:20px;height: 20px"  src="recursos/img/bamboo/step.svg"   alt="imgSVGmage">What is the oxygen cycle?
                                             </li>
                                             <li class="d-flex">
-                                                <img class="mr-1" style="width:20px;height: 20px"  src="recursos/img/bamboo/step.svg"    alt="image">learn the words
+                                                <img class="mr-1" style="width:20px;height: 20px"  src="recursos/img/bamboo/step.svg"    alt="image">How does life depend on this?
                                             </li>
                                             <li class="d-flex">
-                                                <img class="mr-1" style="width:20px;height: 20px" src="recursos/img/bamboo/step.svg"   alt="image">learn to sing the song
+                                                <img class="mr-1" style="width:20px;height: 20px" src="recursos/img/bamboo/step.svg"   alt="image">Draw a diagram of the cycle
+showing labels and arrows
                                             </li>
                                             <li class="d-flex">
-                                                <img class="mr-1" style="width:20px;height: 20px"  src="recursos/img/bamboo/step.svg"   alt="image">sing the song
+                                                <img class="mr-1" style="width:20px;height: 20px"  src="recursos/img/bamboo/step.svg"   alt="image">Fill in the Lungs of our planet on a blank map of the world, label
+the countries where these extend
                                             </li>
                                         </ul>
                                     </div>
@@ -3901,7 +3897,7 @@
                                     <div style="
                                          color: #2f4591;
                                          font-size: 18px;
-                                         ">Afrikaans (FAL)</div>
+                                         ">Geography</div>
                                 </div> 
                                 <div class="col-12">
                                     <div data-toggle="collapse" data-target="#demo3"><div class="objectiveWhats" style="
@@ -3910,7 +3906,8 @@
                                                                                           align-items: center;cursor: pointer;
                                                                                           ">
                                             <img style="width:20px;height: 20px" src="recursos/img/bamboo/target.svg" alt="image">
-                                            <div>Luister en sing 1</div>
+                                            <div>Geology - Types of rocks and
+minerals</div>
 
                                         </div>
                                         <div class="stepsSeleccionables d-flex">
@@ -3924,16 +3921,18 @@
                                     <div id="demo3" class="collapse">
                                         <ul id="menu3">
                                             <li class="d-flex">
-                                                <img  class="mr-1" style="width:20px;height: 20px"  src="recursos/img/bamboo/step.svg"  alt="image">write the song
+                                                <img  class="mr-1" style="width:20px;height: 20px"  src="recursos/img/bamboo/step.svg"  alt="image">Display a selection of rocks to show metamorphic, sedimentary and
+igneous
                                             </li>
                                             <li class="d-flex">
-                                                <img class="mr-1"  style="width:20px;height: 20px" src="recursos/img/bamboo/step.svg"    alt="image">learn the words
+                                                <img class="mr-1"  style="width:20px;height: 20px" src="recursos/img/bamboo/step.svg"    alt="image">Discuss what each one is made of
                                             </li>
                                             <li class="d-flex">
-                                                <img  class="mr-1" style="width:20px;height: 20px"  src="recursos/img/bamboo/step_vacio.svg" alt="image">learn to sing the song
+                                                <img  class="mr-1" style="width:20px;height: 20px"  src="recursos/img/bamboo/step_vacio.svg" alt="image">Child classifies onto a table and
+draws examples of each
                                             </li>
                                             <li class="d-flex">
-                                                <img  class="mr-1" style="width:20px;height: 20px"  src="recursos/img/bamboo/step_vacio.svg"  alt="image">sing the song
+                                                <img  class="mr-1" style="width:20px;height: 20px"  src="recursos/img/bamboo/step_vacio.svg"  alt="image">Child learns how to grow crystals
                                             </li>
                                         </ul>
                                     </div>
