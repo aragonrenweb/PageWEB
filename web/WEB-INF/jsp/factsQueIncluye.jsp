@@ -712,7 +712,7 @@
 
     <a class="btnDemo" href="<c:url value='/index.htm?informacion=facts#Contact'/>">
         <label class="arrow_box"><spring:message code="request.demo"/></label>
-        <img src="recursos/img/Facts/factsqueincluye/facts.svg" style="width: 120px; position: fixed;">
+        <img src="recursos/img/Facts/factsqueincluye/facts.svg" style="width: 148px; position: fixed;">
     </a>        
 
 
