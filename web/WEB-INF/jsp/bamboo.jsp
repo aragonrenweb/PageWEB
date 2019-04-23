@@ -315,23 +315,7 @@
                 animation-iteration-count: infinite;
                 margin-right: 125px;
             }
-            /* .arrow_box:after, .arrow_box:before {
-                 left: 95%;
-                 top: 50%;
-                 border: solid transparent;
-                 content: " ";
-                 height: 0;
-                 width: 0;
-                 position: absolute;
-                 pointer-events: none;
-             }
- 
-             .arrow_box:after {
-                 border-color: rgba(136, 183, 213, 0);
-                 border-left-color: #127733;
-                 border-width: 4px;
-                 margin-top: -4px;
-             }*/
+
 
             @keyframes shake-with-delay {
                 from, 16%, to {
@@ -359,17 +343,11 @@
             } 
 
             .imgRow{
-                /*                                width: 100%; 
-                                height: auto;*/
-                /*margin-left: 15%;*/
                 width: 100px;
                 height: 100px;
             }
 
             .imgRow2{
-                /*                                width: 100%; 
-                                height: auto;*/
-                /*margin-left: 10%;*/
                 width: 100px;
                 height: 100px;
             }
@@ -448,7 +426,7 @@
             }
             .divIconosInvert img{
                 opacity: 0.5;
-                
+
             }
 
             /*Extra small devices (portrait phones, less than 576px)*/
@@ -552,12 +530,7 @@
                 color: white;
                 border-radius: 10px;
             }
-            /*            .fotoTeacher img{
-                            width: 100px;
-                            height: auto;
-                            border-radius: 50px;
-                        }*/
-
+         
 
             div.fotoTeacher{
                 width: 110px;
@@ -629,24 +602,23 @@
     <script type="text/javascript">
         $(document).ready(function () {
             swapLogo("bamboo");
-            
-            //$("#tablet").show();
+
             
             if ($(window).width() <= 680) {
                 $("#tablet").hide();
             } else {
                 $("#tablet").show();
             }
-            
+
             $(window).resize(function () {
 
-                    if ($(window).width() <= 680) {
-                         $("#tablet").hide();
-                    } else {
-                        $("#tablet").show();
-                    }
-                });
-                
+                if ($(window).width() <= 680) {
+                    $("#tablet").hide();
+                } else {
+                    $("#tablet").show();
+                }
+            });
+
 
             $("#btnAcadProgress").click(function () {
 
@@ -699,13 +671,13 @@
         </div>
     </section>
     <main>
-        <div class="row mt-2 pb-2 bgBamboo">
+        <div class="row mt-2 pb-2">
 
             <div class="col-12 col-lg-12 mt-5 mt-lg-0 d-flex justify-content-around align-items-center ">
                 <div class="col-12 divIconos mt-2">
                     <div class="col-12">
                         <h2 class="colorTextBamboo"><spring:message code="tit"/></h2>
-                            <p style="text-align: center; " class="pl-3 pr-3"><spring:message code="subtit"/></p>
+                        <p style="text-align: center; " class="pl-3 pr-3"><spring:message code="subtit"/></p>
                     </div>
 
                     <div class="row justify-content-center">
@@ -3365,8 +3337,6 @@
     <a class="btnDemo" href="<c:url value='/index.htm?informacion=bamboo#Contact'/>">
         <label class="arrow_box"><spring:message code="request.demo"/></label>
         <img src="recursos/img/bamboo/bambooBtnDemo.svg" style="width:148px;position:fixed;">
-
-
     </a>        
 
     <!-- Modal -->
