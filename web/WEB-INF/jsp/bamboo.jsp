@@ -787,7 +787,7 @@
 
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                      width="2146.771px" height="1053.366px" viewBox="0 0 2146.771 1053.366" enable-background="new 0 0 2146.771 1053.366"
-                     xml:space="preserve" style="width: 75%; height: 75%; margin-top: 2%;">
+                     xml:space="preserve" style="width: 75%; height: 75%; margin-top: 2%; margin-bottom: 2%;">
                 <g id="Capa_1">
                 <rect x="113.385" y="56.693" fill="#222221" width="1920" height="107.995"/>
                 <circle fill="#3AAA35" stroke="#FFFFFF" stroke-width="2.0537" stroke-miterlimit="10" cx="152.925" cy="101.287" r="34.869"/>

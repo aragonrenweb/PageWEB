@@ -636,8 +636,11 @@
             <div class="col-12 col-lg-12 mt-5 mt-lg-0 d-flex justify-content-around align-items-center ">
                 <div class="col-12 divIconos mt-2">
                     <div class="col-12">
-                        <h2 class="colorTextFacts">TITULO 1</h2>
-                        <p style="text-align: center; " class="pl-3 pr-3">SUBTITULO</p>
+                        <h2 class="colorTextFacts">MANAGEMENT</h2>
+                        <p style="text-align: center; " class="pl-3 pr-3">
+                                LLevar el manejo y control de cada uno de los módulos disponibles en FACTS, es una tarea facil de realizar pero que exige del trabajo del personal de Administración para realizar tareas de configuración y uso de ciertas herramientas que son exclusivas del personal directivo de la escuela.
+                                El manejo del sistema de seguridad de acceso a los diferentes módulos y la impresión de los informes, son dos de las tareas mas importantes que deberá gestionar el personal directivo. Un control riguroso de los permisos de seguridad, proporcionará a la escuela la fiabilidad necesaria para las tareas diarias.                         
+                        </p>
                     </div>
 
                     <div class="row justify-content-center">
@@ -648,7 +651,7 @@
                                     <img src="recursos/img/bamboo/IconosWebBamboo-03.svg" class="imgRow"> 
                                 </div>
                                 <div class="col-10 text-center">
-                                    <div class="col-12 text-center p-0"><b>MANAGEMENT</b></div> 
+                                    <div class="col-12 text-center p-0"><b>Report Card</b></div> 
                                     <p>Taking the management and control of each of the modules available in FACTS is an easy task to perform, but it requires the work of the Administration staff to perform tasks of configuration and use of certain tools that are exclusive to the school's management personnel. The management of the security system of access to the different modules and the printing of the reports, are two of the most important tasks that management personnel should manage.
                                         A rigorous control of security permits will provide the school with the necessary reliability for daily tasks.</p>
                                 </div>
@@ -659,7 +662,7 @@
                                     <img src="recursos/img/bamboo/IconosWebBamboo-04.svg" class="imgRow"> 
                                 </div>
                                 <div class="col-10 text-center">
-                                    <div class="col-12 text-center p-0"><b>CLASSROOM</b></div> 
+                                    <div class="col-12 text-center p-0"><b>Attendance</b></div> 
                                     <p>In an intuitive environment, teachers will be able to carry out the daily control of the activities of the classes they have assigned, attendance control, daily tasks and even interact with students online after school hours.</p>
                                 </div>
                             </div>
@@ -695,7 +698,7 @@
 
         <div class="row pt-3 mt-2 divIconosInvert h-100"> 
             <div class="col-12" style="text-align: center;">
-                <h2 class="colorTextFacts">TITULO 2</h2>
+                <h2 class="colorTextFacts">CLASSROOM</h2>
                 <p class="pl-4 pr-4 text-center">texto 1</p>
                 <p class="col-10 offset-1 text-center"><b>texto 2</b> </p>
             </div>
@@ -703,6 +706,25 @@
         
         <img src="recursos/img/Facts/factsqueincluye/LineaSeparacion.svg" class="lineaSeparacion">
         
+        <div class="row pt-3 mt-2 divIconosInvert h-100"> 
+            <div class="col-12" style="text-align: center;">
+                <h2 class="colorTextFacts">PARENTS</h2>
+                <p class="pl-4 pr-4 text-center">texto 1</p>
+                <p class="col-10 offset-1 text-center"><b>texto 2</b> </p>
+            </div>
+        </div>
+        
+        <img src="recursos/img/Facts/factsqueincluye/LineaSeparacion.svg" class="lineaSeparacion">
+        
+        <div class="row pt-3 mt-2 divIconosInvert h-100"> 
+            <div class="col-12" style="text-align: center;">
+                <h2 class="colorTextFacts">STUDENT</h2>
+                <p class="pl-4 pr-4 text-center">texto 1</p>
+                <p class="col-10 offset-1 text-center"><b>texto 2</b> </p>
+            </div>
+        </div>
+        
+        <img src="recursos/img/Facts/factsqueincluye/LineaSeparacion.svg" class="lineaSeparacion">
         <div class="row pt-3 mt-2 divIconosInvert h-100"> 
             <div class="col-12" style="text-align: center;">
                 <h2 class="colorTextFacts">DEMO</h2>
