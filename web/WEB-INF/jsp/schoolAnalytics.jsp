@@ -53,7 +53,7 @@
                 animation-name: shake-with-delay;
                 animation-duration: 6s;
                 animation-iteration-count: infinite;
-                margin-right: 5px;
+                margin-right: 125px;
             }
 
             .hero2 {
@@ -243,6 +243,6 @@
 
     <a class="btnDemo" href="<c:url value='/index.htm?informacion=schoolAnalytics#Contact'/>">
         <label class="arrow_box">Schedule a Demo</label>
-        <img src="recursos/img/schoolAnalytics/LogoChartSchool.svg" style="width:75px;border-radius: 40px;border: solid 2px #f7931e;cursor: pointer;">
+        <img src="recursos/img/schoolAnalytics/bgDemoSchool.svg" style="width: 148px; position: fixed;">
     </a> 
 </html>
