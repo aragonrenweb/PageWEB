@@ -264,7 +264,7 @@
             </div>
             <div class="col-12">
                 <video width="100%" height="auto" controls poster="recursos/img/thumbnail.jpg">
-                    <source src="recursos/videos/Bamboo_Demo.mp4" type="video/mp4">
+                    <source src="recursos/videos/Bamboo Guides.mp4" type="video/mp4">
                 </video>
             </div>
         </div>
