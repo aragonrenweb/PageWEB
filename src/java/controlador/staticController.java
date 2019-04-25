@@ -44,7 +44,15 @@ public class staticController {
         Object beanobject = contexto.getBean(nombrebean);
         return beanobject;
     }
+    
+    @RequestMapping("/mantenimiento.htm")
+    public ModelAndView mantenimiento(HttpServletRequest hsr, HttpServletResponse hsr1) throws Exception {
 
+        ModelAndView mv = new ModelAndView("mantenimiento");
+
+        return mv;
+    }
+    
     @RequestMapping("/facts.htm")
     public ModelAndView facts(HttpServletRequest hsr, HttpServletResponse hsr1) throws Exception {
 

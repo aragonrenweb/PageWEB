@@ -1408,8 +1408,10 @@
                 });
 
                 $(".footerFacts").empty();
-                $(".footerFacts").append(generateSvgMoreInfo('#29abe2', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'><a style='color:#29abe2' href=\"<c:url value='/factsQueIncluye.htm' />\"><spring:message code="moreInfo"/></a></label>" + generateSvgMoreInfo('#29abe2', 'left'))
+<%--                $(".footerFacts").append(generateSvgMoreInfo('#29abe2', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'><a style='color:#29abe2' href=\"<c:url value='/factsQueIncluye.htm' />\"><spring:message code="moreInfo"/></a></label>" + generateSvgMoreInfo('#29abe2', 'left')) --%>
+                $(".footerFacts").append(generateSvgMoreInfo('#29abe2', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'><a style='color:#29abe2' href='https://factsmgt.com/'><spring:message code="moreInfo"/></a></label>" + generateSvgMoreInfo('#29abe2', 'left'))
 
+    
                 $(".footerBamboo").empty();
                 $(".footerBamboo").append(generateSvgMoreInfo('#66c34e', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'><a style='color:#66c34e' href=\"<c:url value='/bamboo.htm?idioma=${idioma}' />\"><spring:message code="moreInfo"/></a></label>" + generateSvgMoreInfo('#66c34e', 'left'))
 
@@ -1420,7 +1422,7 @@
                 $(".footerScheduler").append(generateSvgMoreInfo('#0d253f', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'><a style='color:#0d253f' href='#'><spring:message code="moreInfo"/></a></label>" + generateSvgMoreInfo('#0d253f', 'left'))
 
 //                $(".footerSchoolAnalytics").empty();
-//                $(".footerSchoolAnalytics").append(generateSvgMoreInfo('#fc8c00', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'><a style='color:#fc8c00' href=\"<c:url value='/schoolAnalytics.htm' />\"><spring:message code="moreInfo"/></a></label>" + generateSvgMoreInfo('#fc8c00', 'left'))
+<%--                $(".footerSchoolAnalytics").append(generateSvgMoreInfo('#fc8c00', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'><a style='color:#fc8c00' href=\"<c:url value='/schoolAnalytics.htm' />\"><spring:message code="moreInfo"/></a></label>" + generateSvgMoreInfo('#fc8c00', 'left')) --%>
 
                 $(".footerSchoolAnalytics").empty();
                 $(".footerSchoolAnalytics").append(generateSvgMoreInfo('#fc8c00', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'><a style='color:#fc8c00' href='#'><spring:message code="moreInfo"/></a></label>" + generateSvgMoreInfo('#fc8c00', 'left'))
