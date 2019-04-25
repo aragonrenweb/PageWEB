@@ -1417,10 +1417,10 @@
                 $(".footerBamboo").append(generateSvgMoreInfo('#66c34e', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'><a style='color:#66c34e' href=\"<c:url value='/bamboo.htm?idioma=${idioma}' />\"><spring:message code="moreInfo"/></a></label>" + generateSvgMoreInfo('#66c34e', 'left'))
 
                 $(".footerSmartClover").empty();
-                $(".footerSmartClover").append(generateSvgMoreInfo('#357624', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'><a style='color:#357624' href=\"<c:url value='/smartClover.htm' />\"><spring:message code="moreInfo"/></a></label>" + generateSvgMoreInfo('#357624', 'left'))
+                $(".footerSmartClover").append(generateSvgMoreInfo('#357624', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'><a style='color:#357624' href=\"<c:url value='/smartClover.htm?idioma=${idioma}' />\"><spring:message code="moreInfo"/></a></label>" + generateSvgMoreInfo('#357624', 'left'))
 
                 $(".footerScheduler").empty();
-                $(".footerScheduler").append(generateSvgMoreInfo('#0d253f', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'><a style='color:#0d253f' href='#'><spring:message code="moreInfo"/></a></label>" + generateSvgMoreInfo('#0d253f', 'left'))
+                $(".footerScheduler").append(generateSvgMoreInfo('#0d253f', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'><a style='color:#0d253f' href=\"<c:url value='/mantenimiento.htm' />\"><spring:message code="moreInfo"/></a></label>" + generateSvgMoreInfo('#0d253f', 'left'))
 
 //                $(".footerSchoolAnalytics").empty();
 <%--                $(".footerSchoolAnalytics").append(generateSvgMoreInfo('#fc8c00', 'right') + "<label style='padding-left: 10px;padding-right: 10px;'><a style='color:#fc8c00' href=\"<c:url value='/schoolAnalytics.htm' />\"><spring:message code="moreInfo"/></a></label>" + generateSvgMoreInfo('#fc8c00', 'left')) --%>

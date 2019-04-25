@@ -779,7 +779,7 @@
     <div class="collapse navbar-collapse d-none d-lg-block" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="<c:url value="/index.htm" />"><b>Inicio<span class="sr-only">(current)</span></b></a>
+                <a class="nav-link" href="<c:url value="/index.htm" />"><b><spring:message code="Inicio"/><span class="sr-only">(current)</span></b></a>
             </li> 
 <%--            <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="<c:url value="/factsQueEs.htm" />" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
