@@ -779,7 +779,7 @@
     <div class="collapse navbar-collapse d-none d-lg-block" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="<c:url value="/index.htm" />"><b><spring:message code="Inicio"/><span class="sr-only">(current)</span></b></a>
+                <a class="nav-link" href="<c:url value="/index.htm" />"><spring:message code="Inicio"/><span class="sr-only">(current)</span></a>
             </li> 
 <%--            <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="<c:url value="/factsQueEs.htm" />" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -793,14 +793,16 @@
                 </div>
             </li>--%>
             <li class="nav-item">
-                <a class="nav-link" href="<c:url value="/factsQueIncluye.htm" />">FACTS</a>
+<%--                <a class="nav-link" href="<c:url value="/factsQueIncluye.htm" />">FACTS</a>--%>
+                 <a class="nav-link" href='https://factsmgt.com/'>FACTS</a>
+                
             </li>
             
             <li class="nav-item">
-                <a class="nav-link" href="<c:url value="/smartClover.htm" />">Smart Clover</a>
+                <a class="nav-link" href="<c:url value="/smartClover.htm?idioma=${idioma}"/>">Smart Clover</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="<c:url value="/bamboo.htm" />">Bamboo Montessori</a>
+                <a class="nav-link" href="<c:url value="/bamboo.htm?idioma=${idioma}"/>">Bamboo Montessori</a>
             </li>
         </ul>  
     </div> 

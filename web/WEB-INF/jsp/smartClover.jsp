@@ -85,7 +85,7 @@
                 -webkit-filter: grayscale(0);
                 -webkit-transform: scale(1.01);
             }
-            
+
             .line{
                 margin-top: 50px;
                 border-bottom: solid 1px  #735331;
@@ -255,7 +255,7 @@
                  border-width: 4px;
                  margin-top: -4px;
              }*/
-           
+
             @keyframes shake-with-delay {
                 from, 16%, to {
                     -webkit-transform: translate3d(0, 0, 0);
@@ -331,7 +331,7 @@
                         $("#myVideo").parent().addClass("smartphone");
                     }
                 });
-                
+
             });
             function checkShowNavLateral() {
                 if ($(".hero").height() > $("#primary").offset().top) {
@@ -552,9 +552,10 @@
                             <!--<img id="imgMovil" class="imgSmart" alt="MovilCon reflejoOK.png" data-type="image" src="https://static.wixstatic.com/media/7c6de8_31c7afac6006464cad0b9b45b19fe48b~mv2.png/v1/fill/w_489,h_599,al_c,q_80,usm_0.66_1.00_0.01/MovilCon%20reflejoOK.webp" >
                             -->
                             <div class="videoVertical">
-                                <video autoplay muted loop>
-                                    <source src="recursos/videos/smartClover/Testvideo1.mp4" type="video/mp4">
-                                </video> 
+                                <!--                                <video autoplay muted loop>
+                                                                    <source src="recursos/videos/smartClover/Testvideo1.mp4" type="video/mp4">
+                                                                </video> -->
+                                <img src="recursos/img/smartClover/chatOpciones.JPG" style=" width: 200px; border-radius:5px;"/>
                             </div>
 
                         </div> 
@@ -570,9 +571,10 @@
                             <!--<img id="imgMovil" class="imgSmart" alt="MovilCon reflejoOK.png" data-type="image" src="https://static.wixstatic.com/media/7c6de8_31c7afac6006464cad0b9b45b19fe48b~mv2.png/v1/fill/w_489,h_599,al_c,q_80,usm_0.66_1.00_0.01/MovilCon%20reflejoOK.webp" >
                             -->
                             <div class="videoVertical">
-                                <video autoplay muted loop >
-                                    <source src="recursos/videos/smartClover/Testvideo1.mp4" type="video/mp4">
-                                </video> 
+                                <!--                                <video autoplay muted loop >
+                                                                    <source src="recursos/videos/smartClover/Testvideo1.mp4" type="video/mp4">
+                                                                </video> -->
+                                <img src="recursos/img/smartClover/chatSchedule.JPG" style=" width: 200px; border-radius:5px;"/>
                             </div>
 
                         </div> 
@@ -645,7 +647,7 @@
                     <div class="col-xs-12 col-md-6 col-xl-5  "> 
                         <!--<div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">--> 
                         <div class="headingSmart col-12  col-md-10 offset-md-1 col-xl-8 offset-xl-2" >
-                            <h1 style="color: #de911d">THE BOT.</h1>
+                            <h1 style="color: #de911d">TEACHERS CHAT.</h1>
                         </div>
                         <div class="articleSmart col-12  col-md-10 offset-md-1 col-xl-8 offset-xl-2">  
                             <div class="d-none d-lg-block  col-2 lineTop"></div>
@@ -686,6 +688,7 @@
                                     <video autoplay muted loop >
                                         <source src="recursos/videos/smartClover/Testvideo1.mp4" type="video/mp4">
                                     </video> 
+<!--<img src="recursos/img/smartClover/candado.png" style=" width: 200px; border-radius:5px;"/>-->
                                 </div>
 
                             </div> 
@@ -696,10 +699,10 @@
 
         </main>
 
-        
-        
-         <a class="btnDemo" href="<c:url value='/index.htm?informacion=smartClover#Contact'/>">
-            <label class="arrow_box">Schedule a Demo</label>
+
+
+        <a class="btnDemo" href="<c:url value='/index.htm?informacion=smartClover#Contact'/>">
+            <label class="arrow_box"><spring:message code="request.demo"/></label>
             <img src="recursos/img/smartClover/bgDemoSmartClover.svg" style="width: 148px; position: fixed;">
         </a>  
 

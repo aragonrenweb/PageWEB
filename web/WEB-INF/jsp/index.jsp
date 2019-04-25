@@ -2543,8 +2543,8 @@
                     <h6 class="text-muted text-left">
                         Paseo de la Castellana 153<br>
                         Madrid<br> 
-                        Teléfono: +34 91 649 28 97<br>
-                        Correo electrónico: sales@eduwebgroup.com
+                        <spring:message code="telefonoContacto"/> +34 91 649 28 97<br>
+                        <spring:message code="correoElectronico"/> sales@eduwebgroup.com
                     </h6>
                 </div>
 

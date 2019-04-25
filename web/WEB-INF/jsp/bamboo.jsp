@@ -270,7 +270,9 @@
         </div>
 
         <img src="recursos/img/bamboo/LineaSeparacion-05.svg" class="lineaSeparacion">
-        <div class="row col-12 pt-3 mt-2 divIconosInvert"  >
+        <!--<div class="row col-12 pt-3 mt-2 divIconosInvert"  >-->
+                <div class="">
+
             <div class="col-12" style="text-align: center;">
                 <h2 class="colorTextBamboo"><spring:message code="BambooSupervisorsTit"/></h2>
                 <p class="pl-3 pr-3 text-center"><spring:message code="BambooSupervisorsBody1"/></p>
