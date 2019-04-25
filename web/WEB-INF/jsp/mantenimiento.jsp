@@ -13,7 +13,7 @@
     </head>
     <body>
         
-        <img src="recursos/img/mantenimiento.svg" >
+        <h1>Sitio en mantenimiento </h1>
        
     </body>
 </html>

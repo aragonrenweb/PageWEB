@@ -296,7 +296,7 @@
                 <p class="col-10 offset-1 text-center"><b><spring:message code="ParentsBody2"/></b> </p>
                 <p class="col-10 offset-1 text-center"><b><spring:message code="ParentsBody3"/></b> </p>
             </div>
-            <div class="col-12" style="text-align: center;">
+            <div class="col-12 col-lg-8 offset-lg-2" style="text-align: center;">
                 <div id="tablet">
 
                     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
