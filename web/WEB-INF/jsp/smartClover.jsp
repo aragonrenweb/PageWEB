@@ -63,9 +63,7 @@
                 margin: 100px;
                 padding: 0.25em 0.625em;
                 text-align: center;
-
             }
-
 
             .imgSmart {
                 /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
@@ -319,6 +317,7 @@
                     checkShowNavLateral();
                     checkShowScheduleDemo();
                 });
+                
                 $(window).resize(function () {
 
                     if ($(window).width() <= 680) {
@@ -555,7 +554,7 @@
                                 <!--                                <video autoplay muted loop>
                                                                     <source src="recursos/videos/smartClover/Testvideo1.mp4" type="video/mp4">
                                                                 </video> -->
-                                <img src="recursos/img/smartClover/chatOpciones.JPG" style=" width: 200px; border-radius:5px;"/>
+                                <img src="recursos/img/smartClover/chatOpciones.png" style=" width: 200px; border-radius:5px;"/>
                             </div>
 
                         </div> 
@@ -574,7 +573,7 @@
                                 <!--                                <video autoplay muted loop >
                                                                     <source src="recursos/videos/smartClover/Testvideo1.mp4" type="video/mp4">
                                                                 </video> -->
-                                <img src="recursos/img/smartClover/chatSchedule.JPG" style=" width: 200px; border-radius:5px;"/>
+                                <img src="recursos/img/smartClover/chatSchedule.png" style=" width: 200px; border-radius:5px;"/>
                             </div>
 
                         </div> 
@@ -619,9 +618,11 @@
                             <!--<img id="imgMovil" class="imgSmart" alt="MovilCon reflejoOK.png" data-type="image" src="https://static.wixstatic.com/media/7c6de8_31c7afac6006464cad0b9b45b19fe48b~mv2.png/v1/fill/w_489,h_599,al_c,q_80,usm_0.66_1.00_0.01/MovilCon%20reflejoOK.webp" >
                             -->
                             <div class="videoVertical">
-                                <video autoplay muted loop >
-                                    <source src="recursos/videos/smartClover/Testvideo1.mp4" type="video/mp4">
-                                </video> 
+                                <!--                                <video autoplay muted loop >
+                                                                    <source src="recursos/videos/smartClover/Testvideo1.mp4" type="video/mp4">
+                                                                </video> -->
+
+                                <img src="recursos/img/smartClover/construccion.svg" style=" width: 200px; border-radius:5px;"/>
                             </div>
 
                         </div> 
@@ -636,9 +637,10 @@
                             <!--<img id="imgMovil" class="imgSmart" alt="MovilCon reflejoOK.png" data-type="image" src="https://static.wixstatic.com/media/7c6de8_31c7afac6006464cad0b9b45b19fe48b~mv2.png/v1/fill/w_489,h_599,al_c,q_80,usm_0.66_1.00_0.01/MovilCon%20reflejoOK.webp" >
                             -->
                             <div class="videoVertical">
-                                <video autoplay muted loop>
+<!--                                <video autoplay muted loop>
                                     <source src="recursos/videos/smartClover/Testvideo1.mp4" type="video/mp4">
-                                </video> 
+                                </video> -->
+<img src="recursos/img/smartClover/construccion.svg" style=" width: 200px; border-radius:5px;"/>
                             </div>
 
                         </div> 
@@ -688,7 +690,7 @@
                                     <video autoplay muted loop >
                                         <source src="recursos/videos/smartClover/Testvideo1.mp4" type="video/mp4">
                                     </video> 
-<!--<img src="recursos/img/smartClover/candado.png" style=" width: 200px; border-radius:5px;"/>-->
+                                    <!--<img src="recursos/img/smartClover/candado.png" style=" width: 200px; border-radius:5px;"/>-->
                                 </div>
 
                             </div> 

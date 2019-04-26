@@ -127,7 +127,25 @@
     <script type="text/javascript">
         $(document).ready(function () {
             swapLogo("bamboo");
-
+            
+            
+            //para ocultar schedule a demo en la portada. 
+            checkShowScheduleDemo();
+            
+             $(window).scroll(function () {
+                    checkShowScheduleDemo();
+                });
+                
+              function checkShowScheduleDemo() {
+                if ($(".hero2").height() >= $(".btnDemo").offset().top) {
+                    $(".btnDemo label").hide();
+                    $(".btnDemo img").hide();
+                } else {
+                    $(".btnDemo label").show();
+                    $(".btnDemo img").show();
+                }
+            }
+            
             if ($(window).width() <= 680) {
                 $("#tablet").hide();
             } else {

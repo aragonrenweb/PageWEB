@@ -12,8 +12,9 @@
         <title>Mantenimiento</title>
     </head>
     <body>
-        
-        <h1>Sitio en mantenimiento </h1>
-       
+        <div class="col-xs-12">
+            <!--<div class="col-xs-12" style="text-align: center;"><h1>Sitio en mantenimiento</h1> </div>-->
+            <div class="col-xs-12" style="text-align: center;"><img src="recursos/img/construccionIdiomas.png"></div>
+        </div>
     </body>
 </html>
