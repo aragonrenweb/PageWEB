@@ -115,6 +115,13 @@ public class staticController {
  
     }
     
+     @RequestMapping("/schedule.htm")
+    public ModelAndView schedule(HttpServletRequest request, HttpServletResponse hsr1) throws Exception {
+        String paramIdioma = request.getLocale().getLanguage();
+        return new ModelAndView("redirect:/datosIdioma.htm?idioma="+paramIdioma+"&page=schedule");
+ 
+    }
+    
     /*politicas privacidad, cambiar request.getLocale por la variable del idioma en el que pinchen*/
     
     @RequestMapping("/privacyPolicy.htm")

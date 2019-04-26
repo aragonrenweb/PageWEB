@@ -515,9 +515,6 @@
             max-width: none;
         }
 
-
-
-
         .calendarTitle{
             color: #8bc26e;
         }
@@ -812,19 +809,19 @@
             <a class="navbar-brand logoMenuApps" id="logoMenuApp0" onclick="showIconsApps()" style="opacity: 0">
                 <img src="recursos/img/LogosMenu/LogoFacts.svg" >
             </a> 
-            <a class="navbar-brand logoMenuApps" id="logoMenuApp1" value="facts" href="<c:url value="/facts.htm" />">
+            <a class="navbar-brand logoMenuApps" id="logoMenuApp1" value="facts" href="<c:url value="https://factsmgt.com/"/>">
                 <img src="recursos/img/LogosMenu/LogoFacts.svg" >
             </a>
-            <a class="navbar-brand logoMenuApps" id="logoMenuApp2" value="bamboo" href="<c:url value="/bamboo.htm" />">
+            <a class="navbar-brand logoMenuApps" id="logoMenuApp2" value="bamboo" href="<c:url value="/bamboo.htm?idioma=${idioma}"/>">
                 <img src="recursos/img/LogosMenu/LogoBamboo.svg" >
             </a>
-            <a class="navbar-brand logoMenuApps" id="logoMenuApp3" value="smartClover" href="<c:url value="/smartClover.htm" />">
+            <a class="navbar-brand logoMenuApps" id="logoMenuApp3" value="smartClover" href="<c:url value="/smartClover.htm?idioma=${idioma}"/>">
                 <img src="recursos/img/LogosMenu/LogoSmartClover.svg" >
             </a>
-            <a class="navbar-brand logoMenuApps" id="logoMenuApp4" value="scheduler" href="<c:url value="/bamboo.htm" />">
+            <a class="navbar-brand logoMenuApps" id="logoMenuApp4" value="scheduler" href="<c:url value="/schedule.htm?idioma=${idioma}"/>">
                 <img src="recursos/img/LogosMenu/LogoMschedules.svg" >
             </a>
-            <a class="navbar-brand logoMenuApps" id="logoMenuApp5" value="schoolView" href="<c:url value="/schoolAnalytics.htm" />">
+            <a class="navbar-brand logoMenuApps" id="logoMenuApp5" value="schoolView" href="<c:url value="/schoolAnalytics.htm?idioma=${idioma}"/>">
                 <img src="recursos/img/LogosMenu/LogoChartSchool.svg" >
             </a>
         </div>
