@@ -13,25 +13,26 @@
         <title>FACTS</title>       
 
         <style>
-              .hero2 {
-            /* Sizing */
-            width: 100vw;
-            height: 100vh;
 
-            /* Flexbox stuff */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            /* Text styles */
-            text-align: center;
-            /* Background styles */
-            background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('recursos/img/Facts/factsqueincluye/LogoFacts.svg');
-            background-size: cover;
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-        }
-        
+            .hero2 {
+                /* Sizing */
+                width: 100vw;
+                height: 100vh;
+
+                /* Flexbox stuff */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                /* Text styles */
+                text-align: center;
+                /* Background styles */
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('recursos/img/Facts/factsqueincluye/LogoFacts.svg');
+                background-size: cover;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+
             .colorTextFacts{
                 color: #29abe2;
                 font-weight: bold;
@@ -51,7 +52,36 @@
                 animation-name: shake-with-delay;
                 animation-duration: 6s;
                 animation-iteration-count: infinite;
-                margin-right: 125px;
+                margin-right: 80px;
+            }
+
+            #btnDemoIcono{
+                width:100px;
+                position:fixed;
+            } 
+
+
+            @media (min-width: 768px) {
+                #btnDemoIcono{
+                    width:148px;
+                    position:fixed;
+                } 
+
+                .arrow_box {
+                    position: relative;
+                    background: transparent url('recursos/img/Facts/factsqueincluye/bgFactsDemo.svg') 4px 0px no-repeat;
+                    padding: 25px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    background-size: 100% 100%;
+                    font-size: large;
+                    font-weight: normal;
+                    color: #3c3c3c; 
+                    animation-name: shake-with-delay;
+                    animation-duration: 6s;
+                    animation-iteration-count: infinite;
+                    margin-right: 125px;
+                }
             }
         </style>
     </head>
@@ -59,31 +89,23 @@
 
     <script>
         $(document).ready(function () {
-            // swapLogo("facts");
-//                           });
-//            function swapLogo(valLogo) {
-//                var auxVal = $("#menuDesplegable a[value='" + valLogo + "']").attr("value");
-//                var auxRef = $("#menuDesplegable a[value='" + valLogo + "']").attr("href");
-//                var img = $("#menuDesplegable a[value='" + valLogo + "'] img").attr("src");
-//
-//
-//                $("#menuDesplegable a[value='" + valLogo + "']").attr("href", $("#menuDesplegable a").first().next().attr("href"));
-//                $("#menuDesplegable a[value='" + valLogo + "']").empty();
-//                $("#menuDesplegable a[value='" + valLogo + "']").append('<img src="' + $("#menuDesplegable a img").attr("src") + '" >');
-//                $("#menuDesplegable a[value='" + valLogo + "']").attr("value", $("#menuDesplegable a").first().next().attr("value"));
-//
-//                $("#menuDesplegable a").first().next().attr("value", auxVal);
-//                $("#menuDesplegable a").first().next().attr("href", auxRef);
-//                $("#menuDesplegable a").first().next().empty();
-//                $("#menuDesplegable a").first().next().append('<img src="' + img + '" >');
-//            }
-//            function showInfo(idContenedor) {
-//                $(".contDescipInner").hide();
-//                $("#" + idContenedor).show();
-//            }
+            checkShowScheduleDemo();
+            
+             $(window).scroll(function () {
+                    checkShowScheduleDemo();
+                });
+                
+              function checkShowScheduleDemo() {
+                if ($(".hero2").height() >= $(".btnDemo").offset().top) {
+                    $(".btnDemo label").hide();
+                    $(".btnDemo img").hide();
+                } else {
+                    $(".btnDemo label").show();
+                    $(".btnDemo img").show();
+                }
+            }
 
-
-        }
+        });
 
 
     </script>
@@ -98,7 +120,6 @@
     </section>
     <main>
         <div class="row mt-2 pb-2">
-
             <div class="col-12 col-lg-12 mt-5 mt-lg-0 d-flex justify-content-around align-items-center ">
                 <div class="col-12 divIconos mt-2">
                     <div class="col-12">
@@ -404,7 +425,7 @@
 
     <a class="btnDemo" href="<c:url value='/index.htm?informacion=facts#Contact'/>">
         <label class="arrow_box"><spring:message code="request.demo"/></label>
-        <img src="recursos/img/Facts/factsqueincluye/facts.svg" style="width: 148px; position: fixed;">
+        <img src="recursos/img/Facts/factsqueincluye/facts.svg" id="btnDemoIcono">
     </a>        
 
 

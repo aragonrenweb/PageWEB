@@ -60,26 +60,6 @@
                 text-align: center;
             }
 
-            /*            .arrow_box {
-                            position: relative;
-                            background: transparent url('recursos/img/bamboo/bgBambooDemo.svg') 4px 0px no-repeat;
-                            padding: 25px;
-                            padding-left: 15px;
-                            padding-right: 15px;
-                            background-size: 100% 100%;
-                            font-size: large;
-                            font-weight: normal;
-                            color: #3c3c3c; 
-                            animation-name: shake-with-delay;
-                            animation-duration: 6s;
-                            animation-iteration-count: infinite;
-                            margin-right: 125px;
-                        }
-            
-                        #btnDemoIcono{
-                            width:148px;
-                            position:fixed;
-                        }            */
 
             /*Extra small devices (portrait phones, less than 576px)*/
             @media (min-width: 576px) {
@@ -118,7 +98,6 @@
             @media (min-width: 1200px) { 
 
             }
-
            
         </style>
     </head>
@@ -126,8 +105,7 @@
 
     <script type="text/javascript">
         $(document).ready(function () {
-            swapLogo("bamboo");
-            
+            swapLogo("bamboo");            
             
             //para ocultar schedule a demo en la portada. 
             checkShowScheduleDemo();
@@ -201,6 +179,7 @@
         });
 
     </script>
+    
     <section  class="hero2">
         <div class="hero2-inner">
             <h1>Bamboo for Montessori schools</h1>

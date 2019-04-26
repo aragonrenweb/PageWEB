@@ -234,25 +234,13 @@
                 animation-name: shake-with-delay;
                 animation-duration: 6s;
                 animation-iteration-count: infinite;
-                margin-right: 125px;
+                margin-right: 80px;
             }
-            /* .arrow_box:after, .arrow_box:before {
-                 left: 95%;
-                 top: 50%;
-                 border: solid transparent;
-                 content: " ";
-                 height: 0;
-                 width: 0;
-                 position: absolute;
-                 pointer-events: none;
-             }
- 
-             .arrow_box:after {
-                 border-color: rgba(136, 183, 213, 0);
-                 border-left-color: #127733;
-                 border-width: 4px;
-                 margin-top: -4px;
-             }*/
+
+            #btnDemoIcono{
+                width:100px;
+                position:fixed;
+            } 
 
             @keyframes shake-with-delay {
                 from, 16%, to {
@@ -300,6 +288,29 @@
                 margin-top: 15px;
                 margin-bottom: 5px;
             }
+
+            @media (min-width: 768px) {
+                #btnDemoIcono{
+                    width:148px;
+                    position:fixed;
+                } 
+
+                .arrow_box {
+                    position: relative;
+                    background: transparent url('recursos/img/smartClover/bgScheduleDemo.svg') 4px 0px no-repeat;
+                    padding: 25px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    background-size: 100% 100%;
+                    font-size: large;
+                    font-weight: normal;
+                    color: #3c3c3c; 
+                    animation-name: shake-with-delay;
+                    animation-duration: 6s;
+                    animation-iteration-count: infinite;
+                    margin-right: 125px;
+                }
+            }
         </style>
 
         <script type="text/javascript">
@@ -317,7 +328,7 @@
                     checkShowNavLateral();
                     checkShowScheduleDemo();
                 });
-                
+
                 $(window).resize(function () {
 
                     if ($(window).width() <= 680) {
@@ -556,7 +567,6 @@
                                                                 </video> -->
                                 <img src="recursos/img/smartClover/chatOpciones.png" style=" width: 200px; border-radius:5px;"/>
                             </div>
-
                         </div> 
                     </div>
                 </div> 
@@ -575,7 +585,6 @@
                                                                 </video> -->
                                 <img src="recursos/img/smartClover/chatSchedule.png" style=" width: 200px; border-radius:5px;"/>
                             </div>
-
                         </div> 
                     </div>
 
@@ -592,12 +601,9 @@
                             </div>
                         </div> 
                     </div> 
-
                 </div> 
 
-
                 <div class="col-6 offset-3 hrSmart"></div>   
-
 
                 <div class="row fila mb-3" id="fila5"> 
                     <div class="col-xs-12 col-md-6 col-xl-5 offset-xl-1"> 
@@ -624,7 +630,6 @@
 
                                 <img src="recursos/img/smartClover/construccion.svg" style=" width: 200px; border-radius:5px;"/>
                             </div>
-
                         </div> 
                     </div>
                 </div> 
@@ -637,10 +642,10 @@
                             <!--<img id="imgMovil" class="imgSmart" alt="MovilCon reflejoOK.png" data-type="image" src="https://static.wixstatic.com/media/7c6de8_31c7afac6006464cad0b9b45b19fe48b~mv2.png/v1/fill/w_489,h_599,al_c,q_80,usm_0.66_1.00_0.01/MovilCon%20reflejoOK.webp" >
                             -->
                             <div class="videoVertical">
-<!--                                <video autoplay muted loop>
-                                    <source src="recursos/videos/smartClover/Testvideo1.mp4" type="video/mp4">
-                                </video> -->
-<img src="recursos/img/smartClover/construccion.svg" style=" width: 200px; border-radius:5px;"/>
+                                <!--                                <video autoplay muted loop>
+                                                                    <source src="recursos/videos/smartClover/Testvideo1.mp4" type="video/mp4">
+                                                                </video> -->
+                                <img src="recursos/img/smartClover/construccion.svg" style=" width: 200px; border-radius:5px;"/>
                             </div>
 
                         </div> 
@@ -698,14 +703,13 @@
                     </div> 
                 </div> 
             </div>
-
         </main>
 
 
 
         <a class="btnDemo" href="<c:url value='/index.htm?informacion=smartClover#Contact'/>">
             <label class="arrow_box"><spring:message code="request.demo"/></label>
-            <img src="recursos/img/smartClover/bgDemoSmartClover.svg" style="width: 148px; position: fixed;">
+            <img src="recursos/img/smartClover/bgDemoSmartClover.svg" id="btnDemoIcono">
         </a>  
 
     </body>
