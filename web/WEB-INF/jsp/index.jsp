@@ -1485,35 +1485,6 @@
 
 //                privacy policy
 
-            function privacyPolicySL() {
-                $("#privacyPolicySL").show();
-                $("#privacyPolicyINC").hide();
-                $("#privacyPolicyCon").hide();
-                $("#privacyPayments").hide();
-            }
-
-            function privacyPolicyINC() {
-                $("#privacyPolicySL").hide();
-                $("#privacyPolicyINC").show();
-                $("#privacyPolicyCon").hide();
-                $("#privacyPayments").hide();
-            }
-
-            function privacyPolicyCon() {
-                $("#privacyPolicySL").hide();
-                $("#privacyPolicyINC").hide();
-                $("#privacyPolicyCon").show();
-                $("#privacyPayments").hide();
-            }
-
-            function privacyPayments() {
-                $("#privacyPolicySL").hide();
-                $("#privacyPolicyINC").hide();
-                $("#privacyPolicyCon").hide();
-                $("#privacyPayments").show();
-
-            }
-
             function generateSvgMoreInfo(color, direction) {
                 var svgImage = "";
                 if (direction === "right") {
@@ -2612,10 +2583,10 @@
                         padding: 0;
                         overflow: hidden;">
                         <h6 class="font-weight-bold text-uppercase mt-3 mb-4 text-left"><spring:message code="footAboutUs"/></h6>
-                        <li style="float:left; text-align: initial;"><a href="<c:url value='/privacyPolicy.htm?politicapri=privacyPolicy?idioma=en#privacyPolicyEduwebSL'/>" target="_blank"><spring:message code="polp.pest1"/></a></li><br>
-                        <li style="float:left; text-align: initial;"><a href="<c:url value='/privacyPolicy.htm?politicapri=privacyPolicy#privacyPolicyEduwebINC'/>" target="_blank"><spring:message code="polp.pest2"/></a></li><br>
-                        <li style="float:left; text-align: initial;"><a href="<c:url value='/privacyPolicy.htm?politicapri=privacyPolicy#privacyPolicyEduwebServices'/>" target="_blank"><spring:message code="polp.pest3"/></a></li><br>
-                        <li style="float:left; text-align: initial;"><a href="<c:url value='/privacyPolicy.htm?politicapri=privacyPolicy#generalConditions'/>"target="_blank" ><spring:message code="condgen.tit"/></a></li><br>
+                        <li style="float:left; text-align: initial;"><a href="<c:url value='/privacyPolicy.htm?politicapri=privacyPolicy?idioma=${idioma}#privacyPolicyEduwebSL'/>" target="_blank"><spring:message code="polp.pest1"/></a></li><br>
+                        <li style="float:left; text-align: initial;"><a href="<c:url value='/privacyPolicy.htm?politicapri=privacyPolicy?idioma=${idioma}#privacyPolicyEduwebINC'/>" target="_blank"><spring:message code="polp.pest2"/></a></li><br>
+                        <li style="float:left; text-align: initial;"><a href="<c:url value='/privacyPolicy.htm?politicapri=privacyPolicy?idioma=${idioma}#privacyPolicyEduwebServices'/>" target="_blank"><spring:message code="polp.pest3"/></a></li><br>
+                        <li style="float:left; text-align: initial;"><a href="<c:url value='/privacyPolicy.htm?politicapri=privacyPolicy?idioma=${idioma}#generalConditions'/>"target="_blank" ><spring:message code="condgen.tit"/></a></li><br>
                     </ul>
                 </div>
 
@@ -2684,8 +2655,8 @@
 
         <div class="col-md-3 md-offset-1 col-xs-12 text-left">
             <i class='fa fa-globe-americas' style="margin-left: 25%; margin-right: 2%;"></i>
-            <a href="index.htm?lenguaje=en"> EN </a> -
-            <a href="index.htm?lenguaje=es"> ES </a>
+            <a href="index.htm?idioma=en"> EN </a> -
+            <a href="index.htm?idioma=es"> ES </a>
             <!--<a href="index.htm?lenguaje=ar"> AR </a> -->
 
         </div>

@@ -135,7 +135,7 @@ public class staticController {
     @RequestMapping("/index.htm")
     public ModelAndView index(HttpServletRequest request, HttpServletResponse response) throws Exception {
  
-        String paramIdioma = request.getParameter("lenguaje");
+        String paramIdioma = request.getParameter("idioma");
         if(paramIdioma == null)
             paramIdioma = "en";
         

@@ -1165,7 +1165,7 @@
         </div>        
     </main>
 
-    <a class="btnDemo" href="<c:url value='/index.htm?idioma=${idioma}?informacion=bamboo#Contact'/>">
+    <a class="btnDemo" href="<c:url value='/index.htm?idioma=${idioma}&informacion=bamboo#Contact'/>">
         <label class="arrow_box"><spring:message code="request.demo"/></label>
         <img src="recursos/img/bamboo/bambooBtnDemo.svg" id="btnDemoIcono">
     </a>        

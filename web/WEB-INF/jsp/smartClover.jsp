@@ -7,6 +7,10 @@
         <script src="recursos/js/jquery-1.9.1.min.js" type="text/javascript"></script>
         <title >Smart Clover</title>
         <style>
+            
+            #fila4{
+                flex-direction: column-reverse;                
+            }
 
             #fila7{
 
@@ -224,7 +228,6 @@
             .arrow_box {
                 position: relative;
                 background: transparent url('recursos/img/smartClover/bgScheduleDemo.svg') 4px 0px no-repeat;
-
                 padding: 25px;
                 padding-left: 15px;
                 padding-right: 15px;
@@ -235,11 +238,10 @@
                 animation-name: shake-with-delay;
                 animation-duration: 6s;
                 animation-iteration-count: infinite;
-                margin-right: 80px;
-                cursor:pointer;                
+                margin-right: 80px;               
             }
 
-            #btnDemoIcono{
+           #btnDemoIcono{
                 width:100px;
                 position:fixed;
             } 
@@ -290,7 +292,10 @@
                 margin-top: 15px;
                 margin-bottom: 5px;
             }
-
+            
+            .smartphoneHorizontal{
+                margin-top:130px;
+            }
             @media (min-width: 768px) {
                 #btnDemoIcono{
                     width:148px;
@@ -312,6 +317,9 @@
                     animation-iteration-count: infinite;
                     margin-right: 125px;
                 }
+                #fila4{
+                flex-direction: row;                
+            }
             }
             .imgSvg{
                 -webkit-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.75);
@@ -585,7 +593,7 @@
 
 
                 <div class="row fila mb-3" id="fila4"> 
-                    <div class="d-none d-md-block  col-xs-12 col-md-6 col-xl-5 offset-xl-1 filaVideo" data-aos="fade-left"  data-aos-offset="300"> 
+                    <div class="col-xs-12 col-md-6 col-xl-5 offset-xl-1 filaVideo" data-aos="fade-left"  data-aos-offset="300"> 
                         <div class=" col-xs-12  col-md-10 offset-md-1"> 
                             <!--<img id="imgMovil" class="imgSmart" alt="MovilCon reflejoOK.png" data-type="image" src="https://static.wixstatic.com/media/7c6de8_31c7afac6006464cad0b9b45b19fe48b~mv2.png/v1/fill/w_489,h_599,al_c,q_80,usm_0.66_1.00_0.01/MovilCon%20reflejoOK.webp" >
                             -->
@@ -611,18 +619,18 @@
                             </div>
                         </div> 
                     </div>
-                    <div class="d-block d-md-none col-xs-12 col-md-6 col-xl-5 offset-xl-1 filaVideo" data-aos="fade-left"  data-aos-offset="300"> 
+<!--                    <div class="d-block d-md-none col-xs-12 col-md-6 col-xl-5 offset-xl-1 filaVideo" data-aos="fade-left"  data-aos-offset="300"> 
                         <div class=" col-xs-12  col-md-10 offset-md-1"> 
-                            <!--<img id="imgMovil" class="imgSmart" alt="MovilCon reflejoOK.png" data-type="image" src="https://static.wixstatic.com/media/7c6de8_31c7afac6006464cad0b9b45b19fe48b~mv2.png/v1/fill/w_489,h_599,al_c,q_80,usm_0.66_1.00_0.01/MovilCon%20reflejoOK.webp" >
-                            -->
+                            <img id="imgMovil" class="imgSmart" alt="MovilCon reflejoOK.png" data-type="image" src="https://static.wixstatic.com/media/7c6de8_31c7afac6006464cad0b9b45b19fe48b~mv2.png/v1/fill/w_489,h_599,al_c,q_80,usm_0.66_1.00_0.01/MovilCon%20reflejoOK.webp" >
+                            
                             <div class="videoVertical">
-                                <!--                                <video autoplay muted loop >
+                                                                <video autoplay muted loop >
                                                                     <source src="recursos/videos/smartClover/Testvideo1.mp4" type="video/mp4">
-                                                                </video> -->
+                                                                </video> 
                                 <img class="imgSvg" src="recursos/img/smartClover/SmartClover-02.svg" style=" width: 200px;"/>
                             </div>
                         </div> 
-                    </div>
+                    </div>-->
 
                 </div> 
 
@@ -745,7 +753,7 @@
 
 
 
-        <a class="btnDemo" href="<c:url value='/index.htm?informacion=smartClover#Contact'/>">
+        <a class="btnDemo" href="<c:url value='/index.htm?idioma=${idioma}&informacion=smartClover#Contact'/>">
             <label class="arrow_box"><spring:message code="request.demo"/></label>
             <img src="recursos/img/smartClover/bgDemoSmartClover.svg" id="btnDemoIcono">
         </a>  
