@@ -730,6 +730,7 @@
                     transform: skewX(0deg);
                     max-width: 27%;
                     margin-left: 4.5%;
+                    min-height: 400px;
                     max-height: 680px;
                     flex-direction: column;
                     margin-top:10px;
@@ -743,7 +744,8 @@
                     transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-                    max-height: 550px;
+                    min-height: 400px;
+                    max-height: 650px;
                     flex-direction: column;
                     margin-top: 0px;
                     padding-top: 15px;
@@ -754,7 +756,8 @@
                     transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-                    max-height: 550px !important;
+                    min-height: 400px;
+                    max-height: 650px !important;
                     flex-direction: column;
                     margin-top:0px;
                     padding-top:15px;
@@ -765,7 +768,8 @@
                     transform: skewX(4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-                    max-height: 550px;
+                    min-height: 400px;
+                    max-height: 650px;
                     flex-direction: column;
                     margin-top:0px;
                     padding-top:15px;
@@ -775,7 +779,8 @@
                     transform: skewX(-4deg);
                     max-width: 27%;
                     margin-left: 4.5%;
-                    max-height: 550px;
+                    min-height: 400px;
+                    max-height: 650px;
                     flex-direction: column;
                     margin-top:0px;
                     padding-top:15px;
@@ -919,9 +924,40 @@
                 .cardPrincipalFacts .cardInfo{
                     max-height: 620px;
                 }
+                
+                .cardPrincipalBamboo .cardInfo{
+                    max-height: 620px;
+                }
+                
+                .cardPrincipalSmartClover .cardInfo{
+                    max-height: 620px;
+                }
+                
+                .cardPrincipalScheduler .cardInfo{
+                    max-height: 620px;
+                }
+                
+                .cardPrincipalSchoolAnalytics .cardInfo{
+                    max-height: 620px;
+                }
             }
             @media (min-width: 1600px) {
                 .cardPrincipalFacts .cardInfo{
+                    max-height: 580px;
+                }
+                .cardPrincipalBamboo .cardInfo{
+                    max-height: 580px;
+                }
+                
+                .cardPrincipalSmartClover .cardInfo{
+                    max-height: 580px;
+                }
+                
+                .cardPrincipalScheduler .cardInfo{
+                    max-height: 580px;
+                }
+                
+                .cardPrincipalSchoolAnalytics .cardInfo{
                     max-height: 580px;
                 }
             }
@@ -929,6 +965,22 @@
                 .cardPrincipalFacts .cardInfo{
                     max-height: 520px;
                 }
+                .cardPrincipalBamboo .cardInfo{
+                    max-height: 520px;
+                }
+                
+                .cardPrincipalSmartClover .cardInfo{
+                    max-height: 520px;
+                }
+                
+                .cardPrincipalScheduler .cardInfo{
+                    max-height: 520px;
+                }
+                
+                .cardPrincipalSchoolAnalytics .cardInfo{
+                    max-height: 520px;
+                }
+                
             }
 
 
@@ -2112,8 +2164,8 @@
 
                 </div>
                 <div class="col-12 col-md-4 cardInfo">
-                    <div class="col-12"><h4 class="text-center" style="transform: skewX(-4deg);"> <spring:message code="body.BAMBOO.left1"/></h4></div>
-                    <div class="col-12 col-lg-10 offset-lg-1 text-center" style="transform: skewX(-4deg);">
+                    <div class="col-12"><h4 class="text-center" style="transform: skewX(0deg);"> <spring:message code="body.BAMBOO.left1"/></h4></div>
+                    <div class="col-12 col-lg-10 offset-lg-1 text-center" style="transform: skewX(0deg);">
                         <p class="mb-3"><spring:message code="body.BAMBOO.left2"/>
                         </p>
                         <li><spring:message code="body.BAMBOO.left3"/></li>
@@ -2122,8 +2174,8 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-4 cardInfo lineTopGray">
-                    <div class="col-12"><h4 class="text-center" style="transform: skewX(-4deg);"><spring:message code="body.BAMBOO.center1"/></h4></div>
-                    <div class="col-12 col-lg-10 offset-lg-1 text-center" style="transform: skewX(-4deg);">
+                    <div class="col-12"><h4 class="text-center" style="transform: skewX(0deg);"><spring:message code="body.BAMBOO.center1"/></h4></div>
+                    <div class="col-12 col-lg-10 offset-lg-1 text-center" style="transform: skewX(0deg);">
                         <p class="mb-3"><spring:message code="body.BAMBOO.center2"/> <spring:message code="home.SIS1"/> <spring:message code="body.BAMBOO.center3"/> </p>
                         <li><spring:message code="body.BAMBOO.center4"/></li>
                         <li><spring:message code="body.BAMBOO.center5"/></li>
@@ -2131,8 +2183,8 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-4 cardInfo lineTopGray">
-                    <div class="col-12"><h4 class="text-center" style="transform: skewX(-4deg);"><spring:message code="body.BAMBOO.right1"/></h4></div>
-                    <div class="col-12 col-lg-10 offset-lg-1 text-center" style="transform: skewX(-4deg);">
+                    <div class="col-12"><h4 class="text-center" style="transform: skewX(0deg);"><spring:message code="body.BAMBOO.right1"/></h4></div>
+                    <div class="col-12 col-lg-10 offset-lg-1 text-center" style="transform: skewX(0deg);">
                         <p class="mb-3"><spring:message code="body.BAMBOO.right2"/></p>
                         <li><spring:message code="body.BAMBOO.right3"/></li>
                         <li><spring:message code="body.BAMBOO.right4"/></li>
@@ -2168,9 +2220,9 @@
 
             <div class="row col-12  pr-0">
                 <div class="position-absolute imgTitleLeft imgTitleSize d-none d-md-block">
-                    <!--                <a class="navbar-brand logoMenuApps" href="#">
-                                        <img src="recursos/img/LogosMenu/LogoSmartClover.svg"/>
-                                    </a> -->
+<!--                    <a class="navbar-brand logoMenuApps" href="#">
+                        <img src="recursos/img/LogosMenu/LogoSmartClover.svg"/>
+                    </a> -->
                 </div>
                 <div class="col-12 col-md-4 cardInfo">
                     <div class="col-12"><h4 class="text-center" style="transform: skewX(0deg);"><spring:message code="body.SMARTCLOVER.left1"/></h4></div>
@@ -2212,9 +2264,14 @@
 
         <div class="mb-sm-4 mb-2 mb-md-3 row cardPrincipal cardPrincipalSchoolAnalytics" id="cPrincSchoolAnalytics">
             <div class="col-12 bgSchoolAnalytics d-flex d-md-none" >
-                <div class="col-12 d-flex align-items-center justify-content-center">
+                <div class="col-12 d-flex align-items-center justify-content-center" style="padding-left: 5px">
                     <h1>School Analytics</h1>
                 </div>
+                    <div class="position-absolute imgTitle">
+                    <a class="navbar-brand logoMenuApps" href="#">
+                        <img src="recursos/img/schoolAnalytics/LogoChartSchool.svg"/>
+                    </a>
+                </div>    
             </div>
 
 

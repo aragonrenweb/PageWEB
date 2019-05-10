@@ -59,7 +59,21 @@
                 font-weight: bold;
                 text-align: center;
             }
+            
+            .hero2>footer{
+                position: absolute;
+                bottom: 1px;
+                right: 1px;
+                display: flex;
+                color: white;
+                align-items: flex-end;
+                margin-right: 5px;
 
+            }
+            .hero2>footer>label{
+                margin-right: 10px;
+                font-weight: normal;
+            }
 
             /*Extra small devices (portrait phones, less than 576px)*/
             @media (min-width: 576px) {
@@ -87,6 +101,7 @@
                     animation-duration: 6s;
                     animation-iteration-count: infinite;
                     margin-right: 125px;
+                    cursor:pointer;
                 }
             }
 
@@ -180,11 +195,21 @@
 
     </script>
     
+    
+    
     <section  class="hero2">
         <div class="hero2-inner">
             <h1>Bamboo for Montessori schools</h1>
             <h2>-Digitally Transforming Montessori Schools-</h2>
         </div>
+            <footer>
+                <label>
+                    Available for: 
+                </label>
+                <div style="display: flex;margin-bottom: 2px;align-items: baseline;">
+                    <img id="comp-jn0wb7lfimgimage" alt="logo bamboo.png" data-type="image" src="recursos/img/smartClover/logo-facts_white.svg" style="width: 119px; height: 30px; object-fit: cover;"> 
+                </div>
+            </footer>
     </section>
     <main>
         <div class="row mt-2 pb-2">
@@ -1140,7 +1165,7 @@
         </div>        
     </main>
 
-    <a class="btnDemo" href="<c:url value='/index.htm?informacion=bamboo#Contact'/>">
+    <a class="btnDemo" href="<c:url value='/index.htm?idioma=${idioma}?informacion=bamboo#Contact'/>">
         <label class="arrow_box"><spring:message code="request.demo"/></label>
         <img src="recursos/img/bamboo/bambooBtnDemo.svg" id="btnDemoIcono">
     </a>        
@@ -1611,7 +1636,7 @@
                             padding: 0px;
                             text-align: center;
                             color: #3aaa35;
-                            ">What I am learning now?</h4>
+                            "><spring:message code="modalwhatstit"/></h4>
                     </div>
                     <div class="modal-body text-center">
                         <!--The parent will know what the child is working on this week, celebrate the child accomplishments and engage the child in the topics he is learning.-->  
@@ -1634,7 +1659,7 @@
                             padding: 0px;
                             text-align: center;
                             color: #3aaa35;
-                            ">What I am learning now?</h4>
+                            "><spring:message code="modalwhatstit"/></h4>
                     </div>
                     <div class="modal-body">
                         <div id="whatsDoingPage" class="col-xs-12" style="display: block;">  
@@ -1651,8 +1676,7 @@
                                 <div class="col-12">
                                     <div data-toggle="collapse" data-target="#demo2"><div class="objectiveWhats" style="
                                                                                           display: flex;
-                                                                                          color: #f99927;
-                                                                                          align-items: center;cursor: pointer;
+                                                                                          color: #f99927;                                                                                          
                                                                                           ">
                                             <img style="width:20px;height: 20px" src="recursos/img/bamboo/target.svg"    alt="image">
                                             <!--                                            <div>Study of Plants</div>-->

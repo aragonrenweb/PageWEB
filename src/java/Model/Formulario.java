@@ -22,7 +22,8 @@ public class Formulario {
     
     
     public String generateBody(){
-        return "<b>Name:</b> "+ name +"<br>" + "<b>School name:</b> "+ schoolName +"<br>" + "<b>Number of students:</b> "+ numStudents +"<br>" + "<b>Email:</b> "+ email +"<br>"+ "<b>Phone:</b> "+ phone +"<br>" +  "<b>Message:</b> <br>"+message;
+        return "<b>Name:</b> "+ name +"<br>" + "<b>School name:</b> "+ schoolName +"<br>" + "<b>Number of students:</b> "+ numStudents +"<br>" + "<b>Email:</b> "+ email +"<br>"+ "<b>Phone:</b> "+ phone +"<br>" +  "<b>Message:</b> <br>"+message
+                + "<b>Desde:</b>"+informacion;
     }
 
     public String getName() {

@@ -45,7 +45,7 @@
                 padding: 25px;
                 padding-left: 15px;
                 padding-right: 15px;
-                background-size: 100% 100%;
+                background-size: 100%;
                 font-size: large;
                 font-weight: normal;
                 color: #3c3c3c; 
@@ -53,6 +53,7 @@
                 animation-duration: 6s;
                 animation-iteration-count: infinite;
                 margin-right: 80px;
+                cursor:pointer;
             }
 
             #btnDemoIcono{
@@ -69,7 +70,7 @@
 
                 .arrow_box {
                     position: relative;
-                    background: transparent url('recursos/img/schoolAnalytics/bgSchoolDemo.svg') 4px 0px no-repeat;
+                    background: transparent url('recursos/img/schoolAnalytics/bgSchoolDemoCopia.svg') 4px 0px no-repeat;
                     padding: 25px;
                     padding-left: 15px;
                     padding-right: 15px;
@@ -208,7 +209,7 @@
         </div>
     </main>
 
-   <a class="btnDemo" href="<c:url value='/index.htm?informacion=schoolAnalytics#Contact'/>">
+   <a class="btnDemo" href="<c:url value='/index.htm?idioma=${idioma}?informacion=schoolAnalytics#Contact'/>">
         <label class="arrow_box">Schedule a Demo</label>
         <img src="recursos/img/schoolAnalytics/bgDemoSchool.svg" id="btnDemoIcono">
     </a>       

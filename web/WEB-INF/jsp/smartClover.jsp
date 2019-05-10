@@ -236,6 +236,7 @@
                 animation-duration: 6s;
                 animation-iteration-count: infinite;
                 margin-right: 80px;
+                cursor:pointer;                
             }
 
             #btnDemoIcono{
@@ -489,10 +490,10 @@
                                     <label style="color: #de911d"> 2. Parent Consultation Bot  </label> 
                                 </div>
                                 <div class="col-xs-12 badgeClover" data-aos="fade-left"  data-aos-offset="225">
-                                    <label style="color: #863e87"> 3. Maintenance Jobs  </label> 
+                                    <label style="color: #863e87"> 3. Maintenance Jobs  (Developing)</label> 
                                 </div>
                                 <div class="col-xs-12 badgeClover" data-aos="fade-left"  data-aos-offset="300">
-                                    <label style="color: #2b7b4f"> 4. Teacher Chat  </label> 
+                                    <label style="color: #2b7b4f"> 4. Teacher Chat  (Developing)</label> 
                                 </div>
                             </div>
                         </div> 
