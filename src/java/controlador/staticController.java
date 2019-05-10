@@ -142,6 +142,7 @@ public class staticController {
         ModelAndView mv = new ModelAndView("redirect:/datosIdioma.htm");
         
         mv.addObject("idioma", paramIdioma);
+        mv.addObject("informacion",request.getParameter("informacion"));
 //        mv.addObject("idioma", request.getLocale().getLanguage());
         mv.addObject("page", "index");
         return mv;

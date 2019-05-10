@@ -8,7 +8,7 @@
         <title >Smart Clover</title>
         <style>
 
-            #bgFila7{
+            #fila7{
 
                 /* Background styles */
                 background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('recursos/img/smartClover/background_wood.jpg');
@@ -193,6 +193,7 @@
                 padding-right: 8px;
                 padding-left: 8px;
                 color: white;
+                font-weight: bold;
             }
             .filaContenido h1{
                 margin-bottom: 20px;
@@ -311,6 +312,12 @@
                     margin-right: 125px;
                 }
             }
+            .imgSvg{
+                -webkit-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.75);
+                -moz-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.75);
+                box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.75);
+                border-radius: 15px;
+            }
         </style>
 
         <script type="text/javascript">
@@ -410,7 +417,7 @@
             </nav> 
 
             <div class="container-fluid">
-                <div class="row fila mb-3 " id="fila1"> 
+                <div class="row fila mb-3 mt-3" id="fila1"> 
 
                     <div class="col-xs-12 col-md-6 col-xl-5 offset-xl-1">  
                         <div class="headingSmart col-12  col-md-10 offset-md-1 col-xl-8 offset-xl-2" >
@@ -435,10 +442,11 @@
 
                         </div> 
                     </div>
+                    <img src="recursos/img/smartClover/LineaSeparacion-01.svg" class="lineaSeparacion">
                 </div> 
 
 
-                <div class="col-6 offset-3 hrSmart"></div> 
+
 
                 <div class="row fila mb-3" id="fila2">  
                     <div class="col-xs-12 col-md-6  col-xl-5 offset-xl-1 filaVideo" data-aos="fade-left"  data-aos-offset="300"> 
@@ -489,9 +497,9 @@
                             </div>
                         </div> 
                     </div> 
+                    <img src="recursos/img/smartClover/LineaSeparacion-02.svg" class="lineaSeparacion">
                 </div> 
 
-                <div class="col-6 offset-3 hrSmart"></div> 
 
 
                 <!--<div class="col-xs-12  col-lg-10 col-lg-offset-1   col-xl-8 col-xl-offset-2  fila" id="fila2"> 
@@ -565,17 +573,18 @@
                                 <!--                                <video autoplay muted loop>
                                                                     <source src="recursos/videos/smartClover/Testvideo1.mp4" type="video/mp4">
                                                                 </video> -->
-                                <img src="recursos/img/smartClover/chatOpciones.png" style=" width: 200px; border-radius:5px;"/>
+                                <img class="imgSvg" src="recursos/img/smartClover/SmartClover-03.svg" style=" width: 200px;"/>
                             </div>
                         </div> 
                     </div>
+                    <img src="recursos/img/smartClover/LineaSeparacion-01.svg" class="lineaSeparacion">
                 </div> 
 
 
-                <div class="col-6 offset-3 hrSmart"></div> 
+
 
                 <div class="row fila mb-3" id="fila4"> 
-                    <div class="col-xs-12 col-md-6 col-xl-5 offset-xl-1 filaVideo" data-aos="fade-left"  data-aos-offset="300"> 
+                    <div class="d-none d-md-block  col-xs-12 col-md-6 col-xl-5 offset-xl-1 filaVideo" data-aos="fade-left"  data-aos-offset="300"> 
                         <div class=" col-xs-12  col-md-10 offset-md-1"> 
                             <!--<img id="imgMovil" class="imgSmart" alt="MovilCon reflejoOK.png" data-type="image" src="https://static.wixstatic.com/media/7c6de8_31c7afac6006464cad0b9b45b19fe48b~mv2.png/v1/fill/w_489,h_599,al_c,q_80,usm_0.66_1.00_0.01/MovilCon%20reflejoOK.webp" >
                             -->
@@ -583,7 +592,7 @@
                                 <!--                                <video autoplay muted loop >
                                                                     <source src="recursos/videos/smartClover/Testvideo1.mp4" type="video/mp4">
                                                                 </video> -->
-                                <img src="recursos/img/smartClover/chatSchedule.png" style=" width: 200px; border-radius:5px;"/>
+                                <img class="imgSvg" src="recursos/img/smartClover/SmartClover-02.svg" style=" width: 200px;"/>
                             </div>
                         </div> 
                     </div>
@@ -600,26 +609,8 @@
                                 <p>Integrates with FACTS SIS, pushing out valuable information to parents and students. Communication becomes instant and seamless via its 4 modules: a personal BOT, teacher connect, school connect and automatic messenger.</p>
                             </div>
                         </div> 
-                    </div> 
-                </div> 
-
-                <div class="col-6 offset-3 hrSmart"></div>   
-
-                <div class="row fila mb-3" id="fila5"> 
-                    <div class="col-xs-12 col-md-6 col-xl-5 offset-xl-1"> 
-                        <!--<div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">--> 
-                        <div class="headingSmart col-12  col-md-10 offset-md-1 col-xl-8 offset-xl-2" >
-                            <h1 style="color: #863e87">AUTOMATIC MESSENGER.</h1>
-                        </div>
-                        <div class="articleSmart col-12  col-md-10 offset-md-1 col-xl-8 offset-xl-2">  
-                            <div class="d-none d-lg-block  col-2 lineTop"></div>
-                            <div class="col-xs-12 col-md-10 col-xl-10  ">
-                                <p>Automate your communications with periodic notifications. Decide how often, at what time, and whom you want to reach any time.Accounting, Behaviour, Grade Book, Library...</p>
-                                <p><b>Accounting, Behaviour, Grade Book, Library...</b></p>
-                            </div>
-                        </div> 
-                    </div> 
-                    <div class="col-xs-12 col-md-6 col-xl-5 filaVideo" data-aos="fade-left"  data-aos-offset="300"> 
+                    </div>
+                    <div class="d-block d-md-none col-xs-12 col-md-6 col-xl-5 offset-xl-1 filaVideo" data-aos="fade-left"  data-aos-offset="300"> 
                         <div class=" col-xs-12  col-md-10 offset-md-1"> 
                             <!--<img id="imgMovil" class="imgSmart" alt="MovilCon reflejoOK.png" data-type="image" src="https://static.wixstatic.com/media/7c6de8_31c7afac6006464cad0b9b45b19fe48b~mv2.png/v1/fill/w_489,h_599,al_c,q_80,usm_0.66_1.00_0.01/MovilCon%20reflejoOK.webp" >
                             -->
@@ -627,81 +618,127 @@
                                 <!--                                <video autoplay muted loop >
                                                                     <source src="recursos/videos/smartClover/Testvideo1.mp4" type="video/mp4">
                                                                 </video> -->
-
-                                <img src="recursos/img/smartClover/construccion.svg" style=" width: 200px; border-radius:5px;"/>
+                                <img class="imgSvg" src="recursos/img/smartClover/SmartClover-02.svg" style=" width: 200px;"/>
                             </div>
                         </div> 
                     </div>
+
                 </div> 
 
-                <div class="col-6 offset-3 hrSmart"></div> 
 
-                <div class="row fila mb-3" id="fila6"> 
-                    <div class="col-xs-12 col-md-6 col-xl-5 offset-xl-1 filaVideo" data-aos="fade-left"  data-aos-offset="300"> 
-                        <div class=" col-xs-12  col-md-10 offset-md-1"> 
-                            <!--<img id="imgMovil" class="imgSmart" alt="MovilCon reflejoOK.png" data-type="image" src="https://static.wixstatic.com/media/7c6de8_31c7afac6006464cad0b9b45b19fe48b~mv2.png/v1/fill/w_489,h_599,al_c,q_80,usm_0.66_1.00_0.01/MovilCon%20reflejoOK.webp" >
-                            -->
-                            <div class="videoVertical">
-                                <!--                                <video autoplay muted loop>
-                                                                    <source src="recursos/videos/smartClover/Testvideo1.mp4" type="video/mp4">
-                                                                </video> -->
-                                <img src="recursos/img/smartClover/construccion.svg" style=" width: 200px; border-radius:5px;"/>
-                            </div>
 
-                        </div> 
-                    </div>
+                <!--                <div class="row fila mb-3" id="fila5"> 
+                                    <div class="col-xs-12 col-md-6 col-xl-5 offset-xl-1"> 
+                                        <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3"> 
+                                        <div class="headingSmart col-12  col-md-10 offset-md-1 col-xl-8 offset-xl-2" >
+                                            <h1 style="color: #863e87">AUTOMATIC MESSENGER.</h1>
+                                        </div>
+                                        <div class="articleSmart col-12  col-md-10 offset-md-1 col-xl-8 offset-xl-2">  
+                                            <div class="d-none d-lg-block  col-2 lineTop"></div>
+                                            <div class="col-xs-12 col-md-10 col-xl-10  ">
+                                                <p>Automate your communications with periodic notifications. Decide how often, at what time, and whom you want to reach any time.Accounting, Behaviour, Grade Book, Library...</p>
+                                                <p><b>Accounting, Behaviour, Grade Book, Library...</b></p>
+                                            </div>
+                                        </div> 
+                                    </div> 
+                                    <div class="col-xs-12 col-md-6 col-xl-5 filaVideo" data-aos="fade-left"  data-aos-offset="300"> 
+                                        <div class=" col-xs-12  col-md-10 offset-md-1"> 
+                                            <img id="imgMovil" class="imgSmart" alt="MovilCon reflejoOK.png" data-type="image" src="https://static.wixstatic.com/media/7c6de8_31c7afac6006464cad0b9b45b19fe48b~mv2.png/v1/fill/w_489,h_599,al_c,q_80,usm_0.66_1.00_0.01/MovilCon%20reflejoOK.webp" >
+                                            
+                                            <div class="videoVertical">
+                                                                                <video autoplay muted loop >
+                                                                                    <source src="recursos/videos/smartClover/Testvideo1.mp4" type="video/mp4">
+                                                                                </video> 
+                
+                                                <img src="recursos/img/smartClover/construccion.svg" style=" width: 200px; border-radius:5px;"/>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                    <img src="recursos/img/smartClover/LineaSeparacion-01.svg" class="lineaSeparacion">
+                                </div>  -->
 
-                    <div class="col-xs-12 col-md-6 col-xl-5  "> 
+
+
+                <!--                <div class="row fila mb-3" id="fila6"> 
+                                    <div class="d-none d-md-block col-xs-12 col-md-6 col-xl-5 offset-xl-1 filaVideo" data-aos="fade-left"  data-aos-offset="300"> 
+                                        <div class=" col-xs-12  col-md-10 offset-md-1"> 
+                                            <img id="imgMovil" class="imgSmart" alt="MovilCon reflejoOK.png" data-type="image" src="https://static.wixstatic.com/media/7c6de8_31c7afac6006464cad0b9b45b19fe48b~mv2.png/v1/fill/w_489,h_599,al_c,q_80,usm_0.66_1.00_0.01/MovilCon%20reflejoOK.webp" >
+                                            
+                                            <div class="videoVertical">
+                                                                                <video autoplay muted loop>
+                                                                                    <source src="recursos/videos/smartClover/Testvideo1.mp4" type="video/mp4">
+                                                                                </video> 
+                                                <img src="recursos/img/smartClover/construccion.svg" style=" width: 200px; border-radius:5px;"/>
+                                            </div>
+                
+                                        </div> 
+                                    </div>
+                
+                                    <div class="col-xs-12 col-md-6 col-xl-5  "> 
+                                        <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3"> 
+                                        <div class="headingSmart col-12  col-md-10 offset-md-1 col-xl-8 offset-xl-2" >
+                                            <h1 style="color: #de911d">TEACHERS CHAT.</h1>
+                                        </div>
+                                        <div class="articleSmart col-12  col-md-10 offset-md-1 col-xl-8 offset-xl-2">  
+                                            <div class="d-none d-lg-block  col-2 lineTop"></div>
+                                            <div class="col-xs-12 col-md-10 col-xl-10  ">
+                                                <p>With <b>Smart Clover</b>your teachers can chat with parents who request it without invading their privacy.</p>
+                                                <p>Parents do now know the teacher´s number, and the teacher chooses when best to answer.</p>
+                                            </div>
+                                        </div> 
+                                    </div> 
+                                    <div class="d-block d-md-none col-xs-12 col-md-6 col-xl-5 offset-xl-1 filaVideo" data-aos="fade-left"  data-aos-offset="300"> 
+                                        <div class=" col-xs-12  col-md-10 offset-md-1"> 
+                                            <img id="imgMovil" class="imgSmart" alt="MovilCon reflejoOK.png" data-type="image" src="https://static.wixstatic.com/media/7c6de8_31c7afac6006464cad0b9b45b19fe48b~mv2.png/v1/fill/w_489,h_599,al_c,q_80,usm_0.66_1.00_0.01/MovilCon%20reflejoOK.webp" >
+                                            
+                                            <div class="videoVertical">
+                                                                                <video autoplay muted loop>
+                                                                                    <source src="recursos/videos/smartClover/Testvideo1.mp4" type="video/mp4">
+                                                                                </video> 
+                                                <img src="recursos/img/smartClover/construccion.svg" style=" width: 200px; border-radius:5px;"/>
+                                            </div>
+                
+                                        </div> 
+                                    </div>
+                                    <img src="recursos/img/smartClover/LineaSeparacion-02.svg" class="lineaSeparacion">
+                                </div> -->
+
+
+
+                <div class="row fila mb-3" id="fila7"> 
+                    <div class="col-xs-12 col-md-6 col-xl-5 offset-xl-1"> 
                         <!--<div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">--> 
                         <div class="headingSmart col-12  col-md-10 offset-md-1 col-xl-8 offset-xl-2" >
-                            <h1 style="color: #de911d">TEACHERS CHAT.</h1>
+                            <h1 style="color: lightgray;text-align:left">SECURITY.</h1>
                         </div>
-                        <div class="articleSmart col-12  col-md-10 offset-md-1 col-xl-8 offset-xl-2">  
+                        <div class="articleSmart col-12  col-md-10 offset-md-1 col-xl-8 offset-xl-2" style="color: white;">  
                             <div class="d-none d-lg-block  col-2 lineTop"></div>
                             <div class="col-xs-12 col-md-10 col-xl-10  ">
-                                <p>With <b>Smart Clover</b>your teachers can chat with parents who request it without invading their privacy.</p>
-                                <p>Parents do now know the teacher´s number, and the teacher chooses when best to answer.</p>
+                                <p>The protocol is designed for access to a server API from applications running on mobile devices.</p>
+                                <p>It must be emphasized that a web browser is not such an aplication. The protocol is subdivided into three virtually indepent
+                                    components:</p>
+                                <ul>
+                                    <li><b>High-level component(API query language):</b>defines the method whereby API queries and response are converted to binary messages.</li>
+                                    <li><b>Cryptographic(authorization) layer:</b>defines the method by which messages are encrypted prior to being transmitted through the transport protocol.</li>
+                                    <li><b>Transport component:</b>defines the method for the client and the server to transmit messages over some existing network protocol (HTTP, HTTPS, TCP, UDP).</li>
+                                </ul>
                             </div>
                         </div> 
                     </div> 
-
-                </div> 
-
-
-                <div class="" id="bgFila7">
-                    <div class="row fila mb-3" id="fila7"> 
-                        <div class="col-xs-12 col-md-6 col-xl-5 offset-xl-1"> 
-                            <!--<div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">--> 
-                            <div class="headingSmart col-12  col-md-10 offset-md-1 col-xl-8 offset-xl-2" >
-                                <h1 style="color: lightgray;text-align:left">SECURITY.</h1>
+                    <div class="col-xs-12 col-md-6 col-xl-5 filaVideo" data-aos="fade-left"  data-aos-offset="300"> 
+                        <div class=" col-xs-12  col-md-10 offset-md-1"> 
+                            <div class="videoVertical">
+<!--                                <video autoplay muted loop >
+                                    <source src="recursos/videos/smartClover/Testvideo1.mp4" type="video/mp4">
+                                </video> -->
+                                <i class="fas fa-shield-alt "style="    font-size: 400px;    color: #de911da6;"></i>
+                                <!--<img src="recursos/img/smartClover/candado.png" style=" width: 200px; border-radius:5px;"/>-->
                             </div>
-                            <div class="articleSmart col-12  col-md-10 offset-md-1 col-xl-8 offset-xl-2" style="color: white;">  
-                                <div class="d-none d-lg-block  col-2 lineTop"></div>
-                                <div class="col-xs-12 col-md-10 col-xl-10  ">
-                                    <p>The protocol is designed for access to a server API from applications running on mobile devices.</p>
-                                    <p>It must be emphasized that a web browser is not such an aplication. The protocol is subdivided into three virtually indepent
-                                        components:</p>
-                                    <ul>
-                                        <li><b>High-level component(API query language):</b>defines the method whereby API queries and response are converted to binary messages.</li>
-                                        <li><b>Cryptographic(authorization) layer:</b>defines the method by which messages are encrypted prior to being transmitted through the transport protocol.</li>
-                                        <li><b>Transport component:</b>defines the method for the client and the server to transmit messages over some existing network protocol (HTTP, HTTPS, TCP, UDP).</li>
-                                    </ul>
-                                </div>
-                            </div> 
-                        </div> 
-                        <div class="col-xs-12 col-md-6 col-xl-5 filaVideo" data-aos="fade-left"  data-aos-offset="300"> 
-                            <div class=" col-xs-12  col-md-10 offset-md-1"> 
-                                <div class="videoVertical">
-                                    <video autoplay muted loop >
-                                        <source src="recursos/videos/smartClover/Testvideo1.mp4" type="video/mp4">
-                                    </video> 
-                                    <!--<img src="recursos/img/smartClover/candado.png" style=" width: 200px; border-radius:5px;"/>-->
-                                </div>
 
-                            </div> 
-                        </div>
-                    </div> 
+                        </div> 
+                    </div>
                 </div> 
+
             </div>
         </main>
 
