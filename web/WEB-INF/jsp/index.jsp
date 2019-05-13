@@ -1314,15 +1314,7 @@
                 });
 
 
-                $(".colorSCHEDULE").click(function () {
-                    var estado = $('.colorSCHEDULEsub').css('max-width');
-                    if (estado === '0%') {
-                        hideColSubLayers();
-                        $('.colorSCHEDULEsub').animate({'max-width': '24%'}, 500);
-                    } else {
-                        hideColSubLayers();
-                    }
-                });
+            
 
 
                 $(".colorSchoolAnalytics").click(function () {
@@ -1348,6 +1340,16 @@
                         } else {
                             $(".buttonNext").show();
                         }
+                    }
+                });
+                
+                    $(".colorSCHEDULE").click(function () {
+                    var estado = $('.colorSCHEDULEsub').css('max-width');
+                    if (estado === '0%') {
+                        hideColSubLayers();
+                        $('.colorSCHEDULEsub').animate({'max-width': '24%'}, 500);
+                    } else {
+                        hideColSubLayers();
                     }
                 });
 

@@ -769,14 +769,14 @@
     </script>
 </head>
 <nav class="navbar navbar-expand-lg navbar-light bg-light  fixed-top" style="position:fixed;width:100%;z-index:10">
-    <a class="navbar-brand imgLogo" href="<c:url value='/index.htm'/>">
+    <a class="navbar-brand imgLogo" href="<c:url value='/index.htm?idioma=${idioma}'/>">
         <img src="recursos/img/LogoEduweb.svg">
     </a> 
 
     <div class="collapse navbar-collapse d-none d-lg-block" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="<c:url value="/index.htm" />"><spring:message code="Inicio"/><span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="<c:url value="/index.htm?idioma=${idioma}" />"><spring:message code="Inicio"/><span class="sr-only">(current)</span></a>
             </li> 
 <%--            <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="<c:url value="/factsQueEs.htm" />" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -818,11 +818,11 @@
             <a class="navbar-brand logoMenuApps" id="logoMenuApp3" value="smartClover" href="<c:url value="/smartClover.htm?idioma=${idioma}"/>">
                 <img src="recursos/img/LogosMenu/LogoSmartClover.svg" >
             </a>
-            <a class="navbar-brand logoMenuApps" id="logoMenuApp4" value="scheduler" href="<c:url value="/schedule.htm?idioma=${idioma}"/>">
-                <img src="recursos/img/LogosMenu/LogoMschedules.svg" >
-            </a>
             <a class="navbar-brand logoMenuApps" id="logoMenuApp5" value="schoolView" href="<c:url value="/schoolAnalytics.htm?idioma=${idioma}"/>">
                 <img src="recursos/img/LogosMenu/LogoChartSchool.svg" >
+            </a>
+            <a class="navbar-brand logoMenuApps" id="logoMenuApp4" value="scheduler" href="<c:url value="/schedule.htm?idioma=${idioma}"/>">
+                <img src="recursos/img/LogosMenu/LogoMschedules.svg" >
             </a>
         </div>
     </div>

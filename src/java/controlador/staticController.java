@@ -126,9 +126,11 @@ public class staticController {
     
     @RequestMapping("/privacyPolicy.htm")
     public ModelAndView privacyPolicy(HttpServletRequest request, HttpServletResponse hsr1) throws Exception {
-        String paramIdioma = request.getParameter("politicapri");
+//        String paramIdioma = request.getParameter("politicapri");
+        String paramIdioma = request.getLocale().getLanguage();
+//        String paramIdioma = request.getParameter("idioma");
         return new ModelAndView("redirect:/datosIdioma.htm?idioma="+paramIdioma+"&page=privacyPolicy");
-    }
+     }
     
     /**************/
     

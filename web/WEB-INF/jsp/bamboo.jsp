@@ -21,7 +21,7 @@
 
             .arrow_box {
                 position: relative;
-                background: transparent url('recursos/img/bamboo/bgBambooDemo.svg') 4px 0px no-repeat;
+                background: transparent url('recursos/img/bamboo/bgBambooDemoCopia.svg') 4px 0px no-repeat;
                 padding: 25px;
                 padding-left: 15px;
                 padding-right: 15px;
@@ -89,7 +89,7 @@
 
                 .arrow_box {
                     position: relative;
-                    background: transparent url('recursos/img/bamboo/bgBambooDemo.svg') 4px 0px no-repeat;
+                    background: transparent url('recursos/img/bamboo/bgBambooDemoCopia.svg') 4px 0px no-repeat;
                     padding: 25px;
                     padding-left: 15px;
                     padding-right: 15px;
