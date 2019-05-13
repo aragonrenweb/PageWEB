@@ -1676,7 +1676,7 @@
                 <div class="w-100 h-25 text-center my-auto">
                     <font class="text-white h3" >FACTS <spring:message code="home.SIS1"/></font><br>
                     <font class="text-white h5" ><spring:message code="home.SIS2"/></font> <br>
-                    <br>
+                    <br><br>
                     <font class="btn nav-link-evento h5 btnDemoEvento" href="#Contact"><spring:message code="request.demo"/></font>
                 </div>
                 <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
@@ -1706,7 +1706,7 @@
                 <div class="w-100 h-25 text-center my-auto">
                     <font class="text-white h3" >BAMBOO</font><br>
                     <font class="text-white h5" ><spring:message code="home.BAMBOO1"/></font> <br>
-                    <br>
+                    <br><br>
                     <font class="btn nav-link-evento h5 btnDemoEvento" href="#Contact"><spring:message code="request.demo"/></font>
 
                     <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
@@ -1741,6 +1741,9 @@
                 <div class="w-100 h-25 text-center my-auto">
                     <a class="text-white h3">SMART CLOVER</a><br>
                     <a class="text-white h5"><spring:message code="home.SMARTCLOVER1"/></a>
+                    <br><br><br>
+                    <font class="btn nav-link-evento h5 btnDemoEvento" href="#Contact"><spring:message code="request.demo"/></font>
+
                     <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
                 </div>
             </div>
