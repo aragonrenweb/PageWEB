@@ -204,7 +204,7 @@
         </div>
             <footer>
                 <label>
-                    Available for: 
+                    <spring:message code="disponible"/>
                 </label>
                 <div style="display: flex;margin-bottom: 2px;align-items: baseline;">
                     <img id="comp-jn0wb7lfimgimage" alt="logo bamboo.png" data-type="image" src="recursos/img/smartClover/logo-facts_white.svg" style="width: 119px; height: 30px; object-fit: cover;"> 

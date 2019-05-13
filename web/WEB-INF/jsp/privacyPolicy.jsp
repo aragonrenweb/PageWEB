@@ -113,7 +113,7 @@
                         <spring:message code="polp.sl.intro.parraf1"/><br><br>
                         <!--                        <a class="" data-toggle="collapse" href="#collapsePrivacy" role="button" aria-expanded="false" aria-controls="collapsePrivacy">
                                                     Read more...</a><br>-->
-                        <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#demo">Read more..</button>
+                        <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#demo"><spring:message code="readmore"/></button>
                         <br>
                         <!--                    <div class="collapse" id="collapsePrivacy">-->
                     <div class="collapse" id="demo">
@@ -270,7 +270,7 @@
                         <!--                                                <a class="" data-toggle="collapse" href="#collapsePrivacy" role="button" aria-expanded="false" aria-controls="collapsePrivacy">
                                                                             Read more...</a><br>-->
 
-                        <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#demo2">Read more..</button>
+                        <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#demo2"><spring:message code="readmore"/></button>
                         <br>
                         <!--                    <div class="collapse" id="collapsePrivacy">-->
                     <div class="collapse" id="demo2">
@@ -437,7 +437,7 @@
                         <br><br>
 
 
-                        <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#demo3">Read more..</button>
+                        <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#demo3"><spring:message code="readmore"/></button>
                         <br>
                     <div class="collapse" id="demo3">
                         <spring:message code="polp.con.intro.parraf2"/><br><br>
@@ -610,7 +610,7 @@
                                             </div>
                                             <div class="collapse" id="collapseCondiciones">-->
 
-                        <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#demo4">Read more..</button>
+                        <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#demo4"><spring:message code="readmore"/></button>
                         <br>
                         <div class="collapse" id="demo4">
                             <ol>

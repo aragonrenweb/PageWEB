@@ -387,7 +387,7 @@
             </div>
             <footer>
                 <label>
-                    Available for: 
+                     <spring:message code="disponible"/>
                 </label>
                 <div style="display: flex;margin-bottom: 2px;align-items: baseline;">
                     <img id="comp-jn0wb7lfimgimage" alt="logo bamboo.png" data-type="image" src="recursos/img/smartClover/logoBamboo_Inicio_white.svg" style="margin-right:5px;width: 119px; height: 34px; object-fit: cover">
@@ -430,13 +430,13 @@
 
                     <div class="col-xs-12 col-md-6 col-xl-5 offset-xl-1">  
                         <div class="headingSmart col-12  col-md-10 offset-md-1 col-xl-8 offset-xl-2" >
-                            <h1>YOUR INSTANT COMMUNICATION ASSISTANT.</h1>
+                            <h1><spring:message code="tit1"/></h1>
                         </div>
                         <div class="articleSmart col-12  col-md-10 offset-md-1 col-xl-8 offset-xl-2">  
                             <div class="d-none d-lg-block  col-2 lineTop"></div>
                             <div class="col-xs-12 col-md-10 col-xl-10  ">
-                                <p>Easy to use. Manage all the communication needs of your school.Gives parents instant access to all the information about their child via de personal BOT</p>
-                                <p>Smart Clover integrates with FACTS SIS, pushing out valuable information to parents and students with its 4 modules: a personal BOT, teacher connect, school connect and automatic messenger .</p>
+                                <p><spring:message code="parraf1.tit1"/></p>
+                                <p><spring:message code="parraf2.tit1"/></p>
                             </div>
                         </div> 
                     </div> 
@@ -485,23 +485,23 @@
                     <div class="col-xs-12 col-md-6 col-xl-5"> 
                         <!--<div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">--> 
                         <div class="headingSmart col-12  col-md-10 offset-md-1 col-lg-8 offset-lg-2 " >
-                            <h1>IT COVERS ALL YOUR NEEDS.</h1>
+                            <h1><spring:message code="tit2"/></h1>
                         </div>
                         <div class="articleSmart col-12  col-md-10 offset-md-1 col-xl-8 offset-xl-2">  
                             <div class="d-none d-lg-block  col-2 lineTop"></div>
                             <div class="col-xs-12 col-md-10 col-xl-10  ">
-                                <p><u>Smart Clover</u> offers parents all the information they are looking for and helps with the overall communication, in real time.</p>
+                                <p><u>Smart Clover</u><spring:message code="parraf1.tit2"/></p>
                                 <div class="col-xs-12 badgeClover" data-aos="fade-left"  data-aos-offset="75">
-                                    <label style="color: #366290"> 1. School Communicator  </label>
+                                    <label style="color: #366290"> 1. <spring:message code="li1.tit2"/>  </label>
                                 </div>
                                 <div class="col-xs-12 badgeClover" data-aos="fade-left"  data-aos-offset="150">
-                                    <label style="color: #de911d"> 2. Parent Consultation Bot  </label> 
+                                    <label style="color: #de911d"> 2. <spring:message code="li2.tit2"/>  </label> 
                                 </div>
                                 <div class="col-xs-12 badgeClover" data-aos="fade-left"  data-aos-offset="225">
-                                    <label style="color: #863e87"> 3. Maintenance Jobs  (Developing)</label> 
+                                    <label style="color: #863e87"> 3. <spring:message code="li3.tit2"/> </label> 
                                 </div>
                                 <div class="col-xs-12 badgeClover" data-aos="fade-left"  data-aos-offset="300">
-                                    <label style="color: #2b7b4f"> 4. Teacher Chat  (Developing)</label> 
+                                    <label style="color: #2b7b4f"> 4. <spring:message code="li4.tit2"/></label> 
                                 </div>
                             </div>
                         </div> 
@@ -564,13 +564,13 @@
                     <div class="col-xs-12 col-md-6 col-xl-5 offset-xl-1"> 
                         <!--<div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">--> 
                         <div class="headingSmart col-12  col-md-10 offset-md-1 col-xl-8 offset-xl-2" >
-                            <h1 style="color: #366290">SCHOOL COMMUNICATOR.</h1>
+                            <h1 style="color: #366290"><spring:message code="tit3"/></h1>
                         </div>
                         <div class="articleSmart col-12  col-md-10 offset-md-1 col-xl-8 offset-xl-2">  
                             <div class="d-none d-lg-block  col-2 lineTop"></div>
                             <div class="col-xs-12 col-md-10 col-xl-10  ">
-                                <p>Througth the communications module, the school can send one-way messages to specific groups of parents- by course,class,enrolled, or any other filter within FACTS SIS.</p>
-                                <p><b>Emergency Alert Service</b> in case of emergency,authorized staff members can send a message to the whole school; parents,students,staff ...</p>
+                                <p><spring:message code="parraf1.tit3"/></p>
+                                <p><b><spring:message code="parraf2.tit3"/></b><spring:message code="parraf3.tit3"/></p>
                             </div>
                         </div> 
                     </div> 
@@ -609,13 +609,13 @@
                     <div class="col-xs-12 col-md-6 col-xl-5 "> 
                         <!--<div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">--> 
                         <div class="headingSmart col-12  col-md-10 offset-md-1 col-xl-8 offset-xl-2" >
-                            <h1 style="color: #de911d">THE BOT.</h1>
+                            <h1 style="color: #de911d"><spring:message code="tit4"/></h1>
                         </div>
                         <div class="articleSmart col-12  col-md-10 offset-md-1 col-xl-8 offset-xl-2">  
                             <div class="d-none d-lg-block  col-2 lineTop"></div>
                             <div class="col-xs-12 col-md-10 col-xl-10  ">
-                                <p><b>Smart Clover</b> allows parents to retrieve information, in real time; behavior, attendance, grades, reports, test, schedules, homework... no more missing out on any important event!</p>
-                                <p>Integrates with FACTS SIS, pushing out valuable information to parents and students. Communication becomes instant and seamless via its 4 modules: a personal BOT, teacher connect, school connect and automatic messenger.</p>
+                                <p><b>Smart Clover </b><spring:message code="parraf1.tit4"/></p>
+                                <p><spring:message code="parraf2.tit4"/></p>
                             </div>
                         </div> 
                     </div>
@@ -718,18 +718,17 @@
                     <div class="col-xs-12 col-md-6 col-xl-5 offset-xl-1"> 
                         <!--<div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">--> 
                         <div class="headingSmart col-12  col-md-10 offset-md-1 col-xl-8 offset-xl-2" >
-                            <h1 style="color: lightgray;text-align:left">SECURITY.</h1>
+                            <h1 style="color: lightgray;text-align:left"><spring:message code="tit5"/></h1>
                         </div>
                         <div class="articleSmart col-12  col-md-10 offset-md-1 col-xl-8 offset-xl-2" style="color: white;">  
                             <div class="d-none d-lg-block  col-2 lineTop"></div>
                             <div class="col-xs-12 col-md-10 col-xl-10  ">
-                                <p>The protocol is designed for access to a server API from applications running on mobile devices.</p>
-                                <p>It must be emphasized that a web browser is not such an aplication. The protocol is subdivided into three virtually indepent
-                                    components:</p>
+                                <p><spring:message code="parraf1.tit5"/></p>
+                                <p><spring:message code="parraf2.tit5"/></p>
                                 <ul>
-                                    <li><b>High-level component(API query language):</b>defines the method whereby API queries and response are converted to binary messages.</li>
-                                    <li><b>Cryptographic(authorization) layer:</b>defines the method by which messages are encrypted prior to being transmitted through the transport protocol.</li>
-                                    <li><b>Transport component:</b>defines the method for the client and the server to transmit messages over some existing network protocol (HTTP, HTTPS, TCP, UDP).</li>
+                                    <li><b><spring:message code="li1n.tit5"/> </b><spring:message code="li1.tit5"/></li>
+                                    <li><b><spring:message code="li2n.tit5"/> </b><spring:message code="li2.tit5"/></li>
+                                    <li><b><spring:message code="li3n.tit5"/> </b><spring:message code="li3.tit5"/></li>
                                 </ul>
                             </div>
                         </div> 
