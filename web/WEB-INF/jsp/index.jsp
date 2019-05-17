@@ -1018,7 +1018,7 @@
                 color: #29abe2;
             }
             .bginnerSchedule{
-
+/*
                 background: rgba(41,171,226,1);
                 background: -moz-linear-gradient(left, rgba(41,171,226,1) 0%, rgba(41,171,226,1) 25%, rgba(101,195,78,1) 25%, rgba(101,195,78,1) 50%, rgba(53,118,36,1) 50%, rgba(53,118,36,1) 75%, rgba(13,37,63,1) 75%, rgba(90,125,162,1) 98%, rgba(90,125,162,1) 100%);
                 background: -webkit-gradient(left top, right top, color-stop(0%, rgba(41,171,226,1)), color-stop(25%, rgba(41,171,226,1)), color-stop(25%, rgba(101,195,78,1)), color-stop(50%, rgba(101,195,78,1)), color-stop(50%, rgba(53,118,36,1)), color-stop(75%, rgba(53,118,36,1)), color-stop(75%, rgba(13,37,63,1)), color-stop(98%, rgba(90,125,162,1)), color-stop(100%, rgba(90,125,162,1)));
@@ -1026,7 +1026,7 @@
                 background: -o-linear-gradient(left, rgba(41,171,226,1) 0%, rgba(41,171,226,1) 25%, rgba(101,195,78,1) 25%, rgba(101,195,78,1) 50%, rgba(53,118,36,1) 50%, rgba(53,118,36,1) 75%, rgba(13,37,63,1) 75%, rgba(90,125,162,1) 98%, rgba(90,125,162,1) 100%);
                 background: -ms-linear-gradient(left, rgba(41,171,226,1) 0%, rgba(41,171,226,1) 25%, rgba(101,195,78,1) 25%, rgba(101,195,78,1) 50%, rgba(53,118,36,1) 50%, rgba(53,118,36,1) 75%, rgba(13,37,63,1) 75%, rgba(90,125,162,1) 98%, rgba(90,125,162,1) 100%);
                 background: linear-gradient(to right, rgba(41,171,226,1) 0%, rgba(41,171,226,1) 25%, rgba(101,195,78,1) 25%, rgba(101,195,78,1) 50%, rgba(53,118,36,1) 50%, rgba(53,118,36,1) 75%, rgba(13,37,63,1) 75%, rgba(90,125,162,1) 98%, rgba(90,125,162,1) 100%);
-                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#29abe2', endColorstr='#5a7da2', GradientType=1 );
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#29abe2', endColorstr='#5a7da2', GradientType=1 );*/
             }
 
             /*            .bgBaseMenu{
@@ -1075,6 +1075,17 @@
                 background: -ms-linear-gradient(left, rgba(102,195,78,1) 0%, rgba(102,195,78,1) 25%, rgba(53,118,36,1) 25%, rgba(53,118,36,1) 50%, rgba(251,176,59,1) 50%, rgba(251,176,59,1) 75%, rgba(13,37,63,1) 75%, rgba(13,37,63,1) 100%);
                 background: linear-gradient(to right, rgba(102,195,78,1) 0%, rgba(102,195,78,1) 25%, rgba(53,118,36,1) 25%, rgba(53,118,36,1) 50%, rgba(251,176,59,1) 50%, rgba(251,176,59,1) 75%, rgba(13,37,63,1) 75%, rgba(13,37,63,1) 100%);
                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66c34e', endColorstr='#0d253f', GradientType=1 );
+            }
+            
+            .bginnerClients{
+                background: rgba(52,118,36,1);
+                background: -moz-linear-gradient(left, rgba(52,118,36,1) 0%, rgba(52,118,36,1) 25%, rgba(247,146,30,1) 25%, rgba(247,146,30,1) 50%, rgba(13,37,63,1) 50%, rgba(13,37,63,1) 75%, rgba(107,88,162,1) 75%, rgba(107,88,162,1) 100%);
+                background: -webkit-gradient(left top, right top, color-stop(0%, rgba(52,118,36,1)), color-stop(25%, rgba(52,118,36,1)), color-stop(25%, rgba(247,146,30,1)), color-stop(50%, rgba(247,146,30,1)), color-stop(50%, rgba(13,37,63,1)), color-stop(75%, rgba(13,37,63,1)), color-stop(75%, rgba(107,88,162,1)), color-stop(100%, rgba(107,88,162,1)));
+                background: -webkit-linear-gradient(left, rgba(52,118,36,1) 0%, rgba(52,118,36,1) 25%, rgba(247,146,30,1) 25%, rgba(247,146,30,1) 50%, rgba(13,37,63,1) 50%, rgba(13,37,63,1) 75%, rgba(107,88,162,1) 75%, rgba(107,88,162,1) 100%);
+                background: -o-linear-gradient(left, rgba(52,118,36,1) 0%, rgba(52,118,36,1) 25%, rgba(247,146,30,1) 25%, rgba(247,146,30,1) 50%, rgba(13,37,63,1) 50%, rgba(13,37,63,1) 75%, rgba(107,88,162,1) 75%, rgba(107,88,162,1) 100%);
+                background: -ms-linear-gradient(left, rgba(52,118,36,1) 0%, rgba(52,118,36,1) 25%, rgba(247,146,30,1) 25%, rgba(247,146,30,1) 50%, rgba(13,37,63,1) 50%, rgba(13,37,63,1) 75%, rgba(107,88,162,1) 75%, rgba(107,88,162,1) 100%);
+                background: linear-gradient(to right, rgba(52,118,36,1) 0%, rgba(52,118,36,1) 25%, rgba(247,146,30,1) 25%, rgba(247,146,30,1) 50%, rgba(13,37,63,1) 50%, rgba(13,37,63,1) 75%, rgba(107,88,162,1) 75%, rgba(107,88,162,1) 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#347624', endColorstr='#6b58a2', GradientType=1 );
             }
 
             .logo{
@@ -1240,6 +1251,7 @@
                     $("#informacion").val(info);
                 }
                 $(".colorSCHEDULE").hide();
+                $(".colorClients").hide();
                 $("#contDescripClassroom").hide();
                 $("#contDescripParent").hide();
                 $("#contDescripStudent").hide();
@@ -1322,9 +1334,6 @@
                 });
 
 
-            
-
-
                 $(".colorSchoolAnalytics").click(function () {
                     var estado = $('.colorSchoolAnalyticssub').css('max-width');
                     if (estado === '0%') {
@@ -1375,15 +1384,15 @@
                     hideColSubLayers();
 //                    $(".menu").addClass("bginnerSchoolAnalytics").delay(700);
                     $('.colorFACTS').animate({'max-width': '0%'}, 500);
+                    $('.colorBamboo').animate({'max-width': '0%'}, 500);
                     $('.colorClients').delay(520).show().css('max-width', '0').animate({'max-width': '24%'}, 500);
                     $('.colorSCHEDULE').delay(520).show().css('max-width', '0').animate({'max-width': '24%'}, 500);
                     $(".buttonPrevious").show();
                     $(".buttonNext").hide();
 
                     $(".menu").removeClass("bgBaseMenu");
-                    $(".menu").addClass("bginnerSchoolAnalytics");
-
-
+//                    $(".menu").addClass("bginnerSchoolAnalytics");
+                    $(".menu").addClass("bginnerClients");
 
 //                    $(".bginnerSchoolAnalytics").show();
 
@@ -1394,15 +1403,18 @@
                 $(".buttonNextSub").click(function (e) {
                     hideColSubLayers();
 //                    $(".menu").addClass("bginnerSchoolAnalytics").delay(700);
-                    $('.colorFACTS').animate({'max-width': '0%'}, 500);
+                    $('.colorFACTS').animate({'max-width': '0%'}, 500);                    
+                    $('.colorBamboo').animate({'max-width': '0%'}, 500);
                     $('.colorSCHEDULE').delay(520).show().css('max-width', '0').animate({'max-width': '24%'}, 500);
+                    $('.colorClients').delay(520).show().css('max-width', '0').animate({'max-width': '24%'}, 500);
                     $(".buttonPrevious").show();
                     $(".buttonNext").hide();
                     $(".buttonNextSub").hide();
                     $(".bgBaseMenu").hide();
 
                     $(".menu").removeClass("bgBaseMenu");
-                    $(".menu").addClass("bginnerSchoolAnalytics");
+//                    $(".menu").addClass("bginnerSchoolAnalytics");
+                    $(".menu").addClass("bginnerClients");
 
                     $(".colorSCHEDULE div").show();
                     e.stopPropagation();
@@ -1412,12 +1424,17 @@
                 $(".buttonPrevious").click(function (e) {
                     hideColSubLayers();
                     $('.colorSCHEDULE').animate({'max-width': '0%'}, 500);
+                    $('.colorClients').animate({'max-width': '0%'}, 500);
                     $('.colorFACTS').delay(520).show().css('max-width', '0').animate({'max-width': '24%'}, 500);
+                    $('.colorBamboo').delay(520).show().css('max-width', '0').animate({'max-width': '24%'}, 500);
                     $(".buttonNext").show();
                     $(".buttonPrevious").hide();
                     $(".colorSCHEDULE div").hide();
+                    $(".colorClients").hide();
                     
-                    $(".menu").removeClass("bginnerSchoolAnalytics");
+//                    $(".menu").removeClass("bginnerSchoolAnalytics");
+                    $(".menu").removeClass("bginnerClients");
+
                     $(".menu").addClass("bgBaseMenu");
                     e.stopPropagation();
                 });
@@ -1729,9 +1746,9 @@
                     <font class="btn nav-link-evento h5 btnDemoEvento" href="#Contact"><spring:message code="request.demo"/></font>
 
                     <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
-                    <div class="buttonPrevious">
+<!--                    <div class="buttonPrevious">
                         <i class="fas fa-angle-double-left"></i>
-                    </div>
+                    </div>-->
                 </div>
             </div>
             <div class="col colorBAMBOOsub colSubLayer p-0" style="max-width: 0%;">
@@ -1762,7 +1779,9 @@
                     <a class="text-white h5"><spring:message code="home.SMARTCLOVER1"/></a>
                     <br><br><br>
                     <font class="btn nav-link-evento h5 btnDemoEvento" href="#Contact"><spring:message code="request.demo"/></font>
-
+                       <div class="buttonPrevious">
+                        <i class="fas fa-angle-double-left"></i>
+                    </div>
                     <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
                 </div>
             </div>
@@ -1868,8 +1887,8 @@
                     <img class="d-inline-block logo" src="recursos/img/LogosMenu/LogoMschedules.svg">
                 </div>
                 <div class="w-100 h-25 text-center my-auto">
-                    <a class="text-white h3">Clients</a><br>
-                    <a class="text-white h5" href="https://www.eduwebgroup.com/Productos" target="_blank">Go to the page private</a>
+                    <a class="text-white h3"><spring:message code="body.CLIENTS.tit"/></a><br>
+                    <a class="text-white h5" href="https://www.eduwebgroup.com/Productos" target="_blank"><spring:message code="body.CLIENTS.body"/></a>
                     <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
                     <!--                    <div class="buttonNext">
                                             <i class="fas fa-angle-double-right"></i>
