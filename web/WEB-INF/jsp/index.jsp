@@ -153,6 +153,14 @@
                 border-top-right-radius: 10px;
                 border-bottom-right-radius: 10px;
             }
+            
+            .colorClients
+            {
+                background-color: #6a58a2;
+                transform: skewX(-4deg);
+                max-width: 0%;
+            }
+            
             .menu
             {
                 height: 90%;
@@ -1343,7 +1351,7 @@
                     }
                 });
                 
-                    $(".colorSCHEDULE").click(function () {
+                $(".colorSCHEDULE").click(function () {
                     var estado = $('.colorSCHEDULEsub').css('max-width');
                     if (estado === '0%') {
                         hideColSubLayers();
@@ -1353,10 +1361,21 @@
                     }
                 });
 
+                $(".colorClients").click(function () {
+//                    var estado = $('.colorSCHEDULEsub').css('max-width');
+//                    if (estado === '0%') {
+//                        hideColSubLayers();
+//                        $('.colorSCHEDULEsub').animate({'max-width': '24%'}, 500);
+//                    } else {
+//                        hideColSubLayers();
+//                    }
+                });
+
                 $(".buttonNext").click(function (e) {
                     hideColSubLayers();
 //                    $(".menu").addClass("bginnerSchoolAnalytics").delay(700);
                     $('.colorFACTS').animate({'max-width': '0%'}, 500);
+                    $('.colorClients').delay(520).show().css('max-width', '0').animate({'max-width': '24%'}, 500);
                     $('.colorSCHEDULE').delay(520).show().css('max-width', '0').animate({'max-width': '24%'}, 500);
                     $(".buttonPrevious").show();
                     $(".buttonNext").hide();
@@ -1841,7 +1860,43 @@
                 </div>
             </div>
 
+            <div class="col colorClients colFirstLayer p-0" data-toggle="collapse" href="#">
+                <div class="w-100 h-25 text-center my-auto">
 
+                </div>
+                <div class="w-100 h-50 text-center my-auto">
+                    <img class="d-inline-block logo" src="recursos/img/LogosMenu/LogoMschedules.svg">
+                </div>
+                <div class="w-100 h-25 text-center my-auto">
+                    <a class="text-white h3">Clients</a><br>
+                    <a class="text-white h5" href="https://www.eduwebgroup.com/Productos" target="_blank">Go to the page private</a>
+                    <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
+                    <!--                    <div class="buttonNext">
+                                            <i class="fas fa-angle-double-right"></i>
+                                        </div>-->
+                </div>
+            </div>
+
+
+<!--            <div class="col h-100 colorSCHEDULEsub colSubLayer p-0" style="max-width: 0%;">
+                <div class="col w-100 d-flex h-25 align-content-center align-items-center">
+                    Smart for Guides
+                </div>
+                <div class="col w-100 d-flex h-25 align-content-center align-items-center  p-0">
+                    <a class="nav-link-evento" href="#cPrincScheduler"></a>
+                </div>
+                <div class="col w-100 d-flex h-25  align-content-center align-items-center  p-0">
+                    <a class="nav-link-evento" href="#cPrincScheduler"></a>
+
+                </div>
+                <div class="col w-100 d-flex h-25  align-content-center align-items-center  p-0">
+                    <a class="nav-link-evento" href="#cPrincScheduler"></a>
+
+                                        <div class="buttonNextSub">
+                                            <i class="fas fa-angle-double-right"></i>
+                                        </div>
+                </div>
+            </div>       -->
         </div>
         <div class="row">
             <div class="col-12 " >
