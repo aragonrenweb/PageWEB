@@ -1385,8 +1385,8 @@
 //                    $(".menu").addClass("bginnerSchoolAnalytics").delay(700);
                     $('.colorFACTS').animate({'max-width': '0%'}, 500);
                     $('.colorBamboo').animate({'max-width': '0%'}, 500);
-                    $('.colorClients').delay(520).show().css('max-width', '0').animate({'max-width': '24%'}, 500);
                     $('.colorSCHEDULE').delay(520).show().css('max-width', '0').animate({'max-width': '24%'}, 500);
+                    $('.colorClients').delay(520).show().css('max-width', '0').animate({'max-width': '24%'}, 500);
                     $(".buttonPrevious").show();
                     $(".buttonNext").hide();
 
@@ -1423,10 +1423,10 @@
 
                 $(".buttonPrevious").click(function (e) {
                     hideColSubLayers();
-                    $('.colorSCHEDULE').animate({'max-width': '0%'}, 500);
                     $('.colorClients').animate({'max-width': '0%'}, 500);
-                    $('.colorFACTS').delay(520).show().css('max-width', '0').animate({'max-width': '24%'}, 500);
+                    $('.colorSCHEDULE').animate({'max-width': '0%'}, 500);                       
                     $('.colorBamboo').delay(520).show().css('max-width', '0').animate({'max-width': '24%'}, 500);
+                    $('.colorFACTS').delay(520).show().css('max-width', '0').animate({'max-width': '24%'}, 500);
                     $(".buttonNext").show();
                     $(".buttonPrevious").hide();
                     $(".colorSCHEDULE div").hide();
@@ -1888,7 +1888,7 @@
                 </div>
                 <div class="w-100 h-25 text-center my-auto">
                     <a class="text-white h3"><spring:message code="body.CLIENTS.tit"/></a><br>
-                    <a class="text-white h5" href="https://www.eduwebgroup.com/Productos" target="_blank"><spring:message code="body.CLIENTS.body"/></a>
+                    <a class="text-white h5" href="https://payments.eduwebgroup.com/Productos" target="_blank"><spring:message code="body.CLIENTS.body"/></a>
                     <!--<i class="fas fasOpen fa-chevron-circle-right"></i>-->
                     <!--                    <div class="buttonNext">
                                             <i class="fas fa-angle-double-right"></i>
